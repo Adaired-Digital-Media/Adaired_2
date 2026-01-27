@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* body style */
+    --background: 0 0% 100%; /* #ffffff */
+    --foreground: 224 71.4% 4.1%; /* #484848 */
+    --muted: 220 14.3% 95.9%; /* #e3e3e3 */
+    --muted-foreground: 220 8.9% 46.1%; /* #929292 */
+  }
+
+  html {
+    @apply h-full antialiased;
+  }
+
+  body {
+    @apply flex min-h-full flex-col overflow-x-hidden bg-[#FFFFFF] font-poppins text-sm text-gray-600 dark:bg-gray-50;
+  }
+
+  /* typography style for the Text component */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-[#000000];
+  }
+
+  h1 {
+    @apply font-poppins text-[1.8rem] font-bold leading-10 text-[#000000] md:text-[2.5rem] md:leading-[3rem] lg:text-[2.125rem] lg:leading-[2.8rem] xl:text-[3.75rem] xl:leading-[4.65rem] 1366:text-[2.7rem] 1366:leading-[3.75rem] 1400:text-[2.75rem] 1400:leading-[3.75rem] 1600:text-[3rem] 1600:leading-[4rem] 1680:text-[3rem] 1680:leading-[3.75rem] 3xl:text-[3.75rem] 3xl:leading-[4.65rem];
+  }
+
+  h2 {
+    /* @apply text-3xl dark:text-gray-800 2xl:text-[26px] 4xl:text-3xl; */
+    @apply pt-[0.25rem] font-poppins text-[1.6rem] font-semibold leading-[2rem] text-[#000000] md:text-[2.25rem] md:leading-[2.75rem] lg:text-[1.8rem] lg:leading-[2.5rem] xl:text-[2.188rem] xl:leading-[3.125rem] 1360:text-[2rem] 1360:leading-[2.6rem] 2xl:leading-[1.6] 3xl:text-[2.188rem];
+  }
+
+  h3 {
+    @apply font-poppins font-semibold leading-7 lg:leading-9 text-[#000000] text-[18px] md:text-[22px] md:leading-[32px];
+  }
+
+  h4 {
+    @apply font-poppins text-[25px] font-bold leading-9 text-[#000000];
+  }
+
+  h5 {
+    @apply font-montserrat text-xs font-semibold leading-9 lg:text-xs xl:text-md;
+  }
+
+  h6 {
+    @apply text-sm 2xl:text-base;
+  }
+
+  p {
+    @apply font-montserrat text-[14px] font-normal leading-[26px] text-[#000000] xl:text-[18px] 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px] 3xl:text-[18px];
+  }
+
+  span {
+    @apply text-xxs xl:text-xs;
+  }
+}
+
+@layer utilities {
+  .fill-opacity-10 {
+    fill-opacity: 0.1;
+  }
+
+  .card-shadow {
+    box-shadow:
+      0px 1px 0 rgba(0, 0, 0, 0.02),
+      0px 2px 6px rgba(0, 0, 0, 0.05);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
