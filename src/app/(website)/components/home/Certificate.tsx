@@ -7,8 +7,10 @@ import certificate_5 from '../../../../../public/assets/images/ai/ai_5.svg';
 import certificate_6 from '../../../../../public/assets/images/ai/ai_6.svg';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const Certificate = () => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const certificates = [
     certificate_1,
     certificate_2,
@@ -23,24 +25,30 @@ const Certificate = () => {
 
   return (
     <section
-      className={
-        'bg-[#F9F9F9] py-[3rem] lg:py-[4rem] xl:py-[6rem]'
-      }
+      ref={ref}
+      className={'bg-[#F9F9F9] py-[3rem] lg:py-[4rem] xl:py-[6rem]'}
     >
       {/* viewport */}
 
       <MaxWidthWrapper>
-        <Heading
-          subTitle={'AI Growth Catalyst'}
-          title={'Propelling Businesses into the Spotlight'}
-          span={'through Intelligent AI'}
-          description={
-            'Ensuring businesses gain visibility in AI responses, increasing brand mentions, trustworthiness, and discoverability across modern large language models.'
-          }
-          isInCenter={true}
-          isBgWhite={true}
-        />
-        <div className="w-full overflow-hidden pt-[4rem]">
+        <div
+          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'} `}
+        >
+          <Heading
+            subTitle={'AI Growth Catalyst'}
+            title={'Propelling Businesses into the Spotlight'}
+            span={'through Intelligent AI'}
+            description={
+              'Ensuring businesses gain visibility in AI responses, increasing brand mentions, trustworthiness, and discoverability across modern large language models.'
+            }
+            isInCenter={true}
+            isBgWhite={true}
+          />
+        </div>
+
+        <div
+          className={`w-full overflow-hidden pt-[4rem] transition-all delay-200 duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'} `}
+        >
           {/* sliding track */}
           <div className="flex w-max animate-marquee gap-[7rem] md:bg-transparent md:py-0">
             {sliderItems.map((cert, idx) => (

@@ -5,21 +5,18 @@ import Image from 'next/image';
 import CountUp from '../CountUp';
 import useImageAnimation from '@/@core/hooks/useImageAnimation';
 import expectImg from '../../../../../public/assets/images/home/expect.png';
-import queen from '../../../../../public/assets/icons/Queen.png';
 import { useState } from 'react';
-
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const Expect = () => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const [hover, setHover] = useState(null);
-  const { image, subTitle, title, description, points, para2, records } =
-    ExpectSectionData;
-  const { ref, className } = useImageAnimation({
-    direction: 'left',
-    delay: 350,
-  });
+  const { image, subTitle, title, description, records } = ExpectSectionData;
   return (
     <section className="1bg-[#F5F5F580]">
       <MaxWidthWrapper className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
-        <div className="">
+        <div
+          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+        >
           <Heading
             isDecVarticle={true}
             subTitle={subTitle}
@@ -28,11 +25,12 @@ const Expect = () => {
             description={description}
           />
         </div>
+
         <div className="relative grid grid-cols-1 gap-[1rem] pt-7 lg:grid-cols-2 xl:gap-[2rem]">
           {/* Content Section */}
           <div
             ref={ref}
-            className={`relative h-[20rem] w-full lg:h-[34rem] xl:h-[660px] 1360:h-[550px] 1400:h-[550px] 1470:h-[600px] 1600:h-[575px] 1680:h-[550px] 3xl:h-[600px] ${className}`}
+            className={`relative h-[20rem] w-full lg:h-[34rem] xl:h-[660px] 1360:h-[550px] 1400:h-[550px] 1470:h-[600px] 1600:h-[575px] 1680:h-[550px] 3xl:h-[600px] ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
           >
             <Image
               src={expectImg}
@@ -51,7 +49,10 @@ const Expect = () => {
                     key={idx}
                     onMouseEnter={() => setHover(idx)}
                     onMouseLeave={() => setHover(null)}
-                    className={`rounded-3xl border-[1px] border-[#00000026]/10 p-[1.8rem] transition-all duration-300 lg:p-[1rem] xl:px-[1.75rem] xl:py-[1.5rem] 1360:p-[1rem] 1400:p-[1rem] ${
+                    style={{
+                      transitionDelay: `${idx * 280}ms`, // 👈 stagger here
+                    }}
+                    className={`rounded-3xl border-[1px] border-[#00000026]/10 p-[1.8rem] transition-all duration-700 lg:p-[1rem] xl:px-[1.75rem] xl:py-[1.5rem] 1360:p-[1rem] 1400:p-[1rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${
                       isHovered
                         ? 'border-[0px] border-[#FFFFFF] bg-gradient-to-br from-[#FB9100] to-[#000000]'
                         : 'bg-white'

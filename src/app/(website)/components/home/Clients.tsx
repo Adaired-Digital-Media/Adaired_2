@@ -33,8 +33,10 @@ import client_28 from '../../../../../public/assets/images/client/client_28.png'
 import client_29 from '../../../../../public/assets/images/client/client_29.png';
 import client_30 from '../../../../../public/assets/images/client/client_30.png';
 import Image from 'next/image';
-
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const Clients = () => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+
   const data = [
     client_1,
     client_2,
@@ -68,23 +70,28 @@ const Clients = () => {
     client_30,
   ];
   return (
-    <div className="bg-[#F9F9F9] py-[3rem] lg:py-[4rem] xl:py-[6rem]">
+    <div ref={ref} className="bg-[#F9F9F9] py-[3rem] lg:py-[4rem] xl:py-[6rem]">
       <MaxWidthWrapper>
-        <Heading
-          subTitle={'Our ClientS'}
-          title={'A Decade Of Turning Strategies into Results'}
-          span={''}
-          // description={
-          //   'We proudly contribute to the success of the world’s leading brands.'
-          // }
-          isInCenter={true}
-          isBgWhite={true}
-        />
+        <div
+          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+        >
+          <Heading
+            subTitle={'Our ClientS'}
+            title={'A Decade Of Turning Strategies into Results'}
+            span={''}
+            isInCenter={true}
+            isBgWhite={true}
+          />
+        </div>
+
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
           {data?.map((client, idx) => (
             <div
               key={idx}
-              className="group flex items-center justify-center overflow-hidden"
+              className={`group flex items-center justify-center overflow-hidden transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
+              style={{
+                transitionDelay: `${idx * 60}ms`,
+              }}
             >
               <Image
                 src={client}

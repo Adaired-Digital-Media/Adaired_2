@@ -4,8 +4,9 @@ import Heading from '../../common/Heading';
 import { FAQSSectionData } from '@/@core/data/website/Homepage';
 import { MdAdd } from 'react-icons/md';
 import { GrFormSubtract } from 'react-icons/gr';
-
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const FAQ = () => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   const { subTitle, title, description, faqs } = FAQSSectionData;
 
@@ -14,9 +15,14 @@ const FAQ = () => {
   };
 
   return (
-    <div className="overflow-visible py-[3rem] lg:py-[4rem] xl:py-[6rem]">
+    <div
+      ref={ref}
+      className="overflow-visible py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+    >
       <MaxWidthWrapper className="space-y-[3rem] overflow-visible">
-        <div className="flex w-[100%] justify-center">
+        <div
+          className={`flex w-[100%] justify-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+        >
           <Heading
             subTitle={subTitle}
             title={title}
@@ -36,7 +42,10 @@ const FAQ = () => {
               <div
                 key={idx}
                 onClick={() => toggleFAQ(idx)}
-                className="grid cursor-pointer grid-cols-5 rounded-2xl border-[2px] border-[#000000]/20 p-[1rem] lg:p-[2rem]"
+                className={`grid cursor-pointer grid-cols-5 rounded-2xl border-[2px] border-[#000000]/20 p-[1rem] transition-all duration-700 lg:p-[2rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
+                style={{
+                  transitionDelay: `${idx * 120}ms`,
+                }}
               >
                 {/* Content */}
                 <div className="col-span-4 space-y-4">

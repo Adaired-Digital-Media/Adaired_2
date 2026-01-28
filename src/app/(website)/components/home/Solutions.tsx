@@ -4,9 +4,7 @@ import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
 import img from '../../../../../public/assets/images/home/solutions.png';
-import about_graph from '../../../../../public/assets/images/home/about_graph.png';
 import Mask from '../../../../../public/assets/images/home/Mask group.png';
-import check from '../../../../../public/assets/icons/blue_check.png';
 
 import {
   useImageReveal,
@@ -14,8 +12,10 @@ import {
 } from '@/@core/hooks/useScrollAnimations';
 import SaveAndCancel from '../../common/SaveAndCancel';
 import GetQuoteModal from '../popup/GetQuoteModal';
-
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const Solutions = () => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+
   const [open, setOpen] = useState(false);
   const { subTitle, title, points, description, cursive } =
     SolutionsSectionData;
@@ -32,13 +32,15 @@ const Solutions = () => {
   return (
     <section className="">
       <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem] xl:py-[6rem]">
-        <div className="flex flex-col-reverse lg:flex-row lg:justify-between lg:gap-[3rem] xl:gap-[5rem]">
+        <div
+          ref={ref}
+          className="flex flex-col-reverse lg:flex-row lg:justify-between lg:gap-[3rem] xl:gap-[5rem]"
+        >
           {/* Image Section */}
           <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
             {/* CENTER IMAGE */}
             <div
-              ref={imageRef}
-              className={`flex items-center justify-center p-3 ${imageClass}`}
+              className={`flex items-center justify-center p-3 transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
             >
               <Image
                 src={img}
@@ -68,7 +70,9 @@ const Solutions = () => {
           </div>
 
           {/* Content Section */}
-          <div className="my-auto flex-1">
+          <div
+            className={`my-auto flex-1 transition-all delay-200 duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'} `}
+          >
             {/* Points Section */}
             <Heading
               subTitle={subTitle}

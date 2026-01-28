@@ -21,13 +21,13 @@ import { FAQSection } from '@web-components/eComFaqSection';
 import { EcomPageForm } from '../components/forms/EcomForm';
 import CldImage from '@web-components/CloudinaryImageComponent';
 import { ProductSection } from '@web-components/ContentProducts';
+import { BaseURL } from '@/baseUrl';
 
 async function getProducts() {
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BACKEND_API_URI}/product/read-product?status=active`,
-      { cache: 'no-store' }
-    );
+    const res = await fetch(`${BaseURL}/product/read-product?status=active`, {
+      cache: 'no-store',
+    });
 
     if (!res.ok) {
       console.error('Failed to fetch products:', res.status);
@@ -102,7 +102,7 @@ const HeroSection = () => {
             >
               {HeroSectionDetails.title}
             </h1>
-            <p className={cn(`pt-[15px] font text-base`)}>
+            <p className={cn(`font pt-[15px] text-base`)}>
               {HeroSectionDetails.description}
             </p>
             <div
@@ -196,11 +196,7 @@ const StandOutSection = () => {
           >
             {StandOutSectionDetails.title}
           </h2>
-          <div
-            className={cn(
-              `space-y-[13px] font text-base text-[#424242]`
-            )}
-          >
+          <div className={cn(`font space-y-[13px] text-base text-[#424242]`)}>
             {parse(StandOutSectionDetails.description)}
           </div>
           <div className="flex flex-col space-y-[18px]">
@@ -231,7 +227,7 @@ const ApproachSection = () => {
         >
           {ApproachSectionDetails.title}
         </h2>
-        <p className={cn(`pt-[10px] font text-base text-[#424242]`)}>
+        <p className={cn(`font pt-[10px] text-base text-[#424242]`)}>
           {ApproachSectionDetails.description}
         </p>
       </>
@@ -356,7 +352,7 @@ const ContactUsSection = () => {
               />
               <p
                 className={cn(
-                  `m-auto max-w-[430px] pb-[20px] font text-base text-[#424242]`
+                  `font m-auto max-w-[430px] pb-[20px] text-base text-[#424242]`
                 )}
               >
                 Ready to Elevate Your Content? Let’s amplify your brand and

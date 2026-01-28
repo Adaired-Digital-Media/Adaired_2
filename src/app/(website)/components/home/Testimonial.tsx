@@ -6,34 +6,29 @@ import { MdOutlineStar } from 'react-icons/md';
 import Image from 'next/image';
 import google from '../../../../../public/assets/upwork_logo.png';
 import useIsMobile from '@/@core/hooks/useIsMobile';
-
-import img_1 from '../../../../../public/assets/testimonial/testimonial_1.png';
-import img_2 from '../../../../../public/assets/testimonial/testimonial_2.png';
-import img_3 from '../../../../../public/assets/testimonial/testimonial_3.png';
-import img_4 from '../../../../../public/assets/testimonial/testimonial_4.png';
-import img_5 from '../../../../../public/assets/testimonial/testimonial_5.png';
-import img_6 from '../../../../../public/assets/testimonial/testimonial_6.png';
 import useBreakpointReviewCharLimit from '@/@core/hooks/useBreakpointReviewCharLimit';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+
 const Testimonial = () => {
   const isMobile = useIsMobile();
   const charLimit = useBreakpointReviewCharLimit();
   const { subTitle, title, description, testimonials } = TestimonialSectionData;
-  const [isHover, setIsHover] = useState<number | null>(1);
-  // const VISIBLE_CARDS = 3;
   const VISIBLE_CARDS = isMobile ? 1 : 3;
-
   const total = testimonials.length;
-  const testimonialData = [img_1, img_2, img_3, img_4, img_5, img_6];
-  // clone first cards
   const slides = [...testimonials, ...testimonials.slice(0, VISIBLE_CARDS)];
-
   const [index, setIndex] = useState(0);
   const [enableTransition, setEnableTransition] = useState(true);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
 
   return (
-    <section className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-[3rem] lg:py-[4rem] xl:py-[6rem]">
+    <section
+      ref={ref}
+      className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+    >
       <div className="relative z-20">
-        <div className="flex w-[100%] justify-center">
+        <div
+          className={`flex w-[100%] justify-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+        >
           <Heading
             subTitle={subTitle}
             title={title}
@@ -43,7 +38,9 @@ const Testimonial = () => {
             className="w-[90%] lg:w-[65%]"
           />
         </div>
-        <div className="flex justify-center">
+        <div
+          className={`flex justify-center transition-all delay-200 duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'} `}
+        >
           <div className="relative w-[90%] overflow-x-hidden pt-[2.5rem]">
             {/* Track */}
             <div
@@ -58,9 +55,10 @@ const Testimonial = () => {
             >
               {slides.map((testimonial: any, idx: number) => (
                 <div
-                  className={`relative shrink-0 px-[rem] lg:px-[0.5rem] xl:px-[1rem] ${
-                    isMobile ? 'basis-full' : 'basis-1/3'
-                  }`}
+                  className={`relative shrink-0 px-[rem] transition-all duration-700 lg:px-[0.5rem] xl:px-[1rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${isMobile ? 'basis-full' : 'basis-1/3'} `}
+                  style={{
+                    transitionDelay: `${(idx % VISIBLE_CARDS) * 120}ms`,
+                  }}
                 >
                   <div
                     onClick={() =>

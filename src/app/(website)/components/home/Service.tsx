@@ -10,6 +10,7 @@ import check from '../../../../../public/assets/icons/newStar.png';
 import { useRouter } from 'next/navigation';
 import { useScrollTabs } from '@/@core/hooks/useScrollTabs';
 import { MdArrowOutward } from 'react-icons/md';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 export interface ServiceItem {
   icon: StaticImageData;
   label: string;
@@ -19,6 +20,7 @@ export interface ServiceItem {
   image?: StaticImageData; // ✅ OPTIONAL (important)
 }
 const Service = () => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
   const router = useRouter();
   const { subtitle, title, span, description, services } = ServiceSectionData;
   const [hoveredTab, setHoveredTab] = useState<number | null>(null);
@@ -76,19 +78,25 @@ const Service = () => {
 
   return (
     <div
-      ref={servicesWrapperRef}
+      ref={ref}
       className="bg-[#F5F5F599] py-[3rem] lg:py-[4rem] xl:py-[6rem]"
       id="services"
     >
       <MaxWidthWrapper>
-        <Heading
-          subTitle={subtitle}
-          title={title}
-          span={span}
-          isBgWhite
-          description={description}
-          isInCenter
-        />
+        <div
+          className={`transition-all duration-700 ease-out ${
+            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'
+          }`}
+        >
+          <Heading
+            subTitle={subtitle}
+            title={title}
+            span={span}
+            isBgWhite
+            description={description}
+            isInCenter
+          />
+        </div>
 
         <div className="flex gap-[2rem] pt-[3rem]">
           {/* MOBILE TABS */}
@@ -124,7 +132,13 @@ const Service = () => {
           )}
 
           {/* ---------------- LEFT TABS (DESKTOP) ---------------- */}
-          <div className="relative hidden w-[30%] lg:block">
+          <div
+            className={`relative hidden w-[30%] transition-all delay-200 duration-700 lg:block ${
+              isVisible
+                ? 'translate-x-0 opacity-100'
+                : '-translate-x-16 opacity-0'
+            }`}
+          >
             <div className="sticky top-[15rem] h-[33rem] rounded-xl bg-white p-[1rem] xl:h-[35rem] xl:p-[2rem]">
               {services?.map((service, idx) => {
                 const isFirst = idx === 0;
@@ -185,7 +199,13 @@ const Service = () => {
           </div>
 
           {/* ---------------- RIGHT CONTENT ---------------- */}
-          <div className="w-[100%] space-y-[2rem] lg:w-[70%]">
+          <div
+            className={`w-[100%] space-y-[2rem] transition-all delay-300 duration-700 lg:w-[70%] ${
+              isVisible
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-16 opacity-0'
+            }`}
+          >
             {services?.map((service, idx) => {
               const ActiveCardDetails = service?.list?.filter(
                 (item) => item.label === activeCard
@@ -226,7 +246,14 @@ const Service = () => {
                             <div
                               key={i}
                               onClick={() => setActiveCard(item.label)}
-                              className={`relative lg:h-[7.8rem] xl:h-[9.8rem] ${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} flex !cursor-pointer gap-3 rounded-[15px] border-[0.71px] p-[1rem] hover:border-[0.71px] hover:border-[#F28F17]/60 md:block lg:p-[0.8rem] xl:p-5`}
+                              style={{
+                                transitionDelay: `${i * 280}ms`, // 👈 stagger delay
+                              }}
+                              className={`relative transition-all delay-300 duration-1000 lg:h-[7.8rem] xl:h-[9.8rem] ${
+                                isVisible
+                                  ? 'translate-y-0 opacity-100'
+                                  : 'translate-y-10 opacity-0'
+                              } ${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} flex !cursor-pointer gap-3 rounded-[15px] border-[0.71px] p-[1rem] hover:border-[0.71px] hover:border-[#F28F17]/60 md:block lg:p-[0.8rem] xl:p-5`}
                             >
                               <Image
                                 src={item?.icon}
