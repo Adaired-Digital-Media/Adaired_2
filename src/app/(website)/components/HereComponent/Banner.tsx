@@ -19,9 +19,11 @@ import { FiArrowUpRight } from 'react-icons/fi';
 import { PiDotsThree } from 'react-icons/pi';
 import google from '../../../../../public/assets/images/partner/google.svg';
 import upwork from '../../../../../public/assets/images/partner/upwork.svg';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const Banner = () => {
   const router = useRouter();
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const users = [user, user_2, user_3, user_4, user_5];
   const griphData = [
     {
@@ -104,7 +106,10 @@ const Banner = () => {
   };
 
   return (
-    <div className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[140vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[85vh] 3xl:h-[100vh]">
+    <div
+      ref={ref}
+      className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[140vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[85vh] 3xl:h-[100vh]"
+    >
       <Image
         src={hero_banner}
         fill
@@ -113,7 +118,9 @@ const Banner = () => {
         className="pointer-events-none object-cover"
       />
       <MaxWidthWrapper className="relative z-10 block justify-between pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[5rem]">
-        <div className="w-[100%] space-y-5 lg:w-[45%] xl:w-[42%]">
+        <div
+          className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[42%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+        >
           <Heading
             isH1={true}
             subTitle={`Gain Visibility That Converts`}
@@ -215,7 +222,9 @@ const Banner = () => {
             handleClick2={scrollToServices}
           />
         </div>
-        <div className="relative mt-[5rem] w-[100%] pt-[20vh] md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0">
+        <div
+          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'} `}
+        >
           <div className="space-y-4">
             <div className="absolute bottom-[10%] mt-auto flex w-[100%] justify-center">
               <div className="relative flex justify-end">
