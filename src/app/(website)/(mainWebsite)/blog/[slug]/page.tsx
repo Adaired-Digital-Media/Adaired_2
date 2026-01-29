@@ -92,7 +92,7 @@ const Blog = async ({ params }: BlogProps) => {
   const h2Total = (bodyHtml.match(/<h2>/g) || []).length;
   let currentH2Index = 0;
   let isLastH2Section = false;
-//test git config
+//test git config 12121
   return (
     <>
       <PageBanner title={blogData.bannerTitle} />
