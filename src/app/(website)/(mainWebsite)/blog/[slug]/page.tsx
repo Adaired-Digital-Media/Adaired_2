@@ -87,7 +87,7 @@ const Blog = async ({ params }: BlogProps) => {
   const blog = data[0];
 
   const { introHtml, bodyHtml } = splitHtmlAtFirstH2(blog?.postDescription);
-  const { top, bottom } = splitIntroParagraphs(introHtml, 100);
+  const { top, bottom } = splitIntroParagraphs(introHtml, 80);
 
   const h2Total = (bodyHtml.match(/<h2>/g) || []).length;
   let currentH2Index = 0;
@@ -107,7 +107,7 @@ const Blog = async ({ params }: BlogProps) => {
 
         {/* ----------- IMAGE + FIRST 120 WORDS ----------- */}
         <div className="mt-8 grid grid-cols-1 gap-[2rem] md:grid-cols-2">
-          <div className="relative h-[30vh]">
+          <div className="relative h-[50vh]">
             <Image
               src={blog?.featuredImage}
               alt="blog"
