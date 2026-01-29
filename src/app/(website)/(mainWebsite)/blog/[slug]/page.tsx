@@ -105,7 +105,7 @@ const Blog = async ({ params }: BlogProps) => {
           title={blog?.postTitle}
         />
 
-        {/* ----------- IMAGE + FIRST 120 WORDS ----------- */}
+        {/* ----------- IMAGE + FIRST 120 WORDS1 ----------- */}
         <div className="mt-8 grid grid-cols-1 gap-[2rem] md:grid-cols-2">
           <div className="relative h-[50vh]">
             <Image
