@@ -1,6 +1,6 @@
 import { AboutSectionData } from '@/@core/data/website/Homepage';
 import React from 'react';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
 import img from '../../../../../public/assets/images/home/aboutus.png';

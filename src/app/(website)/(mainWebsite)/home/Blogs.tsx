@@ -1,7 +1,7 @@
 'use client';
 import { BlogSectionData } from '@/@core/data/website/Homepage';
 import Image from 'next/image';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import { useRouter } from 'next/navigation';
 import { IoArrowForwardSharp } from 'react-icons/io5';

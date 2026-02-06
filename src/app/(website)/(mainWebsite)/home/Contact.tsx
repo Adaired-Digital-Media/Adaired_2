@@ -1,10 +1,10 @@
 import { ContactSectionData } from '@/@core/data/website/Homepage';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
 import useImageAnimation from '@/@core/hooks/useImageAnimation';
 import reachout from '../../../../../public/assets/700_650.png';
-import ContactForm from '../forms/ContactForm';
+import ContactForm from '../../components/forms/ContactForm';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const Contact = () => {

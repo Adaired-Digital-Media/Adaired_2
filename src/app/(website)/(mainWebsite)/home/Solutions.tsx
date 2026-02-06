@@ -1,6 +1,6 @@
 import { SolutionsSectionData } from '@/@core/data/website/Homepage';
 import React, { useState } from 'react';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
 import img from '../../../../../public/assets/images/home/solutions.png';
@@ -11,7 +11,7 @@ import {
   useZoomOnView,
 } from '@/@core/hooks/useScrollAnimations';
 import SaveAndCancel from '../../common/SaveAndCancel';
-import GetQuoteModal from '../popup/GetQuoteModal';
+import GetQuoteModal from '../../components/popup/GetQuoteModal';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const Solutions = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);

@@ -1,5 +1,5 @@
 import React from 'react';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import Heading from '../../common/Heading';
 
 import client_1 from '../../../../../public/assets/images/client/client_1.png';

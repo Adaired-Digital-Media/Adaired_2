@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import { FAQSSectionData } from '@/@core/data/website/Homepage';
 import { MdAdd } from 'react-icons/md';

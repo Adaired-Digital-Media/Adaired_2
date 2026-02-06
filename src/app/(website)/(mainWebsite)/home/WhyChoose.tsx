@@ -1,7 +1,7 @@
 import { WhyChooseSectionData } from '@/@core/data/website/Homepage';
 import Image from 'next/image';
 import { useState } from 'react';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import useHoverZoom from '@/@core/hooks/useHoverZoom';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';

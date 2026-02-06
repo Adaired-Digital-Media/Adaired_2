@@ -2,7 +2,7 @@ import { CaseStudySectionData } from '@/@core/data/website/Homepage';
 import study_1 from '../../../../../public/assets/images/case_staudy/case_study.webp';
 import study_2 from '../../../../../public/assets/images/case_staudy/case_study_2.webp';
 import study_3 from '../../../../../public/assets/images/case_staudy/case_study_3.webp';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
 import { IoIosArrowRoundForward } from 'react-icons/io';

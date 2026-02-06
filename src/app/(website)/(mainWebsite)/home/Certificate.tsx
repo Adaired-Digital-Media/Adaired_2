@@ -5,7 +5,7 @@ import certificate_3 from '../../../../../public/assets/images/ai/ai_3.svg';
 import certificate_4 from '../../../../../public/assets/images/ai/ai_4.svg';
 import certificate_5 from '../../../../../public/assets/images/ai/ai_5.svg';
 import certificate_6 from '../../../../../public/assets/images/ai/ai_6.svg';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 

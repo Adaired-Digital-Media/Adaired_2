@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import certificate_1 from '../../../../../public/assets/images/certificate/Group 4 (1).png';
 import certificate_2 from '../../../../../public/assets/images/certificate/Group 4 (2).png';
 import certificate_3 from '../../../../../public/assets/images/certificate/Group 4 (3).png';
