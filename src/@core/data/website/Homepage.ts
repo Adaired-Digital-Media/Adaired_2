@@ -8,33 +8,70 @@ import Dedicated from '../../../../public/assets/icons/Dedicated_1.svg';
 import customer from '../../../../public/assets/icons/customer.svg';
 import goal from '../../../../public/assets/icons/goal.png';
 import Web_Design from '../../../../public/assets/images/service/Web Design & Development.png';
-import Digital_Creative from '../../../../public/assets/images/service/Paid Media & Advertising.png';
+import Digital_Creative from '../../../../public/assets/images/service/New/PayPerClick.svg';
 import seo2 from '../../../../public/assets/icons/service/seo_Img.png';
 
-//services images
-// import SEO from '../../../../public/assets/images/service/SEO.png';
-// import AI_SEO from '../../../../public/assets/images/service/SSM.png';
-// import Content from '../../../../public/assets/images/service/Content.png';
-// import SMM from '../../../../public/assets/images/service/AI_SEO.png';
-import SEO from '../../../../public/assets/images/service/New/SEO.png';
-import AI_SEO from '../../../../public/assets/images/service/New/AI SEO.png';
-import Content from '../../../../public/assets/images/service/New/Content writing.png';
-import SMM from '../../../../public/assets/images/service/New/Social Media.png';
+//seo images & icons
+import SEO from '../../../../public/assets/images/service/New/SEO.svg';
+import AI_SEO from '../../../../public/assets/images/service/New/AISEO.svg';
+import LOCAL_SEO from '../../../../public/assets/images/service/New/Local SEO (1).svg';
+import E_Comerce_SEO from '../../../../public/assets/images/service/New/eCommerce SEO.svg';
+import SEO_1 from '../../../../public/assets/icons/service/seo.png';
+import SEO_2 from '../../../../public/assets/icons/service/ai_seo.png';
+import SEO_3 from '../../../../public/assets/icons/service/local-seo.svg';
+import SEO_4 from '../../../../public/assets/icons/service/E commerce seo.svg';
+
+//linkbuilding images & icons
+import Link_Building from '../../../../public/assets/images/service/New/Link Building.svg';
+import Link_Building_2 from '../../../../public/assets/images/service/New/SEO.svg';
+import Link_Building_3 from '../../../../public/assets/images/service/New/SEO.svg';
+import Link_Building_4 from '../../../../public/assets/images/service/New/SEO.svg';
+import Link_Building_Icon_1 from '../../../../public/assets/icons/service/high authority links.svg';
+import Link_Building_Icon_2 from '../../../../public/assets/icons/service/Guest post.svg';
+import Link_Building_Icon_3 from '../../../../public/assets/icons/service/Niche edits.svg';
+import Link_Building_Icon_4 from '../../../../public/assets/icons/service/press-release 1.svg';
+
+//linkbuilding images & icons
+import Content_Marketing from '../../../../public/assets/images/service/New/SEO_NEW_IMG.svg';
+import Content_Marketing_2 from '../../../../public/assets/images/service/New/AISEO.svg';
+import Content_Marketing_Icon_1 from '../../../../public/assets/icons/service/e_comerse.svg';
+import Content_Marketing_Icon_2 from '../../../../public/assets/icons/service/blogwriting.svg';
+import Content_Marketing_Icon_3 from '../../../../public/assets/icons/service/website content.svg';
+import Content_Marketing_Icon_4 from '../../../../public/assets/icons/service/e commerce content.svg';
+
+//SSM images & icons
+import SMM from '../../../../public/assets/images/service/New/Social Media Management.svg';
+import SMM_1 from '../../../../public/assets/images/service/New/Post Creation.svg';
+import SMM_2 from '../../../../public/assets/images/service/New/Content Calendar.svg';
+import SMM_3 from '../../../../public/assets/images/service/New/Reel editing.svg';
+import SMM_4 from '../../../../public/assets/images/service/New/Creatives.svg';
+import SMM_Icon_1 from '../../../../public/assets/icons/service/social-media-management.svg';
+import SMM_Icon_2 from '../../../../public/assets/icons/service/Social_Media_Marketing.svg';
+import SMM_Icon_3 from '../../../../public/assets/icons/service/Niche edits.svg';
+import SMM_Icon_4 from '../../../../public/assets/icons/service/press-release 1.svg';
 
 import GBP_1 from '../../../../public/assets/images/service/GBP_1.png';
 import GBP_2 from '../../../../public/assets/images/service/GBP_3.png';
 import GBP_3 from '../../../../public/assets/images/service/GBP_2.png';
 import GBP_4 from '../../../../public/assets/images/service/GBP_4.png';
 
-import Ad_1 from '../../../../public/assets/images/service/Ad_1.png';
-import Ad_2 from '../../../../public/assets/images/service/Ad_2.png';
-import Ad_3 from '../../../../public/assets/images/service/Ad_3.png';
-import Ad_4 from '../../../../public/assets/images/service/Ad_4.png';
+import Ad_1 from '../../../../public/assets/images/service/New/GoogleAds.svg';
+import Ad_2 from '../../../../public/assets/images/service/New/Meta Ads.svg';
+import Ad_3 from '../../../../public/assets/images/service/New/Meta Ads (1).svg';
+import Ad_4 from '../../../../public/assets/images/service/New/Linkedin ADs.svg';
+import Ad_5 from '../../../../public/assets/images/service/New/Tiktok ads.svg';
 
-import web_1 from '../../../../public/assets/images/service/web_1.png';
-import web_2 from '../../../../public/assets/images/service/web_2.png';
-import web_3 from '../../../../public/assets/images/service/web_3.png';
-import web_4 from '../../../../public/assets/images/service/web_4.png';
+//Content Writing & Marketing
+import Content from '../../../../public/assets/images/service/New/Contentwriting.svg';
+import content_marketing_1 from '../../../../public/assets/images/service/New/Contentwriting.svg';
+import content_marketing_2 from '../../../../public/assets/images/service/New/Contentwriting.svg';
+import content_marketing_3 from '../../../../public/assets/images/service/New/Contentwriting.svg';
+import content_marketing_4 from '../../../../public/assets/images/service/New/Contentwriting.svg';
+
+import web_1 from '../../../../public/assets/images/service/New/Web design and development.svg';
+import web_2 from '../../../../public/assets/images/service/New/Web design and development.svg';
+import web_3 from '../../../../public/assets/images/service/New/Shopify Development.svg';
+import web_4 from '../../../../public/assets/images/service/New/Custom Web Development.svg';
 
 import White_SEO_1 from '../../../../public/assets/images/service/White_SEO_1.png';
 import White_SEO_2 from '../../../../public/assets/images/service/White_SEO_2.png';
@@ -52,7 +89,6 @@ import app_2 from '../../../../public/assets/icons/service/app_2.png';
 import app_3 from '../../../../public/assets/icons/service/app_3.png';
 import app_4 from '../../../../public/assets/icons/service/app_4.png';
 import seo from '../../../../public/assets/icons/service/seo.png';
-import ai_seo from '../../../../public/assets/icons/service/ai_seo.png';
 import content from '../../../../public/assets/icons/service/content.png';
 import smm from '../../../../public/assets/icons/service/smm.png';
 import Insta_Ads from '../../../../public/assets/icons/service/Insta_Ads.png';
@@ -67,7 +103,8 @@ import shoppyfy from '../../../../public/assets/icons/service/shoppyfy.png';
 import TikTokAds from '../../../../public/assets/icons/service/TikTokAds.png';
 import LinkedInAds from '../../../../public/assets/icons/service/LinkedInAds.png';
 // import digital_marketing from '../../../../public/assets/images/service/digital_marketing.png';
-import digital_marketing from '../../../../public/assets/images/service/New/Digital Marketing.png';
+// import digital_marketing from '../../../../public/assets/images/service/New/Digital Marketing.png';
+
 import google_business from '../../../../public/assets/images/service/google_business.png';
 import App_development from '../../../../public/assets/images/service/App_development.png';
 import WhiteLabelFacebookAds from '../../../../public/assets/icons/service/WhiteLabelFacebookAds.png';
@@ -229,8 +266,8 @@ export const ExpectSectionData = {
 export const WhyChooseSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'WHY CHOOSE US',
-  title: 'Why Choose Adaired as Your',
-  span: 'Digital Growth Partner?',
+  title: 'Why Choose Adaired as Your Digital Growth Partner?',
+  span: '',
   description:
     'Adaired combines expert-led digital strategies, dedicated account management, and real-time performance transparency to drive measurable growth. With an ROI-first mindset, we focus on scalable solutions that turn marketing investments into consistent, profitable results.',
   points: [
@@ -423,143 +460,187 @@ export const LogoSliderSectionData = {
 
 export const ServiceSectionData = {
   subtitle: 'Expert Marketing Solutions',
-  title: '360° Digital Marketing Services for Modern',
-  span: 'Business Needs',
+  title: '360° Digital Marketing Services for Modern Business Needs',
+  span: '',
   description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
   services: [
     {
-      title: 'White Label Services ',
+      title: 'Search Engine Optimization',
       description:
-        'Expand your offerings effortlessly with our White Label Services. We offer fully branded solutions, expert support, and seamless integration for business growth.',
-      link: '/services/search-engine-optimization',
+        'We improve search rankings and drive qualified organic traffic through keyword research, on-page optimization, technical SEO, and performance tracking, focused on sustainable growth and real business results.',
       list: [
         {
-          icon: WhiteLabelSEO,
-          image: White_SEO_1,
-          label: 'White Label SEO',
-          title: 'White Label SEO',
-          description: `We help you boost your agency’s offerings with White Label SEO from Adaired. We deliver expert SEO services under your brand, so you can expand without extra overhead. From keyword research to link building and reporting, we handle all the technical work while you keep full client ownership. Together, we help you scale your business, enhance results, and maintain your brand reputation effortlessly.`,
-          link: '/services/search-engine-optimization',
-        },
-        {
-          icon: WhiteLabelSocialMedia,
-          image: White_SEO_2,
-          label: 'White Label Social Media',
-          title: 'White Label Social Media',
-          description: `At Adaired, we help you expand your agency’s services with White Label Social Media services. We create, manage, and optimize social media campaigns under your brand, so you can deliver results without extra overhead. From content creation to scheduling and analytics, we handle the work while you retain full client ownership.`,
-          link: '/services/search-engine-optimization',
-        },
-        {
-          icon: WhiteLabelFacebookAds,
-          image: White_SEO_3,
-          label: 'White Label Facebook Ads',
-          title: 'White Label Facebook Ads',
-          description: `We help your agency scale with White Label Facebook Ads. We handle ad strategy, creation, targeting, and reporting under your brand, so you deliver results without extra overhead. You keep full client ownership while we drive performance, boost ROI, and protect your brand reputation.`,
-          link: '/services/search-engine-optimization',
-        },
-        {
-          icon: LinkBuilding,
-          image: White_SEO_4,
-          label: 'White Label Link Building',
-          title: 'White Label Link Building',
-          description: `We help your agency grow with White Label Link Building from Adaired. We handle outreach, content placement, and quality backlink acquisition under your brand, so you deliver results without extra overhead. You keep full client ownership while we boost domain authority, improve rankings, and protect your brand reputation.`,
-          link: '/services/search-engine-optimization',
-        },
-      ],
-      mainSvg: 'Logo Design_PpqcI',
-      img: White_Label_Services,
-      accentColor: '#5c34b1',
-    },
-    {
-      title: 'Digital Marketing',
-      description:
-        'We use AI-driven insights, advanced SEO, and result-driven strategies to boost brand reach, improve search rankings, and drive conversions.',
-      list: [
-        {
-          icon: seo,
+          icon: SEO_1,
           image: SEO,
-          label: 'Search Engine Optimization',
-          title: 'Search Engine Optimization',
+          label: 'SEO',
+          title: 'SEO',
           description: `We provide Search Engine Optimization services that are aimed at increasing the presence online and driving meaningful engagement. We combine smart keyword targeting, technical optimization, and credible content to make your business achieve consistent rankings and sustainable organic growth.`,
           link: '/services/search-engine-optimization',
         },
         {
-          icon: ai_seo,
+          icon: SEO_2,
           image: AI_SEO,
-          label: 'AI SEO',
-          title: 'AI SEO',
-          description: `Our AI SEO solutions leverage artificial intelligence to analyze search behavior, optimize content, and improve rankings with precision. We use data-driven insights, automation, and predictive strategies to enhance visibility, target intent-driven keywords, and deliver measurable SEO performance.`,
-          link: '/services/search-engine-optimization',
+          label: 'SaaS SEO',
+          title: 'SaaS SEO',
+          description: `We help SaaS businesses grow through targeted SEO strategies designed for recurring-revenue models. From optimizing product pages and feature-based keywords to creating funnel-driven content, our SaaS SEO approach attracts decision-makers, boosts trial sign-ups, and supports long-term customer acquisition.`,
+          link: '/services/seo/ai-search-engine-optimization',
         },
         {
-          icon: content,
-          image: Content,
-          label: 'Content Writing',
-          title: 'Content Writing',
-          description: `At Adaired, we craft strategic content designed to educate, engage, and convert audiences effectively. From blogs and web pages to compelling marketing copy, our content writing services enhance brand voice, boost search performance, build credibility, and support long-term digital growth through clear, consistent, and results-driven messaging.`,
-          link: '/services/compelling-content-marketing',
+          icon: SEO_3,
+          image: E_Comerce_SEO,
+          label: 'eCommerce SEO',
+          title: 'eCommerce SEO',
+          description: `Our eCommerce SEO solutions focus on scaling organic growth for online stores of all sizes. We combine product-level keyword research, structured data, site architecture optimization, and performance SEO to improve rankings, attract purchase-ready shoppers, and maximize lifetime value.`,
+          link: '/services/local-seo',
         },
-        {
-          icon: smm,
-          image: SMM,
-          label: 'Social Media Management',
-          title: 'Social Media Management',
-          description: `We offer strategic social media management services that build brand presence, engages audiences, and drives growth. From content creation and scheduling to community management and performance tracking, our services help brands connect authentically, increase visibility, and achieve consistent results across all major social platforms.`,
-          link: '/services/strategic-social-media-management',
-        },
+        // {
+        //   icon: SEO_4,
+        //   image: E_Comerce_SEO,
+        //   label: 'eCommerce SEO',
+        //   title: 'eCommerce SEO',
+        //   description: `We offer strategic social media management services that build brand presence, engages audiences, and drives growth. From content creation and scheduling to community management and performance tracking, our services help brands connect authentically, increase visibility, and achieve consistent results across all major social platforms.`,
+        //   link: '/services/local-seo',
+        // },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
-      img: digital_marketing,
+      img: SEO,
       accentColor: '#f89520',
       link: '/services/search-engine-optimization',
     },
     {
-      title: 'Google Business Profile ',
+      title: 'AI SEO',
       description:
-        'We optimize your Google Business Profile with local SEO, review management, and continuous updates to boost visibility, engagement, and growth.',
+        'We optimize content and entity signals so large language models understand, trust, and surface your brand in AI-generated answers and recommendations.',
+      link: '/services/ai-search-engine-optimization',
+      list: [
+        {
+          icon: WhiteLabelSEO,
+          image: AI_SEO,
+          label: 'AI SEO',
+          title: 'AI SEO',
+          description: `We leverage AI-powered SEO to help businesses stay ahead in an evolving search landscape. Our approach uses intelligent automation, predictive insights, and intent-based optimization to enhance visibility, streamline SEO execution, and deliver measurable growth, without relying on guesswork.`,
+          link: '/services/ai-search-engine-optimization',
+        },
+        {
+          icon: WhiteLabelSocialMedia,
+          image: AI_SEO,
+          label: 'LLM SEO/LLMO',
+          title: 'LLM SEO/LLMO',
+          description: `Adaired’s LLM SEO services enable agencies to offer next-generation search optimization under their own brand. We handle the strategy and execution needed to optimize client content for AI-driven search and generative models, while you maintain full ownership of client relationships and reporting.`,
+          link: '/services/ai-search-engine-optimization',
+        },
+        {
+          icon: WhiteLabelFacebookAds,
+          image: AI_SEO,
+          label: 'GEO',
+          title: 'GEO',
+          description: `We help businesses adapt to the shift from search results to AI-generated answers. Our GEO approach focuses on content clarity, semantic depth, and authority signals that generative engines rely on, ensuring your brand remains visible, accurate, and competitive in AI-powered discovery.`,
+          link: '/services/ai-search-engine-optimization',
+        },
+        {
+          icon: LinkBuilding,
+          image: AI_SEO,
+          label: 'AEO',
+          title: 'AEO',
+          description: `We structure and optimize content so search engines and AI systems can easily extract, understand, and present your brand as the best answer. Through question-focused optimization, schema markup, and intent alignment, we help businesses capture high-value answer placements beyond traditional rankings.`,
+          link: '/services/ai-search-engine-optimization',
+        },
+      ],
+      mainSvg: 'Logo Design_PpqcI',
+      img: AI_SEO,
+      accentColor: '#5c34b1',
+    },
+    {
+      title: 'Local SEO',
+      description:
+        'We optimize Google Business Profiles, local keywords, citations, and reviews to improve map pack rankings, increase local visibility, and drive consistent engagement from nearby searchers.',
       link: '/services/local-seo',
       list: [
         {
           icon: GBPManagement,
-          image: GBP_1,
-          label: 'GBP Management',
-          title: 'GBP Management',
-          description: `We provide expert Google Business Profile management to improve local visibility and customer engagement. From profile optimization and regular updates to review management and performance insights, our GBP services help businesses rank higher in local searches, attract nearby customers, and build trust through a strong local presence.`,
+          image: LOCAL_SEO,
+          label: 'Local Organic SEO',
+          title: 'Local Organic SEO',
+          description: `We help businesses dominate local search through a strategic mix of Google Business Profile optimization, localized content, review management, and technical SEO. Our local-first approach drives higher map visibility, increased foot traffic, and more qualified calls and inquiries from nearby customers.`,
           link: '/services/local-seo',
         },
         {
           icon: GBPSetup,
-          image: GBP_2,
-          label: 'GBP Setup',
-          title: 'GBP Setup',
-          description: `At Adaired, we offer a complete Google Business Profile setup to ensure your business is accurately listed and optimized from day one. From creating and verifying your profile to adding essential business details, categories, and visuals, our GBP setup service builds a strong foundation for improved local visibility and customer trust.`,
+          image: LOCAL_SEO,
+          label: 'Citation Building',
+          title: 'Citation Building',
+          description: `We build and maintain consistent business citations across relevant local, industry, and geo-specific directories. By standardizing business information and eliminating inconsistencies, we help search engines verify legitimacy, improve map pack visibility, and drive more qualified local traffic.
+`,
           link: '/services/local-seo',
         },
         {
           icon: FakeGBPReporting,
-          image: GBP_3,
-          label: 'Fake GBP Reporting',
-          title: 'Fake GBP Reporting',
-          description: `We provide professional fake Google Business Profile reporting to help protect your brand’s local presence. Our team identifies and reports fraudulent or spam listings, ensuring compliance with Google guidelines and reducing unfair competition, so your legitimate business can rank accurately and maintain trust in local search results.`,
+          image: LOCAL_SEO,
+          label: 'Local Link Building',
+          title: 'Local Link Building',
+          description: `We build authentic local backlinks that signal relevance and trust to search engines. By earning links from local organizations, blogs, news sites, and industry resources, we help businesses improve map pack visibility, outrank nearby competitors, and establish a strong local digital footprint.`,
           link: '/services/local-seo',
         },
-        {
-          icon: FakeGoogleReviewReporting,
-          image: GBP_4,
-          label: 'Fake Google Review Reporting',
-          title: 'Fake Google Review Reporting',
-          description: `Safeguard your business from fake Google reviews. We identify fraudulent or malicious reviews, collect evidence, and report them to Google through official channels. Our professional process helps restore trust, protect your online reputation, maintain credibility, and ensure your business profile accurately reflects genuine customer feedback.`,
-          link: '/services/local-seo',
-        },
+        // {
+        //   icon: FakeGoogleReviewReporting,
+        //   image: GBP_4,
+        //   label: 'Fake Google Review Reporting',
+        //   title: 'Fake Google Review Reporting',
+        //   description: `Safeguard your business from fake Google reviews. We identify fraudulent or malicious reviews, collect evidence, and report them to Google through official channels. Our professional process helps restore trust, protect your online reputation, maintain credibility, and ensure your business profile accurately reflects genuine customer feedback.`,
+        //   link: '/services/local-seo',
+        // },
       ],
       mainSvg: 'Web Dev_JjQ6b',
-      img: google_business,
+      img: LOCAL_SEO,
       accentColor: '#038eb0',
     },
     {
-      title: 'Pay Per Click',
+      title: 'Link Building',
       description:
-        'Maximize ROI with precision PPC campaigns, combining AI-driven targeting, analytics, and optimization to efficiently generate qualified leads.',
+        'Our Link Building services focus on earning high-quality, relevant backlinks that strengthen domain authority, improve search rankings, and support long-term organic growth.',
+      list: [
+        {
+          icon: Link_Building_Icon_1,
+          image: Link_Building,
+          label: 'High Authority Link Building',
+          title: 'High Authority Link Building',
+          description: `We acquire backlinks from authoritative, high-trust websites that enhance your site’s credibility and competitive strength. By focusing on relevance, domain quality, and natural placement, our high-authority links help improve rankings for competitive keywords and support sustainable SEO performance`,
+          link: '/services/search-engine-optimization',
+        },
+        {
+          icon: Link_Building_Icon_2,
+          image: Link_Building,
+          label: 'Guest Posts',
+          title: 'Guest Posts',
+          description: `Our guest posting services secure contextual backlinks through high-quality content placements on relevant industry websites. We handle prospecting, outreach, content creation, and placement to ensure each guest post delivers SEO value, referral traffic, and brand visibility.`,
+          link: '/services/search-engine-optimization',
+        },
+        {
+          icon: Link_Building_Icon_3,
+          image: Link_Building,
+          label: 'Niche Edits',
+          title: 'Niche Edits',
+          description: `We place strategic backlinks within existing, aged content on authoritative and niche-relevant websites. These contextual link insertions offer significant SEO value, enhance keyword rankings, and provide a faster impact compared to newly published links.`,
+          link: '/services/search-engine-optimization',
+        },
+        {
+          icon: Link_Building_Icon_4,
+          image: Link_Building,
+          label: 'Press Releases',
+          title: 'Press Releases',
+          description: `Our press release link-building services help amplify brand exposure while earning authoritative backlinks from news and media distribution networks. We craft optimized press content that supports SEO, improves brand credibility, and strengthens your backlink profile through trusted publications.`,
+          link: '/services/search-engine-optimization',
+        },
+      ],
+      mainSvg: 'Search Engine Optimization_eyQDn',
+      img: Link_Building,
+      accentColor: '#f89520',
+      link: '/services/search-engine-optimization',
+    },
+    {
+      title: 'Pay Per Click & SMM',
+      description:
+        'We deliver performance-focused PPC and social ad campaigns designed to reach the right audience at the right time.',
       link: '/services/paid-media-and-advertising',
       list: [
         {
@@ -580,7 +661,7 @@ export const ServiceSectionData = {
         },
         {
           icon: LinkedInAds,
-          image: Ad_3,
+          image: Ad_4,
           label: 'LinkedIn Ads',
           title: 'LinkedIn Ads',
           description: `Reach the right professionals with targeted LinkedIn Ads. We create, manage, and optimize campaigns to generate leads, increase brand authority, and drive B2B growth. Our strategic approach ensures your ads engage decision-makers, maximize ROI, and strengthen your professional presence on the world’s leading business network.`,
@@ -588,7 +669,7 @@ export const ServiceSectionData = {
         },
         {
           icon: Insta_Ads,
-          image: Ad_4,
+          image: Ad_5,
           label: 'TikTok Ads',
           title: 'TikTok Ads',
           description: `Capture attention and drive results with TikTok Ads. We create, manage, and optimize engaging campaigns that reach your target audience, boost brand awareness, and increase conversions. Our creative, data-driven approach ensures your content goes viral, maximizes ROI, and connects your business with a younger, trend-focused audience.`,
@@ -597,6 +678,49 @@ export const ServiceSectionData = {
       ],
       mainSvg: 'Pay Per Click_pdGDn',
       img: Digital_Creative,
+      accentColor: '#d71a1a',
+    },
+    {
+      title: 'Social Media Marketing',
+      description:
+        'We help brands build visibility, engagement, and trust across leading social platforms. Through consistent content creation, strategic planning, and optimization, we help you grow your audience, strengthen your brand voice, and increase followers.',
+      link: '/services/strategic-social-media-management',
+      list: [
+        {
+          icon: SMM_Icon_1,
+          image: SMM_1,
+          label: 'Post Creation',
+          title: 'Post Creation',
+          description: `We create high-quality, platform-optimized social media posts designed to engage your audience and reinforce your brand identity. From captions and hashtags to visuals and formatting, our posts are crafted to boost reach, encourage interaction, and maintain a consistent brand presence across channels.`,
+          link: '/services/strategic-social-media-management',
+        },
+        {
+          icon: SMM_Icon_2,
+          image: SMM_2,
+          label: 'Content Calendar',
+          title: 'Content Calendar',
+          description: `Our content calendar planning ensures your social media stays consistent, strategic, and aligned with your business goals. We map out content themes, posting schedules, and campaign timelines in advance, helping you stay organized, relevant, and visible without last-minute effort.`,
+          link: '/services/social-media-marketing',
+        },
+        {
+          icon: LinkedInAds,
+          image: SMM_3,
+          label: 'Reel Editing',
+          title: 'Reel Editing',
+          description: `We produce engaging short-form video content tailored for platforms like Instagram Reels, Facebook Reels, and YouTube Shorts. Our reel editing focuses on storytelling, trends, transitions, and pacing to maximize watch time, engagement, and organic reach.`,
+          link: '/services/paid-media-and-advertising',
+        },
+        {
+          icon: Insta_Ads,
+          image: SMM_4,
+          label: 'Creatives',
+          title: 'Creatives',
+          description: `Our social media creatives are designed to capture attention and stop the scroll. We develop eye-catching graphics, visuals, and branded assets that align with your messaging, enhance engagement, and strengthen your overall social media presence.`,
+          link: '/services/paid-media-and-advertising',
+        },
+      ],
+      mainSvg: 'Pay Per Click_pdGDn',
+      img: SMM,
       accentColor: '#d71a1a',
     },
     {
@@ -615,7 +739,7 @@ export const ServiceSectionData = {
         },
         {
           icon: shoppyfy,
-          image: web_2,
+          image: web_3,
           label: 'Shopify Development',
           title: 'Shopify Development',
           description: `Launch and grow your online store with our Shopify Development services. We design, build, and customize responsive, secure, and user-friendly e-commerce websites. From product management to payment integration, our solutions drive sales, enhance customer experience, and help your business succeed in the competitive world of online retail.`,
@@ -623,7 +747,7 @@ export const ServiceSectionData = {
         },
         {
           icon: amazon,
-          image: web_3,
+          image: web_1,
           label: 'eCommerce Web Development',
           title: 'eCommerce Web Development',
           description: `Transform your online business with our eCommerce Web Development services. We create responsive, secure, and user-friendly websites tailored to your brand, optimized for performance and conversions. From product catalogs to payment gateways, our solutions drive sales, enhance customer experience, and help your business thrive in the digital marketplace.`,
@@ -639,7 +763,7 @@ export const ServiceSectionData = {
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
-      img: Web_Design,
+      img: web_1,
       accentColor: '#5c34b1',
     },
     {
@@ -651,8 +775,8 @@ export const ServiceSectionData = {
         {
           icon: app_1,
           image: App_1,
-          label: 'IOS App Development',
-          title: 'IOS App Development',
+          label: 'iOS Development',
+          title: 'iOS Development',
           description: `We specialize in iOS App Development, creating seamless, high-performing apps for iPhone and iPad. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver quality apps while retaining full client ownership.`,
           link: '/services/web-design-and-development-services',
         },
@@ -684,6 +808,49 @@ export const ServiceSectionData = {
       mainSvg: 'Logo Design_PpqcI',
       img: App_development,
       accentColor: '#5c34b1',
+    },
+    {
+      title: 'Content Writing & Marketing',
+      description:
+        'From blogs and website copy to landing pages and thought leadership, we create content that supports SEO, builds authority, and drives consistent organic growth.',
+      link: '/expert-content-solutions',
+      list: [
+        {
+          icon: Content_Marketing_Icon_1,
+          image: content_marketing_1,
+          label: 'Article Writing',
+          title: 'Article Writing',
+          description: `Our article writing services deliver well-researched, informative, and engaging long-form content that builds authority and educates your audience. We create articles tailored to your industry and target audience, helping you establish thought leadership, support SEO efforts, and drive sustained organic traffic.`,
+          link: '/expert-content-solutions',
+        },
+        {
+          icon: Content_Marketing_Icon_2,
+          image: content_marketing_2,
+          label: 'Blog Writing',
+          title: 'Blog Writing',
+          description: `We create SEO-focused blog content designed to attract search traffic, engage readers, and support your marketing funnel. From topic research to optimized publishing, our blog writing helps businesses improve rankings, answer user intent, and maintain a consistent content presence.`,
+          link: '/expert-content-solutions',
+        },
+        {
+          icon: Content_Marketing_Icon_3,
+          image: content_marketing_3,
+          label: 'Website Content',
+          title: 'Website Content',
+          description: `Our website content services focus on clear messaging, strong value propositions, and conversion-driven copy. We craft homepage, service, and landing page content that communicates your brand effectively, enhances user experience, and turns visitors into leads or customers.`,
+          link: '/expert-content-solutions',
+        },
+        {
+          icon: Content_Marketing_Icon_4,
+          image: content_marketing_4,
+          label: 'eCommerce Content',
+          title: 'eCommerce Content',
+          description: `We develop compelling eCommerce content that drives visibility and conversions. From product descriptions and category pages to buying guides, our content is optimized for search, user intent, and sales, helping shoppers make confident purchasing decisions.`,
+          link: '/expert-content-solutions',
+        },
+      ],
+      mainSvg: 'Pay Per Click_pdGDn',
+      img: Content,
+      accentColor: '#d71a1a',
     },
   ],
 };
@@ -763,8 +930,8 @@ export const AwardsSectionData = [
 export const ContactSectionData = {
   image: 'Static Website Images/contact_us_image',
   subTitle: 'Contact Us',
-  title: 'Power your business growth with',
-  span: 'trusted strategies that work',
+  title: 'Power your business growth with trusted strategies that work',
+  span: '',
   description:
     'Accelerate your business growth with expert guidance, practical solutions, and proven strategies that help you seize opportunities, overcome challenges, and achieve lasting success.',
   contactDetails: [
@@ -845,7 +1012,7 @@ export const FAQSSectionData = {
   span: 'Have questions? Our FAQ section provides clear, concise answers about our services to guide you effortlessly.',
   description:
     'Stay ahead of the digital curve with expert insights, practical strategies, and the latest trends designed to help your brand grow with confidence.',
-  faqs: [
+  list: [
     {
       image: blog_1,
       title: 'What services does Adaired provide?',

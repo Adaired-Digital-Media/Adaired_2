@@ -3,7 +3,10 @@ export const dynamic = 'force-dynamic';
 
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import { InfiniteMovingCards } from '@/@core/ui/aceternity-ui/infinite-moving-cards';
-import { AwardsSectionData } from '@/@core/data/website/Homepage';
+import {
+  AwardsSectionData,
+  FAQSSectionData,
+} from '@/@core/data/website/Homepage';
 
 import About from '../../components/home/About';
 import Certificate from '../../components/home/Certificate';
@@ -32,7 +35,7 @@ export default function Home() {
       <Testimonial />
       <Contact />
       <Blogs />
-      <FAQ />
+      <FAQ faqs={FAQSSectionData} />
     </>
   );
 }
