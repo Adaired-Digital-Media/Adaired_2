@@ -10,7 +10,7 @@ import Grok from '../../../../../public/assets/al/Grok.png';
 import Mistrel from '../../../../../public/assets/al/Mistrel.png';
 import Perpelxity from '../../../../../public/assets/al/Perpelxity.png';
 import UpCity from '../../../../../public/assets/al/UpCity.png';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
 
