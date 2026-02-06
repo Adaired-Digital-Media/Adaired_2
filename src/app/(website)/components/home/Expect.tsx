@@ -7,7 +7,6 @@ import useImageAnimation from '@/@core/hooks/useImageAnimation';
 import expectImg from '../../../../../public/assets/images/home/expect.png';
 import { useState } from 'react';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-
 const Expect = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const [hover, setHover] = useState(null);
