@@ -3,7 +3,7 @@ import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Image from 'next/image';
 import adairedHelpImg from '../../../../../../public/assets/aiseo/adairedHelp.png';
-import chat from '../../../../../../public/assets/icons/chat.svg';
+// import chat from '../../../../../../public/assets/icons/chat.svg';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const AdairedHelp = ({ adairedHelp }: any) => {
@@ -25,15 +25,15 @@ const AdairedHelp = ({ adairedHelp }: any) => {
         </div>
 
         {/* IMPORTANT: relative wrapper */}
-        <div className="relative flex items-start gap-[3rem] pt-[3rem]">
+        <div className="relative flex flex-col lg:flex-row items-start gap-[3rem] pt-[3rem]">
           {/* LEFT IMAGE – STICKY */}
-          <div className="sticky top-[16rem] w-[40%]">
+          <div className="lg:sticky top-[16rem] w-full lg:w-[40%]">
             <div
               ref={ref}
-              className={`relative h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+              className={`relative h-[22rem] md:h-[28rem] lg:h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
             >
               <Image
-                src={adairedHelpImg}
+                src={adairedHelp?.img}
                 fill
                 className="rounded-[20px] object-cover"
                 alt="adairedHelp"
@@ -43,16 +43,16 @@ const AdairedHelp = ({ adairedHelp }: any) => {
           </div>
 
           {/* RIGHT CONTENT – SCROLLS */}
-          <div className="flex w-[55%] flex-col gap-[1rem]">
+          <div className="flex w-full lg:w-[55%] flex-col gap-[1rem]">
             {adairedHelp?.list?.map((item: any, index: number) => (
               <div
                 key={index}
-                className={`rounded-[20px] border border-[#FB9100]/25 bg-[#FFF8F0] p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`rounded-[20px] border border-[#FB9100]/25 bg-[#FFF8F0] p-[1.5rem] transition-all duration-700 flex flex-col items-center lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}
               >
-                <Image src={chat} width={32} height={32} alt="icon" />
+                <Image src={item?.img} width={32} height={32} alt="icon" />
 
                 <p className="pt-[1.5rem] font-bold">{item?.name}</p>
 

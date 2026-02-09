@@ -9,7 +9,7 @@ import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
 
 const KeyStats = ({ keyStats }: any) => {
-  const [activetab, setActiveTab] = useState(0);
+  const [activetab, setActiveTab] = useState(null);
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
@@ -108,24 +108,26 @@ const KeyStats = ({ keyStats }: any) => {
           </div>
         )}
         {keyStats?.code === '03' && (
-          <div className="grid grid-cols-1 gap-[5rem] lg:grid-cols-2">
+          <div className="relative grid grid-cols-1 gap-[5rem] lg:grid-cols-2">
             <div className="mt-7 rounded-[20px]">
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
-                  onClick={() => setActiveTab(index)}
-                  className={`flex cursor-pointer flex-col p-[2rem] ${activetab === index ? 'border-r-[0.5rem] border-[#FB9100] bg-[#FB9100]/20 p-[2rem]' : 'bg-[#FFF8ED]'}`}
+                  className="group flex cursor-pointer flex-col bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
                 >
-                  <div className="flex items-center gap-8 lg:gap-16">
-                    <h2>{`0${index + 1}`}</h2>
+                  <div className="flex items-center gap-8 lg:gap-16 lg:text-left">
+                    <h2 className="transition-all duration-300 ease-in-out">
+                      {`0${index + 1}`}
+                    </h2>
 
-                    <p className={`${activetab === index && 'font-semibold'}`}>
+                    <p className="transition-all duration-300 ease-in-out group-hover:font-semibold lg:text-left">
                       {item.desctioption}
                     </p>
                   </div>
                 </div>
               ))}
             </div>
+
             <div className="relative rounded-[20px] bg-[#FFF8ED]">
               <Image
                 src={keyStats?.img}

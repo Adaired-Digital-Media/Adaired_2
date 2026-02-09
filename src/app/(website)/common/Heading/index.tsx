@@ -212,15 +212,19 @@ const Heading = ({
                     <h1
                       className={`text-center capitalize lg:text-left ${isBgWhite ? 'text-[#ffffff]' : 'text-[#000000]'}`}
                     >
-                      {title} <br></br>
-                      {span}
+                      {title}
+                      <span className="pl-3 font-poppins text-[1.8rem] font-bold leading-10 text-[#FBD04F] md:text-[2.5rem] md:leading-[3rem] lg:text-[2.125rem] lg:leading-[2.8rem] xl:text-[3.75rem] xl:leading-[4.65rem] 1366:text-[2.7rem] 1366:leading-[3.75rem] 1400:text-[2.75rem] 1400:leading-[3.75rem] 1600:text-[3rem] 1600:leading-[4rem] 1680:text-[3rem] 1680:leading-[3.75rem] 3xl:text-[3.75rem] 3xl:leading-[4.65rem]">
+                        {span}
+                      </span>
                     </h1>
                   ) : (
                     <h2
                       className={`text-center capitalize lg:text-left ${isBgWhite ? 'text-[#ffffff]' : 'text-[#000000]'}`}
                     >
-                      {title} <br></br>
-                      {span}
+                      {title}
+                      <span className="pt-[0.25rem] text-center font-poppins text-[1.6rem] font-semibold leading-[2rem] text-[#FBD04F] md:text-[2.25rem] md:leading-[2.75rem] lg:text-left lg:text-[1.8rem] lg:leading-[2.5rem] xl:text-[2.188rem] xl:leading-[3.125rem] 1360:text-[2rem] 1360:leading-[2.6rem] 2xl:leading-[1.6] 3xl:text-[2.188rem]">
+                        {span}
+                      </span>
                     </h2>
                   )}
                 </div>

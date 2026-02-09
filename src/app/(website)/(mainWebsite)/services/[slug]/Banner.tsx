@@ -38,7 +38,10 @@ const Banner = ({ banner }: any) => {
     images[activeIndex] === name;
   const isCenter = true;
   return (
-    <div ref={ref} className="animate-pulse relative w-full pt-[10vh]">
+    <div
+      ref={ref}
+      className="animate-pulse relative h-[100vh] w-full pt-[10vh] md:h-[115vh] lg:h-fit"
+    >
       <Image
         src={hero_banner}
         fill
@@ -57,12 +60,10 @@ const Banner = ({ banner }: any) => {
               >
                 <div className="md:flex` block justify-center justify-items-center gap-3 lg:justify-start lg:justify-items-start">
                   <div className="mt-[0.8rem] !w-[100%] md:mt-[8px] lg:mt-[0.5rem]">
-                    <h1 className="text-center capitalize">
+                    <h1 className="text-center capitalize text-[#FB9108]">
                       {banner?.heading}
                     </h1>
-                    <h1 className="text-center capitalize text-[#FB9100]">
-                      {banner?.label}
-                    </h1>
+                    <h1 className="text-center capitalize">{banner?.label}</h1>
                   </div>
                 </div>
                 <div className={`$ 'pt-[1rem]'}`}>
@@ -172,8 +173,8 @@ const Banner = ({ banner }: any) => {
             <div
               className={`relative mt-[5rem] w-[100%] pt-[0vh] transition-all delay-200 duration-1000 md:pt-[20vh] lg:mt-0 lg:w-[45%] lg:pt-0 xl:w-[45%] ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'} `}
             >
-              <div className="relative h-full">
-                <div className="absolute left-1/2 top-1/2 h-[25rem] w-[35rem] -translate-x-1/2 -translate-y-1/2 1400:h-[18rem] 1400:w-[28rem] 3xl:h-[25rem] 3xl:w-[35rem]">
+              <div className="relative mt-[20vh] h-full md:mt-[0vh]">
+                <div className="absolute left-1/2 top-1/2 h-[20rem] w-[20rem] -translate-x-1/2 -translate-y-1/2 md:h-[25rem] md:w-[35rem] 1400:h-[18rem] 1400:w-[28rem] 3xl:h-[25rem] 3xl:w-[35rem]">
                   <Image
                     src={banner_img_1}
                     fill
@@ -192,9 +193,9 @@ const Banner = ({ banner }: any) => {
                   width={302}
                   height={186}
                   alt=""
-                  className={`absolute h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:top-[25%] ${
+                  className={`absolute top-[-5rem] h-[8rem] w-[12rem] transition-all duration-700 ease-in-out md:top-[-8rem] md:h-[10rem] md:w-[16rem] 1400:top-[25%] 3xl:top-[15%] ${
                     isActive('img4')
-                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-y-[20%] 3xl:1400:translate-y-[50%]'
+                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 translate-y-[20%] scale-105 opacity-100 md:translate-y-[40%] 1400:translate-y-[20%] 3xl:1400:translate-y-[50%]'
                       : 'left-0 top-[25%] z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
                   } `}
                 />
@@ -204,7 +205,7 @@ const Banner = ({ banner }: any) => {
                   width={302}
                   height={186}
                   alt=""
-                  className={`absolute bottom-0 right-[25%] h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:bottom-[5%] 1400:right-[15%] 3xl:bottom-0 3xl:right-[15%] ${
+                  className={`absolute bottom-[-10rem] right-[15%] h-[8rem] w-[12rem] transition-all duration-700 ease-in-out md:bottom-[-16rem] md:h-[10rem] md:w-[16rem] 1400:bottom-[5%] 1400:right-[20%] 3xl:bottom-0 3xl:right-[15%] ${
                     isActive('img3')
                       ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-x-[-50%] 1400:translate-y-[-50%] 3xl:translate-y-[-50%]'
                       : 'z-10 opacity-40'
@@ -215,9 +216,9 @@ const Banner = ({ banner }: any) => {
                   width={388}
                   height={244}
                   alt=""
-                  className={`absolute right-0 top-0 h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:top-[5%] 3xl:right-0 3xl:top-0 ${
+                  className={`absolute right-0 top-[-10rem] h-[8rem] w-[12rem] transition-all duration-700 ease-in-out md:top-[-16rem] md:h-[10rem] md:w-[16rem] 1400:top-[5%] 3xl:right-0 3xl:top-0 ${
                     isActive('img2')
-                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-x-[-50%] 1400:translate-y-[80%] 3xl:translate-y-[100%]'
+                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 translate-y-[80%] scale-105 opacity-100 md:translate-y-[100%] 1400:translate-x-[-50%] 1400:translate-y-[80%] 3xl:translate-y-[100%]'
                       : 'z-10 opacity-40'
                   } `}
                 />

@@ -23,7 +23,7 @@ const AISEOResult = ({ aiseoResult }: any) => {
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
-          <div className="block gap-8 lg:flex">
+          <div className="block gap-[6rem] lg:flex">
             <div
               className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] pr-[10%] lg:w-[42%]' : 'flex w-[100%] items-center justify-center'}`}
             >
@@ -39,31 +39,7 @@ const AISEOResult = ({ aiseoResult }: any) => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-between gap-8 pt-[3rem] lg:flex-row">
-          {/* LEFT IMAGE */}
-
-          {/* <div
-            ref={ref}
-            className={`relative h-[480px] w-full lg:w-[42%] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
-          >
-            <>
-              <Image
-                src={image}
-                fill
-                className="rounded-[20px] object-cover"
-                alt={'image'}
-                priority
-              />
-              <Image
-                src={rocket}
-                width={115}
-                height={123}
-                alt="rocket"
-                className="absolute left-[-1rem] top-[-1rem]"
-              />
-            </>
-          </div> */}
-
+        <div className="flex flex-col justify-between gap-[6rem] pt-[3rem] lg:flex-row">
           <div
             ref={ref}
             className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
@@ -74,22 +50,19 @@ const AISEOResult = ({ aiseoResult }: any) => {
           >
             {/* Main image */}
             <Image
-              src={image}
+              src={aiseoResult?.img}
               fill
               className="rounded-[20px] object-cover"
               alt="image"
               priority
             />
 
+            {!aiseoResult?.isBgColor && (
+              <div className="absolute left-[-1rem] top-[-1rem] h-[75px] w-[70px] sm:h-[95px] sm:w-[90px] lg:h-[123px] lg:w-[115px]">
+                <Image src={rocket} fill alt="rocket" className="object-fill" />
+              </div>
+            )}
             {/* Rocket wrapper */}
-            <div className="absolute left-[-1rem] top-[-1rem] h-[75px] w-[70px] sm:h-[95px] sm:w-[90px] lg:h-[123px] lg:w-[115px]">
-              <Image
-                src={rocket}
-                fill
-                alt="rocket"
-                className="object-contain"
-              />
-            </div>
           </div>
 
           {/* RIGHT ACCORDION */}
@@ -142,7 +115,7 @@ const AISEOResult = ({ aiseoResult }: any) => {
                   >
                     <div className="overflow-hidden">
                       {item?.description?.map((desc: string, i: number) => (
-                        <p key={i} className="my-2 text-[#333]">
+                        <p key={i} className="my-2 text-left text-[#333]">
                           {desc}
                         </p>
                       ))}

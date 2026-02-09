@@ -46,7 +46,7 @@ const DominateAI = ({ getplan }: any) => {
 
           <div className="flex justify-center">
             <SaveAndCancel
-              name="Get Your AI SEO Plan"
+              name="Book a Free Call"
               isIcon={true}
               isBgWhite={true}
               handleClick={() => setOpen(!open)}

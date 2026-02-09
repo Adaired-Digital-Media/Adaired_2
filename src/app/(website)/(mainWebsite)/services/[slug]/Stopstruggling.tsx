@@ -29,7 +29,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
           </h2>
 
           <SaveAndCancel
-            name="Start Your AI SEO Journey Now"
+            name={stopStruggling?.button}
             isBgWhite={true}
             isIcon={true}
             handleClick={() => setOpen(!open)}

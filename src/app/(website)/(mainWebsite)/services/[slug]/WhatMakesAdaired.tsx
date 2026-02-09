@@ -25,11 +25,11 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
-          <div className="flex gap-10">
+          <div className="flex flex-col items-center gap-10 lg:flex-row">
             <div
               className={`${whatMkeDeferent?.description?.length > 0 ? 'w-[50%] pr-[5%]' : 'flex w-[100%] justify-center justify-items-center'}`}
             >
-              <Heading title={whatMkeDeferent?.heading} />
+              <Heading breakIndex={5} title={whatMkeDeferent?.heading} />
             </div>
             <div
               className={`${whatMkeDeferent?.description?.length > 0 ? 'w-[50%]' : 'w-[0%]'}`}
@@ -48,9 +48,9 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                 style={{
                   transitionDelay: `${idx * 120}ms`,
                 }}
-                className={`my-[2rem] flex justify-between rounded-[20px] p-[2rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${isOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'}`}
+                className={`my-[2rem] flex flex-col justify-between gap-10 rounded-[20px] p-[2rem] transition-all duration-700 lg:flex-row lg:gap-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${isOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'}`}
               >
-                <div className="my-auto w-[100%] lg:w-[50%]">
+                <div className="order-2 my-auto w-[100%] lg:order-1 lg:w-[50%]">
                   <h3>{item?.name}</h3>
                   <div className="pt-[1rem]">
                     {item?.description?.map((desc: any) => {
@@ -58,7 +58,7 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                     })}
                   </div>
                 </div>
-                <div className="flex w-[100%] justify-end justify-items-end lg:w-[40%]">
+                <div className="order-1 flex w-[100%] justify-center justify-items-center lg:order-2 lg:w-[40%] lg:justify-end lg:justify-items-end">
                   <Image src={item?.img} alt="if" />
                 </div>
               </div>

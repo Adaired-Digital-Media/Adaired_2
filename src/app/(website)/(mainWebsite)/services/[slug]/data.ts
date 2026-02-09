@@ -13,7 +13,7 @@ import step_4 from '../../../../../../public/assets/aiseo/process/Group 10000058
 import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
 import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
-import leadingTools from '../../../../../../public/assets/leadingTools.png';
+import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
 import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
 import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
 import importantIcon_1 from '../../../../../../public/assets/aiseo/importantIcon_1.svg';
@@ -41,25 +41,109 @@ import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 100
 import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 1000006027.png';
 import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
 import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
-
 import adairedHelp_7 from '../../../../../../public/assets/adairedHelp/Group 1000006065.png';
 import adairedHelp_8 from '../../../../../../public/assets/adairedHelp/Group 1000006045.png';
-import adairedHelp_9 from '../../../../../../public/assets/adairedHelp/Group 1000006049.png';
-import adairedHelp_10 from '../../../../../../public/assets/adairedHelp/Group 1000006048.png';
-import adairedHelp_11 from '../../../../../../public/assets/adairedHelp/Group 1000006053.png';
 import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/White-Hat.png';
 import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/Transparent Reporting.png';
 import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/Continuous Optimization.png';
 import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO Expertise.png';
 import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/Client-Centric.png';
 
+import adairedHelp_icon_1 from '../../../../../../public/assets/adairedHelp/help_icon_1.svg';
+import adairedHelp_icon_2 from '../../../../../../public/assets/adairedHelp/help_icon_2.svg';
+import adairedHelp_icon_3 from '../../../../../../public/assets/adairedHelp/help_icon_3.svg';
+import adairedHelp_icon_4 from '../../../../../../public/assets/adairedHelp/help_icon_4.svg';
+import adairedHelp_icon_5 from '../../../../../../public/assets/adairedHelp/help_icon_5.svg';
+import adairedHelp_icon_6 from '../../../../../../public/assets/adairedHelp/help_icon_6.svg';
+import adairedHelp_icon_7 from '../../../../../../public/assets/adairedHelp/help_icon_7.svg';
+import adairedHelp_icon_8 from '../../../../../../public/assets/adairedHelp/help_icon_8.svg';
+import adairedHelp_icon_9 from '../../../../../../public/assets/adairedHelp/help_icon_9.svg';
+import adairedHelp_icon_10 from '../../../../../../public/assets/adairedHelp/help_icon_10.svg';
+
+import StrugglingImgSEO from '../../../../../../public/assets/images/Struggling.png';
+import StrugglingImgAISEO from '../../../../../../public/assets/aiseo/AISEORESULT.png';
+
+import adaairedHelpSEO from '../../../../../../public/assets/images/adaairedHelp.png';
+import adairedHelpAISEO from '../../../../../../public/assets/aiseo/adairedHelp.png';
+import missing_1 from '../../../../../../public/assets/images/missing_1.png';
+import missing_2 from '../../../../../../public/assets/images/missing_2.png';
+import missing_3 from '../../../../../../public/assets/images/missing_3.png';
+
+// Link building Benefits
+import benefits_1 from '../../../../../../public/assets/images/benefits_1.png';
+import benefits_2 from '../../../../../../public/assets/images/benefits_2.png';
+import benefits_3 from '../../../../../../public/assets/images/benefits_3.png';
+import benefits_4 from '../../../../../../public/assets/images/benefits_4.png';
+import benefits_5 from '../../../../../../public/assets/images/benefits_5.png';
+import benefits_6 from '../../../../../../public/assets/images/benefits_6.png';
+
+import adairedDiff_1 from '../../../../../../public/assets/images/adairedDiff_1.png';
+import adairedDiff_2 from '../../../../../../public/assets/images/abc.png';
+import adairedDiff_3 from '../../../../../../public/assets/images/adairedDiff_3.png';
+import adairedDiff_4 from '../../../../../../public/assets/images/adairedDiff_4.png';
+import adairedDiff_5 from '../../../../../../public/assets/images/adairedDiff_5.png';
+import adairedDiff_6 from '../../../../../../public/assets/images/adairedDiff_6.png';
+
+import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
+import linkServices_3 from '../../../../../../public/assets/images/linkServices_3.png';
+import linkServices_5 from '../../../../../../public/assets/images/linkServices_5.png';
+
+import LinkBuilding from '../../../../../../public/assets/images/linkBuilding.png';
+import adairedHelpImg from '../../../../../../public/assets/aiseo/adairedHelp.png';
+import adairedHelpImgLink from '../../../../../../public/assets/images/benefits_main.png';
+
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
 import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
 import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/WhatIsAuthorityLinkBuilding.png';
+
+export type SectionKey =
+  | 'banner'
+  | 'keyStats'
+  | 'areYouTired'
+  | 'whatareservice'
+  | 'needofservice'
+  | 'importantToBussiness'
+  | 'benefitofAiSeo'
+  | 'serviceResult'
+  | 'notSeeingResult'
+  | 'adairedHelp'
+  | 'buildlinks'
+  | 'industryOrLeadingTools'
+  | 'leadingTools'
+  | 'whatIncluded'
+  | 'ourProcess'
+  | 'whatMissing'
+  | 'stopStruggling'
+  | 'whatMkeDeferent'
+  | 'leadingToolsForPerformence'
+  | 'getplan'
+  | 'faqData'
+  | 'readyToStart';
+
 export const SERVICES_DATA = {
-  'search-engine-optimization': {
+  'seo-company-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'importantToBussiness',
+      'serviceResult',
+      'notSeeingResult',
+      'benefitofAiSeo',
+      'adairedHelp',
+      'industryOrLeadingTools',
+      'leadingTools',
+      'whatIncluded',
+      'stopStruggling',
+      'ourProcess',
+      'whatMkeDeferent',
+      'leadingToolsForPerformence',
+      'getplan',
+      'faqData',
+      'readyToStart',
+    ] satisfies SectionKey[],
     banner: {
       isCenter: false,
       isVisible: true,
@@ -231,67 +315,28 @@ export const SERVICES_DATA = {
         },
       ],
     },
-    compSeoServices: {
-      isVisible: true,
-      heading:
-        'List of comprehensive SEO Services that Drive Revenue and Traffic',
-      list: [
-        {
-          name: 'AI SEO',
-          description: [
-            `Our AI SEO services leverage artificial intelligence to enhance search engine optimization strategies with precision and efficiency. 
-            By analyzing large datasets, we identify keyword opportunities, optimize content, enhance technical performance, and predict user behavior. 
-            We do this to help our clients to adapt quickly to algorithm updates, scale SEO efforts, and achieve higher rankings with smarter, data-driven decisions.`,
-          ],
-        },
-        {
-          name: 'Local SEO',
-          description: [
-            `Our Local SEO helps businesses connect with customers in their immediate geographic area. 
-            It focuses on optimizing Google Business Profiles, local keywords, map listings, reviews, and citations to improve visibility in local search results. 
-            Our effective local SEO drives foot traffic, phone inquiries, and leads, making it essential for service-based and location-focused businesses. `,
-          ],
-        },
-        {
-          name: 'National SEO',
-          description: [
-            `Our National SEO services are designed for businesses targeting audiences across an entire country. 
-            It involves competitive keyword targeting, authoritative content creation, strong backlink profiles, and optimized website architecture. 
-            This approach builds brand authority, increases nationwide search visibility, and delivers consistent organic traffic in highly competitive markets and industries.`,
-          ],
-        },
-        {
-          name: 'E-commerce SEO',
-          description: [
-            `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience. 
-            We deploy a strong e-commerce SEO strategy that increases conversions, enhances discoverability, and supports long-term growth by reducing reliance on paid advertising. `,
-          ],
-        },
-      ],
-    },
     whatIncluded: {
       isVisible: true,
       heading: 'What’s Included in Our SEO Services',
       list: [
         {
-          icon: seo_tool_1,
+          icon: seo_tool_3,
           title: 'Keyword Research and Analysis',
           description: [
-            `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services. `,
+            `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
             `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
           ],
         },
         {
-          icon: seo_tool_2,
+          icon: seo_tool_1,
           title: 'On-Page SEO Optimization',
           description: [
             `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
-            `
-            On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords. `,
+            `On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords.`,
           ],
         },
         {
-          icon: seo_tool_3,
+          icon: seo_tool_2,
           title: 'Technical SEO Improvements',
           description: [
             `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
@@ -318,13 +363,12 @@ export const SERVICES_DATA = {
           icon: seo_tool_6,
           title: 'SEO Monitoring and Reporting',
           description: [
-            `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved. `,
-            `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts. `,
+            `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved.`,
+            `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts.`,
           ],
         },
       ],
     },
-
     ourProcess: {
       isVisible: true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
@@ -389,6 +433,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       heading: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
       bgImage: '',
+      img: StrugglingImgSEO,
       description: [
         'Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. We help your business stay visible, no matter how the search changes.',
         `With the help of our data-driven insights, strategic approach, and commitment to performance, we help your business emerge as a premier seo company.`,
@@ -441,29 +486,33 @@ export const SERVICES_DATA = {
       heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
-      bgImage: leadingTools,
+      bgImage: leadingToolsImg,
     },
     leadingTools: {
       isVisible: true,
       heading: 'Powered By Leading Brands From All Around The World',
       description:
         'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
-      bgImage: leadingTools,
+      bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
+      isGapTop: true,
       isVisible: true,
       heading:
-        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+        'Powered By Leading Tools For Maximum Performance and Efficiency',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
     },
     adairedHelp: {
       isVisible: true,
+      img: adaairedHelpSEO,
       heading:
         'List of comprehensive SEO Services that Drive Revenue and Traffic',
+      mainImage: adairedHelpImg,
       list: [
         {
+          img: adairedHelp_icon_1,
           name: 'AI SEO',
           description: [
             `Our AI SEO services leverage artificial intelligence to enhance search engine optimization strategies with precision and efficiency. 
@@ -472,6 +521,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          img: adairedHelp_icon_2,
           name: 'Local SEO',
           description: [
             `Our Local SEO helps businesses connect with customers in their immediate geographic area. 
@@ -480,6 +530,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          img: adairedHelp_icon_3,
           name: 'National SEO',
           description: [
             `Our National SEO services are designed for businesses targeting audiences across an entire country. 
@@ -488,6 +539,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          img: adairedHelp_icon_4,
           name: 'E-commerce SEO',
           description: [
             `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience. 
@@ -579,6 +631,7 @@ export const SERVICES_DATA = {
       subtitle: '',
       title: 'Claim Your Free Audit Before Competitors Do!',
       description: `Spot problems, improve rankings, and get more traffic at no cost.`,
+      button: 'Get Your Free Website Audit!',
       bgImg: stop_struggle2,
     },
     getplan: {
@@ -691,9 +744,29 @@ export const SERVICES_DATA = {
       ],
     },
   },
-  'ai-search-engine-optimization': {
+  'ai-seo-company-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'needofservice',
+      'benefitofAiSeo',
+      'serviceResult',
+      'notSeeingResult',
+      'adairedHelp',
+      'industryOrLeadingTools',
+      'whatIncluded',
+      'stopStruggling',
+      'leadingTools',
+      'ourProcess',
+      'whatMkeDeferent',
+      'getplan',
+      'faqData',
+      'readyToStart',
+    ] satisfies SectionKey[],
     banner: {
       isCenter: false,
+      isVisible: true,
       heading: 'Where AI Meets',
       label: 'High-Performance SEO',
       span: `Future-ready SEO solutions by Adaired, designed to outrank and outgrow`,
@@ -770,7 +843,7 @@ export const SERVICES_DATA = {
           desctioption: `The rise of artificial intelligence-powered search tools and large language models has caused the searches to deliver more dynamic, multimodal responses without requiring users click through to websites. This has increased the need for businesses to evolve alongside these LLM and Google AI advancements in order to stay relevant and visible.`,
         },
         {
-          desctioption: ` To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
+          desctioption: `To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
         },
       ],
     },
@@ -833,7 +906,7 @@ export const SERVICES_DATA = {
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
       description: null,
       isBgColor: false,
-
+      img: StrugglingImgAISEO,
       list: [
         {
           img: aiseoresult,
@@ -882,7 +955,7 @@ export const SERVICES_DATA = {
       heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
-      bgImage: leadingTools,
+      bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
       isVisible: false,
@@ -902,10 +975,12 @@ export const SERVICES_DATA = {
     },
     adairedHelp: {
       isVisible: true,
+      img: adairedHelpAISEO,
       heading: 'How Can Adaired Help You With AI SEO Services?',
+      mainImage: adairedHelpImg,
       list: [
         {
-          img: aiseoresult,
+          img: adairedHelp_icon_5,
           name: 'AI-Led SEO Strategies Tailored to Your Business Goals',
           description: [
             'Adaired designs AI-powered SEO strategies that work exactly in line with your business goals. By analyzing industry trends, competitor actions, and search results of users, ',
@@ -913,7 +988,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult_2,
+          img: adairedHelp_icon_6,
           name: 'Predictive Keyword Research That Stays Ahead of Trends',
           description: [
             'Our artificial intelligence-based keyword intelligence transcends normal research. Adaired identifies emerging search trends, high-intent keywords, and future-need keywords before they get competitive. ',
@@ -921,7 +996,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult_3,
+          img: adairedHelp_icon_7,
           name: 'Search Intent Optimization for Higher Conversions',
           description: [
             `Adaired uses AI to decode the user's intent in each search query. We optimize content and pages to align with the informational, navigational, and transactional intents. This enhances interaction, `,
@@ -929,7 +1004,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult_4,
+          img: adairedHelp_icon_8,
           name: 'AI-Driven Content Strategy Focused on Topical Authority',
           description: [
             'Adaired does not focus only on content optimization but creates a topical authority with the help of AI. We detect content gaps, cluster opportunities, and semantic links throughout your niche.',
@@ -937,7 +1012,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult_3,
+          img: adairedHelp_icon_9,
           name: 'Intelligent Technical SEO for Maximum Performance',
           description: [
             `Adaired is an AI-powered tool that reveals and prioritizes technical SEO problems that directly influence the rankings. From site speed and crawlability to indexing and Core Web Vitals, we fix what matters most first.`,
@@ -945,7 +1020,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult_4,
+          img: adairedHelp_icon_10,
           name: 'Continuous AI Monitoring and Data-Driven Optimization',
           description: [
             'SEO is never static. Adaired relies on AI-based monitoring to monitor rankings, traffic modifications, and algorithm adjustments in real-time. ',
@@ -1134,6 +1209,7 @@ export const SERVICES_DATA = {
       title:
         'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
       description: ``,
+      button: 'Start Your AI SEO Journey Now',
       bgImg: stop_struggle,
     },
     getplan: {
@@ -1236,9 +1312,29 @@ brand appears in AI summaries and citations.`,
       ],
     },
   },
-  'link-building': {
+  'link-building-services-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'areYouTired',
+      'whatareservice',
+      'needofservice',
+      'serviceResult',
+      'whatMissing',
+      'stopStruggling',
+      'adairedHelp',
+      'buildlinks',
+      'benefitofAiSeo',
+      'whatIncluded',
+      'ourProcess',
+      'whatMkeDeferent',
+      'getplan',
+      'faqData',
+      'readyToStart',
+    ] satisfies SectionKey[],
     banner: {
       isCenter: true,
+      isVisible: true,
       heading: 'Grow Your Website ',
       label: 'Traffic with high-quality links',
       span: ``,
@@ -1249,7 +1345,7 @@ brand appears in AI summaries and citations.`,
     keyStats: {
       isVisible: true,
       code: '03',
-      heading: 'Key Stats Related to AI SEO',
+      heading: 'Key Stats on Authority Link Building ',
       isCard: false,
       img: keyStatsImg,
       list: [
@@ -1282,7 +1378,8 @@ brand appears in AI summaries and citations.`,
     whatareservice: {
       isVisible: true,
       img: WhatIsAuthorityLinkBuilding,
-      heading: 'What Is Authority Link Building?',
+      heading: 'What Is Authority ',
+      span: 'Link Building?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
@@ -1295,11 +1392,13 @@ brand appears in AI summaries and citations.`,
       ],
       button: 'Start Building Today',
     },
+
     importantToBussiness: {
-      isVisible: false,
+      isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
       data: [],
     },
+
     needofservice: {
       isVisible: true,
       isBgCornerImg: true,
@@ -1309,70 +1408,121 @@ brand appears in AI summaries and citations.`,
           desctioption: `For businesses aiming to grow sustainably online, authority link building is essential. Search engines prioritize websites that demonstrate trust and expertise, and authoritative backlinks play a critical role in this evaluation. `,
         },
         {
-          desctioption: ` Through enhancing the authority of your website, you are in a better position to be ranked better, gain steady traffic, enhance brand recognition that is useful in making your business shine in competitive markets, and turn the visibility into revenue.`,
+          desctioption: `Through enhancing the authority of your website, you are in a better position to be ranked better, gain steady traffic, enhance brand recognition that is useful in making your business shine in competitive markets, and turn the visibility into revenue.`,
         },
       ],
     },
+
+    // NEW
     benefitofAiSeo: {
       isVisible: true,
-      heading: 'What are the Benefits of AI SEO Services?',
-      description: [
-        `Modern search algorithms are growing exponentially and becoming more complex. Google now uses more than 200 ranking factors and thousands of algorithm adjustments annually. `,
-        `Users encounter multimodal result blocks, AI summaries, and conversational interfaces before they can actually reach traditional organic listings in the search engine result pages.  This has increased the need for AI SEO because it blends the strengths of classic SEO with the realities of AI-powered retrieval.`,
-      ],
+      heading: 'How Adaired Helps You With Authority Link Building Services',
+      description: [``],
       list: [
         {
-          name: 'Smarter Keyword Targeting',
+          name: 'Strategic Link Building Based on Your Business Goals',
           description: [
-            `AI-powered SEO goes beyond basic keyword research by analyzing search intent, competition, and user behavior at scale. It identifies high-value, conversion-driven keywords your audience is actively searching for, including long-tail and emerging opportunities. `,
-            `This ensures your website ranks for terms that generate meaningful traffic, qualified leads, and real business growth.`,
+            `Adaired begins your authority link-building campaigns by knowing your business goals, your target market, and even your competitors. 
+            This strategic approach ensures backlinks are built for relevance, authority, and impact.`,
+            `By aligning the acquisition of links with your own SEO and growth objectives, we can help push you towards meaningful rankings, traffic, and long-term digital success.`,
           ],
         },
         {
-          name: 'Faster SEO Results',
+          name: 'High-Authority, Niche-Relevant Link Placements',
           description: [
-            `AI automates time-intensive SEO processes such as audits, content optimization, and performance tracking. Processing data in real time, it enables faster decision-making and quicker implementation of improvements. `,
-            `This reduces the waiting period typically associated with traditional SEO, helping businesses see ranking, traffic, and engagement gains sooner.`,
+            `We focus exclusively on acquiring backlinks from high-authority websites that are relevant to your industry. Adaired takes time to evaluate the domain strength, traffic quality, and editorial standards before outreach.`,
+            `This ensures every link adds real SEO value, enhances your domain authority, and adds your brand to trustworthy sites that your audience already spends time on.`,
           ],
         },
         {
-          name: 'Data-Driven Content Optimization',
+          name: 'White-Hat and Google-Compliant Practices',
           description: [
-            `AI analyzes top-ranking pages across search engines to understand exactly what performs best. It provides precise recommendations on content structure, keyword placement, internal linking, readability, and topical depth.`,
-            `This ensures every piece of content is optimized to align with search engine algorithms and user intent, increasing visibility and engagement.`,
+            `Adaired follows strictly ethical, white-hat link-building practices that align with Google’s guidelines. We do not create spammy networks and risky strategies that can hurt your rankings.`,
+            `Rather, our team establishes connections in a natural way by creating content-based outreach, partnerships, and authentic placement, safeguarding your site and delivering sustainable SEO growth.`,
           ],
         },
         {
-          name: 'Continuous Algorithm Adaptation',
+          name: 'Data-Driven Outreach and Relationship Building',
           description: [
-            `Search engine algorithms evolve constantly, making static SEO strategies ineffective. AI continuously monitors ranking fluctuations, algorithm updates, and performance signals, allowing strategies to adapt automatically.`,
-            `This proactive optimization approach helps maintain stable rankings, protects against sudden traffic drops, and keeps your website competitive in changing search environments.`,
+            `Our authority link-building services are powered by data and genuine relationships. Adaired applies the latest SEO tools that would recognize the link opportunities and personalized outreach to get placements.`,
+            `Through developing long term relationships with publishers and editors, we always secure quality backlinks that are hard to replicate by the competition.`,
           ],
         },
         {
-          name: 'Scalable SEO Without Extra Costs',
+          name: 'Transparent Reporting and Measurable Results',
           description: [
-            `AI SEO services enable businesses to optimize hundreds or thousands of pages efficiently without increasing operational overhead. From technical fixes to content enhancements, AI handles large-scale SEO tasks quickly and accurately. `,
-            `This scalability allows growing businesses to expand their digital presence while maintaining consistent optimization and cost efficiency.`,
+            `Adaired believes in complete transparency. You get in-depth reports on the links acquired, domain statistics, use of anchor words, and performance change.`,
+            `This will easily enable you to monitor progress and ROI. Through our reporting, you will never fail to understand the role played by authority link building in the rankings, traffic, and the general growth of the business.`,
           ],
         },
         {
-          name: 'Higher ROI Through Predictive Insights',
+          name: 'Scalable Solutions for Businesses of All Sizes',
           description: [
-            `AI uses predictive analytics to identify future ranking opportunities, content gaps, and user behavior trends. By focusing SEO efforts on strategies with the highest potential return, businesses reduce wasted spend and improve performance.`,
-            `The result is a more efficient SEO investment that delivers sustained traffic, leads, and measurable ROI.
-`,
+            `Adaired provides scalable authority link-building services that meet your demands.`,
+            `Our custom plans have the ability to keep up with your business's changes so that you can grow the link acquisition safely and effectively without sacrificing quality, relevancy, and long-term search engine optimization power.`,
           ],
         },
       ],
     },
-    serviceResult: {
+
+    // NEW
+    whatIncluded: {
       isVisible: true,
+      heading: 'Link Building Services That We Offer At Adaired',
+      description: ``,
+      list: [
+        {
+          icon: linkServices_1,
+          title: 'Citation Building',
+          description: `Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. 
+            We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility. 
+            Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: linkServices_1,
+          title: 'Guest Posts',
+          description: `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority. 
+            Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: linkServices_3,
+          title: 'Press Releases',
+          description: `Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention. 
+            We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`,
+          linkHref: '#',
+        },
+
+        {
+          icon: linkServices_3,
+          title: 'Niche Edits',
+          description: `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site. 
+            Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
+          linkHref: '#',
+        },
+
+        {
+          icon: linkServices_5,
+          title: 'Articles',
+          description: `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.  
+            Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
+          linkHref: '#',
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
       heading:
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
       description: null,
       isBgColor: false,
-
+      img: '',
       list: [
         {
           img: aiseoresult,
@@ -1408,6 +1558,7 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
+
     notSeeingResult: {
       isVisible: true,
       heading: 'Not Seeing Results? ',
@@ -1420,10 +1571,10 @@ brand appears in AI summaries and citations.`,
       heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
-      bgImage: leadingTools,
+      bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
-      isVisible: false,
+      isVisible: true,
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
@@ -1438,276 +1589,284 @@ brand appears in AI summaries and citations.`,
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
     },
+
+    // NEW
     adairedHelp: {
       isVisible: true,
-      heading: 'How Can Adaired Help You With AI SEO Services?',
+      heading: 'Benefits of Authority Link Building Services',
+      img: adairedHelpImgLink,
       list: [
         {
-          img: aiseoresult,
-          name: 'AI-Led SEO Strategies Tailored to Your Business Goals',
+          img: benefits_1,
+          name: 'Improved Search Engine Rankings',
           description: [
-            'Adaired designs AI-powered SEO strategies that work exactly in line with your business goals. By analyzing industry trends, competitor actions, and search results of users, ',
-            `we develop tailor-made roadmaps to achieve sustainable rankings, qualified traffic, ensuring your SEO efforts contribute directly to revenue, not just visibility.`,
+            `Link-building services assist your site in receiving links from high-domain and reliable sources. Search engines interpret these links as recommendations, significantly boosting your ranking potential.`,
+            `The higher the authority signals, the higher the chances your pages will rank competitive keywords, resulting in increased visibility and organic growth that continues to grow over time.`,
           ],
         },
         {
-          img: aiseoresult_2,
-          name: 'Predictive Keyword Research That Stays Ahead of Trends',
+          img: benefits_2,
+          name: 'Increased Organic Traffic',
           description: [
-            'Our artificial intelligence-based keyword intelligence transcends normal research. Adaired identifies emerging search trends, high-intent keywords, and future-need keywords before they get competitive. ',
-            `This is a visionary strategy that will enable your brand to rank higher, capture traffic earlier, and have a sustained advantage in a constantly changing search environment.`,
+            `The excellent quality of the backlinks is not only beneficial to the ranking, but they also lead to the referral traffic of the relevant audiences. Authority link-building services place your brand on platforms your potential customers already trust.`,
+            `This leads to regular, high-intent traffic who are more inclined to consume your content, browse your products and services, and become good leads.`,
           ],
         },
         {
-          img: aiseoresult_3,
-          name: 'Search Intent Optimization for Higher Conversions',
+          img: benefits_3,
+          name: 'Enhanced Brand Credibility and Trust',
           description: [
-            `Adaired uses AI to decode the user's intent in each search query. We optimize content and pages to align with the informational, navigational, and transactional intents. This enhances interaction, `,
-            `minimizes bounces and maximizes conversions- to assist your site in capturing visitors with better chances of taking constructive action.`,
+            `Being featured on authoritative websites strengthens your brand’s reputation. Trust is established naturally when users perceive your business as being related to esteemed publications or leaders in the industry.`,
+            `Authority Link building services are useful in making your brand an expert in your business niche, and customers feel more comfortable using your service or products over competitors.`,
           ],
         },
         {
-          img: aiseoresult_4,
-          name: 'AI-Driven Content Strategy Focused on Topical Authority',
+          img: benefits_4,
+          name: 'Long-Term SEO Value',
           description: [
-            'Adaired does not focus only on content optimization but creates a topical authority with the help of AI. We detect content gaps, cluster opportunities, and semantic links throughout your niche.',
-            `This approach helps search engines recognize your brand as an industry expert, improve your ranking on a variety of keywords, and make this search better than a content win of a short-term nature.`,
+            `Unlike paid ads or short-term tactics, authority backlinks deliver long-lasting SEO benefits. When acquired, these links do not short-livedly benefit your site in terms of authority and rankings.`,
+            `The professional link-building services make sure that the links are posted in a proper manner, which is ethical and strategically done. This leads to sustained growth and ensures that the site is not subject to algorithm penalties.`,
           ],
         },
         {
-          img: aiseoresult_3,
-          name: 'Intelligent Technical SEO for Maximum Performance',
+          img: benefits_5,
+          name: 'Competitive Advantage in Your Industry',
           description: [
-            `Adaired is an AI-powered tool that reveals and prioritizes technical SEO problems that directly influence the rankings. From site speed and crawlability to indexing and Core Web Vitals, we fix what matters most first.`,
-            `We ensure your website loads fast, remains accessible, and is optimized both by users and search algorithms.`,
+            `Authority link building gives your business an edge in the competitive markets.  While competitors rely on basic SEO, high-quality backlinks strengthen your domain faster and more effectively.`,
+            `Using the professional service of link building, your site will receive greater authority signals, which will enable you to rank better than your rivals in a search engine and gain a larger market share.`,
           ],
         },
         {
-          img: aiseoresult_4,
-          name: 'Continuous AI Monitoring and Data-Driven Optimization',
+          img: benefits_6,
+          name: 'Better ROI Than Traditional Marketing',
           description: [
-            'SEO is never static. Adaired relies on AI-based monitoring to monitor rankings, traffic modifications, and algorithm adjustments in real-time. ',
-            `This allows us to continuously refine strategies, take advantage of new opportunities, making your brand competitive, strong, and constantly increasing in the search results.`,
+            `Authority link-building services offer a higher return on investment compared to many traditional marketing channels. Instead of short-lived exposure, backlinks generate ongoing traffic, brand visibility, and SEO value.`,
+            `With a strategic approach like Adaired’s, each link contributes to measurable growth, making link building a cost-effective digital marketing investment.`,
           ],
         },
       ],
     },
+
+    // NEW
+    buildlinks: {
+      isVisible: true,
+      img: LinkBuilding,
+      heading: 'Build Links That Work for Your Business in',
+      span:"2026 and Beyond",
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [],
+      button: 'Get a Free Audit ',
+    },
+
+    // NEW
     whatMkeDeferent: {
       isVisible: true,
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
         {
-          img: meke_derefent,
-          name: 'AI-First SEO Built For Modern Search',
+          img: adairedDiff_1,
+          name: 'Links That Build Real Authority',
           description: [
-            `Adaired pursues an AI-first strategy of SEO, which is how today's search engines operate. The search trends, user intent, and the ranking changes are analysed and processed by our AI tools in real time. `,
-            `It enables us to develop more intelligent strategies that are also fast-adaptable and make your site visible and competitive in AI-driven search results.`,
+            `Adaired focuses on authoritative and niche-specific backlinks rather than pursuing high quantities. Every link is evaluated for domain strength, traffic quality, relevance, and editorial.`,
+            `This quality-first approach ensures the long-term  SEO value, protects your website from penalties, and generates sustainable growth in your ranking, as opposed to short-lived spikes.`,
           ],
         },
         {
-          img: meke_derefent_2,
-          name: 'SEO Focused on Real Business Growth',
+          img: adairedDiff_2,
+          name: '100% White-Hat & Safe',
           description: [
-            'We don’t focus only on rankings. SEO at Adaired is meant to deliver actual performance, increased traffic, improved leads, and increased conversions. ',
-            `Each strategy is tied to your business objectives, and, therefore, the SEO activities contribute to the development, income, and overall prosperity, rather than to the ranking positions.`,
+            `Our web building policies align well with the Google Webmaster Policy. We do not use PBNs, link farms, or automation.`,
+            `Our efforts are instead centered on real outreach, editorial placements, and relationship-based link acquisition, keeping your site secure as you gain trust, authority, and search engine credibility in the long term.`,
           ],
         },
         {
-          img: meke_derefent_3,
-          name: 'Custom SEO Strategies, No Templates',
+          img: adairedDiff_3,
+          name: 'Niche-Relevant Placements',
           description: [
-            `Adaired never uses one-size-fits-all SEO plans. We develop tailor-made plans that suit your industry, your target market, competition, and objectives. `,
-            `This customized strategy will see your site receive all it requires to perform better, rather than applying generic strategies that will produce poor performance.`,
+            `Unlike generic providers, Adaired builds links within your exact industry and content ecosystem. All the backlinks are contextually situated on the appropriate pages, which naturally align with your brand.`,
+            `This relevance enhances the authority, the quality of referral traffic, and signals stronger trust to search engines.`,
           ],
         },
         {
-          img: meke_derefent_4,
-          name: 'Content That Works for AI and People',
+          img: adairedDiff_4,
+          name: 'Clear Reporting, Real Results',
           description: [
-            'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our professionals make sure that it remains straightforward, practical, and comprehensible. ',
-            `This translates to an increase in rankings, improved engagement, and consequently converting.`,
+            `We believe in complete transparency. Adaired offers reports that display live links, use of anchor texts, domain measures, traffic, and placement URLs.`,
+            `You always know where your links are placed, why they matter, and how they contribute to your SEO goals.`,
           ],
         },
         {
-          img: meke_derefent_4,
-          name: 'Proactive SEO That Stays Ahead of Changes',
+          img: adairedDiff_5,
+          name: 'Fully Customized Strategies',
           description: [
-            `The search engines change constantly, and Adaired stays ahead of them. Our AI tracks performance changes, updates, and competitor activities in real time.`,
-            ` This means we can do something before it is too late to safeguard your rankings and identify new ways of growing ahead of others.`,
+            `No two businesses are the same, and neither are our link-building campaigns.  Adaired develops unique strategies relevant to your interests, competition, industry, and existing backlink profile.`,
+            `This personalized strategy ensures effective acquisition of links that will serve your stage of growth, whether you’re scaling or stabilizing rankings.`,
           ],
         },
         {
-          img: meke_derefent_4,
-          name: 'Clear Reporting and Complete Transparency',
+          img: adairedDiff_6,
+          name: 'SEO-Led Link Building',
           description: [
-            'Adaired believes in honest communication. We provide simple, easy-to-follow reports that reveal what is working and what is not.  ',
-            `With AI-powered tracking and clear insights, you always know how SEO is impacting your business and where your growth is coming from.`,
+            `We identify that backlinks are aligned with the intent of the keywords, site architecture, and the overall performance of the search engine optimization.`,
+            `This integrated approach ensures every link contributes to stronger rankings, improved authority, and measurable business impact.Adaired’s link building is guided by experienced SEO strategists, not just outreach specialists.`,
           ],
         },
       ],
     },
+
+    // NEW
     ourProcess: {
       isVisible: true,
       subtitle: 'Our Process',
-      title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
+      title:
+        'Our Strategic Link Building Process Focused On Building Lasting Authority',
       span: '',
-      description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
+      description: ``,
       services: [
         {
           icon: step,
-          title: 'GEO Discovery & Audit',
+          title: 'Website & Competitor Analysis',
           description: [
-            `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
-            `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
+            `We start with the review of your current backlink profile, domain authority, and performance in terms of keywords. 
+            Adaired also researches your best competition in order to uncover gaps in links and high-value opportunities.`,
+            `This evidence-based methodology assists us in forming a robust platform for a link-building plan that provides quantifiable and competitive outcomes.`,
           ],
         },
         {
           icon: step_2,
-          title: 'Multiplatform Strategy',
+          title: 'Strategy & Goal Alignment',
           description: [
-            `We create a custom strategy that targets the most relevant AI platforms, including Gemini, Perplexity, ChatGPT, and more. `,
-            `By aligning content, keywords, and technical SEO with platform-specific requirements, we increase AI visibility, drive engagement, and make your brand discoverable where high-intent users look.`,
+            `Looking at what we have learned in our analysis, we develop a tailor-made authority link-building strategy that is in tandem with your business objectives.`,
+            `Be it rankings or traffic, brand visibility, we establish the type of links, target pages, and anchor text strategy so that we can have long-term and seamless growth in SEO.`,
           ],
         },
         {
           icon: step_3,
-          title: 'GEO and SEO Implementation',
+          title: 'Prospecting High-Authority Websites',
           description: [
-            `Our team implements precise GEO-targeted SEO strategies to improve your visibility, rankings, and engagement across search and AI-driven platforms.`,
-            `We handle everything, from optimizing your site for local and global searches to maintaining authority and ongoing performance—delivering quick wins and long-term growth without burdening your team.`,
+            `Highly authoritative, niche-relevant sites are identified and qualified by our team on the basis of rigid criteria like the domain strength, organic traffic, and editorial quality.`,
+            `Adaired ensures each prospect meets our quality standards, guaranteeing that every backlink adds real value and strengthens your website’s overall authority.`,
           ],
         },
         {
           icon: step_4,
-          title: 'GEO Content Optimization',
+          title: 'Content Creation & Outreach',
           description: [
-            `To improve rankings on LLM-powered platforms, we employ AI-focused keywords, structured data, and technical optimization methods. `,
-            `By making your company easier to find online, we improve discoverability, relevance, and engagement, ensuring that AI search engines recognize your content as authoritative, useful, and highly relevant to user queries.`,
+            `We produce premium and value-oriented content targeting every placement opportunity. Through targeted targeting, we reach out to editors, bloggers, and publishers to earn natural placements of links with them.`,
+            `This moral strategy will establish good relations and will make sure that your links will be arranged in the context of meaningful and interesting information.`,
           ],
         },
         {
           icon: step_5,
-          title: 'Implementation and Monitoring',
+          title: 'Placement and Quality Assurance',
           description: [
-            `We constantly monitor AI visibility, analyze search analytics, and track competitors to make recommendations. `,
-            `This ongoing oversight ensures that your content is discoverable, competitive, and authoritative, allowing your brand to respond quickly to AI search trends while still remaining a trusted source for users.`,
+            `When connections have been established, Adaired conducts extensive quality inspections to ensure that everything is in the right place, is relevant, and has been indexed.`,
+            `We verify anchor text usage, do-follow attributes, and that the content is relevant to the backlink, and that every backlink is used according to an SEO best practice and will have a positive impact on your ranking.`,
           ],
         },
         {
           icon: step_5,
-          title: 'Reporting and Ongoing Refinement',
+          title: 'Reporting, Optimization & Scaling.',
           description: [
-            `We provide monthly reports detailing AI visibility improvements, identifying new growth opportunities, and guiding ongoing SEO and GEO strategy refinements.`,
-            `We ensure your brand's sustainable growth, increased discoverability, and authoritative positioning across AI-driven search platforms by constantly analyzing performance and adjusting tactics.`,
+            `You will get clear reports of purchased links, metrics, and performance influence. Adaired constantly measures performance, optimizes strategy, and expands link-building activities according to the best results.`,
+            `This continuous optimization guarantees long term growth and the highest ROI in your authority link-building campaign.`,
           ],
         },
       ],
     },
+
+    // NEW
+    whatMissing: {
+      isVisible: true,
+      heading:
+        'What Your Business Could Be Missing And How Link Building Can Help?',
+      list: [
+        {
+          icon: missing_1,
+          title: 'Lack Of Search Engine Trust',
+          description: [
+            `Your company could have a well-designed website, useful content, and good products or services, yet you might still fail to rank in search results. The other missing is usually authority.`,
+            `Lack of high-quality backlinks from reputable websites means search engines are reluctant to rank your business higher than competitors, narrowing your visibility and growth prospects online.`,
+          ],
+        },
+        {
+          icon: missing_2,
+          title: 'Poor Industry Authority',
+          description: [
+            `A low backlink profile may result in poor ranking, unstable organic traffic, and reduced brand exposure. Despite on-page SEO implementation, your website may remain buried in search results.`,
+            `This implies that you have lost opportunities to reach customers who are actively seeking solutions that you provide.`,
+          ],
+        },
+        {
+          icon: missing_3,
+          title: 'How Authority Link Building Solves the Problem',
+          description: [
+            `Authority link building strengthens your website’s credibility by earning backlinks from reputable, relevant sources.`,
+            `These links act as trust signals for search engines, which enhance rankings and increase organic traffic. Over time, your business would become more visible, have qualified leads, and have a long-term online authority that is supportive of long term success.`,
+          ],
+        },
+      ],
+    },
+
+    // NEW
     stopStruggling: {
       isVisible: true,
       subtitle: '',
       title:
-        'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
+        'Maximize Your Online Presence With The Best Link Building Services',
+      button: 'Get Started Now',
       description: ``,
       bgImg: stop_struggle,
     },
+
+    // NEW
     getplan: {
-      isVisible: true,
+      isVisible: false,
       isLabel: false,
-      subtitle: 'Boost Traffic Today',
-      title: 'Dominate AI Search Today',
-      description: `Get a custom plan to optimize for AI-driven results: structured data,
-semantic content, answer-ready copy, and technical SEO—ensuring your
-brand appears in AI summaries and citations.`,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
+
+    // NEW
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions and Their Answers',
-      description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
+      title: 'Frequently Asked Questions on Authority Link Building Services',
+      description: ``,
       list: [
         {
-          title: 'Why is Generative AI SEO important for my business?',
+          title: 'Why is link building important?',
           description:
-            'AI is changing how people locate and learn. Generative AI search engines are becoming more popular, and businesses must adapt to appear in these AI-powered results. Generative AI SEO makes your brand more visible and trustworthy in AI systems, giving you a competitive advantage.',
-          bgColor: '#FFF4F3',
-          rating: 5,
+            'High-quality link building is a process of acquiring hyperlinks from other sources/websites to your website. It helps in improving your search rankings, driving referral traffic and building domain authority. ',
         },
         {
-          title: 'How long does it take to see results from AI SEO?',
+          title: `What is Adaired's approach towards link building?`,
           description:
-            'AI SEO is a long-term approach. You may see an increase in visibility and engagement within 3-6 months, with more significant results over time as AI algorithms evolve and these systems come to trust and reference your content.',
-          bgColor: '#D7EBFF',
-          rating: 5,
+            'At Adaired, we provide our clients with ethical and high-quality links to authoritative websites that are relevant to their niche/industry.',
         },
         {
-          title: 'Do I need to change the way I create content for AI SEO?',
-          description: `Yes, AI SEO necessitates a change in how you create content. Instead of focusing solely on keywords, you'll need to create content that matches user intent, is contextually relevant, and can be easily understood by AI engines. This may entail optimizing your content structure, implementing entity recognition, and incorporating AI-friendly data markup.`,
-          bgColor: '#E1F2E2',
-          rating: 5,
-        },
-        {
-          title: 'Can Generative AI SEO benefit any business?',
-          description:
-            'Absolutely! Our generative AI SEO services can help your small or large business rank in AI-powered search results. Businesses must remain competitive as search engines and customer behavior evolve alongside artificial intelligence (AI).',
-          bgColor: '#D7EBFF',
-          rating: 5,
-        },
-        {
-          title: 'How can Adaired Digital Media help with Generative AI SEO?',
-          description:
-            'We specialize in AI-first SEO strategies that match your content to the latest Generative AI search engines. We optimize your site for AI algorithms, create content with user intent in mind, and constantly refine your strategy using AI-powered insights to keep you ahead of the competition.',
-          bgColor: '#E1F2E2',
-          rating: 5,
-        },
-
-        {
-          title: 'What is the difference between SEO and AEO?',
-          description: `SEO (Search Engine Optimization) focuses on ranking webpages in traditional search results like Google’s blue links. The AEO (Answer Engine Optimization) focuses on optimizing the content and allowing it to be chosen as a direct answer by the AI-driven engines like ChatGPT, Google SGE, Gemini, and voice assistants.
- In short: SEO ranks pages, AEO delivers answers.
-`,
-          bgColor: '#E1F2E2',
-          rating: 5,
-        },
-
-        {
-          title: 'How does AEO impact voice search rankings?',
-          description:
-            'The voice search is based on concise, structured, and authoritative answers. You can make your content look like it was spoken to by the user with AEO, where your content will be optimized to feature in conversational search, featured snippets, schema markup, and natural language patterns to increase the chance of your site being selected by voice assistants.',
-          bgColor: '#E1F2E2',
-          rating: 5,
-        },
-        {
-          title: 'What is the time to profitability of AI SEO services?',
-          description:
-            'The first positive change, including the increased clarity of the content and the visibility of AI, can become evident in several weeks. Tangible increase in impressions, traffic and quality of leads is usually achieved in 2-4 months, based on competition, depth of content, and implementation.',
-          bgColor: '#E1F2E2',
-          rating: 5,
-        },
-
-        {
-          title: 'Is it possible to incorporate AEO into my current SEO plan?',
-          description:
-            'Absolutely. AEO does not supersede SEO; it complements it. The foundation of your existing SEO workings is supported by AEO, which is enhanced by modifying the content to suit AI-oriented search, featured answers, and conversational searches.',
-          bgColor: '#E1F2E2',
-          rating: 5,
+          title: 'How do you measure the success of link-building services?',
+          description: `We measure the success of our link-building services through improved search rankings, domain authority, referral traffic, and quality of backlinks attained. `,
         },
         {
           title:
-            'Do you think collaboration with your AEO company will enhance my presence in AI tools such as ChatGPT or Gemini?',
+            'Will link building help my business in ranking my website faster?',
           description:
-            'Yes. Although it is impossible to ensure being placed within AI tools, AEO best practices have a strong probability of your content being mentioned, summarized, or referenced by AI tools, such as ChatGPT, Gemini, Perplexity, and Google AI Overviews.',
-          bgColor: '#E1F2E2',
-          rating: 5,
+            'Definitely! High-quality link building promotes the authority of your business and increases your chances of getting higher search engine rankings. ',
         },
         {
-          title:
-            'I am already working on SEO, so why do I need SEO with AI as well?',
+          title: 'How long will it take to see the results of link building?',
+          description: `Results from link building vary depending on the niche of your business, competition, and the quality of the backlinks acquired. It can take several weeks to several months to see the results.
+            Although it is difficult to predict exact rankings, ethical link-building strategies will surely bring you long-term benefits.`,
+        },
+        {
+          title: `What is special about Adaired's link-building services?`,
           description:
-            'Conventional SEO cannot be used any longer. AI-based search engines make intent, context, and direct answer a priority over keywords. AI-based SEO makes your content optimized to search as it works today, and not five years ago.',
-          bgColor: '#E1F2E2',
-          rating: 5,
+            'At Adaired, we combine ethical link-building with data-driven strategies and high-authority placements to provide our clients with measurable results.',
         },
       ],
     },

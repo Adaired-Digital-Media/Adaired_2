@@ -27,7 +27,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
         </div>
 
         <div
-          className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid-cols-1 grid-cols-2 gap-[1rem] lg:grid`}
+          className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid-cols-1 lg:grid-cols-2 gap-[1rem] lg:grid`}
         >
           {importantToBussiness?.data?.map((item: any, idx: number) => {
             return (
@@ -37,10 +37,23 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                   transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                 }}
               >
-                <div className="flex justify-between">
+                {/* <div className="flex justify-between">
                   <Image src={item?.icon} width={60} height={60} alt="img" />
                   <h1 className='text-[#F1F1F1] text-[4rem]' >0{idx + 1}</h1>
+                </div> */}
+
+
+                <div className="relative flex items-center">
+                  <div className="absolute left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0">
+                    <Image src={item?.icon} width={60} height={60} alt="img" />
+                  </div>
+
+                  <h1 className="ml-auto text-[#F1F1F1] text-[4rem]">
+                    0{idx + 1}
+                  </h1>
                 </div>
+
+
                 <h3 className="mb-[0.5rem] mt-[2rem]">{item?.name}</h3>
                 <div className="">
                   {item?.description?.map((dec: any) => {

@@ -475,7 +475,7 @@ export const ServiceSectionData = {
           label: 'SEO',
           title: 'SEO',
           description: `We provide Search Engine Optimization services that are aimed at increasing the presence online and driving meaningful engagement. We combine smart keyword targeting, technical optimization, and credible content to make your business achieve consistent rankings and sustainable organic growth.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/seo-company-india',
         },
         {
           icon: SEO_2,
@@ -483,7 +483,7 @@ export const ServiceSectionData = {
           label: 'SaaS SEO',
           title: 'SaaS SEO',
           description: `We help SaaS businesses grow through targeted SEO strategies designed for recurring-revenue models. From optimizing product pages and feature-based keywords to creating funnel-driven content, our SaaS SEO approach attracts decision-makers, boosts trial sign-ups, and supports long-term customer acquisition.`,
-          link: '/services/seo/ai-search-engine-optimization',
+          link: '/services/seo/ai-seo-company-india',
         },
         {
           icon: SEO_3,
@@ -505,13 +505,13 @@ export const ServiceSectionData = {
       mainSvg: 'Search Engine Optimization_eyQDn',
       img: SEO,
       accentColor: '#f89520',
-      link: '/services/search-engine-optimization',
+      link: '/services/seo-company-india',
     },
     {
       title: 'AI SEO',
       description:
         'We optimize content and entity signals so large language models understand, trust, and surface your brand in AI-generated answers and recommendations.',
-      link: '/services/ai-search-engine-optimization',
+      link: '/services/ai-seo-company-india',
       list: [
         {
           icon: WhiteLabelSEO,
@@ -519,7 +519,7 @@ export const ServiceSectionData = {
           label: 'AI SEO',
           title: 'AI SEO',
           description: `We leverage AI-powered SEO to help businesses stay ahead in an evolving search landscape. Our approach uses intelligent automation, predictive insights, and intent-based optimization to enhance visibility, streamline SEO execution, and deliver measurable growth, without relying on guesswork.`,
-          link: '/services/ai-search-engine-optimization',
+          link: '/services/ai-seo-company-india',
         },
         {
           icon: WhiteLabelSocialMedia,
@@ -527,7 +527,7 @@ export const ServiceSectionData = {
           label: 'LLM SEO/LLMO',
           title: 'LLM SEO/LLMO',
           description: `Adaired’s LLM SEO services enable agencies to offer next-generation search optimization under their own brand. We handle the strategy and execution needed to optimize client content for AI-driven search and generative models, while you maintain full ownership of client relationships and reporting.`,
-          link: '/services/ai-search-engine-optimization',
+          link: '/services/ai-seo-company-india',
         },
         {
           icon: WhiteLabelFacebookAds,
@@ -535,7 +535,7 @@ export const ServiceSectionData = {
           label: 'GEO',
           title: 'GEO',
           description: `We help businesses adapt to the shift from search results to AI-generated answers. Our GEO approach focuses on content clarity, semantic depth, and authority signals that generative engines rely on, ensuring your brand remains visible, accurate, and competitive in AI-powered discovery.`,
-          link: '/services/ai-search-engine-optimization',
+          link: '/services/ai-seo-company-india',
         },
         {
           icon: LinkBuilding,
@@ -543,7 +543,7 @@ export const ServiceSectionData = {
           label: 'AEO',
           title: 'AEO',
           description: `We structure and optimize content so search engines and AI systems can easily extract, understand, and present your brand as the best answer. Through question-focused optimization, schema markup, and intent alignment, we help businesses capture high-value answer placements beyond traditional rankings.`,
-          link: '/services/ai-search-engine-optimization',
+          link: '/services/ai-seo-company-india',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
@@ -605,7 +605,7 @@ export const ServiceSectionData = {
           label: 'High Authority Link Building',
           title: 'High Authority Link Building',
           description: `We acquire backlinks from authoritative, high-trust websites that enhance your site’s credibility and competitive strength. By focusing on relevance, domain quality, and natural placement, our high-authority links help improve rankings for competitive keywords and support sustainable SEO performance`,
-          link: '/services/search-engine-optimization',
+          link: '/services/link-building-services-india',
         },
         {
           icon: Link_Building_Icon_2,
@@ -613,7 +613,7 @@ export const ServiceSectionData = {
           label: 'Guest Posts',
           title: 'Guest Posts',
           description: `Our guest posting services secure contextual backlinks through high-quality content placements on relevant industry websites. We handle prospecting, outreach, content creation, and placement to ensure each guest post delivers SEO value, referral traffic, and brand visibility.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/link-building-services-india',
         },
         {
           icon: Link_Building_Icon_3,
@@ -621,7 +621,7 @@ export const ServiceSectionData = {
           label: 'Niche Edits',
           title: 'Niche Edits',
           description: `We place strategic backlinks within existing, aged content on authoritative and niche-relevant websites. These contextual link insertions offer significant SEO value, enhance keyword rankings, and provide a faster impact compared to newly published links.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/link-building-services-india',
         },
         {
           icon: Link_Building_Icon_4,
@@ -629,13 +629,13 @@ export const ServiceSectionData = {
           label: 'Press Releases',
           title: 'Press Releases',
           description: `Our press release link-building services help amplify brand exposure while earning authoritative backlinks from news and media distribution networks. We craft optimized press content that supports SEO, improves brand credibility, and strengthens your backlink profile through trusted publications.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/link-building-services-india',
         },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
       img: Link_Building,
       accentColor: '#f89520',
-      link: '/services/search-engine-optimization',
+      link: '/services/link-building-services-india',
     },
     {
       title: 'Pay Per Click & SMM',
