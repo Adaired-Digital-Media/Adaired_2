@@ -7,10 +7,10 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import Image from 'next/image';
 
 const WhatMissing = ({ whatMissing }: any) => {
-    const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+    const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
     return (
-        <section ref={ref} className="py-[3rem] lg:py-[6rem]">
+        <section ref={ref} className="py-[3rem] lg:py-[4rem]">
             <MaxWidthWrapper>
                 <div
                     className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}

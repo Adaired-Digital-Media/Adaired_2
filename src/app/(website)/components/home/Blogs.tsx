@@ -12,12 +12,12 @@ const Blogs = () => {
   const router = useRouter();
   const charLimit = useBreakpointCharLimit();
   const { subTitle, title, description, blogs, span } = BlogSectionData;
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
     <section
       ref={ref}
-      className="relative bg-[#F5F5F599] pb-[6rem] pt-[3rem] lg:py-[4rem] lg:pb-[10rem] xl:pb-[12rem] xl:pt-[6rem]"
+      className="relative bg-[#F5F5F599] pb-[6rem] pt-[3rem] lg:pb-[9rem] lg:pt-[4rem]"
     >
       <MaxWidthWrapper>
         <div

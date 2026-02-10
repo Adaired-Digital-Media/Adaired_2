@@ -9,10 +9,10 @@ import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
 
 const ImportantToBussiness = ({ importantToBussiness }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
-    <div ref={ref} className="py-[6rem]">
+    <div ref={ref} className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
@@ -27,7 +27,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
         </div>
 
         <div
-          className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid-cols-1 lg:grid-cols-2 gap-[1rem] lg:grid`}
+          className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid-cols-1 gap-[1rem] lg:grid lg:grid-cols-2`}
         >
           {importantToBussiness?.data?.map((item: any, idx: number) => {
             return (
@@ -42,17 +42,15 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                   <h1 className='text-[#F1F1F1] text-[4rem]' >0{idx + 1}</h1>
                 </div> */}
 
-
                 <div className="relative flex items-center">
                   <div className="absolute left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0">
                     <Image src={item?.icon} width={60} height={60} alt="img" />
                   </div>
 
-                  <h1 className="ml-auto text-[#F1F1F1] text-[4rem]">
+                  <h1 className="ml-auto text-[4rem] text-[#F1F1F1]">
                     0{idx + 1}
                   </h1>
                 </div>
-
 
                 <h3 className="mb-[0.5rem] mt-[2rem]">{item?.name}</h3>
                 <div className="">

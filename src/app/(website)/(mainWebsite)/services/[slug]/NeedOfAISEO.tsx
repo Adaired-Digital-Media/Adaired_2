@@ -10,7 +10,7 @@ const NeedOfAISEO = ({ needOfService }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
-    <div className="py-3 lg:py-[6rem]">
+    <div className="py-3 lg:py-[4rem]">
       <MaxWidthWrapper>
         <div
           ref={ref}

@@ -21,7 +21,7 @@ export interface ServiceItem {
 }
 //test
 const Service = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0);
   const router = useRouter();
   const { subtitle, title, span, description, services } = ServiceSectionData;
   const [hoveredTab, setHoveredTab] = useState<number | null>(null);
@@ -80,7 +80,7 @@ const Service = () => {
   return (
     <div
       ref={ref}
-      className="bg-[#F5F5F599] py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+      className="bg-[#F5F5F599] py-[3rem] lg:py-[4rem]"
       id="services"
     >
       <MaxWidthWrapper>
@@ -172,8 +172,8 @@ const Service = () => {
                       } `}
                     >
                       <div className="flex w-full items-center justify-between gap-3 1360:gap-1">
-                        <h3
-                          className={`my-auto text-[18px] font-medium leading-[1.35rem] 1360:text-[18px] 1600:text-[18px] 3xl:text-[18px] ${
+                        <p
+                          className={`my-auto text-left font-medium ${
                             activeTab === idx
                               ? 'text-[#ffffff]'
                               : 'text-[#000000]'
@@ -184,7 +184,7 @@ const Service = () => {
                           }`}
                         >
                           {service.title}
-                        </h3>
+                        </p>
 
                         {(activeTab === idx || hoveredTab === idx) && (
                           <MdArrowOutward

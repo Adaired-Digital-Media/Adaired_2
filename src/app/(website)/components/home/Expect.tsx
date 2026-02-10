@@ -7,13 +7,14 @@ import useImageAnimation from '@/@core/hooks/useImageAnimation';
 import expectImg from '../../../../../public/assets/images/home/expect.png';
 import { useState } from 'react';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+
 const Expect = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [hover, setHover] = useState(null);
   const { image, subTitle, title, description, records } = ExpectSectionData;
   return (
     <section className="1bg-[#F5F5F580]">
-      <MaxWidthWrapper className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
+      <MaxWidthWrapper className="py-[3rem] lg:py-[4rem]">
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >

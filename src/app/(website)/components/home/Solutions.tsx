@@ -14,7 +14,7 @@ import SaveAndCancel from '../../common/SaveAndCancel';
 import GetQuoteModal from '../popup/GetQuoteModal';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const Solutions = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   const [open, setOpen] = useState(false);
   const { subTitle, title, points, description, cursive } =
@@ -31,7 +31,7 @@ const Solutions = () => {
 
   return (
     <section className="">
-      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem] xl:py-[6rem]">
+      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem]">
         <div
           ref={ref}
           className="flex flex-col-reverse lg:flex-row lg:justify-between lg:gap-[3rem] xl:gap-[5rem]"
@@ -40,16 +40,21 @@ const Solutions = () => {
           <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
             {/* CENTER IMAGE */}
             <div
-              className={`flex items-center justify-center p-3 transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
+              className={`mx-[2.65rem] my-[2.65rem] flex items-center justify-center transition-all duration-1000 ${
+                isVisible
+                  ? 'translate-x-0 opacity-100'
+                  : '-translate-x-16 opacity-0'
+              }`}
             >
               <Image
                 src={img}
                 alt="About Image"
                 width={625}
                 height={470}
-                className="my-[0rem] h-[14rem] w-[14rem] rounded-lg md:my-0 md:h-[28rem] md:w-[36.313rem] lg:my-[2rem] lg:h-[18rem] lg:w-[20rem] xl:h-[25.375rem] xl:w-[39.063rem] 1360:w-[25rem] 1400:w-[27rem] 1600:w-[32rem] 1680:h-[25.375rem] 1680:w-[34rem] 3xl:h-[25.375rem] 3xl:w-[39.063rem]"
+                className="my-[0rem] aspect-[625/470] w-[clamp(14rem,35vw,39.063rem)] rounded-lg transition-opacity transition-transform"
               />
             </div>
+
             {/* MASK – TOP RIGHT */}
             <Image
               src={Mask}

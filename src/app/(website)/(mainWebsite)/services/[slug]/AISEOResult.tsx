@@ -9,7 +9,7 @@ import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import image from '../../../../../../public/assets/aiseo/AISEORESULT.png';
 const AISEOResult = ({ aiseoResult }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
 
   const activeItem =
@@ -17,7 +17,7 @@ const AISEOResult = ({ aiseoResult }: any) => {
 
   return (
     <div
-      className={`py-[3rem] lg:py-[6rem] ${aiseoResult?.isBgColor ? 'bg-[#FFF8F0]' : 'bg-[#FFFFFF]'}`}
+      className={`py-[3rem] lg:py-[4rem] ${aiseoResult?.isBgColor ? 'bg-[#FFF8F0]' : 'bg-[#FFFFFF]'}`}
     >
       <MaxWidthWrapper>
         <div

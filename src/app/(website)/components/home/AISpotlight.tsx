@@ -31,6 +31,7 @@ const AISpotlight = () => {
     <div className="py-[6rem]">
       <MaxWidthWrapper>
         <Heading
+         isLabel={true}
           subTitle={'AI Spotlight'}
           title={'Helping Businesses Get Mentioned on LLMs'}
           span={''}

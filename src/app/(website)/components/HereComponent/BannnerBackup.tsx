@@ -23,7 +23,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const Banner = () => {
   const router = useRouter();
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const users = [user, user_2, user_3, user_4, user_5];
   const griphData = [
     {
@@ -108,16 +108,16 @@ const Banner = () => {
   return (
     <div
       ref={ref}
-      className="animate-pulse relative h-[100vh] w-full pt-[10vh] md:h-[115vh] lg:h-fit"
+      className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[140vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[95vh] 3xl:h-[100vh]"
     >
       <Image
         src={hero_banner}
         fill
         alt="hero bg"
         priority
-        className="pointer-events-none object-fill"
+        className="pointer-events-none object-cover"
       />
-      <MaxWidthWrapper className="relative z-10 block items-center justify-between py-[3rem] lg:flex lg:py-[4rem]">
+      <MaxWidthWrapper className="relative z-10 block justify-between pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[5rem]">
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[42%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
@@ -125,6 +125,7 @@ const Banner = () => {
             isH1={true}
             subTitle={`Gain Visibility That Converts`}
             title={`Result-Driven Digital Marketing Agency for Scalable Growth`}
+            span={''}
             description={
               'From Google searches to AI chats, we make sure your brand is visible to your customers wherever they look.'
             }
@@ -147,7 +148,7 @@ const Banner = () => {
                       width={50}
                       height={50}
                       alt="user"
-                      className={`${lastuser && 'animate-zoomPulse'} aspect-[1/1] w-[clamp(2.5rem,4vw,3.125rem)] rounded-full border-[1px] border-white`}
+                      className={`${lastuser && 'animate-zoomPulse'} rounded-full border-[1px] border-white`}
                     />
                   </span>
                 );
@@ -180,7 +181,7 @@ const Banner = () => {
                 width={208}
                 height={32}
                 alt="Upwork"
-                className="aspect-[208/32] w-[clamp(8rem,14vw,13rem)] cursor-pointer"
+                className="h-[2rem] w-[8rem] cursor-pointer lg:w-[10rem] xl:w-[13rem]"
               />
             </a>
 
@@ -196,7 +197,7 @@ const Banner = () => {
                 width={130}
                 height={39}
                 alt="Google Reviews"
-                className="aspect-[130/39] w-[clamp(7rem,12vw,8.125rem)] cursor-pointer"
+                className="h-[2rem] w-[7rem] cursor-pointer xl:h-[2.438rem] xl:w-[8.125rem]"
               />
             </a>
           </div>
@@ -221,11 +222,11 @@ const Banner = () => {
             handleClick2={scrollToServices}
           />
         </div>
-        {/* <div
-          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'}`}
+        <div
+          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'} `}
         >
-          <div className="my-auto h-full space-y-4">
-            <div className="flex w-[100%] justify-center">
+          <div className="space-y-4">
+            <div className="absolute bottom-[10%] mt-auto flex w-[100%] justify-center">
               <div className="relative flex justify-end">
                 <Image
                   src={banner_img_1}
@@ -281,7 +282,7 @@ const Banner = () => {
               width={302}
               height={186}
               alt=""
-              className={`absolute bottom-[-15%] left-[0rem] h-[6rem] w-[8rem] transition-opacity transition-transform duration-700 ease-in-out md:left-[0rem] md:h-[10rem] md:w-[14rem] xl:h-[11.625rem] xl:w-[18.875rem] 1366:h-[8rem] 1366:w-[14rem] 1400:h-[9rem] 1400:w-[16rem] 3xl:h-[11.625rem] 3xl:w-[18.875rem] ${
+              className={`absolute bottom-0 left-[0rem] h-[6rem] w-[8rem] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-1rem] md:left-[0rem] md:h-[10rem] md:w-[14rem] lg:bottom-0 xl:bottom-[0rem] xl:h-[11.625rem] xl:w-[18.875rem] 1366:h-[8rem] 1366:w-[14rem] 1400:h-[9rem] 1400:w-[16rem] 3xl:h-[11.625rem] 3xl:w-[18.875rem] ${
                 active === 'img3'
                   ? 'z-30 translate-x-[100%] translate-y-[-50%] scale-105 opacity-100 backdrop-blur-md md:translate-x-[105%] md:translate-y-[-80%] lg:translate-x-[50%] lg:translate-y-[-80%] xl:translate-x-[80%] xl:translate-y-[-110%] 1366:translate-y-[-150%] 1400:translate-x-[70%] 1400:translate-y-[-130%] 1600:translate-x-[80%] 1680:translate-x-[90%] 3xl:translate-x-[85%] 3xl:translate-y-[-120%]'
                   : active
@@ -294,113 +295,9 @@ const Banner = () => {
               width={388}
               height={244}
               alt=""
-              className={`absolute right-0 top-[-20%] h-[6.875rem] w-[10.563rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[13rem] md:w-[20rem] lg:h-[10.25rem] lg:w-[15.25rem] xl:h-[15.25rem] xl:w-[24.25rem] 1366:h-[10rem] 1366:w-[18rem] 1400:h-[12rem] 1400:w-[20rem] 3xl:h-[15.25rem] 3xl:w-[24.25rem] ${
+              className={`absolute right-0 top-[-4rem] h-[6.875rem] w-[10.563rem] transition-opacity transition-transform duration-700 ease-in-out md:top-[2rem] md:h-[13rem] md:w-[20rem] lg:top-[30%] lg:h-[10.25rem] lg:w-[15.25rem] xl:top-[0rem] xl:h-[15.25rem] xl:w-[24.25rem] 1366:top-[8rem] 1366:h-[10rem] 1366:w-[18rem] 1400:top-[5rem] 1400:h-[12rem] 1400:w-[20rem] 1680:top-[1.5rem] 3xl:h-[15.25rem] 3xl:w-[24.25rem] ${
                 active === 'img2'
-                  ? 'z-30 translate-x-[-50%] translate-y-[50%] scale-105 bg-white/80 opacity-100 backdrop-blur-md md:translate-x-[-60%] md:translate-y-[75%] lg:translate-x-[-45%] lg:translate-y-[80%] xl:translate-x-[-50%] xl:translate-y-[100%] 1400:translate-x-[-40%] 1470:translate-x-[-45%] 1600:translate-x-[-50%] 1680:translate-x-[-60%] 1680:translate-y-[100%] 3xl:translate-x-[-49%] 3xl:translate-y-[90%]'
-                  : active
-                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
-                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
-              }`}
-            />
-          </div>
-        </div> */}
-        <div
-          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0 ${
-            isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'
-          }`}
-        >
-          <div className="my-auto h-full space-y-4">
-            <div className="flex w-[100%] justify-center">
-              <div className="relative flex justify-end">
-                <Image
-                  src={banner_img_1}
-                  width={599}
-                  height={483}
-                  alt=""
-                  className={`aspect-[599/483] w-[clamp(15rem,32vw,37.438rem)] max-w-full transition-opacity transition-transform duration-700 ease-in-out ${
-                    active === 'img1'
-                      ? 'z-40 opacity-100'
-                      : active
-                        ? 'opacity-40'
-                        : 'opacity-100'
-                  }`}
-                />
-
-                <div className="absolute right-0 top-[103%] hidden w-[100%] grid-cols-4 gap-2 md:grid">
-                  {griphData?.map((item, idx) => {
-                    return (
-                      <div
-                        className={`h-[3.5rem] ${
-                          idx == 1 && 'animate-step1'
-                        } ${idx == 2 && 'animate-step2'} ${
-                          idx == 3 && 'animate-step3'
-                        } ${idx == 4 && 'animate-step4'} rounded-[0.25rem] border-[1px] border-[#000000]/20 bg-[#FFFFFF]/80 px-[0.5rem] pb-2`}
-                      >
-                        <div className="flex justify-between">
-                          <div className="my-auto flex gap-1">
-                            <span className="my-auto">{item?.icon}</span>
-                            <p className="mb-auto text-[6px] xl:text-[6px]">
-                              {item?.lebal}
-                            </p>
-                          </div>
-                          <PiDotsThree size={12} />
-                        </div>
-
-                        <div className="-mt-1 flex h-fit w-[100%] gap-2">
-                          <p className="my-auto text-[10px] font-bold xl:text-[12px]">
-                            {item?.number}
-                          </p>
-
-                          <div
-                            className={`my-auto flex h-[16px] w-fit gap-1 rounded-[0.25rem] border-[0.49px] bg-[#000000]/10 px-[0.5rem] opacity-40 ${
-                              item?.griphNumber == '10'
-                                ? 'border-[#FF5A65]/20 text-[#FF5A65]'
-                                : 'border-[#14CA74]/20 text-[#14CA74]'
-                            }`}
-                          >
-                            <p
-                              className={`mt-[-0.25rem] text-[6px] font-semibold xl:text-[6px] ${
-                                item?.griphNumber == '10'
-                                  ? 'text-[#FF5A65]'
-                                  : 'text-[#14CA74]'
-                              }`}
-                            >
-                              {item?.griphNumber}
-                            </p>
-                            <span className="my-auto">{item?.griph}</span>
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            </div>
-
-            {/* Image 3 */}
-            <Image
-              src={banner_img_3}
-              width={302}
-              height={186}
-              alt=""
-              className={`absolute bottom-[-15%] left-[0rem] aspect-[302/186] w-[clamp(8rem,14vw,18.875rem)] transition-opacity transition-transform duration-700 ease-in-out ${
-                active === 'img3'
-                  ? 'z-30 translate-x-[100%] translate-y-[-150%] scale-105 opacity-100 backdrop-blur-md'
-                  : active
-                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
-                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
-              }`}
-            />
-
-            {/* Image 2 */}
-            <Image
-              src={banner_img_2}
-              width={388}
-              height={244}
-              alt=""
-              className={`absolute right-0 top-[-20%] aspect-[388/244] w-[clamp(10rem,18vw,24.25rem)] transition-opacity transition-transform duration-700 ease-in-out ${
-                active === 'img2'
-                  ? 'z-30 translate-x-[-65%] translate-y-[100%] scale-105 bg-white/80 opacity-100 backdrop-blur-md'
+                  ? 'z-30 translate-x-[-50%] translate-y-[50%] scale-105 bg-white/80 opacity-100 backdrop-blur-md md:translate-x-[-60%] md:translate-y-[75%] lg:translate-x-[-45%] lg:translate-y-[80%] xl:translate-x-[-50%] xl:translate-y-[100%] 1400:translate-x-[-40%] 1600:translate-x-[-50%] 1680:translate-x-[-60%] 1680:translate-y-[110%] 3xl:translate-x-[-49%] 3xl:translate-y-[90%]'
                   : active
                     ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
                     : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'

@@ -176,15 +176,6 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
                     Visit Adaired Digital &apos; s Facebook page
                   </span>
                 </Link>
-                <Link
-                  href={process.env.NEXT_PUBLIC_GOOGLE_URL || '/'}
-                  className="group/in hover:bg-theme-orange rounded-full bg-white p-2"
-                >
-                  <Icons.Google className="text-[#1B5A96] group-hover/in:text-[#FB9100]" />
-                  <span className="sr-only">
-                    Visit Adaired Digital &apos; s Facebook page
-                  </span>
-                </Link>
               </div>
             </div>
           </div>

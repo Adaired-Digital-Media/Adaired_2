@@ -15,7 +15,7 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const LeadingTools = ({ leadingTools }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const data = [
     client_1,
     client_2,
@@ -29,10 +29,10 @@ const LeadingTools = ({ leadingTools }: any) => {
   return (
     <div
       ref={ref}
-      className={` ${
+      className={`bg-cover ${
         leadingTools?.isGapTop
-          ? 'pb-[3rem] lg:pb-[6rem]'
-          : 'py-[3rem] lg:py-[6rem]'
+          ? 'pb-[3rem] lg:pb-[4rem]'
+          : 'py-[3rem] lg:py-[4rem]'
       } `}
       style={{
         backgroundImage: `url(${leadingTools?.bgImage.src})`,

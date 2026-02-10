@@ -35,7 +35,7 @@ import client_30 from '../../../../../public/assets/images/client/client_30.png'
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const Clients = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   const data = [
     client_1,
@@ -70,7 +70,7 @@ const Clients = () => {
     client_30,
   ];
   return (
-    <div ref={ref} className="bg-[#F9F9F9] py-[3rem] lg:py-[4rem] xl:py-[6rem]">
+    <div ref={ref} className="bg-[#F9F9F9] py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}

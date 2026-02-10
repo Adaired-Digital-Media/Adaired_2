@@ -4,12 +4,12 @@ import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React from 'react';
 import CustomSlider from './CustomSlider';
 const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
     <div
       ref={ref}
-      className="bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30 py-[3rem] lg:py-[6rem]"
+      className="bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30 py-[3rem] lg:py-[4rem]"
     >
       <MaxWidthWrapper>
         <div

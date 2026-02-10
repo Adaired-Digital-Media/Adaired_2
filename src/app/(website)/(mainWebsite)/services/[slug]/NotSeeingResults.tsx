@@ -10,7 +10,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
 const NotSeeingResults = ({ notSeeingResult }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
 
   return (

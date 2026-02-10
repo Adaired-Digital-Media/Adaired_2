@@ -199,10 +199,10 @@ export const SERVICES_DATA = {
           desctioption: `Search Engine Optimization services focus on improving a website’s visibility in search engine results pages (SERPs). It is aimed at ensuring that websites appear higher in relevant searches, which will enable people to find accurate and useful information online.`,
         },
         {
-          desctioption: ` SEO Services typically include a combination of keyword research, on-page optimization, technical optimization, content optimization, and link building. These services help search engines in understanding a website’s content, structure, and relevance to the search by a user. By aligning a website with search engine guidelines, SEO enhances user experience and search performance. `,
+          desctioption: `SEO Services typically include a combination of keyword research, on-page optimization, technical optimization, content optimization, and link building. These services help search engines in understanding a website’s content, structure, and relevance to the search by a user. By aligning a website with search engine guidelines, SEO enhances user experience and search performance. `,
         },
         {
-          desctioption: ` Unlike paid advertising, SEO targets organic traffic, meaning visitors arrive through unpaid search results. This approach supports long-term growth by establishing authority, trust, and consistency in the long run. SEO Services are used by businesses, firms, and individuals who would like to expand their online presence, enhance the usability of their websites, and reach the right target markets through search engines.  `,
+          desctioption: `Unlike paid advertising, SEO targets organic traffic, meaning visitors arrive through unpaid search results. This approach supports long-term growth by establishing authority, trust, and consistency in the long run. SEO Services are used by businesses, firms, and individuals who would like to expand their online presence, enhance the usability of their websites, and reach the right target markets through search engines.  `,
         },
       ],
     },
@@ -1652,7 +1652,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       img: LinkBuilding,
       heading: 'Build Links That Work for Your Business in',
-      span:"2026 and Beyond",
+      span: '2026 and Beyond',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [],
@@ -1867,6 +1867,521 @@ brand appears in AI summaries and citations.`,
           title: `What is special about Adaired's link-building services?`,
           description:
             'At Adaired, we combine ethical link-building with data-driven strategies and high-authority placements to provide our clients with measurable results.',
+        },
+      ],
+    },
+  },
+  'web-design-development-company': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'benefitofAiSeo',
+      'adairedHelp',
+      'serviceResult',
+      'ourProcess',
+      'whatMkeDeferent',
+      'stopStruggling',
+      'faqData',
+      'readyToStart',
+    ] satisfies SectionKey[],
+    banner: {
+      isCenter: true,
+      isVisible: true,
+      heading: 'Grow Your Website ',
+      label: 'Traffic with high-quality links',
+      span: ``,
+      desc: 'Our strategies are designed to help your business outrank competitors, attract more traffic, and achieve sustainable growth. Experience smarter SEO that not only ranks but accelerates your success.',
+      subheading:
+        'Ready to Build Topical Authority and Maximize Discoverability?',
+    },
+    keyStats: {
+      isVisible: true,
+      code: '03',
+      heading: 'Did You Know?',
+      isCard: false,
+      img: keyStatsImg,
+      list: [
+        {
+          description: [
+            `87% of customers want a personalized shopping experience`,
+          ],
+        },
+        {
+          description: [
+            `48% of people believe that a website's design determines a business's credibility`,
+          ],
+        },
+        {
+          description: [
+            `75% of Internet users prefer a mobile-friendly website`,
+          ],
+        },
+        {
+          description: [
+            `42% of customers say they will leave a website that functions poorly`,
+          ],
+        },
+      ],
+    },
+    whatareservice: {
+      isVisible: true,
+      img: WhatIsAuthorityLinkBuilding,
+      heading: 'What Are Website Design and Development Services?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Website design and development is the process of creating, building, and maintaining a visually appealing, functional, and user-friendly website. 
+          It deals with all that a user can see and interact with, including layout, color schemes, typography, user navigation and overall user experience.`,
+        },
+        {
+          desctioption: `Professional website design and development services help businesses translate their brand identity into a compelling digital presence. 
+          The goal is not just to look good, but to deliver a seamless experience that engages users, communicates value, and supports business objectives.`,
+        },
+      ],
+      button: 'Start Building Today',
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      heading: 'Why is SEO Important to Your Business?',
+      data: [],
+    },
+
+    needofservice: {
+      isVisible: true,
+      isBgCornerImg: true,
+      heading: 'Why Authority Link Building Matters For Your Business?',
+      data: [
+        {
+          desctioption: `For businesses aiming to grow sustainably online, authority link building is essential. Search engines prioritize websites that demonstrate trust and expertise, and authoritative backlinks play a critical role in this evaluation. `,
+        },
+        {
+          desctioption: `Through enhancing the authority of your website, you are in a better position to be ranked better, gain steady traffic, enhance brand recognition that is useful in making your business shine in competitive markets, and turn the visibility into revenue.`,
+        },
+      ],
+    },
+
+    benefitofAiSeo: {
+      heading: 'Benefits of Website Design and Development Services',
+      desctioption: `A business’s success is closely tied to the quality of its website. 
+      A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: true,
+      heading: 'Link Building Services That We Offer At Adaired',
+      description: ``,
+      list: [
+        {
+          icon: linkServices_1,
+          title: 'Citation Building',
+          description: `Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. 
+            We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility. 
+            Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: linkServices_1,
+          title: 'Guest Posts',
+          description: `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority. 
+            Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: linkServices_3,
+          title: 'Press Releases',
+          description: `Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention. 
+            We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`,
+          linkHref: '#',
+        },
+
+        {
+          icon: linkServices_3,
+          title: 'Niche Edits',
+          description: `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site. 
+            Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
+          linkHref: '#',
+        },
+
+        {
+          icon: linkServices_5,
+          title: 'Articles',
+          description: `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.  
+            Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
+          linkHref: '#',
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      heading:
+        'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
+      description: null,
+      isBgColor: false,
+      img: '',
+      list: [
+        {
+          img: aiseoresult,
+          name: 'Your Website Gets Traffic, but Not the Right Traffic',
+          description: [
+            'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert. ',
+            ``,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Rankings Drop Without Any Warning',
+          description: [
+            'AI-powered algorithms change often, and many businesses don’t see it coming. A single update may even take your site off the list. You’re likely to go unnoticed, lose visibility, traffic, and revenue overnight.',
+            ` `,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Your Content Doesn’t Stand Out Anymore',
+          description: [
+            'AI favors useful, clear, and original content. If your pages look like everyone else’s, no one pays attention to them. Generic Blogs, keyword repetition, and thin pages are difficult to rank and hence compete with the smarter content strategies used by brands.',
+            ``,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'You’re Making SEO Decisions Without Real Data',
+          description: [
+            'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
+            ``,
+          ],
+        },
+      ],
+    },
+
+    notSeeingResult: {
+      isVisible: true,
+      heading: 'Not Seeing Results? ',
+      description: 'Let AI Reveal What’s Holding You Back.',
+      buttonName: 'Get Your Free AI SEO Audit',
+      bgImage: NotSeeingResultsBg,
+    },
+    industryLeaders: {
+      isVisible: true,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+    leadingToolsForPerformence: {
+      isVisible: true,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+    leadingTools: {
+      isVisible: true,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      heading:
+        'How Adaired Can Help You With Professional Website Design and Development Services?',
+      img: adairedHelpImgLink,
+      list: [
+        {
+          img: benefits_1,
+          name: 'Custom Design Aligned With Your Brand',
+          description: [
+            `The website designs that Adaired builds are completely personalized which can be considered to be an expression of your brand identity, personality and objectives. 
+            We do not make a one-size-fits-all template, but create visually appealing layouts, colour scheme and interfaces that can communicate your brand in a straightforward way. 
+            This will make your site unique and provide your visitors with a consistent and memorable brand experience.`,
+          ],
+        },
+        {
+          img: benefits_2,
+          name: 'User-Centered and Conversion-Focused Approach',
+          description: [
+            `At Adaired, we prioritize user experience in every project. Our designs are user-friendly and intuitive and engagement friendly. 
+            With the knowledge of user behavior and customer journeys, we create websites that take the user through their preferred path to the action they intend to take, be it to make a purchase, send an inquiry, or reserve a service.`,
+          ],
+        },
+        {
+          img: benefits_3,
+          name: 'Responsive and Mobile-First Development',
+          description: [
+            `With users accessing websites across multiple devices, Adaired ensures your website performs flawlessly everywhere. 
+            We stick to a mobile first strategy, which delivers responsive designs that can be easily adapted to smartphones, tablets and desktops. 
+            This will enhance the usability, improve interaction, and make sure that your business will never miss a chance because of the inefficiency of the device compatibility.`,
+          ],
+        },
+        {
+          img: benefits_4,
+          name: 'Performance, Security, and Scalability',
+          description: [
+            `Adaired creates fast, secure websites that are designed to expand your business. We have a long-term performance orientation in terms of optimized loading speeds, secure hosting, and clean, scalable code. 
+            Our development practices ensure that your site is stable, secure and can handle more traffic as well as future growth.`,
+          ],
+        },
+        {
+          img: benefits_5,
+          name: 'SEO-Optimized Development for Better Visibility',
+          description: [
+            `A great website should also be easy to find. Adaired combines the best practices of SEO with the design and development. 
+            Our clean code structure, quick load times, optimized layouts and content readiness, can both make your website rank higher and bring quality organic traffic to your site.`,
+          ],
+        },
+        {
+          img: benefits_6,
+          name: 'Ongoing Support and Continuous Improvement',
+          description: [
+            `Our partnership doesn’t end at launch. Adaired offers continuous support, updates and performance enhancements to make your site up to date and efficient. 
+            Whether it’s enhancements, troubleshooting, or feature upgrades, we work alongside you to ensure your website evolves with changing market trends and business needs.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      heading: 'What Makes Adaired Different From Our Competitors?',
+      description: [],
+      list: [
+        {
+          img: adairedDiff_1,
+          name: 'Links That Build Real Authority',
+          description: [
+            `Adaired focuses on authoritative and niche-specific backlinks rather than pursuing high quantities. Every link is evaluated for domain strength, traffic quality, relevance, and editorial.`,
+            `This quality-first approach ensures the long-term  SEO value, protects your website from penalties, and generates sustainable growth in your ranking, as opposed to short-lived spikes.`,
+          ],
+        },
+        {
+          img: adairedDiff_2,
+          name: '100% White-Hat & Safe',
+          description: [
+            `Our web building policies align well with the Google Webmaster Policy. We do not use PBNs, link farms, or automation.`,
+            `Our efforts are instead centered on real outreach, editorial placements, and relationship-based link acquisition, keeping your site secure as you gain trust, authority, and search engine credibility in the long term.`,
+          ],
+        },
+        {
+          img: adairedDiff_3,
+          name: 'Niche-Relevant Placements',
+          description: [
+            `Unlike generic providers, Adaired builds links within your exact industry and content ecosystem. All the backlinks are contextually situated on the appropriate pages, which naturally align with your brand.`,
+            `This relevance enhances the authority, the quality of referral traffic, and signals stronger trust to search engines.`,
+          ],
+        },
+        {
+          img: adairedDiff_4,
+          name: 'Clear Reporting, Real Results',
+          description: [
+            `We believe in complete transparency. Adaired offers reports that display live links, use of anchor texts, domain measures, traffic, and placement URLs.`,
+            `You always know where your links are placed, why they matter, and how they contribute to your SEO goals.`,
+          ],
+        },
+        {
+          img: adairedDiff_5,
+          name: 'Fully Customized Strategies',
+          description: [
+            `No two businesses are the same, and neither are our link-building campaigns.  Adaired develops unique strategies relevant to your interests, competition, industry, and existing backlink profile.`,
+            `This personalized strategy ensures effective acquisition of links that will serve your stage of growth, whether you’re scaling or stabilizing rankings.`,
+          ],
+        },
+        {
+          img: adairedDiff_6,
+          name: 'SEO-Led Link Building',
+          description: [
+            `We identify that backlinks are aligned with the intent of the keywords, site architecture, and the overall performance of the search engine optimization.`,
+            `This integrated approach ensures every link contributes to stronger rankings, improved authority, and measurable business impact.Adaired’s link building is guided by experienced SEO strategists, not just outreach specialists.`,
+          ],
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      subtitle: 'Our Process',
+      title: 'The Web Design and Development Process That We Follow At Adaired',
+      span: '',
+      description: ``,
+      services: [
+        {
+          icon: step,
+          name: 'Discovery & Requirement Analysis',
+          description: [
+            `We start with knowing your business objectives, target market, industry landscape and technical needs. 
+            This step will enable us to base our strategy on your vision coupled with the realization of possible opportunities to improve user experience and performance.`,
+          ],
+        },
+        {
+          icon: step_2,
+          name: 'Planning & Strategy',
+          description: [
+            `We design an elaborate project roadmap based on the knowledge acquired during discovery. 
+            This involves the definition of site architecture, technology stack, schedules, and other milestones that are important to maintain a smooth process and effective communication throughout the project life cycle.`,
+          ],
+        },
+        {
+          icon: step_3,
+          name: 'UI/UX Design',
+          description: [
+            `Our designers create user-friendly, aesthetically pleasing, and intuitive user interfaces that can reflect your brand identity. 
+            Our focus is on usability, accessibility and responsive design to create a smooth experience on all devices.`,
+          ],
+        },
+        {
+          icon: step_4,
+          name: 'Development & Integration',
+          description: [
+            `Using modern technologies and best coding practices, our developers bring the designs to life. 
+            We develop websites that are fast, secure and scalable and we combine third-party applications, API, and content management systems when necessary.`,
+          ],
+        },
+        {
+          icon: step_5,
+          name: 'Quality Assurance & Testing',
+          description: [
+            `We do intensive testing before launch so ensure the flawless performance. 
+            This includes functionality testing, cross-browser and device compatibility checks, performance optimization, and security validation.`,
+          ],
+        },
+        {
+          icon: step_5,
+          name: 'Deployment & Launch',
+          description: [
+            `After all the approval is given, we put your site into live environment and ensure that there is minimal downtime. 
+            Our team will make the integration as seamless as possible and will closely consider the performance to address any last-minute challenges.`,
+          ],
+        },
+        {
+          icon: step_5,
+          name: 'Maintenance & Continuous Support',
+          description: [
+            `The relationship does not stop with the launch. 
+            We provide ongoing maintenance, updates, performance optimization and technical support to ensure that your website is secure, scalable and compliant to the changing business requirements.`,
+          ],
+        },
+      ],
+    },
+
+    stopStruggling: {
+      isVisible: true,
+      subtitle: '',
+      title:
+        'Maximize Your Online Presence With The Best Link Building Services',
+      button: 'Get Started Now',
+      description: ``,
+      bgImg: stop_struggle,
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      heading: 'Frequently Asked Questions and Their Answers',
+      description: ``,
+      list: [
+        {
+          title: 'How long does it take to design and develop a website?',
+          description: `The timeline depends on the size, complexity, and features of your website. An average business website can be created in 3-5 weeks and more complex web applications can require 8-12 weeks or longer. 
+            We provide a clear timeline after understanding your requirements.`,
+        },
+        {
+          title: 'How much does a website design and development project cost?',
+          description: `The expenses of websites differ depending on the complexity of the design, functionality, integrations, and the platform used. 
+            Our prices are flexible and we also have custom quotes so that you do not pay more than what your business requires.`,
+        },
+        {
+          title: 'Will my website be mobile-friendly and responsive?',
+          description: `Yes. Our websites are all responsive and tablet/mobile device friendly so that the user has a seamless user experience in all sizes of screens.`,
+        },
+        {
+          title: 'Can you redesign my existing website?',
+          description: `Absolutely. 
+            We also do site redesign and revamp of websites to make it more beautiful, fast, easy to use, and optimized without destroying brand name or the content that you already have.`,
+        },
+        {
+          title: 'Do you build SEO-friendly websites?',
+          description: `Yes. We follow the best SEO practices during the design and development process such as clean code, fast loading speed, mobile optimization, structure and on-page SEO fundamentals to help improve search engine visibility.`,
+        },
+        {
+          title: 'Which platforms and technologies do you work with?',
+          description: `We work with leading platforms such as like WordPress, Shopify, and custom tech stacks. 
+            Depending on your business objectives and scalability requirements and budget, our team will choose the most appropriate technology.`,
+        },
+        {
+          title: 'Will I be able to manage and update my website myself?',
+          description: `Yes. Our content management systems are user friendly and enable you to update text, images, products and pages with ease. Training or documentation is also possible with us.`,
+        },
+        {
+          title: 'Do you offer eCommerce website development?',
+          description: `Yes. Our services include the design and development of secure and scaled eCommerce websites with the features like product management, payment gateway integration, inventory tracking and easy checkout experiences.`,
+        },
+        {
+          title: 'What if I need changes during the development process?',
+          description: `We follow a collaborative approach and welcome feedback at every stage. 
+            Our development services accommodate reasonable changes that will make the end product just as you desire.`,
+        },
+        {
+          title: 'Do you provide website maintenance and support after launch?',
+          description:
+            'Yes. We offer ongoing maintenance, performance optimization, and security updates, and technical support to ensure the smooth running of your website and keep it up to date.',
         },
       ],
     },

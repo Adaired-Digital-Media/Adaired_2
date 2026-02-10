@@ -8,12 +8,12 @@ import ContactForm from '../forms/ContactForm';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const Contact = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const { image, subTitle, title, span, description } = ContactSectionData;
 
   return (
     <section ref={ref} className="">
-      <MaxWidthWrapper className="space-y-7 py-[3rem] lg:py-[4rem] xl:py-[6rem]">
+      <MaxWidthWrapper className="space-y-7 py-[3rem] lg:py-[4rem]">
         <div
           className={`transition-all duration-1000 lg:px-[%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >

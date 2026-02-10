@@ -204,7 +204,11 @@ const ContactPageForm = () => {
           svgClassName="bg-[#F89520]  "
           type="submit"
         /> */}
-        <SaveAndCancel name={'Send Your Inquiry'} isIcon={true} isFullWidth={true} />
+        <SaveAndCancel
+          name={'Send Your Inquiry'}
+          isIcon={true}
+          isFullWidth={true}
+        />
       </form>
     </div>
   );

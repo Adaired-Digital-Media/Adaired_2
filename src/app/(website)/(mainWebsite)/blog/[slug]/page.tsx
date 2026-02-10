@@ -4,7 +4,6 @@ import parse, { Element, DOMNode } from 'html-react-parser';
 import PageBanner from '@web-components/PageBanner';
 import Heading from '@/app/(website)/common/Heading';
 import { Base2URL } from '@/baseUrl';
-import { blogData } from '@/dataa/blogData';
 import arrowIcon from '../../../../../../public/assets/icons/arrowIcon.png';
 import Image from 'next/image';
 import { transformDate } from '@/@core/hooks/transformDate';
@@ -92,9 +91,10 @@ const Blog = async ({ params }: BlogProps) => {
   const h2Total = (bodyHtml.match(/<h2>/g) || []).length;
   let currentH2Index = 0;
   let isLastH2Section = false;
+
   return (
     <>
-      <PageBanner title={blogData.bannerTitle} />
+      <PageBanner title={'Blog'} />
 
       <MaxWidthWrapper className="py-12 md:py-20">
         <Heading
@@ -106,7 +106,7 @@ const Blog = async ({ params }: BlogProps) => {
 
         {/* ----------- IMAGE + FIRST 120 WORDS ----------- */}
         <div className="mt-8 grid grid-cols-1 gap-[2rem] md:grid-cols-2">
-          <div className="relative">
+          <div className="relative h-[30rem]">
             <Image
               src={blog?.featuredImage}
               alt="blog"

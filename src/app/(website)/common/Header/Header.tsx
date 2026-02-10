@@ -58,9 +58,11 @@ const Header = () => {
                     {/* MAIN MENU */}
                     <Link
                       href={menu.href}
-                      className={`font-Outfit flex items-center rounded-full px-5 py-2 text-xxs transition xl:text-xs 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px] 1710:text-[18px] 3xl:text-[18px] ${pathname === menu.href && 'bg-[#FB9100] text-[#FFFFFF]'} ${isHover ? 'bg-[#FB9100] text-[#FFFFFF]' : 'text-[#000000]'}`}
+                      className={`font-Outfit flex items-center rounded-full px-5 py-2 transition ${pathname === menu.href && 'bg-[#FB9100] text-[#FFFFFF]'} ${isHover ? 'bg-[#FB9100] text-[#FFFFFF]' : 'text-[#000000]'}`}
                     >
-                      {menu.label}
+                      <p className={`${isHover && 'text-[#FFFFFF]'}`}>
+                        {menu.label}
+                      </p>
                       {menu.subItems && <MdKeyboardArrowDown size={18} />}
                     </Link>
 
@@ -186,6 +188,7 @@ const Header = () => {
 
             <div className="my-auto hidden gap-2 lg:flex">
               <SaveAndCancel
+                isBorder={true}
                 handleClick={() => router.push('/contact')}
                 isBgWhite={true}
                 buttonWidth={'!w-[12rem]'}

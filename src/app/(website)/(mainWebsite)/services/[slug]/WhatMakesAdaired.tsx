@@ -9,7 +9,7 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
-    <div ref={ref} className="py-[3rem] lg:py-[6rem]">
+    <div ref={ref} className="py-[1.5rem] lg:py-[4rem]">
       <MaxWidthWrapper>
         {/* <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
@@ -27,12 +27,12 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
         >
           <div className="flex flex-col items-center gap-10 lg:flex-row">
             <div
-              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-[50%] pr-[5%]' : 'flex w-[100%] justify-center justify-items-center'}`}
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'lg:w-[50%] w-full pr-[0%]' : 'flex w-[100%] justify-center justify-items-center'}`}
             >
               <Heading breakIndex={5} title={whatMkeDeferent?.heading} />
             </div>
             <div
-              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-[50%]' : 'w-[0%]'}`}
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'lg:w-[50%] w-full' : 'w-[0%]'}`}
             >
               {whatMkeDeferent?.description?.map((item: any) => {
                 return <p className="my-3">{item}</p>;

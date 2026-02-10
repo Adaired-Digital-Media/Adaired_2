@@ -23,7 +23,7 @@ export default function Ecommercelayout({
           className="bottom-20"
           skypeID="https://teams.live.com/l/invite/FEAiHSAKe2uSNPyRwE"
         />
-        <WhatsappFloatingIcon phoneNumber="918907400008" />
+        {/* <WhatsappFloatingIcon phoneNumber="918907400008" /> */}
         {children}
         <CartDrawer />
       </CartProvider>

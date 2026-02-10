@@ -22,7 +22,7 @@ const OurProcess = ({ ourProcess }: any) => {
     <section
       ref={ref}
       id="services"
-      className="bg-[#F5F5F599] py-[3rem] lg:py-[6rem]"
+      className="bg-[#F5F5F599] py-[3rem] lg:py-[4rem]"
     >
       <MaxWidthWrapper>
         {/* ❗ IMPORTANT: relative + NO overflow */}

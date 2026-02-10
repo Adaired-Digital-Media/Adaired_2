@@ -177,13 +177,13 @@ export default async function RootLayout({
         </noscript>
         {/* End Google Tag Manager (noscript) */}
 
-        <ReCaptchaProvider reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY}>
-          <NextProgress />
-          {children}
-          <Toaster />
-          <GlobalDrawer />
-          <GlobalModal />
-        </ReCaptchaProvider>
+        {/* <ReCaptchaProvider reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY}> */}
+        <NextProgress />
+        {children}
+        <Toaster />
+        <GlobalDrawer />
+        <GlobalModal />
+        {/* </ReCaptchaProvider> */}
 
         {/* Zoho SalesIQ Initialization */}
         <Script id="zoho-init" strategy="beforeInteractive">

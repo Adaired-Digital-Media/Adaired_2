@@ -18,12 +18,12 @@ const Testimonial = () => {
   const slides = [...testimonials, ...testimonials.slice(0, VISIBLE_CARDS)];
   const [index, setIndex] = useState(0);
   const [enableTransition, setEnableTransition] = useState(true);
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
     <section
       ref={ref}
-      className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+      className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-[3rem] lg:py-[4rem]"
     >
       <div className="relative z-20">
         <div
@@ -75,7 +75,7 @@ const Testimonial = () => {
                     <div className="">
                       <div className="flex justify-between pt-[1rem]">
                         <div className="">
-                          <p className="text-sm font-medium text-[#108A00] lg:text-xs xl:text-sm 1360:text-xxs 1400:text-sm">
+                          <p className="text-sm text-left font-medium text-[#108A00] lg:text-xs xl:text-sm 1360:text-xxs 1400:text-sm">
                             {testimonial.name}
                           </p>
                           <div className="my-1 flex gap-1 lg:gap-0 xl:gap-1">
@@ -101,7 +101,7 @@ const Testimonial = () => {
                         </div>
                       </div>
                     </div>
-                    <p className="pt-[1rem] text-[#262626]">
+                    <p className="pt-[1rem] text-left text-[#262626]">
                       {testimonial.description?.length > charLimit
                         ? testimonial.description.slice(0, charLimit) + '...'
                         : testimonial.description}

@@ -10,7 +10,11 @@ import CldImage from '@web-components/CloudinaryImageComponent';
 import { BaseURL } from '@/baseUrl';
 import Heading from '../../common/Heading';
 import Blogs from '../../components/home/Blogs';
-
+import Rec from '@/assets/About.png';
+import Aboutrec from '@/assets/Aboutrec.png';
+import Image from 'next/image';
+import { aboutData } from '@/dataa/aboutData';
+//test
 export const metadata: Metadata = {
   title: 'Unveiling Adaired: Our History, Team, and Vision | Learn About Us',
   description:
@@ -53,23 +57,289 @@ const About = async () => {
   const blogs = await getBlogsData();
   return (
     <div>
-      <PageBanner title="About Us" />
-      <IntroSection />
-      <WorkStation />
-      <ProcessSection />
-      <TestimonialSlider />
+      {/* <PageBanner title="About Us" /> */}
+      <PageBanner subTitle={'ABOUT US'} title={'Get To Know Us'} />
+
+      {/* <IntroSection /> */}
+      {/* <WorkStation />
+      <ProcessSection /> */}
+      {/* <TestimonialSlider /> */}
       <Blogs />
-      {/* <BlogCards blogs={blogs} /> */}
+      <BlogCards blogs={blogs} />
     </div>
   );
 };
 
-export default About;
+// export default About;
 
-const IntroSection = () => {
+// const IntroSection = () => {
+
+export default function page() {
+  const d = aboutData;
+
   return (
     <>
-      <section className="py-6 md:py-12">
+      <PageBanner subTitle={'ABOUT US'} title={'Get To Know Us'} />
+      <MaxWidthWrapper>
+        <Heading
+          className="py-[4rem]"
+          isBgWhite={true}
+          isVarticle
+          subTitle={d.heading.subTitle}
+          breakIndex={d.heading.breakIndex}
+          title={d.heading.title}
+        />
+
+
+        {/* Section 1 */}
+        <section className=" py-[3rem] ">
+          <div className=" mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-24 w-full">
+              <div className="relative w-full m-auto max-w-[800px] aspect-[4/3] md:aspect-[16/11] lg:aspect-[16/10]">
+                <img
+                  src={d.section1.image}
+                  alt="About"
+                  className="absolute inset-0 w-full h-full object-cover rounded-3xl"
+                />
+              </div>
+
+
+              <div className="w-full h-full mt-10">
+                {d.section1?.items?.map((item, idx) => (
+                  <div key={idx}>
+                    <div className="flex items-center gap-4">
+                      <img src="assets/Aboutrec.png" className="w-[2px] h-[22px]" />
+                      <p className="font-medium">{item.title}</p>
+                    </div>
+                    <p className="my-4 ml-7 text-gray-600">{item.text}</p>
+                  </div>
+                ))}
+
+                <div className="w-full mt-8 md:mt-10">
+                  <div className="h-px bg-gray-300 w-full"></div>
+                  <p className="mt-6 md:mt-10 text-base max-w-3xl">
+                    <span className="text-blue-700">{d.section1.quote.blue}</span>
+                    {d.section1.quote.normal}
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Section 2 */}
+        {/* <section className=" py-[4rem] bg-[#FAFDFF]">
+          <div className="w-[93%] mx-auto">
+            <div className="flex flex-wrap items-center gap-6 sm:gap-16 md:gap-24">
+              <p className="uppercase font-medium text-[24px] text-left whitespace-pre-line">
+                {d.section2.certificatesTitle}
+              </p>
+
+              <div className="h-[130px] w-[1px] bg-[#D7EBFF]"></div>
+
+              {d.section2.images.map((img: any) => (
+                <img
+                  key={img.src}
+                  src={img.src}
+                  alt="Certificate"
+                  className={`w-[${img.w}px] h-[${img.h}px]`}
+                />
+              ))}
+            </div>
+          </div>
+        </section> */}
+
+      </MaxWidthWrapper>
+
+
+      <section className="py-[4rem] bg-[#FAFDFF]">
+        <div className='flex justify-center '>
+          <MaxWidthWrapper>
+            <div className="flex flex-wrap items-center gap-5 sm:gap-16 md:gap-24">
+              <p className="uppercase font-medium text-[24px] text-left whitespace-pre-line">
+                {d.section2.certificatesTitle}
+              </p>
+
+              <div className="h-[130px] w-[1px] bg-[#D7EBFF]"></div>
+
+              {d.section2.images.map((img: any) => (
+                <img
+                  key={img.src}
+                  src={img.src}
+                  alt="Certificate"
+                  style={{ width: `${img.w}px`, height: `${img.h}px` }}
+                />
+              ))}
+            </div>
+          </MaxWidthWrapper>
+        </div>
+      </section>
+
+      <MaxWidthWrapper>
+        {/* Section 3 */}
+        <section className=" py-[4rem]">
+          <Heading
+            className="py-[2rem]"
+            isBgWhite={true}
+            isVarticle
+            subTitle={d.section3.heading.subTitle}
+            breakIndex={d.section3.heading.breakIndex}
+            title={d.section3.heading.title}
+          />
+
+          <div className=" py-[4rem]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10">
+              {d.section3.cards.map((card: any) => (
+                <div key={card.title} className="w-full border border-gray-200 rounded-[20px]">
+                  <div className="flex items-start justify-between gap-3 p-5">
+                    <h3 className="p-2 whitespace-pre-line">
+                      {card.title}
+                    </h3>
+                    <div className="p-4 border rounded-full bg-[#FFF9F3] flex-shrink-0">
+                      <img src={card.icon} alt="Icon" className="w-10 h-10" />
+                    </div>
+                  </div>
+                  <p className="text-gray-700 p-5 text-justify">
+                    {card.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+      </MaxWidthWrapper>
+
+
+      {/* Section 4 */}
+      <section className="relative w-full h-auto py-[6rem] bg-black/10">
+        <Image src={d.section4.background} alt="Background" fill className="object-cover -z-10 w-full" />
+        <MaxWidthWrapper>
+          <div className="relative z-10 w-full h-full flex items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-full">
+              <div className="">
+                <Heading
+                  subTitle={d.section4.heading.subTitle}
+                  breakIndex={d.section4.heading.breakIndex}
+                  title={d.section4.heading.title}
+                />
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-[minmax(250px,1fr)] xl:grid-cols-3 gap-6">
+                {d.section4.stats.map((s: any) => (
+                  <div key={s.label} className="w-full h-[208px] rounded-[20px] bg-[#050815B2] flex flex-col items-center justify-center text-center relative">
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-full p-4">
+                      <img src={s.icon} alt="icon" className="w-10 h-10" />
+                    </div>
+                    <h3 className="text-white  font-bold">{s.value}</h3>
+                    <p className="text-white mt-2">{s.label}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </MaxWidthWrapper>
+      </section>
+
+      <MaxWidthWrapper>
+        {/* Section 5 */}
+        <section className="px-4 md:px-8 lg:px-28 py-[6rem]">
+          <div className="max-w-[98%] mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-20 w-full">
+              <div className="relative w-full m-auto max-w-[700px] aspect-[4/3] md:aspect-[16/11] lg:aspect-[16/10]">
+                <img src={d.section5.images[0]} alt="About" className="absolute top-0 left-8 w-full h-full rounded-lg z-5" />
+                <img src={d.section5.images[1]} alt="About" className="absolute top-3 left-3 md:top-4 md:left-4 w-full h-full rounded-lg z-20" />
+                <img src={d.section5.images[2]} alt="About" className="absolute top-6  md:top-8 md:left-0 w-full h-full rounded-lg z-10" />
+              </div>
+
+              <div className="w-full h-full mt-10 md:mt-0 p-5">
+                <Heading
+                isBgWhite={true}
+                  isVarticle={false}
+                  subTitle={d.section5.heading.subTitle}
+                  breakIndex={d.section5.heading.breakIndex}
+                  title={d.section5.heading.title}
+                />
+
+                <p>{d.section5.text}</p>
+
+                <p className="mt-6 md:mt-10 text-base max-w-3xl">
+                  <span className="text-blue-700">{d.section1.quote.blue}</span>
+                  {d.section1.quote.normal}
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Section 6 */}
+        <section className="sm:py-[1rem] md:py-[4rem]">
+          <div className="relative w-full  mx-auto border bg-[#030A2AB5] text-white rounded-[28px] overflow-hidden">
+            <Image src={d.section6.background} alt="Background" fill className="object-cover -z-10 rounded-[28px]" />
+
+            <div className="grid grid-cols-1 md:grid-cols-[1fr_100px_1fr] gap-6 p-6 md:p-20 min-h-[1157px] md:min-h-[1157px] mx-auto">
+              <div className="grid grid-rows-5">
+                <div className="w-full text-[48px] flex items-center justify-end">2020</div>
+                <div className="group bg-[#12385DA8] hover:bg-white p-10 rounded-xl transition-colors">
+                  <h3 className="text-white group-hover:text-[#F28F17] transition-colors">{d.section6.timeline[0].title}</h3>
+                  <p className="text-white group-hover:text-black transition-colors mt-2">{d.section6.timeline[0].desc}</p>
+                </div>
+                <div className="w-full text-[48px] flex items-center justify-end">2022</div>
+                <div className="group bg-[#12385DA8] hover:bg-white p-10 rounded-xl transition-colors">
+                  <h3 className="text-white group-hover:text-[#F28F17] transition-colors">{d.section6.timeline[2].title}</h3>
+                  <p className="text-white group-hover:text-black transition-colors mt-2">{d.section6.timeline[2].desc}</p>
+                </div>
+                <div className="w-full text-[48px] flex items-center justify-end">2024</div>
+              </div>
+
+              <div className="flex items-center justify-center">
+                <div className="relative w-[1px] h-[79%] bg-white mb-2">
+                  <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#F28F17] w-[26px] h-[26px]"></div>
+                  <div className="absolute left-1/2 -translate-x-1/2 top-[25%] rounded-full bg-white w-[16px] h-[16px]"></div>
+                  <div className="absolute left-1/2 -translate-x-1/2 top-[50%] rounded-full bg-white w-[16px] h-[16px]"></div>
+                  <div className="absolute left-1/2 -translate-x-1/2 top-[75%] rounded-full bg-white w-[16px] h-[16px]"></div>
+                  <div className="absolute left-1/2 -translate-x-1/2 top-[100%] rounded-full bg-white w-[16px] h-[16px]"></div>
+                </div>
+              </div>
+
+              <div className="grid grid-rows-5">
+                <div className="group bg-[#12385DA8] hover:bg-white p-10 rounded-xl transition-colors">
+                  <h3 className='text-white group-hover:text-[#F28F17] transition-colors '>{d.section6.timeline[1].title}</h3>
+                  <p className="text-white group-hover:text-black transition-colors mt-2">{d.section6.timeline[1].desc}</p>
+                </div>
+                <div className="w-full text-[48px] flex items-center justify-start">2021</div>
+                <div className="group bg-[#12385DA8] hover:bg-white p-10 rounded-xl transition-colors">
+                  <h3 className="text-white group-hover:text-[#F28F17] transition-colors">{d.section6.timeline[3].title}</h3>
+                  <p className="text-white group-hover:text-black transition-colors mt-2">{d.section6.timeline[3].desc}</p>
+                </div>
+                <div className="w-full text-[48px] flex items-center justify-start">2023</div>
+                <div className="group bg-[#12385DA8] hover:bg-white p-10 rounded-xl transition-colors">
+                  <h3 className="text-white group-hover:text-[#F28F17] transition-colors">{d.section6.timeline[4].title}</h3>
+                  <p className="text-white group-hover:text-black transition-colors mt-2">{d.section6.timeline[4].desc}</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      </MaxWidthWrapper>
+    </>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+{/* <section className="py-6 md:py-12">
         <MaxWidthWrapper className="grid grid-cols-1 flex-col gap-10 lg:grid-cols-2 lg:flex-row">
           <div className="mx-auto flex-grow-0">
             <div className="w-full max-w-lg lg:max-w-full">
@@ -163,118 +433,116 @@ const IntroSection = () => {
             building loyalty among the audience for that brand.
           </p>
         </MaxWidthWrapper>
-      </section>
-    </>
-  );
-};
+      </section> */}
+
 //trdfd
-export const ProcessSection = () => {
-  return (
-    <section className="pb-20">
-      <MaxWidthWrapper className="text-center">
-        <div className="flex flex-col items-center">
-          <div className="relative inline px-4 text-lg text-[#515151]">
-            <div className="absolute left-full top-1/2 h-px w-16 -translate-y-1/2 transform bg-[#A7A9AC]"></div>
-            <div className="absolute right-full top-1/2 h-px w-16 -translate-y-1/2 transform bg-[#A7A9AC]"></div>
-            How We Work
-          </div>
-          <h2 className="">Our Process</h2>
-          <p className="max-w-[900px] pb-10">
-            No need to settle for okay when we can serve you the best! Our
-            strategies are meticulously crafted to spark creativity, boost
-            engagement, and achieve the impossible.
-          </p>
-        </div>
-      </MaxWidthWrapper>
+// export const ProcessSection = () => {
+//   return (
+//     <section className="pb-20">
+//       <MaxWidthWrapper className="text-center">
+//         <div className="flex flex-col items-center">
+//           <div className="relative inline px-4 text-lg text-[#515151]">
+//             <div className="absolute left-full top-1/2 h-px w-16 -translate-y-1/2 transform bg-[#A7A9AC]"></div>
+//             <div className="absolute right-full top-1/2 h-px w-16 -translate-y-1/2 transform bg-[#A7A9AC]"></div>
+//             How We Work
+//           </div>
+//           <h2 className="">Our Process</h2>
+//           <p className="max-w-[900px] pb-10">
+//             No need to settle for okay when we can serve you the best! Our
+//             strategies are meticulously crafted to spark creativity, boost
+//             engagement, and achieve the impossible.
+//           </p>
+//         </div>
+//       </MaxWidthWrapper>
 
-      <MaxWidthWrapper className="hidden lg:block lg:max-w-screen-lg xl:max-w-[1440px]">
-        <div className="relative min-h-[28rem]">
-          <div className="work-process__box_1 work-process_1 absolute bottom-[-5%] left-0 flex max-w-56 cursor-pointer flex-col justify-center break-words border p-3 text-center lg:min-h-40 lg:max-w-72 xl:bottom-0 xl:left-[5%] xl:max-w-72 2xl:left-0 2xl:max-w-sm">
-            <h3>Discovery and Planning</h3>
-            <p className="text-base">
-              Research the business&apos;s landscape, target audience, and
-              specific goals to create a roadmap, ensuring a solid foundation
-              for success.
-            </p>
-          </div>
-          <div className="work-process__icon_1 absolute bottom-16 left-11 flex max-w-64 -translate-y-1/2 flex-col justify-center border p-3 text-center lg:min-h-40 lg:max-w-72 xl:bottom-1/4 xl:left-[12%] xl:max-w-72 2xl:left-[6%] 2xl:max-w-sm">
-            <h3>Strategic Execution</h3>
-            <p className="text-base">
-              Seamlessly execute tailored strategies to elevate your brand and
-              maximize your digital impact.
-            </p>
-          </div>
-          <div className="absolute left-1/2 flex max-w-64 -translate-x-1/2 flex-col justify-center border p-3 text-center lg:top-[20%] lg:min-h-40 lg:max-w-72 xl:top-0 xl:max-w-72 2xl:max-w-sm">
-            <h3>Comprehensive Analysis</h3>
-            <p className="text-base">
-              As the campaigns unfold, conduct in-depth analyses to measure
-              performance, user engagement, and campaign effectiveness.
-            </p>
-          </div>
-          <div className="absolute bottom-16 right-11 flex max-w-64 -translate-y-1/2 flex-col justify-center border p-3 text-center lg:min-h-40 lg:max-w-72 xl:bottom-1/4 xl:right-[12%] xl:max-w-72 2xl:right-[6%] 2xl:max-w-sm">
-            <h3>Ongoing Optimization</h3>
-            <p className="text-base">
-              Continuously optimize campaigns based on emerging trends, user
-              behavior, and platform algorithms to remain adaptive and
-              impactful.
-            </p>
-          </div>
-          <div className="absolute bottom-[-5%] right-0 flex max-w-64 flex-col justify-center border p-3 text-center lg:min-h-40 lg:max-w-72 xl:bottom-0 xl:right-[5%] xl:max-w-72 2xl:right-0 2xl:max-w-sm">
-            <h3>Evaluation and Reporting</h3>
-            <p className="text-base">
-              Regular evaluation and reporting provide valuable insights into
-              strategy effectiveness, progress tracking, and decision-making.
-            </p>
-          </div>
+//       <MaxWidthWrapper className="hidden lg:block lg:max-w-screen-lg xl:max-w-[1440px]">
+//         <div className="relative min-h-[28rem]">
+//           <div className="work-process__box_1 work-process_1 absolute bottom-[-5%] left-0 flex max-w-56 cursor-pointer flex-col justify-center break-words border p-3 text-center lg:min-h-40 lg:max-w-72 xl:bottom-0 xl:left-[5%] xl:max-w-72 2xl:left-0 2xl:max-w-sm">
+//             <h3>Discovery and Planning</h3>
+//             <p className="text-base">
+//               Research the business&apos;s landscape, target audience, and
+//               specific goals to create a roadmap, ensuring a solid foundation
+//               for success.
+//             </p>
+//           </div>
+//           <div className="work-process__icon_1 absolute bottom-16 left-11 flex max-w-64 -translate-y-1/2 flex-col justify-center border p-3 text-center lg:min-h-40 lg:max-w-72 xl:bottom-1/4 xl:left-[12%] xl:max-w-72 2xl:left-[6%] 2xl:max-w-sm">
+//             <h3>Strategic Execution</h3>
+//             <p className="text-base">
+//               Seamlessly execute tailored strategies to elevate your brand and
+//               maximize your digital impact.
+//             </p>
+//           </div>
+//           <div className="absolute left-1/2 flex max-w-64 -translate-x-1/2 flex-col justify-center border p-3 text-center lg:top-[20%] lg:min-h-40 lg:max-w-72 xl:top-0 xl:max-w-72 2xl:max-w-sm">
+//             <h3>Comprehensive Analysis</h3>
+//             <p className="text-base">
+//               As the campaigns unfold, conduct in-depth analyses to measure
+//               performance, user engagement, and campaign effectiveness.
+//             </p>
+//           </div>
+//           <div className="absolute bottom-16 right-11 flex max-w-64 -translate-y-1/2 flex-col justify-center border p-3 text-center lg:min-h-40 lg:max-w-72 xl:bottom-1/4 xl:right-[12%] xl:max-w-72 2xl:right-[6%] 2xl:max-w-sm">
+//             <h3>Ongoing Optimization</h3>
+//             <p className="text-base">
+//               Continuously optimize campaigns based on emerging trends, user
+//               behavior, and platform algorithms to remain adaptive and
+//               impactful.
+//             </p>
+//           </div>
+//           <div className="absolute bottom-[-5%] right-0 flex max-w-64 flex-col justify-center border p-3 text-center lg:min-h-40 lg:max-w-72 xl:bottom-0 xl:right-[5%] xl:max-w-72 2xl:right-0 2xl:max-w-sm">
+//             <h3>Evaluation and Reporting</h3>
+//             <p className="text-base">
+//               Regular evaluation and reporting provide valuable insights into
+//               strategy effectiveness, progress tracking, and decision-making.
+//             </p>
+//           </div>
 
-          <div className="l absolute bottom-[-3.5rem] left-1/2 w-full max-w-xs -translate-x-1/2 lg:max-w-md xl:max-w-xl">
-            <Icons.WorkProcess className="h-full w-full" />
-          </div>
-        </div>
-      </MaxWidthWrapper>
-      <MaxWidthWrapper className="lg:hidden">
-        <Process />
-      </MaxWidthWrapper>
-    </section>
-  );
-};
+//           <div className="l absolute bottom-[-3.5rem] left-1/2 w-full max-w-xs -translate-x-1/2 lg:max-w-md xl:max-w-xl">
+//             <Icons.WorkProcess className="h-full w-full" />
+//           </div>
+//         </div>
+//       </MaxWidthWrapper>
+//       <MaxWidthWrapper className="lg:hidden">
+//         <Process />
+//       </MaxWidthWrapper>
+//     </section>
+//   );
+// };
 
-const WorkStation = () => {
-  return (
-    <MaxWidthWrapper className="grid gap-y-10 py-12 sm:grid-cols-2 sm:gap-x-10 lg:gap-x-24 lg:py-20">
-      <div>
-        <div>
-          <CldImage
-            src="Static Website Images/workstation"
-            alt="About Image"
-            height={600}
-            width={800}
-            className="rounded-lg"
-          />
-        </div>
-        <div className="z-1 relative mx-auto -mt-9 w-4/5 border bg-white px-8 py-5 text-center lg:-mt-14 lg:px-12 lg:py-8">
-          <h3 className="">Our Workstation</h3>
-          <div className="absolute -bottom-3 -left-3 h-8 w-8 border-b-4 border-l-4 border-[#BC1D8D] lg:-bottom-5 lg:-left-5 lg:h-12 lg:w-12"></div>
-          <div className="absolute -bottom-3 -right-3 h-8 w-8 border-b-4 border-r-4 border-[#BC1D8D] lg:-bottom-5 lg:-right-5 lg:h-12 lg:w-12"></div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <CldImage
-            src="Static Website Images/Team"
-            alt="About Image"
-            height={600}
-            width={800}
-            className="rounded-lg"
-            enhance
-          />
-        </div>
-        <div className="z-1 relative mx-auto -mt-9 w-4/5 border bg-white px-8 py-5 text-center lg:-mt-14 lg:px-12 lg:py-8">
-          <h3 className="">40+Team Members</h3>
-          <div className="absolute -bottom-3 -left-3 h-8 w-8 border-b-4 border-l-4 border-[#BC1D8D] lg:-bottom-5 lg:-left-5 lg:h-12 lg:w-12"></div>
-          <div className="absolute -bottom-3 -right-3 h-8 w-8 border-b-4 border-r-4 border-[#BC1D8D] lg:-bottom-5 lg:-right-5 lg:h-12 lg:w-12"></div>
-        </div>
-      </div>
-    </MaxWidthWrapper>
-  );
-};
+// const WorkStation = () => {
+//   return (
+//     <MaxWidthWrapper className="grid gap-y-10 py-12 sm:grid-cols-2 sm:gap-x-10 lg:gap-x-24 lg:py-20">
+//       <div>
+//         <div>
+//           <CldImage
+//             src="Static Website Images/workstation"
+//             alt="About Image"
+//             height={600}
+//             width={800}
+//             className="rounded-lg"
+//           />
+//         </div>
+//         <div className="z-1 relative mx-auto -mt-9 w-4/5 border bg-white px-8 py-5 text-center lg:-mt-14 lg:px-12 lg:py-8">
+//           <h3 className="">Our Workstation</h3>
+//           <div className="absolute -bottom-3 -left-3 h-8 w-8 border-b-4 border-l-4 border-[#BC1D8D] lg:-bottom-5 lg:-left-5 lg:h-12 lg:w-12"></div>
+//           <div className="absolute -bottom-3 -right-3 h-8 w-8 border-b-4 border-r-4 border-[#BC1D8D] lg:-bottom-5 lg:-right-5 lg:h-12 lg:w-12"></div>
+//         </div>
+//       </div>
+//       <div>
+//         <div>
+//           <CldImage
+//             src="Static Website Images/Team"
+//             alt="About Image"
+//             height={600}
+//             width={800}
+//             className="rounded-lg"
+//             enhance
+//           />
+//         </div>
+//         <div className="z-1 relative mx-auto -mt-9 w-4/5 border bg-white px-8 py-5 text-center lg:-mt-14 lg:px-12 lg:py-8">
+//           <h3 className="">40+Team Members</h3>
+//           <div className="absolute -bottom-3 -left-3 h-8 w-8 border-b-4 border-l-4 border-[#BC1D8D] lg:-bottom-5 lg:-left-5 lg:h-12 lg:w-12"></div>
+//           <div className="absolute -bottom-3 -right-3 h-8 w-8 border-b-4 border-r-4 border-[#BC1D8D] lg:-bottom-5 lg:-right-5 lg:h-12 lg:w-12"></div>
+//         </div>
+//       </div>
+//     </MaxWidthWrapper>
+//   );
+// };

@@ -99,10 +99,14 @@ const ContactForm = () => {
     <div className="mt-[1rem] h-full w-full flex-1 space-y-8 rounded-2xl p-[1.5rem] text-center shadow-[0_0_20px_rgba(66,71,76,0.08)] md:mt-0 lg:p-[2rem] lg:text-left xl:p-14">
       <div className="flex justify-between">
         <div>
-          <h3 className="text-left font-poppins text-[22px] font-semibold text-[#111111]">
-            Let’s Start Your Success Journey
+          <h3 className="text-left font-poppins text-[32px] font-semibold text-[#111111]">
+            Contact Us
           </h3>
-          <p className="pt-3 text-left text-[14px] text-[#666666]">
+          {/* <h3 className="text-left font-poppins text-[22px] font-semibold text-[#111111]">
+            Let’s Start Your Success Journey
+          </h3> */}
+          <p className="pt-3 text-left text-[16px] text-[#666666]">
+          {/* <p className="pt-3 text-left text-[14px] text-[#666666]"> */}
             Fill out the form, and let’s turn your business goals into reality.
           </p>
         </div>

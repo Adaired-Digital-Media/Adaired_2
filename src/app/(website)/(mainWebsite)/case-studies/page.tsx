@@ -1,6 +1,5 @@
 'use client';
 import PageBanner from '@web-components/PageBanner';
-import { getBlogsData, ProcessSection } from '../about/page';
 import TestimonialSlider from '@web-components/TestimonialSlider';
 import BlogCards from '@web-components/BlogCard/BlogCards';
 import CaseStudyCards from '@web-components/CaseStudyCards';

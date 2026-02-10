@@ -4,7 +4,6 @@ import parse, { Element, DOMNode } from 'html-react-parser';
 import PageBanner from '@web-components/PageBanner';
 import Heading from '@/app/(website)/common/Heading';
 import { Base2URL } from '@/baseUrl';
-import { blogData } from '@/dataa/blogData';
 import arrowIcon from '../../../../../../public/assets/icons/arrowIcon.png';
 import Image from 'next/image';
 
@@ -62,7 +61,7 @@ const Blog = async ({ params }: BlogProps) => {
 
   return (
     <>
-      <PageBanner title={blogData.bannerTitle} />
+      <PageBanner title={'blogData.bannerTitle'} />
 
       <MaxWidthWrapper className="py-12 md:py-20">
         <Heading
@@ -83,7 +82,7 @@ const Blog = async ({ params }: BlogProps) => {
             />
           </div>
           <div>
-            <p>  {getIntroParagraphs(blog?.postDescription)}</p>
+            <p> {getIntroParagraphs(blog?.postDescription)}</p>
           </div>
         </div>
         <div className="prose w-full max-w-none columns-1">

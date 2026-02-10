@@ -6,7 +6,7 @@ import Heading from '../../common/Heading';
 import Image from 'next/image';
 import leftImg from '../../../../../public/assets/banner_left_gridiant.png';
 import rightImg from '../../../../../public/assets/banner_right_gridiant.png';
-
+//test
 const PageBanner = ({ subTitle, title }: any) => {
   const pathname = usePathname();
 
@@ -29,6 +29,16 @@ const PageBanner = ({ subTitle, title }: any) => {
       <MaxWidthWrapper>
         <Heading subTitle={subTitle} title={title} span={''} />
       </MaxWidthWrapper>
+
+      {/* <MaxWidthWrapper className="relative">
+        <Heading subTitle={subTitle} title={title} span={''} />
+
+        <Image
+          src={contactUsHand}
+          alt="icon"
+          className="absolute left-[400px] top-1/2 -translate-y-1/2 h-[152px] w-[152px]"
+        />
+      </MaxWidthWrapper> */}
     </div>
   );
 };

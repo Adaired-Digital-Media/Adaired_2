@@ -18,19 +18,35 @@ const ReadyToStart = ({ handleClick }: any) => {
       <section ref={ref} className="relative z-20">
         <MaxWidthWrapper>
           <div
-            className={`rounded-3xl bg-[#FB9100] py-[3rem] transition-all duration-1000 lg:py-[6rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            className={`relative rounded-3xl bg-[#FB9100] py-[3rem] transition-all duration-1000 lg:py-[3rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
           >
+            <img
+              src="/assets/aiseo/ReadyToStart1.png"
+              alt=""
+              className="absolute left-0 top-0 h-[91px] w-[150px] sm:h-[112px] sm:w-[186px] md:h-[143px] md:w-[246px] lg:h-[334px] lg:w-[576px]"
+            />
+
+            <img
+              src="/assets/aiseo/ReadyToStart2.png"
+              alt=""
+              className="absolute bottom-0 right-0 h-[91px] w-[150px] sm:h-[112px] sm:w-[186px] md:h-[143px] md:w-[246px] lg:h-[334px] lg:w-[576px]"
+            />
+
             <Heading
               breakIndex={5}
               isH1={true}
               title={'Ready to Start Your SEO Project Today?'}
-              description={
-                'Boost your online visibility, attract targeted traffic, and grow your business with our expert SEO strategies.'
-              }
+              description={''}
               isInCenter={true}
               isBgWhite={false}
               className="whitespace-pre-line"
             />
+            <div className="flex justify-center">
+              <h3 className="w-[80%] text-center text-[#FFFFFF] lg:w-[50%]">
+                Boost your online visibility, attract targeted traffic, and grow
+                your business with our expert SEO strategies.
+              </h3>
+            </div>
             <div className="flex justify-center py-[2rem]">
               <button
                 onMouseEnter={() => setIsHover(true)}

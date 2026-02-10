@@ -12,54 +12,46 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import { tree } from 'next/dist/build/templates/app-page';
 
 const About = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const { subTitle, title, points, description, cursive } = AboutSectionData;
 
   return (
     <section className="">
-      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem] xl:py-[6rem]">
+      <MaxWidthWrapper className="lg:py-[4rem]">
         <div
           ref={ref}
           className="flex flex-col-reverse gap-[3rem] lg:flex-row lg:justify-between lg:gap-[3rem] 1400:gap-[1rem] 1680:gap-[2rem] 3xl:gap-[5.25rem]"
         >
           {/* Image Section */}
-          <div className="relative mx-auto flex-1">
+          <div className="relative mx-auto flex w-full justify-center lg:w-[42%]">
             {/* CENTER IMAGE */}
             <div
-              // ref={imageRef}
-              // className={`mt-0 flex items-center justify-center p-3 md:mt-0 lg:mt-[2rem] xl:mt-0 1400:mt-[2rem] 1440:mt-[2rem] 1600:mt-[2rem] 1710:mt-0 ${'imageClass'}`}
-              className={`mt-0 flex items-center justify-center p-3 transition-all duration-1000 md:mt-0 lg:mt-[2rem] xl:mt-0 1400:mt-[2rem] 1440:mt-[2rem] 1600:mt-[2rem] 1710:mt-0 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
+              className={`relative mx-[3.5rem] my-[2.5rem] aspect-[615/685] w-[clamp(14rem,55vw,39.063rem)] overflow-hidden transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
             >
               <Image
                 src={img}
                 alt="About Image"
-                className="block h-[14rem] w-[14rem] rounded-lg md:h-[34.625rem] md:w-[36.313rem] lg:h-[20.625rem] lg:w-[20.313rem] xl:h-[34.625rem] xl:w-[36.313rem] 1360:mt-[2rem] 1360:h-[20rem] 1360:w-[22rem] 1400:mt-[2rem] 1400:hidden 1400:h-[23rem] 1400:w-[23rem] 1470:hidden 1470:w-[25rem] 1600:mt-[2rem] 1600:hidden 1600:h-[37rem] 1600:w-[30rem] 1680:mt-[2rem] 1680:hidden 1680:h-[37rem] 1680:w-[31.5rem] 1710:block 1710:h-[37.5rem] 1710:w-[32rem] 3xl:h-[38rem] 3xl:w-[36.313rem]"
-              />
-              <Image
-                src={img_700}
-                alt="About Image"
-                className="hidden rounded-xl 1400:block 1400:h-[710px] 1400:w-[480px] 1440:h-[640px] 1440:w-[500px] 1470:h-[575px] 1470:w-[445px] 1600:block 1600:h-[600px] 1600:w-[490px] 1710:hidden"
+                fill
+                className="rounded-[20px] object-cover"
+                priority
               />
             </div>
-            <div className="absolute left-[-1rem] top-[2rem] flex animate-zoomPulse gap-2 rounded-xl border-[1px] border-[#000000]/10 bg-[#FFFFFF] px-2 py-1 lg:left-0 lg:top-14 lg:px-4 lg:py-2">
-              <Image
-                src={check}
-                width={18}
-                height={18}
-                alt="check "
-                className="my-auto"
-              />
-              <p className="my-auto font-outfit text-[12px] text-[#000000] lg:text-[15.62px]">
+
+            {/* FLOATING BADGE */}
+            <div className="absolute left-[clamp(-1rem,-2vw,0rem)] top-[clamp(1.5rem,4vw,3.5rem)] flex animate-zoomPulse gap-2 rounded-xl border border-black/10 bg-white px-2 py-1 lg:px-4 lg:py-2">
+              <Image src={check} width={18} height={18} alt="check" />
+              <p className="font-outfit text-[12px] text-black lg:text-[15.62px]">
                 100% Business Growth
               </p>
             </div>
+
             {/* MASK – TOP RIGHT */}
             <Image
               src={Mask}
               alt="Mask Image"
               width={246}
               height={136}
-              className="absolute right-[-3rem] top-[-2rem] -z-10 lg:right-6 lg:top-0"
+              className="absolute right-[clamp(0rem,0vw,0rem)] top-[clamp(0rem,0vw,0rem)] -z-10"
             />
 
             {/* MASK – BOTTOM LEFT */}
@@ -68,21 +60,19 @@ const About = () => {
               alt="Mask Image"
               width={246}
               height={136}
-              // className="absolute bottom-[-1.8rem] left-[-3rem] -z-10 lg:bottom-[22.75rem] lg:left-5 xl:bottom-[5.5rem] 1360:bottom-[22rem] 1400:bottom-[0rem] 1470:bottom-[1rem] 1600:bottom-[8.5rem] 1680:bottom-[6.5rem] 3xl:bottom-[4rem]"
-              className="absolute bottom-[-1.8rem] left-[-3rem] -z-10 lg:bottom-[22.75rem] lg:left-5 xl:bottom-[5.5rem] 1360:bottom-[22rem] 1400:bottom-[0rem] 1470:bottom-[1rem] 1600:bottom-[rem] 1680:bottom-[rem] 3xl:bottom-[rem]"
+              className="absolute bottom-[clamp(0rem,0vw,0rem)] left-[clamp(0.5rem,0.5vw,0.5rem)] -z-10"
             />
 
             {/* ABOUT GRAPH – BOTTOM RIGHT */}
             <div
-              className={`transition-all delay-300 duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
+              className={`absolute bottom-[clamp(0rem,0vw,0rem)] right-[clamp(-1rem,-4vw,0rem)] aspect-[276/215] w-[clamp(8rem,18vw,17.25rem)] transition-all delay-300 duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
             >
               <Image
                 src={about_graph}
                 alt="Graph Image"
                 width={276}
                 height={215}
-                // ref={zoomRef}
-                className={`absolute bottom-[-2.25rem] right-[-2rem] h-[7rem] w-[8rem] md:bottom-[-3.25rem] md:right-[-3rem] md:h-[14.063rem] md:w-[17.25rem] lg:bottom-[-3rem] lg:right-0 lg:h-[180px] lg:w-[226px] xl:h-[215px] xl:w-[276px]`}
+                className=""
               />
             </div>
           </div>

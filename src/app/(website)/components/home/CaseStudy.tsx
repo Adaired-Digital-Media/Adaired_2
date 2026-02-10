@@ -62,7 +62,6 @@ const CaseStudy = () => {
     }
   };
 
-
   useEffect(() => {
     getCaseStudy();
   }, []);
@@ -71,6 +70,7 @@ const CaseStudy = () => {
       <MaxWidthWrapper className="py-[3rem] lg:py-[6rem]">
         <div className="">
           <Heading
+            isLabel={true}
             subTitle={subTitle}
             title={title}
             span={span}

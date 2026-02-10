@@ -293,7 +293,7 @@ const WebFooter = () => {
         </MaxWidthWrapper>
       </footer>
       <MaxWidthWrapper>
-        <div className="flex flex-col-reverse items-center justify-center bg-white py-4 text-center text-black md:flex-row md:justify-center">
+        <div className="flex flex-col-reverse items-center justify-center bg-white py-1 text-center text-black md:flex-row md:justify-center">
           <div className="font text-xxs">
             Copyright © {new Date().getFullYear()} - AdAired Digital Media
           </div>

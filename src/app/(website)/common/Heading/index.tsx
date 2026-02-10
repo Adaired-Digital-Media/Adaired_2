@@ -179,9 +179,9 @@ const Heading = ({
                   )}
                 </div>
               </div>
-              <div className="px-0 lg:px-[20%]">
+              <div className="px-0 lg:px-[15%]">
                 <p
-                  className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} py-4 text-center`}
+                  className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} py-4 text-center w-[80%] mx-auto`}
                 >
                   {description}
                 </p>
@@ -231,7 +231,7 @@ const Heading = ({
               </div>
               <div className={`${isDecVarticle && 'pt-[1rem]'}`}>
                 <p
-                  className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-justify lg:text-left`}
+                  className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
                 >
                   {description}
                 </p>

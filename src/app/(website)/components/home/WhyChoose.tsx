@@ -9,10 +9,10 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const WhyChoose = () => {
   const { subTitle, title, span, description, points } = WhyChooseSectionData;
   const [isHover, setIsHover] = useState<number | null>(1);
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
-    <section className="relative py-[3rem] lg:py-[4rem] xl:py-[6rem]">
+    <section className="relative py-[3rem] lg:pt-[4rem] lg:pb-[0rem]">
       {/* <Image src={chooseUsBg} fill alt="d" className="object-cover" priority /> */}
       <div ref={ref} className="relative z-20">
         <MaxWidthWrapper>
@@ -31,7 +31,7 @@ const WhyChoose = () => {
             />
           </div>
 
-          <div className="grid grid-cols-1 py-[1rem] md:grid-cols-2 md:gap-[1rem] lg:mt-[6rem] lg:grid-cols-4 lg:gap-3 xl:gap-[1.5rem]">
+          <div className="grid grid-cols-1 py-[1rem] md:grid-cols-2 md:gap-[1rem] lg:mt-[3rem] lg:grid-cols-4 lg:gap-3 xl:gap-[1.5rem]">
             {points?.map((item, idx: any) => {
               const hovered = isHover === idx;
               const zoom = useHoverZoom({

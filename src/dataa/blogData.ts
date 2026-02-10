@@ -89,7 +89,7 @@ type : "none"
     },
     {
         name: "Why Does Your Business Fail To Attract Local Customers?",
-        description: `If you are still reading, chances are your business is not attracting local customers. Let us see what is missing and how you can fix it with our local search engine optimization service:\n \n`,
+        description: `If you are still reading, chances are your business is not attracting local customers. Let us see what is missing and how you can fix it with our local search engine optimization service:\n`,
         list: [ 
              {
             name: "Include Information To Your Listing",

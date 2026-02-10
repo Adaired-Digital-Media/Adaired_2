@@ -9,13 +9,13 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
 const Stopstruggling = ({ stopStruggling }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
 
   return (
     <div
       ref={ref}
-      className="flex items-center justify-center bg-cover bg-center bg-no-repeat py-[3rem] lg:py-[6rem]"
+      className="flex items-center justify-center bg-cover bg-center bg-no-repeat py-[3rem] lg:py-[4rem]"
       style={{
         backgroundImage: `url(${stopStruggling?.bgImg?.src})`,
       }}
@@ -33,7 +33,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             isBgWhite={true}
             isIcon={true}
             handleClick={() => setOpen(!open)}
-            className="mx-auto mt-[2rem] w-[23rem]"
+            className="mx-auto mt-[2rem] lg:w-[23rem] w-[19rem]"
           />
         </div>
       </MaxWidthWrapper>

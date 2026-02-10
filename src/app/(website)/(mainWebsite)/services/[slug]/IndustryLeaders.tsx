@@ -20,7 +20,7 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const IndustryLeaders = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const data = [
     client_1,
     client_2,
@@ -39,7 +39,7 @@ const IndustryLeaders = () => {
   return (
     <div
       ref={ref}
-      className="bg-gradient-to-b from-[#01040A] to-[#051C40] py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+      className="bg-gradient-to-b from-[#01040A] to-[#051C40] py-[3rem] lg:py-[4rem]"
     >
       <MaxWidthWrapper>
         <div

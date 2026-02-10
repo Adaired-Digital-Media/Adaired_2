@@ -2,18 +2,22 @@ import { cn } from '@core/utils/class-names';
 import { ProductForm as PForm } from '@/app/shared/ecommerce/product/product-form';
 import SmallWidthContainer from '@/app/(website)/components/SmallWidthContainer';
 import dynamic from 'next/dynamic';
+import { BaseURL } from '@/baseUrl';
 
 const OrderSummery = dynamic(
   () => import('@/app/shared/ecommerce/checkout/order-summery'),
   { ssr: false }
 );
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_BACKEND_API_URI || '';
+const API_BASE_URL = BaseURL || '';
 
 async function fetchProducts() {
-  const response = await fetch(`${API_BASE_URL}/product/read-product?status=active`, {
-    cache: 'no-store',
-  });
+  const response = await fetch(
+    `${API_BASE_URL}/product/read-product?status=active`,
+    {
+      cache: 'no-store',
+    }
+  );
   if (!response.ok) throw new Error('Failed to fetch products');
   const { data } = await response.json();
   return data;

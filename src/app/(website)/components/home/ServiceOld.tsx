@@ -43,6 +43,7 @@ const Services = () => {
         <MaxWidthWrapper>
           <div className="">
             <Heading
+              isLabel={true}
               subTitle={subtitle}
               title={title}
               span={span}
