@@ -26,13 +26,20 @@ export default function DefaulWebsitetLayout({
           >
             <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
           </Link> */}
-          <Link
+          {/* <Link
             href="https://api.whatsapp.com/send?phone=918907300008"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
-          </Link>
+          </Link> */}
+          <a
+            href="https://wa.me/918907300008"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
+          </a>
         </div>
       </SessionProvider>
     </div>
