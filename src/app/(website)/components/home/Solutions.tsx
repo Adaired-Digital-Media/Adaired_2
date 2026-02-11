@@ -31,7 +31,7 @@ const Solutions = () => {
 
   return (
     <section className="">
-      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem]">
+      <MaxWidthWrapper className="pb-[5rem] pt-[3rem] lg:py-[4rem]">
         <div
           ref={ref}
           className="flex flex-col-reverse lg:flex-row lg:justify-between lg:gap-[3rem] xl:gap-[5rem]"
@@ -40,7 +40,7 @@ const Solutions = () => {
           <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
             {/* CENTER IMAGE */}
             <div
-              className={`mx-[2.65rem] my-[2.65rem] flex items-center justify-center transition-all duration-1000 ${
+              className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
                 isVisible
                   ? 'translate-x-0 opacity-100'
                   : '-translate-x-16 opacity-0'
@@ -51,7 +51,7 @@ const Solutions = () => {
                 alt="About Image"
                 width={625}
                 height={470}
-                className="my-[0rem] aspect-[625/470] w-[clamp(14rem,35vw,39.063rem)] rounded-lg transition-opacity transition-transform"
+                className="my-[0rem] aspect-[625/470] w-[clamp(15rem,32vw,32.063rem)] rounded-lg transition-opacity transition-transform md:w-[clamp(16rem,60vw,62.063rem)] lg:w-[clamp(14rem,35vw,39.063rem)]"
               />
             </div>
 
@@ -86,13 +86,15 @@ const Solutions = () => {
               span=""
               description={description}
             />
-            <SaveAndCancel
-              name={'Get Your Free Website Audit'}
-              isIcon={true}
-              buttonWidth={'w-[22rem] 1360:w-[18rem] 1400:w-[22rem]'}
-              handleClick={() => setOpen(!open)}
-              className="rem] mt-[2rem]"
-            />
+            <div className="flex justify-center lg:justify-start">
+              <SaveAndCancel
+                name={'Get Your Free Website Audit'}
+                isIcon={true}
+                buttonWidth={'!w-[20rem]'}
+                handleClick={() => setOpen(!open)}
+                className="rem] mt-[2rem]"
+              />
+            </div>
           </div>
         </div>
       </MaxWidthWrapper>

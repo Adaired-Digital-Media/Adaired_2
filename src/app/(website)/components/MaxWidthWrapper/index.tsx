@@ -8,7 +8,7 @@ const MaxWidthWrapper: React.FC<{
   return (
     <section
       className={cn(
-        'mx-auto box-border w-[95%] lg:w-[90%] xl:w-[83%]',
+        'mx-auto box-border w-[90%] md:w-[80%] lg:w-[90%] xl:w-[83%]',
         className
       )}
     >

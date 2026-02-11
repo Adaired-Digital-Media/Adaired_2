@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Heading from '../../common/Heading';
-import MaxWidthWrapper from '../MaxWidthWrapper';
+import MaxWidthWrapper from './MaxWidthWrapper';
 import user from '../../../../../public/assets/review/Ellipse 30.png';
 import user_2 from '../../../../../public/assets/review/Ellipse 31.png';
 import user_3 from '../../../../../public/assets/review/Ellipse 32.png';
@@ -8,7 +7,7 @@ import user_4 from '../../../../../public/assets/review/Ellipse 33.png';
 import user_5 from '../../../../../public/assets/review/Ellipse 34.png';
 import Image from 'next/image';
 import { MdStarRate } from 'react-icons/md';
-import SaveAndCancel from '../../common/SaveAndCancel';
+import SaveAndCancel from '../common/SaveAndCancel';
 import banner_img_1 from '../../../../../public/assets/images/home/banner_img_1.png';
 import banner_img_2 from '../../../../../public/assets/images/home/banner_img_2.png';
 import banner_img_3 from '../../../../../public/assets/images/home/banner_img_3.png';
@@ -20,9 +19,8 @@ import { PiDotsThree } from 'react-icons/pi';
 import google from '../../../../../public/assets/images/partner/google.svg';
 import upwork from '../../../../../public/assets/images/partner/upwork.svg';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-import star from '../../../../../public/assets/icons/star.png';
 
-const Banner = () => {
+const commonslice = () => {
   const router = useRouter();
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const users = [user, user_2, user_3, user_4, user_5];
@@ -109,7 +107,7 @@ const Banner = () => {
   return (
     <div
       ref={ref}
-      className="relative mx-auto min-h-screen w-full overflow-hidden pt-[10vh]"
+      className="relative min-h-screen w-full overflow-hidden pt-[10vh]"
     >
       <Image
         src={hero_banner}
@@ -122,22 +120,8 @@ const Banner = () => {
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[42%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
-          <div className="mx-auto flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem] lg:mx-0 lg:mr-auto">
-            <Image
-              src={star}
-              width={18}
-              height={17}
-              alt=""
-              className="mb-auto"
-            />
-            <span className="my-auto uppercase text-[#000000]">
-              Gain Visibility That Converts
-            </span>
-          </div>
-          <h1 className="text-center lg:text-left">
-            Result-Driven Digital Marketing Agency for Scalable Growth
-          </h1>
-          <p className="text-center lg:text-left">
+          <h1>Result-Driven Digital Marketing Agency for Scalable Growth</h1>
+          <p>
             From Google searches to AI chats, we make sure your brand is visible
             to your customers wherever they look.
           </p>
@@ -317,7 +301,7 @@ const Banner = () => {
           </div>
         </div> */}
         <div
-          className={`relative mt-[5rem] w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] lg:pt-0 ${
+          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0 ${
             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'
           }`}
         >
@@ -329,7 +313,7 @@ const Banner = () => {
                   width={599}
                   height={483}
                   alt=""
-                  className={`aspect-[599/483] w-[clamp(12rem,70vw,20rem)] max-w-full transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(14rem,55vw,28rem)] lg:w-[clamp(15rem,32vw,37.438rem)] ${
+                  className={`aspect-[599/483] w-[clamp(15rem,32vw,37.438rem)] max-w-full transition-opacity transition-transform duration-700 ease-in-out ${
                     active === 'img1'
                       ? 'z-40 opacity-100'
                       : active
@@ -338,82 +322,40 @@ const Banner = () => {
                   }`}
                 />
 
-                <div className="absolute right-0 top-[103%] hidden w-[100%] grid-cols-[repeat(auto-fit,minmax(90px,1fr))] gap-2 md:grid">
+                <div className="absolute right-0 top-[103%] hidden w-[100%] grid-cols-4 gap-2 md:grid">
                   {griphData?.map((item, idx) => {
                     return (
-                      // <div
-                      //   className={`min-h-[3.5rem] rounded-[0.25rem] border border-black/20 bg-white/80 px-2 pb-2 ${
-                      //     idx == 1 && 'animate-step1'
-                      //   } ${idx == 2 && 'animate-step2'} ${
-                      //     idx == 3 && 'animate-step3'
-                      //   } ${idx == 4 && 'animate-step4'}`}
-                      // >
-                      //   <div className="flex justify-between">
-                      //     <div className="my-auto flex gap-1">
-                      //       <span className="my-auto">{item?.icon}</span>
-                      //       <p className="mb-auto text-[6px] xl:text-[6px]">
-                      //         {item?.lebal}
-                      //       </p>
-                      //     </div>
-                      //     <PiDotsThree size={12} />
-                      //   </div>
-
-                      //   <div className="-mt-1 flex h-fit w-[100%] gap-2">
-                      //     <p className="my-auto text-[10px] font-bold xl:text-[12px]">
-                      //       {item?.number}
-                      //     </p>
-
-                      //     <div
-                      //       className={`my-auto flex h-[16px] w-fit gap-1 rounded-[0.25rem] border-[0.49px] bg-[#000000]/10 px-[0.5rem] opacity-40 ${
-                      //         item?.griphNumber == '10'
-                      //           ? 'border-[#FF5A65]/20 text-[#FF5A65]'
-                      //           : 'border-[#14CA74]/20 text-[#14CA74]'
-                      //       }`}
-                      //     >
-                      //       <p
-                      //         className={`mt-[-0.25rem] text-[6px] font-semibold xl:text-[6px] ${
-                      //           item?.griphNumber == '10'
-                      //             ? 'text-[#FF5A65]'
-                      //             : 'text-[#14CA74]'
-                      //         }`}
-                      //       >
-                      //         {item?.griphNumber}
-                      //       </p>
-                      //       <span className="my-auto">{item?.griph}</span>
-                      //     </div>
-                      //   </div>
-                      // </div>
                       <div
-                        className={`min-h-[3.5rem] rounded-[0.25rem] border border-black/20 bg-white/80 px-2 py-2 ${
+                        className={`h-[3.5rem] ${
                           idx == 1 && 'animate-step1'
                         } ${idx == 2 && 'animate-step2'} ${
                           idx == 3 && 'animate-step3'
-                        } ${idx == 4 && 'animate-step4'}`}
+                        } ${idx == 4 && 'animate-step4'} rounded-[0.25rem] border-[1px] border-[#000000]/20 bg-[#FFFFFF]/80 px-[0.5rem] pb-2`}
                       >
                         <div className="flex justify-between">
                           <div className="my-auto flex gap-1">
                             <span className="my-auto">{item?.icon}</span>
-                            <p className="mb-auto text-[clamp(0.55rem,0.6vw,0.75rem)] leading-tight">
+                            <p className="mb-auto text-[6px] xl:text-[6px]">
                               {item?.lebal}
                             </p>
                           </div>
-                          <PiDotsThree size={14} />
+                          <PiDotsThree size={12} />
                         </div>
 
-                        <div className="mt-1 flex w-full gap-2">
-                          <p className="my-auto text-[clamp(0.75rem,0.9vw,1rem)] font-bold leading-tight">
+                        <div className="-mt-1 flex h-fit w-[100%] gap-2">
+                          <p className="my-auto text-[10px] font-bold xl:text-[12px]">
                             {item?.number}
                           </p>
 
                           <div
-                            className={`my-auto flex min-h-[1rem] w-fit items-center gap-1 rounded-[0.25rem] border px-2 py-[0.1rem] opacity-80 ${
+                            className={`my-auto flex h-[16px] w-fit gap-1 rounded-[0.25rem] border-[0.49px] bg-[#000000]/10 px-[0.5rem] opacity-40 ${
                               item?.griphNumber == '10'
-                                ? 'border-[#FF5A65]/20 bg-[#FF5A65]/10 text-[#FF5A65]'
-                                : 'border-[#14CA74]/20 bg-[#14CA74]/10 text-[#14CA74]'
+                                ? 'border-[#FF5A65]/20 text-[#FF5A65]'
+                                : 'border-[#14CA74]/20 text-[#14CA74]'
                             }`}
                           >
                             <p
-                              className={`text-[clamp(0.55rem,0.6vw,0.65rem)] font-semibold leading-none ${
+                              className={`mt-[-0.25rem] text-[6px] font-semibold xl:text-[6px] ${
                                 item?.griphNumber == '10'
                                   ? 'text-[#FF5A65]'
                                   : 'text-[#14CA74]'
@@ -421,9 +363,7 @@ const Banner = () => {
                             >
                               {item?.griphNumber}
                             </p>
-                            <span className="text-[clamp(0.55rem,0.6vw,0.75rem)] leading-none">
-                              {item?.griph}
-                            </span>
+                            <span className="my-auto">{item?.griph}</span>
                           </div>
                         </div>
                       </div>
@@ -439,9 +379,9 @@ const Banner = () => {
               width={302}
               height={186}
               alt=""
-              className={`absolute bottom-[-15%] left-[0rem] aspect-[302/186] w-[clamp(7rem,55vw,10rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-20%] md:w-[clamp(8rem,28vw,14rem)] lg:bottom-[-15%] lg:w-[clamp(8rem,14vw,18.875rem)] ${
+              className={`absolute bottom-[-15%] left-[0rem] aspect-[302/186] w-[clamp(8rem,14vw,18.875rem)] transition-opacity transition-transform duration-700 ease-in-out ${
                 active === 'img3'
-                  ? 'z-30 translate-x-[60%] translate-y-[-100%] scale-105 opacity-100 backdrop-blur-md md:translate-x-[100%] md:translate-y-[-150%]'
+                  ? 'z-30 translate-x-[100%] translate-y-[-150%] scale-105 opacity-100 backdrop-blur-md'
                   : active
                     ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
                     : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
@@ -454,9 +394,9 @@ const Banner = () => {
               width={388}
               height={244}
               alt=""
-              className={`absolute right-0 top-[-20%] aspect-[388/244] w-[clamp(7rem,55vw,10rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(10rem,35vw,20rem)] lg:w-[clamp(10rem,18vw,24.25rem)] ${
+              className={`absolute right-0 top-[-20%] aspect-[388/244] w-[clamp(10rem,18vw,24.25rem)] transition-opacity transition-transform duration-700 ease-in-out ${
                 active === 'img2'
-                  ? 'z-30 translate-x-[-60%] translate-y-[100%] scale-105 bg-white/80 opacity-100 backdrop-blur-md md:translate-x-[-65%] md:translate-y-[100%]'
+                  ? 'z-30 translate-x-[-65%] translate-y-[100%] scale-105 bg-white/80 opacity-100 backdrop-blur-md'
                   : active
                     ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
                     : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
@@ -469,4 +409,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default commonslice;

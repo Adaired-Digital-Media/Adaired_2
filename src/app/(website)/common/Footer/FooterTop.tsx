@@ -33,44 +33,79 @@ const data = [
 ];
 const FooterTop = () => {
   return (
-    <div className="grid w-full grid-cols-1 lg:grid-cols-4">
+    // <div className="grid w-full grid-cols-1 lg:grid-cols-4">
+    //   {data?.map((item: IFooterTop, idx) => {
+    //     return (
+    //       <div
+    //         className={`${item?.name === 'Find Us' && 'col-span-2'} flex gap-3 py-2`}
+    //       >
+    //         <Link
+    //           key={idx}
+    //           href={item?.path}
+    //           target="_blank"
+    //           rel="noopener noreferrer"
+    //         >
+    //           <Image
+    //             src={item?.icon}
+    //             width={50}
+    //             height={45}
+    //             alt="icon"
+    //             className="mb-auto"
+    //           />
+    //         </Link>
+
+    //         <div>
+    //           <p className="text-[18px] text-white">{item?.name}</p>
+    //           <Link
+    //             key={idx}
+    //             href={item?.path}
+    //             target="_blank"
+    //             rel="noopener noreferrer"
+    //           >
+    //             <p className="pt-1 text-left text-[20px] font-[600] leading-7 text-white">
+    //               {item?.description}
+    //             </p>
+    //             <p className="cursor-pointer pt-1 text-[20px] font-[600] leading-7 text-white">
+    //               {item?.name === 'Find Us'
+    //                 ? 'Sector 66, SAS Nagar, Punjab 160066'
+    //                 : ''}
+    //             </p>
+    //           </Link>
+    //         </div>
+    //       </div>
+    //     );
+    //   })}
+    // </div>
+    <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
       {data?.map((item: IFooterTop, idx) => {
         return (
           <div
-            className={`${item?.name === 'Find Us' && 'col-span-2'} flex gap-3 py-2`}
+            key={idx}
+            className={`flex items-start gap-4 ${
+              item?.name === 'Find Us' ? 'md:col-span-2 lg:col-span-2' : ''
+            } `}
           >
-            <Link
-              key={idx}
-              href={item?.path}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            {/* Icon Wrapper */}
+            <div className="flex h-[50px] w-[50px] min-w-[50px] items-center justify-center">
               <Image
                 src={item?.icon}
-                width={50}
-                height={45}
+                width={124}
+                height={124}
                 alt="icon"
-                className="mb-auto"
+                className="object-contain"
               />
-            </Link>
+            </div>
 
+            {/* Content */}
             <div>
-              <p className="text-[18px] text-white">{item?.name}</p>
-              <Link
-                key={idx}
-                href={item?.path}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="pt-1 text-[20px] font-[600] leading-7 text-white">
-                  {item?.description}
-                </p>
-                <p className="cursor-pointer pt-1 text-[20px] font-[600] leading-7 text-white">
-                  {item?.name === 'Find Us'
-                    ? 'Sector 66, SAS Nagar, Punjab 160066'
-                    : ''}
-                </p>
-              </Link>
+              <p className="text-left text-[18px] text-white">{item?.name}</p>
+
+              <p className="pt-1 text-left text-[20px] font-semibold leading-7 text-white">
+                {item?.description} <br className="hidden md:block" />{' '}
+                <span className="text-[20px] font-semibold">
+                  Sector 66, SAS Nagar, Punjab 160066
+                </span>
+              </p>
             </div>
           </div>
         );

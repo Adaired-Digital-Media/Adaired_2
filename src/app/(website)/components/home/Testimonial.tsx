@@ -70,12 +70,12 @@ const Testimonial = () => {
                         'noopener,noreferrer'
                       )
                     }
-                    className="h-[23.5rem] transform-gpu cursor-pointer rounded-2xl border-[5px] border-transparent bg-white p-[2.5rem] transition-all duration-300 ease-out will-change-transform hover:scale-[1.03] hover:border-[#1B5A96] md:h-[17rem] lg:h-[25rem] lg:p-[1.5rem] xl:p-[2rem] 1360:h-[18rem] 1400:h-[18rem] 1440:h-[22rem] 1600:h-[20rem] 1710:h-[19rem] 3xl:h-[19rem]"
+                    className="h-[18.5rem] transform-gpu cursor-pointer rounded-2xl border-[5px] border-transparent bg-white p-[2.5rem] transition-all duration-300 ease-out will-change-transform hover:scale-[1.03] hover:border-[#1B5A96] md:h-[14rem] lg:h-[25rem] lg:p-[1.5rem] xl:p-[2rem] 1360:h-[18rem] 1400:h-[18rem] 1440:h-[22rem] 1600:h-[20rem] 1710:h-[19rem] 3xl:h-[19rem]"
                   >
                     <div className="">
                       <div className="flex justify-between pt-[1rem]">
                         <div className="">
-                          <p className="text-sm text-left font-medium text-[#108A00] lg:text-xs xl:text-sm 1360:text-xxs 1400:text-sm">
+                          <p className="text-left font-semibold text-[#108A00]">
                             {testimonial.name}
                           </p>
                           <div className="my-1 flex gap-1 lg:gap-0 xl:gap-1">

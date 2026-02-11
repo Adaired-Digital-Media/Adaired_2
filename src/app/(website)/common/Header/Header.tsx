@@ -40,10 +40,10 @@ const Header = () => {
             >
               <Image
                 src={logo}
+                alt="brand logo"
                 width={132}
                 height={50}
-                alt="brand logo"
-                className="h-[2.125rem] w-[6.25rem] lg:h-[3.125rem] lg:w-[8.25rem]"
+                className="aspect-[132/50] h-auto w-[clamp(6.25rem,8vw,8.25rem)]"
               />
             </div>
             <div className="hidden justify-between gap-2 rounded-full bg-[#FFF7EC] p-2 lg:flex">
@@ -191,7 +191,7 @@ const Header = () => {
                 isBorder={true}
                 handleClick={() => router.push('/contact')}
                 isBgWhite={true}
-                buttonWidth={'!w-[12rem]'}
+                buttonWidth={'!w-[10rem]'}
                 name={'Book A Call'}
               />
               <span
@@ -214,10 +214,10 @@ const Header = () => {
       </MaxWidthWrapper>
 
       {show && (
-        <div className="fixed inset-0 z-[999] lg:hidden">
+        <div className="fixed inset-0 z-[40] lg:hidden">
           {/* OVERLAY */}
           <div
-            className="absolute inset-0 bg-black/60"
+            className="absolute inset-0 w-[40rem] h-[40rem] bg-black/60"
             onClick={() => {
               setShow(false);
               setLevel(0);

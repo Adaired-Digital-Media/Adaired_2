@@ -28,6 +28,8 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             {stopStruggling?.title}
           </h2>
 
+          <p className="text-[#FFFFFF] text-center">{stopStruggling?.description}</p>
+
           <SaveAndCancel
             name={stopStruggling?.button}
             isBgWhite={true}

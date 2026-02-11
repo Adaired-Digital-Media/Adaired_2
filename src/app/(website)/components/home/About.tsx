@@ -17,7 +17,7 @@ const About = () => {
 
   return (
     <section className="">
-      <MaxWidthWrapper className="lg:py-[4rem]">
+      <MaxWidthWrapper className="pb-[3rem] lg:py-[4rem]">
         <div
           ref={ref}
           className="flex flex-col-reverse gap-[3rem] lg:flex-row lg:justify-between lg:gap-[3rem] 1400:gap-[1rem] 1680:gap-[2rem] 3xl:gap-[5.25rem]"
@@ -26,7 +26,7 @@ const About = () => {
           <div className="relative mx-auto flex w-full justify-center lg:w-[42%]">
             {/* CENTER IMAGE */}
             <div
-              className={`relative mx-[3.5rem] my-[2.5rem] aspect-[615/685] w-[clamp(14rem,55vw,39.063rem)] overflow-hidden transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
+              className={`relative mx-[1.5rem] my-[2.5rem] aspect-[615/685] w-[clamp(14rem,65vw,45.063rem)] overflow-hidden transition-all duration-1000 lg:mx-[3.5rem] lg:my-[2.5rem] lg:w-[clamp(14rem,55vw,39.063rem)] ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
             >
               <Image
                 src={img}
@@ -38,7 +38,7 @@ const About = () => {
             </div>
 
             {/* FLOATING BADGE */}
-            <div className="absolute left-[clamp(-1rem,-2vw,0rem)] top-[clamp(1.5rem,4vw,3.5rem)] flex animate-zoomPulse gap-2 rounded-xl border border-black/10 bg-white px-2 py-1 lg:px-4 lg:py-2">
+            <div className="absolute left-[clamp(-1rem,-2vw,0rem)] top-[clamp(1.5rem,8vw,8.5rem)] lg:top-[clamp(1.5rem,4vw,3.5rem)] flex animate-zoomPulse gap-2 rounded-xl border border-black/10 bg-white px-2 py-1 lg:px-4 lg:py-2">
               <Image src={check} width={18} height={18} alt="check" />
               <p className="font-outfit text-[12px] text-black lg:text-[15.62px]">
                 100% Business Growth
@@ -65,7 +65,7 @@ const About = () => {
 
             {/* ABOUT GRAPH – BOTTOM RIGHT */}
             <div
-              className={`absolute bottom-[clamp(0rem,0vw,0rem)] right-[clamp(-1rem,-4vw,0rem)] aspect-[276/215] w-[clamp(8rem,18vw,17.25rem)] transition-all delay-300 duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
+              className={`absolute bottom-[clamp(0rem,0vw,0rem)] right-[clamp(-1rem,-4vw,0rem)] aspect-[276/215] w-[clamp(8rem,22vw,25.25rem)] lg:w-[clamp(8rem,18vw,17.25rem)] transition-all delay-300 duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
             >
               <Image
                 src={about_graph}

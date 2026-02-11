@@ -23,6 +23,7 @@ export const outfit = Outfit({
   variable: '--font-outfit',
   display: 'swap',
 });
+
 export const montserrat = Montserrat({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
@@ -153,7 +154,7 @@ export default async function RootLayout({
           }}
         />
       </head>
-      <body
+      {/* <body
         suppressHydrationWarning
         className={cn(
           inter.variable,
@@ -163,6 +164,21 @@ export default async function RootLayout({
           baby.variable,
           poppins.variable,
           `font- antialiased`
+        )}
+        id="root"
+      > */}
+      <body
+        suppressHydrationWarning
+        className={cn(
+          inter.variable,
+          lexendDeca.variable,
+          nunito.variable,
+          dm.variable,
+          baby.variable,
+          poppins.variable,
+          outfit.variable, // ✅ add this
+          montserrat.variable, // ✅ add this
+          'antialiased'
         )}
         id="root"
       >

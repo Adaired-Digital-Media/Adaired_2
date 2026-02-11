@@ -30,7 +30,7 @@ const FAQ = ({ faqs }: any) => {
 
   return (
     <div ref={ref} className="overflow-visible py-[3rem] lg:py-[4rem]">
-      <MaxWidthWrapper className="space-y-[3rem] overflow-visible">
+      <MaxWidthWrapper className="space-y-[1rem] overflow-visible">
         {/* Heading */}
         <div
           className={`flex w-full justify-center transition-all duration-1000 ${
@@ -59,7 +59,7 @@ const FAQ = ({ faqs }: any) => {
               <div
                 key={idx}
                 onClick={() => toggleFAQ(idx)}
-                className={`flex cursor-pointer rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:p-8 ${
+                className={`flex cursor-pointer rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${
                   isVisible
                     ? 'translate-y-0 opacity-100'
                     : 'translate-y-10 opacity-0'

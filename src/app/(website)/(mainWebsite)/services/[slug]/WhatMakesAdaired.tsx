@@ -59,7 +59,7 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                   </div>
                 </div>
                 <div className="order-1 flex w-[100%] justify-center justify-items-center lg:order-2 lg:w-[40%] lg:justify-end lg:justify-items-end">
-                  <Image src={item?.img} alt="if" />
+                  <Image src={item?.img} alt="if" className=''/>
                 </div>
               </div>
 

@@ -4,6 +4,7 @@ import { ReactLenis } from '@core/utils/lenis';
 import whatsApp from '../../../public/assets/icons/whatsapp.png';
 import Image from 'next/image';
 import Link from 'next/link';
+
 export default function DefaulWebsitetLayout({
   children,
 }: {
@@ -15,38 +16,16 @@ export default function DefaulWebsitetLayout({
         <WebsiteLayout>
           <ReactLenis root>{children}</ReactLenis>
         </WebsiteLayout>
-        <div className="fixed bottom-2 left-3 z-40 cursor-pointer">
-          {/* <Link href="https://wa.me/+91-8907300008" target="_blank">
-            <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
-          </Link> */}
-          {/* <Link
-            href="https://wa.me/918907300008"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
-          </Link> */}
-          {/* <Link
-            href="https://api.whatsapp.com/send?phone=918907300008"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
-          </Link> */}
-          {/* <a
-            href="https://wa.me/918907300008"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
-          </a> */}
-          <a
-            href="https://wa.me/918907300008"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
-          </a>
+        <div className="fixed bottom-2 left-3 cursor-pointer">
+          <Link href="https://wa.me/8907300008" target="_blank">
+            <Image
+              src={whatsApp}
+              width={55}
+              height={55}
+              alt="WhatsApp"
+              className="h-[2.8rem] w-[2.8rem] md:h-[3.2rem] md:w-[3.2rem] lg:h-[3.438rem] lg:w-[3.438rem]"
+            />
+          </Link>
         </div>
       </SessionProvider>
     </div>

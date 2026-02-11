@@ -35,6 +35,8 @@ import seo_tool_3 from '../../../../../../public/assets/icons/seotools/Group 100
 import seo_tool_4 from '../../../../../../public/assets/icons/seotools/Group 1000006001.svg';
 import seo_tool_5 from '../../../../../../public/assets/icons/seotools/Group 1000006002.svg';
 import seo_tool_6 from '../../../../../../public/assets/icons/seotools/Group 1000006003.svg';
+
+import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png'
 import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
 import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
 import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
@@ -77,6 +79,13 @@ import benefits_4 from '../../../../../../public/assets/images/benefits_4.png';
 import benefits_5 from '../../../../../../public/assets/images/benefits_5.png';
 import benefits_6 from '../../../../../../public/assets/images/benefits_6.png';
 
+import AdairedHelp1 from '../../../../../../public/assets/images/AdairedHelp1.png';
+import AdairedHelp2 from '../../../../../../public/assets/images/AdairedHelp2.png';
+import AdairedHelp3 from '../../../../../../public/assets/images/AdairedHelp3.png';
+import AdairedHelp4 from '../../../../../../public/assets/images/AdairedHelp4.png';
+import AdairedHelp5 from '../../../../../../public/assets/images/AdairedHelp5.png';
+import AdairedHelp6 from '../../../../../../public/assets/images/AdairedHelp6.png';
+
 import adairedDiff_1 from '../../../../../../public/assets/images/adairedDiff_1.png';
 import adairedDiff_2 from '../../../../../../public/assets/images/abc.png';
 import adairedDiff_3 from '../../../../../../public/assets/images/adairedDiff_3.png';
@@ -85,18 +94,27 @@ import adairedDiff_5 from '../../../../../../public/assets/images/adairedDiff_5.
 import adairedDiff_6 from '../../../../../../public/assets/images/adairedDiff_6.png';
 
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
+import linkServices_2 from '../../../../../../public/assets/images/linkServices_2.png';
 import linkServices_3 from '../../../../../../public/assets/images/linkServices_3.png';
+import linkServices_4 from '../../../../../../public/assets/images/linkServices_4.png';
 import linkServices_5 from '../../../../../../public/assets/images/linkServices_5.png';
+
+import WhatIncluded1 from '../../../../../../public/assets/images/WhatIncluded1.png';
+import WhatIncluded2 from '../../../../../../public/assets/images/WhatIncluded2.png';
+import WhatIncluded3 from '../../../../../../public/assets/images/WhatIncluded3.png';
+import WhatIncluded4 from '../../../../../../public/assets/images/WhatIncluded4.png';
 
 import LinkBuilding from '../../../../../../public/assets/images/linkBuilding.png';
 import adairedHelpImg from '../../../../../../public/assets/aiseo/adairedHelp.png';
 import adairedHelpImgLink from '../../../../../../public/assets/images/benefits_main.png';
+import BeautifulDesign from '../../../../../../public/assets/images/beautiful_design.png';
 
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
 import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
 import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/WhatIsAuthorityLinkBuilding.png';
+import WhatAreService from '../../../../../../public/assets/images/WhatAreService.png'
 
 export type SectionKey =
   | 'banner'
@@ -1482,7 +1500,7 @@ brand appears in AI summaries and citations.`,
         },
 
         {
-          icon: linkServices_1,
+          icon: linkServices_2,
           title: 'Guest Posts',
           description: `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority. 
             Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
@@ -1499,7 +1517,7 @@ brand appears in AI summaries and citations.`,
         },
 
         {
-          icon: linkServices_3,
+          icon: linkServices_4,
           title: 'Niche Edits',
           description: `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site. 
             Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
@@ -1878,7 +1896,9 @@ brand appears in AI summaries and citations.`,
       'whatareservice',
       'benefitofAiSeo',
       'adairedHelp',
+      'buildlinks',
       'serviceResult',
+      'whatIncluded',
       'ourProcess',
       'whatMkeDeferent',
       'stopStruggling',
@@ -1886,15 +1906,15 @@ brand appears in AI summaries and citations.`,
       'readyToStart',
     ] satisfies SectionKey[],
     banner: {
-      isCenter: true,
+      isCenter: false,
       isVisible: true,
-      heading: 'Grow Your Website ',
-      label: 'Traffic with high-quality links',
-      span: ``,
-      desc: 'Our strategies are designed to help your business outrank competitors, attract more traffic, and achieve sustainable growth. Experience smarter SEO that not only ranks but accelerates your success.',
+      heading: 'Design That Builds Trust.',
+      label: 'Experiences That Convert.',
+      desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
       subheading:
-        'Ready to Build Topical Authority and Maximize Discoverability?',
+        '',
     },
+
     keyStats: {
       isVisible: true,
       code: '03',
@@ -1924,9 +1944,10 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
+
     whatareservice: {
       isVisible: true,
-      img: WhatIsAuthorityLinkBuilding,
+      img: WhatAreService,
       heading: 'What Are Website Design and Development Services?',
       span: '',
       bgColor: '#FFFCF8',
@@ -1965,9 +1986,11 @@ brand appears in AI summaries and citations.`,
     },
 
     benefitofAiSeo: {
+      isVisible: true,
       heading: 'Benefits of Website Design and Development Services',
-      desctioption: `A business’s success is closely tied to the quality of its website. 
-      A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
       list: [
         {
           name: 'Creates a Strong First Impression',
@@ -2009,49 +2032,38 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: true,
-      heading: 'Link Building Services That We Offer At Adaired',
+      heading: 'List Of Website Design and Development Services We Offer',
       description: ``,
       list: [
         {
-          icon: linkServices_1,
-          title: 'Citation Building',
-          description: `Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. 
-            We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility. 
-            Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`,
-          linkText: 'Get Your Free AI SEO Audit',
+          icon: WhatIncluded1,
+          title: 'WordPress Development',
+          description: `At Adaired, we provide powerful WordPress development services that are expected to take your digital presence to the next level. Our team breaks creative and technical limits to design and develop robust, high-performance, and SEO-optimized WordPress solutions. From custom WordPress theme development and plugin customization to speed optimization, SEO implementation, and seamless third-party integrations, we deliver the end-to-end WordPress solutions to match the requirements of your business.`,
+          linkText: 'Get Your Free Website Audit',
           linkHref: '#',
         },
 
         {
-          icon: linkServices_1,
-          title: 'Guest Posts',
-          description: `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority. 
-            Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
-          linkText: 'Get Your Free AI SEO Audit',
+          icon: WhatIncluded2,
+          title: 'Shopify Development',
+          description: `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration. Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
+          linkText: 'Get Your Free Website Audit',
           linkHref: '#',
         },
 
         {
-          icon: linkServices_3,
-          title: 'Press Releases',
-          description: `Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention. 
-            We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`,
+          icon: WhatIncluded3,
+          title: 'eCommerce Development',
+          description: `Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability. We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`,
+          linkText: 'Get Your Free Website Audit',
           linkHref: '#',
         },
 
         {
-          icon: linkServices_3,
-          title: 'Niche Edits',
-          description: `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site. 
-            Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
-          linkHref: '#',
-        },
-
-        {
-          icon: linkServices_5,
-          title: 'Articles',
-          description: `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.  
-            Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
+          icon: WhatIncluded4,
+          title: 'Custom Web Development',
+          description: `Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future. All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`,
+          linkText: 'Get Your Free Website Audit',
           linkHref: '#',
         },
       ],
@@ -2131,116 +2143,130 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
     },
 
+    // Updated
     adairedHelp: {
       isVisible: true,
       heading:
         'How Adaired Can Help You With Professional Website Design and Development Services?',
-      img: adairedHelpImgLink,
+      img: HowAdairedHelp,
       list: [
         {
-          img: benefits_1,
+          img: AdairedHelp1,
           name: 'Custom Design Aligned With Your Brand',
           description: [
-            `The website designs that Adaired builds are completely personalized which can be considered to be an expression of your brand identity, personality and objectives. 
-            We do not make a one-size-fits-all template, but create visually appealing layouts, colour scheme and interfaces that can communicate your brand in a straightforward way. 
-            This will make your site unique and provide your visitors with a consistent and memorable brand experience.`,
+            `The website designs that Adaired builds are completely personalized which can be considered to be an expression of your brand identity, personality and objectives.
+            We do not make a one-size-fits-all template, but create visually appealing layouts, colour scheme and interfaces that can communicate your brand in a straightforward way.`,
+            `This will make your site unique and provide your visitors with a consistent and memorable brand experience.`,
           ],
         },
         {
-          img: benefits_2,
+          img: AdairedHelp2,
           name: 'User-Centered and Conversion-Focused Approach',
           description: [
             `At Adaired, we prioritize user experience in every project. Our designs are user-friendly and intuitive and engagement friendly. 
-            With the knowledge of user behavior and customer journeys, we create websites that take the user through their preferred path to the action they intend to take, be it to make a purchase, send an inquiry, or reserve a service.`,
+            With the knowledge of user behavior and customer journeys,`, `we create websites that take the user through their preferred path to the action they intend to take, be it to make a purchase, send an inquiry, or reserve a service.`,
           ],
         },
         {
-          img: benefits_3,
+          img: AdairedHelp3,
           name: 'Responsive and Mobile-First Development',
           description: [
             `With users accessing websites across multiple devices, Adaired ensures your website performs flawlessly everywhere. 
-            We stick to a mobile first strategy, which delivers responsive designs that can be easily adapted to smartphones, tablets and desktops. 
-            This will enhance the usability, improve interaction, and make sure that your business will never miss a chance because of the inefficiency of the device compatibility.`,
+            We stick to a mobile first strategy, which delivers responsive designs that can be easily adapted to smartphones, tablets and desktops.`,
+            `This will enhance the usability, improve interaction, and make sure that your business will never miss a chance because of the inefficiency of the device compatibility.`,
           ],
         },
         {
-          img: benefits_4,
+          img: AdairedHelp4,
           name: 'Performance, Security, and Scalability',
           description: [
-            `Adaired creates fast, secure websites that are designed to expand your business. We have a long-term performance orientation in terms of optimized loading speeds, secure hosting, and clean, scalable code. 
-            Our development practices ensure that your site is stable, secure and can handle more traffic as well as future growth.`,
+            `Adaired creates fast, secure websites that are designed to expand your business. We have a long-term performance orientation in terms of optimized loading speeds, secure hosting, and clean, scalable code.`,
+            `Our development practices ensure that your site is stable, secure and can handle more traffic as well as future growth.`,
           ],
         },
         {
-          img: benefits_5,
+          img: AdairedHelp5,
           name: 'SEO-Optimized Development for Better Visibility',
           description: [
-            `A great website should also be easy to find. Adaired combines the best practices of SEO with the design and development. 
-            Our clean code structure, quick load times, optimized layouts and content readiness, can both make your website rank higher and bring quality organic traffic to your site.`,
+            `A great website should also be easy to find. Adaired combines the best practices of SEO with the design and development.`, 
+            `Our clean code structure, quick load times, optimized layouts and content readiness, can both make your website rank higher and bring quality organic traffic to your site.`,
           ],
         },
         {
-          img: benefits_6,
+          img: AdairedHelp6,
           name: 'Ongoing Support and Continuous Improvement',
           description: [
-            `Our partnership doesn’t end at launch. Adaired offers continuous support, updates and performance enhancements to make your site up to date and efficient. 
-            Whether it’s enhancements, troubleshooting, or feature upgrades, we work alongside you to ensure your website evolves with changing market trends and business needs.`,
+            `Our partnership doesn’t end at launch. Adaired offers continuous support, updates and performance enhancements to make your site up to date and efficient.`, 
+            `Whether it’s enhancements, troubleshooting, or feature upgrades, we work alongside you to ensure your website evolves with changing market trends and business needs.`,
           ],
         },
       ],
     },
 
+    buildlinks: {
+      isVisible: true,
+      img: BeautifulDesign,
+      heading: 'Beautiful Design Meets Smart Development.',
+      // span: '2026 and Beyond',
+      description: 'We build websites that captivate users and convert clicks into customers',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [],
+      button: 'Start Your Website Project',
+    },
+
     whatMkeDeferent: {
       isVisible: true,
-      heading: 'What Makes Adaired Different From Our Competitors?',
-      description: [],
+      heading: 'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
+      description: ['At Adaired, we help businesses create attractive and functional website to help them reach their potential customers worldwide, enhancing turnover, driving next-level growths and making you stand out from the crowd. '
+      ],
       list: [
         {
           img: adairedDiff_1,
-          name: 'Links That Build Real Authority',
+          name: 'Professional experience and expertise',
           description: [
-            `Adaired focuses on authoritative and niche-specific backlinks rather than pursuing high quantities. Every link is evaluated for domain strength, traffic quality, relevance, and editorial.`,
-            `This quality-first approach ensures the long-term  SEO value, protects your website from penalties, and generates sustainable growth in your ranking, as opposed to short-lived spikes.`,
+            `At Adaired, our professionals clearly convey that you are investing in years of knowledge and experience. Our highly skilled designers and developers are skilled in the latest designs and follow the best practices. They will help you create websites that are user-friendly, visually appealing and fully-functional. `,
+            `They understand the nuances of user behaviour, actions and customer needs effectively and draft solutions that can make your business future-ready. `,
           ],
         },
         {
           img: adairedDiff_2,
-          name: '100% White-Hat & Safe',
+          name: 'User-centric design and SEO',
           description: [
-            `Our web building policies align well with the Google Webmaster Policy. We do not use PBNs, link farms, or automation.`,
-            `Our efforts are instead centered on real outreach, editorial placements, and relationship-based link acquisition, keeping your site secure as you gain trust, authority, and search engine credibility in the long term.`,
+            `The studies suggest that half of the internet users make an opinion about a business based on how its website look and 57% of users will not suggest a business to others after a bad experience. `,
+            `At Adaired, we invest in user research, search engine optimization and good design to ensure your website is discoverable and easy to use. `,
           ],
         },
         {
           img: adairedDiff_3,
-          name: 'Niche-Relevant Placements',
+          name: 'Commitment to time and quality',
           description: [
-            `Unlike generic providers, Adaired builds links within your exact industry and content ecosystem. All the backlinks are contextually situated on the appropriate pages, which naturally align with your brand.`,
-            `This relevance enhances the authority, the quality of referral traffic, and signals stronger trust to search engines.`,
+            `Through years, we have built a reputation on delivering quality work to our clients. Since there are a number of steps involved in the website creation, we create timelines for different aspects of the project to complete it on time. `,
+            `Whether you need a simple business website or a complex e-commerce platform, we are capable of developing tailored solutions that can scale with your business. `,
           ],
         },
         {
           img: adairedDiff_4,
-          name: 'Clear Reporting, Real Results',
+          name: 'Quick Turnaround Time',
           description: [
-            `We believe in complete transparency. Adaired offers reports that display live links, use of anchor texts, domain measures, traffic, and placement URLs.`,
-            `You always know where your links are placed, why they matter, and how they contribute to your SEO goals.`,
+            `With efficient project management and a dedicated workforce, we ensure that the projects are completed faster without compromising quality. `,
+            `We offer our clients round-the-clock support, maintenance and updates to keep your website secure and up-to-date. Companies from all around the world trust us for reliable, innovative and growth-oriented digital solutions. `,
           ],
         },
         {
           img: adairedDiff_5,
-          name: 'Fully Customized Strategies',
+          name: 'Highly skilled team members',
           description: [
-            `No two businesses are the same, and neither are our link-building campaigns.  Adaired develops unique strategies relevant to your interests, competition, industry, and existing backlink profile.`,
-            `This personalized strategy ensures effective acquisition of links that will serve your stage of growth, whether you’re scaling or stabilizing rankings.`,
+            `At Adaired, we have a team of highly skilled, knowledgeable and experienced professionals including developers, designers, and digital marketers. Our website design team brings skills and creativity to build websites that excel in functionality, performance and aesthetics.`,
+            `Everything right from UX to backend coding, everything is handled expertly, delivering a seamless and engaging online experience. `,
           ],
         },
         {
           img: adairedDiff_6,
-          name: 'SEO-Led Link Building',
+          name: 'Proven Track Record of Success',
           description: [
-            `We identify that backlinks are aligned with the intent of the keywords, site architecture, and the overall performance of the search engine optimization.`,
-            `This integrated approach ensures every link contributes to stronger rankings, improved authority, and measurable business impact.Adaired’s link building is guided by experienced SEO strategists, not just outreach specialists.`,
+            `Adaired has a proven track record of delivering results to our clients. Our portfolio spans multiple industries, demonstrating our ability to adapt and innovate with time. `,
+            `Our problem solving attitude combined with technological knowledge help us transform our clients digital presence into powerful growth engines. `,
           ],
         },
       ],
@@ -2255,7 +2281,7 @@ brand appears in AI summaries and citations.`,
       services: [
         {
           icon: step,
-          name: 'Discovery & Requirement Analysis',
+          title: 'Discovery & Requirement Analysis',
           description: [
             `We start with knowing your business objectives, target market, industry landscape and technical needs. 
             This step will enable us to base our strategy on your vision coupled with the realization of possible opportunities to improve user experience and performance.`,
@@ -2263,7 +2289,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           icon: step_2,
-          name: 'Planning & Strategy',
+          title: 'Planning & Strategy',
           description: [
             `We design an elaborate project roadmap based on the knowledge acquired during discovery. 
             This involves the definition of site architecture, technology stack, schedules, and other milestones that are important to maintain a smooth process and effective communication throughout the project life cycle.`,
@@ -2271,7 +2297,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           icon: step_3,
-          name: 'UI/UX Design',
+          title: 'UI/UX Design',
           description: [
             `Our designers create user-friendly, aesthetically pleasing, and intuitive user interfaces that can reflect your brand identity. 
             Our focus is on usability, accessibility and responsive design to create a smooth experience on all devices.`,
@@ -2279,7 +2305,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           icon: step_4,
-          name: 'Development & Integration',
+          title: 'Development & Integration',
           description: [
             `Using modern technologies and best coding practices, our developers bring the designs to life. 
             We develop websites that are fast, secure and scalable and we combine third-party applications, API, and content management systems when necessary.`,
@@ -2287,7 +2313,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           icon: step_5,
-          name: 'Quality Assurance & Testing',
+          title: 'Quality Assurance & Testing',
           description: [
             `We do intensive testing before launch so ensure the flawless performance. 
             This includes functionality testing, cross-browser and device compatibility checks, performance optimization, and security validation.`,
@@ -2295,7 +2321,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           icon: step_5,
-          name: 'Deployment & Launch',
+          title: 'Deployment & Launch',
           description: [
             `After all the approval is given, we put your site into live environment and ensure that there is minimal downtime. 
             Our team will make the integration as seamless as possible and will closely consider the performance to address any last-minute challenges.`,
@@ -2303,7 +2329,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           icon: step_5,
-          name: 'Maintenance & Continuous Support',
+          title: 'Maintenance & Continuous Support',
           description: [
             `The relationship does not stop with the launch. 
             We provide ongoing maintenance, updates, performance optimization and technical support to ensure that your website is secure, scalable and compliant to the changing business requirements.`,
@@ -2316,10 +2342,10 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       subtitle: '',
       title:
-        'Maximize Your Online Presence With The Best Link Building Services',
-      button: 'Get Started Now',
-      description: ``,
-      bgImg: stop_struggle,
+        'Every Successful Website Starts with a Clear Strategy.',
+      button: 'Schedule a Strategy Call',
+      description: `Schedule a strategy call and let’s build a digital presence aligned with your business goals.`,
+      bgImg: stop_struggle2,
     },
 
     getplan: {
@@ -2334,7 +2360,7 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      heading: 'Frequently Asked Questions and Their Answers',
+      title: 'Frequently Asked Questions on Authority Link Building Services',
       description: ``,
       list: [
         {

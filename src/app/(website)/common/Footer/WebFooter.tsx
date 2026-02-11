@@ -60,7 +60,7 @@ const WebFooter = () => {
                   priority
                 />
               </Link>
-              <p className="mt-6 font-poppins text-xs font-normal text-[#FFFFFF]">
+              <p className="mt-6 text-left text-[#FFFFFF]">
                 AdAired Digital Media is a digital marketing company located in
                 Mohali. We are a team of marketing and design experts who are
                 committed to your online growth.{' '}
@@ -210,7 +210,7 @@ const WebFooter = () => {
               <h3 className="font relative text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
                 Subscribe
               </h3>
-              <p className="font mt-6 text-xs text-white">
+              <p className="mt-6 text-left text-white">
                 Share your email address to subscribe to Adaired&apos;s
                 newsletter.
               </p>
@@ -292,7 +292,7 @@ const WebFooter = () => {
           </div> */}
         </MaxWidthWrapper>
       </footer>
-      <MaxWidthWrapper>
+      {/* <MaxWidthWrapper>
         <div className="flex flex-col-reverse items-center justify-center bg-white py-1 text-center text-black md:flex-row md:justify-center">
           <div className="font text-xxs">
             Copyright © {new Date().getFullYear()} - AdAired Digital Media
@@ -303,7 +303,7 @@ const WebFooter = () => {
             <Link href="/privacy-policy">Privacy Policy</Link>
           </div>
         </div>
-      </MaxWidthWrapper>
+      </MaxWidthWrapper> */}
     </>
   );
 };

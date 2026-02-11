@@ -112,7 +112,7 @@ const Privacy: FC<IProps> = (props) => {
             </p>
           </div>
           <div>
-            <p>
+            <p className=''>
               <strong>Address: </strong>
               B-509, 5th Floor, Bestech Business Towers, Sector 66, Sahibzada
               Ajit Singh Nagar, Punjab 160066

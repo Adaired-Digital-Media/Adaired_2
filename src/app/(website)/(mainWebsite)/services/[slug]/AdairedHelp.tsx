@@ -30,12 +30,12 @@ const AdairedHelp = ({ adairedHelp }: any) => {
           <div className="lg:sticky top-[16rem] w-full lg:w-[40%]">
             <div
               ref={ref}
-              className={`relative h-[22rem] md:h-[28rem] lg:h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+              className={`group relative h-[22rem] md:h-[28rem] lg:h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
             >
               <Image
                 src={adairedHelp?.img}
                 fill
-                className="rounded-[20px] object-cover"
+                className="rounded-[20px] object-cover transition-transform duration-300 ease-out group-hover:scale-110"
                 alt="adairedHelp"
                 priority
               />

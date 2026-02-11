@@ -85,11 +85,11 @@ const Clients = () => {
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6">
           {data?.map((client, idx) => (
             <div
               key={idx}
-              className={`group flex items-center justify-center overflow-hidden transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
+              className={`group mx-[1rem] flex items-center justify-center overflow-hidden transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
               style={{
                 transitionDelay: `${idx * 60}ms`,
               }}
@@ -99,7 +99,7 @@ const Clients = () => {
                 width={225}
                 height={90}
                 alt="client logo"
-                className="my-0 transform transition-transform duration-300 ease-out group-hover:scale-110 md:my-4"
+                className="my-4 transform transition-transform duration-300 ease-out group-hover:scale-110 md:my-4"
               />
             </div>
           ))}

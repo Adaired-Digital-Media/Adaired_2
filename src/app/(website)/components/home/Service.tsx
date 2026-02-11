@@ -100,7 +100,7 @@ const Service = () => {
           />
         </div>
 
-        <div className="flex gap-[2rem] pt-[3rem]">
+        <div className="flex gap-[2rem] pt-[1rem] lg:pt-[3rem]">
           {/* MOBILE TABS */}
           {isMobile && showMobileTab && (
             <div className="fixed left-[1rem] right-[1rem] top-[5.5rem] z-10 bg-[#F1F1F1] py-2">
@@ -141,7 +141,7 @@ const Service = () => {
                 : '-translate-x-16 opacity-0'
             }`}
           >
-            <div className="sticky top-[12rem] h-[43rem] rounded-xl bg-[#FFFFFF] p-[1rem] xl:h-[42rem] xl:p-[2rem]">
+            <div className="sticky top-[20%] h-[43rem] rounded-xl bg-[#FFFFFF] p-[1rem] xl:h-[42rem] xl:p-[2rem]">
               {services?.map((service, idx) => {
                 const isFirst = idx === 0;
                 const isLast = idx === services.length - 1;
@@ -226,14 +226,14 @@ const Service = () => {
                 >
                   <div className="gap-2 lg:flex">
                     {/* LEFT CONTENT */}
-                    <div className="w-[100%] lg:w-[50%] xl:w-[55%]">
-                      <div className="relative overflow-hidden rounded-xl">
-                        <div className="animate-slideUpFade relative h-[180px] w-full overflow-hidden rounded-2xl md:h-[240px] lg:h-[16rem] xl:h-[20.25rem]">
+                    <div className="relative w-[100%] lg:w-[50%] xl:w-[55%]">
+                      <div className="overflow-hidden rounded-xl">
+                        <div className="animate-slideUpFade overflow-hidden rounded-2xl">
                           <Image
                             src={image ?? service.img}
                             fill
                             alt={service.title}
-                            className="object-cover"
+                            className="rounded-[20px] object-cover"
                             priority
                           />
                         </div>
@@ -251,7 +251,7 @@ const Service = () => {
                               style={{
                                 transitionDelay: `${i * 280}ms`, // 👈 stagger delay
                               }}
-                              className={`relative transition-all delay-300 duration-1000 lg:h-[7.8rem] xl:h-[9.8rem] ${
+                              className={`relative transition-all delay-300 duration-1000 lg:h-[7.8rem] xl:h-[9rem] ${
                                 isVisible
                                   ? 'translate-y-0 opacity-100'
                                   : 'translate-y-10 opacity-0'
@@ -265,7 +265,7 @@ const Service = () => {
                                 unoptimized
                                 className="ani my-auto lg:h-[30px] lg:w-[30px] xl:h-[40px] xl:w-[40px]"
                               />
-                              <p className="absolute bottom-5 left-[4rem] mx-2 my-auto text-left font-poppins font-semibold text-[#000000] md:left-[4rem] md:pt-[1.7rem] lg:left-4 lg:pt-[1rem] lg:text-[11px] lg:font-medium lg:leading-[15px] xl:pt-[1.7rem] xl:text-xs xl:font-semibold xl:leading-[25px] 1360:text-[13px] 1360:leading-[1.25rem] 1400:text-[16px] 1400:leading-[1.5rem]">
+                              <p className="absolute bottom-4 left-16 right-4 text-left font-poppins font-semibold lg:left-4">
                                 {item?.label}
                               </p>
                             </div>
@@ -287,7 +287,7 @@ const Service = () => {
                       handleClick={() => router.push(link ?? service.link)}
                       name="See Service Details"
                       isIcon
-                      buttonWidth={'w-[17rem] 1360:w-[14rem] 1400:w-[17rem]'}
+                      buttonWidth={'!w-[14rem]'}
                     />
                   </div>
                 </div>
