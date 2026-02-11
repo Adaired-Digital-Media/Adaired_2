@@ -16,7 +16,21 @@ export default function DefaulWebsitetLayout({
           <ReactLenis root>{children}</ReactLenis>
         </WebsiteLayout>
         <div className="fixed bottom-2 left-3 cursor-pointer">
-          <Link href="https://wa.me/8907300008" target="_blank">
+          {/* <Link href="https://wa.me/+91-8907300008" target="_blank">
+            <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
+          </Link> */}
+          {/* <Link
+            href="https://wa.me/918907300008"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
+          </Link> */}
+          <Link
+            href="https://api.whatsapp.com/send?phone=918907300008"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image src={whatsApp} width={55} height={55} alt="WhatsApp" />
           </Link>
         </div>
