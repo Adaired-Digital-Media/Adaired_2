@@ -165,7 +165,7 @@ const Banner = () => {
                 );
               })}
 
-              <span className="mt-9 flex pl-[10rem] md:mt-1 xl:pl-[12rem]">
+              <span className="mt-1 flex pl-[10rem] xl:pl-[12rem]">
                 <MdStarRate
                   size={20}
                   className="my-auto hidden text-[#FB9100] lg:block"
@@ -177,9 +177,7 @@ const Banner = () => {
                 <MdStarRate size={20} className="my-auto text-[#FB9100]" />
                 <MdStarRate size={20} className="my-auto text-[#FB9100]" />
                 <MdStarRate size={20} className="my-auto text-[#FB9100]" />
-                <span className="ml-2 mt-9 text-[12px] text-[#000000] md:text-[18px] lg:mt-4">
-                  4.9/5 by 1K+ Clients
-                </span>
+                <span className="lg:mt:2 ml-2 mt-4">4.9/5 by 1K+ Clients</span>
               </span>
             </div>
           </div>
