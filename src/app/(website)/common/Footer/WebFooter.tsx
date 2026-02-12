@@ -108,7 +108,7 @@ const WebFooter = () => {
             </div>
 
             <div className="col-span-12 md:col-span-3 lg:col-span-2">
-              <h3 className="font relative text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
+              <h3 className="font relative text-left text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
                 Useful Links
               </h3>
               <ul
@@ -150,7 +150,7 @@ const WebFooter = () => {
             </div>
 
             <div className="col-span-12 md:col-span-5 lg:col-span-3">
-              <h3 className="font relative text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
+              <h3 className="font relative text-left text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
                 Services
               </h3>
               <ul
@@ -207,7 +207,7 @@ const WebFooter = () => {
             </div>
 
             <div className="col-span-12 md:col-span-4 lg:col-span-3">
-              <h3 className="font relative text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
+              <h3 className="font relative text-left text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
                 Subscribe
               </h3>
               <p className="mt-6 text-left text-white">
@@ -234,13 +234,13 @@ const WebFooter = () => {
               </div>
             </div>
             <div className="col-span-12 mt-6 lg:hidden">
-              <h3 className="font text-lg font-semibold tracking-wide text-white lg:text-md">
+              <h3 className="font text-left text-lg font-semibold tracking-wide text-white lg:text-md">
                 Follow Us
               </h3>
               <div className="mt-4 flex gap-2">
                 <Link
                   href={process.env.NEXT_PUBLIC_FACEBOOK_URL || '/'}
-                  className="rounded-lg bg-white p-2"
+                  className="rounded-full bg-white p-2"
                 >
                   <Icons.Facebook className="text-[#1B5A96]" />
                   <span className="sr-only">
@@ -249,7 +249,7 @@ const WebFooter = () => {
                 </Link>
                 <Link
                   href={process.env.NEXT_PUBLIC_TWITTER_URL || '/'}
-                  className="rounded-lg bg-white p-2"
+                  className="rounded-full bg-white p-2"
                 >
                   <Icons.Twitter className="text-[#1B5A96]" />
                   <span className="sr-only">
@@ -258,7 +258,7 @@ const WebFooter = () => {
                 </Link>
                 <Link
                   href={process.env.NEXT_PUBLIC_INSTAGRAM_URL || '/'}
-                  className="rounded-lg bg-white p-2"
+                  className="rounded-full bg-white p-2"
                 >
                   <Icons.Instagram className="text-[#1B5A96]" />
                   <span className="sr-only">
@@ -267,7 +267,7 @@ const WebFooter = () => {
                 </Link>
                 <Link
                   href={process.env.NEXT_PUBLIC_LINKEDIN_URL || '/'}
-                  className="rounded-lg bg-white p-2"
+                  className="rounded-full bg-white p-2"
                 >
                   <Icons.LinkedIn className="text-[#1B5A96]" />
                   <span className="sr-only">
