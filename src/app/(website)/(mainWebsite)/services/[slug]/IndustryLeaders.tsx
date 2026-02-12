@@ -53,7 +53,7 @@ const IndustryLeaders = () => {
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6 pt-[3rem]">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6 pt-[1rem]">
           {data?.map((client, idx) => (
             <div
               key={idx}

@@ -9,7 +9,7 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 const WhatAreAISEO = ({ whatareaiseo }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
 
   return (
@@ -18,20 +18,21 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
     >
       <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
         <div
-          className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          className={`order-2 flex flex-col items-center justify-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
             className="flex justify-center lg:justify-start"
             subTitle={''}
             title={whatareaiseo?.heading}
             span={whatareaiseo?.span}
+            spanColor='text-[#FBD04F]'
             isBgWhite={whatareaiseo?.isBgWhite && true}
           />
-          <div>
+          <div className=''>
             {whatareaiseo?.data?.map((item: any) => {
               return (
                 <p
-                  className={`py-3 ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                  className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
                 >
                   {item?.desctioption}
                 </p>
@@ -45,14 +46,14 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
               isIcon={true}
               isBgWhite={true}
               handleClick={() => setOpen(!open)}
-              className="mt-[1rem] w-[19rem]"
+              className="my-[2rem] w-[19rem]"
             />
           )}
         </div>
 
         <div
           ref={ref}
-          className={`group order-1 flex justify-center justify-items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-center overflow-hidden ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+          className={`group order-1 flex justify-center items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:items-start overflow-hidden ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
         >
           <Image
             src={whatareaiseo?.img}

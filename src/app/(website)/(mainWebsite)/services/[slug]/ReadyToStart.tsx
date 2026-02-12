@@ -18,7 +18,7 @@ const ReadyToStart = ({ handleClick }: any) => {
       <section ref={ref} className="relative z-20">
         <MaxWidthWrapper>
           <div
-            className={`relative rounded-3xl bg-[#FB9100] py-[3rem] transition-all duration-1000 lg:py-[3rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            className={`relative rounded-3xl bg-[#FB9100] py-[3rem] transition-all duration-1000 lg:py-[4rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
           >
             <img
               src="/assets/aiseo/ReadyToStart1.png"
@@ -47,7 +47,7 @@ const ReadyToStart = ({ handleClick }: any) => {
                 your business with our expert SEO strategies.
               </h3>
             </div>
-            <div className="flex justify-center py-[2rem]">
+            <div className="flex justify-center pt-[1.5rem]">
               <button
                 onMouseEnter={() => setIsHover(true)}
                 onMouseLeave={() => setIsHover(false)}

@@ -12,7 +12,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
-    <div ref={ref} className="py-[3rem] lg:py-[4rem]">
+    <div ref={ref} className="pb-[3rem] pt-[2rem] lg:pb-[4rem] lg:pt-[3rem]">
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
@@ -32,7 +32,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
           {importantToBussiness?.data?.map((item: any, idx: number) => {
             return (
               <div
-                className={`rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`my-[1.5rem] rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
                   transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                 }}

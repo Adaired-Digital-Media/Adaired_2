@@ -15,14 +15,14 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
 
   return (
     <div
-      className="flex items-center bg-cover bg-center bg-no-repeat bg-blue-950"
+      className="flex items-center bg-cover bg-center"
       style={{
         backgroundImage: `url(${notSeeingResult?.bgImage.src})`,
       }}
     >
       <MaxWidthWrapper className="grid w-full grid-cols-1 gap-[2rem] p-3 lg:grid-cols-2">
         <div
-          className={` text-center lg:text-left flex flex-col items-center lg:items-start my-auto transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          className={`my-auto flex flex-col items-center text-center transition-all duration-1000 lg:items-start lg:text-left ${isVisible ? 'translate-x-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
             isBgWhite={true}
@@ -33,6 +33,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
           <SaveAndCancel
             name={notSeeingResult?.buttonName}
             isBgWhite={true}
+            isHoverBgBlue={notSeeingResult?.isBgOrange && true}
             isIcon={true}
             handleClick={() => setOpen(!open)}
             className="w-[20rem] pt-[2rem]"
@@ -41,7 +42,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
 
         <div
           ref={ref}
-          className={`flex lg:justify-end lg:justify-items-end justify-center justify-items-center pt-2 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+          className={`flex justify-center justify-items-center pt-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
         >
           <Image src={notSeeingResult?.img} alt="img" />
         </div>

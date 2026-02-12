@@ -9,11 +9,12 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
   return (
     <div
       ref={ref}
-      className="bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30 py-[3rem] lg:py-[4rem]"
+      // className="bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30 py-[3rem] lg:py-[6rem]"
+      className={`${benefitofAiSeo?.bgColor} py-[3rem] lg:py-[4rem]`}
     >
       <MaxWidthWrapper>
         <div
-          className={`flex justify-between transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          className={`flex items-center justify-between flex-col lg:flex-row transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
             title={benefitofAiSeo?.heading}
@@ -30,7 +31,10 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
           </div>
         </div>
       </MaxWidthWrapper>
-      <CustomSlider data={benefitofAiSeo?.list} />
+      <CustomSlider 
+      data={benefitofAiSeo?.list} 
+      colors={benefitofAiSeo}
+       />
     </div>
   );
 };

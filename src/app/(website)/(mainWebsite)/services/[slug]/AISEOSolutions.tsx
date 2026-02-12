@@ -1,6 +1,5 @@
 import React from 'react';
 import { MdOutlineArrowOutward } from 'react-icons/md';
-import { cards } from './Card';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
@@ -23,29 +22,33 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
             isInCenter={true}
             isBgWhite={true}
           />
-          <div className="grid grid-cols-1 gap-6 pt-[3rem] md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 pt-[1rem] lg:grid-cols-3">
             {whatIncluded?.list?.map((card: any, index: number) => (
               <div
                 key={index}
-                className={`relative h-[38rem] lg:h-[43rem] rounded-2xl border bg-[#F3F3F3] p-[2.5rem] transition-all duration-1000 1400:h-[46rem] 1440:h-[44rem] 1470:h-[43rem] 1600:h-[42rem] 1710:h-[40rem] 3xl:h-[36rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`relative rounded-2xl border bg-[#F3F3F3] px-[2rem] pb-[4rem] pt-[2rem] transition-all duration-1000 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
-                  transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                  transitionDelay: isVisible ? '0ms' : `${index * 280}ms`,
                 }}
               >
-                <div className='relative h-full'>
+                <div className="">
                   <div className="flex items-center justify-center lg:justify-start lg:justify-items-start">
                     <Image src={card.icon} alt="" width={60} height={60} />
                   </div>
 
-                  <h3 className="py-[2rem]">{card.title}</h3>
+                  <h3 className="py-[1.5rem]">{card.title}</h3>
 
-                  <p className="whitespace-pre-line leading-relaxed">
-                    {card.description}
-                  </p>
+                  <div className="space-y-4">
+                    {card.description?.map((desc: string, index: number) => (
+                      <p key={index} className="leading-relaxed">
+                        {desc}
+                      </p>
+                    ))}
+                  </div>
 
                   <a
                     href={card.linkHref}
-                    className="absolute bottom-0 flex w-full items-center justify-center lg:justify-start gap-2 sm:text-[0.7rem] md:text-[0.8rem] lg:text-[0.9rem]"
+                    className="absolute bottom-[2rem] flex w-full items-center justify-center gap-2 lg:justify-start"
                   >
                     <span>{'Get Your Free AI SEO Audit'}</span>
                     <MdOutlineArrowOutward />
@@ -53,7 +56,7 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
                 </div>
               </div>
             ))}
-            <FutureProof />
+            {whatIncluded?.isFetureProofVisible && <FutureProof />}
           </div>
         </div>
       </MaxWidthWrapper>

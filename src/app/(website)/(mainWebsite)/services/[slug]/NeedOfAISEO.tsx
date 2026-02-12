@@ -10,14 +10,11 @@ const NeedOfAISEO = ({ needOfService }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
-    <div className="py-3 lg:py-[4rem]">
+    <div className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
-        <div
-          ref={ref}
-          className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2"
-        >
+        <div ref={ref} className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
           {needOfService?.isBgCornerImg ? (
-            <div className="relative mx-auto mb-[3rem] lg:mb-0 mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
+            <div className="relative mx-auto mb-[3rem] mt-[6rem] flex-1 md:mt-[6rem] lg:mb-0 lg:mt-0">
               {/* CENTER IMAGE */}
               <div
                 className={`group flex items-center justify-center p-3 transition-all duration-1000`}
@@ -27,7 +24,7 @@ const NeedOfAISEO = ({ needOfService }: any) => {
                   alt="About Image"
                   width={625}
                   height={470}
-                  className="my-[1rem] h-[14rem] w-[14rem] lg:m-[3rem] rounded-lg transition-transform duration-300 ease-out group-hover:scale-110 md:my-0 md:h-[28rem] md:w-[36.313rem] lg:my-[2rem] lg:h-[18rem] lg:w-[20rem] xl:h-[25.375rem] xl:w-[39.063rem] 1360:w-[25rem] 1400:w-[27rem] 1600:w-[32rem] 1680:h-[25.375rem] 1680:w-[34rem] 3xl:h-[25.375rem] 3xl:w-[39.063rem]"
+                  className="m-[1rem] h-[14rem] w-[14rem] rounded-lg transition-transform duration-300 ease-out group-hover:scale-110 md:my-0 md:h-[28rem] md:w-[36.313rem] lg:m-[2rem] lg:my-[1.5rem] lg:h-[18rem] lg:w-[20rem] xl:h-[25.375rem] xl:w-[39.063rem] 1360:w-[25rem] 1400:w-[27rem] 1600:w-[32rem] 1680:h-[25.375rem] 1680:w-[34rem] 3xl:h-[25.375rem] 3xl:w-[39.063rem]"
                 />
               </div>
               {/* MASK – TOP RIGHT */}
@@ -56,12 +53,17 @@ const NeedOfAISEO = ({ needOfService }: any) => {
               <Image src={img} width={652} height={568} alt="fd" />
             </div>
           )}
+
           <div
             className={`my-auto transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
           >
             <h2>{needOfService?.heading}</h2>
             {needOfService?.data?.map((desc: any) => {
-              return <p className="pt-[1rem]">{desc?.desctioption}</p>;
+              return (
+                <p className="pt-[1rem] text-center lg:text-justify">
+                  {desc?.desctioption}
+                </p>
+              );
             })}
           </div>
         </div>

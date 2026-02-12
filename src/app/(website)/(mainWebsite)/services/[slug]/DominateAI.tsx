@@ -21,7 +21,7 @@ const DominateAI = ({ getplan }: any) => {
   return (
     <section
       ref={ref}
-      className="relative flex h-[30rem] items-center py-[3rem]"
+      className="relative flex items-center py-[3rem] lg:py-[4rem]"
     >
       <div
         className="absolute inset-0 bg-cover bg-center"

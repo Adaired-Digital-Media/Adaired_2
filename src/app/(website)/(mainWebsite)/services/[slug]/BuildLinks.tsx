@@ -47,7 +47,7 @@ const BuildLinks = ({ buildlinks }: any) => {
               isIcon={true}
               isBgWhite={true}
               handleClick={() => setOpen(!open)}
-              className="mt-[1rem] w-[19rem]"
+              className="my-[2rem] w-[19rem]"
             />
           )}
         </div>

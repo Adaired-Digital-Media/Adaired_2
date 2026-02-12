@@ -16,6 +16,7 @@ export interface ISaveAndCancel {
   handleClick?: () => void;
   handleClick2?: () => void;
   isBorder?: boolean;
+  isHoverBgBlue?: boolean;
 }
 const SaveAndCancel = ({
   name,
@@ -31,6 +32,7 @@ const SaveAndCancel = ({
   handleClick,
   handleClick2,
   isBorder,
+  isHoverBgBlue,
 }: ISaveAndCancel) => {
   const [isHover, setIsHover] = useState(false);
   const widthClass = isFullWidth ? 'w-full' : buttonWidth;
@@ -41,15 +43,17 @@ const SaveAndCancel = ({
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
         onClick={handleClick}
-        className={`${widthClass} ${isBorder ? 'border-[1px] border-black':"border-[1px] border-transparent"} ${isHover && 'border-[1px] border-white'} font-Outfi flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] py-[0.75rem] text-xxs font-normal transition-all duration-300 ease-out active:scale-95 xl:text-xs 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px] ${
+        className={`${widthClass} ${isBorder ? 'border-[1px] border-black' : 'border-[1px] border-transparent'} ${isHover && 'border-[1px] border-transparent'} font-Outfi flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] py-[0.75rem] text-xxs font-normal transition-all duration-300 ease-out active:scale-95 xl:text-xs 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px] ${
           isBgWhite
             ? isHover
-              ? 'border border-[#FB9100] bg-[#FB9100] text-white'
+              ? isHoverBgBlue
+                ? 'border border-[#1A5A96] bg-[#1A5A96] text-white'
+                : 'border border-[#FB9100] bg-[#FB9100] text-white'
               : 'border border-[#FFFFFF] bg-white text-[#111111]'
             : isHover
               ? 'bg-[#D17900] text-white'
               : 'bg-[#FB9100] text-white'
-        } ${buttonWidth} `}
+        } ${buttonWidth} ${buttonWidth} `}
       >
         {name}
         {isIcon && (
