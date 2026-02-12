@@ -100,14 +100,18 @@ const FooterTop = () => {
             <div>
               <p className="text-left text-[18px] text-white">{item?.name}</p>
 
-              <p className="pt-1 text-left text-[20px] font-semibold leading-7 text-white">
-                {item?.description} <br className="hidden md:block" />{' '}
-                   {item?.name === 'Find Us'
-                    && 'Sector 66, SAS Nagar, Punjab 160066'}
-                {/* <span className="text-[20px] font-semibold">
-                  Sector 66, SAS Nagar, Punjab 160066
-                </span> */}
-              </p>
+              <Link
+                key={idx}
+                href={item?.path}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="pt-1 text-left text-[20px] font-semibold leading-7 text-white">
+                  {item?.description} <br className="hidden md:block" />{' '}
+                  {item?.name === 'Find Us' &&
+                    'Sector 66, SAS Nagar, Punjab 160066'}
+                </p>
+              </Link>
             </div>
           </div>
         );
