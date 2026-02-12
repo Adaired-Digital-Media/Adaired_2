@@ -102,9 +102,11 @@ const FooterTop = () => {
 
               <p className="pt-1 text-left text-[20px] font-semibold leading-7 text-white">
                 {item?.description} <br className="hidden md:block" />{' '}
-                <span className="text-[20px] font-semibold">
+                   {item?.name === 'Find Us'
+                    && 'Sector 66, SAS Nagar, Punjab 160066'}
+                {/* <span className="text-[20px] font-semibold">
                   Sector 66, SAS Nagar, Punjab 160066
-                </span>
+                </span> */}
               </p>
             </div>
           </div>
