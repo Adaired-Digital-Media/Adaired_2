@@ -59,7 +59,7 @@ const FAQ = ({ faqs }: any) => {
               <div
                 key={idx}
                 onClick={() => toggleFAQ(idx)}
-                className={`flex cursor-pointer rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${
+                className={`flex cursor-pointer justify-between rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${
                   isVisible
                     ? 'translate-y-0 opacity-100'
                     : 'translate-y-10 opacity-0'
@@ -67,8 +67,8 @@ const FAQ = ({ faqs }: any) => {
                 style={{ transitionDelay: `${idx * 120}ms` }}
               >
                 {/* Content */}
-                <div className="w-[90%] space-y-4">
-                  <h3>{faq.title}</h3>
+                <div className="w-[85%] space-y-4 md:w-[90%]">
+                  <h3 className="text-center md:text-left">{faq.title}</h3>
 
                   {isOpen && (
                     <div className="space-y-3">

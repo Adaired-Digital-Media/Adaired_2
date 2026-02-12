@@ -21,8 +21,10 @@ import google from '../../../../../public/assets/images/partner/google.svg';
 import upwork from '../../../../../public/assets/images/partner/upwork.svg';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import star from '../../../../../public/assets/icons/star.png';
+import useIsMobile from '@/@core/hooks/useIsMobile';
 
 const Banner = () => {
+  const isMobile = useIsMobile();
   const router = useRouter();
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const users = [user, user_2, user_3, user_4, user_5];
@@ -142,30 +144,35 @@ const Banner = () => {
             to your customers wherever they look.
           </p>
           <div className="flex justify-center lg:justify-start">
-            <div className="relative flex h-[55px] justify-between">
-              {users?.map((img, index) => {
-                const lastuser = users.length - 1 === index;
-                return (
-                  <span
-                    key={index}
-                    className="absolute"
-                    style={{
-                      left: `${index * 32}px`,
-                      zIndex: index + 1,
-                    }}
-                  >
-                    <Image
-                      src={img}
-                      width={50}
-                      height={50}
-                      alt="user"
-                      className={`${lastuser && 'animate-zoomPulse'} aspect-[1/1] w-[clamp(2.5rem,4vw,3.125rem)] rounded-full border-[1px] border-white`}
-                    />
-                  </span>
-                );
-              })}
+            <div className="flex w-fit justify-between">
+              <div className="flex items-center">
+                {users
+                  ?.slice(0, isMobile ? 3 : users.length)
+                  ?.map((img, index) => {
+                    const isLast = index === (isMobile ? 3 : users.length) - 1;
 
-              <span className="mt-1 flex pl-[10rem] xl:pl-[12rem]">
+                    return (
+                      <div
+                        key={index}
+                        className={`relative ${index !== 0 ? '-ml-4' : ''}`}
+                        // style={{ zIndex: users.length - index }}
+                        style={{ zIndex: index + 1 }}
+                      >
+                        <Image
+                          src={img}
+                          width={50}
+                          height={50}
+                          alt="user"
+                          className={`${
+                            isLast ? 'animate-zoomPulse' : ''
+                          } h-[50px] w-[50px] rounded-full border-2 border-white object-cover`}
+                        />
+                      </div>
+                    );
+                  })}
+              </div>
+
+              <span className="flex">
                 <MdStarRate
                   size={20}
                   className="my-auto hidden text-[#FB9100] lg:block"
@@ -177,11 +184,13 @@ const Banner = () => {
                 <MdStarRate size={20} className="my-auto text-[#FB9100]" />
                 <MdStarRate size={20} className="my-auto text-[#FB9100]" />
                 <MdStarRate size={20} className="my-auto text-[#FB9100]" />
-                <span className="lg:mt:2 ml-2 mt-4">4.9/5 by 1K+ Clients</span>
+                <p className="my-auto pl-1 text-left text-[12px]">
+                  4.9/5 by 1K+ Clients
+                </p>
               </span>
             </div>
           </div>
-          <div className="flex justify-center gap-3 lg:justify-start">
+          <div className="flex items-center justify-center gap-3 lg:justify-start">
             <a
               href="https://www.google.com/partners/agency?id=7775339798"
               target="_blank"
@@ -190,13 +199,13 @@ const Banner = () => {
               <Image
                 src={google}
                 width={208}
-                height={32}
-                alt="Upwork"
-                className="aspect-[208/32] w-[clamp(8rem,14vw,13rem)] cursor-pointer"
+                height={39}
+                alt="Google Partner"
+                className="w-[clamp(8rem,14vw,13rem)] cursor-pointer object-contain"
               />
             </a>
 
-            <span className="my-auto text-lg text-[#000000]/20">|</span>
+            <span className="text-lg text-black/20">|</span>
 
             <a
               href="https://www.upwork.com/agencies/1064740584575918080/"
@@ -207,8 +216,8 @@ const Banner = () => {
                 src={upwork}
                 width={130}
                 height={39}
-                alt="Google Reviews"
-                className="aspect-[130/39] w-[clamp(7rem,12vw,8.125rem)] cursor-pointer"
+                alt="Upwork"
+                className="w-[clamp(7rem,12vw,8.125rem)] cursor-pointer object-contain"
               />
             </a>
           </div>

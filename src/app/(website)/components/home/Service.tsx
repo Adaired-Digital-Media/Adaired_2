@@ -263,9 +263,9 @@ const Service = () => {
                                 height={40}
                                 alt="check"
                                 unoptimized
-                                className="ani my-auto lg:h-[30px] lg:w-[30px] xl:h-[40px] xl:w-[40px]"
+                                className="ani my-auto h-[25px] w-[25px] md:h-[30px] md:w-[30px]"
                               />
-                              <p className="absolute bottom-4 left-16 right-4 text-left font-poppins font-semibold lg:left-4">
+                              <p className="absolute bottom-5 left-16 right-4 text-left font-poppins font-semibold lg:bottom-4 lg:left-4">
                                 {item?.label}
                               </p>
                             </div>
@@ -283,12 +283,14 @@ const Service = () => {
                       {description ?? service.description}
                     </p>
 
-                    <SaveAndCancel
-                      handleClick={() => router.push(link ?? service.link)}
-                      name="See Service Details"
-                      isIcon
-                      buttonWidth={'!w-[14rem]'}
-                    />
+                    <div className="flex justify-center md:justify-start">
+                      <SaveAndCancel
+                        handleClick={() => router.push(link ?? service.link)}
+                        name="See Service Details"
+                        isIcon
+                        buttonWidth={'!w-[14rem]'}
+                      />
+                    </div>
                   </div>
                 </div>
               );
