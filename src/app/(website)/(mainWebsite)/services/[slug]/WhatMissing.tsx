@@ -7,54 +7,86 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import Image from 'next/image';
 
 const WhatMissing = ({ whatMissing }: any) => {
-    const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
-    return (
-        <section ref={ref} className="py-[3rem] lg:py-[4rem]">
-            <MaxWidthWrapper>
-                <div
-                    className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
-                >
-                    <Heading
-                        breakIndex={7}
-                        title={whatMissing?.heading}
-                        description={whatMissing?.description}
-                        isInCenter={true}
-                        isBgWhite={true}
-                    />
-                    <div className="grid grid-cols-1 gap-6 pt-[3rem] lg:grid-cols-3">
-                        {whatMissing?.list?.map((card: any, index: number) => (
-                            <div
-                                key={index}
-                                className={`relative rounded-2xl border border-[#F3F3F3] p-[2.5rem] transition-all duration-1000 hover:duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl 1400:h-[46rem] 1440:h-[44rem] 1470:h-[43rem] 1600:h-[42rem] 1710:h-[40rem] 3xl:h-[36rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
-                                // style={{
-                                //     transitionDelay: `${index * 280}ms`, // 👈 stagger here
-                                // }}
-                                style={{
-                                    transitionDelay: isVisible ? '0ms' : `${index * 280}ms`,
-                                }}
-                            >
-                                <div className="flex items-center justify-center mb-10 lg:justify-start lg:justify-items-start">
+  return (
+    <section ref={ref} className="py-[3rem] lg:py-[4rem]">
+      <MaxWidthWrapper>
+        <div className={``}>
+          <div
+            className={`block transition-all duration-1000 lg:flex lg:flex-row ${
+              whatMissing?.description?.length > 0
+                ? ''
+                : 'items-center justify-center'
+            } ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          >
+            <div
+              className={`${whatMissing?.description?.length > 0 ? '' : 'flex w-[100%] justify-center lg:w-[50%]'} pr-0 lg:pr-[6rem]`}
+            >
+              <h2
+                className={`${whatMissing?.description?.length > 0 ? 'text-center lg:text-left' : 'text-center'}`}
+              >
+                {whatMissing?.heading}
+              </h2>
+            </div>
+            <div
+              className={`${whatMissing?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%]'}`}
+            >
+              {whatMissing?.description?.map((item: any, idx: number) => {
+                return (
+                  <p key={idx} className="py-2 text-center lg:text-left">
+                    {item}
+                  </p>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 pt-[3rem] lg:grid-cols-3">
+            {whatMissing?.list?.map((card: any, index: number) => (
+              <div
+                key={index}
+                className={`relative rounded-2xl border border-[#F3F3F3] p-[2.5rem] transition-all duration-1000 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 1400:h-[46rem] 1440:h-[44rem] 1470:h-[43rem] 1600:h-[42rem] 1710:h-[40rem] 3xl:h-[36rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                // style={{
+                //     transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                // }}
+                style={{
+                  transitionDelay: isVisible ? '0ms' : `${index * 280}ms`,
+                }}
+              >
+                {/* <div className="flex items-center justify-center mb-10 lg:justify-start lg:justify-items-start">
                                     <div className='bg-black px-8 py-4 rounded-[36px]'>
                                         <Image src={card.icon} alt="" width={35} height={35} />
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <h3 className="py-[1rem]">{card.title}</h3>
-                                <div className="space-y-4">
-                                    {card.description.map((text: string, i: number) => (
-                                        <p key={i} className="leading-relaxed">
-                                            {text}
-                                        </p>
-                                    ))}
-                                </div>
-                            </div>
-                        ))}
-                    </div>
+                <div className="mb-6 flex items-center justify-center sm:mb-8 lg:mb-10 lg:justify-start">
+                  <div className="rounded-[24px] bg-black px-5 py-3 sm:rounded-[30px] sm:px-6 sm:py-3 lg:rounded-[36px] lg:px-8 lg:py-4">
+                    <Image
+                      src={card.icon}
+                      alt="icons"
+                      width={28}
+                      height={28}
+                      className="sm:h-[30px] sm:w-[30px] lg:h-[35px] lg:w-[35px]"
+                    />
+                  </div>
                 </div>
-            </MaxWidthWrapper>
-        </section>
-    );
+
+                <h3 className="py-[1rem]">{card.title}</h3>
+                <div className="space-y-4">
+                  {card.description.map((text: string, i: number) => (
+                    <p key={i} className="leading-relaxed">
+                      {text}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </MaxWidthWrapper>
+    </section>
+  );
 };
 
 export default WhatMissing;

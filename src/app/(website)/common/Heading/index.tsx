@@ -168,7 +168,7 @@ const Heading = ({
       ) : (
         <div>
           {isInCenter ? (
-            <div className="">
+            <div className=" ">
               <div className="md:flex` w- block gap-3">
                 {isLabel && (
                   <div className="flex justify-center">
@@ -191,7 +191,7 @@ const Heading = ({
                     </div>
                   </div>
                 )}
-                <div className="mt-[1px] md:mt-[15px]">
+                <div className="">
                   {isH1 ? (
                     <h1
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
@@ -266,7 +266,7 @@ const Heading = ({
                       )}
 
                       <span
-                        className={`pl-3 font-poppins text-[1.8rem] font-bold leading-10 ${spanColor} md:text-[2.5rem] md:leading-[3rem] lg:text-[2.125rem] lg:leading-[2.8rem] xl:text-[3.75rem] xl:leading-[4.65rem] 1366:text-[2.7rem] 1366:leading-[3.75rem] 1400:text-[2.75rem] 1400:leading-[3.75rem] 1600:text-[3rem] 1600:leading-[4rem] 1680:text-[3rem] 1680:leading-[3.75rem] 3xl:text-[3.75rem] 3xl:leading-[4.65rem]`}
+                        className={` flex items-center pl-3 font-poppins text-[1.8rem] font-bold leading-10 ${spanColor} md:text-[2.5rem] md:leading-[3rem] lg:text-[2.125rem] lg:leading-[2.8rem] xl:text-[3.75rem] xl:leading-[4.65rem] 1366:text-[2.7rem] 1366:leading-[3.75rem] 1400:text-[2.75rem] 1400:leading-[3.75rem] 1600:text-[3rem] 1600:leading-[4rem] 1680:text-[3rem] 1680:leading-[3.75rem] 3xl:text-[3.75rem] 3xl:leading-[4.65rem]`}
                       >
                         {span}
                       </span>

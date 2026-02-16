@@ -448,92 +448,63 @@ const Banner = ({ banner }: any) => {
                       name={banner?.button}
                       isIcon={true}
                       handleClick={() => router.push('/contact')}
-                      buttonWidth="!w-[18rem]"
+                      buttonWidth="!w-[20rem]"
                     />
                   </div>
                 </div>
                 <div className="pb-[6rem] pt-[9rem]">
                   <Image
-                    src={web_development_banner_img}
+                    src={banner?.bgImg}
                     width={800}
                     height={600}
                     alt="Web Development Banner"
                     className=""
                   />
                 </div>
-                {/* <div
-                  className={`relative mt-[5rem] w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] lg:pt-0 ${
-                    isVisible
-                      ? 'translate-x-0 opacity-100'
-                      : 'translate-x-16 opacity-0'
-                  }`}
+              </div>
+            )}
+            {banner?.code === '05' && (
+              <div className="relative z-10 block justify-between py-[6em] lg:flex">
+                <div
+                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
-                  <div className="my-auto h-full space-y-4">
-                    <div className="flex w-[100%] justify-center">
-                      <div className="relative flex justify-end">
-                        <Image
-                          src={banner_img_1}
-                          width={599}
-                          height={483}
-                          alt=""
-                          className={`aspect-[599/483] w-[clamp(12rem,70vw,20rem)] max-w-full transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(14rem,55vw,28rem)] lg:w-[clamp(15rem,32vw,37.438rem)] ${
-                            active === 'img1'
-                              ? 'z-40 opacity-100'
-                              : active
-                                ? 'opacity-40'
-                                : 'opacity-100'
-                          }`}
-                        />
-                        <Image
-                          src={banner_img_1}
-                          fill
-                          alt=""
-                          className={`transition-opacity transition-transform duration-700 ease-in-out ${
-                            active === 'img1'
-                              ? 'z-40 opacity-100'
-                              : active
-                                ? 'opacity-40'
-                                : 'opacity-100'
-                          } `}
-                        />
+                  <div
+                    className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}
+                  >
+                    <div className="md:flex` block justify-center justify-items-center gap-3 lg:justify-start lg:justify-items-start">
+                      <div className="mt-[0.8rem] !w-[100%] md:mt-[8px] lg:mt-[0.5rem]">
+                        <h1 className="text-center capitalize text-[#FB9100] lg:text-left">
+                          {banner?.heading}
+                          <span className="font-poppins text-[clamp(1.8rem,3vw,3.75rem)] font-bold capitalize leading-[clamp(2.5rem,3.65vw,4.65rem)] text-[#000000]">
+                            {banner?.label}
+                          </span>
+                        </h1>
                       </div>
                     </div>
-                    <Image
-                      src={banner_img_4}
-                      width={302}
-                      height={186}
-                      alt=""
-                      className={`absolute top-[-5rem] h-[8rem] w-[12rem] transition-all duration-700 ease-in-out md:top-[-8rem] md:h-[10rem] md:w-[16rem] 1400:top-[25%] 3xl:top-[15%] ${
-                        isActive('img4')
-                          ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 translate-y-[20%] scale-105 opacity-100 md:translate-y-[40%] 1400:translate-y-[20%] 3xl:1400:translate-y-[50%]'
-                          : 'left-0 top-[25%] z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
-                      } `}
-                    />
-
-                    <Image
-                      src={banner_img_3}
-                      width={302}
-                      height={186}
-                      alt=""
-                      className={`absolute bottom-[-10rem] right-[15%] h-[8rem] w-[12rem] transition-all duration-700 ease-in-out md:bottom-[-16rem] md:h-[10rem] md:w-[16rem] 1400:bottom-[5%] 1400:right-[20%] 3xl:bottom-0 3xl:right-[15%] ${
-                        isActive('img3')
-                          ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-x-[-50%] 1400:translate-y-[-50%] 3xl:translate-y-[-50%]'
-                          : 'z-10 opacity-40'
-                      } `}
-                    />
-                    <Image
-                      src={banner_img_2}
-                      width={388}
-                      height={244}
-                      alt=""
-                      className={`absolute right-0 top-[-10rem] h-[8rem] w-[12rem] transition-all duration-700 ease-in-out md:top-[-16rem] md:h-[10rem] md:w-[16rem] 1400:top-[5%] 3xl:right-0 3xl:top-0 ${
-                        isActive('img2')
-                          ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 translate-y-[80%] scale-105 opacity-100 md:translate-y-[100%] 1400:translate-x-[-50%] 1400:translate-y-[80%] 3xl:translate-y-[100%]'
-                          : 'z-10 opacity-40'
-                      } `}
+                    <div className={`$ 'pt-[1rem]'}`}>
+                      <h3 className="py-7 text-center lg:text-left">
+                        {banner?.desc}
+                      </h3>
+                    </div>
+                  </div>
+                  <div className="flex justify-center lg:justify-start">
+                    <SaveAndCancel
+                      name={banner?.button}
+                      isIcon={true}
+                      handleClick={() => router.push('/contact')}
+                      buttonWidth="!w-[20rem]"
                     />
                   </div>
-                </div> */}
+                </div>
+                <div className="flex justify-center pt-[3rem] lg:justify-end lg:pt-0">
+                  <Image
+                    src={banner?.bgImg}
+                    width={500}
+                    height={500}
+                    alt="Web Development Banner"
+                    className=""
+                  />
+                </div>
               </div>
             )}
           </div>

@@ -234,9 +234,6 @@ const Banner = () => {
             is2ndButton={true}
             isIcon={true}
             is2BgWhite={true}
-            buttonWidth={
-              'w-[14rem] 1360:w-[12rem] 1400:w-[13rem] 1600:w-[14rem] 3xl:w-[15rem]'
-            }
             className="lg:pt-[1rem]"
             handleClick={() => router.push('/contact')}
             handleClick2={scrollToServices}

@@ -233,8 +233,9 @@ const Service = () => {
                             src={image ?? service.img}
                             fill
                             alt={service.title}
-                            className="rounded-[20px] object-cover"
+                            className="rounded-[20px] object-cover cursor-pointer"
                             priority
+                            onClick={() => router.push(link ?? service.link)}
                           />
                         </div>
                       </div>
@@ -275,7 +276,7 @@ const Service = () => {
                     </div>
                   </div>
                   <div>
-                    <h2 className="animate-slideUpFade my-2 text-center font-bold [animation-delay:120ms] lg:my-4 lg:text-left">
+                    <h2 onClick={() => router.push(link ?? service.link)} className="animate-slideUpFade my-2 text-center font-bold [animation-delay:120ms] lg:my-4 lg:text-left hover:text-[#FB9100] cursor-pointer">
                       {title ?? service.title}
                     </h2>
 

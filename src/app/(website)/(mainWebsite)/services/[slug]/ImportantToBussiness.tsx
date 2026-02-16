@@ -7,6 +7,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import DottedLine from '../../../../../../public/assets/Line 28.png';
 import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
+import { MdOutlineArrowOutward } from 'react-icons/md';
 
 const ImportantToBussiness = ({ importantToBussiness }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
@@ -32,16 +33,11 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
           {importantToBussiness?.data?.map((item: any, idx: number) => {
             return (
               <div
-                className={`my-[1.5rem] rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`relative rounded-[1rem] bg-[#F9F9F9] p-[2rem] px-[2rem] pb-[4rem] pt-[2rem] transition-all duration-700 my-[1rem] lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
                   transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                 }}
               >
-                {/* <div className="flex justify-between">
-                  <Image src={item?.icon} width={60} height={60} alt="img" />
-                  <h1 className='text-[#F1F1F1] text-[4rem]' >0{idx + 1}</h1>
-                </div> */}
-
                 <div className="relative flex items-center">
                   <div className="absolute left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0">
                     <Image src={item?.icon} width={60} height={60} alt="img" />
@@ -58,6 +54,16 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                     return <p className="py-3">{dec}</p>;
                   })}
                 </div>
+
+                {item?.button && (
+                  <a
+                    href=""
+                    className="absolute bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 text-[#FB9100] lg:left-[2rem] lg:justify-start"
+                  >
+                    <span>{item.button}</span>
+                    <MdOutlineArrowOutward />
+                  </a>
+                )}
               </div>
             );
           })}

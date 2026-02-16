@@ -66,7 +66,7 @@ const HeroSection = () => {
     <div
       id="heroSection"
       className={cn(
-        `relative flex items-end justify-center overflow-hidden bg-[#F39019] opt-md:bg-[#FFF9F1]`
+        `relative flex items-end justify-center overflow-hidden bg-[#F39019] opt-md:bg-[#FFF9F1] pt-[4rem] lg:pt-[8rem]`
       )}
     >
       <div

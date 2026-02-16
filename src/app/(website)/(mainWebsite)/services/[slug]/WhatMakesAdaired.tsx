@@ -9,31 +9,24 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
 
   return (
-    <div ref={ref} className="py-[1.5rem] lg:py-[4rem]">
+    <div ref={ref} className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
-        {/* <div
-          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
-        >
-          <Heading
-            breakIndex={5}
-            isInCenter={true}
-            isBgWhite={true}
-            title={whatMkeDeferent?.heading}
-          />
-        </div> */}
-
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div
-              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full pr-[0%] lg:w-[50%]' : 'flex w-[100%] justify-center justify-items-center'} pr-0 lg:pr-[6rem]`}
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full pr-[0%] lg:w-[50%]' : 'flex w-[100%] justify-center justify-items-center lg:w-[50%]'} pr-0 lg:pr-[6rem]`}
             >
-              <Heading breakIndex={5} title={whatMkeDeferent?.heading} />
+              <h2
+                className={`${whatMkeDeferent?.description?.length ? '' : 'text-center'}`}
+              >
+                {whatMkeDeferent?.heading}
+              </h2>
             </div>
 
             <div
-              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%]'}`}
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full lg:w-[50%] bg-yellow-200 ' : 'bg-blue-100 w-[0%]'}`}
             >
               {whatMkeDeferent?.description?.map((item: any) => {
                 return <p className="my-3 ml-0 lg:ml-[10rem]">{item}</p>;
@@ -44,12 +37,16 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
         <div className="pt-[1rem]">
           {whatMkeDeferent?.list?.map((item: any, idx: number) => {
             const isOrange = idx % 2 === 0;
+            const shouldUseOrange =
+              whatMkeDeferent?.isVariant === '02' ? !isOrange : isOrange;
             return (
               <div
                 style={{
                   transitionDelay: `${idx * 120}ms`,
                 }}
-                className={`mt-[2rem] flex flex-col justify-between gap-10 rounded-[20px] p-[2rem] transition-all duration-700 lg:flex-row lg:gap-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${isOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'}`}
+                className={`mt-[2rem] flex flex-col justify-between gap-10 rounded-[20px] p-[2rem] transition-all duration-700 lg:flex-row lg:gap-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${
+                  shouldUseOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'
+                }`}
               >
                 <div className="order-2 my-auto w-[100%] lg:order-1 lg:w-[50%]">
                   <h3>{item?.name}</h3>

@@ -6,7 +6,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import imgCorner from '../../../../../../public/assets/images/authLinkBuilding.png';
 import Mask from '../../../../../../public/assets/images/home/Mask group.png';
 
-const NeedOfAISEO = ({ needOfService }: any) => {
+const NearMeSearch = ({ needOfService }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
@@ -14,19 +14,23 @@ const NeedOfAISEO = ({ needOfService }: any) => {
       <MaxWidthWrapper>
         <div ref={ref} className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
           {needOfService?.isBgCornerImg ? (
-            <div className="relative mx-auto mb-[3rem] mt-[6rem] flex-1 md:mt-[6rem] lg:mb-0 lg:mt-0">
+            <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
               {/* CENTER IMAGE */}
               <div
-                className={`group flex items-center justify-center p-3 transition-all duration-1000`}
+                className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
+                  ? 'translate-x-0 opacity-100'
+                  : '-translate-x-16 opacity-0'
+                  }`}
               >
                 <Image
                   src={imgCorner}
                   alt="About Image"
                   width={625}
                   height={470}
-                  className="m-[1rem] h-[14rem] w-[14rem] rounded-lg transition-transform duration-300 ease-out group-hover:scale-110 md:my-0 md:h-[28rem] md:w-[36.313rem] lg:m-[2rem] lg:my-[1.5rem] lg:h-[18rem] lg:w-[20rem] xl:h-[25.375rem] xl:w-[39.063rem] 1360:w-[25rem] 1400:w-[27rem] 1600:w-[32rem] 1680:h-[25.375rem] 1680:w-[34rem] 3xl:h-[25.375rem] 3xl:w-[39.063rem]"
+                  className="my-[0rem] aspect-[625/470] w-[clamp(15rem,32vw,32.063rem)] rounded-lg transition-opacity transition-transform md:w-[clamp(16rem,60vw,62.063rem)] lg:w-[clamp(14rem,35vw,39.063rem)]"
                 />
               </div>
+
               {/* MASK – TOP RIGHT */}
               <Image
                 src={Mask}
@@ -39,7 +43,7 @@ const NeedOfAISEO = ({ needOfService }: any) => {
               {/* MASK – BOTTOM LEFT */}
               <Image
                 src={Mask}
-                alt="imgCorner Image"
+                alt="Mask Image"
                 width={246}
                 height={136}
                 className="absolute bottom-[-1.6rem] left-[-3rem] -z-10 lg:bottom-0 lg:left-0"
@@ -57,7 +61,7 @@ const NeedOfAISEO = ({ needOfService }: any) => {
           <div
             className={`my-auto transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
           >
-            <h2>{needOfService?.heading}</h2>
+            <h2>{"needOfService?.heading"}</h2>
             {needOfService?.data?.map((desc: any) => {
               return (
                 <p className="pt-[1rem] text-center lg:text-justify">
@@ -72,4 +76,4 @@ const NeedOfAISEO = ({ needOfService }: any) => {
   );
 };
 
-export default NeedOfAISEO;
+export default NearMeSearch;

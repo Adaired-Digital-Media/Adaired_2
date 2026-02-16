@@ -43,7 +43,7 @@ const SaveAndCancel = ({
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
         onClick={handleClick}
-        className={`${widthClass} ${isBorder ? 'border-[1px] border-black' : 'border-[1px] border-transparent'} ${isHover && 'border-[1px] border-transparent'} font-Outfi flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] py-[0.75rem] text-xxs font-normal transition-all duration-300 ease-out active:scale-95 xl:text-xs 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px] ${
+        className={`px-[2rem] ${isBorder ? 'border-[1px] border-black' : 'border-[1px] border-transparent'} ${isHover && 'border-[1px] border-transparent'} flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] py-[0.75rem] font-montserrat font-medium transition-all duration-300 ease-out active:scale-95 ${
           isBgWhite
             ? isHover
               ? isHoverBgBlue
@@ -53,7 +53,7 @@ const SaveAndCancel = ({
             : isHover
               ? 'bg-[#D17900] text-white'
               : 'bg-[#FB9100] text-white'
-        } ${buttonWidth} ${buttonWidth} `}
+        } `}
       >
         {name}
         {isIcon && (
@@ -66,7 +66,7 @@ const SaveAndCancel = ({
       {is2ndButton && (
         <button
           onClick={handleClick2}
-          className={`${widthClass} font-Outfi group flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] py-[0.75rem] text-xxs font-normal transition-all duration-300 ease-out active:scale-95 xl:text-xs 1366:text-[14px] 1400:text-[18px] 1440:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px] ${buttonWidth} ${
+          className={`group flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] px-[2rem] py-[0.75rem] font-montserrat font-medium transition-all duration-300 ease-out active:scale-95 ${
             is2BgWhite
               ? 'border border-[#111111] bg-white text-[#111111] hover:bg-[#1A5A96] hover:text-white'
               : 'bg-[#FB9100] text-white hover:bg-[#1A5A96]'

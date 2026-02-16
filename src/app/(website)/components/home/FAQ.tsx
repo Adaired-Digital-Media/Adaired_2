@@ -107,7 +107,7 @@ const FAQ = ({ faqs }: any) => {
           })}
 
           {/* Load More Button */}
-          {faqs?.list?.length > 6 && (
+          {faqs?.list?.length > 5 && (
             <div className="flex justify-center">
               <SaveAndCancel
                 name={

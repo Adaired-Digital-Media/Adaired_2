@@ -554,7 +554,7 @@ export const ServiceSectionData = {
       title: 'Local SEO',
       description:
         'We optimize Google Business Profiles, local keywords, citations, and reviews to improve map pack rankings, increase local visibility, and drive consistent engagement from nearby searchers.',
-      link: '/services/local-seo',
+      link: '/services/local-seo-company-india',
       list: [
         {
           icon: GBPManagement,
@@ -562,7 +562,7 @@ export const ServiceSectionData = {
           label: 'Local Organic SEO',
           title: 'Local Organic SEO',
           description: `We help businesses dominate local search through a strategic mix of Google Business Profile optimization, localized content, review management, and technical SEO. Our local-first approach drives higher map visibility, increased foot traffic, and more qualified calls and inquiries from nearby customers.`,
-          link: '/services/local-seo',
+          link: '/services/local-seo-company-india',
         },
         {
           icon: GBPSetup,
@@ -571,7 +571,7 @@ export const ServiceSectionData = {
           title: 'Citation Building',
           description: `We build and maintain consistent business citations across relevant local, industry, and geo-specific directories. By standardizing business information and eliminating inconsistencies, we help search engines verify legitimacy, improve map pack visibility, and drive more qualified local traffic.
 `,
-          link: '/services/local-seo',
+          link: '/services/local-seo-company-india',
         },
         {
           icon: FakeGBPReporting,
@@ -579,7 +579,7 @@ export const ServiceSectionData = {
           label: 'Local Link Building',
           title: 'Local Link Building',
           description: `We build authentic local backlinks that signal relevance and trust to search engines. By earning links from local organizations, blogs, news sites, and industry resources, we help businesses improve map pack visibility, outrank nearby competitors, and establish a strong local digital footprint.`,
-          link: '/services/local-seo',
+          link: '/services/local-seo-company-india',
         },
         // {
         //   icon: FakeGoogleReviewReporting,
@@ -727,7 +727,7 @@ export const ServiceSectionData = {
       title: 'Web Design & Development',
       description:
         'Responsive, intuitive, and high-performing websites that increase engagement, enhance usability, and deliver real, measurable results.',
-      link: '/services/web-design-and-development-services',
+      link: '/services/web-design-development-company',
       list: [
         {
           icon: wordpress,
@@ -751,7 +751,7 @@ export const ServiceSectionData = {
           label: 'eCommerce Web Development',
           title: 'eCommerce Web Development',
           description: `Transform your online business with our eCommerce Web Development services. We create responsive, secure, and user-friendly websites tailored to your brand, optimized for performance and conversions. From product catalogs to payment gateways, our solutions drive sales, enhance customer experience, and help your business thrive in the digital marketplace.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
         {
           icon: html,
@@ -759,7 +759,7 @@ export const ServiceSectionData = {
           label: 'Custom Web Development',
           title: 'Custom Web Development',
           description: `Bring your vision to life with our Custom Web Development services. We design and build tailored websites that meet your unique business needs, ensuring responsive design, seamless functionality, and scalability. Our solutions enhance user experience, boost performance, and provide a strong digital presence to help your business grow online.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
@@ -768,7 +768,7 @@ export const ServiceSectionData = {
     },
     {
       title: 'Mobile App Development',
-      link: '/services/web-design-and-development-services',
+      link: '/services/web-design-development-company',
       description:
         'We help you create high-performing mobile apps. Our team manages design, development, and deployment, delivering apps that engage users and grow your business.',
       list: [
@@ -778,7 +778,7 @@ export const ServiceSectionData = {
           label: 'iOS Development',
           title: 'iOS Development',
           description: `We specialize in iOS App Development, creating seamless, high-performing apps for iPhone and iPad. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver quality apps while retaining full client ownership.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
         {
           icon: app_2,
@@ -786,7 +786,7 @@ export const ServiceSectionData = {
           label: 'Android App Development',
           title: 'Android App Development',
           description: `At Adaired, we specialize in Android App Development, building high-performing, user-friendly apps for all Android devices. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver apps while retaining full client ownership.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
         {
           icon: app_3,
@@ -794,7 +794,7 @@ export const ServiceSectionData = {
           label: 'Cross-Platform',
           title: 'Cross-Platform',
           description: `At Adaired, we specialize in Cross-Platform App Development, creating apps that work flawlessly on both iOS and Android. From design and coding to testing and deployment, we handle the technical work under your brand, helping you deliver quality apps and scale your business effortlessly.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
         {
           icon: app_4,
@@ -802,7 +802,7 @@ export const ServiceSectionData = {
           label: 'Wearables',
           title: 'Wearables',
           description: `We specialize in Wearable App Development at Adaired, creating apps for smartwatches, fitness trackers, and other wearable devices. From design to development and integration, we deliver seamless, high-performing apps under your brand, helping you enhance user engagement, provide real-time data, and expand your digital offerings effortlessly.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
@@ -810,7 +810,7 @@ export const ServiceSectionData = {
       accentColor: '#5c34b1',
     },
     {
-      title: 'Content Writing & Marketing',
+      title: 'Content Marketing',
       description:
         'From blogs and website copy to landing pages and thought leadership, we create content that supports SEO, builds authority, and drives consistent organic growth.',
       link: '/expert-content-solutions',

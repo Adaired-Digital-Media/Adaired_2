@@ -36,7 +36,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
             isHoverBgBlue={notSeeingResult?.isBgOrange && true}
             isIcon={true}
             handleClick={() => setOpen(!open)}
-            className="w-[20rem] pt-[2rem]"
+            className="pt-[2rem]"
           />
         </div>
 

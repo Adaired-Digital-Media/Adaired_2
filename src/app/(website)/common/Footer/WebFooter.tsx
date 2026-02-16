@@ -240,7 +240,7 @@ const WebFooter = () => {
               <div className="mt-4 flex gap-2">
                 <Link
                   href={process.env.NEXT_PUBLIC_FACEBOOK_URL || '/'}
-                  className="rounded-full bg-white p-2"
+                  className="rounded-full bg-white p-2" 
                 >
                   <Icons.Facebook className="text-[#1B5A96]" />
                   <span className="sr-only">

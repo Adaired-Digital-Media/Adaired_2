@@ -3,11 +3,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
-import BenefitofAiSEO from './BenefitofAiSEO';
 
 export default function CustomSlider({ data, colors }: any) {
   return (
-    <div className="mx-auto w-full pt-[1rem] lg:py-[4rem]">
+    <div className="mx-auto w-full pt-[1rem]">
       {/* Swiper */}
       <Swiper
         modules={[Autoplay, Pagination]}
@@ -51,7 +50,7 @@ export default function CustomSlider({ data, colors }: any) {
               }}
             >
               <h2
-                className={`w-fit mx-auto lg:mx-0 rounded-[20px] px-6 py-2`}
+                className={`mx-auto w-fit rounded-[20px] px-6 py-2 lg:mx-0`}
                 style={{
                   color: colors?.textColor,
                   backgroundColor: colors?.textBg,
@@ -61,11 +60,10 @@ export default function CustomSlider({ data, colors }: any) {
                 {`0${idx + 1}`}
               </h2>
 
-
               <h3
-                className={`pb-4 pt-8 `}
+                className={`pb-4 pt-8`}
                 style={{
-                  color: colors?.textColor
+                  color: colors?.textColor,
                 }}
               >
                 {item?.name}

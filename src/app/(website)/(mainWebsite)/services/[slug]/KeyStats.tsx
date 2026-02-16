@@ -15,19 +15,19 @@ const KeyStats = ({ keyStats }: any) => {
   return (
     <div ref={ref} className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
-        <div
-          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
-        >
-          <Heading
-            breakIndex={6}
-            isBgWhite={true}
-            isInCenter={true}
-            subTitle={''}
-            title={keyStats?.heading}
-          />
-        </div>
         {keyStats?.code === '01' && (
           <div>
+            <div
+              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+            >
+              <Heading
+                breakIndex={6}
+                isBgWhite={true}
+                isInCenter={true}
+                subTitle={''}
+                title={keyStats?.heading}
+              />
+            </div>
             <div
               className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 gap-[1rem] lg:grid-cols-3`}
             >
@@ -63,46 +63,64 @@ const KeyStats = ({ keyStats }: any) => {
           </div>
         )}
         {keyStats?.code === '02' && (
-          <div className="grid grid-cols-1 items-stretch gap-5 pt-[3rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
-            <div className="relative aspect-[4/3] lg:aspect-auto md:h-full md:w-full">
-              <Image src={keyStatsImg} alt="img" fill className="object-fill" />
-              <Image
-                src={rocket}
-                width={115}
-                height={123}
-                alt="rocket"
-                className="left-[0.5 rem] absolute top-[-1rem]"
-              />
-            </div>
-            <div className="mt-7 space-y-4">
-              {keyStats?.list?.map((item: any, index: any) => (
-                <div key={index} className="flex flex-col">
-                  {index !== 0 && (
-                    <Image
-                      src={DottedLine}
-                      width={891}
-                      height={0}
-                      alt="dotted-line"
-                    />
-                  )}
+          <div
+            className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          >
+            <Heading
+              breakIndex={6}
+              isBgWhite={true}
+              isInCenter={true}
+              subTitle={''}
+              title={keyStats?.heading}
+            />
+            <div className="grid grid-cols-1 items-stretch gap-5 pt-[3rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
+              <div className="relative aspect-[4/3] md:h-full md:w-full lg:aspect-auto">
+                <Image
+                  src={keyStatsImg}
+                  alt="img"
+                  fill
+                  className="object-fill"
+                />
+                <Image
+                  src={rocket}
+                  width={115}
+                  height={123}
+                  alt="rocket"
+                  className="left-[0.5 rem] absolute top-[-1rem]"
+                />
+              </div>
+              <div className="mt-7 space-y-4">
+                {keyStats?.list?.map((item: any, index: any) => (
+                  <div key={index} className="flex flex-col">
+                    {index !== 0 && (
+                      <Image
+                        src={DottedLine}
+                        width={891}
+                        height={0}
+                        alt="dotted-line"
+                      />
+                    )}
 
-                  <div className="flex flex-col items-center gap-8 py-4 md:flex-row lg:flex-row lg:gap-16">
-                    <div className="mx-2.5 flex w-[50px] justify-center">
-                      <span className="text-4xl font-normal text-[#FB9100] md:text-4xl">
-                        {String(index + 1).padStart(2, '0')}
-                      </span>
+                    <div className="flex flex-col items-center gap-8 py-4 md:flex-row lg:flex-row lg:gap-16">
+                      <div className="mx-2.5 flex w-[50px] justify-center">
+                        <span className="text-4xl font-normal text-[#FB9100] md:text-4xl">
+                          {String(index + 1).padStart(2, '0')}
+                        </span>
+                      </div>
+
+                      <p className="text-sm md:text-base">
+                        {item.desctioption}
+                      </p>
                     </div>
-
-                    <p className="text-sm md:text-base">{item.desctioption}</p>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         )}
         {keyStats?.code === '03' && (
           <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-[6rem]">
-            <div className="mt-7 rounded-[20px]">
+            <div className="order-2 mt-7 rounded-[20px] lg:order-1">
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
@@ -140,7 +158,7 @@ const KeyStats = ({ keyStats }: any) => {
               ))}
             </div>
 
-            <div className="group relative flex items-center justify-center rounded-[20px] bg-[#FFF8ED]">
+            <div className="group relative order-1 flex items-center justify-center rounded-[20px] bg-[#FFF8ED] lg:order-2">
               <div
                 className={`flex w-[100%] items-center justify-center transition-all delay-200 duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-0 opacity-0 lg:translate-x-16'}`}
               >
@@ -156,7 +174,7 @@ const KeyStats = ({ keyStats }: any) => {
                   width={599}
                   height={483}
                   alt="img"
-                  className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem]`}
+                  className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110 md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem]`}
                 />
               </div>
 
@@ -172,30 +190,74 @@ const KeyStats = ({ keyStats }: any) => {
             </div>
           </div>
         )}
-
         {keyStats?.code === '04' && (
-          <div
-            className={`grid grid-cols-1 gap-4 py-[3rem] transition-all duration-700 sm:grid-cols-2 lg:grid-cols-4 ${
-              isVisible
-                ? 'translate-y-0 opacity-100'
-                : 'translate-y-10 opacity-0'
-            }`}
-          >
-            {keyStats?.list?.map((item: any, idx: number) => (
-              <div
-                key={idx}
-                className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center transition-all duration-700 lg:items-start lg:text-left"
-                style={{
-                  transitionDelay: `${idx * 200}ms`,
-                }}
-              >
-                <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
-                  {`0${idx + 1}`}
-                </h2>
+          <div>
+            <div
+              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+            >
+              <Heading
+                breakIndex={6}
+                isBgWhite={true}
+                isInCenter={true}
+                subTitle={''}
+                title={keyStats?.heading}
+              />
+            </div>
+            <div
+              className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
+                isVisible
+                  ? 'translate-y-0 opacity-100'
+                  : 'translate-y-10 opacity-0'
+              }`}
+            >
+              {keyStats?.list?.map((item: any, idx: number) => (
+                <div
+                  key={idx}
+                  className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center transition-all duration-700 lg:items-start lg:text-left"
+                  style={{
+                    transitionDelay: `${idx * 200}ms`,
+                  }}
+                >
+                  <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
+                    {`0${idx + 1}`}
+                  </h2>
 
-                <h3 className="pt-14">{item?.description}</h3>
-              </div>
-            ))}
+                  <h3 className="pt-10">{item?.description}</h3>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+        {keyStats?.code === '05' && (
+          <div>
+            <div
+              className={`w-full transition-all duration-1000 lg:w-fit ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+            >
+              <Heading
+                breakIndex={6}
+                isBgWhite={true}
+                isInCenter={true}
+                subTitle={''}
+                title={keyStats?.heading}
+              />
+            </div>
+            <div
+              className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 gap-[1rem] lg:grid-cols-3`}
+            >
+              {keyStats?.list?.slice(0, 3).map((item: any, idx: number) => {
+                return (
+                  <div
+                    className={`flex flex-col items-center rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    style={{
+                      transitionDelay: `${idx * 280}ms`, // 👈 stagger here
+                    }}
+                  >
+                    <Image src={groth} width={50} height={50} alt="img" />
+                    <p className="pt-[2rem]">{item?.desctioption}</p>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         )}
       </MaxWidthWrapper>

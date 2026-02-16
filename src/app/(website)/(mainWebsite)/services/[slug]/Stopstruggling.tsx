@@ -28,7 +28,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             {stopStruggling?.title}
           </h2>
 
-          <p className="text-center text-[#FFFFFF]">
+          <p className="text-center text-[#FFFFFF] whitespace-pre-line">
             {stopStruggling?.description}
           </p>
 
@@ -39,7 +39,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
               isIcon={true}
               isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
               handleClick={() => setOpen(!open)}
-              buttonWidth="!w-[21rem]"
+              buttonWidth="!w-[19rem]"
             />
           </div>
         </div>
