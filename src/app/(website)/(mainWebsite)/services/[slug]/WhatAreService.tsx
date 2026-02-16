@@ -52,7 +52,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   isIcon={true}
                   isBgWhite={true}
                   handleClick={() => setOpen(!open)}
-                  className="my-[2rem] w-[16rem]"
+                  className="my-[2rem]"
                 />
               )}
             </div>
@@ -101,7 +101,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   isIcon={true}
                   isBgWhite={true}
                   handleClick={() => setOpen(!open)}
-                  className="my-[2rem] w-[16rem]"
+                  className="my-[2rem]"
                 />
               )}
             </div>
@@ -156,7 +156,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   isIcon={true}
                   isBgWhite={true}
                   handleClick={() => setOpen(!open)}
-                  className="my-[2rem] w-[16rem]"
+                  className="my-[2rem]"
                 />
               )}
             </div>
