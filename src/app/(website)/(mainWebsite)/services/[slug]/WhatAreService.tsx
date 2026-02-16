@@ -71,7 +71,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         <div
           className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'}`}
         >
-          <MaxWidthWrapper className="relative grid grid-cols-1 gap-[8rem] py-[3rem] lg:grid-cols-2 lg:py-[4rem]">
+          <MaxWidthWrapper className="relative grid grid-cols-1 gap-[1rem] py-[3rem] lg:grid-cols-2 lg:gap-[8rem] lg:py-[4rem]">
             <div
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
@@ -108,7 +108,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
 
             <div
               ref={ref}
-              className={`absolute bottom-0 right-0 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-start lg:justify-end`}
+              className={`flex items-center justify-center transition-all duration-1000 lg:absolute lg:bottom-0 lg:right-0 lg:order-2 lg:items-start lg:justify-end`}
             >
               <Image
                 src={whatareaiseo?.img}

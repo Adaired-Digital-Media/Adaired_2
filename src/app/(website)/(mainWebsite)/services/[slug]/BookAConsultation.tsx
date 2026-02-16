@@ -105,7 +105,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                   isIcon={true}
                   isBgWhite={true}
                   handleClick={() => setOpen(!open)}
-                  className="mt-[1rem] w-[20rem]"
+                  className="mt-[1rem]"
                 />
               )}
             </div>

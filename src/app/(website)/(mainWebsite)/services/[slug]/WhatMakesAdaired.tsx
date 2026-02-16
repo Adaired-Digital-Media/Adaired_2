@@ -26,7 +26,7 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
             </div>
 
             <div
-              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full lg:w-[50%] bg-yellow-200 ' : 'bg-blue-100 w-[0%]'}`}
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%]'}`}
             >
               {whatMkeDeferent?.description?.map((item: any) => {
                 return <p className="my-3 ml-0 lg:ml-[10rem]">{item}</p>;

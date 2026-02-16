@@ -14,7 +14,14 @@ import seo2 from '../../../../public/assets/icons/service/seo_Img.png';
 //seo images & icons
 import SEO from '../../../../public/assets/images/service/New/SEO.svg';
 import AI_SEO from '../../../../public/assets/images/service/New/AISEO.svg';
+import SAAS_SEO from '../../../../public/assets/images/service/New/SaaS SEO (1).svg';
 import LOCAL_SEO from '../../../../public/assets/images/service/New/Local SEO (1).svg';
+import LOCAL_SEO_1 from '../../../../public/assets/images/service/New/Local organic SEO.svg';
+import LOCAL_SEO_2 from '../../../../public/assets/images/service/New/Citation Building.svg';
+import LOCAL_SEO_3 from '../../../../public/assets/images/service/New/Local Link Building.svg';
+import LLM_SEO from '../../../../public/assets/images/service/New/LLMO.svg';
+import GEO_SEO from '../../../../public/assets/images/service/New/GEO.svg';
+import AEO_SEO from '../../../../public/assets/images/service/New/AEO.svg';
 import E_Comerce_SEO from '../../../../public/assets/images/service/New/eCommerce SEO.svg';
 import SEO_1 from '../../../../public/assets/icons/service/seo.png';
 import SEO_2 from '../../../../public/assets/icons/service/ai_seo.png';
@@ -23,17 +30,20 @@ import SEO_4 from '../../../../public/assets/icons/service/E commerce seo.svg';
 
 //linkbuilding images & icons
 import Link_Building from '../../../../public/assets/images/service/New/Link Building.svg';
-import Link_Building_2 from '../../../../public/assets/images/service/New/SEO.svg';
-import Link_Building_3 from '../../../../public/assets/images/service/New/SEO.svg';
-import Link_Building_4 from '../../../../public/assets/images/service/New/SEO.svg';
+import Link_Building_1 from '../../../../public/assets/images/service/New/High Authority Link Building.svg';
+import Link_Building_2 from '../../../../public/assets/images/service/New/Guest Post Links.svg';
+import Link_Building_3 from '../../../../public/assets/images/service/New/Niche Edits (1).svg';
+import Link_Building_4 from '../../../../public/assets/images/service/New/Press Releases.svg';
 import Link_Building_Icon_1 from '../../../../public/assets/icons/service/high authority links.svg';
 import Link_Building_Icon_2 from '../../../../public/assets/icons/service/Guest post.svg';
 import Link_Building_Icon_3 from '../../../../public/assets/icons/service/Niche edits.svg';
 import Link_Building_Icon_4 from '../../../../public/assets/icons/service/press-release 1.svg';
 
 //linkbuilding images & icons
-import Content_Marketing from '../../../../public/assets/images/service/New/SEO_NEW_IMG.svg';
-import Content_Marketing_2 from '../../../../public/assets/images/service/New/AISEO.svg';
+import Content_Marketing from '../../../../public/assets/images/service/New/Article Writing.svg';
+import Content_Marketing_2 from '../../../../public/assets/images/service/New/Blog Writing (1).svg';
+import Content_Marketing_3 from '../../../../public/assets/images/service/New/Website Content (1).svg';
+import Content_Marketing_4 from '../../../../public/assets/images/service/New/eCommerce Content.svg';
 import Content_Marketing_Icon_1 from '../../../../public/assets/icons/service/e_comerse.svg';
 import Content_Marketing_Icon_2 from '../../../../public/assets/icons/service/blogwriting.svg';
 import Content_Marketing_Icon_3 from '../../../../public/assets/icons/service/website content.svg';
@@ -68,9 +78,10 @@ import content_marketing_2 from '../../../../public/assets/images/service/New/Co
 import content_marketing_3 from '../../../../public/assets/images/service/New/Contentwriting.svg';
 import content_marketing_4 from '../../../../public/assets/images/service/New/Contentwriting.svg';
 
-import web_1 from '../../../../public/assets/images/service/New/Web design and development.svg';
-import web_2 from '../../../../public/assets/images/service/New/Web design and development.svg';
-import web_3 from '../../../../public/assets/images/service/New/Shopify Development.svg';
+import web_dev from '../../../../public/assets/images/service/New/Web design and development (1).svg';
+import web_1 from '../../../../public/assets/images/service/New/WordPress Development.svg';
+import web_2 from '../../../../public/assets/images/service/New/Shopify Development (1).svg';
+import web_3 from '../../../../public/assets/images/service/New/ECOMMERCE DEVELOPMENT-27 1.svg';
 import web_4 from '../../../../public/assets/images/service/New/Custom Web Development.svg';
 
 import White_SEO_1 from '../../../../public/assets/images/service/White_SEO_1.png';
@@ -78,10 +89,10 @@ import White_SEO_2 from '../../../../public/assets/images/service/White_SEO_2.pn
 import White_SEO_3 from '../../../../public/assets/images/service/White_SEO_3.png';
 import White_SEO_4 from '../../../../public/assets/images/service/White_SEO_4.png';
 import White_Label_Services from '../../../../public/assets/images/service/White_Label_Services.png';
-import App_1 from '../../../../public/assets/images/service/App_1.png';
-import App_2 from '../../../../public/assets/images/service/App_4.png';
-import App_3 from '../../../../public/assets/images/service/App_2.png';
-import App_4 from '../../../../public/assets/images/service/App_3.png';
+import App_1 from '../../../../public/assets/images/service/New/iOS Development.svg';
+import App_2 from '../../../../public/assets/images/service/New/Android App Development.svg';
+import App_3 from '../../../../public/assets/images/service/New/Cross-Platform.svg';
+import App_4 from '../../../../public/assets/images/service/New/Wearables.svg';
 //services icons
 import amazon from '../../../../public/assets/icons/service/amazon.png';
 import app_1 from '../../../../public/assets/icons/service/app_1.png';
@@ -102,11 +113,9 @@ import LinkBuilding from '../../../../public/assets/icons/service/LinkBuilding.p
 import shoppyfy from '../../../../public/assets/icons/service/shoppyfy.png';
 import TikTokAds from '../../../../public/assets/icons/service/TikTokAds.png';
 import LinkedInAds from '../../../../public/assets/icons/service/LinkedInAds.png';
-// import digital_marketing from '../../../../public/assets/images/service/digital_marketing.png';
-// import digital_marketing from '../../../../public/assets/images/service/New/Digital Marketing.png';
 
 import google_business from '../../../../public/assets/images/service/google_business.png';
-import App_development from '../../../../public/assets/images/service/App_development.png';
+import App_development from '../../../../public/assets/images/service/New/Mobile App Development.svg';
 import WhiteLabelFacebookAds from '../../../../public/assets/icons/service/WhiteLabelFacebookAds.png';
 import WhiteLabelSEO from '../../../../public/assets/icons/service/WhiteLabelSEO.png';
 import WhiteLabelSocialMedia from '../../../../public/assets/icons/service/WhiteLabelSocialMedia.png';
@@ -479,7 +488,7 @@ export const ServiceSectionData = {
         },
         {
           icon: SEO_2,
-          image: AI_SEO,
+          image: SAAS_SEO,
           label: 'SaaS SEO',
           title: 'SaaS SEO',
           description: `We help SaaS businesses grow through targeted SEO strategies designed for recurring-revenue models. From optimizing product pages and feature-based keywords to creating funnel-driven content, our SaaS SEO approach attracts decision-makers, boosts trial sign-ups, and supports long-term customer acquisition.`,
@@ -523,7 +532,7 @@ export const ServiceSectionData = {
         },
         {
           icon: WhiteLabelSocialMedia,
-          image: AI_SEO,
+          image: LLM_SEO,
           label: 'LLM SEO/LLMO',
           title: 'LLM SEO/LLMO',
           description: `Adaired’s LLM SEO services enable agencies to offer next-generation search optimization under their own brand. We handle the strategy and execution needed to optimize client content for AI-driven search and generative models, while you maintain full ownership of client relationships and reporting.`,
@@ -531,7 +540,7 @@ export const ServiceSectionData = {
         },
         {
           icon: WhiteLabelFacebookAds,
-          image: AI_SEO,
+          image: GEO_SEO,
           label: 'GEO',
           title: 'GEO',
           description: `We help businesses adapt to the shift from search results to AI-generated answers. Our GEO approach focuses on content clarity, semantic depth, and authority signals that generative engines rely on, ensuring your brand remains visible, accurate, and competitive in AI-powered discovery.`,
@@ -539,7 +548,7 @@ export const ServiceSectionData = {
         },
         {
           icon: LinkBuilding,
-          image: AI_SEO,
+          image: AEO_SEO,
           label: 'AEO',
           title: 'AEO',
           description: `We structure and optimize content so search engines and AI systems can easily extract, understand, and present your brand as the best answer. Through question-focused optimization, schema markup, and intent alignment, we help businesses capture high-value answer placements beyond traditional rankings.`,
@@ -558,7 +567,7 @@ export const ServiceSectionData = {
       list: [
         {
           icon: GBPManagement,
-          image: LOCAL_SEO,
+          image: LOCAL_SEO_1,
           label: 'Local Organic SEO',
           title: 'Local Organic SEO',
           description: `We help businesses dominate local search through a strategic mix of Google Business Profile optimization, localized content, review management, and technical SEO. Our local-first approach drives higher map visibility, increased foot traffic, and more qualified calls and inquiries from nearby customers.`,
@@ -566,7 +575,7 @@ export const ServiceSectionData = {
         },
         {
           icon: GBPSetup,
-          image: LOCAL_SEO,
+          image: LOCAL_SEO_2,
           label: 'Citation Building',
           title: 'Citation Building',
           description: `We build and maintain consistent business citations across relevant local, industry, and geo-specific directories. By standardizing business information and eliminating inconsistencies, we help search engines verify legitimacy, improve map pack visibility, and drive more qualified local traffic.
@@ -575,7 +584,7 @@ export const ServiceSectionData = {
         },
         {
           icon: FakeGBPReporting,
-          image: LOCAL_SEO,
+          image: LOCAL_SEO_3,
           label: 'Local Link Building',
           title: 'Local Link Building',
           description: `We build authentic local backlinks that signal relevance and trust to search engines. By earning links from local organizations, blogs, news sites, and industry resources, we help businesses improve map pack visibility, outrank nearby competitors, and establish a strong local digital footprint.`,
@@ -601,7 +610,7 @@ export const ServiceSectionData = {
       list: [
         {
           icon: Link_Building_Icon_1,
-          image: Link_Building,
+          image: Link_Building_1,
           label: 'High Authority Link Building',
           title: 'High Authority Link Building',
           description: `We acquire backlinks from authoritative, high-trust websites that enhance your site’s credibility and competitive strength. By focusing on relevance, domain quality, and natural placement, our high-authority links help improve rankings for competitive keywords and support sustainable SEO performance`,
@@ -609,7 +618,7 @@ export const ServiceSectionData = {
         },
         {
           icon: Link_Building_Icon_2,
-          image: Link_Building,
+          image: Link_Building_2,
           label: 'Guest Posts',
           title: 'Guest Posts',
           description: `Our guest posting services secure contextual backlinks through high-quality content placements on relevant industry websites. We handle prospecting, outreach, content creation, and placement to ensure each guest post delivers SEO value, referral traffic, and brand visibility.`,
@@ -617,7 +626,7 @@ export const ServiceSectionData = {
         },
         {
           icon: Link_Building_Icon_3,
-          image: Link_Building,
+          image: Link_Building_3,
           label: 'Niche Edits',
           title: 'Niche Edits',
           description: `We place strategic backlinks within existing, aged content on authoritative and niche-relevant websites. These contextual link insertions offer significant SEO value, enhance keyword rankings, and provide a faster impact compared to newly published links.`,
@@ -625,7 +634,7 @@ export const ServiceSectionData = {
         },
         {
           icon: Link_Building_Icon_4,
-          image: Link_Building,
+          image: Link_Building_4,
           label: 'Press Releases',
           title: 'Press Releases',
           description: `Our press release link-building services help amplify brand exposure while earning authoritative backlinks from news and media distribution networks. We craft optimized press content that supports SEO, improves brand credibility, and strengthens your backlink profile through trusted publications.`,
@@ -739,7 +748,7 @@ export const ServiceSectionData = {
         },
         {
           icon: shoppyfy,
-          image: web_3,
+          image: web_2,
           label: 'Shopify Development',
           title: 'Shopify Development',
           description: `Launch and grow your online store with our Shopify Development services. We design, build, and customize responsive, secure, and user-friendly e-commerce websites. From product management to payment integration, our solutions drive sales, enhance customer experience, and help your business succeed in the competitive world of online retail.`,
@@ -747,7 +756,7 @@ export const ServiceSectionData = {
         },
         {
           icon: amazon,
-          image: web_1,
+          image: web_3,
           label: 'eCommerce Web Development',
           title: 'eCommerce Web Development',
           description: `Transform your online business with our eCommerce Web Development services. We create responsive, secure, and user-friendly websites tailored to your brand, optimized for performance and conversions. From product catalogs to payment gateways, our solutions drive sales, enhance customer experience, and help your business thrive in the digital marketplace.`,
@@ -763,7 +772,7 @@ export const ServiceSectionData = {
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
-      img: web_1,
+      img: web_dev,
       accentColor: '#5c34b1',
     },
     {
@@ -817,7 +826,7 @@ export const ServiceSectionData = {
       list: [
         {
           icon: Content_Marketing_Icon_1,
-          image: content_marketing_1,
+          image: Content_Marketing,
           label: 'Article Writing',
           title: 'Article Writing',
           description: `Our article writing services deliver well-researched, informative, and engaging long-form content that builds authority and educates your audience. We create articles tailored to your industry and target audience, helping you establish thought leadership, support SEO efforts, and drive sustained organic traffic.`,
@@ -825,7 +834,7 @@ export const ServiceSectionData = {
         },
         {
           icon: Content_Marketing_Icon_2,
-          image: content_marketing_2,
+          image: Content_Marketing_2,
           label: 'Blog Writing',
           title: 'Blog Writing',
           description: `We create SEO-focused blog content designed to attract search traffic, engage readers, and support your marketing funnel. From topic research to optimized publishing, our blog writing helps businesses improve rankings, answer user intent, and maintain a consistent content presence.`,
@@ -833,7 +842,7 @@ export const ServiceSectionData = {
         },
         {
           icon: Content_Marketing_Icon_3,
-          image: content_marketing_3,
+          image: Content_Marketing_3,
           label: 'Website Content',
           title: 'Website Content',
           description: `Our website content services focus on clear messaging, strong value propositions, and conversion-driven copy. We craft homepage, service, and landing page content that communicates your brand effectively, enhances user experience, and turns visitors into leads or customers.`,
@@ -841,7 +850,7 @@ export const ServiceSectionData = {
         },
         {
           icon: Content_Marketing_Icon_4,
-          image: content_marketing_4,
+          image: Content_Marketing_4,
           label: 'eCommerce Content',
           title: 'eCommerce Content',
           description: `We develop compelling eCommerce content that drives visibility and conversions. From product descriptions and category pages to buying guides, our content is optimized for search, user intent, and sales, helping shoppers make confident purchasing decisions.`,

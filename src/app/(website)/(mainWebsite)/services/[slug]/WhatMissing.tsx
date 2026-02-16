@@ -46,7 +46,7 @@ const WhatMissing = ({ whatMissing }: any) => {
             {whatMissing?.list?.map((card: any, index: number) => (
               <div
                 key={index}
-                className={`relative rounded-2xl border border-[#F3F3F3] p-[2.5rem] transition-all duration-1000 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 1400:h-[46rem] 1440:h-[44rem] 1470:h-[43rem] 1600:h-[42rem] 1710:h-[40rem] 3xl:h-[36rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`relative rounded-2xl border border-[#F3F3F3] p-[2.5rem] transition-all duration-1000 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 // style={{
                 //     transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 // }}

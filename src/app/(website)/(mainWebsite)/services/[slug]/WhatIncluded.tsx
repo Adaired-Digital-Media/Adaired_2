@@ -1,13 +1,17 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import Image from 'next/image';
 import FutureProof from './FutureProof';
+import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
 const WhatIncluded = ({ whatIncluded }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const [open, setOpen] = useState(false);
+
   return (
     <section ref={ref} className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
@@ -59,7 +63,9 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                     </div>
                   </div>
                 ))}
-                {whatIncluded?.isFetureProofVisible && <FutureProof />}
+                {whatIncluded?.isFetureProofVisible && (
+                  <FutureProof handleClick={() => setOpen(true)} />
+                )}
               </div>
             )}
             {whatIncluded?.isVariant === '02' && (
@@ -104,6 +110,7 @@ const WhatIncluded = ({ whatIncluded }: any) => {
           </div>
         </div>
       </MaxWidthWrapper>
+      <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </section>
   );
 };
