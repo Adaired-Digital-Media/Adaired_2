@@ -291,7 +291,7 @@ export const routes: {
     {
       label: 'White Label',
       value: 'White Label',
-      href: '/services/on-page-and-off-page-optimization',
+      href: '/services/white-label-agency-india',
     },
     {
       label: 'Resources',
