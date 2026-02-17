@@ -822,7 +822,7 @@ export const ServiceSectionData = {
       title: 'Content Marketing',
       description:
         'From blogs and website copy to landing pages and thought leadership, we create content that supports SEO, builds authority, and drives consistent organic growth.',
-      link: '/expert-content-solutions',
+      link: '/services/expert-content-solutions',
       list: [
         {
           icon: Content_Marketing_Icon_1,
@@ -830,7 +830,7 @@ export const ServiceSectionData = {
           label: 'Article Writing',
           title: 'Article Writing',
           description: `Our article writing services deliver well-researched, informative, and engaging long-form content that builds authority and educates your audience. We create articles tailored to your industry and target audience, helping you establish thought leadership, support SEO efforts, and drive sustained organic traffic.`,
-          link: '/expert-content-solutions',
+          link: '/services/expert-content-solutions',
         },
         {
           icon: Content_Marketing_Icon_2,
@@ -838,7 +838,7 @@ export const ServiceSectionData = {
           label: 'Blog Writing',
           title: 'Blog Writing',
           description: `We create SEO-focused blog content designed to attract search traffic, engage readers, and support your marketing funnel. From topic research to optimized publishing, our blog writing helps businesses improve rankings, answer user intent, and maintain a consistent content presence.`,
-          link: '/expert-content-solutions',
+          link: '/services/expert-content-solutions',
         },
         {
           icon: Content_Marketing_Icon_3,
@@ -846,7 +846,7 @@ export const ServiceSectionData = {
           label: 'Website Content',
           title: 'Website Content',
           description: `Our website content services focus on clear messaging, strong value propositions, and conversion-driven copy. We craft homepage, service, and landing page content that communicates your brand effectively, enhances user experience, and turns visitors into leads or customers.`,
-          link: '/expert-content-solutions',
+          link: '/services/expert-content-solutions',
         },
         {
           icon: Content_Marketing_Icon_4,
@@ -854,7 +854,7 @@ export const ServiceSectionData = {
           label: 'eCommerce Content',
           title: 'eCommerce Content',
           description: `We develop compelling eCommerce content that drives visibility and conversions. From product descriptions and category pages to buying guides, our content is optimized for search, user intent, and sales, helping shoppers make confident purchasing decisions.`,
-          link: '/expert-content-solutions',
+          link: '/services/expert-content-solutions',
         },
       ],
       mainSvg: 'Pay Per Click_pdGDn',

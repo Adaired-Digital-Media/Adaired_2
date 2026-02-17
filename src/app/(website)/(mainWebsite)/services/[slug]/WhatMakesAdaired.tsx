@@ -9,7 +9,7 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
 
   return (
-    <div ref={ref} className="py-[3rem] lg:py-[4rem]">
+    <div ref={ref} className="py-[1.5rem] lg:py-[4rem]">
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}

@@ -259,6 +259,93 @@ const WhatAreService = ({ whatareaiseo }: any) => {
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
         </div>
       )}
+      {whatareaiseo?.isVariant === '05' && (
+        <div
+          className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'}`}
+        >
+          <MaxWidthWrapper className="flex gap-[8rem] py-[3rem] lg:py-[4rem]">
+            <div className="relative w-[30%]">
+              <Image
+                src={whatareaiseo?.img}
+                alt=""
+                fill
+                className="object-fill"
+              />
+            </div>
+            <div
+              className={`w-[70%] my-auto flex flex-col items-center transition-all duration-1000 lg:items-start`}
+            >
+              <Heading
+                className="flex justify-center lg:justify-start"
+                subTitle={''}
+                title={whatareaiseo?.heading}
+                span={whatareaiseo?.span}
+                spanBreakIndex={2}
+                spanColor="text-[#FBD04F]"
+                isBgWhite={whatareaiseo?.isBgWhite && true}
+              />
+              <div className="">
+                {whatareaiseo?.data?.map((item: any, index: number) => {
+                  return (
+                    <div key={index} className="space-y-4">
+                      <p
+                        className={`py-1 text-center lg:text-justify ${
+                          whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                        }`}
+                      >
+                        {item?.desctioption}
+                      </p>
+                      <div
+                        className={`grid w-fit pb-4 ${
+                          item?.list?.length > 4
+                            ? 'grid-cols-1 md:grid-cols-3'
+                            : 'grid-cols-1 md:grid-cols-2'
+                        }`}
+                      >
+                        {item?.list?.map((listItem: any, listIndex: number) => (
+                          <div
+                            key={listIndex}
+                            className="flex items-start gap-2 px-1 py-1"
+                          >
+                            <BiSolidBadgeCheck
+                              size={25}
+                              className="text-[#FBD04F]"
+                            />
+
+                            {listItem?.description?.map(
+                              (desc: string, descIndex: number) => (
+                                <p
+                                  key={descIndex}
+                                  className={`text-left ${
+                                    whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                                  }`}
+                                >
+                                  {desc}
+                                </p>
+                              )
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {/* {whatareaiseo?.isBgWhite && (
+                <SaveAndCancel
+                  name={whatareaiseo?.button}
+                  isIcon={true}
+                  isBgWhite={true}
+                  handleClick={() => setOpen(!open)}
+                  className="my-[2rem] w-[16rem]"
+                />
+              )} */}
+            </div>
+          </MaxWidthWrapper>
+          <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
+        </div>
+      )}
     </div>
   );
 };

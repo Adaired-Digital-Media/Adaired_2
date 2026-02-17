@@ -11,6 +11,7 @@ import { MdOutlineArrowOutward } from 'react-icons/md';
 
 const ImportantToBussiness = ({ importantToBussiness }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  // const words = importantToBussiness?.heading?.split(' ') || [];
 
   return (
     <div ref={ref} className="pb-[3rem] pt-[2rem] lg:pb-[4rem] lg:pt-[3rem]">
@@ -18,22 +19,43 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
-          <Heading
-            breakIndex={9}
-            isBgWhite={true}
-            isInCenter={true}
-            subTitle={''}
-            title={importantToBussiness?.heading}
-          />
+          <div className="flex flex-col justify-center lg:flex-row">
+            <div
+              className={`${importantToBussiness?.description?.length > 0 ? 'w-full pr-[0%] lg:w-[50%]' : 'flex w-[100%] justify-center justify-items-center lg:w-[50%]'} pr-0 lg:pr-[6rem]`}
+            >
+              <h2
+                className={`${importantToBussiness?.description?.length ? '' : 'text-center'}`}
+              >
+                {importantToBussiness?.heading}
+              </h2>
+
+              {/* <h2
+                className={`${importantToBussiness?.description?.length ? '' : 'text-center'
+                  }`}
+              >
+                {words.slice(0, 4).join(' ')}
+                <br className="hidden md:block" />
+                {words.slice(4).join(' ')}
+              </h2> */}
+            </div>
+
+            <div
+              className={`${importantToBussiness?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%] bg-blue-100'}`}
+            >
+              {importantToBussiness?.description?.map((item: any) => {
+                return <p className="my-3 ml-0 lg:ml-[10rem]">{item}</p>;
+              })}
+            </div>
+          </div>
         </div>
 
         <div
-          className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid-cols-1 gap-[1rem] lg:grid lg:grid-cols-2`}
+          className={`pt-[1rem] ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid-cols-1 gap-[1rem] lg:grid lg:grid-cols-2`}
         >
           {importantToBussiness?.data?.map((item: any, idx: number) => {
             return (
               <div
-                className={`relative rounded-[1rem] bg-[#F9F9F9] p-[2rem] px-[2rem] pb-[4rem] pt-[2rem] transition-all duration-700 my-[1rem] lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`relative my-[1rem] rounded-[1rem] bg-[#F9F9F9] p-[2rem] px-[2rem] pb-[4rem] pt-[2rem] transition-all duration-700 lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
                   transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                 }}
@@ -60,7 +82,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                     href=""
                     className="absolute bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 text-[#FB9100] lg:left-[2rem] lg:justify-start"
                   >
-                    <span>{item.button}</span>
+                    <span className="text-[16px]">{item.button}</span>
                     <MdOutlineArrowOutward />
                   </a>
                 )}
