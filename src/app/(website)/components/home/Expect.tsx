@@ -1,12 +1,16 @@
+"use client";
 import { ExpectSectionData } from '@/@core/data/website/Homepage';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
 import CountUp from '../CountUp';
-import useImageAnimation from '@/@core/hooks/useImageAnimation';
 import expectImg from '../../../../../public/assets/images/home/expect.png';
 import { useState } from 'react';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import teamImg from '../../../../../public/assets/team/Refine.jpg';
+import adaireddigitalmarketingteam from '../../../../../public/assets/team/1st..jpg';
+import adaireddigitalmarketingteam_2 from '../../../../../public/assets/team/2nd..jpg';
+import adaireddigitalmarketingteam_3 from '../../../../../public/assets/team/3rd..jpg';
 
 const Expect = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
@@ -35,15 +39,41 @@ const Expect = () => {
           {/* Content Section */}
           <div
             ref={ref}
-            className={`relative ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+            className={`transition-all duration-700 ${
+              isVisible
+                ? 'translate-x-0 opacity-100'
+                : '-translate-x-16 opacity-0'
+            }`}
           >
+            {/* LG */}
             <Image
-              src={expectImg}
-              alt="About Image"
+              src={adaireddigitalmarketingteam}
+              alt="adaired-digital-marketing-team"
               fill
-              className="rounded-3xl object-cover p-1"
+              className="hidden w-full rounded-3xl object-cover p-1 lg:block"
+            />
+
+            {/* MD / Tablet */}
+            <Image
+              src={adaireddigitalmarketingteam_2}
+              alt="adaired-digital-marketing-team"
+              width={800}
+              height={550}
+              sizes="(min-width: 768px) 100vw"
+              className="hidden w-full rounded-3xl object-cover p-1 md:block lg:hidden"
+            />
+
+            {/* Mobile */}
+            <Image
+              src={adaireddigitalmarketingteam_3}
+              alt="adaired-digital-marketing-team"
+              width={800}
+              height={350}
+              sizes="100vw"
+              className="block w-full rounded-3xl object-cover p-1 md:hidden"
             />
           </div>
+
           <div className="flex-1 p-2 text-center lg:text-left">
             {/* Points Section */}
             <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2">
