@@ -103,7 +103,7 @@ export const routes: {
       subItems: [
         {
           name: 'Web Design & Development',
-          href: '/services/web-design-and-development-services',
+          href: '/services/web-design-development-company',
           subItems: [
             {
               name: 'WordPress Development',
@@ -250,39 +250,39 @@ export const routes: {
 
         {
           name: 'Content Marketing',
-          href: '/expert-content-solutions',
+          href: '/services/expert-content-solutions',
           subItems: [
             {
               name: 'Content Audit',
-              href: '/expert-content-solutions',
+              href: '/services/expert-content-solutions',
             },
             {
               name: 'Blogs & Articles',
-              href: '/expert-content-solutions',
+              href: '/services/expert-content-solutions',
             },
             {
               name: 'Social Media Posts',
-              href: '/expert-content-solutions',
+              href: '/services/expert-content-solutions',
             },
             {
               name: 'Infographics',
-              href: '/expert-content-solutions',
+              href: '/services/expert-content-solutions',
             },
             {
               name: 'Email Marketing Draft',
-              href: '/expert-content-solutions',
+              href: '/services/expert-content-solutions',
             },
             {
               name: 'Website Copies',
-              href: '/expert-content-solutions',
+              href: '/services/expert-content-solutions',
             },
             {
               name: 'Guest Posting',
-              href: '/expert-content-solutions',
+              href: '/services/expert-content-solutions',
             },
             {
               name: 'Google Business Profile Posts',
-              href: '/expert-content-solutions',
+              href: '/services/expert-content-solutions',
             },
           ],
         },
@@ -292,6 +292,15 @@ export const routes: {
       label: 'White Label',
       value: 'White Label',
       href: '/services/white-label-agency-india',
+      subItems: [
+        { name: 'White Label SEO', href: '/services/seo-outsourcing-india' },
+        {
+          name: 'White Label Social Media',
+          href: '/services/social-media-outsourcing-india',
+        },
+        { name: 'White Label Paid Ads', href: '#' },
+        { name: 'White Label Link Building', href: '#' },
+      ],
     },
     {
       label: 'Resources',
