@@ -4,9 +4,11 @@ import React from 'react';
 import NotFound from '@/app/not-found';
 
 import Banner from './Banner';
+import GetsCredit from './GetsCredit';
 import KeyStats from './KeyStats';
 import WhatAreService from './WhatAreService';
 import NeedOfAdaired from './NeedOfAdaired';
+import DataInTable from './DataInTable';
 import BenefitofAiSEO from './BenefitofAiSEO';
 import AdairedServiceResult from './AdairedServiceResult';
 import NotSeeingResults from './NotSeeingResults';
@@ -31,11 +33,13 @@ export type ServiceSlug = keyof typeof SERVICES_DATA;
 
 export type SectionKey =
   | 'banner'
+  | 'getsCredit'
   | 'keyStats'
   | 'areYouTired'
   | 'whatareservice'
   | 'needofservice'
   | 'needofservice2'
+  | 'dataInTable'
   | 'importantToBussiness'
   | 'benefitofAiSeo'
   | 'serviceResult'
@@ -62,12 +66,21 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
       <Banner banner={serviceData.banner} />
     ) : null,
 
+  getsCredit: (serviceData) =>
+    serviceData.getsCredit?.isVisible ? (
+      <GetsCredit getsCredit={serviceData.getsCredit} />
+    ) : null,
+
   keyStats: (serviceData) =>
     serviceData.keyStats?.isVisible ? (
       <KeyStats keyStats={serviceData.keyStats} />
     ) : null,
 
-  areYouTired: () => <AreYouTired />,
+  areYouTired: (serviceData) =>
+    serviceData.areYouTired?.isVisible ? (
+      <AreYouTired areYouTired={serviceData.areYouTired} />
+    ) : null,
+
 
   whatareservice: (serviceData) =>
     serviceData.whatareservice?.isVisible ? (
@@ -82,6 +95,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   needofservice2: (serviceData) =>
     serviceData.needofservice2?.isVisible ? (
       <NeedOfAdaired needOfService={serviceData.needofservice2} />
+    ) : null,
+
+  dataInTable: (serviceData) =>
+    serviceData.dataInTable?.isVisible ? (
+      <DataInTable dataInTable={serviceData.dataInTable} />
     ) : null,
 
   importantToBussiness: (serviceData) =>

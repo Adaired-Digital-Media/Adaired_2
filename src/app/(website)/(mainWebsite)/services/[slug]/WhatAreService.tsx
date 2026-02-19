@@ -46,7 +46,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 })}
               </div>
 
-              {whatareaiseo?.isBgWhite && (
+              {whatareaiseo?.isBgWhite?.button && (
                 <SaveAndCancel
                   name={whatareaiseo?.button}
                   isIcon={true}
@@ -263,17 +263,19 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         <div
           className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'}`}
         >
-          <MaxWidthWrapper className="flex gap-[8rem] py-[3rem] lg:py-[4rem]">
-            <div className="relative w-[30%]">
+          <MaxWidthWrapper className="block gap-[8rem] py-[3rem] lg:flex lg:py-[4rem]">
+            <div className="relative my-auto h-fit w-full lg:w-[30%]">
               <Image
                 src={whatareaiseo?.img}
                 alt=""
-                fill
-                className="object-fill"
+                // fill
+                width={608}
+                height={662}
+                className=""
               />
             </div>
             <div
-              className={`w-[70%] my-auto flex flex-col items-center transition-all duration-1000 lg:items-start`}
+              className={`my-auto mt-[3rem] flex w-full flex-col items-center transition-all duration-1000 lg:mt-0 lg:w-[70%] lg:items-start`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
@@ -341,6 +343,111 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   className="my-[2rem] w-[16rem]"
                 />
               )} */}
+            </div>
+          </MaxWidthWrapper>
+          <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
+        </div>
+      )}
+      {whatareaiseo?.isVariant === '06' && (
+        <div
+          className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
+        >
+          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] py-[3rem] lg:grid-cols-2 lg:py-[4rem]">
+            <div
+              className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            >
+              <Heading
+                className="flex justify-center lg:justify-start"
+                subTitle={''}
+                title={whatareaiseo?.heading}
+                span={whatareaiseo?.span}
+                spanColor="text-[#FBD04F]"
+                isBgWhite={whatareaiseo?.isBgWhite && true}
+              />
+              <div className="">
+                {whatareaiseo?.data?.map((item: any) => {
+                  return (
+                    <p
+                      className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                    >
+                      {item?.desctioption}
+                    </p>
+                  );
+                })}
+              </div>
+
+              {whatareaiseo?.isBgWhite?.button && (
+                <SaveAndCancel
+                  name={whatareaiseo?.button}
+                  isIcon={true}
+                  isBgWhite={true}
+                  handleClick={() => setOpen(!open)}
+                  className="my-[2rem]"
+                />
+              )}
+            </div>
+
+            <div
+              ref={ref}
+              className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-start ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+            >
+              <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
+            </div>
+          </MaxWidthWrapper>
+          <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
+        </div>
+      )}
+      {whatareaiseo?.isVariant === '07' && (
+        <div
+          className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
+        >
+          <MaxWidthWrapper className="grid grid-cols-1 gap-[0rem] py-[3rem] lg:grid-cols-2 lg:py-[4rem]">
+            <div
+              className={`order-2 my-auto flex flex-col items-center pt-[1rem] transition-all duration-1000 lg:items-start lg:pt-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            >
+              <Heading
+                className="flex justify-center lg:justify-start"
+                subTitle={''}
+                title={whatareaiseo?.heading}
+                span={whatareaiseo?.span}
+                spanColor="text-[#FBD04F]"
+                isBgWhite={whatareaiseo?.isBgWhite && true}
+              />
+              <div className="">
+                {whatareaiseo?.data?.map((item: any, index: number) => {
+                  const isLast = index === whatareaiseo.data.length - 1;
+                  return (
+                    <p
+                      className={`py-2 text-center lg:text-justify ${isLast && 'font-semibold'} ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                    >
+                      {item?.desctioption}
+                    </p>
+                  );
+                })}
+              </div>
+
+              {whatareaiseo?.isBgWhite?.button && (
+                <SaveAndCancel
+                  name={whatareaiseo?.button}
+                  isIcon={true}
+                  isBgWhite={true}
+                  handleClick={() => setOpen(!open)}
+                  className="my-[2rem]"
+                />
+              )}
+            </div>
+
+            <div
+              ref={ref}
+              className={`group order-1 my-auto flex items-center justify-center transition-all duration-1000 lg:items-start lg:justify-start ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+            >
+              <Image
+                src={whatareaiseo?.img}
+                width={881}
+                height={581}
+                alt=""
+                className="ml-0 aspect-[881/581] w-[clamp(18rem,55vw,55.063rem)] lg:ml-[-20%]"
+              />
             </div>
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />

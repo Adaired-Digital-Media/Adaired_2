@@ -10,43 +10,26 @@ const WhatMissing = ({ whatMissing }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
-    <section ref={ref} className="py-[3rem] lg:py-[4rem]">
+    <section
+      ref={ref}
+      className={`py-[3rem] lg:py-[4rem] bg-[${whatMissing?.bgColor || '#FFFFFF'}]`}
+    >
       <MaxWidthWrapper>
         <div className={``}>
-          <div
-            className={`block transition-all duration-1000 lg:flex lg:flex-row ${
-              whatMissing?.description?.length > 0
-                ? ''
-                : 'items-center justify-center'
-            } ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
-          >
-            <div
-              className={`${whatMissing?.description?.length > 0 ? '' : 'flex w-[100%] justify-center lg:w-[50%]'} pr-0 lg:pr-[6rem]`}
-            >
-              <h2
-                className={`${whatMissing?.description?.length > 0 ? 'text-center lg:text-left' : 'text-center'}`}
-              >
-                {whatMissing?.heading}
-              </h2>
-            </div>
-            <div
-              className={`${whatMissing?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%]'}`}
-            >
-              {whatMissing?.description?.map((item: any, idx: number) => {
-                return (
-                  <p key={idx} className="py-2 text-center lg:text-left">
-                    {item}
-                  </p>
-                );
-              })}
-            </div>
-          </div>
+          <Heading
+            breakIndex={whatMissing?.breakIndex}
+            title={whatMissing?.heading}
+            isInCenter={whatMissing?.isInCenter}
+            description={whatMissing?.description}
+            isDecVarticle={!whatMissing?.isInCenter}
+            isBgWhite={!whatMissing?.bgColor && true}
+          />
 
           <div className="grid grid-cols-1 gap-6 pt-[3rem] lg:grid-cols-3">
             {whatMissing?.list?.map((card: any, index: number) => (
               <div
                 key={index}
-                className={`relative rounded-2xl border border-[#F3F3F3] p-[2.5rem] transition-all duration-1000 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`relative rounded-2xl border border-[#F3F3F3] bg-[#FFFFFF] p-[2.5rem] transition-all duration-1000 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 // style={{
                 //     transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 // }}

@@ -8,7 +8,7 @@ import { useScrollTabs } from '@/@core/hooks/useScrollTabs';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const OurProcess = ({ ourProcess }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0);
   const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
   const wrapperRef = useRef<HTMLDivElement | null>(null);
 

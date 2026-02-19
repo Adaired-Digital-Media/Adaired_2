@@ -647,7 +647,7 @@ export const ServiceSectionData = {
       link: '/services/link-building-services-india',
     },
     {
-      title: 'Pay Per Click & SMM',
+      title: 'Pay Per Click',
       description:
         'We deliver performance-focused PPC and social ad campaigns designed to reach the right audience at the right time.',
       link: '/services/paid-media-and-advertising',

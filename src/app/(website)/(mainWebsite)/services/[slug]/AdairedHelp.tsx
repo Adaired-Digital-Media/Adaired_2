@@ -7,18 +7,20 @@ import adairedHelpImg from '../../../../../../public/assets/aiseo/adairedHelp.pn
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const AdairedHelp = ({ adairedHelp }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
 
   return (
-    <div className="py-[3rem] lg:py-[4rem]">
+    <div
+      className={`py-[3rem] lg:py-[4rem] bg-[${adairedHelp?.bgColor || '#FFFFFF'}]`}
+    >
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
             breakIndex={6}
-            isBgWhite
-            isInCenter
+            isInCenter={adairedHelp?.isInCenter}
+            isDecVarticle={!adairedHelp?.isInCenter && true}
             title={adairedHelp?.heading}
             description={adairedHelp?.description}
             className="mx-auto"
@@ -26,12 +28,12 @@ const AdairedHelp = ({ adairedHelp }: any) => {
         </div>
 
         {/* IMPORTANT: relative wrapper */}
-        <div className="relative flex flex-col lg:flex-row items-start gap-[5rem] pt-[3rem]">
+        <div className="relative flex flex-col items-start gap-[5rem] pt-[3rem] lg:flex-row">
           {/* LEFT IMAGE – STICKY */}
-          <div className="lg:sticky top-[16rem] w-full lg:w-[40%]">
+          <div className="top-[16rem] w-full lg:sticky lg:w-[40%]">
             <div
               ref={ref}
-              className={`group relative w-full h-[22rem] sm:h-[26rem] md:h-[31rem] lg:h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+              className={`group relative h-[22rem] w-full rounded-[20px] transition-all duration-1000 sm:h-[26rem] md:h-[31rem] lg:h-[35rem] ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
             >
               <Image
                 src={adairedHelp?.img}
@@ -44,30 +46,23 @@ const AdairedHelp = ({ adairedHelp }: any) => {
           </div>
 
           {/* RIGHT CONTENT – SCROLLS */}
-          <div className="flex w-full lg:w-[55%] flex-col gap-[1rem]">
+          <div className="flex w-full flex-col gap-[1rem] lg:w-[55%]">
             {adairedHelp?.list?.map((item: any, index: number) => (
               <div
                 key={index}
-                className={`rounded-[20px] border border-[#FB9100]/25 bg-[#FFF8F0] p-[1.5rem] transition-all duration-700 flex flex-col items-center lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`flex flex-col items-center rounded-[20px] border border-[#FB9100]/25 bg-[#FFF8F0] p-[1.5rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}
               >
                 {/* <Image src={item?.img} width={40} height={40} alt="icon" /> */}
                 {item?.img ? (
-                  <Image
-                    src={item.img}
-                    width={40}
-                    height={40}
-                    alt="icon"
-                  />
+                  <Image src={item.img} width={40} height={40} alt="icon" />
                 ) : (
-                  <div className="text-[#FB9100] font-semibold text-[50px]">
+                  <div className="text-[50px] font-semibold text-[#FB9100]">
                     {String(index + 1).padStart(2, '0')}
                   </div>
-
                 )}
-
 
                 {/* <p className="pt-[1.5rem] font-bold">{item?.name}</p> */}
                 <h3 className="pt-[1.5rem]">{item?.name}</h3>
