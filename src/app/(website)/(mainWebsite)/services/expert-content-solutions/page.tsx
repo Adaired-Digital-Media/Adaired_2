@@ -26,7 +26,7 @@ import { ProductSection } from '@web-components/ContentProducts';
 import { BaseURL } from '@/baseUrl';
 
 export const metadata: Metadata = {
-  title: 'Content Marketing Services & Solutions for Business Growth',
+  title: 'Content Marketing Services and Solutions for Business Growth',
   description:
     'Strategic Content writing, including SEO blogs, articles, social media, digital PR materials, website pages, landing pages, and product descriptions.',
   alternates: {

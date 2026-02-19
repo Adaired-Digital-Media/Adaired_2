@@ -850,7 +850,7 @@ export const SERVICES_DATA = {
     metaDetails: {
       title: 'AI SEO Comapany India | Best AI SEO Services',
       description:
-        'LLM-driven AI SEO services in India for ChatGPT, Gemini & Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
+        'LLM-driven AI SEO services in India for ChatGPT, Gemini and Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
       alternates: {
         canonical: '/ai-seo-company-india',
       },
