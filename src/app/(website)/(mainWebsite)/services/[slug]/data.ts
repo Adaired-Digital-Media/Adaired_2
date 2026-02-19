@@ -211,7 +211,7 @@ export const SERVICES_DATA = {
     metaDetails: {
       title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
       description:
-        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+        'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
       alternates: {
         canonical: '/seo-company-india',
       },
@@ -850,7 +850,7 @@ export const SERVICES_DATA = {
     metaDetails: {
       title: 'AI SEO Comapany India | Best AI SEO Services',
       description:
-        'Stay visible in AI search results with Adaired’s AI-powered SEO services. We optimize content for ChatGPT, Gemini, and modern search engines to boost traffic, rankings, and conversions.',
+        'LLM-driven AI SEO services in India for ChatGPT, Gemini & Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
       alternates: {
         canonical: '/ai-seo-company-india',
       },

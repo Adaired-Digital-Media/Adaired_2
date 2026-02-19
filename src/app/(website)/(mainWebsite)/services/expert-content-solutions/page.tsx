@@ -28,9 +28,9 @@ import { BaseURL } from '@/baseUrl';
 export const metadata: Metadata = {
   title: 'Content Marketing Services & Solutions for Business Growth',
   description:
-    'Drive traffic, build authority, and generate leads with Adaired’s content marketing services. We create SEO blogs, website content, and strategic campaigns designed to grow your business.',
+    'Strategic Content writing, including SEO blogs, articles, social media, digital PR materials, website pages, landing pages, and product descriptions.',
   alternates: {
-    canonical: '/services/expert-content-solutions',
+    canonical: '/expert-content-solutions',
   },
 };
 
