@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import React from 'react';
 import MaxWidthWrapper from '@web-components/MaxWidthWrapper';
 import parse, {
@@ -12,6 +13,81 @@ import { Base2URL } from '@/baseUrl';
 import arrowIcon from '../../../../../../public/assets/icons/arrowIcon.png';
 import Image from 'next/image';
 import { transformDate } from '@/@core/hooks/transformDate';
+
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  try {
+    const res = await fetch(`${Base2URL}/blog/read?slug=${params.slug}`, {
+      cache: 'no-store',
+    });
+
+    if (!res.ok) {
+      return {
+        title: 'Blog | Adaired',
+        description: 'Read helpful blogs from Adaired.',
+      };
+    }
+
+    const result = await res.json();
+    const blog = result?.data?.[0];
+
+    if (!blog) {
+      return {
+        title: 'Blog Not Found | Adaired',
+      };
+    }
+
+    return {
+      title: blog?.metaTitle || blog?.postTitle,
+      description:
+        blog?.metaDescription ||
+        blog?.postDescription?.replace(/<[^>]+>/g, '').slice(0, 160),
+
+      alternates: {
+        canonical: `https://www.adaired.com/blog/${params.slug}`,
+      },
+
+      openGraph: {
+        title: blog?.metaTitle || blog?.postTitle,
+        description:
+          blog?.metaDescription ||
+          blog?.postDescription?.replace(/<[^>]+>/g, '').slice(0, 160),
+        url: `https://www.adaired.com/blog/${params.slug}`,
+        siteName: 'Adaired',
+        images: blog?.featuredImage
+          ? [
+              {
+                url: blog.featuredImage,
+                width: 1200,
+                height: 630,
+                alt: blog?.postTitle,
+              },
+            ]
+          : [],
+        type: 'article',
+      },
+
+      twitter: {
+        card: 'summary_large_image',
+        title: blog?.metaTitle || blog?.postTitle,
+        description:
+          blog?.metaDescription ||
+          blog?.postDescription?.replace(/<[^>]+>/g, '').slice(0, 160),
+        images: blog?.featuredImage ? [blog.featuredImage] : [],
+      },
+    };
+  } catch (error) {
+    return {
+      title: 'Blog | Adaired',
+      description: 'Read helpful blogs from Adaired.',
+    };
+  }
+}
 
 /* ------------------ HELPERS ------------------ */
 
