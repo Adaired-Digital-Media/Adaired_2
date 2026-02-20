@@ -1,6 +1,11 @@
 import React from 'react';
 import MaxWidthWrapper from '@web-components/MaxWidthWrapper';
-import parse, { Element, DOMNode } from 'html-react-parser';
+import parse, {
+  Element,
+  DOMNode,
+  domToReact,
+  HTMLReactParserOptions,
+} from 'html-react-parser';
 import PageBanner from '@web-components/PageBanner';
 import Heading from '@/app/(website)/common/Heading';
 import { Base2URL } from '@/baseUrl';
@@ -92,19 +97,100 @@ const Blog = async ({ params }: BlogProps) => {
   let currentH2Index = 0;
   let isLastH2Section = false;
 
+  const options: HTMLReactParserOptions = {
+    replace(domNode: DOMNode) {
+      if (!(domNode instanceof Element)) return;
+
+      switch (domNode.name) {
+        case 'h2':
+          currentH2Index++;
+          isLastH2Section = currentH2Index === h2Total;
+          return (
+            <h2 className="mt-[1rem] py-2">
+              {domToReact(domNode.children as DOMNode[], options)}{' '}
+            </h2>
+          );
+
+        case 'h3':
+          return (
+            <div className="mt-6 flex items-start gap-2 font-medium">
+              {isLastH2Section && (
+                <Image
+                  src={arrowIcon}
+                  width={15}
+                  height={20}
+                  alt="icon"
+                  className="my-auto"
+                />
+              )}
+              <h3 className="my-auto py-2">
+                {domToReact(domNode.children as DOMNode[], options)}{' '}
+              </h3>
+            </div>
+          );
+        case 'h4':
+          return (
+            <div className="mt-6 flex items-start gap-2 font-medium">
+              <h4 className="my-auto py-2">
+                {domToReact(domNode.children as DOMNode[], options)}{' '}
+              </h4>
+            </div>
+          );
+        case 'p':
+          return (
+            <p className="py-[0.5rem] leading-7">
+              {domToReact(
+                (domNode.children || []) as unknown as DOMNode[],
+                options
+              )}
+            </p>
+          );
+
+        case 'li':
+          return (
+            <p className="pl-6">
+              •{' '}
+              {domToReact(
+                (domNode.children || []) as unknown as DOMNode[],
+                options
+              )}
+            </p>
+          );
+
+        case 'a':
+          return (
+            <a
+              href={domNode.attribs?.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline"
+            >
+              {domToReact(
+                (domNode.children || []) as unknown as DOMNode[],
+                options
+              )}
+            </a>
+          );
+
+        default:
+          return;
+      }
+    },
+  };
+
   return (
     <>
       <PageBanner title={'Blog'} />
 
       <MaxWidthWrapper className="py-12 md:py-20">
         <Heading
-          isVarticle
           subTitle="BLOG"
-          breakIndex={4}
+          isLabel={true}
+          // breakIndex={4}
           title={blog?.postTitle}
         />
 
-        {/* ----------- IMAGE + FIRST 120 WORDS ----------- */}
+        {/* ----------- IMAGE + FIRST 100 WORDS ----------- */}
         <div className="mt-8 grid grid-cols-1 gap-[2rem] md:grid-cols-2">
           <div className="relative h-[30rem]">
             <Image
@@ -115,6 +201,7 @@ const Blog = async ({ params }: BlogProps) => {
               priority
             />
           </div>
+
           <div>
             <div className="flex gap-2 py-4">
               <div className="h-6 w-1 bg-[#1B5A96]"></div>
@@ -125,6 +212,7 @@ const Blog = async ({ params }: BlogProps) => {
                 </span>
               </p>
             </div>
+
             {top.map((para, i) => (
               <p key={i} className="mb-4 leading-7">
                 {para}
@@ -144,52 +232,9 @@ const Blog = async ({ params }: BlogProps) => {
           </div>
         )}
 
-        {/* ----------- BLOG BODY (FROM FIRST H2) ----------- */}
+        {/* ----------- BLOG BODY ----------- */}
         <div className="prose mt-10 w-full max-w-none">
-          {parse(bodyHtml || '', {
-            replace(domNode: DOMNode) {
-              if (!(domNode instanceof Element)) return;
-
-              const text = domNode.children
-                .map((child: any) => child.data || '')
-                .join('')
-                .trim();
-
-              if (!text) return null;
-
-              switch (domNode.name) {
-                case 'h2':
-                  currentH2Index++;
-                  isLastH2Section = currentH2Index === h2Total;
-                  return <h2 className="mt-8">{text}</h2>;
-
-                case 'h3':
-                  return (
-                    <div className="mt-6 flex items-start gap-2 font-medium">
-                      {isLastH2Section && (
-                        <Image
-                          src={arrowIcon}
-                          width={15}
-                          height={20}
-                          alt="icon"
-                          className="my-auto"
-                        />
-                      )}
-                      <h3 className="my-auto py-2">{text}</h3>
-                    </div>
-                  );
-
-                case 'p':
-                  return <p className="leading-7">{text}</p>;
-
-                case 'li':
-                  return <p className="pl-6">• {text}</p>;
-
-                default:
-                  return;
-              }
-            },
-          })}
+          {parse(bodyHtml || '', options)}
         </div>
       </MaxWidthWrapper>
     </>
