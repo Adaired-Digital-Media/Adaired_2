@@ -273,7 +273,7 @@ const Blog = async ({ params }: BlogProps) => {
               src={blog?.featuredImage}
               alt="blog"
               fill
-              className="rounded-[1rem] object-cover"
+              className="rounded-[1rem] object-fill"
               priority
             />
           </div>
