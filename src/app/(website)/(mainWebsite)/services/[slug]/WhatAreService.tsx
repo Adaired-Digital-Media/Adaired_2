@@ -46,7 +46,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 })}
               </div>
 
-              {whatareaiseo?.isBgWhite?.button && (
+              {whatareaiseo?.button && (
                 <SaveAndCancel
                   name={whatareaiseo?.button}
                   isIcon={true}
@@ -59,7 +59,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
 
             <div
               ref={ref}
-              className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-start lg:justify-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+              className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-center lg:justify-center ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
             >
               <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
             </div>
@@ -448,6 +448,55 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 alt=""
                 className="ml-0 aspect-[881/581] w-[clamp(18rem,55vw,55.063rem)] lg:ml-[-20%]"
               />
+            </div>
+          </MaxWidthWrapper>
+          <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
+        </div>
+      )}
+      {whatareaiseo?.isVariant === '08' && (
+        <div
+          className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
+        >
+          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] py-[3rem] lg:grid-cols-2 lg:py-[4rem]">
+            <div
+              className={`order-1 my-auto flex flex-col items-center transition-all duration-1000 lg:order-2 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            >
+              <Heading
+                className="flex justify-center lg:justify-start"
+                subTitle={''}
+                title={whatareaiseo?.heading}
+                span={whatareaiseo?.span}
+                spanColor="text-[#FBD04F]"
+                isBgWhite={whatareaiseo?.isBgWhite && true}
+              />
+              <div className="">
+                {whatareaiseo?.data?.map((item: any) => {
+                  return (
+                    <p
+                      className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                    >
+                      {item?.desctioption}
+                    </p>
+                  );
+                })}
+              </div>
+
+              {whatareaiseo?.isBgWhite?.button && (
+                <SaveAndCancel
+                  name={whatareaiseo?.button}
+                  isIcon={true}
+                  isBgWhite={true}
+                  handleClick={() => setOpen(!open)}
+                  className="my-[2rem]"
+                />
+              )}
+            </div>
+
+            <div
+              ref={ref}
+              className={`group order-2 flex items-center justify-center transition-all duration-1000 lg:order-1 lg:justify-start ${isVisible ? 'translate-x-0 opacity-100 ' : '-translate-x-0 opacity-0 lg:translate-x-16'}`}
+            >
+              <Image src={whatareaiseo?.img} width={579} height={552} alt="" />
             </div>
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />

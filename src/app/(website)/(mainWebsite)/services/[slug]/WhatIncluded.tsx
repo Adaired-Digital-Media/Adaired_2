@@ -22,7 +22,7 @@ const WhatIncluded = ({ whatIncluded }: any) => {
             {whatIncluded?.isVariant === '01' && (
               <div>
                 <Heading
-                  breakIndex={5}
+                  breakIndex={whatIncluded?.breakIndex}
                   title={whatIncluded?.heading}
                   description={whatIncluded?.description}
                   isInCenter={true}
@@ -59,15 +59,15 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                           )}
                         </div>
 
-                        <a
-                          href={card.linkHref}
-                          className="absolute bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
+                        <p
+                          onClick={()=>setOpen(!open)}
+                          className="absolute cursor-pointer bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
                         >
                           <span className="text-[18px]">
-                            {'Get Your Free AI SEO Audit'}
+                            {whatIncluded?.button}
                           </span>
                           <MdOutlineArrowOutward />
-                        </a>
+                        </p>
                       </div>
                     </div>
                   ))}
@@ -116,15 +116,15 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                             )
                           )}
                         </div>
-                        <a
-                          href={card.linkHref}
+                        <p
+                          onClick={()=>setOpen(!open)}
                           className={`${index === 0 && 'text-[#00769D]'} ${index === 1 && 'text-[#5E8E3E]'} ${index === 2 && 'text-[#D84861]'} ${index === 3 && 'text-[#7D79FD]'} absolute bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start`}
                         >
                           <span className="text-[18px]">
                             {'Get Your Free AI SEO Audit'}
                           </span>
                           <MdOutlineArrowOutward />
-                        </a>
+                        </p>
                       </div>
                     </div>
                   ))}
@@ -171,15 +171,15 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                           )}
                         </div>
 
-                        <a
-                          href={card.linkHref}
+                        <p
+                          onClick={()=>setOpen(!open)}
                           className="absolute bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
                         >
                           <span className="text-[18px]">
                             {'Get Your Free AI SEO Audit'}
                           </span>
                           <MdOutlineArrowOutward />
-                        </a>
+                        </p>
                       </div>
                     </div>
                   ))}

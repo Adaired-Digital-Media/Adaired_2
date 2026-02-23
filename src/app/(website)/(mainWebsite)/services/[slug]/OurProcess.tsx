@@ -1,11 +1,12 @@
 'use client';
-
 import React, { useRef, useState } from 'react';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import Image from 'next/image';
 import { useScrollTabs } from '@/@core/hooks/useScrollTabs';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+
+import SocialMediaCheck from '../../../../../../public/assets/images/PPCimg/arrowOrange.png';
 
 const OurProcess = ({ ourProcess }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0);
@@ -26,119 +27,159 @@ const OurProcess = ({ ourProcess }: any) => {
     >
       <MaxWidthWrapper>
         {/* ❗ IMPORTANT: relative + NO overflow */}
-        <div ref={wrapperRef} className="relative flex gap-[3rem]">
+        <div>
+          <Heading
+            isLabel={true}
+            subTitle={'Our Process'}
+            breakIndex={ourProcess?.breakIndex}
+            title={ourProcess?.title}
+            isInCenter={ourProcess?.isInCenter}
+            isBgWhite={ourProcess?.isInCenter && true}
+          />
+        </div>
+        <div
+          ref={wrapperRef}
+          className="relative flex justify-between gap-[3rem]"
+        >
           {/* ================= LEFT (STICKY) ================= */}
-          <div
-            className={`hidden w-[40%] transition-all duration-1000 lg:block ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
-          >
-            {/* Sticky wrapper */}
-            <div className="sticky top-[8rem]">
-              <Heading
-                isLabel
-                subTitle={'Our Process'}
-                title={ourProcess?.title}
-              />
-
-              {/* CIRCLE */}
-              <div className="relative mt-[4rem] flex h-[520px] w-[520px] items-center justify-center">
-                <div className="absolute inset-0 rounded-full border border-[#00000033]" />
-
-                <div
-                  className={`absolute inset-[70px] flex flex-col items-center justify-center rounded-full transition-all ${
-                    activeTab === ourProcess.services.length - 1
-                      ? 'bg-[#FB9100] text-white'
-                      : 'bg-[#FFF4E8]'
-                  }`}
-                >
-                  <p
-                    className={`text-sm tracking-widest ${activeTab === ourProcess.services.length - 1 ? 'text-[#FFFFFF]' : 'text-[#000000]'}`}
-                  >
-                    STEP
-                  </p>
-                  <h2
-                    className={`text-[80px] font-bold ${activeTab === ourProcess.services.length - 1 ? 'text-[#FFFFFF]' : 'text-[#000000]'}`}
-                  >
-                    {String(activeTab + 1).padStart(2, '0')}
-                  </h2>
-                </div>
-
-                {/* ICONS */}
+          <div className="relative mt-[1rem] flex items-center justify-center">
+            <div className="relative h-[520px] w-[520px]">
+              <svg width="520" height="520" viewBox="0 0 520 520">
                 {ourProcess.services.map((service: any, idx: number) => {
-                  const angle = (360 / ourProcess.services.length) * idx - 90;
-                  const radius = 260;
+                  const total = ourProcess.services.length;
+                  const center = 260;
+
+                  const outerR = 240;
+                  const innerR = 150;
+                  const thickness = outerR - innerR;
+                  const capRadius = thickness / 2;
+
+                  const fullAngle = (2 * Math.PI) / total;
+                  const gap = 0.06;
+
+                  const start = idx * fullAngle - Math.PI / 2 + gap / 2;
+                  const end = start + fullAngle - gap;
+
+                  const largeArc = fullAngle > Math.PI ? 1 : 0;
+
+                  const sx = center + outerR * Math.cos(start);
+                  const sy = center + outerR * Math.sin(start);
+
+                  const ex = center + outerR * Math.cos(end);
+                  const ey = center + outerR * Math.sin(end);
+
+                  const isx = center + innerR * Math.cos(start);
+                  const isy = center + innerR * Math.sin(start);
+
+                  const iex = center + innerR * Math.cos(end);
+                  const iey = center + innerR * Math.sin(end);
 
                   return (
-                    <button
+                    <path
                       key={idx}
-                      onClick={() => {
-                        setActiveTab(idx);
-                        sectionRefs.current[idx]?.scrollIntoView({
-                          behavior: 'smooth',
-                          block: 'center',
-                        });
-                      }}
-                      className="absolute left-1/2 top-1/2"
-                      style={{
-                        transform: `
-                          translate(-50%, -50%)
-                          rotate(${angle}deg)
-                          translate(${radius}px)
-                          rotate(${-angle}deg)
-                        `,
-                      }}
-                    >
-                      <div
-                        className={`flex h-[60px] w-[60px] items-center justify-center rounded-full border ${
-                          activeTab === idx
-                            ? 'border-[#FB9100] bg-[#FB9100]'
-                            : 'border-[#00000033] bg-white'
-                        }`}
-                      >
-                        <Image
-                          src={service.icon}
-                          alt={service.title}
-                          width={30}
-                          height={30}
-                          className={
-                            activeTab === idx ? 'brightness-0 invert' : ''
-                          }
-                        />
-                      </div>
-                    </button>
+                      d={`
+          M ${sx} ${sy}
+          A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
+          A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
+          A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
+          A ${capRadius} ${capRadius} 0 0 1 ${sx} ${sy}
+          Z
+        `}
+                      fill={activeTab === idx ? '#FB9100' : '#FBEBD5'}
+                      stroke="#FFFFFF"
+                      // strokeWidth="8"
+                      onClick={() => setActiveTab(idx)}
+                      className="cursor-pointer transition-all duration-500"
+                    />
                   );
                 })}
-              </div>
+              </svg>
+
+              {/* Inner background circle */}
+
+              {/* ICONS */}
+              {ourProcess.services.map((service: any, idx: number) => {
+                const total = ourProcess.services.length;
+                const angle = (2 * Math.PI) / total;
+                const mid = idx * angle + angle / 2 - Math.PI / 2;
+
+                const center = 260;
+                const r = 185;
+
+                const x = center + r * Math.cos(mid);
+                const y = center + r * Math.sin(mid);
+
+                return (
+                  <div
+                    key={idx}
+                    className="absolute"
+                    style={{
+                      left: x,
+                      top: y,
+                      transform: 'translate(-50%, -50%)',
+                    }}
+                  >
+                    <Image
+                      src={service.icon}
+                      alt={service.title}
+                      width={28}
+                      height={28}
+                      className={
+                        activeTab === idx ? 'brightness-0 invert' : 'opacity-60'
+                      }
+                    />
+                  </div>
+                );
+              })}
             </div>
           </div>
-
           {/* ================= RIGHT (SCROLL CONTENT) ================= */}
-          <div className="w-full space-y-[4rem] lg:w-[55%]">
-            {ourProcess.services.map((service: any, idx: number) => (
+          <div className="my-auto w-full lg:w-[55%]">
+            {ourProcess.services[activeTab] && (
               <div
-                key={idx}
-                ref={(el) => {
-                  sectionRefs.current[idx] = el;
-                }}
-                className={`transform border-b pb-[4rem] transition-all duration-700 ${isVisible ? 'translate-y-0' : 'translate-y-10'} ${isVisible ? (activeTab === idx ? 'opacity-100' : 'opacity-40') : 'opacity-0'} `}
-                style={{
-                  transitionDelay: `${idx * 280}ms`, // 👈 stagger here
-                }}
+                key={activeTab}
+                className="transform rounded-[20px] bg-[#FFFFFF] p-[2.5rem] transition-all duration-500"
               >
-                <h3
-                  className={`mb-3 font-semibold uppercase ${
-                    activeTab === idx ? 'text-[#FB9100]' : 'text-[#999]'
-                  }`}
-                >
-                  Step {idx + 1}: {service.title}
+                <h3 className="mb-3 font-semibold uppercase text-[#FB9100]">
+                  Step {activeTab + 1}: {ourProcess.services[activeTab].title}
                 </h3>
 
-                {service.description.map((desc: string, i: number) => (
-                  <p key={i} className="my-3 text-[#333]">
-                    {desc}
-                  </p>
-                ))}
+                {ourProcess.services[activeTab].description.map(
+                  (item: any, i: number) => {
+                    if (typeof item === 'string') {
+                      return (
+                        <p key={i} className="my-4">
+                          {item}
+                        </p>
+                      );
+                    }
+
+                    if (item.list) {
+                      return item.list.map((listItem: any, j: number) => (
+                        <div
+                          key={`${i}-${j}`}
+                          className="my-2 flex items-start gap-3 sm:gap-4"
+                        >
+                          <Image
+                            src={SocialMediaCheck}
+                            width={17}
+                            height={23}
+                            alt="arrow"
+                            className="mt-1 h-auto w-[14px] shrink-0 sm:w-[17px]"
+                          />
+
+                          <p className="text-left">
+                            {listItem.des || listItem.description}
+                          </p>
+                        </div>
+                      ));
+                    }
+
+                    return null;
+                  }
+                )}
               </div>
-            ))}
+            )}
           </div>
         </div>
       </MaxWidthWrapper>

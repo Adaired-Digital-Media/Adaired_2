@@ -6,6 +6,7 @@ import { InfiniteMovingCards } from '@/@core/ui/aceternity-ui/infinite-moving-ca
 import {
   AwardsSectionData,
   FAQSSectionData,
+  SolutionsSectionData,
 } from '@/@core/data/website/Homepage';
 
 import About from '../../components/home/About';
@@ -21,12 +22,13 @@ import FAQ from '../../components/home/FAQ';
 import Solutions from '../../components/home/Solutions';
 import Clients from '../../components/home/Clients';
 
+
 export default function Home() {
   return (
     <>
       <Banner />
       <Certificate />
-      <Solutions />
+      <Solutions data={SolutionsSectionData} />
       <Services />
       <Expect />
       <Clients />

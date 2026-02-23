@@ -8,14 +8,14 @@ import { useState } from 'react';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
-const ReadyToStart = ({ handleClick }: any) => {
+const ReadyToStart = ({ handleClick, className }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [isHover, setIsHover] = useState(false);
   const [open, setOpen] = useState(false);
 
   return (
     <>
-      <section ref={ref} className="relative z-20">
+      <section ref={ref} className={`${className} relative z-20`}>
         <MaxWidthWrapper>
           <div
             className={`relative rounded-3xl bg-[#FB9100] py-[3rem] transition-all duration-1000 lg:py-[4rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
