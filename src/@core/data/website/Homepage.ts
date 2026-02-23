@@ -173,7 +173,7 @@ export const SolutionsSectionData = {
   ],
   cursive:
     'As a powerhouse digital agency, we craft bold ideas backed by data and fueled by creativity that attract attention, command authority, and convert consistently.',
-  btnText: 'See What’s Next',
+  button: 'See What’s Next',
   btnHref: '/about',
 };
 export const AboutSectionData = {

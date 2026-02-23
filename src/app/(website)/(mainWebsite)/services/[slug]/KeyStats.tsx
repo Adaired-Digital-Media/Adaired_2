@@ -318,7 +318,7 @@ const KeyStats = ({ keyStats }: any) => {
                     // }}
                     onMouseEnter={() => setIsActive(idx)}
                     onMouseLeave={() => setIsActive(null)}
-                    className={`flex min-w-full flex-col items-center rounded-[1rem] border border-[#323232]/10 p-[2rem] transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[33.33%] lg:items-start ${isActive === idx ? 'rounded-[1rem] bg-[#FB9100]' : 'bg-[#F9F9F9]'}`}
+                    className={`flex min-w-full flex-col items-center rounded-[1rem] border border-[#323232]/10 p-[2rem] transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[32.6%] lg:items-start ${isActive === idx ? 'rounded-[1rem] bg-[#FB9100]' : 'bg-[#F9F9F9]'}`}
                   >
                     <Image
                       src={isActive === idx ? ranking : ranking2}

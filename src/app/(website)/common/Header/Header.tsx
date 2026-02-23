@@ -49,94 +49,148 @@ const Header = () => {
             <div className="hidden justify-between gap-2 rounded-full bg-[#FFF7EC] p-2 lg:flex">
               {websiteNav.map((menu, idx) => {
                 const isHover = hover === idx;
+
+                // Helper
+                const isPathActive = (href: string) => {
+                  return pathname === href || pathname.startsWith(href + '/');
+                };
+
+                // Check parent + sub + child active
+                const isActive =
+                  (menu.href !== '#' && isPathActive(menu.href)) ||
+                  menu.subItems?.some(
+                    (sub: any) =>
+                      isPathActive(sub.href) ||
+                      sub.subItems?.some((child: any) =>
+                        isPathActive(child.href)
+                      )
+                  );
+
                 return (
                   <div
                     key={idx}
                     onMouseEnter={() => setHover(idx)}
                     onMouseLeave={() => setHover(null)}
                   >
-                    {/* MAIN MENU */}
+                    {/* ===================== MAIN MENU ===================== */}
                     <Link
                       href={menu.href}
-                      className={`font-Outfit flex items-center rounded-full px-5 py-2 transition ${pathname === menu.href && 'bg-[#FB9100] text-[#FFFFFF]'} ${isHover ? 'bg-[#FB9100] text-[#FFFFFF]' : 'text-[#000000]'}`}
+                      className={`font-Outfit flex items-center rounded-full px-5 py-2 transition ${
+                        isActive || isHover
+                          ? 'bg-[#FB9100] text-white'
+                          : 'text-black'
+                      }`}
                     >
-                      <p className={`${isHover && 'text-[#FFFFFF]'}`}>
-                        {menu.label}
-                      </p>
+                      {menu.label}
                       {menu.subItems && <MdKeyboardArrowDown size={18} />}
                     </Link>
 
-                    {/* MEGA MENU */}
+                    {/* ===================== MEGA MENU ===================== */}
                     {menu.subItems && (
                       <div
                         className={`absolute left-0 right-0 top-[76%] z-50 transition-all duration-300 ease-out ${
                           isHover
                             ? 'pointer-events-auto translate-y-0 opacity-100'
                             : 'pointer-events-none -translate-y-3 opacity-0'
-                        } `}
+                        }`}
                       >
-                        {/* ===================== RESOURCES MENU ===================== */}
+                        {/* ===================== RESOURCES / WHITE LABEL ===================== */}
                         {menu.label === 'Resources' ||
                         menu.label === 'White Label' ? (
                           <div
-                            className={`${menu.label === 'White Label' ? 'ml-[39%]' : 'ml-[52%]'} mx-auto w-fit rounded-xl bg-white p-4 shadow-lg`}
+                            className={`${
+                              menu.label === 'White Label'
+                                ? 'ml-[39%]'
+                                : 'ml-[52%]'
+                            } mx-auto w-fit rounded-xl bg-white p-4 shadow-lg`}
                           >
                             <ul className="space-y-2">
-                              {menu.subItems.map((item, i) => (
-                                <li key={i}>
-                                  <Link
-                                    href={item.href}
-                                    className="group flex items-center gap-2 text-xs text-gray-600 hover:text-[#F28F17]"
-                                  >
-                                    <span className="h-2 w-2 rounded bg-gray-300"></span>
-                                    {item.name}
-                                    <MdArrowOutward
-                                      size={16}
-                                      className="translate-x-[-4px] opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
-                                    />
-                                  </Link>
-                                </li>
-                              ))}
+                              {menu.subItems.map((item: any, i: number) => {
+                                const isItemActive = isPathActive(item.href);
+
+                                return (
+                                  <li key={i}>
+                                    <Link
+                                      href={item.href}
+                                      className={`group flex items-center gap-2 text-xs transition ${
+                                        isItemActive
+                                          ? 'text-[#FB9100]'
+                                          : 'text-gray-600 hover:text-[#FB9100]'
+                                      }`}
+                                    >
+                                      <span className="h-2 w-2 rounded bg-gray-300"></span>
+                                      {item.name}
+                                      <MdArrowOutward
+                                        size={16}
+                                        className="translate-x-[-4px] opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                                      />
+                                    </Link>
+                                  </li>
+                                );
+                              })}
                             </ul>
                           </div>
                         ) : (
                           /* ===================== SERVICES MEGA MENU ===================== */
                           <div className="mx-auto max-w-[1400px] rounded-2xl bg-white p-10 shadow-lg">
                             <div className="grid grid-cols-4 gap-4">
-                              {/* SERVICES */}
+                              {/* SERVICES LIST */}
                               <div className="col-span-3 grid grid-cols-3 gap-8">
-                                {menu.subItems.map((sub, i) => (
-                                  <div key={i}>
-                                    <Link
-                                      href={sub.href}
-                                      className="mb-3 block text-sm font-semibold text-black"
-                                    >
-                                      {sub.name}
-                                    </Link>
+                                {menu.subItems.map((sub: any, i: number) => {
+                                  const isSubActive =
+                                    isPathActive(sub.href) ||
+                                    sub.subItems?.some((child: any) =>
+                                      isPathActive(child.href)
+                                    );
 
-                                    {'subItems' in sub && (
-                                      <ul className="space-y-2">
-                                        {sub.subItems?.map(
-                                          (item: any, j: number) => (
-                                            <li>
-                                              <Link
-                                                href={item.href}
-                                                className="group flex items-center gap-2 text-xs text-gray-600 hover:text-[#F28F17]"
-                                              >
-                                                <span className="h-2 w-2 rounded bg-gray-300"></span>
-                                                {item.name}
-                                                <MdArrowOutward
-                                                  size={16}
-                                                  className="translate-x-[-4px] opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
-                                                />
-                                              </Link>
-                                            </li>
-                                          )
-                                        )}
-                                      </ul>
-                                    )}
-                                  </div>
-                                ))}
+                                  return (
+                                    <div key={i}>
+                                      {/* SUB CATEGORY */}
+                                      <Link
+                                        href={sub.href}
+                                        className={`mb-3 block text-sm font-semibold transition ${
+                                          isSubActive
+                                            ? 'text-[#FB9100]'
+                                            : 'text-black hover:text-[#FB9100]'
+                                        }`}
+                                      >
+                                        {sub.name}
+                                      </Link>
+
+                                      {/* CHILD ITEMS */}
+                                      {sub.subItems && (
+                                        <ul className="space-y-2">
+                                          {sub.subItems.map(
+                                            (item: any, j: number) => {
+                                              const isChildActive =
+                                                isPathActive(item.href);
+
+                                              return (
+                                                <li key={j}>
+                                                  <Link
+                                                    href={item.href}
+                                                    className={`group flex items-center gap-2 text-xs transition ${
+                                                      isChildActive
+                                                        ? 'text-[#FB9100]'
+                                                        : 'text-gray-600 hover:text-[#FB9100]'
+                                                    }`}
+                                                  >
+                                                    <span className="h-2 w-2 rounded bg-gray-300"></span>
+                                                    {item.name}
+                                                    <MdArrowOutward
+                                                      size={16}
+                                                      className="translate-x-[-4px] opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                                                    />
+                                                  </Link>
+                                                </li>
+                                              );
+                                            }
+                                          )}
+                                        </ul>
+                                      )}
+                                    </div>
+                                  );
+                                })}
                               </div>
 
                               {/* WHAT'S NEW */}
@@ -277,16 +331,22 @@ const Header = () => {
                   {websiteNav.map((menu) => (
                     <div key={menu.value}>
                       {menu.subItems ? (
-                        <button
-                          onClick={() => {
-                            setActiveMenu(menu);
-                            setLevel(1);
-                          }}
-                          className="flex w-full items-center justify-between text-sm font-medium text-black"
-                        >
-                          {menu.label}
-                          <MdKeyboardDoubleArrowLeft className="rotate-180" />
-                        </button>
+                        <div className="flex w-full justify-between">
+                          <Link
+                            href={menu.href}
+                            onClick={() => setShow(false)}
+                            className="flex w-fit items-center justify-between text-sm font-medium text-black"
+                          >
+                            {menu.label}
+                          </Link>
+                          <MdKeyboardDoubleArrowLeft
+                            onClick={() => {
+                              setActiveMenu(menu);
+                              setLevel(1);
+                            }}
+                            className="rotate-180"
+                          />
+                        </div>
                       ) : (
                         <Link
                           href={menu.href}
