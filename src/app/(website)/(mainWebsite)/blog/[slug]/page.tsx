@@ -9,7 +9,7 @@ import parse, {
 } from 'html-react-parser';
 import PageBanner from '@web-components/PageBanner';
 import Heading from '@/app/(website)/common/Heading';
-import { Base2URL } from '@/baseUrl';
+import { BaseURL } from '@/baseUrl';
 import arrowIcon from '../../../../../../public/assets/icons/arrowIcon.png';
 import Image from 'next/image';
 import { transformDate } from '@/@core/hooks/transformDate';
@@ -22,7 +22,7 @@ export async function generateMetadata({
   params: { slug: string };
 }): Promise<Metadata> {
   try {
-    const res = await fetch(`${Base2URL}/blog/read?slug=${params.slug}`, {
+    const res = await fetch(`${BaseURL}/blog/read?slug=${params.slug}`, {
       cache: 'no-store',
     });
 
@@ -141,14 +141,14 @@ function splitIntroParagraphs(html: string, wordLimit = 120) {
 /* ------------------ DATA ------------------ */
 
 async function getBlogs({ params }: { params: { slug: string } }) {
-  const res = await fetch(`${Base2URL}/blog/read?slug=${params.slug}`, {
+  const res = await fetch(`${BaseURL}/blog/read?slug=${params.slug}`, {
     cache: 'no-store',
   });
   return res.json();
 }
 
 export async function generateStaticParams() {
-  const res = await fetch(`${Base2URL}/blog/read`, { cache: 'no-store' });
+  const res = await fetch(`${BaseURL}/blog/read`, { cache: 'no-store' });
   const data = await res.json();
 
   return (data?.data ?? []).map((blog: any) => ({
