@@ -21,47 +21,86 @@ const Stopstruggling = ({ stopStruggling }: any) => {
       }}
     >
       <MaxWidthWrapper className="flex justify-center">
-        <div
-          className={`mx-auto w-[100%] text-center transition-all duration-1000 lg:w-[70%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
-        >
-          <h2
-            className={`mx-auto w-[100%] text-center font-normal text-[#FFFFFF] lg:w-[70%] ${stopStruggling?.span && 'font-normal'}`}
+        {stopStruggling?.isCenter ? (
+          <div
+            className={`mx-auto w-[100%] text-center transition-all duration-1000 lg:w-[70%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
           >
-            {stopStruggling?.span}
-          </h2>
-          {stopStruggling?.span ? (
-            <h1 className="mx-auto w-[100%] text-center text-[#FFFFFF] ">
-              {stopStruggling?.title}
-            </h1>
-          ) : (
-            <h2 className="mx-auto w-[100%] text-center text-[#FFFFFF] ">
-              {stopStruggling?.title}
+            <h2
+              className={`mx-auto w-[100%] text-center font-normal text-[#FFFFFF] lg:w-[70%] ${stopStruggling?.span && 'font-normal'}`}
+            >
+              {stopStruggling?.span}
             </h2>
-          )}
 
-          <p className="whitespace-pre-line text-center text-[#FFFFFF]">
-            {stopStruggling?.description?.map((item: any, idx: number) => {
-              return (
-                <p key={idx} className="py-[1rem] text-center text-[#FFFFFF]">
+            {stopStruggling?.span ? (
+              <h1 className="mx-auto w-[100%] text-center text-[#FFFFFF]">
+                {stopStruggling?.title}
+              </h1>
+            ) : (
+              <h2 className="mx-auto w-[100%] text-center text-[#FFFFFF]">
+                {stopStruggling?.title}
+              </h2>
+            )}
+
+            <div className="space-y-4 text-center">
+              {stopStruggling?.description?.map((item: any, idx: number) => (
+                <p key={idx} className="text-center text-white">
                   {item}
                 </p>
-              );
-            })}
-          </p>
-
-          {stopStruggling?.button && (
-            <div className="mt-[2rem] flex justify-center">
-              <SaveAndCancel
-                name={stopStruggling?.button}
-                isBgWhite={true}
-                isIcon={true}
-                isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
-                handleClick={() => setOpen(!open)}
-                buttonWidth="!w-[19rem]"
-              />
+              ))}
             </div>
-          )}
-        </div>
+
+            {stopStruggling?.button && (
+              <div className="mt-[2rem] flex justify-center">
+                <SaveAndCancel
+                  name={stopStruggling?.button}
+                  isBgWhite={true}
+                  isIcon={true}
+                  isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
+                  handleClick={() => setOpen(!open)}
+                  buttonWidth=""
+                />
+              </div>
+            )}
+          </div>
+        ) : (
+          <div
+            className={`grid gap-10 transition-all duration-1000 lg:grid-cols-2 ${
+              isVisible
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-12 opacity-0'
+            }`}
+          >
+            <div>
+              <h2 className="font-semibold text-white">
+                {stopStruggling?.title}
+              </h2>
+            </div>
+
+            <div>
+              <div className="space-y-4">
+                {stopStruggling?.description?.map((item: any, idx: number) => (
+                  <p key={idx} className="text-white">
+                    {item}
+                  </p>
+                ))}
+              </div>
+
+              {stopStruggling?.button && (
+                <div className="mt-14 flex w-full justify-center lg:justify-start">
+                  <SaveAndCancel
+                    name={stopStruggling?.button}
+                    isBgWhite={true}
+                    isIcon={true}
+                    isBorder={true}
+                    isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
+                    handleClick={() => setOpen(true)}
+                    className="w-fit"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+        )}
       </MaxWidthWrapper>
       <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </div>

@@ -1,3 +1,4 @@
+'use client';
 import { SolutionsSectionData } from '@/@core/data/website/Homepage';
 import React, { useState } from 'react';
 import MaxWidthWrapper from '../MaxWidthWrapper';
@@ -13,7 +14,13 @@ import {
 import SaveAndCancel from '../../common/SaveAndCancel';
 import GetQuoteModal from '../popup/GetQuoteModal';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-const Solutions = () => {
+
+export interface ISolution {
+  subTitle: string;
+  title: string;
+  description: string[];
+}
+const Solutions = ({ data }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   const [open, setOpen] = useState(false);
@@ -80,21 +87,23 @@ const Solutions = () => {
           >
             {/* Points Section */}
             <Heading
-              isLabel={true}
-              subTitle={subTitle}
-              title={title}
+              isLabel={data?.subTitle && true}
+              subTitle={data?.subTitle}
+              title={data?.title}
               span=""
-              description={description}
+              description={data?.description}
             />
-            <div className="flex justify-center lg:justify-start">
-              <SaveAndCancel
-                name={'Get Your Free Website Audit'}
-                isIcon={true}
-                buttonWidth={'!w-[20rem]'}
-                handleClick={() => setOpen(!open)}
-                className="rem] mt-[2rem]"
-              />
-            </div>
+            {data?.button && (
+              <div className="flex justify-center lg:justify-start">
+                <SaveAndCancel
+                  name={'Get Your Free Website Audit'}
+                  isIcon={true}
+                  buttonWidth={'!w-[20rem]'}
+                  handleClick={() => setOpen(!open)}
+                  className="rem] mt-[2rem]"
+                />
+              </div>
+            )}
           </div>
         </div>
       </MaxWidthWrapper>

@@ -1,3 +1,4 @@
+"use client"
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React, { useEffect, useState } from 'react';
@@ -82,12 +83,12 @@ const KeyStats = ({ keyStats }: any) => {
               />
             </div>
             <div
-              className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 gap-[1rem] lg:grid-cols-3`}
+              className={`pt-[2rem] ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 gap-[1rem] lg:grid-cols-3`}
             >
               {keyStats?.list?.slice(0, 3).map((item: any, idx: number) => {
                 return (
                   <div
-                    className={`flex flex-col items-center rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    className={`flex flex-col items-center rounded-[1rem] border border-[#323232]/10 bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                     style={{
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
@@ -102,7 +103,7 @@ const KeyStats = ({ keyStats }: any) => {
               {keyStats?.list?.slice(4, 6).map((item: any, idx: number) => {
                 return (
                   <div
-                    className={`flex flex-col items-center rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
+                    className={`flex flex-col items-center rounded-[1rem] border border-[#323232]/10 bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
                     style={{
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
@@ -126,7 +127,7 @@ const KeyStats = ({ keyStats }: any) => {
               subTitle={''}
               title={keyStats?.heading}
             />
-            <div className="grid grid-cols-1 items-stretch gap-5 pt-[3rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
+            <div className="grid grid-cols-1 items-stretch gap-5 pt-[2rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
               <div className="relative aspect-[4/3] md:h-full md:w-full lg:aspect-auto">
                 <Image
                   src={keyStatsImg}
@@ -183,7 +184,7 @@ const KeyStats = ({ keyStats }: any) => {
               title={keyStats?.heading}
             />
 
-            <div className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
+            <div className="relative grid grid-cols-1 gap-[1rem] pt-[2rem] lg:grid-cols-2 lg:gap-[4rem]">
               <div className="rounded-[20px]">
                 {keyStats?.list?.map((item: any, index: any) => (
                   <div
@@ -242,7 +243,7 @@ const KeyStats = ({ keyStats }: any) => {
               />
             </div>
             <div
-              className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
+              className={`grid grid-cols-1 gap-4 pt-[2rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
                 isVisible
                   ? 'translate-y-0 opacity-100'
                   : 'translate-y-10 opacity-0'
@@ -299,7 +300,7 @@ const KeyStats = ({ keyStats }: any) => {
                 />
               </div>
             </div>
-            <div className="overflow-hidden">
+            <div className="overflow-hidden pt-[2rem]">
               <div
                 className="flex gap-[1rem] transition-transform duration-500 ease-in-out"
                 style={{
@@ -317,7 +318,7 @@ const KeyStats = ({ keyStats }: any) => {
                     // }}
                     onMouseEnter={() => setIsActive(idx)}
                     onMouseLeave={() => setIsActive(null)}
-                    className={`flex min-w-full flex-col items-center rounded-[1rem] p-[2rem] transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[33.33%] lg:items-start ${isActive === idx ? 'rounded-[1rem] bg-[#FB9100]' : 'bg-[#F9F9F9]'}`}
+                    className={`flex min-w-full flex-col items-center rounded-[1rem] border border-[#323232]/10 p-[2rem] transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[32.6%] lg:items-start ${isActive === idx ? 'rounded-[1rem] bg-[#FB9100]' : 'bg-[#F9F9F9]'}`}
                   >
                     <Image
                       src={isActive === idx ? ranking : ranking2}
@@ -410,7 +411,7 @@ const KeyStats = ({ keyStats }: any) => {
               title={keyStats?.heading}
             />
 
-            <div className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
+            <div className="relative grid grid-cols-1 gap-[1rem] pt-[2rem] lg:grid-cols-2 lg:gap-[4rem]">
               <div className="rounded-[20px]">
                 {keyStats?.list?.map((item: any, index: any) => (
                   <div
@@ -538,6 +539,42 @@ const KeyStats = ({ keyStats }: any) => {
                   className={`object-fill transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110`}
                 />
               </div>
+            </div>
+          </div>
+        )}
+        {keyStats?.code === '09' && (
+          <div>
+            <div
+              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+            >
+              <Heading
+                isBgWhite={true}
+                isInCenter={true}
+                title={keyStats?.heading}
+              />
+            </div>
+            <div
+              className={`grid grid-cols-1 gap-4 pt-[2rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
+                isVisible
+                  ? 'translate-y-0 opacity-100'
+                  : 'translate-y-10 opacity-0'
+              }`}
+            >
+              {keyStats?.list?.map((item: any, idx: number) => (
+                <div
+                  key={idx}
+                  className="hover:duration-400 flex flex-col items-center overflow-hidden rounded-[1rem] border border-[#F28F17]/20 from-[#ebf8ff] via-[#FFFFFF] to-[#fffaf0] p-5 text-center transition-all transition-transform duration-700 hover:-translate-y-4 hover:bg-gradient-to-br hover:shadow-xl lg:items-start lg:text-left"
+                  style={{
+                    transitionDelay: isVisible ? '0ms' : `${idx * 280}ms`,
+                  }}
+                >
+                  <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
+                    {`0${idx + 1}`}
+                  </h2>
+                  <p className="pt-16 font-bold">{item?.title}</p>
+                  <p className="pt-6">{item?.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         )}
