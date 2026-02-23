@@ -13,7 +13,7 @@ import client_7 from '../../../../../../public/assets/LeadingTools/Group 1000005
 
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-
+//ds
 const LeadingTools = ({ leadingTools }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const data = [
