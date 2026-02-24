@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.adaired.com',
   },
 };
-
+//test
 export default function HomePage() {
   return <Home />;
 }
