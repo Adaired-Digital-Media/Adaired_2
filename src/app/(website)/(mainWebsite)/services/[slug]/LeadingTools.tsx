@@ -3,12 +3,6 @@ import React from 'react';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 
-// import client_1 from '../../../../../../public/assets/LeadingTools/Group 1000005353.png';
-// import client_2 from '../../../../../../public/assets/LeadingTools/Group 1000005354.png';
-// import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005355.png';
-// import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
-// import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
-
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
