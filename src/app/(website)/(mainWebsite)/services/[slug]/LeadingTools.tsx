@@ -14,7 +14,7 @@ const LeadingTools = ({ leadingTools }: any) => {
   //   client_3,
   //   client_4,
   //   client_5,
-  // ];
+  // ];gjgj
 
   const row1 = leadingTools?.list?.slice(0, 10) || [];
   const row2 = leadingTools?.list?.slice(10, 20) || [];
