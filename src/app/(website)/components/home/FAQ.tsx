@@ -8,6 +8,7 @@ import { GrFormSubtract } from 'react-icons/gr';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import { TbPointFilled } from 'react-icons/tb';
 import SaveAndCancel from '../../common/SaveAndCancel';
+import SimpleButton from '../../common/SimpleButton/page';
 
 const FAQ = ({ faqs }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
@@ -33,9 +34,8 @@ const FAQ = ({ faqs }: any) => {
       <MaxWidthWrapper className="space-y-[1rem] overflow-visible">
         {/* Heading */}
         <div
-          className={`flex w-full justify-center transition-all duration-1000 ${
-            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
-          }`}
+          className={`flex w-full justify-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
+            }`}
         >
           <Heading
             breakIndex={6}
@@ -59,18 +59,17 @@ const FAQ = ({ faqs }: any) => {
               <div
                 key={idx}
                 onClick={() => toggleFAQ(idx)}
-                className={`flex cursor-pointer justify-between rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${
-                  isVisible
+                className={`flex cursor-pointer justify-between rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${isVisible
                     ? 'translate-y-0 opacity-100'
                     : 'translate-y-10 opacity-0'
-                }`}
+                  }`}
                 style={{ transitionDelay: `${idx * 120}ms` }}
               >
                 {/* Content */}
                 <div className="w-[85%] space-y-4 md:w-[90%]">
                   <h3 className="text-center md:text-left">{faq.title}</h3>
 
-                  {isOpen && (
+                  {/* {isOpen && (
                     <div className="space-y-3">
                       <p>{faq.description}</p>
 
@@ -85,15 +84,48 @@ const FAQ = ({ faqs }: any) => {
                         </div>
                       )}
                     </div>
+                  )} */}
+
+
+                  {isOpen && (
+                    <div className="space-y-3">
+
+                      {Array.isArray(faq.description) ? (
+                        faq.description.map((desc: any, index: number) => {
+
+                          if (typeof desc === "string") {
+                            return (
+                              <p key={index}>{desc}</p>
+                            );
+                          }
+
+                          if (typeof desc === "object" && desc?.list) {
+                            return (
+                              <div key={index} className="space-y-2">
+                                {desc.list.map((item: string, i: number) => (
+                                  <div key={i} className="flex items-center gap-2 text-black ">
+                                    <TbPointFilled className="size-3" />
+                                    <p className='text-left'>{item}</p>
+                                  </div>
+                                ))}
+                              </div>
+                            );
+                          }
+                          return null;
+                        })
+                      ) : (
+                        <p>{faq.description}</p>
+                      )}
+
+                    </div>
                   )}
                 </div>
 
                 {/* Toggle Icon */}
                 <div className="flex w-[10%] justify-end">
                   <span
-                    className={`mb-auto rounded-full p-1 ${
-                      isOpen ? 'bg-[#FB9100] text-white' : 'border border-black'
-                    }`}
+                    className={`mb-auto rounded-full p-1 ${isOpen ? 'bg-[#FB9100] text-white' : 'border border-black'
+                      }`}
                   >
                     {isOpen ? (
                       <GrFormSubtract size={28} />
@@ -109,7 +141,7 @@ const FAQ = ({ faqs }: any) => {
           {/* Load More Button */}
           {faqs?.list?.length > 5 && (
             <div className="flex justify-center">
-              <SaveAndCancel
+              <SimpleButton
                 name={
                   faqs?.list?.length > visibleCount ? 'See More' : 'See Less'
                 }

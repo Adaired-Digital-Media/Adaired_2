@@ -13,13 +13,29 @@ const Testimonial = () => {
   const isMobile = useIsMobile();
   const charLimit = useBreakpointReviewCharLimit();
   const { subTitle, title, description, testimonials } = TestimonialSectionData;
-  const VISIBLE_CARDS = isMobile ? 1 : 3;
+  // const VISIBLE_CARDS = isMobile ? 1 : 3;
+  const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 1024;
+  const VISIBLE_CARDS = isDesktop ? 3 : 1;
+
   const total = testimonials.length;
   const slides = [...testimonials, ...testimonials.slice(0, VISIBLE_CARDS)];
   const [index, setIndex] = useState(0);
   const [enableTransition, setEnableTransition] = useState(true);
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const [visibleCards, setVisibleCards] = useState(1);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 1024) {
+        setVisibleCards(3);
+      } else {
+        setVisibleCards(1);
+      }
+    };
 
+    handleResize(); // run on mount
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return (
     <section
       ref={ref}
@@ -52,14 +68,15 @@ const Testimonial = () => {
                   : ''
               }`}
               style={{
-                transform: `translateX(-${index * (100 / VISIBLE_CARDS)}%)`,
+                transform: `translateX(-${index * (100 / visibleCards)}%)`,
               }}
             >
               {slides.map((testimonial: any, idx: number) => (
                 <div
-                  className={`relative shrink-0 px-[rem] transition-all duration-700 lg:px-[0.5rem] xl:px-[1rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${isMobile ? 'basis-full' : 'basis-1/3'} `}
+                  // className={`relative shrink-0 px-[rem] transition-all duration-700 lg:px-[0.5rem] xl:px-[1rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} basis-full lg:basis-1/3 `}
+                  className={`relative shrink-0 basis-full px-2 transition-all duration-700 lg:basis-1/3 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                   style={{
-                    transitionDelay: `${(idx % VISIBLE_CARDS) * 120}ms`,
+                    transitionDelay: `${(idx % visibleCards) * 120}ms`,
                   }}
                 >
                   <div
@@ -70,10 +87,10 @@ const Testimonial = () => {
                         'noopener,noreferrer'
                       )
                     }
-                    className="h-[18.5rem] transform-gpu cursor-pointer rounded-2xl border-[5px] border-transparent bg-white p-[2.5rem] transition-all duration-300 ease-out will-change-transform hover:scale-[1.03] hover:border-[#1B5A96] md:h-[14rem] lg:h-[25rem] lg:p-[1.5rem] xl:p-[2rem] 1360:h-[18rem] 1400:h-[18rem] 1440:h-[22rem] 1600:h-[20rem] 1710:h-[19rem] 3xl:h-[19rem]"
+                    className="h-[22rem] transform-gpu cursor-pointer rounded-2xl border-[5px] border-transparent bg-white p-[2.5rem] transition-all duration-300 ease-out will-change-transform hover:scale-[1.03] hover:border-[#1B5A96] md:h-[14rem] lg:h-[25rem] lg:p-[1.5rem] xl:p-[2rem] 1360:h-[18rem] 1400:h-[18rem] 1440:h-[22rem] 1600:h-[20rem] 1710:h-[19rem] 3xl:h-[19rem]"
                   >
                     <div className="">
-                      <div className="flex justify-between pt-[1rem]">
+                      <div className="flex justify-between pt-[0rem] lg:pt-[1rem]">
                         <div className="">
                           <p className="text-left font-semibold text-[#108A00]">
                             {testimonial.name}
@@ -111,7 +128,7 @@ const Testimonial = () => {
               ))}
             </div>
             {/* Pagination */}
-            {total > VISIBLE_CARDS && (
+            {total > visibleCards && (
               <div className="mt-[1rem] flex justify-center gap-2 md:mt-[2rem] lg:mt-[2.5rem]">
                 {Array.from({ length: total }).map((_, i) => {
                   const activeIndex = index % total;

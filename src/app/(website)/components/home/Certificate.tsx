@@ -1,3 +1,4 @@
+  "use client";
   import Image from 'next/image';
   import certificate_1 from '../../../../../public/assets/images/ai/ai_1.svg';
   import certificate_2 from '../../../../../public/assets/images/ai/ai_2.svg';

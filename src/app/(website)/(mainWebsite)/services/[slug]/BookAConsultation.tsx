@@ -18,18 +18,17 @@ const BookAConsultation = ({ buildlinks }: any) => {
         //   className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'} py-[3rem] lg:py-[2rem]`}
         // >
         <div
-          className={`py-[3rem] lg:py-[2rem] ${
-            buildlinks?.bgImg
+          className={`py-[3rem] lg:py-[2rem] ${buildlinks?.bgImg
               ? ''
               : buildlinks?.isBgWhite
                 ? 'bg-gradient-to-b from-black to-[#051C40]'
                 : 'bg-[#FFFCF8]'
-          }`}
+            }`}
           style={
             buildlinks?.bgImg
               ? {
-                  backgroundImage: `url(${buildlinks.bgImg?.src})`,
-                }
+                backgroundImage: `url(${buildlinks.bgImg?.src})`,
+              }
               : {}
           }
         >
@@ -40,7 +39,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                breakIndex={5}
+                breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 title={buildlinks?.heading}
                 span={buildlinks?.span}
@@ -97,7 +96,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                breakIndex={5}
+                breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 title={buildlinks?.heading}
                 span={buildlinks?.span}
@@ -158,18 +157,24 @@ const BookAConsultation = ({ buildlinks }: any) => {
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <h1
-                className={`font-normal text-[#FFFFFF] lg:text-left ${buildlinks?.label && 'mb-2'}`}
+                className={`font-normal text-[#FFFFFF] lg:text-left`}
               >
                 {buildlinks?.label}
               </h1>
-              <h1 className="font-bold text-[#FFFFFF] lg:text-left">
-                {buildlinks?.heading}
-              </h1>
-              <div className="py-[2rem]">
+
+              <Heading
+                breakIndex={buildlinks?.breakIndex}
+                isH1={true}
+                title={buildlinks?.heading}
+                isBgWhite={buildlinks?.isBgWhite && true}
+                className=''
+              />
+
+              <div className="space-y-4">
                 {buildlinks?.data?.map((item: any) => {
                   return (
                     <p
-                      className={`py-3 ${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
+                      className={`${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
                     >
                       {item?.desctioption}
                     </p>
@@ -183,7 +188,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                   isIcon={true}
                   isBgWhite={true}
                   handleClick={() => setOpen(!open)}
-                  className="mt-[1rem]"
+                  className="mt-[3rem]"
                 />
               )}
             </div>
@@ -194,11 +199,10 @@ const BookAConsultation = ({ buildlinks }: any) => {
             >
               <div className="relative mx-auto flex-1">
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
-                    isVisible
+                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
                       ? 'translate-x-0 opacity-100'
                       : '-translate-x-16 opacity-0'
-                  }`}
+                    }`}
                 >
                   <Image
                     src={buildlinks?.img}

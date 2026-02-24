@@ -22,66 +22,72 @@ const DataInTable = ({ dataInTable }: any) => {
                     <Heading
                         title={dataInTable?.heading}
                         description={dataInTable?.description}
-                        isInCenter={true}
-                        isBgWhite={true}
+                        isInCenter={dataInTable?.isInCenter}
+                        isDecVarticle={!dataInTable?.isInCenter}
+                        isBgWhite={dataInTable?.isBgWhite}
                     />
 
+
                     {dataInTable?.isVariant === '01' && (
-                        <div className="mt-10 overflow-x-auto">
-                            <div className="rounded-[2rem] overflow-hidden">
-                                <table className="w-full">
-                                    <thead>
-                                        <tr className="bg-[#7259FF]">
-                                            {dataInTable?.data?.map(
-                                                (column: any, index: number) => (
-                                                    <th
-                                                        key={index}
-                                                        className={`px-14 py-8 text-sm text-white border-r border-[#3D3D3D]/30 last:border-r-0`}
+                        <div className="mt-10">
+                            <div className="w-full overflow-x-auto">
+                                <div className="min-w-[700px] rounded-2xl overflow-hidden">
+                                    <table className="w-full">
+                                        <thead>
+                                            <tr className="bg-[#7259FF]">
+                                                {dataInTable?.data?.map(
+                                                    (column: any, index: number) => (
+                                                        <th
+                                                            key={index}
+                                                            className="px-6 md:px-10 lg:px-14 py-4 md:py-6 lg:py-8 text-xs md:text-sm text-white border-r border-[#3D3D3D]/30 last:border-r-0"
+                                                        >
+                                                            <div className="flex gap-4 items-center font-medium">
+                                                                <BiSolidBadgeCheck
+                                                                    className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0 text-white"
+                                                                />
+                                                                <p className="break-words text-white font-semibold text-left">
+                                                                    {column?.desctioption}
+                                                                </p>
+                                                            </div>
+                                                        </th>
+                                                    )
+                                                )}
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            {dataInTable?.data?.[0]?.list?.map(
+                                                (_: any, rowIndex: number) => (
+                                                    <tr
+                                                        key={rowIndex}
+                                                        className={
+                                                            rowIndex % 2 === 0
+                                                                ? 'bg-white'
+                                                                : 'bg-[#7259FF]/10'
+                                                        }
                                                     >
-                                                        <div className='flex gap-4 items-center font-medium'>
-                                                            <BiSolidBadgeCheck
-                                                                size={30}
-                                                                className="text-white"
-                                                            />
-                                                            {column?.desctioption}
-                                                        </div>
-                                                    </th>
+                                                        {dataInTable?.data?.map(
+                                                            (column: any) => (
+                                                                <td
+                                                                    className="px-6 md:px-10 lg:px-14 py-4 md:py-6 lg:py-8 text-xs md:text-sm text-black border-r border-[#3D3D3D]/30 last:border-r-0"
+                                                                >
+                                                                    <div className="flex gap-4 items-center font-medium">
+                                                                        <BiSolidBadgeCheck
+                                                                            className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0"
+                                                                        />
+                                                                        <p className="break-words text-left">
+                                                                            {column?.list?.[rowIndex]?.description?.[0]}
+                                                                        </p>
+                                                                    </div>
+                                                                </td>
+                                                            )
+                                                        )}
+                                                    </tr>
                                                 )
                                             )}
-                                        </tr>
-                                    </thead>
-
-                                    <tbody>
-                                        {dataInTable?.data?.[0]?.list?.map(
-                                            (_: any, rowIndex: number) => (
-                                                <tr
-                                                    key={rowIndex}
-                                                    className={
-                                                        rowIndex % 2 === 0
-                                                            ? 'bg-white'
-                                                            : 'bg-[#7259FF]/10'
-                                                    }
-                                                >
-                                                    {dataInTable?.data?.map(
-                                                        (column: any) => (
-                                                            <td
-                                                                className={`px-14 py-8 text-sm text-black border-r border-[#3D3D3D]/30 last:border-r-0`}
-                                                            >
-                                                                <div className='flex gap-4 items-center font-medium'>
-                                                                    <BiSolidBadgeCheck
-                                                                        size={30}
-                                                                        className=""
-                                                                    />
-                                                                    {column?.list?.[rowIndex]?.description?.[0]}
-                                                                </div>
-                                                            </td>
-                                                        )
-                                                    )}
-                                                </tr>
-                                            )
-                                        )}
-                                    </tbody>
-                                </table>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     )}

@@ -298,7 +298,7 @@ export const routes: {
           name: 'White Label Social Media',
           href: '/services/social-media-outsourcing-india',
         },
-        { name: 'White Label Paid Ads', href: '#' },
+        { name: 'White Label Paid Ads', href: '/services/white-label-paid-ads' },
         { name: 'White Label Link Building', href: '#' },
       ],
     },

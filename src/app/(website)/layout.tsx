@@ -12,10 +12,8 @@ export default function DefaulWebsitetLayout({
   return (
     <div className="relative">
       <SessionProvider>
-        <WebsiteLayout>
-          <ReactLenis root>{children}</ReactLenis>
-        </WebsiteLayout>
-        <div className="fixed bottom-2 left-3 cursor-pointer">
+        <WebsiteLayout>{children}</WebsiteLayout>
+        <div className="fixed bottom-2 left-3 z-40 cursor-pointer">
           <Link href="https://wa.me/918907300008" target="_blank">
             <Image
               src={whatsApp}

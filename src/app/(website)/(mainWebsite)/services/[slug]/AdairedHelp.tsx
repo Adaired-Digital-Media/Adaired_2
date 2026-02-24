@@ -39,7 +39,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
               <Image
                 src={adairedHelp?.img}
                 fill
-                className="rounded-[20px] object-cover transition-transform duration-300 ease-out group-hover:scale-110"
+                className="rounded-[20px] object-fill lg:object-cover transition-transform duration-300 ease-out group-hover:scale-110"
                 alt="adairedHelp"
                 priority
               />

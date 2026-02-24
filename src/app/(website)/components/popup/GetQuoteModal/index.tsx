@@ -15,6 +15,8 @@ import { useRouter } from 'next/navigation';
 import { first } from 'lodash';
 import validators from '@/@core/utils/validators';
 import PhoneInputField from '../../UI/InputField/PhoneInputField';
+import axios from 'axios';
+import { BaseURL } from '@/baseUrl';
 interface GetQuoteModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -102,8 +104,14 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
         website: '',
         message: '',
       });
-
+      const message = {
+        name: inputValue.firstName + ' ' + inputValue.lastName,
+        email: inputValue.email,
+        phone: inputValue.phone,
+      };
       router.push('/thankyou');
+
+      await axios.post(`$${BaseURL}/mail/send`, payload);
     } catch (error) {
       console.error(error);
       alert('Failed to submit form. Please try again.');

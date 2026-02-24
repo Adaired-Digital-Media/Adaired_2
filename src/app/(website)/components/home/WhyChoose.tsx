@@ -1,3 +1,4 @@
+"use client";
 import { WhyChooseSectionData } from '@/@core/data/website/Homepage';
 import Image from 'next/image';
 import { useState } from 'react';

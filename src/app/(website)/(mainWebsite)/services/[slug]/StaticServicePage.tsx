@@ -5,6 +5,7 @@ import NotFound from '@/app/not-found';
 
 import Banner from './Banner';
 import GetsCredit from './GetsCredit';
+import SEOPackages from './SeoPackages';
 import KeyStats from './KeyStats';
 import WhatAreService from './WhatAreService';
 import NeedOfAdaired from './NeedOfAdaired';
@@ -34,6 +35,7 @@ export type ServiceSlug = keyof typeof SERVICES_DATA;
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
+  | 'seopackages'
   | 'keyStats'
   | 'areYouTired'
   | 'whatareservice'
@@ -57,7 +59,7 @@ export type SectionKey =
   | 'getplan'
   | 'faqData'
   | 'readyToStart';
-
+  
 type SectionRenderer = (serviceData: any) => JSX.Element | null;
 
 const sectionRenderer: Record<SectionKey, SectionRenderer> = {
@@ -70,6 +72,12 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
     serviceData.getsCredit?.isVisible ? (
       <GetsCredit getsCredit={serviceData.getsCredit} />
     ) : null,
+
+  seopackages: (serviceData) =>
+    serviceData.seopackages?.isVisible ? (
+      <SEOPackages seopackages={serviceData.seopackages} />
+    ) : null,
+
 
   keyStats: (serviceData) =>
     serviceData.keyStats?.isVisible ? (

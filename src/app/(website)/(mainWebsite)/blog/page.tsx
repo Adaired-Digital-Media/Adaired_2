@@ -58,8 +58,8 @@ const Blog = async () => {
       <MaxWidthWrapper className="pb-[6rem] pt-[3rem] lg:py-[4rem] lg:pb-[10rem] xl:pb-[12rem] xl:pt-[6rem]">
         <div className="">
           <Heading
+            isVarticle={true}
             subTitle={'BLOG'}
-            isLabel={true}
             breakIndex={3}
             title={`Digital Agency That Turns Businesses Into Brands`}
           />
