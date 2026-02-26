@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import React from 'react';
 import MaxWidthWrapper from '@web-components/MaxWidthWrapper';
 import parse, {
@@ -70,6 +71,15 @@ async function getBlogs({ params }: { params: { slug: string } }) {
   });
   return res.json();
 }
+
+// export async function generateStaticParams() {
+//   const res = await fetch(`${BaseURL}/blog/read`, { cache: 'no-store' });
+//   const data = await res.json();
+
+//   return (data?.data ?? []).map((blog: any) => ({
+//     slug: String(blog.slug),
+//   }));
+// }
 
 export async function generateStaticParams() {
   const res = await fetch(`${BaseURL}/blog/read`, { cache: 'no-store' });
@@ -209,7 +219,7 @@ const Blog = async ({ params }: BlogProps) => {
               <p className="font-bold">
                 Date:{' '}
                 <span className="font-normal text-[#797979]">
-                  {transformDate(blog?.createdAt)}
+                  {transformDate(blog?.data?.createdAt)}
                 </span>
               </p>
             </div>
