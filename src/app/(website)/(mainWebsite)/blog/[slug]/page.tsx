@@ -65,7 +65,7 @@ function splitIntroParagraphs(html: string, wordLimit = 120) {
 /* ------------------ DATA ------------------ */
 
 async function getBlogs({ params }: { params: { slug: string } }) {
-  const res = await fetch(`${BaseURL}/blog/read?slug=${params.slug}`, {
+  const res = await fetch(`${BaseURL}/blog/${params.slug}`, {
     cache: 'no-store',
   });
   return res.json();
@@ -87,10 +87,11 @@ interface BlogProps {
 /* ------------------ COMPONENT ------------------ */
 
 const Blog = async ({ params }: BlogProps) => {
-  const { data } = await getBlogs({ params });
-  const blog = data[0];
+  const blog  = await getBlogs({ params });
+  console.log(blog,"blog>>>>>>")
+  console.log(blog?.data?.postTitle,"blog>>>>>>postTitle")
 
-  const { introHtml, bodyHtml } = splitHtmlAtFirstH2(blog?.postDescription);
+  const { introHtml, bodyHtml } = splitHtmlAtFirstH2(blog?.data?.postDescription);
   const { top, bottom } = splitIntroParagraphs(introHtml, 100);
 
   const h2Total = (bodyHtml.match(/<h2>/g) || []).length;
@@ -187,14 +188,14 @@ const Blog = async ({ params }: BlogProps) => {
           subTitle="BLOG"
           isLabel={true}
           // breakIndex={4}
-          title={blog?.postTitle}
+          title={blog?.data?.postTitle}
         />
 
         {/* ----------- IMAGE + FIRST 100 WORDS ----------- */}
         <div className="mt-8 grid grid-cols-1 gap-[2rem] md:grid-cols-2">
           <div className="relative h-[30rem]">
             <Image
-              src={blog?.featuredImage}
+              src={blog?.data?.featuredImage}
               alt="blog"
               fill
               className="rounded-[1rem] object-cover"
