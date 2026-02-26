@@ -5,7 +5,7 @@ import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 
 const MeetTheFounderSection = ({ MeetTheFounder }: any) => {
   return (
-    <section className="overflow-hidden bg-gradient-to-b from-[#000000] to-[#051C40] py-[3rem] lg:py-[5rem]">
+    <section className="overflow-hidden bg-gradient-to-b from-[#000000] to-[#051C40] py-[3rem] lg:py-[4rem]">
       <div className="justify-center">
         <img
           src={MeetTheFounder?.heading}
@@ -14,7 +14,7 @@ const MeetTheFounderSection = ({ MeetTheFounder }: any) => {
         />
       </div>
 
-      <MaxWidthWrapper className="z-10 grid grid-cols-1 items-center justify-center gap-[4rem] pt-[7rem] lg:grid-cols-2">
+      <MaxWidthWrapper className="z-10 grid grid-cols-1 items-center justify-center gap-[3rem] pt-[3rem] lg:grid-cols-2">
         <div className="flex justify-center lg:justify-start">
           <div className="relative my-auto aspect-[735/647] w-[clamp(14rem,65vw,45.063rem)] overflow-hidden rounded-2xl shadow-2xl">
             <Image
@@ -50,7 +50,7 @@ const MeetTheFounderSection = ({ MeetTheFounder }: any) => {
           </p>
 
           {MeetTheFounder?.description.map((desc: any, index: number) => (
-            <p key={index} className="my-[1.5rem] text-white">
+            <p key={index} className="mt-[1.5rem] text-white">
               {desc}
             </p>
           ))}
