@@ -25,7 +25,7 @@ export default function ImpToBusinessSlider({
     const [activeIndex, setActiveIndex] = useState(0);
 
     return (
-        <div className="mx-auto w-full pt-[1rem]">
+        <div className="mx-auto w-full pt-[1rem] px-[1rem] lg:px-[10rem]">
             <Swiper
                 modules={[Autoplay]}
                 loop
@@ -39,13 +39,13 @@ export default function ImpToBusinessSlider({
                 breakpoints={{
                     640: { slidesPerView: 1 },
                     768: { slidesPerView: 2 },
-                    1024: { slidesPerView: 3 },
+                    1024: { slidesPerView: 2 },
                 }}
             >
                 {data?.map((item: any, idx: number) => (
                     <SwiperSlide key={idx} className="flex">
                         <div
-                            className="relative my-[1rem] flex h-[35rem] sm:h-[35rem] md:h-[36rem] lg:h-[36rem] w-full flex-col rounded-[1rem] border bg-white p-[2rem] transition-all duration-500"
+                            className="relative my-[1rem] flex h-[39rem] sm:h-[35rem] md:h-[36rem] lg:h-[36rem] w-full flex-col rounded-[1rem] border bg-white p-[2rem] transition-all duration-500"
                             style={{
                                 borderColor: colors?.borderColor,
                                 backgroundColor: colors?.cardColor || '#FFFFFF',

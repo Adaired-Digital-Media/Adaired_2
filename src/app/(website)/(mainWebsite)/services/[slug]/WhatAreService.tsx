@@ -73,7 +73,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         >
           <MaxWidthWrapper className="relative grid grid-cols-1 gap-[1rem] py-[3rem] lg:grid-cols-2 lg:gap-[8rem] lg:py-[4rem]">
             <div
-              className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`relative order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
@@ -95,7 +95,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 })}
               </div>
 
-              {whatareaiseo?.isBgWhite?.button && (
+              {whatareaiseo?.button && (
                 <SaveAndCancel
                   name={whatareaiseo?.button}
                   isIcon={true}
@@ -411,24 +411,41 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 {whatareaiseo?.data?.map((item: any, index: number) => {
                   const isLast = index === whatareaiseo.data.length - 1;
                   return (
-                    <p
-                      className={`py-2 text-center lg:text-justify ${isLast && 'font-semibold'} ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
-                    >
-                      {item?.desctioption}
-                    </p>
+                    <div key={index} className="py-2">
+                      <p
+                        className={`py-2 text-center lg:text-justify ${isLast && 'font-semibold'} ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                      >
+                        {item?.desctioption}
+                      </p>
+
+                      {item?.list && (
+                        <div className="mt-2">
+                          {item.list.map((listItem: string, i: number) => (
+                            <p
+                              key={i}
+                              className={`${whatareaiseo?.isBgWhite ? 'text-[#FFDA24]' : ' '} font-semibold text-left`}
+                            >
+                              {listItem}
+                            </p>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   );
                 })}
               </div>
 
-              {whatareaiseo?.isBgWhite?.button && (
-                <SaveAndCancel
-                  name={whatareaiseo?.button}
-                  isIcon={true}
-                  isBgWhite={true}
-                  handleClick={() => setOpen(!open)}
-                  className="my-[2rem]"
-                />
-              )}
+              {
+                whatareaiseo?.isBgWhite?.button && (
+                  <SaveAndCancel
+                    name={whatareaiseo?.button}
+                    isIcon={true}
+                    isBgWhite={true}
+                    handleClick={() => setOpen(!open)}
+                    className="my-[2rem]"
+                  />
+                )
+              }
             </div>
 
             <div

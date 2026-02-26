@@ -3,6 +3,12 @@ import React from 'react';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 
+// import client_1 from '../../../../../../public/assets/LeadingTools/Group 1000005353.png';
+// import client_2 from '../../../../../../public/assets/LeadingTools/Group 1000005354.png';
+// import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005355.png';
+// import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
+// import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
+
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
@@ -14,7 +20,7 @@ const LeadingTools = ({ leadingTools }: any) => {
   //   client_3,
   //   client_4,
   //   client_5,
-  // ];gjgj
+  // ];
 
   const row1 = leadingTools?.list?.slice(0, 10) || [];
   const row2 = leadingTools?.list?.slice(10, 20) || [];
@@ -22,7 +28,7 @@ const LeadingTools = ({ leadingTools }: any) => {
 
   const row1Duplicated = [...row1, ...row1];
   const row2Duplicated = [...row2, ...row2];
-  const row3Duplicated = [...row3, ...row3];
+  // const row3Duplicated = [...row3, ...row3];
 
   return (
     <div
@@ -70,7 +76,7 @@ const LeadingTools = ({ leadingTools }: any) => {
         </div>*/}
 
         {leadingTools?.isVariant === '01' && (
-          <div className="grid grid-cols-2 gap-4 pt-[1rem] sm:grid-cols-3 lg:grid-cols-7">
+          <div className="flex w-max animate-marquee gap-2 sm:gap-3 lg:gap-[2rem]">
             {leadingTools?.list?.map((leadingTools: any, idx: number) => (
               <div
                 key={idx}

@@ -60,10 +60,13 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                         </div>
 
                         <p
-                          onClick={()=>setOpen(!open)}
+                          onClick={() => setOpen(!open)}
                           className="absolute cursor-pointer bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
                         >
-                          <span className="text-[18px]">
+                          <span
+                            className="text-[18px]"
+                            style={{ color: whatIncluded?.btnColor }}
+                          >
                             {whatIncluded?.button}
                           </span>
                           <MdOutlineArrowOutward />
@@ -117,7 +120,7 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                           )}
                         </div>
                         <p
-                          onClick={()=>setOpen(!open)}
+                          onClick={() => setOpen(!open)}
                           className={`${index === 0 && 'text-[#00769D]'} ${index === 1 && 'text-[#5E8E3E]'} ${index === 2 && 'text-[#D84861]'} ${index === 3 && 'text-[#7D79FD]'} absolute bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start`}
                         >
                           <span className="text-[18px]">
@@ -172,11 +175,11 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                         </div>
 
                         <p
-                          onClick={()=>setOpen(!open)}
+                          onClick={() => setOpen(!open)}
                           className="absolute bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
                         >
                           <span className="text-[18px]">
-                            {'Get Your Free AI SEO Audit'}
+                            {'Start a Conversation'}
                           </span>
                           <MdOutlineArrowOutward />
                         </p>

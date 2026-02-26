@@ -203,7 +203,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
         >
           <MaxWidthWrapper>
             <div
-              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 isDecVarticle
@@ -252,7 +252,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                       })}
                     </div> */}
 
-                    <div>
+                    <div className='lg:pb-[3rem]'>
                       {item?.description?.map((dec: any, index: number) => {
 
                         if (typeof dec === "string") {
