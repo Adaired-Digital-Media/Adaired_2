@@ -46,11 +46,11 @@ const DominateAI = ({ getplan }: any) => {
 
           <div className="flex justify-center">
             <SaveAndCancel
-              name="Book a Free Call"
+              name={getplan?.button}
               isIcon={true}
               isBgWhite={true}
               handleClick={() => setOpen(!open)}
-              className="flex w-[17rem]"
+              className="flex "
             />
           </div>
         </div>

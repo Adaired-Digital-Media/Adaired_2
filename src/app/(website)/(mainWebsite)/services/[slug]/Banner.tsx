@@ -15,6 +15,11 @@ import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import { useRouter } from 'next/navigation';
 import star from '../../../../../../public/assets/icons/star.png';
 import web_development_banner_img from '../../../../../../public/assets/web_development_banner_img.png';
+
+import CountUp from '.././../../../(website)/components/CountUp/index';
+import { ABOUT_DATA } from '../../about/aboutData';
+
+
 const Banner = ({ banner }: any) => {
   const router = useRouter();
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
@@ -22,6 +27,8 @@ const Banner = ({ banner }: any) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const [active, setActive] = useState<null | 'img3' | 'img2' | 'img1'>(null);
+
+  const [hover, setHover] = useState(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -44,7 +51,7 @@ const Banner = ({ banner }: any) => {
         fill
         alt="hero bg"
         priority
-        className="pointer-events-none object-fill lg:object-cover"
+        className="pointer-events-none object-fill lg:object-fill"
       />
       <MaxWidthWrapper className="">
         {banner?.isCenter ? (
@@ -738,6 +745,180 @@ const Banner = ({ banner }: any) => {
                     src={banner?.bgImg}
                     width={768}
                     height={548}
+                    alt="Web Development Banner"
+                    className=""
+                  />
+                </div>
+              </div>
+            )}
+            {banner?.code === '09' && (
+              <div>
+                <div className="relative z-10 block justify-center pb-[6rem] pt-[9rem] lg:flex">
+                  <div
+                    className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[60%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+                  >
+                    <div
+                      className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}
+                    >
+                      <div className="md:flex` block justify-center justify-items-center gap-3 lg:justify-start lg:justify-items-start">
+                        <div className="mt-[0.8rem] !w-[100%] md:mt-[8px] lg:mt-[0.5rem]">
+                          <h2 className="text-center capitalize font-normal">
+                            {banner?.heading}
+                          </h2>
+                          <h1 className="text-center capitalize">{banner?.label}</h1>
+                        </div>
+                      </div>
+                      <div className={`$ 'pt-[1rem]'}`}>
+                        {banner?.subheading && (
+                          <p className="pt-4 text-center font-montserrat font-semibold">
+                            {banner?.subheading}
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                    <div className="!mt-[4rem] flex justify-center">
+                      <SaveAndCancel
+                        name={banner?.button}
+                        isIcon={true}
+                        handleClick={() => router.push('/contact')}
+                        className="w-[18rem] lg:w-[18rem]"
+                      />
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <div>
+                  {/* <Image
+                    src={banner?.Img}
+                    fill
+                    alt="hero bg"
+                    priority
+                    className="pointer-events-none object-fill lg:object-cover"
+                  /> */}
+                  <Image
+                    src={banner?.Img}
+                    height={751}
+                    width={1604}
+                    alt="hero bg"
+                    priority
+                    className="pointer-events-none lg:object-cover"
+                  />
+                </div>
+
+
+                <div className='py-[2rem]'>
+                  <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 lg:gap-0">
+                    {ABOUT_DATA.banner?.records?.map((record, idx: any) => {
+                      const isHovered = hover === idx;
+                      return (
+                        <div
+                          key={idx}
+                          onMouseEnter={() => setHover(idx)}
+                          onMouseLeave={() => setHover(null)}
+                          style={{
+                            transitionDelay: `${idx * 280}ms`,
+                          }}
+                          className={`rounded-3xl border-r-[1px] border-r-[#00000026]/10 last:border-r-0 p-[1.8rem] transition-all duration-700 lg:p-[1rem] xl:px-[1.75rem] xl:py-[1.5rem] 1360:p-[1rem] 1400:p-[1rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${isHovered
+                            ? 'bg-gradient-to-br from-[#FB9100] to-[#000000]'
+                            : ''
+                            } `}
+                        >
+                          <div
+                            className={`text-center text-xl font-semibold transition-colors duration-300 3xl:text-[50px] ${isHovered ? 'text-white' : 'text-black'} `}
+                          >
+                            {record.suffix1}
+                            <CountUp end={record.number} />
+                            {record.suffix}
+
+                          </div>
+
+                          <p
+                            className={`py-[0.5rem] text-center font-bold transition-colors duration-300 xl:pb-[1rem] xl:pt-[1.25rem] ${isHovered && 'text-white'} `}
+                          >
+                            {record.name}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            )}
+            {banner?.code === '10' && (
+              <div className="relative z-10 block justify-between lg:flex lg:gap-[2rem] pt-[4rem] lg:pt-[6rem] lg:pb-[4rem]">
+                <div
+                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[53%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+                >
+                  <div
+                    className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}
+                  >
+                    <div className="md:flex` block justify-center justify-items-center gap-3 lg:justify-start lg:justify-items-start">
+                      <div className="mt-[0.8rem] !w-[100%] md:mt-[8px] lg:mt-[0.5rem]">
+                        {banner?.subtitle && (
+                          <div className="mx-auto flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem] lg:mx-0 lg:mr-auto">
+                            <Image
+                              src={star}
+                              width={18}
+                              height={17}
+                              alt="star icon"
+                              className="mb-auto"
+                            />
+                            <span className="my-auto uppercase text-[#000000]">
+                              {banner.subtitle}
+                            </span>
+                          </div>
+                        )}
+
+                        <h1 className="text-center capitalize text-[#FB9100] lg:text-left">
+                          <span className="font-poppins text-[clamp(1.8rem,3vw,3.75rem)] font-light capitalize leading-[clamp(2.5rem,3.65vw,4.65rem)] text-[#000000]">
+                            {banner?.label}{' '}
+                          </span>
+                          {banner?.heading}
+                        </h1>
+                      </div>
+                    </div>
+                    <div className={`$ 'pt-[1rem]'}`}>
+                      {banner?.span && (
+                        <p className="pt-4 text-center font-montserrat font-bold lg:text-left">
+                          {banner?.span}
+                        </p>
+                      )}
+
+                      {banner?.subheading && (
+                        <h3 className="pt-7 text-[22px] font-[600] leading-[32px]">
+                          {banner?.subheading}
+                        </h3>
+                      )}
+
+                      {/* <p className="py-7 text-center lg:text-left">
+                        {banner?.desc}
+                      </p> */}
+                      <div className="py-7 text-center lg:text-left">
+                        {banner?.desc?.map((item: any, index: number) => (
+                          <p key={index} className="mb-4">
+                            {item}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex justify-center lg:justify-start">
+                    <SaveAndCancel
+                      name={banner?.button}
+                      isIcon={true}
+                      handleClick={() => router.push('/contact')}
+                      buttonWidth="!w-[20rem]"
+                    />
+                  </div>
+                </div>
+                
+                <div className="py-[3rem]">
+                  <Image
+                    src={banner?.bgImg}
+                    width={686}
+                    height={545}
                     alt="Web Development Banner"
                     className=""
                   />

@@ -1,11 +1,11 @@
 'use client';
-
 import React, { useRef, useState } from 'react';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import Image from 'next/image';
 import { useScrollTabs } from '@/@core/hooks/useScrollTabs';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import SocialMediaCheck from '../../../../../../public/assets/images/PPCimg/arrowOrange.png';
 
 const OurProcess = ({ ourProcess }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0);
@@ -44,11 +44,10 @@ const OurProcess = ({ ourProcess }: any) => {
                 <div className="absolute inset-0 rounded-full border border-[#00000033]" />
 
                 <div
-                  className={`absolute inset-[70px] flex flex-col items-center justify-center rounded-full transition-all ${
-                    activeTab === ourProcess.services.length - 1
+                  className={`absolute inset-[70px] flex flex-col items-center justify-center rounded-full transition-all ${activeTab === ourProcess.services.length - 1
                       ? 'bg-[#FB9100] text-white'
                       : 'bg-[#FFF4E8]'
-                  }`}
+                    }`}
                 >
                   <p
                     className={`text-sm tracking-widest ${activeTab === ourProcess.services.length - 1 ? 'text-[#FFFFFF]' : 'text-[#000000]'}`}
@@ -88,11 +87,10 @@ const OurProcess = ({ ourProcess }: any) => {
                       }}
                     >
                       <div
-                        className={`flex h-[60px] w-[60px] items-center justify-center rounded-full border ${
-                          activeTab === idx
+                        className={`flex h-[60px] w-[60px] items-center justify-center rounded-full border ${activeTab === idx
                             ? 'border-[#FB9100] bg-[#FB9100]'
                             : 'border-[#00000033] bg-white'
-                        }`}
+                          }`}
                       >
                         <Image
                           src={service.icon}
@@ -125,18 +123,43 @@ const OurProcess = ({ ourProcess }: any) => {
                 }}
               >
                 <h3
-                  className={`mb-3 font-semibold uppercase ${
-                    activeTab === idx ? 'text-[#FB9100]' : 'text-[#999]'
-                  }`}
+                  className={`mb-3 font-semibold uppercase ${activeTab === idx ? 'text-[#FB9100]' : 'text-[#999]'
+                    }`}
                 >
                   Step {idx + 1}: {service.title}
                 </h3>
+                {service.description.map((item: any, i: number) => {
+                  if (typeof item === "string") {
+                    return (
+                      <p key={i} className="my-4">
+                        {item}
+                      </p>
+                    );
+                  }
 
-                {service.description.map((desc: string, i: number) => (
-                  <p key={i} className="my-3 text-[#333]">
-                    {desc}
-                  </p>
-                ))}
+                  if (item.list) {
+                    return item.list.map((listItem: any, j: number) => (
+                      <div
+                        key={`${i}-${j}`}
+                        className="flex items-start gap-3 sm:gap-4 my-2"
+                      >
+                        <Image
+                          src={SocialMediaCheck}
+                          width={17}
+                          height={23}
+                          alt="arrow"
+                          className="shrink-0 mt-1 w-[14px] h-auto sm:w-[17px]"
+                        />
+
+                        <p className="text-left">
+                          {listItem.des || listItem.description}
+                        </p>
+                      </div>
+                    ));
+                  }
+                  return null;
+                })}
+                
               </div>
             ))}
           </div>

@@ -18,6 +18,7 @@ const KeyStats = ({ keyStats }: any) => {
   const [isActive, setIsActive] = useState<number | null>(null);
   const [visibleCards, setVisibleCards] = useState(3);
   const [index, setIndex] = useState(0);
+  const [hover, setHover] = useState(null);
 
   // useEffect(() => {
   //   const updateVisibleCards = () => {
@@ -204,9 +205,8 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
-                          activeTab === index ? 'font-semibold' : ''
-                        }`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
+                          }`}
                       >
                         {item.desctioption}
                       </p>
@@ -243,31 +243,43 @@ const KeyStats = ({ keyStats }: any) => {
               />
             </div>
             <div
-              className={`grid grid-cols-1 gap-4 pt-[2rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
-                isVisible
-                  ? 'translate-y-0 opacity-100'
-                  : 'translate-y-10 opacity-0'
-              }`}
+              className={`grid grid-cols-1 gap-4 pt-[2rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${isVisible
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-10 opacity-0'
+                }`}
             >
-              {keyStats?.list?.map((item: any, idx: number) => (
-                <div
-                  key={idx}
-                  // className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center transition-all duration-700 lg:items-start lg:text-left"
-                  // style={{
-                  //   transitionDelay: `${idx * 200}ms`,
+              {keyStats?.list?.map((item: any, idx: any) => {
+                const isHovered = hover === idx;
 
-                  className="hover:duration-400 flex flex-col items-center overflow-hidden rounded-[1rem] border border-[#F28F17]/20 from-[#ebf8ff] via-[#FFFFFF] to-[#fffaf0] p-5 text-center transition-all transition-transform duration-700 hover:-translate-y-4 hover:bg-gradient-to-br hover:shadow-xl lg:items-start lg:text-left"
-                  style={{
-                    transitionDelay: isVisible ? '0ms' : `${idx * 280}ms`,
-                  }}
-                >
-                  <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
-                    {`0${idx + 1}`}
-                  </h2>
+                return (
+                  <div
+                    key={idx}
+                    onMouseEnter={() => setHover(idx)}
+                    onMouseLeave={() => setHover(null)}
+                    style={{
+                      transitionDelay: `${idx * 280}ms`,
+                    }}
+                    className={`rounded-3xl border-r-[1px] border-r-[#00000026]/10 p-[1.8rem] transition-all duration-700 last:border-r-0 lg:p-[1rem] xl:px-[1.75rem] xl:py-[1.5rem] 1360:p-[1rem] 1400:p-[1rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                      } ${isHovered
+                        ? 'bg-gradient-to-br from-[#FB9100] to-[#000000]'
+                        : ''
+                      }`}
+                  >
+                    <h2 className={`F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0
+                      ${isHovered
+                        ? 'text-white bg-black/40'
+                        : ''
+                      }`}>
+                      {`0${idx + 1}`}
+                    </h2>
 
-                  <h3 className="pt-10">{item?.description}</h3>
-                </div>
-              ))}
+                    <h3 className={`pt-10 ${isHovered
+                        ? 'text-white'
+                        : ''
+                      }`}>{item?.description}</h3>
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}
@@ -287,16 +299,14 @@ const KeyStats = ({ keyStats }: any) => {
                 <IoArrowForwardCircleOutline
                   size={30}
                   onClick={handlePrev}
-                  className={`rotate-180 cursor-pointer ${
-                    index === 0 ? 'cursor-not-allowed opacity-40' : ''
-                  }`}
+                  className={`rotate-180 cursor-pointer ${index === 0 ? 'cursor-not-allowed opacity-40' : ''
+                    }`}
                 />
                 <IoArrowForwardCircleOutline
                   size={30}
                   onClick={handleNext}
-                  className={`cursor-pointer ${
-                    index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''
-                  }`}
+                  className={`cursor-pointer ${index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''
+                    }`}
                 />
               </div>
             </div>
@@ -327,9 +337,8 @@ const KeyStats = ({ keyStats }: any) => {
                       alt="img"
                     />
                     <p
-                      className={`pt-[2rem] transition-colors duration-300 ${
-                        isActive === idx ? 'text-white' : 'text-black'
-                      }`}
+                      className={`pt-[2rem] transition-colors duration-300 ${isActive === idx ? 'text-white' : 'text-black'
+                        }`}
                     >
                       {item?.desctioption}
                     </p>
@@ -367,17 +376,15 @@ const KeyStats = ({ keyStats }: any) => {
                       }}
                     >
                       <h2
-                        className={`transition-all duration-300 ease-in-out ${
-                          activeTab === index ? 'text-white' : ''
-                        }`}
+                        className={`transition-all duration-300 ease-in-out ${activeTab === index ? 'text-white' : ''
+                          }`}
                       >
                         {`0${index + 1}`}
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
-                          activeTab === index ? 'font-semibold text-white' : ''
-                        }`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold text-white' : ''
+                          }`}
                       >
                         {item.desctioption}
                       </p>
@@ -437,21 +444,19 @@ const KeyStats = ({ keyStats }: any) => {
                       }}
                     >
                       <h2
-                        className={`transition-all duration-300 ease-in-out ${
-                          keyStats?.isTextWhite && activeTab === index
-                            ? 'text-[#FFFFFF]'
-                            : ''
-                        }`}
+                        className={`transition-all duration-300 ease-in-out ${keyStats?.isTextWhite && activeTab === index
+                          ? 'text-[#FFFFFF]'
+                          : ''
+                          }`}
                       >
                         {`0${index + 1}`}
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
-                          keyStats?.isTextWhite && activeTab === index
-                            ? 'text-[#FFFFFF]'
-                            : ''
-                        } ${activeTab === index ? 'font-semibold' : ''}`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${keyStats?.isTextWhite && activeTab === index
+                          ? 'text-[#FFFFFF]'
+                          : ''
+                          } ${activeTab === index ? 'font-semibold' : ''}`}
                       >
                         {item.desctioption}
                       </p>
@@ -466,13 +471,12 @@ const KeyStats = ({ keyStats }: any) => {
               </div>
 
               <div
-                className={`relative flex h-full items-center justify-center rounded-[10px] ${
-                  keyStats?.isImgBg
-                    ? keyStats?.bgColor
-                      ? `bg-[${keyStats.bgColor}]/10`
-                      : 'bg-[#FFFFFF]/10'
-                    : ''
-                }`}
+                className={`relative flex h-full items-center justify-center rounded-[10px] ${keyStats?.isImgBg
+                  ? keyStats?.bgColor
+                    ? `bg-[${keyStats.bgColor}]/10`
+                    : 'bg-[#FFFFFF]/10'
+                  : ''
+                  }`}
               >
                 <Image
                   src={keyStats?.img}
@@ -517,9 +521,8 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
-                          activeTab === index ? 'font-semibold' : ''
-                        }`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
+                          }`}
                       >
                         {item.desctioption}
                       </p>
@@ -554,11 +557,10 @@ const KeyStats = ({ keyStats }: any) => {
               />
             </div>
             <div
-              className={`grid grid-cols-1 gap-4 pt-[2rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
-                isVisible
-                  ? 'translate-y-0 opacity-100'
-                  : 'translate-y-10 opacity-0'
-              }`}
+              className={`grid grid-cols-1 gap-4 pt-[2rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${isVisible
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-10 opacity-0'
+                }`}
             >
               {keyStats?.list?.map((item: any, idx: number) => (
                 <div
@@ -568,13 +570,71 @@ const KeyStats = ({ keyStats }: any) => {
                     transitionDelay: isVisible ? '0ms' : `${idx * 280}ms`,
                   }}
                 >
-                  <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
+                  <h2 className="mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 font-normal text-[#FB9100] lg:mx-0">
                     {`0${idx + 1}`}
                   </h2>
-                  <p className="pt-16 font-bold">{item?.title}</p>
-                  <p className="pt-6">{item?.description}</p>
+                  <p className="pt-10 font-bold">{item?.title}</p>
+                  <p className="pt-2 md:text-left">{item?.description}</p>
                 </div>
               ))}
+            </div>
+          </div>
+        )}
+        {keyStats?.code === '10' && (
+          <div
+            className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          >
+            <Heading
+              // breakIndex={6}
+              isBgWhite={true}
+              isInCenter={true}
+              subTitle={''}
+              title={keyStats?.heading}
+              className='pb-[3rem]'
+            />
+
+            <div className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
+              <div className="rounded-[20px]">
+                {keyStats?.list?.map((item: any, index: any) => (
+                  <div
+                    key={index}
+                    onMouseEnter={() => setActiveTab(index)}
+                    onMouseLeave={() => setActiveTab(0)}
+                    className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? 'bg-[#FB9100]/10 text-white' : 'bg-[#F5F5F5] text-black'}`}
+                  >
+                    <div
+                      className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left`}
+                      style={{
+                        transitionDelay: `${index * 280}ms`,
+                      }}
+                    >
+                      <h2 className="transition-all duration-300 ease-in-out">
+                        {`0${index + 1}`}
+                      </h2>
+
+                      <p
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
+                          activeTab === index ? 'font-semibold' : ''
+                        }`}
+                      >
+                        {item.desctioption}
+                      </p>
+                    </div>
+                    {activeTab === index && (
+                      <div className="absolute right-0 top-0 h-full w-2 rounded-r-[1rem] bg-[#FB9100]"></div>
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              <div className="relative flex items-center justify-center rounded-[20px] w-740 h-617 bg-[#FFD79F]/30">
+                <Image
+                  src={keyStats?.img}
+                  fill
+                  alt="img"
+                  className={`object-fill transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110`}
+                />
+              </div>
             </div>
           </div>
         )}

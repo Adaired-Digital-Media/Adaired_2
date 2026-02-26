@@ -51,7 +51,7 @@ const GrowingBrands = () => {
   return (
     <div
       ref={ref}
-      className="overflow-hidden py-[2rem] bg-[#F5F5F5] sm:py-[3rem] lg:py-[4rem]"
+      className="overflow-hidden bg-[#F5F5F5] py-[3rem] lg:py-[4rem]"
     >
       <MaxWidthWrapper>
         <div
@@ -67,8 +67,8 @@ const GrowingBrands = () => {
           />
         </div>
 
-        <div className="relative mt-4 sm:mt-6">
-          <div className="flex w-max animate-marquee gap-2 sm:gap-3 lg:gap-[2rem]">
+        <div className="relative mt-4 lg:my-4">
+          <div className="flex w-max animate-marquee gap-[1rem] lg:gap-[2rem]">
             {row1Duplicated.map((client, idx) => (
               <div
                 key={`r1-${idx}`}
@@ -80,17 +80,17 @@ const GrowingBrands = () => {
                 <Image
                   src={client}
                   alt="client logo"
-                  width={225}
-                  height={90}
-                  className="my-0 h-full w-full transform object-contain transition-transform duration-300 ease-out group-hover:scale-110 md:my-4"
+                  width={242}
+                  height={121}
+                  className="h-9 lg:h-full w-full transform object-contain transition-transform duration-300 ease-out group-hover:scale-110 mt-2"
                 />
               </div>
             ))}
           </div>
         </div>
 
-        <div className="relative">
-          <div className="flex w-max animate-marquee gap-2 [animation-direction:reverse] sm:gap-3 lg:gap-[2rem]">
+        <div className="relative mt-4 lg:my-4">
+          <div className="flex w-max animate-marquee [animation-direction:reverse] gap-[1rem] lg:gap-[2rem]">
             {row2Duplicated.map((client, idx) => (
               <div
                 key={`r2-${idx}`}
@@ -102,9 +102,9 @@ const GrowingBrands = () => {
                 <Image
                   src={client}
                   alt="client logo"
-                  width={225}
-                  height={90}
-                  className="my-0 h-full w-full transform object-contain transition-transform duration-300 ease-out group-hover:scale-110 md:my-4"
+                  width={242}
+                  height={121}
+                  className="h-9 lg:h-full w-full transform object-contain transition-transform duration-300 ease-out group-hover:scale-110 mt-2"
                 />
               </div>
             ))}

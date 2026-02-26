@@ -57,9 +57,9 @@ import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/Continuo
 import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO Expertise.png';
 import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/Client-Centric.png';
 
-import seo_resultIcon_1 from '../../../../../../public/assets/seo/strategy (2) 1.svg';
-import seo_resultIcon_2 from '../../../../../../public/assets/seo/Group 1000005912 (1).svg';
-import seo_resultIcon_3 from '../../../../../../public/assets/seo/Group 1000005915.svg';
+import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
+import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
+import seo_resultIcon_3 from '../../../../../../public/assets/seo/seo_resultIcon_3.svg';
 
 import adairedHelp_icon_1 from '../../../../../../public/assets/adairedHelp/help_icon_1.svg';
 import adairedHelp_icon_2 from '../../../../../../public/assets/adairedHelp/help_icon_2.svg';
@@ -237,6 +237,55 @@ import whiteServicesIncluded_6 from '../../../../../../public/assets/whitelabel/
 import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png';
 import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
 import ppcServicesBuildLinkImg from '../../../../../../public/assets/images/PPCimg/ppcServicesBuildLinkImg.png';
+import benefitsOfPPC from '../../../../../../public/assets/images/PPCimg/benefitsOfPPC.png';
+
+import ppcImpIcon_1 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_1.png';
+import ppcImpIcon_2 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_2.png';
+import ppcImpIcon_3 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_3.png';
+import ppcImpIcon_4 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_4.png';
+import ppcImpIcon_5 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_5.png';
+import ppcImpIcon_6 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_6.png';
+import ppcImpIcon_7 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_7.png';
+import ppcImpIcon_8 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_8.png';
+import ppcImpIcon_9 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_9.png';
+
+// White Label Paid Ads Images
+import whitePaidAdsBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsBannerBg.png';
+import whiteWhatIsImg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whiteWhatIsImg.png';
+import whitePaidAdsBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsBuildLinkImg.png';
+import whitePaidAdsAdairedHelpImg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsAdairedHelpImg.png';
+
+import whitePaidAdsMissing_1 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_1.png';
+import whitePaidAdsMissing_2 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_2.png';
+import whitePaidAdsMissing_3 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_3.png';
+
+import whitePaidAdsImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_1.png';
+import whitePaidAdsImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_2.png';
+import whitePaidAdsImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_3.png';
+import whitePaidAdsImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_4.png';
+import whitePaidAdsImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_5.png';
+import whitePaidAdsImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_6.png';
+
+// White Label Link Building Images
+import whiteLinkBuildingBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBannerBg.png';
+import whiteLinkBuildingKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingKeyStatsImg.png';
+import whiteLinkBuildingWhatIsImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatIsImg.png';
+import whiteLinkBuildingBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBuildLinkImg.png';
+import whiteLinkBuildingBookConsultationBg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBookConsultationBg.png';
+
+import whiteLinkBuildingImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_1.png';
+import whiteLinkBuildingImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_2.png';
+import whiteLinkBuildingImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_3.png';
+import whiteLinkBuildingImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_4.png';
+import whiteLinkBuildingImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_5.png';
+import whiteLinkBuildingImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_6.png';
+
+import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_1.png';
+import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_2.png';
+import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_3.png';
+import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_4.png';
+import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_5.png';
+
 
 export type SectionKey =
   | 'banner'
@@ -263,12 +312,14 @@ export type SectionKey =
   | 'leadingToolsForPerformence'
   | 'getplan'
   | 'faqData'
-  | 'readyToStart';
+  | 'readyToStart'
+  | 'seopackages';
 
 export const SERVICES_DATA = {
   'seo-company-india': {
     sectionsOrder: [
       'banner',
+      'seopackages',
       'keyStats',
       'whatareservice',
       'importantToBussiness',
@@ -286,6 +337,7 @@ export const SERVICES_DATA = {
       'getplan',
       'faqData',
       'readyToStart',
+
     ] satisfies SectionKey[],
     metaDetails: {
       title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
@@ -443,8 +495,9 @@ export const SERVICES_DATA = {
       heading: '',
       list: [],
     },
+
     whyAdaired: {
-      isVisible: true,
+      isVisible: false,
       heading: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
       data: [
         {
@@ -471,6 +524,7 @@ export const SERVICES_DATA = {
       isVariant: '01',
       heading: 'What’s Included in Our SEO Services',
       button: 'Get Your Free SEO Audit',
+      btnColor: '#1A5A96',
 
       list: [
         {
@@ -525,8 +579,8 @@ export const SERVICES_DATA = {
     },
     ourProcess: {
       isVisible: true,
-      breakIndex:7,
-      isInCenter:true,
+      breakIndex: 7,
+      isInCenter: true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
       services: [
         {
@@ -551,7 +605,7 @@ export const SERVICES_DATA = {
           icon: step_3,
           title: 'On-Page and Technical Optimization',
           description: [
-            `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines.`,`This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing. 
+            `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines.`, `This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing. 
            `, ` These changes enhance user experience while improving search rankings. A well-optimized site ensures that content is both readable for users and properly recognized by search engines.`
           ],
         },
@@ -567,7 +621,7 @@ export const SERVICES_DATA = {
           icon: step_5,
           title: 'Link Building and Authority Growth',
           description: [
-            `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines.`,`This process focuses on acquiring links from relevant and reputable websites through ethical methods. 
+            `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines.`, `This process focuses on acquiring links from relevant and reputable websites through ethical methods. 
             Effective link building supports long-term SEO success and helps maintain visibility in search results.`
           ],
         },
@@ -582,12 +636,13 @@ export const SERVICES_DATA = {
     },
     serviceResult: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '04',
       heading: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
       bgImage: '',
       img: StrugglingImgSEO,
       description: [
-        'Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. We help your business stay visible, no matter how the search changes.',
+        `Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. 
+        We help your business stay visible, no matter how the search changes.`,
         `With the help of our data-driven insights, strategic approach, and commitment to performance, we help your business emerge as a premier seo company.`,
       ],
       isBgColor: true,
@@ -596,33 +651,29 @@ export const SERVICES_DATA = {
           img: seo_resultIcon_1,
           name: 'Tailored SEO Strategies',
           description: [
-            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives. With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business. 
-`,
+            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives.`, 
+            `With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business.`,
           ],
         },
         {
           img: seo_resultIcon_2,
           name: 'Transparent Reporting',
           description: [
-            `We believe in building long-term relationships with our clients. This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, and drive long-term revenue for our clients. Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth. `,
+            `We believe in building long-term relationships with our clients.`, 
+            `This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, 
+            and drive long-term revenue for our clients.`, 
+            `Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth.`,
           ],
         },
         {
           img: seo_resultIcon_3,
           name: 'Sustainable White-Hat Practices',
           description: [
-            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health. Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.  We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable. 
-`,
+            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`, 
+            `Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.`,
+            `We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable.`,
           ],
         },
-        // {
-        //   img: aiseoresult,
-        //   name: 'You’re Making SEO Decisions Without Real Data',
-        //   description: [
-        //     'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
-        //     ``,
-        //   ],
-        // },
       ],
     },
     notSeeingResult: {
@@ -648,25 +699,25 @@ export const SERVICES_DATA = {
       bgImage: leadingToolsImg,
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
 
@@ -674,11 +725,35 @@ export const SERVICES_DATA = {
     leadingToolsForPerformence: {
       isGapTop: true,
       isVisible: true,
+      isVariant: '01',
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      list: [
+        {
+          img: client_1,
+        },
+        {
+          img: client_2,
+        },
+        {
+          img: client_3,
+        },
+        {
+          img: client_4,
+        },
+        {
+          img: client_5,
+        },
+        {
+          img: client_1,
+        },
+        {
+          img: client_2,
+        }
+      ]
     },
     adairedHelp: {
       isVisible: true,
@@ -927,6 +1002,94 @@ export const SERVICES_DATA = {
           rating: 5,
         },
       ],
+    },
+    seopackages: {
+      isVisible: true,
+      cardLength: 3,
+      heading: 'SEO Packages',
+      description: '',
+      data: [
+        {
+          title: 'Establish',
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          desc: '$399',
+          span: '/month',
+          desctioption: `Complete SEO Audit`,
+          list: [
+            {
+              des: [`ON-Page Optimization`],
+            },
+            {
+              des: [`Target 15 Primary Keywords`],
+            },
+            {
+              des: [`SEMRush Errors Fixing`],
+            },
+            {
+              des: [`Quality Link Building`],
+            },
+            {
+              des: [`Manual Monthly Reports`],
+            },
+            {
+              des: [`Competitor Analysis`],
+            }
+          ],
+          button: 'Start Growing',
+        },
+        {
+          title: 'Accelerate',
+          text: 'Recommended',
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          desc: '$599',
+          span: '/month',
+          desctioption: `Everything In Starter`,
+          list: [
+            {
+              des: [`AI SEO, GEO, AEO, LLMs"`],
+            },
+            {
+              des: [`Unlimited Secondary Keywords`],
+            },
+            {
+              des: [`2 Website Blogs`],
+            },
+            {
+              des: [`Authority Guest Post Links`],
+            },
+            {
+              des: [`Technical Errors Fixing`],
+            },
+            {
+              des: [`Branded Monthly Reports`],
+            }
+          ],
+          button: 'Scale My Growth',
+        },
+        {
+          title: 'Dominate',
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          desc: '$899',
+          span: '/month',
+          desctioption: `Everything in Premium`,
+          list: [
+            {
+              des: [`Advanced AI Search & Visibility Optimization`],
+            },
+            {
+              des: [`Website Speed Optimization`],
+            },
+            {
+              des: [`Dedicated Account Manager`],
+            },
+            {
+              des: [`Complete SEO Growth roadmap`],
+            },
+          ],
+          button: 'Dominate Search',
+        }
+      ]
+
     },
   },
   'ai-seo-company-india': {
@@ -1208,25 +1371,25 @@ export const SERVICES_DATA = {
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -1365,6 +1528,7 @@ export const SERVICES_DATA = {
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#74AA9C',
         },
 
         {
@@ -1372,10 +1536,11 @@ export const SERVICES_DATA = {
           title: 'Perplexity AI SEO',
           description: [
             `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines. 
-        Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
+            Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#20808D',
         },
 
         {
@@ -1383,10 +1548,11 @@ export const SERVICES_DATA = {
           title: 'Gemini AI SEO',
           description: [
             `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.
-        We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
+            We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#2B99DE',
         },
 
         {
@@ -1394,10 +1560,11 @@ export const SERVICES_DATA = {
           title: 'Grok AI SEO',
           description: [
             `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.
-        With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
+             With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#000000',
         },
 
         {
@@ -1405,10 +1572,11 @@ export const SERVICES_DATA = {
           title: 'Answer Engine Optimization',
           description: [
             `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.
-        We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
+            We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#1F66BE',
         },
 
         {
@@ -1416,10 +1584,11 @@ export const SERVICES_DATA = {
           title: 'Generative Engine Optimization',
           description: [
             `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.
-        We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
+            We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#5F52B1', 
         },
       ],
     },
@@ -1591,6 +1760,87 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
+    seopackages: {
+      isVisible: false,
+      cardLength: 3,
+      heading: '',
+      description: '',
+      list: [
+        {
+          title: '',
+          desctioption: `Complete SEO Audit`,
+          list: [
+            {
+              des: [`ON-Page Optimization`],
+            },
+            {
+              des: [`Target 15 Primary Keywords`],
+            },
+            {
+              des: [`SEMRush Errors Fixing`],
+            },
+            {
+              des: [`Quality Link Building`],
+            },
+            {
+              des: [`Manual Monthly Reports`],
+            },
+            {
+              des: [`Competitor Analysis`],
+            }
+          ],
+        },
+        {
+          title: '',
+          desctioption: `Complete SEO Audit`,
+          list: [
+            {
+              des: [`ON-Page Optimization`],
+            },
+            {
+              des: [`Target 15 Primary Keywords`],
+            },
+            {
+              des: [`SEMRush Errors Fixing`],
+            },
+            {
+              des: [`Quality Link Building`],
+            },
+            {
+              des: [`Manual Monthly Reports`],
+            },
+            {
+              des: [`Competitor Analysis`],
+            }
+          ],
+        },
+        {
+          title: '',
+          desctioption: `Complete SEO Audit`,
+          list: [
+            {
+              des: [`ON-Page Optimization`],
+            },
+            {
+              des: [`Target 15 Primary Keywords`],
+            },
+            {
+              des: [`SEMRush Errors Fixing`],
+            },
+            {
+              des: [`Quality Link Building`],
+            },
+            {
+              des: [`Manual Monthly Reports`],
+            },
+            {
+              des: [`Competitor Analysis`],
+            }
+          ],
+        }
+      ]
+
+    },
   },
   'link-building-services-india': {
     sectionsOrder: [
@@ -1759,6 +2009,7 @@ brand appears in AI summaries and citations.`,
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
+      isInCenter: true,
       heading: 'How Adaired Helps You With Authority Link Building Services',
       description: [``],
       list: [
@@ -1868,6 +2119,8 @@ brand appears in AI summaries and citations.`,
           linkHref: '#',
         },
       ],
+      button: 'Get Your Free AI SEO Audit',
+      btnColor: '#1A5A96',
     },
 
     serviceResult: {
@@ -1946,25 +2199,25 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -1972,6 +2225,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     adairedHelp: {
       isVisible: true,
+      isInCenter: true,
       heading: 'Benefits of Authority Link Building Services',
       img: adairedHelpImgLink,
       list: [
@@ -2031,6 +2285,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: false,
       isVariant: '01',
+      breakIndex: 5,
       img: LinkBuilding,
       heading: 'Build Links That Work for Your Business in',
       span: '2026 and Beyond',
@@ -2044,6 +2299,8 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: true,
+      bgColor: true,
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -2163,7 +2420,7 @@ brand appears in AI summaries and citations.`,
     whatMissing: {
       isVisible: true,
       breakIndex: 5,
-      bgColor: true,
+      bgColor: false,
       isInCenter: true,
       heading:
         'What Your Business Could Be Missing And How Link Building Can Help?',
@@ -2573,25 +2830,25 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -2599,6 +2856,8 @@ brand appears in AI summaries and citations.`,
     // Updated
     adairedHelp: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 6,
       heading:
         'How Adaired Can Help You With Professional Website Design and Development Services?',
       img: HowAdairedHelp,
@@ -2661,6 +2920,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: true,
       isVariant: '02',
+      breakIndex: 5,
       img: BeautifulDesign,
       heading: 'Beautiful Design Meets Smart Development.',
       description:
@@ -2881,6 +3141,7 @@ brand appears in AI summaries and citations.`,
   'local-seo-company-india': {
     sectionsOrder: [
       'banner',
+      'seopackages',
       'keyStats',
       'whatareservice',
       'benefitofAiSeo',
@@ -3572,94 +3833,94 @@ brand appears in AI summaries and citations.`,
       bgImage: leadingToolsImg,
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
       ]
 
@@ -3738,6 +3999,7 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       isCode01: true,
       isVariant: '01',
+      breakIndex: 5,
       img: BeautifulDesign,
       heading: '',
       description: '',
@@ -3758,6 +4020,86 @@ brand appears in AI summaries and citations.`,
       bgImage: stop_struggle2,
       title: 'Stop Guessing Start Acting ',
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    seopackages: {
+      isVisible: true,
+      cardLength: 2,
+      heading: 'Local SEO Packages',
+      description: '',
+      data: [
+        {
+          title: 'GBP Only Establish',
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          desc: '$299',
+          span: '/month',
+          desctioption: `Complete GBP Audit`,
+          list: [
+            {
+              des: [`Google Business Profile optimization`],
+            },
+            {
+              des: [`NAP (Name, Address, Phone) consistency`],
+            },
+            {
+              des: [`City-based keyword research`],
+            },
+            {
+              des: [`“Near me” keyword targeting`],
+            },
+            {
+              des: [`Local Citation Building`],
+            },
+            {
+              des: [`Review strategy`],
+            },
+            {
+              des: [`Local Search Grid Tracking`],
+            },
+            {
+              des: [`Monthly Performance Reports`],
+            }
+          ],
+          button: 'Start Growing',
+          btnColor: '#000000',
+        },
+        {
+          title: 'GBP + Website Dominate',
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          desc: '$599',
+          span: '/month',
+          desctioption: `Everything in GBP Package`,
+          list: [
+            {
+              des: [`Website Optimization`],
+            },
+            {
+              des: [`Schema Markup (LocalBusiness)`],
+            },
+            {
+              des: [`Service + Location Pages`],
+            },
+            {
+              des: [`Embed Google Map`],
+            },
+            {
+              des: [`Internal Linking to Location Pages`],
+            },
+            {
+              des: [`Submission to High-Authority Directories`],
+            },
+            {
+              des: [`Local Rank Tracking`],
+            },
+            {
+              des: [`Local Search Grid Tracking`],
+            }
+          ],
+          button: 'Dominate Search',
+          btnColor: '#000000',
+        }
+      ]
+
     },
   },
   'social-media-outsourcing-india': {
@@ -3894,6 +4236,7 @@ brand appears in AI summaries and citations.`,
       cardBorder: '',
       isVariant: '01',
       bgColor: '#F5F5F5',
+      borderColor: 'border-[#FB9100]/20',
       isVisible: true,
       heading: 'Our White Label Social Media Services',
       description: [
@@ -4052,7 +4395,10 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
+      isInCenter: true,
+      isDecVarticle: false,
       img: AdairedHelpSocial,
+      breakIndex: 7,
       heading: 'Benefits of Partnering With a White Label Social Media Agency',
       description: `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
       mainImage: adairedHelpImg,
@@ -4194,6 +4540,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: true,
       isVariant: '03',
+      breakIndex: 3,
       bgImg: whiteBookConsultationBg,
       img: whiteBuildLinkImg,
       heading: 'Ready to Expand Your Agency?',
@@ -4496,25 +4843,25 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -4831,7 +5178,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       bgColor: '',
       cardColor: '',
-      borderColor: '#FB9100',
+      borderColor: 'border-[#FB9100]/20',
       heading: 'What Will Our White Label SEO   Services Cover?',
       description: [
         `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`,
@@ -5031,6 +5378,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: true,
       isVariant: '03',
+      breakIndex: 3,
       bgImg: whiteBookConsultationBg,
       img: whiteSeoBuildLinkImg,
       heading: 'Ready to Offer SEO Without Building an In-House Team?',
@@ -5044,7 +5392,7 @@ brand appears in AI summaries and citations.`,
           desctioption: `Talk to our team to understand how our reseller SEO services model fits into your current services and workflows.`,
         },
       ],
-      button: 'Get a Quote!',
+      button: 'Request a Consultation',
     },
 
     faqData: {
@@ -5103,25 +5451,25 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -5525,7 +5873,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '07',
+      code: '10',
       img: whiteServicesKeyStatsImg,
       heading: 'Why Choose White-Label Delivery',
       bgColor: '#FB9100',
@@ -5733,6 +6081,7 @@ brand appears in AI summaries and citations.`,
           linkHref: '#',
         },
       ],
+      button: 'Start a Conversation',
     },
 
     adairedHelp: {
@@ -5832,6 +6181,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: true,
       isVariant: '03',
+      breakIndex: 3,
       bgImg: whiteBookConsultationBg,
       img: whiteServicesBuildLinkImg,
       label: 'Ready to Expand Your',
@@ -6153,6 +6503,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: false,
       breakIndex: 5,
+      borderColor: '[#FB9100]/20',
       heading: 'What Will Our White Label SEO Services Cover?',
       description: [
         `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`,
@@ -6319,25 +6670,25 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -6416,6 +6767,7 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: false,
+      bgColor: true,
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -6603,28 +6955,9 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Strategic Keyword Research',
           description: [
-            `Every successful PPC campaign starts with precision targeting.`,
-            `We identify high-intent keywords that your ideal customers are actively searching for. Our focus is not just traffic; it’s profitable traffic. We analyze:`,
-            {
-              list: [
-                {
-                  des: `Commercial and transactional search terms`,
-                },
-                {
-                  des: `Competitor bidding strategies`,
-                },
-                ,
-                {
-                  des: `Cost-per-click trends`,
-                },
-                {
-                  des: `Conversion intent signals`,
-                },
-                {
-                  des: `Long-tail opportunities`,
-                },
-              ],
-            },
+            `Every successful PPC campaign starts with precision targeting. We identify high-intent keywords that your ideal customers are actively searching for.`,
+            `Our focus is not just traffic; it’s profitable traffic. 
+            We analyze commercial and transactional search terms, competitor bidding strategies, cost-per-click trends, conversion intent signals, and long-tail opportunities.`,
             `This ensures your ads appear when customers are ready to take action.`,
           ],
         },
@@ -6632,27 +6965,8 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Smart Campaign Structure & Targeting',
           description: [
-            `We build tightly organized campaigns to maximize relevance and performance. Our setup includes:`,
-
-            {
-              list: [
-                {
-                  des: `Strategic campaign segmentation`,
-                },
-                {
-                  des: `Themed ad groups for keyword alignment`,
-                },
-                {
-                  des: `Location-based targeting`,
-                },
-                {
-                  des: `Device optimization`,
-                },
-                {
-                  des: `Audience layering and remarketing`,
-                },
-              ],
-            },
+            `We build tightly organized campaigns to maximize relevance and performance.`,
+            `Our setup includes strategic campaign segmentation, themed ad groups for keyword alignment, location-based targeting, device optimization, and audience layering and remarketing.`,
             `This structure improves efficiency, reduces wasted spending, and increases conversion potential.`,
           ],
         },
@@ -6660,23 +6974,8 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'High-Converting Ad Creation',
           description: [
-            `Our team crafts compelling ad copy that matches search intent and drives clicks. Each ad is designed with:`,
-            {
-              list: [
-                {
-                  des: `Attention-grabbing headlines`,
-                },
-                {
-                  des: `Benefit-driven descriptions`,
-                },
-                {
-                  des: `Clear calls-to-action`,
-                },
-                {
-                  des: `Strategic use of ad extensions`,
-                },
-              ],
-            },
+            `Our team crafts compelling ad copy that matches search intent and drives clicks.`,
+            `Each ad is designed with attention-grabbing headlines, benefit-driven descriptions, clear calls-to-action, and strategic use of ad extensions.`,
             `We ensure your ads stand out while staying highly relevant to the search query.`,
           ],
         },
@@ -6685,23 +6984,7 @@ brand appears in AI summaries and citations.`,
           title: 'Smart Bidding & Budget Control',
           description: [
             `At Adaired Digital Media, we implement bidding strategies aligned with your business goals, whether that’s lead generation, ecommerce sales, or scaling revenue.`,
-            `We optimize for:`,
-            {
-              list: [
-                {
-                  des: `Lower cost per click`,
-                },
-                {
-                  des: `Improved conversion rates`,
-                },
-                {
-                  des: `Stronger return on ad spend (ROAS)`,
-                },
-                {
-                  des: `Efficient budget allocation`,
-                },
-              ],
-            },
+            `We optimize for lower cost per click, improved conversion rates, stronger return on ad spend (ROAS), and efficient budget allocation.`,
             `We continuously monitor performance to ensure every dollar is working toward growth.`,
           ],
         },
@@ -6709,23 +6992,8 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Ad Auction & Quality Optimization',
           description: [
-            `Every time a search is performed, platforms like Google Ads run an instant auction to determine which ads appear. We improve your ad position by optimizing:`,
-            {
-              list: [
-                {
-                  des: `Keyword relevance`,
-                },
-                {
-                  des: `Expected click-through rate`,
-                },
-                {
-                  des: `Ad copy alignment`,
-                },
-                {
-                  des: `Landing page experience`,
-                },
-              ],
-            },
+            `Every time a search is performed, platforms like Google Ads run an instant auction to determine which ads appear.`,
+            `We improve your ad position by optimizing keyword relevance, expected click-through rate, Ad copy alignment, and landing page experience.`,
             `This allows us to outrank competitors, often without needing the highest bid.`,
           ],
         },
@@ -6733,26 +7001,8 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Landing Page Performance',
           description: [
-            `Clicks alone don’t generate revenue; conversions do. As a pay per click company, we ensure your landing pages are optimized for:`,
-            {
-              list: [
-                {
-                  des: `Message match with ads`,
-                },
-                {
-                  des: `Fast load speed`,
-                },
-                {
-                  des: `Mobile responsiveness`,
-                },
-                {
-                  des: `Clear calls-to-action`,
-                },
-                {
-                  des: `Conversion tracking accuracy`,
-                },
-              ],
-            },
+            `Clicks alone don’t generate revenue; conversions do.`,
+            `As a pay per click company, we ensure your landing pages are optimized for message match with ads, fast load speeds, mobile responsiveness, clear calls-to-action, and conversion tracking accuracy.`,
             `This step is critical in turning traffic into leads and sales.`,
           ],
         },
@@ -6760,30 +7010,9 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Continuous Monitoring & Optimization',
           description: [
-            `PPC success requires ongoing refinement. At Adaired Digital Media, we:`,
-            {
-              list: [
-                {
-                  des: `Analyze conversion data`,
-                },
-                {
-                  des: `Test new ad variations`,
-                },
-                {
-                  des: `Add negative keywords`,
-                },
-                {
-                  des: `Adjust bids strategically`,
-                },
-                {
-                  des: `Scale winning campaigns`,
-                },
-                {
-                  des: `Improve underperforming areas`,
-                },
-              ],
-            },
-            `Our goal is consistent improvement and scalable growth`,
+            `PPC success requires ongoing refinement.`,
+            `At Adaired Digital Media, we analyze conversion data, test new ad variations, add negative keywords, adjust bids strategically, scale winning campaigns, and improve underperforming areas.`,
+            `Our goal is consistent improvement and scalable growth.`,
           ],
         },
       ],
@@ -6801,240 +7030,90 @@ brand appears in AI summaries and citations.`,
       buttonName: 'Request a Consultation',
       data: [
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_1,
           name: 'Search Ads',
           description: [
-            `Search advertising is one of the most powerful forms of paid marketing services. 
-            These ads appear at the top of search results when potential customers actively look for products or services like yours.`,
-            {
-              desctioption: `Search ads are ideal for:`,
-              list: [
-                {
-                  des: [`Businesses targeting high-intent buyers`],
-                },
-                {
-                  des: [`Short sales cycles`],
-                },
-                {
-                  des: [`Lead generation campaigns`],
-                },
-                {
-                  des: [`Promotional pushes`],
-                },
-              ],
-            },
-            `We build search campaigns on platforms like Google Ads that focus on capturing demand at the exact moment customers are 
-            ready to act, delivering qualified, conversion-ready traffic.`,
+            `Search advertising is one of the most powerful forms of paid marketing services.`,
+            `These ads appear at the top of search results when potential customers actively look for products or services like yours.`,
+            `We build search campaigns on platforms like Google Ads that focus on capturing demand at the exact moment customers are ready to act, delivering qualified, conversion-ready traffic.`,
           ],
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_2,
           name: 'Display Ads',
           description: [
             `Display ads appear across Google’s partner websites and apps, targeting users based on interests, browsing behavior, and online activity.`,
-            {
-              desctioption: `Display advertising is ideal for:`,
-              list: [
-                {
-                  des: [`Brand awareness campaigns`],
-                },
-                {
-                  des: [`Long sales cycles`],
-                },
-                {
-                  des: [`Luxury or niche markets`],
-                },
-                {
-                  des: [`Audience retargeting`],
-                },
-              ],
-            },
             `Our team uses visually compelling creatives, strategic audience targeting, and placement optimization to capture attention and nurture prospects through the buying journey.`,
           ],
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_3,
           name: 'Social Media Ads',
           description: [
-            `Social media PPC is one of the fastest-growing advertising channels. 
-            These ads appear across major social platforms and are targeted based on user interests, behaviors, demographics, and engagement patterns.`,
-            {
-              desctioption: `Social advertising works best for:`,
-              list: [
-                {
-                  des: [`Brands with active social presence`],
-                },
-                {
-                  des: [`Highly targeted audience segments`],
-                },
-                {
-                  des: [`Product launches`],
-                },
-                {
-                  des: [`Ecommerce campaigns`],
-                },
-              ],
-            },
+            `Social media PPC is one of the fastest-growing advertising channels.`,
+            `These ads appear across major social platforms and are targeted based on user interests, behaviors, demographics, and engagement patterns.`,
             `Adaired Digital Media creates high-converting social campaigns designed to drive engagement, traffic, and sales while maintaining cost efficiency.`,
           ],
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_4,
           name: 'Remarketing Ads',
           description: [
-            `Remarketing is one of the most effective ways to increase conversions and improve ROI. These ads target users who have already visited your website but didn’t convert.`,
-            {
-              desctioption: `By re-engaging warm audiences, remarketing:`,
-              list: [
-                {
-                  des: [`Increases brand recall`],
-                },
-                {
-                  des: [`Improves conversion rates`],
-                },
-                {
-                  des: [`Lowers cost per acquisition`],
-                },
-                {
-                  des: [`Maximizes existing traffic value`],
-                },
-              ],
-            },
+            `Remarketing is one of the most effective ways to increase conversions and improve ROI.`,
+            `These ads target users who have already visited your website but didn’t convert.`,
             `Because competition is lower and audiences are highly targeted, remarketing campaigns often deliver strong returns at a reduced cost.`,
           ],
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_5,
           name: 'Shopping Ads',
           description: [
             `For ecommerce businesses, Shopping ads provide powerful visibility.`,
-            {
-              desctioption: `These ads appear directly in search results with:`,
-              list: [
-                {
-                  des: [`Product images`],
-                },
-                {
-                  des: [`Pricing`],
-                },
-                {
-                  des: [`Store name`],
-                },
-                {
-                  des: [`Reviews`],
-                },
-              ],
-            },
             `They allow potential buyers to compare products before clicking, meaning traffic is often more qualified.`,
             `We optimize product feeds, bidding strategies, and campaign structure within Google Ads to ensure maximum visibility and a stronger return on ad spend.`,
           ],
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_6,
           name: 'In-Stream Ads',
           description: [
             `These ads appear before, during, or after video content across platforms like YouTube.`,
-            {
-              desctioption: `These campaigns are ideal for:`,
-              list: [
-                {
-                  des: [`Brand storytelling`],
-                },
-                {
-                  des: [`Product demonstrations`],
-                },
-                {
-                  des: [`Audience engagement`],
-                },
-                {
-                  des: [`Remarketing strategies`],
-                },
-              ],
-            },
-            `Video advertising allows your brand to connect with users in a more memorable and engaging way. 
-            Being the leading paid search advertising agency, our team ensures precise targeting and optimized placements for maximum impact.`,
+            `Video advertising allows your brand to connect with users more memorably and engagingly.`,
+            `Being the leading paid search advertising agency, our team ensures precise targeting and optimized placements for maximum impact.`,
           ],
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_7,
           name: 'Gmail Sponsored Promotions',
           description: [
             `Gmail ads allow businesses to reach users directly inside their inbox.`,
-            {
-              desctioption: `These ads are effective for:`,
-              list: [
-                {
-                  des: [`B2B campaigns`],
-                },
-                {
-                  des: [`Promotional offers`],
-                },
-                {
-                  des: [`Lead generation`],
-                },
-                {
-                  des: [`Re-engagement campaigns`],
-                },
-              ],
-            },
+            `These ads are effective for B2B campaigns, promotional offers, lead generation, and re-engagement campaigns.`,
             `We structure Gmail campaigns with advanced targeting, compelling creatives, and conversion tracking to generate high-quality clicks and inquiries.`,
           ],
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_8,
           name: 'Local Services Ads',
           description: [
             `Local Services Ads operate on a pay-per-lead model rather than pay-per-click.`,
-            {
-              desctioption: `This model is ideal for service-based businesses such as:`,
-              list: [
-                {
-                  des: [`HVAC companies`],
-                },
-                {
-                  des: [`Electricians`],
-                },
-                {
-                  des: [`Plumbers`],
-                },
-                {
-                  des: [`Locksmiths`],
-                },
-              ],
-            },
+            `This model is ideal for service-based businesses such as HVAC companies, electricians, plumbers, and locksmiths.`,
             `You only pay when a verified lead contacts your business, making it a highly efficient advertising option for local providers.`,
           ],
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_9,
           name: 'Amazon PPC Ads',
           description: [
             `For ecommerce brands selling on Amazon, Amazon PPC campaigns increase product visibility within the platform.`,
-            {
-              desctioption: `These ads help:`,
-              list: [
-                {
-                  des: [`Improve product rankings`],
-                },
-                {
-                  des: [`Increase brand awareness`],
-                },
-                {
-                  des: [`Drive more sales`],
-                },
-                {
-                  des: [`Maximize marketplace exposure`],
-                },
-              ],
-            },
+            `These ads improve product rankings, increase brand awareness, drive more sales, and maximize marketplace exposure.`,
             `Our team builds structured Amazon campaigns designed to increase profitability while controlling advertising costs.`,
           ],
           button: 'Request a Campaign Audit',
@@ -7125,92 +7204,84 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
-      img: whiteServicesAdairedHelpImg,
+      img: benefitsOfPPC,
       isInCenter: false,
       bgColor: '#FFFCF8',
-      heading: `Work with Adaired's Agency-First White-Label Model`,
+      heading: `The Benefits of PPC Marketing for Your Company`,
       description: [
-        `Our white-label model is designed to reduce execution pressure while providing agencies with 
-        complete control over how services are positioned, priced, and presented to clients. 
-        Rather than providing generic outsourcing, we serve as a structured fulfillment layer that integrates with existing agency operations.`,
+        `We use pay per click advertising as a strategic growth engine, not just a traffic source. When executed properly, PPC delivers immediate visibility, precise targeting, and measurable returns.`,
+        `Here are the key benefits of investing in professional PPC management:`,
       ],
-      mainImage: whiteServicesAdairedHelpImg,
+      mainImage: benefitsOfPPC,
       list: [
         {
           img: '',
-          name: 'White Label Reporting',
+          name: 'Fast Market Entry',
           description: [
-            `Reporting is essential for effective client communication. 
-            Adaired provides white-label reports that can be delivered directly to clients or integrated into your current reporting formats.`,
-            `Metrics, insights, and progress updates are intended to promote transparency without revealing third-party involvement. 
-            This enables agencies to consistently present results while reducing internal reporting effort.`,
+            `PPC allows your business to appear at the top of search results almost instantly.`,
+            `Unlike long-term strategies that take months to gain traction, paid campaigns can begin generating clicks and leads as soon as they go live. Whether you're launching a new service or entering a competitive market, PPC gives you immediate exposure.`,
           ],
         },
         {
           img: '',
-          name: 'Dedicated Account Management',
+          name: 'Increased Brand Visibility',
           description: [
-            `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination.`,
-            `This eliminates the uncertainty that is often associated with freelancers or distributed vendors while also ensuring clear accountability. 
-            Agencies benefit from having a single, consistent communication channel, eliminating the need to manage daily execution tasks.`,
+            `Even when users don’t click your ad, they still see your brand.`,
+            `Platforms like Google Ads position your business at the top of search results, reinforcing credibility and increasing brand awareness among high-intent audiences.`,
+            `This repeated visibility builds trust and keeps your company top-of-mind.`
           ],
         },
         {
           img: '',
-          name: 'On-Time Delivery and Structured Timelines',
+          name: 'Precision Audience Targeting',
           description: [
-            `Missed deadlines directly impact client trust. 
-            Adaired follows defined delivery schedules and internal checkpoints to ensure work is completed within agreed timelines.`,
-            `Service execution is planned in advance, reducing last-minute delays and reactive management. 
-            This structured approach helps agencies maintain reliable delivery standards as service demand increases.`,
+            `PPC allows you to reach exactly the right audience at the right time.`,
+            `At Adaired, we target users based on search intent, geographic location, service usage, demographics, interests, behaviors, and remarketing activity.`,
+            `This granular control ensures your ad budget is spent only on users most likely to convert.`
           ],
         },
         {
           img: '',
-          name: 'Affordable Pricing Compared to Other Models',
+          name: 'Measurable & Trackable Results',
           description: [
-            `Hiring and maintaining in-house teams involves fixed costs, training time, and long-term commitments. 
-            Adaired’s white-label services offer a cost-efficient alternative, allowing agencies to access specialized execution without carrying internal overhead.`,
-            `Our pricing model is designed to remain competitive while supporting sustainable agency margins.`,
+            `Every click, impression, and conversion is tracked.`,
+            `Using tools like Google Analytics, we monitor campaign performance in real time, allowing us to measure cost per lead, track return on ad spend (ROAS), identify top-performing keywords, and optimize underperforming ads.`,
+            `No guesswork, just data-driven decisions`
           ],
         },
         {
           img: '',
-          name: 'Brand Protection and Confidentiality ',
+          name: 'Faster Lead Generation ',
           description: [
-            `Brand integrity is critical in white-label partnerships. 
-            Adaired operates under strict confidentiality protocols to ensure your agency remains the sole visible service provider.`,
-            `No branding, outreach, or communication is conducted in our name unless explicitly agreed upon. 
-            Client data, account access, and reporting remain under your control at all times.`,
+            `Because PPC targets users who are actively searching for solutions, the traffic it generates is high-intent.`,
+            `This often leads to more qualified inquiries, higher conversion rates, shorter sales cycles, and faster revenue growth.`,
+            `For service-based businesses, this can mean immediate phone calls and booking requests after launch.`,
           ],
         },
         {
           img: '',
-          name: 'Consistency at Scale',
+          name: 'Continuous Testing & Performance Improvement',
           description: [
-            `As agencies grow, maintaining consistent quality across accounts becomes increasingly difficult. 
-            Adaired’s delivery processes are structured to support scale without sacrificing execution standards.`,
-            `Internal quality checks, standardized workflows, and defined service benchmarks help maintain consistency as volume increases. 
-            This allows agencies to grow service capacity without introducing delivery instability.`,
+            `PPC is never static.`,
+            `We constantly test new ad variations, refine targeting, adjust bidding strategies, and improve landing pages. Small improvements in click-through rate or conversion rate can significantly lower your overall cost per acquisition.`,
+            `Ongoing optimization is what turns a good campaign into a highly profitable one.`,
           ],
         },
         {
           img: '',
-          name: 'Predictable Resource Planning',
+          name: 'Complete Budget Control',
           description: [
-            `Hiring in-house teams requires long-term commitments, training cycles, and fixed costs. 
-            Adaired’s white-label model offers flexible capacity that adjusts with demand.`,
-            `Agencies can expand or reduce service delivery without internal restructuring or staffing risk. 
-            This predictability supports healthier margins and more accurate forecasting.`,
+            `When you hire PPC experts, you remain in full control of your advertising spend.`,
+            `You can set daily or monthly budgets, pause campaigns anytime, scale winning ads, and shift budget toward high-performing keywords.`,
+            `This flexibility allows your marketing strategy to adapt quickly to performance trends and business goals.`
           ],
         },
         {
           img: '',
-          name: 'Long-Term Partnership Focus',
+          name: 'Works Alongside SEO',
           description: [
-            `Adaired works with agencies looking for sustained growth rather than short-term fulfillment. 
-            Our processes are designed to support ongoing client relationships, recurring service models, and long-term delivery stability.`,
-            `This partnership approach allows agencies to focus on growth, strategy, and client retention while fulfillment remains dependable.`,
+            `PPC and SEO are strongest when combined.`,
+            `While SEO builds long-term authority, PPC provides immediate traffic and valuable keyword insights. The data gathered from paid campaigns can also improve your organic strategy, creating a powerful, integrated marketing approach.`,
           ],
         },
       ],
@@ -7220,6 +7291,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: true,
       isVariant: '03',
+      breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: ppcServicesBuildLinkImg,
       label: 'Build a PPC Campaign',
@@ -7707,6 +7779,8 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: false,
+      bgColor: true,
+      isInCenter: true,
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -7804,82 +7878,73 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '08',
+      code: '07',
       isCenter: false,
       isVisible: true,
-      heading: 'Scalable PPC Campaigns',
+      heading: 'White Label PPC Services',
       subheading: '',
       subtitle: '',
-      label: 'Own the Top Spot with',
+      label: 'Accelerate Agency Growth with',
       desc: [
-        `Drive high-intent traffic, generate qualified leads, and maximize ROI with data-driven PPC management. We build, optimize, and scale paid search campaigns that turn clicks into real revenue.`,
+        `Stop turning down PPC clients. Launch high-performance white-label paid ads services without expanding your internal team.`,
+        `At Adaired Digital Media, we deliver high-performing Google Ads and paid media campaigns under your brand, so you can focus on sales and client relationships and grow faster.`,
       ],
-      button: 'Request a Campaign Audit',
+      button: 'Become a White Label Reseller',
       width: '20rem',
       widthLg: '30rem',
-      bgImg: PPC_Banner,
+      bgImg: whitePaidAdsBannerBg,
     },
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
-      img: WhatIsPPC,
-      heading: 'What is Pay Per',
-      span: 'Click Advertising?',
+      isVariant: '09',
+      img: whiteWhatIsImg,
+      heading: 'What Is White',
+      span: 'Label PPC?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `PPC advertising is a digital marketing strategy where businesses pay a fee each time someone clicks on their ad. 
-          Instead of waiting to earn traffic organically, 
-          PPC allows you to place your business directly in front of people who are actively searching for your products or services.`,
+          desctioption: `White-label PPC is a partnership model that allows digital marketing agencies to offer professional paid advertising 
+          services under their own brand, without managing the campaigns in-house.`,
         },
         {
-          desctioption: `The most common form of PPC appears on search engines through platforms like Google Ads and Microsoft Advertising.`
+          desctioption: `In a white-label setup, a specialized PPC management company handles the strategy, campaign setup, optimization, tracking, and reporting behind the scenes. 
+          Your agency maintains full ownership of the client relationship, branding, and pricing.`
         },
-        {
-          desctioption: `When a user searches for a specific keyword (for example, “emergency plumber near me” or “buy running shoes online”), 
-          sponsored ads appear at the top of the search results. If the user clicks on your ad, you pay for that click.`,
-        }
-
       ],
       button: '',
     },
 
     whatMissing: {
       isVisible: true,
-      heading: 'What Are Local SEO Ranking Factors?',
+      bgColor: false,
+      isInCenter: true,
+      heading: 'How Does White Label PPC Work?',
       description: [
-        `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
-        Google now relies on three primary ranking factors to determine local visibility: Relevance, Distance, and Prominence.`,
-        `Together these factors assist Google in presenting the most accurate, trustworthy, and helpful local businesses to its users during their search.`,
+        `The process is simple and scalable:`,
       ],
       list: [
         {
-          icon: missing_1,
-          title: 'Relevance',
+          icon: whitePaidAdsMissing_1,
+          title: 'You Acquire the Client',
           description: [
-            `Relevance takes into consideration the similarity of your business with what the user wants to search. 
-            Google considers your business details, web content, service descriptions, categories and keywords to find out whether your business fits in the intention of the user.`,
-            `Clear, accurate, and well-optimized content improves relevance and increases the likelihood of appearing for the right local searches.`,
+            `Your agency sells PPC services as part of your marketing solutions and manages communication with the client.`,
           ],
         },
         {
-          icon: missing_2,
-          title: 'Distance',
+          icon: whitePaidAdsMissing_2,
+          title: 'We Build & Manage the Campaigns',
           description: [
-            `Distance measures how close your business is to the searcher or to the location specified in the search. 
-            You cannot control the location of the user, but you can make sure that your address, service areas and location information is correct and showing the same points on the web.`,
-            `Good relevance and high profile may enable the businesses to appear high even when the business is not the nearest.`,
+            `Our PPC experts handle keyword research, competitor analysis, campaign structure, ad copy creation, conversion tracking, bid optimization, 
+            and ongoing performance management.`,
           ],
         },
         {
-          icon: missing_3,
-          title: 'Prominence',
+          icon: whitePaidAdsMissing_3,
+          title: 'You Deliver Results Under Your Brand',
           description: [
-            `Prominence reflects how well-known and trusted your business is online. 
-            Google evaluates the signals including customer reviews, rating, local citation, and back links, mention of the brand and general online presence.`,
-            `Companies that enjoy a high degree of authority and good reputation are more likely to feature on top search results in the local search engine.`,
+            `We provide detailed performance reports and insights, fully aligned with your branding. Your client sees results, and your agency gets the credit.`,
           ],
         },
       ],
@@ -8014,253 +8079,182 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: true,
-      breakIndex: 5,
-      isVariant: '01',
-      heading: 'Our Pay Per Click Advertising Services',
+      breakIndex: 4,
+      isVariant: '03',
+      heading: 'Our White Label PPC Management Services',
       description: [
-        `At Adaired, we design multi-channel PPC strategies tailored to your business goals, audience behavior, and sales cycle. 
-        From search intent to remarketing and ecommerce campaigns, we build paid advertising systems that drive measurable growth.`,
+        `At Adaired Digital Media, we provide comprehensive white-label PPC Management Services designed to help agencies deliver high-performance paid advertising under their own brand. 
+        From search engines to social media and eCommerce marketplaces, we manage every campaign with precision, strategy, and ROI focus.`,
       ],
-      buttonName: 'Request a Consultation',
+      buttonName: 'Become a White Label Reseller',
       data: [
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'Search Ads',
+          icon: whitePaidAdsImpIcon_1,
+          name: 'White Label Google Ads Management',
           description: [
-            `Search advertising is one of the most powerful forms of paid marketing services. 
-            These ads appear at the top of search results when potential customers actively look for products or services like yours.`,
+            `Google Ads remains the most powerful pay-per-click advertising platform, offering unmatched reach and advanced targeting capabilities.`,
             {
-              desctioption: `Search ads are ideal for:`,
+              desctioption: `As your white-label PPC partner, we manage:`,
               list: [
                 {
-                  des: [`Businesses targeting high-intent buyers`],
+                  des: [`Search Campaigns`],
                 },
                 {
-                  des: [`Short sales cycles`],
+                  des: [`Shopping Ads`],
                 },
                 {
-                  des: [`Lead generation campaigns`],
+                  des: [`Display Campaigns`],
                 },
                 {
-                  des: [`Promotional pushes`],
+                  des: [`Performance Max Campaigns`],
+                },
+                {
+                  des: [`YouTube Ads`],
                 },
               ],
             },
-            `We build search campaigns on platforms like Google Ads that focus on capturing demand at the exact moment customers are 
-            ready to act, delivering qualified, conversion-ready traffic.`,
+            `We craft data-driven strategies to maximize ad spend, improve conversion rates, and drive measurable ROI, all under your agency’s branding.`,
           ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#2E8ADD',
         },
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'Display Ads',
+          icon: whitePaidAdsImpIcon_2,
+          name: 'White Label Microsoft (Bing) Ads',
           description: [
-            `Display ads appear across Google’s partner websites and apps, targeting users based on interests, browsing behavior, and online activity.`,
+            `Microsoft Ads (formerly Bing Ads) provides access to a highly engaged audience, often at a lower cost-per-click.`,
             {
-              desctioption: `Display advertising is ideal for:`,
+              desctioption: `Our white-label advertising services include:`,
               list: [
                 {
-                  des: [`Brand awareness campaigns`],
+                  des: [`Search Campaign Optimization`],
                 },
                 {
-                  des: [`Long sales cycles`],
+                  des: [`Shopping Campaign Management`],
                 },
                 {
-                  des: [`Luxury or niche markets`],
+                  des: [`Audience Targeting & Bid Strategy`],
                 },
                 {
-                  des: [`Audience retargeting`],
+                  des: [`Conversion Tracking & Reporting`],
                 },
               ],
             },
-            `Our team uses visually compelling creatives, strategic audience targeting, and placement optimization to capture attention and nurture prospects through the buying journey.`,
+            `We help your agency expand reach and increase lead generation while maintaining efficient ad spend.`,
           ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#008599',
         },
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'Social Media Ads',
+          icon: whitePaidAdsImpIcon_3,
+          name: 'White Label Facebook & Instagram Ads',
           description: [
-            `Social media PPC is one of the fastest-growing advertising channels. 
-            These ads appear across major social platforms and are targeted based on user interests, behaviors, demographics, and engagement patterns.`,
+            `Social media advertising plays a critical role in brand awareness and lead generation.`,
             {
-              desctioption: `Social advertising works best for:`,
+              desctioption: `We manage:`,
               list: [
                 {
-                  des: [`Brands with active social presence`],
+                  des: [`Carousel Ads`],
                 },
                 {
-                  des: [`Highly targeted audience segments`],
+                  des: [`Video Ads`],
                 },
                 {
-                  des: [`Product launches`],
+                  des: [`Dynamic Product Ads`],
                 },
                 {
-                  des: [`Ecommerce campaigns`],
+                  des: [`Lead Generation Ads`],
+                },
+                {
+                  des: [`Story & Feed Ads`],
                 },
               ],
             },
-            `Adaired Digital Media creates high-converting social campaigns designed to drive engagement, traffic, and sales while maintaining cost efficiency.`,
+            `Our team creates high-converting creative strategies and audience targeting frameworks to drive qualified leads and maximize ROI, fully white-labeled under your agency.`,
           ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#FE2181',
         },
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'Remarketing Ads',
+          icon: whitePaidAdsImpIcon_4,
+          name: 'White Label Twitter (X) Ads',
           description: [
-            `Remarketing is one of the most effective ways to increase conversions and improve ROI. These ads target users who have already visited your website but didn’t convert.`,
+            `Twitter Ads allow brands to engage audiences in real time through targeted messaging.`,
             {
-              desctioption: `By re-engaging warm audiences, remarketing:`,
+              desctioption: `We manage:`,
               list: [
                 {
-                  des: [`Increases brand recall`],
+                  des: [`Promoted Posts`],
                 },
                 {
-                  des: [`Improves conversion rates`],
+                  des: [`Follower Campaigns`],
                 },
                 {
-                  des: [`Lowers cost per acquisition`],
+                  des: [`Trend Promotions`],
                 },
                 {
-                  des: [`Maximizes existing traffic value`],
+                  des: [`Lead Generation Campaigns`],
                 },
               ],
             },
-            `Because competition is lower and audiences are highly targeted, remarketing campaigns often deliver strong returns at a reduced cost.`,
+            `Our strategies focus on increasing brand awareness and driving measurable conversions through optimized PPC execution.`,
           ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#000000',
         },
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'Shopping Ads',
+          icon: whitePaidAdsImpIcon_5,
+          name: 'White Label Pinterest Ads',
           description: [
-            `For ecommerce businesses, Shopping ads provide powerful visibility.`,
+            `Pinterest offers access to users actively searching for inspiration and purchase ideas.`,
             {
-              desctioption: `These ads appear directly in search results with:`,
+              desctioption: `Our white label paid ads services include:`,
               list: [
                 {
-                  des: [`Product images`],
+                  des: [`Promoted Pins`],
                 },
                 {
-                  des: [`Pricing`],
+                  des: [`Video Ads`],
                 },
                 {
-                  des: [`Store name`],
+                  des: [`Traffic Campaigns`],
                 },
                 {
-                  des: [`Reviews`],
+                  des: [`Conversion Campaigns`],
                 },
               ],
             },
-            `They allow potential buyers to compare products before clicking, meaning traffic is often more qualified.`,
-            `We optimize product feeds, bidding strategies, and campaign structure within Google Ads to ensure maximum visibility and a stronger return on ad spend.`,
+            `We create visually compelling campaigns that drive engagement, website traffic, and revenue growth.`,
           ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#FF1D25',
         },
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'In-Stream Ads',
+          icon: whitePaidAdsImpIcon_6,
+          name: 'White Label Amazon Ads',
           description: [
-            `These ads appear before, during, or after video content across platforms like YouTube.`,
+            `For eCommerce-focused agencies, Amazon Ads provide direct access to high-intent shoppers.`,
             {
-              desctioption: `These campaigns are ideal for:`,
+              desctioption: `We manage:`,
               list: [
                 {
-                  des: [`Brand storytelling`],
+                  des: [`Sponsored Products`],
                 },
                 {
-                  des: [`Product demonstrations`],
+                  des: [`Sponsored Brands`],
                 },
                 {
-                  des: [`Audience engagement`],
+                  des: [`Sponsored Display Ads`],
                 },
                 {
-                  des: [`Remarketing strategies`],
+                  des: [`Marketplace Optimization`],
                 },
               ],
             },
-            `Video advertising allows your brand to connect with users in a more memorable and engaging way. 
-            Being the leading paid search advertising agency, our team ensures precise targeting and optimized placements for maximum impact.`,
+            `Our goal is to increase visibility, drive product sales, and improve Return on Ad Spend (ROAS).`,
           ],
-          button: 'Request a Campaign Audit',
-        },
-        {
-          icon: whiteSeoImpIcon_1,
-          name: 'Gmail Sponsored Promotions',
-          description: [
-            `Gmail ads allow businesses to reach users directly inside their inbox.`,
-            {
-              desctioption: `These ads are effective for:`,
-              list: [
-                {
-                  des: [`B2B campaigns`],
-                },
-                {
-                  des: [`Promotional offers`],
-                },
-                {
-                  des: [`Lead generation`],
-                },
-                {
-                  des: [`Re-engagement campaigns`],
-                },
-              ],
-            },
-            `We structure Gmail campaigns with advanced targeting, compelling creatives, and conversion tracking to generate high-quality clicks and inquiries.`,
-          ],
-          button: 'Request a Campaign Audit',
-        },
-        {
-          icon: whiteSeoImpIcon_1,
-          name: 'Local Services Ads',
-          description: [
-            `Local Services Ads operate on a pay-per-lead model rather than pay-per-click.`,
-            {
-              desctioption: `This model is ideal for service-based businesses such as:`,
-              list: [
-                {
-                  des: [`HVAC companies`],
-                },
-                {
-                  des: [`Electricians`],
-                },
-                {
-                  des: [`Plumbers`],
-                },
-                {
-                  des: [`Locksmiths`],
-                },
-              ],
-            },
-            `You only pay when a verified lead contacts your business, making it a highly efficient advertising option for local providers.`,
-          ],
-          button: 'Request a Campaign Audit',
-        },
-        {
-          icon: whiteSeoImpIcon_1,
-          name: 'Amazon PPC Ads',
-          description: [
-            `For ecommerce brands selling on Amazon, Amazon PPC campaigns increase product visibility within the platform.`,
-            {
-              desctioption: `These ads help:`,
-              list: [
-                {
-                  des: [`Improve product rankings`],
-                },
-                {
-                  des: [`Increase brand awareness`],
-                },
-                {
-                  des: [`Drive more sales`],
-                },
-                {
-                  des: [`Maximize marketplace exposure`],
-                },
-              ],
-            },
-            `Our team builds structured Amazon campaigns designed to increase profitability while controlling advertising costs.`,
-          ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#FF9900',
         },
       ],
     },
@@ -8268,7 +8262,7 @@ brand appears in AI summaries and citations.`,
     adairedHelp: {
       isVisible: true,
       breakIndex: 2,
-      img: whiteServicesAdairedHelpImg,
+      img: whitePaidAdsAdairedHelpImg,
       isInCenter: false,
       bgColor: '',
       heading: `Why Businesses Prefer White Label PPC?`,
@@ -8290,8 +8284,8 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Faster Time to Market',
           description: [
-            `Recruiting and training skilled PPC professionals can take months. During that time, agencies may miss opportunities, delay client campaigns, or even turn down potential contracts due to capacity limitations.`, 
-            `White label PPC services enable agencies to launch campaigns quickly, often within days.`,`With established processes, experienced strategists, and ready-to-deploy systems, agencies can begin generating revenue immediately rather than waiting for internal infrastructure to develop.`,
+            `Recruiting and training skilled PPC professionals can take months. During that time, agencies may miss opportunities, delay client campaigns, or even turn down potential contracts due to capacity limitations.`,
+            `White label PPC services enable agencies to launch campaigns quickly, often within days.`, `With established processes, experienced strategists, and ready-to-deploy systems, agencies can begin generating revenue immediately rather than waiting for internal infrastructure to develop.`,
             `Speed to execution directly translates into competitive advantage.`,
           ],
         },
@@ -8300,7 +8294,7 @@ brand appears in AI summaries and citations.`,
           name: 'Access to Experienced PPC Specialists',
           description: [
             `Paid advertising platforms like Google Ads, Microsoft Ads, and social media networks constantly evolve. Algorithm updates, bidding strategies, audience targeting advancements, and compliance changes require continuous adaptation.`,
-            `White label advertising agencies dedicate their focus entirely to paid media management.`, 
+            `White label advertising agencies dedicate their focus entirely to paid media management.`,
             `This specialization allows them to conduct advanced keyword and competitor research, build high-converting campaign structures, continuously test ad creatives and landing pages, optimize bidding strategies based on real-time data, and implement performance-maximizing automation tools.`,
             `Instead of relying on one internal hire, agencies gain access to a team of specialists with diverse platform expertise.`,
           ],
@@ -8391,7 +8385,7 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Scalable Infrastructure for Long-Term Growth',
           description: [
-            `As your agency grows, our support grows with you. Whether you add new clients or increase campaign budgets, our team scales resources accordingly without the delays or risks associated with internal hiring.`,`This flexible infrastructure allows you to pursue expansion confidently while maintaining consistent service quality.`
+            `As your agency grows, our support grows with you. Whether you add new clients or increase campaign budgets, our team scales resources accordingly without the delays or risks associated with internal hiring.`, `This flexible infrastructure allows you to pursue expansion confidently while maintaining consistent service quality.`
           ],
         },
       ],
@@ -8401,25 +8395,28 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: true,
       isVariant: '03',
+      breakIndex: 3,
       bgImg: whiteBookConsultationBg,
-      img: ppcServicesBuildLinkImg,
-      label: 'Build a PPC Campaign',
-      heading: 'That Drives Results',
+      img: whitePaidAdsBuildLinkImg,
+      label: 'Ready to Scale Your',
+      heading: 'Agency Without Hiring In-House?',
       description: ``,
       isBgWhite: true,
       data: [
         {
-          desctioption: `At Adaired, we don’t believe in generic ad campaigns. 
-          We build structured, data-driven PPC strategies designed to generate qualified leads, increase conversions, and maximize return on ad spend.`,
+          desctioption: `Partner with Adaired Digital Media and expand your service offerings with expert white-label PPC management. 
+          Deliver high-performing Google Ads and paid media campaigns under your brand, without the cost, complexity, or risk of building an internal team.`,
         },
         {
-          desctioption: `Whether you're new to paid advertising or looking to improve existing campaigns, our team is ready to help.`,
+          desctioption: `Whether you’re looking to add PPC to your agency for the first time or scale your existing paid advertising services, 
+          our team is ready to support you behind the scenes. 
+          We handle strategy, execution, and optimization, while you focus on closing deals and strengthening client relationships.`,
         },
         {
-          desctioption: `If you're serious about growing your business, it’s time to invest in a system that delivers measurable performance.`,
+          desctioption: `Let’s build predictable, scalable growth for your agency.`,
         },
       ],
-      button: 'Request a Custom PPC Proposal',
+      button: 'Contact us today to discuss a customized white-label partnership.',
     },
 
     faqData: {
@@ -8675,6 +8672,929 @@ brand appears in AI summaries and citations.`,
             Our processes are designed to support ongoing client relationships, recurring service models, and long-term delivery stability. 
             This partnership approach allows agencies to focus on growth, strategy, and client retention while fulfillment remains dependable.`,
           ],
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [
+      ]
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+
+  'white-label-link-building': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'ourProcess',
+      'importantToBussiness',
+      'whatMkeDeferent',
+      'buildlinks',
+      'faqData',
+      'adairedHelp',
+      'whatMissing',
+      'dataInTable',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'benefitofAiSeo',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '10',
+      isCenter: false,
+      isVisible: true,
+      heading: 'Authority with High-Quality Backlinks',
+      subheading: '',
+      subtitle: '',
+      label: 'Build Your Client’s Online',
+      desc: [
+        `Strengthen your clients’ SEO strategy with expert white-label link-building services designed for agencies that want to scale without increasing overhead.`,
+        `At Adaired Digital Media, white-label backlinks are built through ethical outreach, high-authority guest posting, and strategic placements that enhance domain authority, improve rankings, 
+        and drive measurable organic growth, all under your brand name.`,
+      ],
+      button: 'Boost My SEO Rankings',
+      width: '20rem',
+      widthLg: '30rem',
+      bgImg: whiteLinkBuildingBannerBg,
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '10',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Key Stats About White Label Link Building',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          desctioption: [
+            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
+          ],
+        },
+        {
+          desctioption: [
+            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
+          ],
+        },
+        {
+          desctioption: [
+            `Over two-thirds (69%) say link building directly drives business growth.`,
+          ],
+        },
+        {
+          desctioption: [
+            `59% predict backlinks will become even more important for rankings.`,
+          ],
+        },
+        {
+          desctioption: [
+            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '07',
+      img: whiteLinkBuildingWhatIsImg,
+      heading: 'What is White',
+      span: 'Label Link Building?',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `White label link building is a fulfillment partnership model where a specialized SEO provider builds high-quality backlinks for your clients, 
+          while you present the service entirely under your own brand.`,
+        },
+        {
+          desctioption: `Instead of hiring an in-house outreach team, content writers, and link acquisition specialists, you can outsource link-building services 
+          to an expert white label link-building company like us to handle the complete backlink building process, from strategy and outreach to content creation and reporting. 
+          Your clients see only your brand, your communication, and your results.`
+        },
+        {
+          desctioption: `In short:`,
+          list: [
+            `1. You sell the service.`,
+            `2. We execute it.`,
+            `3. You keep the credit and the profit margin.`
+          ]
+        },
+      ],
+      button: '',
+    },
+
+    ourProcess: {
+      isVisible: true,
+      subtitle: 'Our Process',
+      title: 'How White Label Link Building Works with Adaired Digital Media',
+      span: 'Here’s a detailed breakdown of how the entire system works:',
+      description: [
+        `At Adaired, our best white label SEO link-building services are built to be seamless, scalable, and completely brandable. 
+        We function as your behind-the-scenes SEO fulfillment team, allowing you to confidently offer premium link building services without managing outreach, writers, or publisher relationships internally.`,
+        `Our structured, step-by-step approach ensures quality, consistency, and long-term SEO impact for your clients.`,
+      ],
+      services: [
+        {
+          icon: step,
+          title: 'Strategy & Planning',
+          description: [
+            `Every successful link-building campaign begins with a solid strategy. At Adaired, we don’t build random links; we build links with purpose.`,
+            `Based on this research, we develop a customized link acquisition roadmap tailored to your client’s goals. 
+            Whether the objective is ranking improvement, authority growth, or local SEO enhancement, our strategy aligns link placements with measurable outcomes.`,
+            `We also carefully plan anchor text distribution to maintain a natural backlink profile and reduce risk.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Manual Outreach & Relationship Building',
+          description: [
+            `Unlike low-quality providers that rely on automated systems or private blog networks (PBNs), we use 100% manual outreach.`,
+            `Our outreach specialists identify niche-relevant, authoritative websites, build genuine relationships with site owners and editors, 
+            pitch valuable content ideas aligned with publisher guidelines, and negotiate contextual link placements.`,
+            `We prioritize websites that have real organic traffic, strong domain metrics, editorial standards, and relevance to your client’s industry.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Content Creation & Placement',
+          description: [
+            `Once a placement opportunity is secured, our content team takes over. 
+            Each article is written to blend seamlessly with the publisher’s existing content, ensuring authenticity and higher acceptance rates. 
+            We focus on contextual placements within the body of the content rather than low-impact sidebar or footer links.`,
+            `Before final publication, every piece undergoes quality review to ensure relevance, readability, and compliance with search engine guidelines.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Quality Assurance & Compliance',
+          description: [
+            `Quality control is a core part of our white-label link-building framework. 
+            At Adaired, we verify website authenticity and traffic metrics, link placement accuracy, proper anchor text usage, indexing status, and no spam signals or toxic link patterns.`,
+            `Our internal review process ensures that every backlink meets our standards before it is delivered to you. 
+            We prioritize sustainable SEO practices aligned with search engine guidelines to protect your clients’ long-term performance.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'White-Labeled Reporting & Delivery',
+          description: [
+            `Transparency is essential for agency partnerships. You receive comprehensive, brand-ready reports that include live link URLs, domain authority or DR metrics, 
+            traffic estimates, anchor text used, placement type (guest post, editorial, etc.), and publication date.`,
+            `All reports are fully white-labeled, allowing you to present them under your brand identity. From your client’s perspective, your agency executed the entire campaign. 
+            This makes it easy for you to demonstrate value, justify retainers, and strengthen client trust.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Ongoing Scaling & Optimization',
+          description: [
+            `White label link building is not a one-time effort. We monitor performance trends and refine strategy over time. 
+            As your client’s authority grows, we adjust the anchor text strategy, target higher authority placements, expand into additional relevant niches, and strengthen topical authority. 
+            This progressive scaling ensures continued ranking improvement and long-term SEO stability.`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      breakIndex: 5,
+      isVariant: '03',
+      heading: 'Our White Label Link Building Services',
+      description: [
+        `At Adaired, we don’t just build links; we engineer authority ecosystems for your clients. 
+        Our white-label link-building services are designed to deliver diversified, natural, and scalable backlink profiles that align with long-term ranking growth.`,
+        `Every campaign is structured to combine multiple authority layers rather than relying on a single tactic.`,
+      ],
+      buttonName: 'Boost My SEO Rankings',
+      data: [
+        {
+          icon: whiteLinkBuildingImpIcon_1,
+          name: 'Authority Guest Publishing Campaigns',
+          description: [
+            `Instead of chasing random placements, we build structured guest publishing campaigns focused on relevance, trust, and long-term value.`,
+            `Our team maps out niche-specific publishing targets, builds direct relationships with editors, crafts industry-relevant thought leadership content, and secures contextual in-content placements.`,
+            `These links strengthen topical authority and send strong relevance signals to search engines, not just raw link equity.`,
+          ],
+          button: 'Boost My SEO Rankings',
+          btnColor: '#2E8ADD',
+        },
+        {
+          icon: whiteLinkBuildingImpIcon_2,
+          name: 'Contextual Authority Insertions',
+          description: [
+            `We strategically place contextual backlinks inside aged, ranking content that already carries trust and visibility.`,
+            `This service focuses on identifying evergreen articles with traffic, ensuring contextual alignment, natural anchor blending, and immediate authority transfer.`,
+            `Because the pages are already indexed and trusted, impact is often faster compared to new content placements.`,
+          ],
+          button: 'Boost My SEO Rankings',
+          btnColor: '#8181D7',
+        },
+        {
+          icon: whiteLinkBuildingImpIcon_3,
+          name: 'Editorial & Brand Mention Campaigns',
+          description: [
+            `For agencies serving competitive niches, brand-level authority signals are critical. 
+            We design editorial outreach campaigns that position your clients as industry contributors, data sources, expert commentators, and resource creators.`,
+            `These placements often appear on high-authority publications, strengthening brand trust alongside SEO performance.`,
+          ],
+          button: 'Boost My SEO Rankings',
+          btnColor: '#7C84E8',
+        },
+        {
+          icon: whiteLinkBuildingImpIcon_4,
+          name: 'Local Authority Strengthening',
+          description: [
+            `For businesses targeting geographic markets, we build location-reinforced link profiles. 
+            This includes geo-relevant editorial placements, regional publications, community-based digital platforms, and industry and location crossover opportunities.`,
+            `This layered approach increases both Map Pack visibility and organic rankings in location-specific search results.`,
+          ],
+          button: 'Boost My SEO Rankings',
+          btnColor: '#60B7FF',
+        },
+        {
+          icon: whiteLinkBuildingImpIcon_5,
+          name: 'Strategic Link Reclamation',
+          description: [
+            `Many websites unknowingly lose backlink equity due to broken pages or outdated resources. 
+            We identify reclaimable link opportunities, recover lost backlink value, replace broken external links on authoritative domains, and strengthen existing content assets.`,
+            `This improves authority without requiring entirely new campaigns.`,
+          ],
+          button: 'Boost My SEO Rankings',
+          btnColor: '#FF9F00',
+        },
+        {
+          icon: whiteLinkBuildingImpIcon_6,
+          name: 'Resource & Industry Hub Placements',
+          description: [
+            `We secure placements on curated industry hubs where users actively seek tools, research, and trusted references. 
+            These placements drive consistent referral traffic, reinforce topical authority, support long-term SEO stability, and enhance brand positioning.`,
+            `They are particularly powerful for SaaS, service businesses, and B2B clients.`,
+          ],
+          button: 'Boost My SEO Rankings',
+          btnColor: '#FD5043',
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '02',
+      breakIndex: 3,
+      heading: `Who Our White Label Link Building Is For`,
+      description: [
+        `Our white-label link-building services are designed for growth-focused teams that want to deliver powerful SEO results without building an in-house outreach department.`,
+        `Whether you’re scaling an agency or expanding your service offerings, we act as your silent fulfillment partner.`
+      ],
+      list: [
+        {
+          img: whiteLinkBuildingWhatMkDiffImg_1,
+          name: 'SEO Agencies',
+          description: [
+            `For dedicated SEO agencies, link building is often the most time-consuming and resource-heavy part of the campaign.`,
+          ],
+        },
+        {
+          img: whiteLinkBuildingWhatMkDiffImg_2,
+          name: 'Digital Marketing Agencies',
+          description: [
+            `Full-service digital marketing agencies often manage PPC, social media, content marketing, and web development, but building an internal link acquisition team can be complex and costly.`,
+          ],
+        },
+        {
+          img: whiteLinkBuildingWhatMkDiffImg_3,
+          name: 'Web Design & Development Agencies',
+          description: [
+            `Many web design and development agencies want to expand into SEO but lack link building expertise.`,
+          ],
+        },
+        {
+          img: whiteLinkBuildingWhatMkDiffImg_4,
+          name: 'Freelance SEO Consultants',
+          description: [
+            `Independent consultants often handle strategy and technical SEO but may not have the time or systems to manage manual outreach campaigns.`,
+          ],
+        },
+        {
+          img: whiteLinkBuildingWhatMkDiffImg_5,
+          name: 'SaaS Marketing Teams',
+          description: [
+            `For SaaS companies, authority and trust signals are essential in competitive markets. We align link acquisition with product-led growth strategies to support long-term visibility and lead generation.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '04',
+      breakIndex: 3,
+      bgImg: whiteLinkBuildingBookConsultationBg,
+      img: whiteLinkBuildingBuildLinkImg,
+      label: 'Stop Turning Away SEO',
+      heading: 'Opportunities and Scale Without Hiring!',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Start offering premium white label link building services today. With Adaired as your white label link building agency partner,`,
+        },
+        {
+          desctioption: `you can confidently offer high-quality backlink acquisition without hiring a full-fledged in-house team.`,
+        },
+      ],
+      button: 'Request a Quick Strategy Call',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What is included in your white label link building service?',
+          description: [
+            `Our service includes strategy planning, prospect research, manual outreach, content creation, placement negotiation, quality assurance, and fully white-labeled reporting.`,
+            `We manage the entire backlink acquisition process while you maintain client ownership.`,
+          ],
+        },
+        {
+          title: 'Are the backlinks permanent?',
+          description: [
+            `Yes, we focus on long-term placements on real websites with editorial standards.`,
+            `While no provider can control a publisher indefinitely, we prioritize stable, lasting links and monitor placements carefully.`,
+          ]
+        },
+        {
+          title: 'Do you use PBNs or automated link-building tools?',
+          description: [`No. We strictly use manual outreach and legitimate websites.`,
+            `We do not use private blog networks (PBNs), spam directories, or automated link generation software.`]
+        },
+        {
+          title: 'How long does it take to see SEO results?',
+          description: [`Most campaigns begin showing measurable ranking movement within 8–12 weeks, depending on competition, domain authority, and existing backlink profile.`,
+            `Link building is a long-term authority strategy, not an overnight tactic.`
+          ]
+        },
+        {
+          title: 'Can I resell your services under my own brand?',
+          description: [`Absolutely. Our ready-to-resell link-building services are fully white-labeled. Your clients will only see your branding, your reports, and your communication.`,
+            `We operate as your silent fulfillment partner.`
+          ],
+        },
+        {
+          title: 'How do you ensure link quality?',
+          description: [`We evaluate every website based on traffic, authority metrics, relevance, spam signals, and editorial integrity.`,
+            `Each placement goes through a manual review process before delivery.`]
+        },
+        {
+          title: 'Is there a minimum monthly commitment?',
+          description: [`We offer flexible packages depending on your needs.`,
+            `However, sustainable link building requires consistency, so most agencies choose ongoing monthly campaigns for optimal results.`
+          ]
+        },
+        {
+          title: 'Do you guarantee rankings?',
+          description: [`No reputable link building provider can ethically guarantee specific rankings.`,
+            `What we guarantee is high-quality, strategic backlink acquisition designed to improve authority, strengthen search visibility, and support long-term growth.`
+          ]
+        }
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: false,
+      breakIndex: 2,
+      img: whitePaidAdsAdairedHelpImg,
+      isInCenter: false,
+      bgColor: '',
+      heading: `Why Businesses Prefer White Label PPC?`,
+      description: [
+        `As competition increases and client expectations grow, agencies need smarter ways to scale.`,
+        `White Label PPC has become the preferred solution for businesses and marketing agencies looking to expand paid advertising services without increasing operational complexity.`
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Lower Operational Costs',
+          description: [
+            `Building an in-house PPC team requires substantial upfront and ongoing investment. Beyond salaries, agencies must account for recruitment expenses, onboarding time, benefits, training programs, performance tools, and management oversight.`, `These costs accumulate quickly, especially before the team becomes fully productive.`,
+            `A white label PPC partnership eliminates these fixed expenses. Instead of maintaining a full-time payroll, agencies gain access to experienced specialists on a scalable, performance-driven model.`, `This reduces financial risk while maintaining high-quality service delivery for clients.`
+          ],
+        },
+        {
+          img: '',
+          name: 'Faster Time to Market',
+          description: [
+            `Recruiting and training skilled PPC professionals can take months. During that time, agencies may miss opportunities, delay client campaigns, or even turn down potential contracts due to capacity limitations.`,
+            `White label PPC services enable agencies to launch campaigns quickly, often within days.`, `With established processes, experienced strategists, and ready-to-deploy systems, agencies can begin generating revenue immediately rather than waiting for internal infrastructure to develop.`,
+            `Speed to execution directly translates into competitive advantage.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Access to Experienced PPC Specialists',
+          description: [
+            `Paid advertising platforms like Google Ads, Microsoft Ads, and social media networks constantly evolve. Algorithm updates, bidding strategies, audience targeting advancements, and compliance changes require continuous adaptation.`,
+            `White label advertising agencies dedicate their focus entirely to paid media management.`,
+            `This specialization allows them to conduct advanced keyword and competitor research, build high-converting campaign structures, continuously test ad creatives and landing pages, optimize bidding strategies based on real-time data, and implement performance-maximizing automation tools.`,
+            `Instead of relying on one internal hire, agencies gain access to a team of specialists with diverse platform expertise.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Increased Profit Margins',
+          description: [
+            `White label paid ads services offer predictable cost structures, making it easier for agencies to set profitable pricing models.`,
+            `Agencies can build retainers, percentage-based management fees, or performance-based packages with clear margin control.`,
+            `Because operational overhead remains low, agencies can focus on increasing client lifetime value rather than worrying about covering payroll expenses.`,
+            `The result is stronger recurring revenue and improved overall profitability.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Improved Client Retention',
+          description: [
+            `Clients expect measurable results from paid advertising campaigns. When campaigns consistently generate qualified leads, conversions, and strong return on ad spend (ROAS), client relationships naturally strengthen.`,
+            `By partnering with a white label PPC management company, agencies ensure campaigns are actively monitored, optimized, and scaled.`,
+            `This level of performance increases client satisfaction, extends contract durations, and reduces churn.`,
+            `In addition, offering white-label Google Ads and paid media services positions your agency as a comprehensive digital growth partner rather than a single-service provider.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Scalable Growth Without Hiring Risks',
+          description: [
+            `Scaling an internal team introduces significant risk, including employee turnover, performance inconsistency, and fluctuating workload challenges.`,
+            `Hiring too early can strain cash flow, while hiring too late can lead to missed growth opportunities.`,
+            `White-label PPC provides flexible scalability. Whether you onboard two new clients or twenty,`,
+            `your white-label partner adjusts campaign management resources accordingly. There are no recruitment delays, no HR complications, and no capacity bottlenecks.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: false,
+      isInCenter: true,
+      heading: 'How Does White Label PPC Work?',
+      description: [
+        `The process is simple and scalable:`,
+      ],
+      list: [
+        {
+          icon: whitePaidAdsMissing_1,
+          title: 'You Acquire the Client',
+          description: [
+            `Your agency sells PPC services as part of your marketing solutions and manages communication with the client.`,
+          ],
+        },
+        {
+          icon: whitePaidAdsMissing_2,
+          title: 'We Build & Manage the Campaigns',
+          description: [
+            `Our PPC experts handle keyword research, competitor analysis, campaign structure, ad copy creation, conversion tracking, bid optimization, 
+            and ongoing performance management.`,
+          ],
+        },
+        {
+          icon: whitePaidAdsMissing_3,
+          title: 'You Deliver Results Under Your Brand',
+          description: [
+            `We provide detailed performance reports and insights, fully aligned with your branding. Your client sees results, and your agency gets the credit.`,
+          ],
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: false,
+      isBgWhite: false,
+      isVariant: '01',
+      heading: 'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
+      description:
+        [`As your agency grows, you’ll eventually face a critical decision:`,
+          `Should you build an in-house PPC team or partner with a white-label PPC agency?`,
+          `Both options have advantages, but the right choice depends on your growth goals, budget, and operational capacity. Let’s differentiate them:`
+        ],
+      data: [
+        {
+          desctioption: `Factor`,
+          list: [
+            {
+              description: [`Upfront Cost`],
+            },
+            {
+              description: [`Time to Launch`],
+            },
+            {
+              description: [`Expertise Level`],
+            },
+            {
+              description: [`Scalability`],
+            },
+            {
+              description: [`Operational Overhead`],
+            },
+            {
+              description: [`Risk`],
+            },
+            {
+              description: [`Flexibility`],
+            },
+            {
+              description: [`Brand Control`],
+            },
+            {
+              description: [`Focus`],
+            },
+          ],
+        },
+        {
+          desctioption: `White-Label PPC Agency`,
+          list: [
+            {
+              description: [
+                `Low or no hiring or training costs`,
+              ],
+            },
+            {
+              description: [`Fast campaigns can launch within days`],
+            },
+            {
+              description: [`Access to experienced PPC specialists`],
+            },
+            {
+              description: [`Easily scalable as clients grow`],
+            },
+            {
+              description: [
+                `Minimal management required`,
+              ],
+            },
+            {
+              description: [`Low or no employee turnover risk`],
+            },
+            {
+              description: [`Pay for what you need`],
+            },
+            {
+              description: [
+                `Fully white-labeled under your agency`,
+              ],
+            },
+            {
+              description: [`You focus on sales & client relationships`],
+            },
+          ],
+        },
+        {
+          desctioption: `In-House PPC Team`,
+          list: [
+            {
+              description: [
+                `High Salaries, benefits, and recruitment expenses`,
+              ],
+            },
+            {
+              description: [
+                `Slow hiring & onboarding can take months`,
+              ],
+            },
+            {
+              description: [
+                `Depends on who you hire`,
+              ],
+            },
+            {
+              description: [`Limited by team capacity`],
+            },
+            {
+              description: [
+                `Ongoing supervision & HR management`,
+              ],
+            },
+            {
+              description: [`High staff turnover disrupts service`],
+            },
+            {
+              description: [
+                `Fixed payroll regardless of workload`,
+              ],
+            },
+            {
+              description: [`Fully internal control`],
+            },
+            {
+              description: [`You manage both sales and team operations`],
+            },
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
         },
       ],
     },

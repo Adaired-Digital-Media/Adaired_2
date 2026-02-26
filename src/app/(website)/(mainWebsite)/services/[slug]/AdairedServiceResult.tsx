@@ -47,11 +47,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
             <div className="flex flex-col justify-between gap-[6rem] pt-[3rem] lg:flex-row">
               <div
                 ref={ref}
-                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
-                  isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : '-translate-x-16 opacity-0'
-                }`}
+                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${isVisible
+                  ? 'translate-x-0 opacity-100'
+                  : '-translate-x-16 opacity-0'
+                  }`}
               >
                 {/* Main image */}
                 <Image
@@ -64,6 +63,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
 
                 {!aiseoResult?.isBgColor && (
                   <div className="absolute left-[-1rem] top-[-1rem] h-[75px] w-[70px] sm:h-[95px] sm:w-[90px] lg:h-[123px] lg:w-[115px]">
+                    {/* Rocket wrapper */}
                     <Image
                       src={rocket}
                       fill
@@ -72,7 +72,6 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                     />
                   </div>
                 )}
-                {/* Rocket wrapper */}
               </div>
 
               {/* RIGHT ACCORDION */}
@@ -85,11 +84,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       key={index}
                       onClick={() => setActiveIndex(isActive ? null : index)}
                       onMouseEnter={() => setActiveIndex(index)}
-                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${
-                        isActive
-                          ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
-                          : 'border-[#00000014] bg-[#F3F3F3]'
-                      }`}
+                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${isActive
+                        ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
+                        : 'border-[#00000014] bg-[#F3F3F3]'
+                        }`}
                       style={{
                         transitionDelay: `${index * 280}ms`, // 👈 stagger here
                       }}
@@ -123,11 +121,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
 
                       {/* BODY */}
                       <div
-                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${
-                          isActive
-                            ? 'mt-3 grid-rows-[1fr] opacity-100'
-                            : 'grid-rows-[0fr] opacity-0'
-                        }`}
+                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${isActive
+                          ? 'mt-3 grid-rows-[1fr] opacity-100'
+                          : 'grid-rows-[0fr] opacity-0'
+                          }`}
                       >
                         <div className="overflow-hidden">
                           {item?.description?.map((desc: string, i: number) => (
@@ -147,7 +144,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
       )}
       {aiseoResult?.isVariant === '02' && (
         <div
-          className={`bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0] py-[3rem] lg:py-[4rem]`}
+          className={`bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0] pt-[1rem] pb-[3rem] lg:py-[4rem]`}
         >
           <MaxWidthWrapper>
             <div
@@ -161,7 +158,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
               />
             </div>
 
-            <div className="flex flex-col justify-between gap-[6rem] pt-[3rem] lg:flex-row">
+            <div className="flex flex-col justify-between gap-[3rem] lg:pt-[3rem] lg:flex-row">
               {/* <div
                 ref={ref}
                 className={`relative h-[${aiseoResult?.hight ?? "600px"}] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
@@ -173,11 +170,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
 
               <div
                 ref={ref}
-                className={`relative w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
-                  isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : '-translate-x-16 opacity-0'
-                }`}
+                className={`relative w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${isVisible
+                  ? 'translate-x-0 opacity-100'
+                  : '-translate-x-16 opacity-0'
+                  }`}
                 style={{ height: `${aiseoResult?.hight ?? 600}px` }}
               >
                 {/* Main image */}
@@ -212,11 +208,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       key={index}
                       onClick={() => setActiveIndex(isActive ? null : index)}
                       onMouseEnter={() => setActiveIndex(index)}
-                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${
-                        isActive
-                          ? 'border-[#FB9100]/20 bg-[#FFFFFF]'
-                          : 'border-[#00000014] bg-[#FFFFFF]'
-                      }`}
+                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${isActive
+                        ? 'border-[#FB9100]/20 bg-[#FFFFFF]'
+                        : 'border-[#00000014] bg-[#FFFFFF]'
+                        }`}
                       style={{
                         transitionDelay: `${index * 280}ms`, // 👈 stagger here
                       }}
@@ -249,11 +244,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
 
                       {/* BODY */}
                       <div
-                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${
-                          isActive
-                            ? 'mt-3 grid-rows-[1fr] opacity-100'
-                            : 'grid-rows-[0fr] opacity-0'
-                        }`}
+                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${isActive
+                          ? 'mt-3 grid-rows-[1fr] opacity-100'
+                          : 'grid-rows-[0fr] opacity-0'
+                          }`}
                       >
                         <div className="overflow-hidden">
                           {item?.description?.map((desc: string, i: number) => (
@@ -292,11 +286,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
             <div className="flex flex-col justify-between gap-[6rem] pt-[3rem] lg:flex-row">
               <div
                 ref={ref}
-                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[48%] ${
-                  isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : '-translate-x-16 opacity-0'
-                }`}
+                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[48%] ${isVisible
+                  ? 'translate-x-0 opacity-100'
+                  : '-translate-x-16 opacity-0'
+                  }`}
               >
                 {/* Main image */}
                 <Image
@@ -318,11 +311,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       key={index}
                       onClick={() => setActiveIndex(isActive ? null : index)}
                       onMouseEnter={() => setActiveIndex(index)}
-                      className={`cursor-pointer rounded-[20px] border border-[#FB9100]/30 p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${
-                        isActive
-                          ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
-                          : 'border-[#00000014] bg-[#F3F3F3]'
-                      }`}
+                      className={`cursor-pointer rounded-[20px] border border-[#FB9100]/30 p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${isActive
+                        ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
+                        : 'border-[#00000014] bg-[#F3F3F3]'
+                        }`}
                       style={{
                         transitionDelay: `${index * 280}ms`, // 👈 stagger here
                       }}
@@ -356,11 +348,150 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
 
                       {/* BODY */}
                       <div
-                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${
-                          isActive
-                            ? 'mt-3 grid-rows-[1fr] opacity-100'
-                            : 'grid-rows-[0fr] opacity-0'
+                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${isActive
+                          ? 'mt-3 grid-rows-[1fr] opacity-100'
+                          : 'grid-rows-[0fr] opacity-0'
+                          }`}
+                      >
+                        <div className="overflow-hidden">
+                          {item?.description?.map((desc: string, i: number) => (
+                            <p key={i} className="my-2 text-left text-[#333]">
+                              {desc}
+                            </p>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </MaxWidthWrapper>
+        </div>
+      )}
+      {aiseoResult?.isVariant === '04' && (
+        <div
+          className={`py-[3rem] lg:py-[4rem] ${aiseoResult?.isBgColor ? 'bg-[#FFF8F0]' : 'bg-[#FFFFFF]'}`}
+        >
+          <MaxWidthWrapper>
+            <div
+              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+            >
+              <div className="block gap-[6rem] lg:flex">
+                <div
+                  className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] pr-[10%] lg:w-[42%]' : 'flex w-[100%] items-center justify-center'}`}
+                >
+                  <Heading title={aiseoResult?.heading} />
+                </div>
+                <div
+                  className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] lg:w-[55%]' : 'w-[0%]'}`}
+                >
+                  {aiseoResult?.description?.map((item: any) => {
+                    return <p className="my-3">{item}</p>;
+                  })}
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-between gap-[6rem] pt-[3rem] lg:flex-row">
+              <div
+                ref={ref}
+                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${isVisible
+                  ? 'translate-x-0 opacity-100'
+                  : '-translate-x-16 opacity-0'
+                  }`}
+              >
+                {/* Main image */}
+                <Image
+                  src={aiseoResult?.img}
+                  fill
+                  className="rounded-[20px] object-fill"
+                  alt="image"
+                  priority
+                />
+
+                {!aiseoResult?.isBgColor && (
+                  <div className="absolute left-[-1rem] top-[-1rem] h-[75px] w-[70px] sm:h-[95px] sm:w-[90px] lg:h-[123px] lg:w-[115px]">
+                    {/* Rocket wrapper */}
+                    <Image
+                      src={rocket}
+                      fill
+                      alt="rocket"
+                      className="object-fill"
+                    />
+                  </div>
+                )}
+              </div>
+
+              {/* RIGHT ACCORDION */}
+              <div className="flex w-full flex-col gap-4 lg:w-[55%]">
+                {aiseoResult?.list?.map((item: any, index: number) => {
+                  const isActive = index === activeIndex;
+
+                  return (
+                    <div
+                      key={index}
+                      onClick={() => setActiveIndex(isActive ? null : index)}
+                      onMouseEnter={() => setActiveIndex(index)}
+                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${isActive
+                        ? 'border-[#FB910052] shadow-[0_0_9px_#FB910052] bg-[#F3F3F3]'
+                        : 'border-[#FB910052] bg-[#F3F3F3]'
                         }`}
+                      style={{
+                        transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                      }}
+                    >
+                      {/* HEADER */}
+                      <div className="flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
+
+                        {isActive ? (
+                          <div className="flex flex-col items-center gap-3 lg:flex-row">
+                            <Image
+                              // src={groth}
+                              src={item?.img ?? groth}
+                              width={32}
+                              height={32}
+                              alt="icon"
+                              className='fill-[#FB9100]'
+                            />
+                            <p className="font-bold text-[#FB9100]">{item?.name}</p>
+                          </div>
+                        ) : (
+                          <div className="flex flex-col items-center gap-3 lg:flex-row">
+                            <Image
+                              // src={groth}
+                              src={item?.img ?? groth}
+                              width={32}
+                              height={32}
+                              alt="icon"
+                            />
+
+                            <p className="font-bold">{item?.name}</p>
+                          </div>
+                        )}
+
+
+
+                        {/* ARROW */}
+                        {isActive ? (
+                          <MdKeyboardArrowUp
+                            size={26}
+                            className="hidden text-[#FB9100] lg:block"
+                          />
+                        ) : (
+                          <MdKeyboardArrowDown
+                            size={26}
+                            className="hidden text-[#999] lg:block"
+                          />
+                        )}
+                      </div>
+
+                      {/* BODY */}
+                      <div
+                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${isActive
+                          ? 'mt-3 grid-rows-[1fr] opacity-100'
+                          : 'grid-rows-[0fr] opacity-0'
+                          }`}
                       >
                         <div className="overflow-hidden">
                           {item?.description?.map((desc: string, i: number) => (
