@@ -209,14 +209,14 @@ const Blog = async ({ params }: BlogProps) => {
                 src={blog?.data?.featuredImage}
                 fill
                 alt={blog?.data?.postTitle}
-                className="object-fill transition-transform duration-500 group-hover:scale-110"
+                className="object-fill rounded-2xl transition-transform duration-500 group-hover:scale-110"
               />
             ) : (
               <Image
                 src={blog?.data?.seo?.openGraph?.image}
                 fill
                 alt={blog?.data?.postTitle}
-                className="object-fill transition-transform duration-500 group-hover:scale-110"
+                className="object-fill rounded-2xl transition-transform duration-500 group-hover:scale-110"
               />
             )}
           </div>
