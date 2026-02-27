@@ -378,6 +378,39 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: 'weekly',
         priority: 0.9,
       },
+
+      // AI SEO
+      {
+        url: `${siteUri}/services/ai-seo-company-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+
+      // SaaS SEO (nested)
+      {
+        url: `${siteUri}/services/seo/ai-seo-company-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+
+      // Local SEO Company India
+      {
+        url: `${siteUri}/services/local-seo-company-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+
+      // Link Building Services India
+      {
+        url: `${siteUri}/services/link-building-services-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+
     ];
 
     // ---------------------
