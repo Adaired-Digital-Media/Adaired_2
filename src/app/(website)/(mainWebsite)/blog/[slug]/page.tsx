@@ -72,22 +72,83 @@ async function getBlogs({ params }: { params: { slug: string } }) {
   return res.json();
 }
 
-// export async function generateStaticParams() {
-//   const res = await fetch(`${BaseURL}/blog/read`, { cache: 'no-store' });
-//   const data = await res.json();
+import { Metadata } from 'next';
 
-//   return (data?.data ?? []).map((blog: any) => ({
-//     slug: String(blog.slug),
-//   }));
-// }
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  try {
+    const res = await fetch(`${BaseURL}/blog/${params.slug}`, {
+      cache: 'no-store',
+    });
 
-export async function generateStaticParams() {
-  const res = await fetch(`${BaseURL}/blog/read`, { cache: 'no-store' });
-  const data = await res.json();
+    if (!res.status) {
+      return {
+        title: 'Blog | Adaired',
+      };
+    }
 
-  return (data?.data ?? []).map((blog: any) => ({
-    slug: String(blog.slug),
-  }));
+    const response = await res.json();
+    const blog = response?.data;
+
+    if (!blog) {
+      return {
+        title: 'Blog Not Found | Adaired',
+      };
+    }
+
+    const seo = blog?.seo || {};
+
+    return {
+      title: seo.metaTitle || blog.postTitle || 'Blog | Adaired',
+
+      description:
+        seo.metaDescription ||
+        blog.postDescription?.replace(/<[^>]+>/g, '').slice(0, 160) ||
+        '',
+
+      alternates: {
+        canonical: seo.canonicalLink || `https://adaired.com/blog/${blog.slug}`,
+      },
+
+      keywords: seo.keywords || '',
+
+      openGraph: {
+        title: seo.metaTitle || blog.postTitle,
+        description:
+          seo.metaDescription ||
+          blog.postDescription?.replace(/<[^>]+>/g, '').slice(0, 160) ||
+          '',
+        url: `https://adaired.com/blog/${blog.slug}`,
+        type: 'article',
+        publishedTime: blog.createdAt,
+        modifiedTime: blog.updatedAt,
+        images: blog.featuredImage
+          ? [
+              {
+                url: blog.featuredImage,
+              },
+            ]
+          : [],
+      },
+
+      twitter: {
+        card: 'summary_large_image',
+        title: seo.metaTitle || blog.postTitle,
+        description:
+          seo.metaDescription ||
+          blog.postDescription?.replace(/<[^>]+>/g, '').slice(0, 160) ||
+          '',
+        images: blog.featuredImage ? [blog.featuredImage] : [],
+      },
+    };
+  } catch (error) {
+    return {
+      title: 'Blog | Adaired',
+    };
+  }
 }
 
 interface BlogProps {
@@ -209,14 +270,14 @@ const Blog = async ({ params }: BlogProps) => {
                 src={blog?.data?.featuredImage}
                 fill
                 alt={blog?.data?.postTitle}
-                className="object-fill rounded-2xl transition-transform duration-500 group-hover:scale-110"
+                className="rounded-2xl object-fill transition-transform duration-500 group-hover:scale-110"
               />
             ) : (
               <Image
                 src={blog?.data?.seo?.openGraph?.image}
                 fill
                 alt={blog?.data?.postTitle}
-                className="object-fill rounded-2xl transition-transform duration-500 group-hover:scale-110"
+                className="rounded-2xl object-fill transition-transform duration-500 group-hover:scale-110"
               />
             )}
           </div>
