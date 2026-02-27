@@ -218,15 +218,25 @@ const Blog = async ({ params }: BlogProps) => {
             </p>
           );
 
+        case 'ul':
+          return (
+            <ul className="list-disc space-y-2 pl-6">
+              {domToReact(domNode.children as DOMNode[], options)}
+            </ul>
+          );
+
+        case 'ol':
+          return (
+            <ol className="list-decimal space-y-2 pl-6">
+              {domToReact(domNode.children as DOMNode[], options)}
+            </ol>
+          );
+
         case 'li':
           return (
-            <p className="pl-6">
-              •{' '}
-              {domToReact(
-                (domNode.children || []) as unknown as DOMNode[],
-                options
-              )}
-            </p>
+            <li className="leading-7">
+              {domToReact(domNode.children as DOMNode[], options)}
+            </li>
           );
 
         case 'a':
