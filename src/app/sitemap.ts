@@ -389,7 +389,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
       // SaaS SEO (nested)
       {
-        url: `${siteUri}/services/seo/ai-seo-company-india`,
+        url: `${siteUri}/services/ai-seo-company-india`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.9,
