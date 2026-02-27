@@ -568,28 +568,28 @@ export const ServiceSectionData = {
         {
           icon: GBPManagement,
           image: LOCAL_SEO_1,
-          label: 'Local Organic SEO',
-          title: 'Local Organic SEO',
+          label: 'GBP Only',
+          title: 'GBP Only',
           description: `We help businesses dominate local search through a strategic mix of Google Business Profile optimization, localized content, review management, and technical SEO. Our local-first approach drives higher map visibility, increased foot traffic, and more qualified calls and inquiries from nearby customers.`,
           link: '/services/local-seo-company-india',
         },
         {
           icon: GBPSetup,
           image: LOCAL_SEO_2,
-          label: 'Citation Building',
-          title: 'Citation Building',
+          label: 'GBP + Website',
+          title: 'GBP + Website',
           description: `We build and maintain consistent business citations across relevant local, industry, and geo-specific directories. By standardizing business information and eliminating inconsistencies, we help search engines verify legitimacy, improve map pack visibility, and drive more qualified local traffic.
 `,
           link: '/services/local-seo-company-india',
         },
-        {
-          icon: FakeGBPReporting,
-          image: LOCAL_SEO_3,
-          label: 'Local Link Building',
-          title: 'Local Link Building',
-          description: `We build authentic local backlinks that signal relevance and trust to search engines. By earning links from local organizations, blogs, news sites, and industry resources, we help businesses improve map pack visibility, outrank nearby competitors, and establish a strong local digital footprint.`,
-          link: '/services/local-seo-company-india',
-        },
+        // {
+        //   icon: FakeGBPReporting,
+        //   image: LOCAL_SEO_3,
+        //   label: 'Local Link Building',
+        //   title: 'Local Link Building',
+        //   description: `We build authentic local backlinks that signal relevance and trust to search engines. By earning links from local organizations, blogs, news sites, and industry resources, we help businesses improve map pack visibility, outrank nearby competitors, and establish a strong local digital footprint.`,
+        //   link: '/services/local-seo-company-india',
+        // },
         // {
         //   icon: FakeGoogleReviewReporting,
         //   image: GBP_4,
@@ -690,7 +690,7 @@ export const ServiceSectionData = {
       accentColor: '#d71a1a',
     },
     {
-      title: 'Social Media Marketing',
+      title: 'Social Media Management',
       description:
         'We help brands build visibility, engagement, and trust across leading social platforms. Through consistent content creation, strategic planning, and optimization, we help you grow your audience, strengthen your brand voice, and increase followers.',
       link: '/services/strategic-social-media-management',
