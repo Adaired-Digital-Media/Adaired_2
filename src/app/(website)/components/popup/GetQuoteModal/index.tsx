@@ -77,25 +77,30 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
     if (!validateForm()) return;
 
     try {
-      const token = await executeRecaptcha('contact_page_form');
-
       const payload = {
-        name: inputValue.firstName + ' ' + inputValue.lastName,
+        name: `${inputValue.firstName} ${inputValue.lastName}`.trim(),
         email: inputValue.email,
         phone: inputValue.phone,
         website: inputValue.website,
         message: inputValue.message,
-        gRecaptchaToken: token,
+        gRecaptchaToken: 'token', // replace with real token later
       };
 
-      const response = await fetch('/api/zoho/leadRegister', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
+      if (!BaseURL) {
+        throw new Error('BaseURL is not defined');
+      }
+
+      const response = await axios.post(`${BaseURL}/mail/send`, payload, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
       });
 
-      if (!response.ok) throw new Error('Submission failed');
+      if (response.status !== 200) {
+        throw new Error('Submission failed');
+      }
 
+      // Reset form
       setInputValue({
         firstName: '',
         lastName: '',
@@ -104,16 +109,13 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
         website: '',
         message: '',
       });
-      const message = {
-        name: inputValue.firstName + ' ' + inputValue.lastName,
-        email: inputValue.email,
-        phone: inputValue.phone,
-      };
-      router.push('/thankyou');
 
-      await axios.post(`$${BaseURL}/mail/send`, payload);
-    } catch (error) {
-      console.error(error);
+      router.push('/thankyou');
+    } catch (error: any) {
+      console.error(
+        'Form submission error:',
+        error?.response?.data || error.message
+      );
       alert('Failed to submit form. Please try again.');
     }
   };
