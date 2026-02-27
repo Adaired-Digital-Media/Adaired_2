@@ -24,33 +24,45 @@ export const metadata: Metadata = {
 async function getBlogs() {
   try {
     const res = await fetch(`${BaseURL}blog/get`, {
-      cache: 'no-store', // important for dynamic content
+      cache: 'no-store',
     });
 
-    // if (!res.ok) {
-    //   console.error('Failed to fetch blogs:', res.status, res.statusText);
-    //   return { data: [] };
-    // }
+    if (!res.ok) {
+      throw new Error('Failed to fetch blogs');
+    }
 
-    const data = await res.json();
+    const response = await res.json();
 
-    const blogsWithExcerpts = (data ?? []).map((blog: any) => ({
+    // 👇 Extract correct array safely
+    let blogsArray: any[] = [];
+
+    if (Array.isArray(response)) {
+      blogsArray = response;
+    } else if (Array.isArray(response?.data)) {
+      blogsArray = response.data;
+    } else if (Array.isArray(response?.blogs)) {
+      blogsArray = response.blogs;
+    } else {
+      console.warn('Unexpected API shape');
+      blogsArray = [];
+    }
+
+    const blogsWithExcerpts = blogsArray.map((blog: any) => ({
       ...blog,
-      excerpt: getExcerpt(blog.postDescription),
+      excerpt: getExcerpt(blog?.postDescription),
     }));
 
-    return {
-      ...data,
-      data: blogsWithExcerpts,
-    };
+    return blogsWithExcerpts;
   } catch (error) {
     console.error('getBlogs error:', error);
-    return { data: [] };
+    return [];
   }
 }
 
 const Blog = async () => {
   const data = await getBlogs();
+
+  console.log(data.slice(0, 1), 'data>>>>qaw');
 
   return (
     <>
@@ -63,7 +75,7 @@ const Blog = async () => {
             breakIndex={3}
             title={`Digital Agency That Turns Businesses Into Brands`}
           />
-          <BlogWPagination data={data.data} />
+          <BlogWPagination data={data} />
 
           {/* <aside className="relative xl:w-[30%]">
             <div className="sticky top-24">

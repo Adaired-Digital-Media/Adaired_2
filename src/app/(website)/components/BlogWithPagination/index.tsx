@@ -46,31 +46,46 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
   const currentBlogs = useMemo(() => {
     const indexOfLastBlog = currentPage * blogsPerPage;
     const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
-    return data.slice(indexOfFirstBlog, indexOfLastBlog);
+    return data?.slice(indexOfFirstBlog, indexOfLastBlog);
   }, [data, currentPage]);
 
   // Scroll to top on page change
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [currentPage]);
-  
 
   return (
     <div className="relative">
       <div className="grid grid-cols-3 gap-[2rem]">
-        {currentBlogs.map((blog, idx) => (
+        {currentBlogs.map((blog: any, idx) => (
           <div
             key={idx}
             className="group relative my-[2.5rem] rounded-3xl bg-white shadow-[0_0_20px_rgba(0,0,0,0.14)] lg:my-[3rem]"
           >
             {/* IMAGE */}
             <div className="relative h-[190px] w-full overflow-hidden rounded-2xl lg:h-[250px] xl:h-[350px]">
-              <Image
+              {/* <Image
                 src={blog?.featuredImage}
                 fill
                 alt={blog.postTitle}
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
-              />
+              /> */}
+
+              {blog?.featuredImage ? (
+                <Image
+                  src={blog?.featuredImage}
+                  fill
+                  alt={blog?.postTitle}
+                  className="object-fill transition-transform duration-500 group-hover:scale-110"
+                />
+              ) : (
+                <Image
+                  src={blog?.seo?.openGraph?.image}
+                  fill
+                  alt={blog?.postTitle}
+                  className="object-fill transition-transform duration-500 group-hover:scale-110"
+                />
+              )}
 
               {/* OVERLAY */}
               <div className="absolute inset-0 bg-[#1A5A96]/10 transition-opacity duration-300 group-hover:bg-[#1A5A96]/60" />

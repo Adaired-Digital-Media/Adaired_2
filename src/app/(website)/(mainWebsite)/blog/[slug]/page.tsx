@@ -1,4 +1,4 @@
-export const dynamic = "force-dynamic";
+export const dynamic = 'force-dynamic';
 import React from 'react';
 import MaxWidthWrapper from '@web-components/MaxWidthWrapper';
 import parse, {
@@ -97,11 +97,11 @@ interface BlogProps {
 /* ------------------ COMPONENT ------------------ */
 
 const Blog = async ({ params }: BlogProps) => {
-  const blog  = await getBlogs({ params });
-  console.log(blog,"blog>>>>>>")
-  console.log(blog?.data?.postTitle,"blog>>>>>>postTitle")
+  const blog = await getBlogs({ params });
 
-  const { introHtml, bodyHtml } = splitHtmlAtFirstH2(blog?.data?.postDescription);
+  const { introHtml, bodyHtml } = splitHtmlAtFirstH2(
+    blog?.data?.postDescription
+  );
   const { top, bottom } = splitIntroParagraphs(introHtml, 100);
 
   const h2Total = (bodyHtml.match(/<h2>/g) || []).length;
@@ -203,14 +203,22 @@ const Blog = async ({ params }: BlogProps) => {
 
         {/* ----------- IMAGE + FIRST 100 WORDS ----------- */}
         <div className="mt-8 grid grid-cols-1 gap-[2rem] md:grid-cols-2">
-          <div className="relative h-[30rem]">
-            <Image
-              src={blog?.data?.featuredImage}
-              alt="blog"
-              fill
-              className="rounded-[1rem] object-cover"
-              priority
-            />
+          <div className="relative h-[30rem] rounded-2xl">
+            {blog?.data?.featuredImage ? (
+              <Image
+                src={blog?.data?.featuredImage}
+                fill
+                alt={blog?.data?.postTitle}
+                className="object-fill transition-transform duration-500 group-hover:scale-110"
+              />
+            ) : (
+              <Image
+                src={blog?.data?.seo?.openGraph?.image}
+                fill
+                alt={blog?.data?.postTitle}
+                className="object-fill transition-transform duration-500 group-hover:scale-110"
+              />
+            )}
           </div>
 
           <div>
