@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
-import { DateComponent } from '@core/utils/dateComponent';
 import { BaseURL } from '@/baseUrl';
+
+export const revalidate = 3600; // Re-generate every 1 hour
 
 // =====================
 // Types
@@ -17,7 +18,6 @@ interface CaseStudy {
 }
 
 interface Blog {
-  _id: string;
   slug: string;
   updatedAt: string;
   status: string;
@@ -48,11 +48,12 @@ const manualPriorities: Record<string, number> = {
 // Sitemap
 // =====================
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const siteUri = process.env.NEXT_PUBLIC_SITE_URI;
+  const siteUri = process.env.NEXT_PUBLIC_SITE_URI || 'https://adaired.com';
+
   const backendApiUri = BaseURL;
 
-  if (!siteUri || !backendApiUri) {
-    console.error('❌ Missing environment variables for sitemap generation');
+  if (!backendApiUri) {
+    console.error('❌ Missing backend API URL for sitemap');
     return [];
   }
 
@@ -61,13 +62,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Fetch APIs in parallel
     // ---------------------
     const [servicesRes, caseStudiesRes, blogsRes] = await Promise.all([
-      fetch(`${backendApiUri}/service/getServices`, { cache: 'no-store' }),
-      fetch(`${backendApiUri}/case-study/read`, { cache: 'no-store' }),
-      fetch(`${backendApiUri}/blog/read?status=publish`, { cache: 'no-store' }),
+      fetch(`${backendApiUri}/service/getServices`),
+      fetch(`${backendApiUri}/case-study/read`),
+      fetch(`${backendApiUri}/blog/read?status=publish`),
     ]);
-    // ---------------------
-    // Parse safely
-    // ---------------------
+
     const servicesJson: ApiResponse<Service> = servicesRes.ok
       ? await servicesRes.json()
       : { success: false, message: '', data: [] };
@@ -80,7 +79,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       ? await blogsRes.json()
       : { success: false, message: '', data: [] };
 
-    const services = Array.isArray(servicesJson) ? servicesJson : [];
+    const services = Array.isArray(servicesJson.data) ? servicesJson.data : [];
 
     const caseStudies = Array.isArray(caseStudiesJson.data)
       ? caseStudiesJson.data
@@ -89,39 +88,43 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const blogs = Array.isArray(blogsJson.data) ? blogsJson.data : [];
 
     // ---------------------
-    // Dynamic paths
+    // Dynamic Services
     // ---------------------
     const servicePaths: MetadataRoute.Sitemap = services
       .filter((service) => service.status === 'publish')
       .map((service) => ({
         url: `${siteUri}/services/${service.slug}`,
-        lastModified:
-          DateComponent(service.updatedAt) || new Date(service.updatedAt),
+        lastModified: new Date(service.updatedAt),
         changeFrequency: 'weekly',
-        priority: manualPriorities[service.slug] ?? 0.9,
+        priority: manualPriorities[service.slug] ?? 0.8,
       }));
 
+    // ---------------------
+    // Dynamic Case Studies
+    // ---------------------
     const caseStudyPaths: MetadataRoute.Sitemap = caseStudies.map(
       (caseStudy) => ({
         url: `${siteUri}/case-studies/${caseStudy.slug}`,
-        lastModified:
-          DateComponent(caseStudy.updatedAt) || new Date(caseStudy.updatedAt),
+        lastModified: new Date(caseStudy.updatedAt),
         changeFrequency: 'monthly',
         priority: 0.5,
       })
     );
 
+    // ---------------------
+    // Dynamic Blogs
+    // ---------------------
     const blogPaths: MetadataRoute.Sitemap = blogs.map((blog) => ({
       url: `${siteUri}/blog/${blog.slug}`,
       lastModified: blog?.seo?.lastModified
-        ? DateComponent(blog.seo.lastModified)
-        : DateComponent(blog.updatedAt) || new Date(blog.updatedAt),
+        ? new Date(blog.seo.lastModified)
+        : new Date(blog.updatedAt),
       changeFrequency: blog?.seo?.changeFrequency ?? 'weekly',
-      priority: blog?.seo?.priority ?? 0.5,
+      priority: blog?.seo?.priority ?? 0.6,
     }));
 
     // ---------------------
-    // Static paths
+    // Static Pages
     // ---------------------
     const staticPaths: MetadataRoute.Sitemap = [
       {
@@ -133,8 +136,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       {
         url: `${siteUri}/about`,
         lastModified: new Date('2024-06-24'),
-        changeFrequency: 'weekly',
-        priority: 1,
+        changeFrequency: 'monthly',
+        priority: 0.9,
       },
       {
         url: `${siteUri}/career`,
@@ -146,24 +149,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         url: `${siteUri}/case-studies`,
         lastModified: new Date('2024-06-24'),
         changeFrequency: 'weekly',
-        priority: 0.5,
+        priority: 0.6,
       },
       {
         url: `${siteUri}/blog`,
         lastModified: new Date('2024-06-24'),
         changeFrequency: 'weekly',
-        priority: 0.65,
+        priority: 0.7,
       },
       {
         url: `${siteUri}/contact`,
         lastModified: new Date('2024-06-24'),
-        changeFrequency: 'weekly',
+        changeFrequency: 'monthly',
         priority: 0.5,
       },
     ];
 
     // ---------------------
-    // Final sitemap
+    // Final Sitemap
     // ---------------------
     return [...staticPaths, ...servicePaths, ...caseStudyPaths, ...blogPaths];
   } catch (error) {
