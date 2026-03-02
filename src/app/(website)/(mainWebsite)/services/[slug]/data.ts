@@ -48,7 +48,7 @@ import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/a
 import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
 import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
 import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
-import adairedHelp_14 from '../../../../../../public/assets/images/Services/seo/adairedSEO7.png';
+import adairedHelp_14 from '../../../../../../public/assets/images/services/seo/adairedSEO7.png';
 import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
 import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
 import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
