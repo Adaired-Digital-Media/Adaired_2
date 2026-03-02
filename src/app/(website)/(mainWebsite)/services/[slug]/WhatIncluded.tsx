@@ -61,13 +61,13 @@ const WhatIncluded = ({ whatIncluded }: any) => {
 
                         <p
                           onClick={() => setOpen(!open)}
-                          className="absolute cursor-pointer bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
+                          className={`absolute cursor-pointer bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start`}
+                            style={{ color: card?.btnColor }}
                         >
                           <span
                             className="text-[18px]"
-                            style={{ color: whatIncluded?.btnColor }}
                           >
-                            {whatIncluded?.button}
+                            {card.button}
                           </span>
                           <MdOutlineArrowOutward />
                         </p>

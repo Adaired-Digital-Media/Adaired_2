@@ -274,8 +274,8 @@ const KeyStats = ({ keyStats }: any) => {
                     </h2>
 
                     <h3 className={`pt-10 ${isHovered
-                        ? 'text-white'
-                        : ''
+                      ? 'text-white'
+                      : ''
                       }`}>{item?.description}</h3>
                   </div>
                 );
@@ -474,7 +474,7 @@ const KeyStats = ({ keyStats }: any) => {
                 className={`relative flex h-full items-center justify-center rounded-[10px] ${keyStats?.isImgBg
                   ? keyStats?.bgColor
                     ? `bg-[${keyStats.bgColor}]/10`
-                    : 'bg-[#FFFFFF]/10'
+                    : 'bg-[#F5F5F5]/50'
                   : ''
                   }`}
               >
@@ -562,21 +562,34 @@ const KeyStats = ({ keyStats }: any) => {
                 : 'translate-y-10 opacity-0'
                 }`}
             >
-              {keyStats?.list?.map((item: any, idx: number) => (
-                <div
-                  key={idx}
-                  className="hover:duration-400 flex flex-col items-center overflow-hidden rounded-[1rem] border border-[#F28F17]/20 from-[#ebf8ff] via-[#FFFFFF] to-[#fffaf0] p-5 text-center transition-all transition-transform duration-700 hover:-translate-y-4 hover:bg-gradient-to-br hover:shadow-xl lg:items-start lg:text-left"
-                  style={{
-                    transitionDelay: isVisible ? '0ms' : `${idx * 280}ms`,
-                  }}
-                >
-                  <h2 className="mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 font-normal text-[#FB9100] lg:mx-0">
-                    {`0${idx + 1}`}
-                  </h2>
-                  <p className="pt-10 font-bold">{item?.title}</p>
-                  <p className="pt-2 md:text-left">{item?.description}</p>
-                </div>
-              ))}
+              {keyStats?.list?.map((item: any, idx: any) => {
+                const isHovered = hover === idx;
+
+                return (
+                  <div
+                    key={idx}
+                    onMouseEnter={() => setHover(idx)}
+                    onMouseLeave={() => setHover(null)}
+                    style={{
+                      transitionDelay: `${idx * 280}ms`,
+                    }}
+                    className={`rounded-3xl border-r-[1px] border-r-[#00000026]/10 p-[1.8rem] transition-all duration-700 last:border-r-0 lg:p-[1rem] xl:px-[1.75rem] xl:py-[1.5rem] 1360:p-[1rem] 1400:p-[1rem]
+      ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}
+      ${isHovered ? 'bg-gradient-to-br from-[#FB9100] to-[#000000]' : ''}`}
+                  >
+                    <h2
+                      className={`F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0
+        ${isHovered ? 'text-white bg-black/40' : ''}`}
+                    >
+                      {`0${idx + 1}`}
+                    </h2>
+
+                    <h3 className={`pt-10 ${isHovered ? 'text-white' : ''}`}>
+                      {item?.description}
+                    </h3>
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}
@@ -613,9 +626,8 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
-                          activeTab === index ? 'font-semibold' : ''
-                        }`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
+                          }`}
                       >
                         {item.desctioption}
                       </p>

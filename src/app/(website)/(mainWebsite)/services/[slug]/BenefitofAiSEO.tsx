@@ -14,13 +14,18 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
     >
       <MaxWidthWrapper>
         <div
-          className={`flex items-center justify-between flex-col lg:flex-row transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          // className={`flex items-center justify-between flex-col lg:flex-row transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
             title={benefitofAiSeo?.heading}
-            className="w-[100%] lg:w-[35%]"
+            breakIndex={benefitofAiSeo?.breakIndex}
+            isDecVarticle={!benefitofAiSeo?.isInCenter}
+            isInCenter = {benefitofAiSeo?.isInCenter}
+            description={benefitofAiSeo?.description}
+            isBgWhite={benefitofAiSeo?.isInCenter && true}
+            className=""
           />
-          <div className="w-[100%] lg:w-[60%]">
+          {/* <div className="">
             {benefitofAiSeo?.description?.map((item: any, idx: number) => {
               return (
                 <p key={idx} className="py-2">
@@ -28,7 +33,7 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
                 </p>
               );
             })}
-          </div>
+          </div> */}
         </div>
         
       </MaxWidthWrapper>

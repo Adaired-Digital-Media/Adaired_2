@@ -11,8 +11,6 @@ import chat from '../../../../../public/assets/icons/chat.png';
 import { useReCaptcha } from 'next-recaptcha-v3';
 import PhoneInputField from '../UI/InputField/PhoneInputField';
 import validators from '@/@core/utils/validators';
-import axios from 'axios';
-import { BaseURL } from '@/baseUrl';
 
 const ContactForm = () => {
   const [errors, setErrors] = useState<{
@@ -63,68 +61,24 @@ const ContactForm = () => {
     return Object.values(newErrors).every((error) => error === '');
   };
 
-  // const handleClick = async () => {
-  //   if (!validateForm()) return;
-  //   try {
-  //     const token = await executeRecaptcha('contact_page_form');
-
-  //     const payload = {
-  //       ...inputValue,
-  //       gRecaptchaToken: token,
-  //     };
-
-  //     const response = await fetch('/api/zoho/leadRegister', {
-  //       method: 'POST',
-  //       headers: { 'Content-Type': 'application/json' },
-  //       body: JSON.stringify(payload),
-  //     });
-
-  //     if (!response.ok) throw new Error('Submission failed');
-
-  //     setInputValue({
-  //       name: '',
-  //       email: '',
-  //       phone: '',
-  //       service: '',
-  //       message: '',
-  //     });
-
-  //     setErrors({});
-  //     router.push('/thankyou');
-  //   } catch (error) {
-  //     console.error(error);
-  //     alert('Failed to submit form. Please try again.');
-  //   }
-  // };
-
   const handleClick = async () => {
     if (!validateForm()) return;
-
     try {
+      const token = await executeRecaptcha('contact_page_form');
+
       const payload = {
-        name: `${inputValue.name}`.trim(),
-        email: inputValue.email,
-        phone: inputValue.phone,
-        service: inputValue.service,
-        message: inputValue.message,
-        gRecaptchaToken: 'token', // replace with real token later
+        ...inputValue,
+        gRecaptchaToken: token,
       };
 
-      if (!inputValue?.service) {
-        throw new Error('BaseURL is not defined');
-      }
-
-      const response = await axios.post(`${BaseURL}/mail/send`, payload, {
-        headers: {
-          'Content-Type': 'application/json',
-        },
+      const response = await fetch('/api/zoho/leadRegister', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
       });
 
-      if (response.status !== 200) {
-        throw new Error('Submission failed');
-      }
+      if (!response.ok) throw new Error('Submission failed');
 
-      // Reset form
       setInputValue({
         name: '',
         email: '',
@@ -133,12 +87,10 @@ const ContactForm = () => {
         message: '',
       });
 
+      setErrors({});
       router.push('/thankyou');
-    } catch (error: any) {
-      console.error(
-        'Form submission error:',
-        error?.response?.data || error.message
-      );
+    } catch (error) {
+      console.error(error);
       alert('Failed to submit form. Please try again.');
     }
   };
@@ -154,7 +106,7 @@ const ContactForm = () => {
             Let’s Start Your Success Journey
           </h3> */}
           <p className="pt-3 text-left text-[16px] text-[#666666]">
-            {/* <p className="pt-3 text-left text-[14px] text-[#666666]"> */}
+          {/* <p className="pt-3 text-left text-[14px] text-[#666666]"> */}
             Fill out the form, and let’s turn your business goals into reality.
           </p>
         </div>
@@ -166,7 +118,7 @@ const ContactForm = () => {
           className="mb-auto"
         />
       </div>
-      <div>
+      <div className="space-y-4">
         <InputField
           className="my-4"
           name="name"
@@ -197,7 +149,7 @@ const ContactForm = () => {
         </div>
 
         <SelectField
-          className="my-4"
+          
           name="service"
           value={inputValue.service}
           handleChange={handleChange}

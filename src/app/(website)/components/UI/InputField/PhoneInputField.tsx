@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import CountryList from 'country-list-with-dial-code-and-flag';
 import Flag from '../Flag';
 import { MdArrowDropDown } from 'react-icons/md';
@@ -31,12 +31,31 @@ const PhoneInputField = ({
 
   const [selected, setSelected] = useState(defaultUSA);
   const [open, setOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
 
   return (
-    <div className="relative">
+    <div className="relative" ref={dropdownRef}>
       {/* Flag dropdown */}
       <div className="absolute left-0 top-0">
-        <div className="relative">
+        <div className="relative" >
           <div
             onClick={() => setOpen(!open)}
             className="flex cursor-pointer items-center gap-1 px-2 py-3"
@@ -96,10 +115,15 @@ const PhoneInputField = ({
         className={`${className} w-full rounded-[0.5rem] border-none bg-[#F8F8F8] py-3 pl-[3rem] text-xxs font-normal text-[#000000] outline-none placeholder:text-[#323232B2] focus:border-[#000000] xl:text-xs`}
       />
 
-      {error && (
+      {/* {error && (
         <span className="absolute left-0 top-[3rem] z-20 w-fit bg-[#FFFFFF] p-2 text-[12px] text-red-500">
           {error}
-        </span>
+        </span> */}
+      {error && (
+        <p className="mt-1 text-xxs text-red-500">
+          {error}
+        </p>
+
       )}
     </div>
   );

@@ -45,7 +45,7 @@ export default function ImpToBusinessSlider({
                 {data?.map((item: any, idx: number) => (
                     <SwiperSlide key={idx} className="flex">
                         <div
-                            className="relative my-[1rem] flex h-[39rem] sm:h-[35rem] md:h-[36rem] lg:h-[36rem] w-full flex-col rounded-[1rem] border bg-white p-[2rem] transition-all duration-500"
+                            className="relative my-[1rem] flex h-[40rem] md:h-[38rem] lg:h-[36rem] w-full flex-col rounded-[1rem] border bg-white p-[2rem] transition-all duration-500"
                             style={{
                                 borderColor: colors?.borderColor,
                                 backgroundColor: colors?.cardColor || '#FFFFFF',
@@ -133,7 +133,7 @@ export default function ImpToBusinessSlider({
                             {item?.button && (
                                 <p
                                     onClick={() => setOpen && setOpen(!open)}
-                                    className="mt-auto flex cursor-pointer items-center justify-center gap-2 pt-6 text-[#FB9100] lg:justify-start"
+                                    className="absolute-[2rem] mt-auto flex cursor-pointer items-center justify-center gap-2 pt-6 text-[#FB9100] lg:justify-start"
                                 >
                                     <span className="text-[16px]">{item.button}</span>
                                     <MdOutlineArrowOutward />

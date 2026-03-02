@@ -42,20 +42,58 @@ import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005
 import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
 import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
 
+import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
+import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
+import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/adairedSEO3.png';
+import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
+import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
+import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
+import adairedHelp_14 from '../../../../../../public/assets/images/Services/seo/adairedSEO7.png';
+import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
+import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
+import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
+import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
+import adairedHelpaiseo4 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO4.png';
+import adairedHelpaiseo5 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO5.png';
+import adairedHelpaiseo6 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO6.png';
+import whatMkLocal from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo1.png';
+import whatMkLocal1 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo2.png';
+import whatMkLocal2 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo3.png';
+import whatMkLocal3 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo4.png';
+import whatMkLocal4 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo5.png';
+import whatMkLocal5 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo6.png';
+import WhatMkeAd from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign1.png';
+import WhatMkeAd2 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign2.png';
+import WhatMkeAd3 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign3.png';
+import WhatMkeAd4 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign4.png';
+import WhatMkeAd5 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign5.png';
+import WhatMkeAd6 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign6.png';
+
+import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild1.png';
+import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild2.png';
+import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild3.png';
+import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild5.png';
+import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild4.png';
+
+import whatMkWhite_1 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia1.png';
+import whatMkWhite_2 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia2.png';
+import whatMkWhite_3 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia3.png';
+import whatMkWhite_4 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia4.png';
+import whatMkWhite_5 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia5.png';
+
+import whatMkWhiteSeo_1 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo1.png';
+import whatMkWhiteSeo_2 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo2.png';
+import whatMkWhiteSeo_3 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo3.png';
+import whatMkWhiteSeo_4 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo4.png';
+import whatMkWhiteSeo_5 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo5.png';
+import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
+
 import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
 import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
 import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
 import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
-import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 1000006027.png';
 import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
 import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
-import adairedHelp_7 from '../../../../../../public/assets/adairedHelp/Group 1000006065.png';
-import adairedHelp_8 from '../../../../../../public/assets/adairedHelp/Group 1000006045.png';
-import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/White-Hat.png';
-import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/Transparent Reporting.png';
-import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/Continuous Optimization.png';
-import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO Expertise.png';
-import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/Client-Centric.png';
 
 import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
 import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
@@ -97,19 +135,12 @@ import AdairedHelp4 from '../../../../../../public/assets/images/AdairedHelp4.pn
 import AdairedHelp5 from '../../../../../../public/assets/images/AdairedHelp5.png';
 import AdairedHelp6 from '../../../../../../public/assets/images/AdairedHelp6.png';
 
-import adairedDiff_1 from '../../../../../../public/assets/images/adairedDiff_1.png';
-import adairedDiff_2 from '../../../../../../public/assets/images/abc.png';
-import adairedDiff_3 from '../../../../../../public/assets/images/adairedDiff_3.png';
-import adairedDiff_4 from '../../../../../../public/assets/images/adairedDiff_4.png';
-import adairedDiff_5 from '../../../../../../public/assets/images/adairedDiff_5.png';
-import adairedDiff_6 from '../../../../../../public/assets/images/adairedDiff_6.png';
-
-import WhatMkeAd from '../../../../../../public/assets/images/WhatMkeAd.png';
-import WhatMkeAd2 from '../../../../../../public/assets/images/WhatMkeAd2.png';
-import WhatMkeAd3 from '../../../../../../public/assets/images/WhatMkeAd3.png';
-import WhatMkeAd4 from '../../../../../../public/assets/images/WhatMkeAd4.png';
-import WhatMkeAd5 from '../../../../../../public/assets/images/WhatMkeAd5.png';
-import WhatMkeAd6 from '../../../../../../public/assets/images/WhatMkeAd6.png';
+import adairedDiff_1 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding1.png';
+import adairedDiff_2 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding2.png';
+import adairedDiff_3 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding3.png';
+import adairedDiff_4 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding4.png';
+import adairedDiff_5 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding5.png';
+import adairedDiff_6 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding6.png';
 
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
 import linkServices_2 from '../../../../../../public/assets/images/linkServices_2.png';
@@ -137,12 +168,6 @@ import WhatAreService from '../../../../../../public/assets/images/Development_S
 import webDevelopmentBannerBg from '../../../../../../public/assets/web_development_banner_img.png';
 
 import stop_struggle3 from '../../../../../../public/assets/localseo/stop_struggle3.png';
-import whatMkLocal from '../../../../../../public/assets/localseo/whatMkLocal.png';
-import whatMkLocal1 from '../../../../../../public/assets/localseo/whatMkLocal1.png';
-import whatMkLocal2 from '../../../../../../public/assets/localseo/whatMkLocal2.png';
-import whatMkLocal3 from '../../../../../../public/assets/localseo/whatMkLocal3.png';
-import whatMkLocal4 from '../../../../../../public/assets/localseo/whatMkLocal4.png';
-import whatMkLocal5 from '../../../../../../public/assets/localseo/whatMkLocal5.png';
 
 // Local SEO Images
 import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
@@ -183,25 +208,12 @@ import whiteImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabe
 import whiteImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteImpIcon_5.png';
 import whiteImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteImpIcon_6.png';
 
-import whatMkWhite_1 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_1.png';
-import whatMkWhite_2 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_2.png';
-import whatMkWhite_3 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_3.png';
-import whatMkWhite_4 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_4.png';
-import whatMkWhite_5 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_5.png';
-
 // White Label Seo Page Images
 import whiteSeoBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoBannerBg.png';
 import whiteSeoKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoKeyStatsImg.png';
 import whiteSeoWhatIs from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoWhatIs.png';
 import whiteSeoBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoBuildLinkImg.png';
 import WhiteSeoServiceResultImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/WhiteSeoServiceResultImg.png';
-
-import whatMkWhiteSeo_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_1.png';
-import whatMkWhiteSeo_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_2.png';
-import whatMkWhiteSeo_3 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_3.png';
-import whatMkWhiteSeo_4 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_4.png';
-import whatMkWhiteSeo_5 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_5.png';
-import whatMkWhiteSeo_6 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_6.png';
 
 import whiteSeoResult_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_1.png';
 import whiteSeoResult_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_2.png';
@@ -280,12 +292,28 @@ import whiteLinkBuildingImpIcon_4 from '../../../../../../public/assets/whitelab
 import whiteLinkBuildingImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_5.png';
 import whiteLinkBuildingImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_6.png';
 
-import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_1.png';
-import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_2.png';
-import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_3.png';
-import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_4.png';
-import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_5.png';
+// SAAS Seo Images
+import saasSeoBannerBg from '../../../../../../public/assets/saasSeo/saasSeoBannerBg.png';
+import saasSeoWhatIsImg from '../../../../../../public/assets/saasSeo/saasSeoWhatIsImg.png';
+import saasSeoAdairedHelpImg from '../../../../../../public/assets/saasSeo/saasSeoAdairedHelpImg.png';
+import saasSeoBuildLinkImg from '../../../../../../public/assets/saasSeo/saasSeoBuildLinkImg.png';
+import saasSeoBuildLinkBg from '../../../../../../public/assets/saasSeo/saasSeoBuildLinkBg.png';
 
+import saasSeoMissing_1 from '../../../../../../public/assets/saasSeo/saasSeoMissing_1.png';
+
+import saasSeoImpIcon_1 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_1.png';
+import saasSeoImpIcon_2 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_2.png';
+import saasSeoImpIcon_3 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_3.png';
+import saasSeoImpIcon_4 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_4.png';
+import saasSeoImpIcon_5 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_5.png';
+import saasSeoImpIcon_6 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_6.png';
+
+import saasSeoWhatMkDiffImg_1 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_1.png';
+import saasSeoWhatMkDiffImg_2 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_2.png';
+import saasSeoWhatMkDiffImg_3 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_3.png';
+import saasSeoWhatMkDiffImg_4 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_4.png';
+import saasSeoWhatMkDiffImg_5 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_5.png';
+import saasSeoWhatMkDiffImg_6 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_6.png';
 
 export type SectionKey =
   | 'banner'
@@ -337,7 +365,6 @@ export const SERVICES_DATA = {
       'getplan',
       'faqData',
       'readyToStart',
-
     ] satisfies SectionKey[],
     metaDetails: {
       title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
@@ -523,8 +550,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '01',
       heading: 'What’s Included in Our SEO Services',
-      button: 'Get Your Free SEO Audit',
-      btnColor: '#1A5A96',
 
       list: [
         {
@@ -534,6 +559,8 @@ export const SERVICES_DATA = {
             `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
             `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
         },
         {
           icon: seo_tool_1,
@@ -542,6 +569,8 @@ export const SERVICES_DATA = {
             `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
             `On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
         },
         {
           icon: seo_tool_2,
@@ -550,6 +579,8 @@ export const SERVICES_DATA = {
             `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
             `Technical optimization ensures search engines can efficiently access and understand the site effectively, and this is what is necessary to maintain the same ranking level.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
         },
         {
           icon: seo_tool_4,
@@ -558,6 +589,8 @@ export const SERVICES_DATA = {
             `In content optimization, we improve existing content and create new, relevant content based on SEO insights. This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly.`,
             `High-quality content supports better engagement, increased page views, and stronger relevance signals, helping websites perform more effectively in search results.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
         },
         {
           icon: seo_tool_5,
@@ -566,6 +599,8 @@ export const SERVICES_DATA = {
             `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. These links are indicators of credibility and authority to search engines.`,
             ` Ethical link-building practices help strengthen a website’s domain authority over time,  improving its ability to rank competitively while maintaining compliance with search engine guidelines.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
         },
         {
           icon: seo_tool_6,
@@ -574,6 +609,8 @@ export const SERVICES_DATA = {
             `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved.`,
             `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
         },
       ],
     },
@@ -605,31 +642,36 @@ export const SERVICES_DATA = {
           icon: step_3,
           title: 'On-Page and Technical Optimization',
           description: [
-            `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines.`, `This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing. 
-           `, ` These changes enhance user experience while improving search rankings. A well-optimized site ensures that content is both readable for users and properly recognized by search engines.`
+            `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines.`,
+            `This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing. 
+           `,
+            ` These changes enhance user experience while improving search rankings. A well-optimized site ensures that content is both readable for users and properly recognized by search engines.`,
           ],
         },
         {
           icon: step_4,
           title: 'Content Enhancement and Creation',
           description: [
-            `Optimizing and creating content is a core part of the SEO process. We improve existing pages to better match target keywords, while new content is being created to fill gaps.`, `High-quality content addresses user intent, provides value, and encourages engagement. 
-            Organized content assists search engines with relevancy, ranking, and visitors who are actively attracted by content.`
+            `Optimizing and creating content is a core part of the SEO process. We improve existing pages to better match target keywords, while new content is being created to fill gaps.`,
+            `High-quality content addresses user intent, provides value, and encourages engagement. 
+            Organized content assists search engines with relevancy, ranking, and visitors who are actively attracted by content.`,
           ],
         },
         {
           icon: step_5,
           title: 'Link Building and Authority Growth',
           description: [
-            `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines.`, `This process focuses on acquiring links from relevant and reputable websites through ethical methods. 
-            Effective link building supports long-term SEO success and helps maintain visibility in search results.`
+            `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines.`,
+            `This process focuses on acquiring links from relevant and reputable websites through ethical methods. 
+            Effective link building supports long-term SEO success and helps maintain visibility in search results.`,
           ],
         },
         {
           icon: step_3,
           title: 'Monitoring, Reporting, and Optimization',
           description: [
-            `SEO is an ongoing process that requires continuous monitoring and refinement. Performance metrics, including traffic, rankings, and user behavior, are regularly tracked and analyzed. `, `The constant monitoring enables our strategy to adjust to the changes of the search engines and the appearance of trends, which will guarantee the stable growth and exploitation of the search visibility in the long term.`
+            `SEO is an ongoing process that requires continuous monitoring and refinement. Performance metrics, including traffic, rankings, and user behavior, are regularly tracked and analyzed. `,
+            `The constant monitoring enables our strategy to adjust to the changes of the search engines and the appearance of trends, which will guarantee the stable growth and exploitation of the search visibility in the long term.`,
           ],
         },
       ],
@@ -651,7 +693,7 @@ export const SERVICES_DATA = {
           img: seo_resultIcon_1,
           name: 'Tailored SEO Strategies',
           description: [
-            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives.`, 
+            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives.`,
             `With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business.`,
           ],
         },
@@ -659,9 +701,9 @@ export const SERVICES_DATA = {
           img: seo_resultIcon_2,
           name: 'Transparent Reporting',
           description: [
-            `We believe in building long-term relationships with our clients.`, 
+            `We believe in building long-term relationships with our clients.`,
             `This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, 
-            and drive long-term revenue for our clients.`, 
+            and drive long-term revenue for our clients.`,
             `Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth.`,
           ],
         },
@@ -669,7 +711,7 @@ export const SERVICES_DATA = {
           img: seo_resultIcon_3,
           name: 'Sustainable White-Hat Practices',
           description: [
-            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`, 
+            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`,
             `Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.`,
             `We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable.`,
           ],
@@ -718,9 +760,8 @@ export const SERVICES_DATA = {
         },
         {
           img: client_2,
-        }
-      ]
-
+        },
+      ],
     },
     leadingToolsForPerformence: {
       isGapTop: true,
@@ -752,8 +793,8 @@ export const SERVICES_DATA = {
         },
         {
           img: client_2,
-        }
-      ]
+        },
+      ],
     },
     adairedHelp: {
       isVisible: true,
@@ -769,8 +810,8 @@ export const SERVICES_DATA = {
           name: 'AI SEO',
           description: [
             `Our AI SEO services leverage artificial intelligence to enhance search engine optimization strategies with precision and efficiency. 
-            By analyzing large datasets, we identify keyword opportunities, optimize content, enhance technical performance, and predict user behavior. 
-            We do this to help our clients to adapt quickly to algorithm updates, scale SEO efforts, and achieve higher rankings with smarter, data-driven decisions.`,
+            By analyzing large datasets, we identify keyword opportunities, optimize content, enhance technical performance, and predict user behavior.`,
+            `We do this to help our clients to adapt quickly to algorithm updates, scale SEO efforts, and achieve higher rankings with smarter, data-driven decisions.`,
           ],
         },
         {
@@ -778,8 +819,8 @@ export const SERVICES_DATA = {
           name: 'Local SEO',
           description: [
             `Our Local SEO helps businesses connect with customers in their immediate geographic area. 
-            It focuses on optimizing Google Business Profiles, local keywords, map listings, reviews, and citations to improve visibility in local search results. 
-            Our effective local SEO drives foot traffic, phone inquiries, and leads, making it essential for service-based and location-focused businesses. `,
+            It focuses on optimizing Google Business Profiles, local keywords, map listings, reviews, and citations to improve visibility in local search results.`,
+            `Our effective local SEO drives foot traffic, phone inquiries, and leads, making it essential for service-based and location-focused businesses. `,
           ],
         },
         {
@@ -787,16 +828,16 @@ export const SERVICES_DATA = {
           name: 'National SEO',
           description: [
             `Our National SEO services are designed for businesses targeting audiences across an entire country. 
-            It involves competitive keyword targeting, authoritative content creation, strong backlink profiles, and optimized website architecture. 
-            This approach builds brand authority, increases nationwide search visibility, and delivers consistent organic traffic in highly competitive markets and industries.`,
+            It involves competitive keyword targeting, authoritative content creation, strong backlink profiles, and optimized website architecture.`,
+            `This approach builds brand authority, increases nationwide search visibility, and delivers consistent organic traffic in highly competitive markets and industries.`,
           ],
         },
         {
           img: adairedHelp_icon_4,
           name: 'E-commerce SEO',
           description: [
-            `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience. 
-            We deploy a strong e-commerce SEO strategy that increases conversions, enhances discoverability, and supports long-term growth by reducing reliance on paid advertising. `,
+            `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience.`,
+            `We deploy a strong e-commerce SEO strategy that increases conversions, enhances discoverability, and supports long-term growth by reducing reliance on paid advertising. `,
           ],
         },
       ],
@@ -1011,7 +1052,8 @@ export const SERVICES_DATA = {
       data: [
         {
           title: 'Establish',
-          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          description:
+            'Lorem Ipsum is simply dummy text of the printing and typesetting',
           desc: '$399',
           span: '/month',
           desctioption: `Complete SEO Audit`,
@@ -1033,14 +1075,15 @@ export const SERVICES_DATA = {
             },
             {
               des: [`Competitor Analysis`],
-            }
+            },
           ],
           button: 'Start Growing',
         },
         {
           title: 'Accelerate',
           text: 'Recommended',
-          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          description:
+            'Lorem Ipsum is simply dummy text of the printing and typesetting',
           desc: '$599',
           span: '/month',
           desctioption: `Everything In Starter`,
@@ -1062,13 +1105,14 @@ export const SERVICES_DATA = {
             },
             {
               des: [`Branded Monthly Reports`],
-            }
+            },
           ],
           button: 'Scale My Growth',
         },
         {
           title: 'Dominate',
-          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          description:
+            'Lorem Ipsum is simply dummy text of the printing and typesetting',
           desc: '$899',
           span: '/month',
           desctioption: `Everything in Premium`,
@@ -1087,9 +1131,8 @@ export const SERVICES_DATA = {
             },
           ],
           button: 'Dominate Search',
-        }
-      ]
-
+        },
+      ],
     },
   },
   'ai-seo-company-india': {
@@ -1240,10 +1283,13 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: true,
+      isDecVarticle: true,
+      isInCenter: false,
+      isBgWhite: false,
+      breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
-      bgColor:
-        'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
+      bgColor: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
@@ -1390,8 +1436,8 @@ export const SERVICES_DATA = {
         },
         {
           img: client_2,
-        }
-      ]
+        },
+      ],
     },
     adairedHelp: {
       isVisible: true,
@@ -1460,7 +1506,7 @@ export const SERVICES_DATA = {
       description: [],
       list: [
         {
-          img: adairedHelp_4,
+          img: adairedHelpaiseo1,
           name: 'AI-First SEO Built For Modern Search',
           description: [
             `Adaired pursues an AI-first strategy of SEO, which is how today's search engines operate. The search trends, user intent, and the ranking changes are analysed and processed by our AI tools in real time. `,
@@ -1468,7 +1514,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_5,
+          img: adairedHelpaiseo2,
           name: 'SEO Focused on Real Business Growth',
           description: [
             'We don’t focus only on rankings. SEO at Adaired is meant to deliver actual performance, increased traffic, improved leads, and increased conversions. ',
@@ -1476,7 +1522,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_3,
+          img: adairedHelpaiseo3,
           name: 'Custom SEO Strategies, No Templates',
           description: [
             `Adaired never uses one-size-fits-all SEO plans. We develop tailor-made plans that suit your industry, your target market, competition, and objectives. `,
@@ -1484,7 +1530,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_2,
+          img: adairedHelpaiseo4,
           name: 'Content That Works for AI and People',
           description: [
             'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our professionals make sure that it remains straightforward, practical, and comprehensible. ',
@@ -1492,7 +1538,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_1,
+          img: adairedHelpaiseo5,
           name: 'Proactive SEO That Stays Ahead of Changes',
           description: [
             `The search engines change constantly, and Adaired stays ahead of them. Our AI tracks performance changes, updates, and competitor activities in real time.`,
@@ -1500,7 +1546,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_6,
+          img: adairedHelpaiseo6,
           name: 'Clear Reporting and Complete Transparency',
           description: [
             'Adaired believes in honest communication. We provide simple, easy-to-follow reports that reveal what is working and what is not.  ',
@@ -1513,7 +1559,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '01',
       breakIndex: 7,
-      button: 'Get Your Free AI SEO Audit',
       heading:
         'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
       description:
@@ -1526,8 +1571,7 @@ export const SERVICES_DATA = {
             `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
             `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#74AA9C',
         },
 
@@ -1538,8 +1582,7 @@ export const SERVICES_DATA = {
             `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines. 
             Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#20808D',
         },
 
@@ -1550,8 +1593,7 @@ export const SERVICES_DATA = {
             `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.
             We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#2B99DE',
         },
 
@@ -1562,8 +1604,7 @@ export const SERVICES_DATA = {
             `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.
              With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#000000',
         },
 
@@ -1574,8 +1615,7 @@ export const SERVICES_DATA = {
             `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.
             We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#1F66BE',
         },
 
@@ -1586,9 +1626,8 @@ export const SERVICES_DATA = {
             `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.
             We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
-          btnColor: '#5F52B1', 
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#5F52B1',
         },
       ],
     },
@@ -1787,7 +1826,7 @@ brand appears in AI summaries and citations.`,
             },
             {
               des: [`Competitor Analysis`],
-            }
+            },
           ],
         },
         {
@@ -1811,7 +1850,7 @@ brand appears in AI summaries and citations.`,
             },
             {
               des: [`Competitor Analysis`],
-            }
+            },
           ],
         },
         {
@@ -1835,11 +1874,10 @@ brand appears in AI summaries and citations.`,
             },
             {
               des: [`Competitor Analysis`],
-            }
+            },
           ],
-        }
-      ]
-
+        },
+      ],
     },
   },
   'link-building-services-india': {
@@ -2002,10 +2040,12 @@ brand appears in AI summaries and citations.`,
     // NEW
     benefitofAiSeo: {
       isVisible: true,
+      isDecVarticle: false,
+      isBgWhite: true,
+      breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
-      bgColor:
-        'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
+      bgColor: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
@@ -2074,8 +2114,8 @@ brand appears in AI summaries and citations.`,
             `Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility.`,
             `Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
 
         {
@@ -2085,8 +2125,8 @@ brand appears in AI summaries and citations.`,
             `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority.`,
             `Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
 
         {
@@ -2096,7 +2136,8 @@ brand appears in AI summaries and citations.`,
             `Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention.`,
             `We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`,
           ],
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
 
         {
@@ -2106,7 +2147,8 @@ brand appears in AI summaries and citations.`,
             `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site.`,
             `Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
           ],
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
 
         {
@@ -2116,11 +2158,10 @@ brand appears in AI summaries and citations.`,
             `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.`,
             `Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
           ],
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
       ],
-      button: 'Get Your Free AI SEO Audit',
-      btnColor: '#1A5A96',
     },
 
     serviceResult: {
@@ -2218,8 +2259,8 @@ brand appears in AI summaries and citations.`,
         },
         {
           img: client_2,
-        }
-      ]
+        },
+      ],
     },
 
     // NEW
@@ -2298,7 +2339,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatMkeDeferent: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '02',
       isInCenter: true,
       bgColor: true,
       heading: 'What Makes Adaired Different From Our Competitors?',
@@ -2419,9 +2460,10 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatMissing: {
       isVisible: true,
-      breakIndex: 5,
-      bgColor: false,
+      breakIndex: 7,
+      bgColor: "#FAFAFA",
       isInCenter: true,
+      isVariant: '01',
       heading:
         'What Your Business Could Be Missing And How Link Building Can Help?',
       list: [
@@ -2458,6 +2500,7 @@ brand appears in AI summaries and citations.`,
       isCenter: true,
       isHoverBgBlue: true,
       subtitle: '',
+      breakIndex:3,
       title:
         'Maximize Your Online Presence With The Best Link Building Services',
       button: 'Get Started Now',
@@ -2653,6 +2696,10 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
+      isDecVarticle: true,
+      isBgWhite: false,
+      isInCenter: false,
+      breakIndex: 3,
       activeDot: '#000000',
       inactiveDot: '#9DA0A3',
       bgColor: 'bg-[#FAFAFA]',
@@ -2849,8 +2896,8 @@ brand appears in AI summaries and citations.`,
         },
         {
           img: client_2,
-        }
-      ]
+        },
+      ],
     },
 
     // Updated
@@ -3380,6 +3427,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       breakIndex: 5,
       bgColor: '#FAFAFA',
+      isVariant: '01',
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -3922,8 +3970,7 @@ brand appears in AI summaries and citations.`,
         {
           img: client_5,
         },
-      ]
-
+      ],
     },
 
     // leadingTools: {
@@ -4030,7 +4077,8 @@ brand appears in AI summaries and citations.`,
       data: [
         {
           title: 'GBP Only Establish',
-          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          description:
+            'Lorem Ipsum is simply dummy text of the printing and typesetting',
           desc: '$299',
           span: '/month',
           desctioption: `Complete GBP Audit`,
@@ -4058,14 +4106,15 @@ brand appears in AI summaries and citations.`,
             },
             {
               des: [`Monthly Performance Reports`],
-            }
+            },
           ],
           button: 'Start Growing',
           btnColor: '#000000',
         },
         {
           title: 'GBP + Website Dominate',
-          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          description:
+            'Lorem Ipsum is simply dummy text of the printing and typesetting',
           desc: '$599',
           span: '/month',
           desctioption: `Everything in GBP Package`,
@@ -4093,13 +4142,12 @@ brand appears in AI summaries and citations.`,
             },
             {
               des: [`Local Search Grid Tracking`],
-            }
+            },
           ],
           button: 'Dominate Search',
           btnColor: '#000000',
-        }
-      ]
-
+        },
+      ],
     },
   },
   'social-media-outsourcing-india': {
@@ -4151,7 +4199,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '07',
+      code: '08',
       img: whiteKeyStats,
       heading: 'Must-Know Facts About White Label Social Media',
       bgColor: '#FB9100',
@@ -4540,7 +4588,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: true,
       isVariant: '03',
-      breakIndex: 3,
+      breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: whiteBuildLinkImg,
       heading: 'Ready to Expand Your Agency?',
@@ -4718,6 +4766,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       bgColor: true,
       isInCenter: true,
+      isVariant: '01',
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -4862,8 +4911,8 @@ brand appears in AI summaries and citations.`,
         },
         {
           img: client_2,
-        }
-      ]
+        },
+      ],
     },
 
     getplan: {
@@ -4950,7 +4999,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '07',
+      code: '06',
       img: whiteSeoKeyStatsImg,
       heading: 'White Label SEO Insights',
       bgColor: '#000000',
@@ -5267,7 +5316,7 @@ brand appears in AI summaries and citations.`,
     serviceResult: {
       isVisible: true,
       breakIndex: 3,
-      bgColor: '#FFF8F0',
+      bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
       isInCenter: false,
       heading: 'Common White Label SEO Use Cases',
       isVariant: '03',
@@ -5378,7 +5427,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: true,
       isVariant: '03',
-      breakIndex: 3,
+      breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: whiteSeoBuildLinkImg,
       heading: 'Ready to Offer SEO Without Building an In-House Team?',
@@ -5470,8 +5519,8 @@ brand appears in AI summaries and citations.`,
         },
         {
           img: client_2,
-        }
-      ]
+        },
+      ],
     },
 
     getplan: {
@@ -5704,6 +5753,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       bgColor: true,
       isInCenter: true,
+      isVariant: '01',
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -6088,12 +6138,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       img: whiteServicesAdairedHelpImg,
       isInCenter: false,
+      breakIndex: 3,
       bgColor: '#FFFCF8',
       heading: `Work with Adaired's Agency-First White-Label Model`,
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
-        complete control over how services are positioned, priced, and presented to clients. 
-        Rather than providing generic outsourcing, we serve as a structured fulfillment layer that integrates with existing agency operations.`,
+        complete control over how services are positioned, priced, and presented to clients.`,
+        `Rather than providing generic outsourcing, we serve as a structured fulfillment layer that integrates with existing agency operations.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
@@ -6689,8 +6740,8 @@ brand appears in AI summaries and citations.`,
         },
         {
           img: client_2,
-        }
-      ]
+        },
+      ],
     },
 
     getplan: {
@@ -6768,6 +6819,7 @@ brand appears in AI summaries and citations.`,
     whatMissing: {
       isVisible: false,
       bgColor: true,
+      isVariant: '01',
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -7204,6 +7256,7 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
+      breakIndex: 4,
       img: benefitsOfPPC,
       isInCenter: false,
       bgColor: '#FFFCF8',
@@ -7228,7 +7281,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Even when users don’t click your ad, they still see your brand.`,
             `Platforms like Google Ads position your business at the top of search results, reinforcing credibility and increasing brand awareness among high-intent audiences.`,
-            `This repeated visibility builds trust and keeps your company top-of-mind.`
+            `This repeated visibility builds trust and keeps your company top-of-mind.`,
           ],
         },
         {
@@ -7237,7 +7290,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `PPC allows you to reach exactly the right audience at the right time.`,
             `At Adaired, we target users based on search intent, geographic location, service usage, demographics, interests, behaviors, and remarketing activity.`,
-            `This granular control ensures your ad budget is spent only on users most likely to convert.`
+            `This granular control ensures your ad budget is spent only on users most likely to convert.`,
           ],
         },
         {
@@ -7246,7 +7299,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Every click, impression, and conversion is tracked.`,
             `Using tools like Google Analytics, we monitor campaign performance in real time, allowing us to measure cost per lead, track return on ad spend (ROAS), identify top-performing keywords, and optimize underperforming ads.`,
-            `No guesswork, just data-driven decisions`
+            `No guesswork, just data-driven decisions`,
           ],
         },
         {
@@ -7273,7 +7326,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `When you hire PPC experts, you remain in full control of your advertising spend.`,
             `You can set daily or monthly budgets, pause campaigns anytime, scale winning ads, and shift budget toward high-performing keywords.`,
-            `This flexibility allows your marketing strategy to adapt quickly to performance trends and business goals.`
+            `This flexibility allows your marketing strategy to adapt quickly to performance trends and business goals.`,
           ],
         },
         {
@@ -7781,6 +7834,7 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       bgColor: true,
       isInCenter: true,
+      isVariant: '01',
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -7910,7 +7964,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `In a white-label setup, a specialized PPC management company handles the strategy, campaign setup, optimization, tracking, and reporting behind the scenes. 
-          Your agency maintains full ownership of the client relationship, branding, and pricing.`
+          Your agency maintains full ownership of the client relationship, branding, and pricing.`,
         },
       ],
       button: '',
@@ -7918,12 +7972,11 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: true,
-      bgColor: false,
+      bgColor: "#FFFFFF",
       isInCenter: true,
+      isVariant: '01',
       heading: 'How Does White Label PPC Work?',
-      description: [
-        `The process is simple and scalable:`,
-      ],
+      description: [`The process is simple and scalable:`],
       list: [
         {
           icon: whitePaidAdsMissing_1,
@@ -7955,12 +8008,13 @@ brand appears in AI summaries and citations.`,
       isInCenter: false,
       isBgWhite: false,
       isVariant: '01',
-      heading: 'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
-      description:
-        [`As your agency grows, you’ll eventually face a critical decision:`,
-          `Should you build an in-house PPC team or partner with a white-label PPC agency?`,
-          `Both options have advantages, but the right choice depends on your growth goals, budget, and operational capacity. Let’s differentiate them:`
-        ],
+      heading:
+        'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
+      description: [
+        `As your agency grows, you’ll eventually face a critical decision:`,
+        `Should you build an in-house PPC team or partner with a white-label PPC agency?`,
+        `Both options have advantages, but the right choice depends on your growth goals, budget, and operational capacity. Let’s differentiate them:`,
+      ],
       data: [
         {
           desctioption: `Factor`,
@@ -7998,9 +8052,7 @@ brand appears in AI summaries and citations.`,
           desctioption: `White-Label PPC Agency`,
           list: [
             {
-              description: [
-                `Low or no hiring or training costs`,
-              ],
+              description: [`Low or no hiring or training costs`],
             },
             {
               description: [`Fast campaigns can launch within days`],
@@ -8012,9 +8064,7 @@ brand appears in AI summaries and citations.`,
               description: [`Easily scalable as clients grow`],
             },
             {
-              description: [
-                `Minimal management required`,
-              ],
+              description: [`Minimal management required`],
             },
             {
               description: [`Low or no employee turnover risk`],
@@ -8023,9 +8073,7 @@ brand appears in AI summaries and citations.`,
               description: [`Pay for what you need`],
             },
             {
-              description: [
-                `Fully white-labeled under your agency`,
-              ],
+              description: [`Fully white-labeled under your agency`],
             },
             {
               description: [`You focus on sales & client relationships`],
@@ -8041,30 +8089,22 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [
-                `Slow hiring & onboarding can take months`,
-              ],
+              description: [`Slow hiring & onboarding can take months`],
             },
             {
-              description: [
-                `Depends on who you hire`,
-              ],
+              description: [`Depends on who you hire`],
             },
             {
               description: [`Limited by team capacity`],
             },
             {
-              description: [
-                `Ongoing supervision & HR management`,
-              ],
+              description: [`Ongoing supervision & HR management`],
             },
             {
               description: [`High staff turnover disrupts service`],
             },
             {
-              description: [
-                `Fixed payroll regardless of workload`,
-              ],
+              description: [`Fixed payroll regardless of workload`],
             },
             {
               description: [`Fully internal control`],
@@ -8080,7 +8120,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 4,
-      isVariant: '03',
+      isVariant: '01',
       heading: 'Our White Label PPC Management Services',
       description: [
         `At Adaired Digital Media, we provide comprehensive white-label PPC Management Services designed to help agencies deliver high-performance paid advertising under their own brand. 
@@ -8268,7 +8308,7 @@ brand appears in AI summaries and citations.`,
       heading: `Why Businesses Prefer White Label PPC?`,
       description: [
         `As competition increases and client expectations grow, agencies need smarter ways to scale.`,
-        `White Label PPC has become the preferred solution for businesses and marketing agencies looking to expand paid advertising services without increasing operational complexity.`
+        `White Label PPC has become the preferred solution for businesses and marketing agencies looking to expand paid advertising services without increasing operational complexity.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
@@ -8276,8 +8316,10 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Lower Operational Costs',
           description: [
-            `Building an in-house PPC team requires substantial upfront and ongoing investment. Beyond salaries, agencies must account for recruitment expenses, onboarding time, benefits, training programs, performance tools, and management oversight.`, `These costs accumulate quickly, especially before the team becomes fully productive.`,
-            `A white label PPC partnership eliminates these fixed expenses. Instead of maintaining a full-time payroll, agencies gain access to experienced specialists on a scalable, performance-driven model.`, `This reduces financial risk while maintaining high-quality service delivery for clients.`
+            `Building an in-house PPC team requires substantial upfront and ongoing investment. Beyond salaries, agencies must account for recruitment expenses, onboarding time, benefits, training programs, performance tools, and management oversight.`,
+            `These costs accumulate quickly, especially before the team becomes fully productive.`,
+            `A white label PPC partnership eliminates these fixed expenses. Instead of maintaining a full-time payroll, agencies gain access to experienced specialists on a scalable, performance-driven model.`,
+            `This reduces financial risk while maintaining high-quality service delivery for clients.`,
           ],
         },
         {
@@ -8285,7 +8327,8 @@ brand appears in AI summaries and citations.`,
           name: 'Faster Time to Market',
           description: [
             `Recruiting and training skilled PPC professionals can take months. During that time, agencies may miss opportunities, delay client campaigns, or even turn down potential contracts due to capacity limitations.`,
-            `White label PPC services enable agencies to launch campaigns quickly, often within days.`, `With established processes, experienced strategists, and ready-to-deploy systems, agencies can begin generating revenue immediately rather than waiting for internal infrastructure to develop.`,
+            `White label PPC services enable agencies to launch campaigns quickly, often within days.`,
+            `With established processes, experienced strategists, and ready-to-deploy systems, agencies can begin generating revenue immediately rather than waiting for internal infrastructure to develop.`,
             `Speed to execution directly translates into competitive advantage.`,
           ],
         },
@@ -8337,8 +8380,9 @@ brand appears in AI summaries and citations.`,
       subtitle: 'Our Process',
       title: 'How Our White-Label Digital Marketing Agency Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
-      description: [`At Adaired Digital Media, our white-label partnership model is designed to integrate seamlessly with your agency while delivering expert-level digital marketing performance under your brand.`,
-        `We operate behind the scenes, allowing you to scale services without increasing internal workload or overhead.`
+      description: [
+        `At Adaired Digital Media, our white-label partnership model is designed to integrate seamlessly with your agency while delivering expert-level digital marketing performance under your brand.`,
+        `We operate behind the scenes, allowing you to scale services without increasing internal workload or overhead.`,
       ],
       services: [
         {
@@ -8362,7 +8406,7 @@ brand appears in AI summaries and citations.`,
           title: 'Expert Campaign Setup & Execution',
           description: [
             `Our team builds and launches fully optimized campaigns across platforms such as Google Ads, Microsoft Ads, and paid social channels.`,
-            `From advanced targeting and audience segmentation to conversion tracking and ad creative development, every element is structured to maximize performance. We focus on precision execution to ensure campaigns are positioned for strong ROI from the start.`
+            `From advanced targeting and audience segmentation to conversion tracking and ad creative development, every element is structured to maximize performance. We focus on precision execution to ensure campaigns are positioned for strong ROI from the start.`,
           ],
         },
         {
@@ -8385,7 +8429,8 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Scalable Infrastructure for Long-Term Growth',
           description: [
-            `As your agency grows, our support grows with you. Whether you add new clients or increase campaign budgets, our team scales resources accordingly without the delays or risks associated with internal hiring.`, `This flexible infrastructure allows you to pursue expansion confidently while maintaining consistent service quality.`
+            `As your agency grows, our support grows with you. Whether you add new clients or increase campaign budgets, our team scales resources accordingly without the delays or risks associated with internal hiring.`,
+            `This flexible infrastructure allows you to pursue expansion confidently while maintaining consistent service quality.`,
           ],
         },
       ],
@@ -8416,7 +8461,8 @@ brand appears in AI summaries and citations.`,
           desctioption: `Let’s build predictable, scalable growth for your agency.`,
         },
       ],
-      button: 'Contact us today to discuss a customized white-label partnership.',
+      button:
+        'Contact us today to discuss a customized white-label partnership.',
     },
 
     faqData: {
@@ -8437,18 +8483,21 @@ brand appears in AI summaries and citations.`,
           description: [
             `No. Our services are 100% white-labeled. We operate entirely behind the scenes under your agency’s brand.`,
             `All reports, communications, and deliverables are presented with your branding, ensuring you maintain full client ownership and authority.`,
-          ]
+          ],
         },
         {
           title: 'Do you work directly with our clients?',
-          description: [`We typically work exclusively through your agency to protect your client relationships.`,
-            `However, if needed, we can join calls as a silent partner or branded team member, depending on your preferred structure.`]
+          description: [
+            `We typically work exclusively through your agency to protect your client relationships.`,
+            `However, if needed, we can join calls as a silent partner or branded team member, depending on your preferred structure.`,
+          ],
         },
         {
           title: 'How quickly can campaigns be launched?',
-          description: [`In most cases, campaigns can be launched within a few business days after receiving complete client information and access to required platforms.`,
-            `Our streamlined onboarding process ensures fast turnaround without compromising quality.`
-          ]
+          description: [
+            `In most cases, campaigns can be launched within a few business days after receiving complete client information and access to required platforms.`,
+            `Our streamlined onboarding process ensures fast turnaround without compromising quality.`,
+          ],
         },
         {
           title: 'What platforms do you manage?',
@@ -8456,14 +8505,17 @@ brand appears in AI summaries and citations.`,
         },
         {
           title: 'How do you measure campaign success?',
-          description: [`Success is measured based on clearly defined KPIs such as conversions, cost per acquisition (CPA), return on ad spend (ROAS), lead quality, and revenue growth.`,
-            `We focus on performance metrics that directly impact your client’s business goals, not just clicks or impressions.`]
+          description: [
+            `Success is measured based on clearly defined KPIs such as conversions, cost per acquisition (CPA), return on ad spend (ROAS), lead quality, and revenue growth.`,
+            `We focus on performance metrics that directly impact your client’s business goals, not just clicks or impressions.`,
+          ],
         },
         {
           title: 'Is there a minimum commitment required?',
-          description: [`We offer flexible partnership models depending on campaign scope and volume.`,
-            `While PPC performs best with ongoing optimization, we structure agreements to align with your agency’s growth strategy and client retention model.`
-          ]
+          description: [
+            `We offer flexible partnership models depending on campaign scope and volume.`,
+            `While PPC performs best with ongoing optimization, we structure agreements to align with your agency’s growth strategy and client retention model.`,
+          ],
         },
       ],
     },
@@ -8781,8 +8833,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
-      list: [
-      ]
+      list: [],
     },
 
     getplan: {
@@ -8883,7 +8934,6 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-
   'white-label-link-building': {
     sectionsOrder: [
       'banner',
@@ -8989,15 +9039,15 @@ brand appears in AI summaries and citations.`,
         {
           desctioption: `Instead of hiring an in-house outreach team, content writers, and link acquisition specialists, you can outsource link-building services 
           to an expert white label link-building company like us to handle the complete backlink building process, from strategy and outreach to content creation and reporting. 
-          Your clients see only your brand, your communication, and your results.`
+          Your clients see only your brand, your communication, and your results.`,
         },
         {
           desctioption: `In short:`,
           list: [
             `1. You sell the service.`,
             `2. We execute it.`,
-            `3. You keep the credit and the profit margin.`
-          ]
+            `3. You keep the credit and the profit margin.`,
+          ],
         },
       ],
       button: '',
@@ -9079,7 +9129,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 5,
-      isVariant: '03',
+      isVariant: '01',
       heading: 'Our White Label Link Building Services',
       description: [
         `At Adaired, we don’t just build links; we engineer authority ecosystems for your clients. 
@@ -9164,7 +9214,7 @@ brand appears in AI summaries and citations.`,
       heading: `Who Our White Label Link Building Is For`,
       description: [
         `Our white-label link-building services are designed for growth-focused teams that want to deliver powerful SEO results without building an in-house outreach department.`,
-        `Whether you’re scaling an agency or expanding your service offerings, we act as your silent fulfillment partner.`
+        `Whether you’re scaling an agency or expanding your service offerings, we act as your silent fulfillment partner.`,
       ],
       list: [
         {
@@ -9245,42 +9295,50 @@ brand appears in AI summaries and citations.`,
           description: [
             `Yes, we focus on long-term placements on real websites with editorial standards.`,
             `While no provider can control a publisher indefinitely, we prioritize stable, lasting links and monitor placements carefully.`,
-          ]
+          ],
         },
         {
           title: 'Do you use PBNs or automated link-building tools?',
-          description: [`No. We strictly use manual outreach and legitimate websites.`,
-            `We do not use private blog networks (PBNs), spam directories, or automated link generation software.`]
+          description: [
+            `No. We strictly use manual outreach and legitimate websites.`,
+            `We do not use private blog networks (PBNs), spam directories, or automated link generation software.`,
+          ],
         },
         {
           title: 'How long does it take to see SEO results?',
-          description: [`Most campaigns begin showing measurable ranking movement within 8–12 weeks, depending on competition, domain authority, and existing backlink profile.`,
-            `Link building is a long-term authority strategy, not an overnight tactic.`
-          ]
+          description: [
+            `Most campaigns begin showing measurable ranking movement within 8–12 weeks, depending on competition, domain authority, and existing backlink profile.`,
+            `Link building is a long-term authority strategy, not an overnight tactic.`,
+          ],
         },
         {
           title: 'Can I resell your services under my own brand?',
-          description: [`Absolutely. Our ready-to-resell link-building services are fully white-labeled. Your clients will only see your branding, your reports, and your communication.`,
-            `We operate as your silent fulfillment partner.`
+          description: [
+            `Absolutely. Our ready-to-resell link-building services are fully white-labeled. Your clients will only see your branding, your reports, and your communication.`,
+            `We operate as your silent fulfillment partner.`,
           ],
         },
         {
           title: 'How do you ensure link quality?',
-          description: [`We evaluate every website based on traffic, authority metrics, relevance, spam signals, and editorial integrity.`,
-            `Each placement goes through a manual review process before delivery.`]
+          description: [
+            `We evaluate every website based on traffic, authority metrics, relevance, spam signals, and editorial integrity.`,
+            `Each placement goes through a manual review process before delivery.`,
+          ],
         },
         {
           title: 'Is there a minimum monthly commitment?',
-          description: [`We offer flexible packages depending on your needs.`,
-            `However, sustainable link building requires consistency, so most agencies choose ongoing monthly campaigns for optimal results.`
-          ]
+          description: [
+            `We offer flexible packages depending on your needs.`,
+            `However, sustainable link building requires consistency, so most agencies choose ongoing monthly campaigns for optimal results.`,
+          ],
         },
         {
           title: 'Do you guarantee rankings?',
-          description: [`No reputable link building provider can ethically guarantee specific rankings.`,
-            `What we guarantee is high-quality, strategic backlink acquisition designed to improve authority, strengthen search visibility, and support long-term growth.`
-          ]
-        }
+          description: [
+            `No reputable link building provider can ethically guarantee specific rankings.`,
+            `What we guarantee is high-quality, strategic backlink acquisition designed to improve authority, strengthen search visibility, and support long-term growth.`,
+          ],
+        },
       ],
     },
 
@@ -9293,7 +9351,7 @@ brand appears in AI summaries and citations.`,
       heading: `Why Businesses Prefer White Label PPC?`,
       description: [
         `As competition increases and client expectations grow, agencies need smarter ways to scale.`,
-        `White Label PPC has become the preferred solution for businesses and marketing agencies looking to expand paid advertising services without increasing operational complexity.`
+        `White Label PPC has become the preferred solution for businesses and marketing agencies looking to expand paid advertising services without increasing operational complexity.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
@@ -9301,8 +9359,10 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Lower Operational Costs',
           description: [
-            `Building an in-house PPC team requires substantial upfront and ongoing investment. Beyond salaries, agencies must account for recruitment expenses, onboarding time, benefits, training programs, performance tools, and management oversight.`, `These costs accumulate quickly, especially before the team becomes fully productive.`,
-            `A white label PPC partnership eliminates these fixed expenses. Instead of maintaining a full-time payroll, agencies gain access to experienced specialists on a scalable, performance-driven model.`, `This reduces financial risk while maintaining high-quality service delivery for clients.`
+            `Building an in-house PPC team requires substantial upfront and ongoing investment. Beyond salaries, agencies must account for recruitment expenses, onboarding time, benefits, training programs, performance tools, and management oversight.`,
+            `These costs accumulate quickly, especially before the team becomes fully productive.`,
+            `A white label PPC partnership eliminates these fixed expenses. Instead of maintaining a full-time payroll, agencies gain access to experienced specialists on a scalable, performance-driven model.`,
+            `This reduces financial risk while maintaining high-quality service delivery for clients.`,
           ],
         },
         {
@@ -9310,7 +9370,8 @@ brand appears in AI summaries and citations.`,
           name: 'Faster Time to Market',
           description: [
             `Recruiting and training skilled PPC professionals can take months. During that time, agencies may miss opportunities, delay client campaigns, or even turn down potential contracts due to capacity limitations.`,
-            `White label PPC services enable agencies to launch campaigns quickly, often within days.`, `With established processes, experienced strategists, and ready-to-deploy systems, agencies can begin generating revenue immediately rather than waiting for internal infrastructure to develop.`,
+            `White label PPC services enable agencies to launch campaigns quickly, often within days.`,
+            `With established processes, experienced strategists, and ready-to-deploy systems, agencies can begin generating revenue immediately rather than waiting for internal infrastructure to develop.`,
             `Speed to execution directly translates into competitive advantage.`,
           ],
         },
@@ -9361,10 +9422,9 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       bgColor: false,
       isInCenter: true,
+      isVariant: '01',
       heading: 'How Does White Label PPC Work?',
-      description: [
-        `The process is simple and scalable:`,
-      ],
+      description: [`The process is simple and scalable:`],
       list: [
         {
           icon: whitePaidAdsMissing_1,
@@ -9396,12 +9456,13 @@ brand appears in AI summaries and citations.`,
       isInCenter: false,
       isBgWhite: false,
       isVariant: '01',
-      heading: 'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
-      description:
-        [`As your agency grows, you’ll eventually face a critical decision:`,
-          `Should you build an in-house PPC team or partner with a white-label PPC agency?`,
-          `Both options have advantages, but the right choice depends on your growth goals, budget, and operational capacity. Let’s differentiate them:`
-        ],
+      heading:
+        'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
+      description: [
+        `As your agency grows, you’ll eventually face a critical decision:`,
+        `Should you build an in-house PPC team or partner with a white-label PPC agency?`,
+        `Both options have advantages, but the right choice depends on your growth goals, budget, and operational capacity. Let’s differentiate them:`,
+      ],
       data: [
         {
           desctioption: `Factor`,
@@ -9439,9 +9500,7 @@ brand appears in AI summaries and citations.`,
           desctioption: `White-Label PPC Agency`,
           list: [
             {
-              description: [
-                `Low or no hiring or training costs`,
-              ],
+              description: [`Low or no hiring or training costs`],
             },
             {
               description: [`Fast campaigns can launch within days`],
@@ -9453,9 +9512,7 @@ brand appears in AI summaries and citations.`,
               description: [`Easily scalable as clients grow`],
             },
             {
-              description: [
-                `Minimal management required`,
-              ],
+              description: [`Minimal management required`],
             },
             {
               description: [`Low or no employee turnover risk`],
@@ -9464,9 +9521,7 @@ brand appears in AI summaries and citations.`,
               description: [`Pay for what you need`],
             },
             {
-              description: [
-                `Fully white-labeled under your agency`,
-              ],
+              description: [`Fully white-labeled under your agency`],
             },
             {
               description: [`You focus on sales & client relationships`],
@@ -9482,30 +9537,22 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [
-                `Slow hiring & onboarding can take months`,
-              ],
+              description: [`Slow hiring & onboarding can take months`],
             },
             {
-              description: [
-                `Depends on who you hire`,
-              ],
+              description: [`Depends on who you hire`],
             },
             {
               description: [`Limited by team capacity`],
             },
             {
-              description: [
-                `Ongoing supervision & HR management`,
-              ],
+              description: [`Ongoing supervision & HR management`],
             },
             {
               description: [`High staff turnover disrupts service`],
             },
             {
-              description: [
-                `Fixed payroll regardless of workload`,
-              ],
+              description: [`Fixed payroll regardless of workload`],
             },
             {
               description: [`Fully internal control`],
@@ -9704,8 +9751,950 @@ brand appears in AI summaries and citations.`,
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      list: [],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
       list: [
-      ]
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'saas-seo-india': {
+    sectionsOrder: [
+      'banner',
+      'whatareservice',
+      'whatMissing',
+      'importantToBussiness',
+      'ourProcess',
+      'adairedHelp',
+      'whatMkeDeferent',
+      'buildlinks',
+      'faqData',
+      'keyStats',
+      'dataInTable',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'benefitofAiSeo',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '07',
+      isCenter: false,
+      isVisible: true,
+      heading: 'Scalable Growth',
+      subheading: '',
+      subtitle: '',
+      label: 'SaaS SEO Services That Drive',
+      desc: [
+        `Stop chasing traffic that doesn’t convert. 
+        We build SaaS SEO systems that generate qualified demos, lower CAC, and turn organic search into a predictable revenue channel.`,
+      ],
+      button: 'Book a 30-Minute Strategy Call',
+      width: '20rem',
+      widthLg: '30rem',
+      bgImg: saasSeoBannerBg,
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '10',
+      img: saasSeoWhatIsImg,
+      heading: 'Adaired Digital: A Dedicated B2B SaaS SEO Agency',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Helping B2B SaaS companies build predictable organic growth engines that increase MRR, generate qualified demos, 
+          and scale recurring revenue through data-driven SEO strategies tailored specifically for subscription-based software businesses.`,
+        },
+        {
+          desctioption: `With a focus on performance, analytics, and long-term value creation, 
+          we build SEO systems that grow alongside your product, sales team, and expansion strategy.`,
+        },
+      ],
+      button: '',
+    },
+
+    whatMissing: {
+      isVisible: true,
+      bgColor: '#FFFCF8',
+      isInCenter: true,
+      isVariant: '02',
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
+      description: [`The data is clear: SEO is not optional for SaaS growth.`],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      breakIndex: 3,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading: 'Comprehensive SaaS SEO Services',
+      description: [
+        `We deliver specialized SaaS SEO services designed to help subscription-based software companies attract high-intent buyers, increase demo bookings, 
+        and scale recurring revenue through sustainable organic growth.`,
+      ],
+      buttonName: 'Book a 30-Minute Strategy Call',
+      data: [
+        {
+          icon: saasSeoImpIcon_1,
+          name: 'Technical SaaS SEO Audits',
+          description: [
+            `SaaS websites are often complex, dynamic pages; product dashboards, subdomains, integrations, and layered site architecture can create hidden SEO issues that limit growth. 
+            Our technical SaaS SEO audits go beyond surface-level checks.`,
+            `We analyze crawlability, indexation, site structure, internal linking, page speed, Core Web Vitals, structured data, and technical bottlenecks that impact rankings. 
+            Then we prioritize fixes based on revenue impact, ensuring your platform is search-engine optimized, scalable, and technically sound for long-term growth.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: saasSeoImpIcon_2,
+          name: 'Product-Led Content Strategy',
+          description: [
+            `Your product should be the foundation of your SEO strategy. 
+            We develop product-led content frameworks that align directly with your features, use cases, and ideal customer profiles.`,
+            `Instead of publishing generic blog posts, we build high-intent landing pages, feature pages, comparison content, integration pages, 
+            and solution-based content that move prospects through the funnel.`,
+            `Every piece of content is strategically mapped to search intent and conversion goals, turning organic visibility into demos, trials, and paying customers.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: saasSeoImpIcon_3,
+          name: 'B2B SaaS Keyword Research',
+          description: [
+            `Effective SaaS SEO starts with understanding buyer intent. 
+            Our keyword research process focuses on identifying commercial and bottom-of-funnel search terms that directly impact pipeline growth.`,
+            `We analyze competitor rankings, industry-specific search patterns, long-tail opportunities, and high-value decision-stage keywords.`,
+            `Rather than chasing traffic volume, we prioritize keywords that align with your ICP, sales cycle, and revenue objectives, 
+            ensuring your organic strategy supports measurable business outcomes.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: saasSeoImpIcon_4,
+          name: 'Competitor & Alternative Pages',
+          description: [
+            `Decision-stage buyers frequently search for comparisons and alternatives before committing to a solution. 
+            We create optimized competitor comparisons and alternative pages designed to capture this high-intent traffic.`,
+            `These pages are strategically structured to rank, persuade, and convert, positioning your SaaS as the superior choice.`,
+            `By targeting “[Competitor] vs." and “[Competitor] alternatives” keywords, we help you intercept buyers actively evaluating options 
+            and increase your demo conversion rates.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: saasSeoImpIcon_5,
+          name: 'Link Acquisition for SaaS',
+          description: [
+            `In competitive SaaS markets, authority is critical. 
+            Our link acquisition strategy focuses on earning high-quality backlinks from relevant industry publications, SaaS communities, and authoritative domains.`,
+            `We prioritize contextual, value-driven placements that strengthen domain authority and improve ranking potential for competitive keywords.`,
+            `This approach enhances credibility, increases organic visibility, and supports sustainable long-term growth, without relying on risky or low-quality link tactics.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: saasSeoImpIcon_6,
+          name: 'Conversion Rate Optimization for Demo Pages',
+          description: [
+            `Driving traffic is only part of the equation; converting that traffic into demos and trials is where revenue happens.`,
+            `We optimize demo, trial, and signup pages through data-driven CRO strategies, including messaging refinement, CTA testing, UX improvements, trust signal integration, 
+            and behavioral analytics.`,
+            `By improving conversion rates, we help you generate more qualified opportunities from existing traffic, maximizing the ROI of your SEO investment.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      subtitle: 'Our Process',
+      title: 'The Growth Framework Behind Our SaaS SEO',
+      span: '',
+      description: [
+        `We don’t guess. We build structured, revenue-aligned SEO systems designed specifically for SaaS growth.`,
+      ],
+      services: [
+        {
+          icon: step,
+          title: 'Deep Market & Competitor Research',
+          description: [
+            `Every successful SaaS SEO strategy begins with understanding your market. We analyze your category landscape, competitors, positioning, pricing model, and ICP behavior.`,
+            `We identify who dominates search results, where competitors are vulnerable, what high-intent gaps exist, and how buyers search at different stages.`,
+            `This ensures we build a strategy rooted in opportunity, not assumptions.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Revenue-Focused Keyword Mapping',
+          description: [
+            `We map keywords to revenue, not just traffic. Our team identifies commercial, comparison, integration, and solution-based queries aligned with your sales funnel.`,
+            `Each keyword is assigned to a funnel stage, a landing page type, revenue potential, and conversion objective.`,
+            `The result? A keyword roadmap that supports predictable pipeline growth.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Content & Technical Optimization',
+          description: [
+            `With strategy in place, we execute. We optimize your site architecture, internal linking, and technical foundation while building high-intent content assets designed to rank and convert. 
+            This includes feature pages, competitor pages, use-case landing pages, and supporting authority content.`,
+            `Everything is structured to improve rankings, engagement, demo conversions, and organic visibility.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Authority & Link Building',
+          description: [
+            `In competitive SaaS niches, authority determines who wins. 
+            We implement strategic link acquisition campaigns that secure high-quality backlinks from relevant publications and SaaS-focused platforms.`,
+            `This strengthens domain authority, ranking potential, brand credibility, and long-term competitive positioning.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Conversion & Performance Tracking',
+          description: [
+            `Traffic without conversions is a wasted opportunity.`,
+            `We continuously track rankings, demo submissions, trial signups, user behavior, and funnel metrics. Then we refine content, messaging, and CTAs.`,
+            `Our goal is simple: Turn organic visibility into measurable recurring revenue.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Continuous Scaling & Growth Expansion',
+          description: [
+            `SEO is not a one-time campaign; it’s a long-term growth engine. Once initial traction is achieved, we shift from foundation-building to aggressive expansion and compounding scale.`,
+            `We aim to expand into high-intent keyword clusters, target adjacent industries, launch advanced use-case pages, scale competitor content, 
+            optimize underperforming pages for conversions, and leverage data insights to focus on revenue-driving topics.`,
+            `We continuously refine strategy based on performance metrics, search behavior shifts, and market trends, ensuring your SaaS keeps growing even as competition increases.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 4,
+      img: saasSeoAdairedHelpImg,
+      isInCenter: false,
+      bgColor: '',
+      heading: `The Difference Between SaaS SEO and Standard SEO`,
+      description: [
+        `B2B SaaS SEO isn’t like traditional SEO. It requires a strategic, revenue-focused approach built around complex buyer journeys and long-term customer value.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Long Sales Cycles',
+          description: [
+            `B2B SaaS purchases rarely happen overnight. Buyers research, compare, validate, and involve internal stakeholders before making a decision.`,
+            `Your SEO strategy must support every stage of that journey, from early problem awareness to decision-ready comparison searches. 
+            That means building content ecosystems, not just ranking blog posts.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Multiple Decision-Makers',
+          description: [
+            `Unlike B2C, B2B SaaS buying decisions often involve founders, department heads, finance teams, and technical evaluators.`,
+            `Each stakeholder searches differently. 
+            Your SEO strategy must address varied concerns, ROI, integrations, security, scalability, and implementation across multiple touchpoints.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Product-Led Growth',
+          description: [
+            `Modern SaaS companies rely heavily on product-led acquisition. 
+            Buyers want to understand features, use cases, integrations, and real-world applications before booking a demo.`,
+            `SEO must support feature pages, solution pages, comparison pages, and bottom-of-funnel content that directly connects search intent with product value.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Enterprise-Level Intent',
+          description: [
+            `B2B SaaS keywords often represent high commercial intent and significant contract values.`,
+            `Ranking for terms like “best [software category] platform” or “[competitor] alternative” can generate a pipeline worth thousands, or even millions, in annual contract value. 
+            Precision targeting is critical.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'High Lifetime Value (LTV) Customers',
+          description: [
+            `SaaS businesses operate on recurring revenue models. One organic conversion can translate into years of subscription revenue.`,
+            `That makes SEO not just a traffic channel but a long-term revenue multiplier. 
+            The focus shifts from volume to quality and retention-driven acquisition.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Competitive & Saturated Markets',
+          description: [
+            `Most SaaS categories are highly competitive, with established brands dominating search results.`,
+            `Winning requires more than basic optimization; it demands strategic content positioning, authority building, technical precision, and competitor-focused targeting. 
+            In saturated markets, smart SEO execution becomes a competitive advantage.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '01',
+      breakIndex: 3,
+      isInCenter: true,
+      bgColor: true,
+      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
+      description: [``],
+      list: [
+        {
+          img: saasSeoWhatMkDiffImg_1,
+          name: 'SaaS-Only Focus',
+          description: [
+            `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
+            SaaS growth is driven by subscription economics, long-term retention, product adoption, and expansion revenue. 
+            We understand the nuances of CAC, LTV, churn sensitivity, pipeline velocity, and product-led growth models. 
+            Because SaaS is all we do, our strategies are built around how subscription businesses actually scale, not around outdated SEO tactics designed for one-time purchases.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_2,
+          name: 'Revenue-First Strategy',
+          description: [
+            `Traffic alone doesn’t grow a SaaS company; revenue does. 
+            Every keyword we target, every page we optimize, and every content asset we build is aligned with measurable business outcomes. 
+            We map search intent to funnel stages and revenue potential, ensuring your organic growth translates into demo requests, trial signups, and a qualified pipeline. 
+            Instead of chasing high-volume vanity terms, we prioritize high-intent opportunities that directly influence recurring revenue and long-term customer value.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_3,
+          name: 'No Generic SEO Playbooks',
+          description: [
+            `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
+            We don’t believe in one-size-fits-all SEO. Your growth strategy is built specifically around your product positioning, ideal customer profile, category maturity, and competitive landscape. 
+            Whether you're defining a new category or competing in a saturated one, we design a framework that reflects your unique strengths and market realities, not a recycled checklist.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_4,
+          name: 'Deep Competitor Targeting',
+          description: [
+            `In B2B SaaS, buyers actively compare alternatives before making decisions. 
+            We leverage this behavior strategically. 
+            Our approach includes detailed competitor gap analysis, alternative positioning pages, comparison content, and high-intent keyword targeting designed to intercept prospects at the evaluation stage. 
+            By identifying where competitors dominate and where they leave opportunities open, we position your brand directly in the path of decision-ready buyers.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_5,
+          name: 'Full-Funnel Execution',
+          description: [
+            `Organic growth doesn’t happen at a single stage of the buyer journey. 
+            We build comprehensive SEO ecosystems that support awareness, consideration, evaluation, and decision-making. 
+            From problem-focused educational content to integration pages, use-case assets, and bottom-of-funnel comparison pages, every piece works together to create a cohesive search presence. 
+            The result is not fragmented traffic but a structured acquisition engine that consistently feeds your sales pipeline.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_6,
+          name: 'Built for Scale',
+          description: [
+            `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
+            Your SEO strategy should evolve with you. 
+            We design scalable frameworks that expand into new keyword clusters, industries, and high-value opportunities as your company grows. 
+            Instead of short-term ranking wins, we focus on building a long-term organic growth asset that compounds over time and strengthens your competitive position year after year.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '05',
+      breakIndex: 3,
+      bgImg: saasSeoBuildLinkBg,
+      img: saasSeoBuildLinkImg,
+      label: 'Ready to Scale Your',
+      heading: 'SaaS with Strategic SEO?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Organic growth doesn’t happen by accident. It requires a focused strategy, deep SaaS expertise, and execution built around revenue, not just rankings.`,
+        },
+        {
+          desctioption: `If you’re looking to reduce paid acquisition dependency, capture high-intent buyers, and build a long-term pipeline asset, we’re ready to help.`,
+        },
+      ],
+      button: 'Book a Strategy Call Now',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'How is B2B SaaS SEO different from traditional SEO?',
+          description: [
+            `B2B SaaS SEO involves longer sales cycles, multiple decision-makers, and significantly higher customer lifetime values compared to most industries.`,
+            `Unlike eCommerce or local SEO, SaaS strategies must target multiple funnel stages, from awareness to comparison and decision.
+            It also requires deep competitor positioning, feature-level optimization, and content aligned with complex buying intent.`,
+            `The focus isn’t just traffic; it’s qualified pipeline and recurring revenue.`,
+          ],
+        },
+        {
+          title: 'How long does it take to see results from SaaS SEO?',
+          description: [
+            `SaaS SEO is a long-term growth strategy. 
+            While early traction can be seen within 3–4 months, meaningful pipeline impact typically begins between 4–6 months, depending on competition, domain authority, and execution speed.`,
+            `Unlike paid ads, SEO builds compounding momentum, meaning results continue to strengthen over time rather than stopping when budgets pause.`,
+          ],
+        },
+        {
+          title: 'Do you work with early-stage SaaS startups?',
+          description: [
+            `Yes. We work with both early-stage and established SaaS companies. 
+            For startups, the focus is often on category positioning, long-tail opportunities, and building initial topical authority.`,
+            `For more mature SaaS brands, we concentrate on competitive gaps, scaling content clusters, and capturing high-intent comparison traffic.`,
+            `Strategy always adapts to the growth stage and goals.`,
+          ],
+        },
+        {
+          title: 'How do you measure SEO success for SaaS companies?',
+          description: [
+            `We measure success based on business metrics, not vanity metrics. 
+            That includes demo bookings, trial signups, marketing-qualified leads (MQLs), sales-qualified leads (SQLs), and revenue influenced by organic traffic.`,
+            `Rankings and traffic are important indicators, but they are secondary to pipeline and recurring revenue growth.`,
+          ],
+        },
+        {
+          title: 'What type of content do you create for SaaS SEO?',
+          description: [
+            `Our content strategy spans the full funnel. 
+            This includes educational problem-aware content, solution-focused pages, comparison and alternative pages, integration content, use-case landing pages, and product-led assets that support evaluation.`,
+            `Each piece is strategically mapped to intent and conversion opportunity rather than being created solely for volume.`,
+          ],
+        },
+        {
+          title: 'Can SEO reduce our paid acquisition costs?',
+          description: [
+            `Yes. A strong organic presence reduces dependency on paid channels over time. 
+            As your website ranks for high-intent commercial and comparison keywords, you begin capturing traffic that would otherwise require paid ads.`,
+            `While SEO does not replace paid media entirely, it significantly lowers blended CAC and increases acquisition efficiency.`,
+          ],
+        },
+        {
+          title: 'How do you approach competitor-heavy markets?',
+          description: [
+            `In competitive SaaS industries, generic blogging is not enough. We conduct detailed competitor gap analysis to identify content weaknesses, keyword gaps, and structural opportunities.`,
+            `From there, we build targeted comparison pages, alternative positioning assets, and deeper topical authority clusters designed to outperform competitors strategically, not randomly.`,
+          ],
+        },
+        {
+          title: 'Is SEO worth it for enterprise SaaS companies?',
+          description: [
+            `Absolutely. Enterprise SaaS buyers conduct extensive research before engaging with sales teams. 
+            Ranking across awareness, solution comparison, integration, and feature-level searches positions your brand early in the decision-making process.`,
+            `For high LTV enterprise customers, even a small increase in qualified organic traffic can generate a significant long-term revenue impact.`,
+          ],
+        },
+      ],
+    },
+
+    keyStats: {
+      isVisible: false,
+      code: '10',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Key Stats About White Label Link Building',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          desctioption: [
+            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
+          ],
+        },
+        {
+          desctioption: [
+            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
+          ],
+        },
+        {
+          desctioption: [
+            `Over two-thirds (69%) say link building directly drives business growth.`,
+          ],
+        },
+        {
+          desctioption: [
+            `59% predict backlinks will become even more important for rankings.`,
+          ],
+        },
+        {
+          desctioption: [
+            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
+          ],
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: false,
+      isBgWhite: false,
+      isVariant: '01',
+      heading:
+        'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
+      description: [
+        `As your agency grows, you’ll eventually face a critical decision:`,
+        `Should you build an in-house PPC team or partner with a white-label PPC agency?`,
+        `Both options have advantages, but the right choice depends on your growth goals, budget, and operational capacity. Let’s differentiate them:`,
+      ],
+      data: [
+        {
+          desctioption: `Factor`,
+          list: [
+            {
+              description: [`Upfront Cost`],
+            },
+            {
+              description: [`Time to Launch`],
+            },
+            {
+              description: [`Expertise Level`],
+            },
+            {
+              description: [`Scalability`],
+            },
+            {
+              description: [`Operational Overhead`],
+            },
+            {
+              description: [`Risk`],
+            },
+            {
+              description: [`Flexibility`],
+            },
+            {
+              description: [`Brand Control`],
+            },
+            {
+              description: [`Focus`],
+            },
+          ],
+        },
+        {
+          desctioption: `White-Label PPC Agency`,
+          list: [
+            {
+              description: [`Low or no hiring or training costs`],
+            },
+            {
+              description: [`Fast campaigns can launch within days`],
+            },
+            {
+              description: [`Access to experienced PPC specialists`],
+            },
+            {
+              description: [`Easily scalable as clients grow`],
+            },
+            {
+              description: [`Minimal management required`],
+            },
+            {
+              description: [`Low or no employee turnover risk`],
+            },
+            {
+              description: [`Pay for what you need`],
+            },
+            {
+              description: [`Fully white-labeled under your agency`],
+            },
+            {
+              description: [`You focus on sales & client relationships`],
+            },
+          ],
+        },
+        {
+          desctioption: `In-House PPC Team`,
+          list: [
+            {
+              description: [
+                `High Salaries, benefits, and recruitment expenses`,
+              ],
+            },
+            {
+              description: [`Slow hiring & onboarding can take months`],
+            },
+            {
+              description: [`Depends on who you hire`],
+            },
+            {
+              description: [`Limited by team capacity`],
+            },
+            {
+              description: [`Ongoing supervision & HR management`],
+            },
+            {
+              description: [`High staff turnover disrupts service`],
+            },
+            {
+              description: [`Fixed payroll regardless of workload`],
+            },
+            {
+              description: [`Fully internal control`],
+            },
+            {
+              description: [`You manage both sales and team operations`],
+            },
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [],
     },
 
     getplan: {

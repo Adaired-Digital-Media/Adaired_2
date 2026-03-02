@@ -209,8 +209,8 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       onClick={() => setActiveIndex(isActive ? null : index)}
                       onMouseEnter={() => setActiveIndex(index)}
                       className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${isActive
-                        ? 'border-[#FB9100]/20 bg-[#FFFFFF]'
-                        : 'border-[#00000014] bg-[#FFFFFF]'
+                        ? 'border-[#FB9100]/[0.11] bg-[#FFFFFF]'
+                        : 'border-[#FB9100]/[0.11] bg-[#FFFFFF]'
                         }`}
                       style={{
                         transitionDelay: `${index * 280}ms`, // 👈 stagger here
@@ -267,7 +267,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
       )}
       {aiseoResult?.isVariant === '03' && (
         <div
-          className={`py-[3rem] lg:py-[4rem] ${aiseoResult?.isBgColor ? 'bg-[#FFF8F0]' : 'bg-[#FFFFFF]'}`}
+          className={`py-[3rem] lg:py-[4rem] ${aiseoResult?.isBgColor ? 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]' : 'bg-[#FFFFFF]'}`}
         >
           <MaxWidthWrapper>
             <div
