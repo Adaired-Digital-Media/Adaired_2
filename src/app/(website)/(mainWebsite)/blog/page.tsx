@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 async function getBlogs() {
   try {
     const res = await fetch(`${BaseURL}blog/get`, {
-      cache: 'no-store',
+      next: { revalidate: 60 }, // revalidate every 60 seconds
     });
 
     if (!res.ok) {
@@ -61,8 +61,6 @@ async function getBlogs() {
 
 const Blog = async () => {
   const data = await getBlogs();
-
-  console.log(data.slice(0, 1), 'data>>>>qaw');
 
   return (
     <>

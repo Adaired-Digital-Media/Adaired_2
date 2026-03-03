@@ -61,9 +61,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Fetch APIs in parallel
     // ---------------------
     const [servicesRes, caseStudiesRes, blogsRes] = await Promise.all([
-      fetch(`${backendApiUri}/service/getServices`, { cache: 'no-store' }),
-      fetch(`${backendApiUri}/case-study/read`, { cache: 'no-store' }),
-      fetch(`${backendApiUri}/blog/get`, { cache: 'no-store' }),
+      fetch(`${backendApiUri}service`, { cache: 'no-store' }),
+      fetch(`${backendApiUri}case-study`, { cache: 'no-store' }),
+      fetch(`${backendApiUri}blog/get`, { cache: 'no-store' }),
     ]);
     // ---------------------
     // Parse safely
@@ -119,48 +119,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: blog?.seo?.changeFrequency ?? 'weekly',
       priority: blog?.seo?.priority ?? 0.5,
     }));
-
-    // ---------------------
-    // Static paths
-    // ---------------------
-    // const staticPaths: MetadataRoute.Sitemap = [
-    //   {
-    //     url: `${siteUri}/`,
-    //     lastModified: new Date(),
-    //     changeFrequency: 'weekly',
-    //     priority: 1,
-    //   },
-    //   {
-    //     url: `${siteUri}/about`,
-    //     lastModified: new Date('2024-06-24'),
-    //     changeFrequency: 'weekly',
-    //     priority: 1,
-    //   },
-    //   {
-    //     url: `${siteUri}/career`,
-    //     lastModified: new Date('2024-06-24'),
-    //     changeFrequency: 'monthly',
-    //     priority: 0.5,
-    //   },
-    //   {
-    //     url: `${siteUri}/case-studies`,
-    //     lastModified: new Date('2024-06-24'),
-    //     changeFrequency: 'weekly',
-    //     priority: 0.5,
-    //   },
-    //   {
-    //     url: `${siteUri}/blog`,
-    //     lastModified: new Date('2024-06-24'),
-    //     changeFrequency: 'weekly',
-    //     priority: 0.65,
-    //   },
-    //   {
-    //     url: `${siteUri}/contact`,
-    //     lastModified: new Date('2024-06-24'),
-    //     changeFrequency: 'weekly',
-    //     priority: 0.5,
-    //   },
-    // ];
 
     const staticPaths: MetadataRoute.Sitemap = [
       {
@@ -410,7 +368,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: 'weekly',
         priority: 0.9,
       },
-
     ];
 
     // ---------------------

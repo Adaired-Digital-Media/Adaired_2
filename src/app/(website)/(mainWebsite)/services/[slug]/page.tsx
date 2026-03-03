@@ -20,12 +20,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // CASE 1: Static JSON service
   if (slug in SERVICES_DATA) {
     const serviceData = SERVICES_DATA[slug as ServiceSlug];
-
     return {
       title: serviceData?.metaDetails?.title,
       description: serviceData?.metaDetails?.description,
       alternates: {
         canonical: `https://www.adaired.com${serviceData?.metaDetails?.alternates?.canonical}`,
+      },
+      openGraph: {
+        title: serviceData?.metaDetails?.title,
+        description: serviceData?.metaDetails?.description,
+        url: `https://www.adaired.com${serviceData?.metaDetails?.alternates?.canonical}`,
+        type: 'article',
+        // images: serviceData?.featuredImage,
+      },
+
+      twitter: {
+        title: serviceData?.metaDetails?.title,
+        description: serviceData?.metaDetails?.description,
+        // images: serviceData?.featuredImage,
       },
     };
   }

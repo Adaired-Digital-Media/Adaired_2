@@ -90,6 +90,7 @@ export async function generateMetadata({
       };
     }
 
+    
     const response = await res.json();
     const blog = response?.data;
 
