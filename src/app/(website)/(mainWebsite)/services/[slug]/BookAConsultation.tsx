@@ -6,7 +6,7 @@ import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
-import Mask from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/MaskDots.png';
+import Mask from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/MaskDots.png';
 
 const BookAConsultation = ({ buildlinks }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
