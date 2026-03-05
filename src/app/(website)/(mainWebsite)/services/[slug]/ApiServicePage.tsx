@@ -22,14 +22,15 @@ interface ApiServicePageProps {
 
 const fetchService = async (slug: string) => {
   try {
-    const res = await fetch(`${BaseURL}/service/getServices/${slug}`, {
-      cache: 'force-cache',
+    const res = await fetch(`${BaseURL}/service/${slug}`, {
+      next: { revalidate: 60 },
     });
 
-    if (!res.ok) return null;
-    return res.json();
+    // if (!res.ok) return null;
+
+    return await res.json();
   } catch (error) {
-    console.error('fetchService error:', error);
+    console.error(error);
     return null;
   }
 };
@@ -41,11 +42,11 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
     notFound();
   }
 
-  const { bodyData } = fetchedService;
+  const { bodyData } = fetchedService?.data;
 
   return (
     <>
-      <PageBanner title={fetchedService.serviceName} />
+      <PageBanner title={fetchedService?.data?.serviceName} />
 
       <div className="space-y-12 pb-20 md:space-y-24">
         {bodyData?.map((data: any) => {
@@ -56,22 +57,22 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
                   <div className="mt-12 flex gap-10">
                     <div className="w-full xl:w-[70%]">
                       <TwoColumnFeatureSection
-                        colorScheme={fetchedService.colorScheme}
+                        colorScheme={fetchedService?.data?.colorScheme}
                         data={data}
                       />
                     </div>
 
                     <aside className="hidden w-[30%] xl:block">
                       <div className="sticky top-28 space-y-8">
-                        {fetchedService.childServices?.length > 0 && (
+                        {fetchedService?.data?.childServices?.length > 0 && (
                           <NavigationMenu
-                            colorScheme={fetchedService.colorScheme}
-                            serviceName={fetchedService.serviceName}
-                            childServices={fetchedService.childServices}
+                            colorScheme={fetchedService?.data?.colorScheme}
+                            serviceName={fetchedService?.data?.serviceName}
+                            childServices={fetchedService?.data?.childServices}
                           />
                         )}
                         <GetInTouchForm
-                          colorScheme={fetchedService.colorScheme}
+                          colorScheme={fetchedService?.data?.colorScheme}
                         />
                       </div>
                     </aside>
@@ -83,7 +84,7 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
               return (
                 <MaxWidthWrapper key={data.componentName}>
                   <KeyFeatureCrossLayout
-                    colorScheme={fetchedService.colorScheme}
+                    colorScheme={fetchedService?.data?.colorScheme}
                     data={data}
                   />
                 </MaxWidthWrapper>
@@ -93,7 +94,7 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
               return (
                 <MaxWidthWrapper key={data.componentName}>
                   <ImageWithDetailedFeatureDescription
-                    colorScheme={fetchedService.colorScheme}
+                    colorScheme={fetchedService?.data?.colorScheme}
                     data={data.body}
                   />
                 </MaxWidthWrapper>
@@ -111,7 +112,7 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
                 <MaxWidthWrapper key={data.componentName}>
                   <CTA
                     title={data.body.title}
-                    colorScheme={fetchedService.colorScheme}
+                    colorScheme={fetchedService?.data?.colorScheme}
                   />
                 </MaxWidthWrapper>
               );
@@ -120,7 +121,7 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
               return (
                 <MaxWidthWrapper key={data.componentName}>
                   <KeyFeatureListLayout
-                    colorScheme={fetchedService.colorScheme}
+                    colorScheme={fetchedService?.data?.colorScheme}
                     data={data.body}
                   />
                 </MaxWidthWrapper>
@@ -130,7 +131,7 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
               return (
                 <ServiceKeyFeaturesLayout
                   key={data.componentName}
-                  colorScheme={fetchedService.colorScheme}
+                  colorScheme={fetchedService?.data?.colorScheme}
                   data={data.body}
                 />
               );
@@ -139,7 +140,7 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
               return (
                 <StickyScroll
                   key={data.componentName}
-                  colorScheme={fetchedService.colorScheme}
+                  colorScheme={fetchedService?.data?.colorScheme}
                   data={data.body}
                 />
               );
@@ -148,7 +149,7 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
               return (
                 <ImageWithIconbox
                   key={data.componentName}
-                  colorScheme={fetchedService.colorScheme}
+                  colorScheme={fetchedService?.data?.colorScheme}
                   data={data.body}
                 />
               );
