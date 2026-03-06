@@ -11,7 +11,7 @@ const DataInTable = ({ dataInTable }: any) => {
     const [open, setOpen] = useState(false);
 
     return (
-        <section ref={ref} className="py-[3rem] lg:py-[4rem] bg-[#FAFAFA]">
+        <section ref={ref} className={`py-[3rem] lg:py-[4rem] bg-[${dataInTable?.bgColor}]`}>
             <MaxWidthWrapper>
                 <div
                     className={`transition-all duration-1000 ${isVisible
@@ -34,7 +34,7 @@ const DataInTable = ({ dataInTable }: any) => {
                                 <div className="min-w-[700px] rounded-2xl overflow-hidden">
                                     <table className="w-full">
                                         <thead>
-                                            <tr className="bg-[#7259FF]">
+                                            <tr className={`bg-[${dataInTable?.trColor}]`}>
                                                 {dataInTable?.data?.map(
                                                     (column: any, index: number) => (
                                                         <th
@@ -43,7 +43,7 @@ const DataInTable = ({ dataInTable }: any) => {
                                                         >
                                                             <div className="flex gap-4 items-center font-medium">
                                                                 <BiSolidBadgeCheck
-                                                                    className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0 text-white"
+                                                                    className="mb-auto w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0 text-white"
                                                                 />
                                                                 <p className="break-words text-white font-semibold text-left">
                                                                     {column?.desctioption}
@@ -63,17 +63,17 @@ const DataInTable = ({ dataInTable }: any) => {
                                                         className={
                                                             rowIndex % 2 === 0
                                                                 ? 'bg-white'
-                                                                : 'bg-[#7259FF]/10'
+                                                                : `${dataInTable?.rowColor}`
                                                         }
                                                     >
                                                         {dataInTable?.data?.map(
                                                             (column: any) => (
                                                                 <td
-                                                                    className="px-6 md:px-10 lg:px-14 py-4 md:py-6 lg:py-8 text-xs md:text-sm text-black border-r border-[#3D3D3D]/30 last:border-r-0"
+                                                                    className="px-6 md:px-10 lg:px-14 py-4 md:py-6 lg:py-6 text-xs md:text-sm text-black border-r border-[#3D3D3D]/30 last:border-r-0"
                                                                 >
                                                                     <div className="flex gap-4 items-center font-medium">
                                                                         <BiSolidBadgeCheck
-                                                                            className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0"
+                                                                            className="mb-auto w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0"
                                                                         />
                                                                         <p className="break-words text-left">
                                                                             {column?.list?.[rowIndex]?.description?.[0]}

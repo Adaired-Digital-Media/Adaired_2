@@ -37,7 +37,7 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
         </div>
         
       </MaxWidthWrapper>
-      <CustomSlider 
+      <CustomSlider
       data={benefitofAiSeo?.list} 
       colors={benefitofAiSeo}
        />

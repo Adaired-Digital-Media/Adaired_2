@@ -39,6 +39,7 @@ export type SectionKey =
   | 'keyStats'
   | 'areYouTired'
   | 'whatareservice'
+  | 'whatareservice2'
   | 'needofservice'
   | 'needofservice2'
   | 'dataInTable'
@@ -93,6 +94,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   whatareservice: (serviceData) =>
     serviceData.whatareservice?.isVisible ? (
       <WhatAreService whatareaiseo={serviceData.whatareservice} />
+    ) : null,
+
+  whatareservice2: (serviceData) =>
+    serviceData.whatareservice2?.isVisible ? (
+      <WhatAreService whatareaiseo={serviceData.whatareservice2} />
     ) : null,
 
   needofservice: (serviceData) =>

@@ -50,7 +50,7 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                   }`}>
                   {/* <div className='relative lg:w-[525px] lg:h-[334px]'> */}
                   <div className="relative w-full max-w-[525px] aspect-[525/334]">
-                    <Image src={item?.img} alt="if" fill className="object-contain" />
+                    <Image src={item?.img} alt="if" fill className="object-contain transition-transform duration-300 ease-out hover:scale-110" />
                   </div>
                 </div>
               </div>

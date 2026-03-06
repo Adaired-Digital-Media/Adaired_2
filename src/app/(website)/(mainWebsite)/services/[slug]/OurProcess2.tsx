@@ -43,94 +43,103 @@ const OurProcess2 = ({ ourProcess }: any) => {
         >
           {/* ================= LEFT (STICKY) ================= */}
           <div className="relative mt-[1rem] flex items-center justify-center">
-            <div className="relative h-[520px] w-[520px]">
-              <svg width="520" height="520" viewBox="0 0 520 520">
+            <div className="relative mt-[1rem] flex items-center justify-center">
+              <div className="relative h-[520px] w-[520px]">
+                <svg width="520" height="520" viewBox="0 0 520 520">
+                  {ourProcess.services.map((service: any, idx: number) => {
+                    const total = ourProcess.services.length;
+                    const center = 260;
+
+                    const outerR = 240;
+                    const innerR = 150;
+                    const thickness = outerR - innerR;
+                    const capRadius = thickness / 5;
+
+                    const fullAngle = (2 * Math.PI) / total;
+                    const gap = 0.02;
+
+                    const start = idx * fullAngle - Math.PI / 2 + gap / 2;
+                    const end = start + fullAngle - gap;
+
+                    const largeArc = fullAngle > Math.PI ? 1 : 0;
+
+                    const sx = center + outerR * Math.cos(start);
+                    const sy = center + outerR * Math.sin(start);
+
+                    const ex = center + outerR * Math.cos(end);
+                    const ey = center + outerR * Math.sin(end);
+
+                    const isx = center + innerR * Math.cos(start);
+                    const isy = center + innerR * Math.sin(start);
+
+                    const iex = center + innerR * Math.cos(end);
+                    const iey = center + innerR * Math.sin(end);
+
+                    return (
+                      <path
+                        key={idx}
+                        d={`
+             M ${sx} ${sy}
+             A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
+             A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
+             A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
+             A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
+             Z
+           `}
+                        fill={activeTab === idx ? '#FB9100' : '#FBEBD5'}
+                        stroke="#FFFFFF"
+                        onClick={() => setActiveTab(idx)}
+                        className="cursor-pointer transition-all duration-500"
+                      />
+                    );
+                  })}
+                </svg>
+
+                {/* Inner background circle */}
+
+                {/* ICONS */}
                 {ourProcess.services.map((service: any, idx: number) => {
                   const total = ourProcess.services.length;
-                  const center = 260;
 
                   const outerR = 240;
                   const innerR = 150;
-                  const thickness = outerR - innerR;
-                  const capRadius = thickness / 2;
+                  const center = 260;
 
-                  const fullAngle = (2 * Math.PI) / total;
+                  const midRadius = (outerR + innerR) / 2;
+
+                  const angle = (2 * Math.PI) / total;
                   const gap = 0.06;
 
-                  const start = idx * fullAngle - Math.PI / 2 + gap / 2;
-                  const end = start + fullAngle - gap;
+                  const mid = idx * angle + angle / 2 - Math.PI / 2;
 
-                  const largeArc = fullAngle > Math.PI ? 1 : 0;
-
-                  const sx = center + outerR * Math.cos(start);
-                  const sy = center + outerR * Math.sin(start);
-
-                  const ex = center + outerR * Math.cos(end);
-                  const ey = center + outerR * Math.sin(end);
-
-                  const isx = center + innerR * Math.cos(start);
-                  const isy = center + innerR * Math.sin(start);
-
-                  const iex = center + innerR * Math.cos(end);
-                  const iey = center + innerR * Math.sin(end);
+                  const x = center + midRadius * Math.cos(mid);
+                  const y = center + midRadius * Math.sin(mid);
 
                   return (
-                    <path
+                    <div
                       key={idx}
-                      d={`
-          M ${sx} ${sy}
-          A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
-          A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
-          A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
-          A ${capRadius} ${capRadius} 0 0 1 ${sx} ${sy}
-          Z
-        `}
-                      fill={activeTab === idx ? '#FB9100' : '#FBEBD5'}
-                      stroke="#FFFFFF"
-                      // strokeWidth="8"
-                      onClick={() => setActiveTab(idx)}
-                      className="cursor-pointer transition-all duration-500"
-                    />
+                      className="absolute"
+                      style={{
+                        left: x,
+                        top: y,
+                        transform: 'translate(-50%, -50%)',
+                      }}
+                    >
+                      <Image
+                        src={service.icon}
+                        alt={service.title}
+                        width={28}
+                        height={28}
+                        className={
+                          activeTab === idx
+                            ? 'brightness-0 invert'
+                            : 'opacity-60'
+                        }
+                      />
+                    </div>
                   );
                 })}
-              </svg>
-
-              {/* Inner background circle */}
-
-              {/* ICONS */}
-              {ourProcess.services.map((service: any, idx: number) => {
-                const total = ourProcess.services.length;
-                const angle = (2 * Math.PI) / total;
-                const mid = idx * angle + angle / 2 - Math.PI / 2;
-
-                const center = 260;
-                const r = 185;
-
-                const x = center + r * Math.cos(mid);
-                const y = center + r * Math.sin(mid);
-
-                return (
-                  <div
-                    key={idx}
-                    className="absolute"
-                    style={{
-                      left: x,
-                      top: y,
-                      transform: 'translate(-50%, -50%)',
-                    }}
-                  >
-                    <Image
-                      src={service.icon}
-                      alt={service.title}
-                      width={28}
-                      height={28}
-                      className={
-                        activeTab === idx ? 'brightness-0 invert' : 'opacity-60'
-                      }
-                    />
-                  </div>
-                );
-              })}
+              </div>
             </div>
           </div>
           {/* ================= RIGHT (SCROLL CONTENT) ================= */}

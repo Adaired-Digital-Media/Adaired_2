@@ -650,6 +650,51 @@ const KeyStats = ({ keyStats }: any) => {
             </div>
           </div>
         )}
+        {keyStats?.code === '11' && (
+          <div
+            className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          >
+            <div className="grid grid-cols-1 items-stretch gap-5 pt-[2rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
+              <div className="mt-7 space-y-4">
+                <Heading
+                  title={keyStats?.heading}
+                />
+                {keyStats?.list?.map((item: any, index: any) => (
+                  <div key={index} className="flex flex-col">
+
+                    <div className="flex flex-col items-center gap-8 py-4 md:flex-row lg:flex-row lg:gap-16">
+                      <div className="mx-2.5 flex w-[50px] justify-center">
+                        <span className="text-4xl font-normal text-[#FB9100] md:text-4xl">
+                          {String(index + 1).padStart(2, '0')}
+                        </span>
+                      </div>
+
+                      <p className="text-sm md:text-base">
+                        {item.desctioption}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="relative aspect-[4/3] md:h-full md:w-full lg:aspect-auto">
+                <Image
+                  src={keyStatsImg}
+                  alt="img"
+                  fill
+                  className="object-fill"
+                />
+                <Image
+                  src={rocket}
+                  width={115}
+                  height={123}
+                  alt="rocket"
+                  className="left-[0.5 rem] absolute top-[-1rem]"
+                />
+              </div>
+            </div>
+          </div>
+        )}
       </MaxWidthWrapper>
     </div>
   );

@@ -27,7 +27,7 @@ const WhatMissing = ({ whatMissing }: any) => {
               isInCenter={whatMissing?.isInCenter}
               description={whatMissing?.description}
               isDecVarticle={!whatMissing?.isInCenter}
-              isBgWhite={!whatMissing?.bgColor && true}
+              isBgWhite={!whatMissing?.bgColor || whatMissing?.isInCenter && true}
             />
 
             <div className="grid grid-cols-1 gap-6 pt-[3rem] lg:grid-cols-3">
@@ -119,7 +119,7 @@ const WhatMissing = ({ whatMissing }: any) => {
                   <h3 className="py-[1rem]">{card.title}</h3>
                   <div className="space-y-4">
                     {card.description.map((text: string, i: number) => (
-                      <p key={i} className="leading-relaxed">
+                      <p key={i} className="text-left leading-relaxed">
                         {text}
                       </p>
                     ))}
@@ -141,6 +141,7 @@ const WhatMissing = ({ whatMissing }: any) => {
                 isBgWhite={true}
                 isBorder={true}
                 isIcon={true}
+                isBold={true}
                 handleClick={() => setOpen(!open)}
                 className="pt-[1rem]"
               />

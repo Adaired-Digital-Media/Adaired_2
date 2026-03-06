@@ -8,6 +8,7 @@ import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 import SocialMediaCheck from '../../../../../../public/assets/images/PPCimg/arrowOrange.png';
 import ImpToBusinessSlider from './ImpToBusinessSlider';
 import { TbPointFilled } from 'react-icons/tb';
+import ImpToBusinessCard from './ImpToBusinessCard';
 
 const ImportantToBussiness = ({ importantToBussiness }: any) => {
   const [open, setOpen] = useState(false);
@@ -134,6 +135,9 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                   </div>
                 );
               })}
+              {importantToBussiness?.isCardVisible && (
+                <ImpToBusinessCard handleClick={() => setOpen(true)} />
+              )}
             </div>
           </MaxWidthWrapper>
         </div>
@@ -192,7 +196,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
               }}
             />
           </div>
-          
+
         </div>
       )}
 

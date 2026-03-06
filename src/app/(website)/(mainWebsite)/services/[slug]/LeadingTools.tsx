@@ -30,6 +30,11 @@ const LeadingTools = ({ leadingTools }: any) => {
   const row2Duplicated = [...row2, ...row2];
   // const row3Duplicated = [...row3, ...row3];
 
+  const duplicatedList = [
+    ...(leadingTools?.list || []),
+    ...(leadingTools?.list || []),
+  ];
+
   return (
     <div
       ref={ref}
@@ -74,27 +79,32 @@ const LeadingTools = ({ leadingTools }: any) => {
             </div>
           ))}
         </div>*/}
+      </MaxWidthWrapper>
 
-        {leadingTools?.isVariant === '01' && (
-          <div className="flex w-max animate-marquee gap-2 sm:gap-3 lg:gap-[2rem]">
-            {leadingTools?.list?.map((leadingTools: any, idx: number) => (
+      {leadingTools?.isVariant === '01' && (
+        // <div className="flex w-max animate-marquee gap-2 sm:gap-3 lg:gap-[2rem]">
+        <div className="w-full overflow-hidden pt-[2rem]">
+          <div className="flex w-max animate-marquee gap-[4rem] md:bg-transparent md:py-0">
+            {duplicatedList.map((item: any, idx: number) => (
               <div
                 key={idx}
-                className={`group relative flex h-[6rem] items-center justify-center overflow-hidden rounded-[20px] border border-black/5 transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
-                  }`}
+                className={`group relative flex flex-shrink-0 h-[7rem] items-center justify-center overflow-hidden rounded-[20px] border border-black/5 transition-all duration-700`}
                 style={{
                   transitionDelay: `${idx * 60}ms`,
                 }}
               >
                 <Image
-                  src={leadingTools?.img}
+                  src={item?.img}
                   alt="client logo"
                   className="object-contain transition-transform duration-300 ease-out group-hover:scale-110"
                 />
               </div>
             ))}
           </div>
-        )}
+        </div>
+      )}
+
+      <MaxWidthWrapper>
 
         {leadingTools?.isVariant === '02' && (
           <div>
