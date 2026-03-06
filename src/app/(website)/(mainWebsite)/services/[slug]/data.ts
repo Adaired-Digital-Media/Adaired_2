@@ -3170,7 +3170,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      // breakIndex: 4,
+      breakIndex: 6,
       isInCenter: true,
       subtitle: 'Our Process',
       title: 'The Web Design and Development Process That We Follow At Adaired',
