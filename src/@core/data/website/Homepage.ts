@@ -544,7 +544,7 @@ export const ServiceSectionData = {
           label: 'GEO',
           title: 'GEO',
           description: `We help businesses adapt to the shift from search results to AI-generated answers. Our GEO approach focuses on content clarity, semantic depth, and authority signals that generative engines rely on, ensuring your brand remains visible, accurate, and competitive in AI-powered discovery.`,
-          link: '/services/ai-seo-company-india',
+          link: '/services/geo-ai-seo-company-india',
         },
         {
           icon: LinkBuilding,
@@ -552,7 +552,7 @@ export const ServiceSectionData = {
           label: 'AEO',
           title: 'AEO',
           description: `We structure and optimize content so search engines and AI systems can easily extract, understand, and present your brand as the best answer. Through question-focused optimization, schema markup, and intent alignment, we help businesses capture high-value answer placements beyond traditional rankings.`,
-          link: '/services/ai-seo-company-india',
+          link: '/services/aeo-service-india',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',

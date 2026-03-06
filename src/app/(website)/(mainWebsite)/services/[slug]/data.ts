@@ -1749,7 +1749,7 @@ export const SERVICES_DATA = {
     },
     ourProcess: {
       isVisible: true,
-      // breakIndex: 7,
+      breakIndex: 6,
       isInCenter: true,
       subtitle: 'Our Process',
       title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
