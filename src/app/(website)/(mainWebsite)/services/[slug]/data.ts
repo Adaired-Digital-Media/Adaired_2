@@ -120,43 +120,43 @@ import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/
 import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
 import adairedHelp_14 from '../../../../../../public/assets/images/services/seo/adairedSEO7.png';
 import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
-import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
-import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
-import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
-import adairedHelpaiseo4 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO4.png';
-import adairedHelpaiseo5 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO5.png';
-import adairedHelpaiseo6 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO6.png';
-import whatMkLocal from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo1.png';
-import whatMkLocal1 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo2.png';
-import whatMkLocal2 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo3.png';
-import whatMkLocal3 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo4.png';
-import whatMkLocal4 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo5.png';
-import whatMkLocal5 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo6.png';
-import WhatMkeAd from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign1.png';
-import WhatMkeAd2 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign2.png';
-import WhatMkeAd3 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign3.png';
-import WhatMkeAd4 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign4.png';
-import WhatMkeAd5 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign5.png';
-import WhatMkeAd6 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign6.png';
+// import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
+// import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
+// import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
+// import adairedHelpaiseo4 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO4.png';
+// import adairedHelpaiseo5 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO5.png';
+// import adairedHelpaiseo6 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO6.png';
+// import whatMkLocal from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo1.png';
+// import whatMkLocal1 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo2.png';
+// import whatMkLocal2 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo3.png';
+// import whatMkLocal3 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo4.png';
+// import whatMkLocal4 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo5.png';
+// import whatMkLocal5 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo6.png';
+// import WhatMkeAd from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign1.png';
+// import WhatMkeAd2 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign2.png';
+// import WhatMkeAd3 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign3.png';
+// import WhatMkeAd4 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign4.png';
+// import WhatMkeAd5 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign5.png';
+// import WhatMkeAd6 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign6.png';
 
-import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild1.png';
-import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild2.png';
-import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild3.png';
-import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild5.png';
-import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild4.png';
+// import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild1.png';
+// import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild2.png';
+// import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild3.png';
+// import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild5.png';
+// import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild4.png';
 
-import whatMkWhite_1 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia1.png';
-import whatMkWhite_2 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia2.png';
-import whatMkWhite_3 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia3.png';
-import whatMkWhite_4 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia4.png';
-import whatMkWhite_5 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia5.png';
+// import whatMkWhite_1 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia1.png';
+// import whatMkWhite_2 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia2.png';
+// import whatMkWhite_3 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia3.png';
+// import whatMkWhite_4 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia4.png';
+// import whatMkWhite_5 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia5.png';
 
-import whatMkWhiteSeo_1 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo1.png';
-import whatMkWhiteSeo_2 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo2.png';
-import whatMkWhiteSeo_3 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo3.png';
-import whatMkWhiteSeo_4 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo4.png';
-import whatMkWhiteSeo_5 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo5.png';
-import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
+// import whatMkWhiteSeo_1 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo1.png';
+// import whatMkWhiteSeo_2 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo2.png';
+// import whatMkWhiteSeo_3 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo3.png';
+// import whatMkWhiteSeo_4 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo4.png';
+// import whatMkWhiteSeo_5 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo5.png';
+// import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
 
 import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
 import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
@@ -205,12 +205,12 @@ import AdairedHelp4 from '../../../../../../public/assets/images/AdairedHelp4.pn
 import AdairedHelp5 from '../../../../../../public/assets/images/AdairedHelp5.png';
 import AdairedHelp6 from '../../../../../../public/assets/images/AdairedHelp6.png';
 
-import adairedDiff_1 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding1.png';
-import adairedDiff_2 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding2.png';
-import adairedDiff_3 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding3.png';
-import adairedDiff_4 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding4.png';
-import adairedDiff_5 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding5.png';
-import adairedDiff_6 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding6.png';
+// import adairedDiff_1 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding1.png';
+// import adairedDiff_2 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding2.png';
+// import adairedDiff_3 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding3.png';
+// import adairedDiff_4 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding4.png';
+// import adairedDiff_5 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding5.png';
+// import adairedDiff_6 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding6.png';
 
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
 import linkServices_2 from '../../../../../../public/assets/images/linkServices_2.png';
@@ -320,9 +320,10 @@ import AEOServiceImpIcon_6 from '../../../../../../public/assets/images/services
 import AEOServiceImpIcon_7 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon7.svg';
 import AEOServiceImpIcon_8 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon8.svg';
 import AEOServiceImpIcon_9 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon9.svg';
-import AEOServicewhatMke1 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img1.png';
-import AEOServicewhatMke2 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img2.png';
+// import AEOServicewhatMke1 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img1.png';
+// import AEOServicewhatMke2 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img2.png';
 import AeoServiceBannerImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceBannerImg.png';
+import ImpToBusinessCradImg from '../../../../../../public/assets/images/services/aeoService/ImpToBusinessCradImg.png';
 
 import whiteServicesIncluded_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_1.png';
 import whiteServicesIncluded_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_2.png';
@@ -394,12 +395,12 @@ import saasSeoImpIcon_4 from '../../../../../../public/assets/saasSeo/saasSeoImp
 import saasSeoImpIcon_5 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_5.png';
 import saasSeoImpIcon_6 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_6.png';
 
-import saasSeoWhatMkDiffImg_1 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_1.png';
-import saasSeoWhatMkDiffImg_2 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_2.png';
-import saasSeoWhatMkDiffImg_3 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_3.png';
-import saasSeoWhatMkDiffImg_4 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_4.png';
-import saasSeoWhatMkDiffImg_5 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_5.png';
-import saasSeoWhatMkDiffImg_6 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_6.png';
+// import saasSeoWhatMkDiffImg_1 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_1.png';
+// import saasSeoWhatMkDiffImg_2 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_2.png';
+// import saasSeoWhatMkDiffImg_3 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_3.png';
+// import saasSeoWhatMkDiffImg_4 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_4.png';
+// import saasSeoWhatMkDiffImg_5 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_5.png';
+// import saasSeoWhatMkDiffImg_6 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_6.png';
 
 // GEO Ai Seo Images
 import geoAiSeoImpIcon_1 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_1.png';
@@ -423,6 +424,139 @@ import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/service
 
 import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatServiceImg.png';
 
+// Mobile App Development Images
+import mobileAppDevBannerBg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBannerBg.png';
+import mobileAppDevAdairedHelpImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevAdairedHelpImg.png';
+import mobileAppDevWhatService from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatService.png';
+import mobileAppDevBuildLinkImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBuildLinkImg.png';
+
+import mobileAppDevProcess_1 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_1.png';
+import mobileAppDevProcess_2 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_2.png';
+import mobileAppDevProcess_3 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_3.png';
+import mobileAppDevProcess_4 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_4.png';
+import mobileAppDevProcess_5 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_5.png';
+import mobileAppDevProcess_6 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_6.png';
+import mobileAppDevProcess_7 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_7.png';
+
+import mobileAppDevImpIcon_1 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevImpIcon_1.png';
+import mobileAppDevImpIcon_2 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevImpIcon_2.png';
+import mobileAppDevImpIcon_3 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevImpIcon_3.png';
+import mobileAppDevImpIcon_4 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevImpIcon_4.png';
+import mobileAppDevImpIcon_5 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevImpIcon_5.png';
+
+import mobileAppDevWhatMkDiffImg_1 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatMkDiffImg_1.png';
+import mobileAppDevWhatMkDiffImg_2 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatMkDiffImg_2.png';
+import mobileAppDevWhatMkDiffImg_3 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatMkDiffImg_3.png';
+import mobileAppDevWhatMkDiffImg_4 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatMkDiffImg_4.png';
+import mobileAppDevWhatMkDiffImg_5 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatMkDiffImg_5.png';
+
+import mobileAppDevTechStackImg_1 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_1.png';
+import mobileAppDevTechStackImg_2 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_2.png';
+import mobileAppDevTechStackImg_3 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_3.png';
+import mobileAppDevTechStackImg_4 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_4.png';
+import mobileAppDevTechStackImg_5 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_5.png';
+import mobileAppDevTechStackImg_6 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_6.png';
+import mobileAppDevTechStackImg_7 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_7.png';
+import mobileAppDevTechStackImg_8 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_8.png';
+import mobileAppDevTechStackImg_9 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_9.png';
+import mobileAppDevTechStackImg_10 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_10.png';
+import mobileAppDevTechStackImg_11 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_11.png';
+import mobileAppDevTechStackImg_12 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_12.png';
+import mobileAppDevTechStackImg_13 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_13.png';
+import mobileAppDevTechStackImg_14 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_14.png';
+import mobileAppDevTechStackImg_15 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_15.png';
+import mobileAppDevTechStackImg_16 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_16.png';
+import mobileAppDevTechStackImg_17 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_17.png';
+import mobileAppDevTechStackImg_18 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_18.png';
+import mobileAppDevTechStackImg_19 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_19.png';
+import mobileAppDevTechStackImg_20 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_20.png';
+import mobileAppDevTechStackImg_21 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_21.png';
+import mobileAppDevTechStackImg_22 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_22.png';
+import mobileAppDevTechStackImg_23 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_23.png';
+import mobileAppDevTechStackImg_24 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_24.png';
+import mobileAppDevTechStackImg_25 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_25.png';
+import mobileAppDevTechStackImg_26 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_26.png';
+import mobileAppDevTechStackImg_27 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_27.png';
+import mobileAppDevTechStackImg_28 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_28.png';
+import mobileAppDevTechStackImg_29 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_29.png';
+import mobileAppDevTechStackImg_30 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_30.png';
+
+// GBP local Seo Images
+// import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gbpLocalSeo/gbplocalSeoBannerBg.png';
+import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gmb/gmb_only.png';
+import gmb_website_banner from '../../../../../../public/assets/images/services/gmb/gmb+website.png';
+
+import KeyStatsIcon1 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon1.svg';
+import KeyStatsIcon2 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon2.svg';
+import KeyStatsIcon3 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon3.svg';
+import KeyStatsIcon4 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon4.svg';
+import KeyStatsIcon5 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon5.svg';
+import WhatAreServiceGMB from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB.png';
+import WhatAreServiceGMB2 from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB2.png';
+import AdairedHelpgmb from '../../../../../../public/assets/images/services/gmb/AdairedHelpGmb.png';
+
+import icon1 from '../../../../../../public/assets/images/services/gmb/ourProcess/Icon1.svg';
+import icon2 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon2.svg';
+import icon3 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon3.svg';
+import icon4 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon4.svg';
+import icon5 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon5.svg';
+import icon6 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon6.svg';
+import icon7 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon7.svg';
+
+import icon_1 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon1.svg';
+import icon_2 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon2.svg';
+import icon_3 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon3.svg';
+import icon_4 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon4.svg';
+import icon_5 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon5.svg';
+import icon_6 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon6.svg';
+import icon_7 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon7.svg';
+import icon_8 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon8.svg';
+import icon_9 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon9.svg';
+
+
+// GMB Website Seo Images
+import gmbWebsitelocalSeoBannerBg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsitelocalSeoBannerBg.png';
+import gmbWebsiteSeoBuildLinkImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteSeoBuildLinkImg.png';
+import gmbWebsiteServiceResultImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteServiceResultImg.png';
+
+import gmbWebsiteimpIcon_1 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_1.png';
+import gmbWebsiteimpIcon_2 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_2.png';
+import gmbWebsiteimpIcon_3 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_3.png';
+import gmbWebsiteimpIcon_4 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_4.png';
+import gmbWebsiteimpIcon_5 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_5.png';
+import gmbWebsiteimpIcon_6 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_6.png';
+import gmbWebsiteimpIcon_7 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_7.png';
+import gmbWebsiteimpIcon_8 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_8.png';
+import gmbWebsiteimpIcon_9 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_9.png';
+import gmbWebsiteimpIcon_10 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_10.png';
+
+import gmbProcessIcon_1 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_1.png';
+import gmbProcessIcon_2 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_2.png';
+import gmbProcessIcon_3 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_3.png';
+import gmbProcessIcon_4 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_4.png';
+import gmbProcessIcon_5 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_5.png';
+import gmbProcessIcon_6 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_6.png';
+// WordPress Development Images
+import Banner from '../../../../../../public/assets/images/services/wordpressDevelopment/Banner.png';
+import KeyStatsImg from '../../../../../../public/assets/images/services/wordpressDevelopment/KeyStatsIcon.svg';
+import WhatAreService1 from '../../../../../../public/assets/images/services/wordpressDevelopment/WhatAreService.png';
+import WhatAreService2 from '../../../../../../public/assets/images/services/wordpressDevelopment/whatareservice2.png';
+import AdairedHelp from '../../../../../../public/assets/images/services/wordpressDevelopment/adairedHelp.png';
+import BuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/BuildLink.png';
+import bgImgBuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/bgImgBuildLink.png';
+import Icon1 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon1.svg';
+import Icon2 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon2.svg';
+import Icon3 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon3.svg';
+import Icon4 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon4.svg';
+import Icon5 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon5.svg';
+import Icon6 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon6.svg';
+import AdairedHelp_1 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp1.svg';
+import AdairedHelp_2 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp2.svg';
+import AdairedHelp_3 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp3.svg';
+import AdairedHelp_4 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp4.svg';
+import AdairedHelp_5 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp5.svg';
+import AdairedHelp_6 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp6.svg';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -443,6 +577,7 @@ export type SectionKey =
   | 'leadingTools'
   | 'whatIncluded'
   | 'ourProcess'
+  | 'techStackMobile'
   | 'whatMissing'
   | 'stopStruggling'
   | 'whatMkeDeferent'
@@ -484,11 +619,11 @@ export const SERVICES_DATA = {
       },
     },
     banner: {
-      code: '02',
+      code: '01',
       isCenter: false,
       isVisible: true,
       heading: 'Increase Your',
-      label: 'Business Visibility',
+      heading2: 'Business Visibility',
       span: ``,
       desc: 'Advanced Search Engine Optimization Services To Help You Get Discovered In Traditional and AI Search. ',
       subheading: '',
@@ -728,6 +863,8 @@ export const SERVICES_DATA = {
       breakIndex: 8,
       isInCenter: true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
+      description:
+        'Our process is designed to increase both website traffic and revenue through a structured, data-driven strategy.',
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
       services: [
@@ -753,10 +890,8 @@ export const SERVICES_DATA = {
           icon: step3,
           title: 'On-Page and Technical Optimization',
           description: [
-            `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines.`,
-            `This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing. 
-           `,
-            ` These changes enhance user experience while improving search rankings. A well-optimized site ensures that content is both readable for users and properly recognized by search engines.`,
+            `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines. This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing.`,
+            `These changes enhance user experience while improving search rankings. A well-optimized site ensures that content is both readable for users and properly recognized by search engines.`,
           ],
         },
         {
@@ -958,13 +1093,14 @@ export const SERVICES_DATA = {
       isVisible: true,
       variant: '01',
       breakIndex: 4,
+      bgGradient: '',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [
         `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
       ],
       list: [
         {
-          img: adairedHelp_4,
+          img: 'adaired/services/seo/adairedSEO1_q3hwfz.png',
           name: 'Customized SEO Strategies',
           description: [
             `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists.`,
@@ -972,7 +1108,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_7,
+          img: 'adaired/services/seo/adairedSEO2_cvwllu',
           name: 'Data-Driven Decision Making',
           description: [
             `Our SEO services are guided by real data, not assumptions. We make use of advanced analytics, performance measurement, and search intelligence to optimize campaigns on a continuous basis.`,
@@ -980,7 +1116,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_8,
+          img: 'adaired/services/seo/adairedSEO3_vdik7e.png',
           name: 'Focus on Revenue, Not Just Rankings',
           description: [
             `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales.`,
@@ -988,7 +1124,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_15,
+          img: 'adaired/services/seo/adairedSEO4_fnv2bk.png',
           name: 'Complete SEO Expertise Under One Roof',
           description: [
             `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`,
@@ -996,7 +1132,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_13,
+          img: 'adaired/services/seo/adairedSEO5_yx8jag.png',
           name: 'Transparent Reporting & Communication',
           description: [
             `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`,
@@ -1004,7 +1140,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_12,
+          img: 'adaired/services/seo/adairedSEO6_lecqo7.png',
           name: 'White-Hat, Google-Compliant SEO',
           description: [
             `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`,
@@ -1012,7 +1148,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_14,
+          img: 'adaired/services/seo/adairedSEO7_xzi2d0.png',
           name: 'Continuous Optimization & Algorithm Readiness',
           description: [
             `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`,
@@ -1020,7 +1156,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_16,
+          img: 'adaired/services/seo/adairedSEO8_qrb7xh.png',
           name: 'Client-Centric Partnership Approach',
           description: [
             `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`,
@@ -1250,7 +1386,7 @@ export const SERVICES_DATA = {
       ],
     },
   },
-  'ai-seo-company-india': {
+  'ai-seo-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -1275,15 +1411,15 @@ export const SERVICES_DATA = {
       description:
         'LLM-driven AI SEO services in India for ChatGPT, Gemini and Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
       alternates: {
-        canonical: '/services/ai-seo-company-india',
+        canonical: '/services/ai-seo-india',
       },
     },
     banner: {
-      code: '03',
+      code: '01',
       isCenter: false,
       isVisible: true,
       heading: 'Where AI Meets',
-      label: 'High-Performance SEO',
+      heading2: 'High-Performance SEO',
       span: `Future-ready SEO solutions by Adaired, designed to outrank and outgrow`,
       desc: 'Our strategies are designed to help your business outrank competitors, attract more traffic, and achieve sustainable growth. Experience smarter SEO that not only ranks but accelerates your success.',
       subheading:
@@ -1313,11 +1449,6 @@ export const SERVICES_DATA = {
           icon: '',
           desctioption:
             'With the introduction of AI searches, the organic web traffic is reduced by 15% to 25%. ',
-        },
-        {
-          icon: '',
-          desctioption:
-            'The global AI content marketing industry is expected to grow from 2.4 billion in 2023 at a CAGR of 25.68% to reach $17.6 billion by 2033. ',
         },
         {
           icon: '',
@@ -1398,6 +1529,7 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: true,
+      isVariant: '01',
       isDecVarticle: true,
       isInCenter: false,
       isBgWhite: false,
@@ -1618,11 +1750,12 @@ export const SERVICES_DATA = {
       breakIndex: 4,
       isInCenter: true,
       bgColor: '#FFFFFF',
+      bgGradient: '',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
         {
-          img: adairedHelpaiseo1,
+          img: 'adaired/services/ai_seo/adairedAISEO1_laiacx.png',
           name: 'AI-First SEO Built For Modern Search',
           description: [
             `Adaired pursues an AI-first strategy of SEO, which is how today's search engines operate. The search trends, user intent, and the ranking changes are analysed and processed by our AI tools in real time. `,
@@ -1630,7 +1763,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelpaiseo2,
+          img: 'adaired/services/ai_seo/adairedAISEO2_zxctyf.png',
           name: 'SEO Focused on Real Business Growth',
           description: [
             'We don’t focus only on rankings. SEO at Adaired is meant to deliver actual performance, increased traffic, improved leads, and increased conversions. ',
@@ -1638,7 +1771,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelpaiseo3,
+          img: 'adaired/services/ai_seo/adairedAISEO3_cb9lab.png',
           name: 'Custom SEO Strategies, No Templates',
           description: [
             `Adaired never uses one-size-fits-all SEO plans. We develop tailor-made plans that suit your industry, your target market, competition, and objectives. `,
@@ -1646,7 +1779,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelpaiseo4,
+          img: 'adaired/services/ai_seo/adairedAISEO4_smalkf.png',
           name: 'Content That Works for AI and People',
           description: [
             'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our professionals make sure that it remains straightforward, practical, and comprehensible. ',
@@ -1654,7 +1787,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelpaiseo5,
+          img: 'adaired/services/ai_seo/adairedAISEO5_xpbmvr.png',
           name: 'Proactive SEO That Stays Ahead of Changes',
           description: [
             `The search engines change constantly, and Adaired stays ahead of them. Our AI tracks performance changes, updates, and competitor activities in real time.`,
@@ -1662,7 +1795,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelpaiseo6,
+          img: 'adaired/services/ai_seo/adairedAISEO6_xkywjh.png',
           name: 'Clear Reporting and Complete Transparency',
           description: [
             'Adaired believes in honest communication. We provide simple, easy-to-follow reports that reveal what is working and what is not.  ',
@@ -1695,8 +1828,8 @@ export const SERVICES_DATA = {
           icon: ai_tool_2,
           title: 'Perplexity AI SEO',
           description: [
-            `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines. 
-            Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
+            `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines.`,
+            `Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
           ],
           button: 'Get Your Free AI SEO Audit',
           btnColor: '#20808D',
@@ -1706,8 +1839,8 @@ export const SERVICES_DATA = {
           icon: ai_tool_3,
           title: 'Gemini AI SEO',
           description: [
-            `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.
-            We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
+            `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.`,
+            `We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
           ],
           button: 'Get Your Free AI SEO Audit',
           btnColor: '#2B99DE',
@@ -1717,8 +1850,8 @@ export const SERVICES_DATA = {
           icon: ai_tool_4,
           title: 'Grok AI SEO',
           description: [
-            `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.
-             With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
+            `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.`,
+            `With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
           ],
           button: 'Get Your Free AI SEO Audit',
           btnColor: '#000000',
@@ -1728,8 +1861,8 @@ export const SERVICES_DATA = {
           icon: ai_tool_5,
           title: 'Answer Engine Optimization',
           description: [
-            `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.
-            We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
+            `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.`,
+            `We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
           ],
           button: 'Get Your Free AI SEO Audit',
           btnColor: '#1F66BE',
@@ -1739,8 +1872,8 @@ export const SERVICES_DATA = {
           icon: ai_tool_6,
           title: 'Generative Engine Optimization',
           description: [
-            `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.
-            We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
+            `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.`,
+            `We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
           ],
           button: 'Get Your Free AI SEO Audit',
           btnColor: '#5F52B1',
@@ -1754,7 +1887,7 @@ export const SERVICES_DATA = {
       subtitle: 'Our Process',
       title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
       span: '',
-      description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
+      description: `We leverage AI-driven SEO, analytics, and conversion strategies to enhance brand presence, boost search performance, and drive business growth.`,
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
       services: [
@@ -2000,7 +2133,7 @@ brand appears in AI summaries and citations.`,
       ],
     },
   },
-  'link-building-services-india': {
+  'link-building-agency-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -2025,7 +2158,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/link-building-services-india',
+        canonical: '/services/link-building-agency-india',
       },
     },
     banner: {
@@ -2043,6 +2176,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '03',
       heading: 'Key Stats on Authority Link Building ',
+      bgColor: '#FB9100',
       isCard: false,
       img: keyStatsImg,
       list: [
@@ -2160,6 +2294,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     benefitofAiSeo: {
       isVisible: true,
+      isVariant: '01',
       isDecVarticle: false,
       isBgWhite: true,
       breakIndex: 6,
@@ -2463,11 +2598,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       isInCenter: true,
       bgColor: true,
+      bgGradient: '',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
         {
-          img: adairedDiff_1,
+          img: 'adaired/services/link_building/adairedLinkBuilding1_o9qrri.png',
           name: 'Links That Build Real Authority',
           description: [
             `Adaired focuses on authoritative and niche-specific backlinks rather than pursuing high quantities. Every link is evaluated for domain strength, traffic quality, relevance, and editorial.`,
@@ -2475,7 +2611,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedDiff_2,
+          img: 'adaired/services/link_building/adairedLinkBuilding2_enfjfh.png',
           name: '100% White-Hat & Safe',
           description: [
             `Our web building policies align well with the Google Webmaster Policy. We do not use PBNs, link farms, or automation.`,
@@ -2483,7 +2619,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedDiff_3,
+          img: 'adaired/services/link_building/adairedLinkBuilding3_bicg91.png',
           name: 'Niche-Relevant Placements',
           description: [
             `Unlike generic providers, Adaired builds links within your exact industry and content ecosystem. All the backlinks are contextually situated on the appropriate pages, which naturally align with your brand.`,
@@ -2491,7 +2627,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedDiff_4,
+          img: 'adaired/services/link_building/adairedLinkBuilding4_zpjmdf.png',
           name: 'Clear Reporting, Real Results',
           description: [
             `We believe in complete transparency. Adaired offers reports that display live links, use of anchor texts, domain measures, traffic, and placement URLs.`,
@@ -2499,7 +2635,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedDiff_5,
+          img: 'adaired/services/link_building/adairedLinkBuilding5_wangjy.png',
           name: 'Fully Customized Strategies',
           description: [
             `No two businesses are the same, and neither are our link-building campaigns.  Adaired develops unique strategies relevant to your interests, competition, industry, and existing backlink profile.`,
@@ -2507,7 +2643,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedDiff_6,
+          img: 'adaired/services/link_building/adairedLinkBuilding6_w5vs3m.png',
           name: 'SEO-Led Link Building',
           description: [
             `We identify that backlinks are aligned with the intent of the keywords, site architecture, and the overall performance of the search engine optimization.`,
@@ -2526,7 +2662,7 @@ brand appears in AI summaries and citations.`,
       title:
         'Our Strategic Link Building Process Focused On Building Lasting Authority',
       span: '',
-      description: ``,
+      description: `We use a strategic link-building framework to build lasting authority and sustainable SEO performance.`,
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
       services: [
         {
@@ -2543,7 +2679,7 @@ brand appears in AI summaries and citations.`,
           title: 'Strategy & Goal Alignment',
           description: [
             `Looking at what we have learned in our analysis, we develop a tailor-made authority link-building strategy that is in tandem with your business objectives.`,
-            `Be it rankings or traffic, brand visibility, we establish the type of links, target pages, and anchor text strategy so that we can have long-term and seamless growth in SEO.`,
+            `Be it rankings, traffic, or brand visibility, we establish the type of links, target pages, and anchor text strategy so that we can have long-term and seamless growth in SEO. This approach ensures each backlink boosts domain authority, rankings, and organic growth.`,
           ],
         },
         {
@@ -2551,7 +2687,7 @@ brand appears in AI summaries and citations.`,
           title: 'Prospecting High-Authority Websites',
           description: [
             `Highly authoritative, niche-relevant sites are identified and qualified by our team on the basis of rigid criteria like the domain strength, organic traffic, and editorial quality.`,
-            `Adaired ensures each prospect meets our quality standards, guaranteeing that every backlink adds real value and strengthens your website’s overall authority.`,
+            `Adaired ensures each prospect meets our quality standards, guaranteeing that every backlink adds real value and strengthens your website’s overall authority. This process helps maintain a strong, natural backlink profile that supports long-term SEO performance and credibility.`,
           ],
         },
         {
@@ -2707,16 +2843,23 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '04',
-      isCenter: false,
+      code: '02',
       isVisible: true,
-      heading: 'Design That Builds Trust.',
-      label: 'Experiences That Convert.',
       desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired Digital Media, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
       button: 'Book a consultation today',
-      subheading: '',
-      width: '20rem',
-      widthLg: '30rem',
+      width: '50%',
+      breakIndex: 3,
+      heading: 'Design That Builds Trust.',
+      heading2: 'Design That Builds Trust.',
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'Design That Builds Trust.', color: '#FB9100', weight: '800' },
+        {
+          text: ' Experiences That Convert.',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgImg: webDevelopmentBannerBg,
     },
 
@@ -2820,6 +2963,7 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
+      isVariant: '01',
       isDecVarticle: true,
       isBgWhite: false,
       isInCenter: false,
@@ -3110,6 +3254,7 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '02',
+      bgGradient: '',
       heading:
         'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
       description: [
@@ -3117,7 +3262,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: WhatMkeAd,
+          img: 'adaired/services/web_design_development/adairedWebDesign1_vrhmda.png',
           name: 'Professional experience and expertise',
           description: [
             `Our professionals clearly convey that you are investing in years of knowledge and experience. We adapt to the latest designs and follow the best practices to help you create websites that are user-friendly, visually appealing, and fully functional.`,
@@ -3126,7 +3271,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: WhatMkeAd2,
+          img: 'adaired/services/web_design_development/adairedWebDesign2_fg0acc.png',
           name: 'User-centric design and SEO',
           description: [
             `The studies suggest that half of the internet users make an opinion about a business based on how its website look and 57% of users will not suggest a business to others after a bad experience. `,
@@ -3134,7 +3279,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: WhatMkeAd3,
+          img: 'adaired/services/web_design_development/adairedWebDesign3_phbrlo.png',
           name: 'Commitment to time and quality',
           description: [
             `Through years, we have built a reputation on delivering quality work to our clients. Since there are a number of steps involved in the website creation, we create timelines for different aspects of the project to complete it on time. `,
@@ -3142,7 +3287,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: WhatMkeAd4,
+          img: 'adaired/services/web_design_development/adairedWebDesign4_gbwvap.png',
           name: 'Quick Turnaround Time',
           description: [
             `With efficient project management and a dedicated workforce, we ensure that the projects are completed faster without compromising quality. `,
@@ -3150,7 +3295,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: WhatMkeAd5,
+          img: 'adaired/services/web_design_development/adairedWebDesign5_r7i3ws.png',
           name: 'Highly skilled team members',
           description: [
             `At Adaired, we have a team of highly skilled, knowledgeable and experienced professionals including developers, designers, and digital marketers. Our website design team brings skills and creativity to build websites that excel in functionality, performance and aesthetics.`,
@@ -3158,7 +3303,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: WhatMkeAd6,
+          img: 'adaired/services/web_design_development/adairedWebDesign6_kix9co.png',
           name: 'Proven Track Record of Success',
           description: [
             `Adaired has a proven track record of delivering results to our clients. Our portfolio spans multiple industries, demonstrating our ability to adapt and innovate with time. `,
@@ -3176,66 +3321,65 @@ brand appears in AI summaries and citations.`,
       title: 'The Web Design and Development Process That We Follow At Adaired',
       span: '',
       description: [
-        `The web design and development process at Adaired adheres to a strategic, transparent, and results-oriented mechanism that will see to it that all projects generate measurable business value.`,
         `We are a creative, technology-driven, user-centered design solution that enables brands to grow through scalable digital solutions.`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] via-[#FFF9F2] to-[#FFFFFF]',
 
       services: [
         {
           icon: stepWeb1,
           title: 'Discovery & Requirement Analysis',
           description: [
-            `We start with knowing your business objectives, target market, industry landscape and technical needs. 
-            This step will enable us to base our strategy on your vision coupled with the realization of possible opportunities to improve user experience and performance.`,
+            `We begin by gaining a deep understanding of your business objectives, target audience, industry landscape, and technical requirements. This discovery phase allows us to evaluate your current digital presence and identify opportunities to improve functionality, performance, and user experience.`,
+            'By aligning our insights with your long-term goals, we create a strong foundation that guides the entire web development process and ensures the final solution truly reflects your vision.',
           ],
         },
         {
           icon: stepWeb2,
           title: 'Planning & Strategy',
           description: [
-            `We design an elaborate project roadmap based on the knowledge acquired during discovery. 
-            This involves the definition of site architecture, technology stack, schedules, and other milestones that are important to maintain a smooth process and effective communication throughout the project life cycle.`,
+            `Based on the insights gathered during the discovery phase, we develop a detailed project roadmap. This includes defining the website architecture, selecting the appropriate technology stack, outlining timelines, and establishing key milestones.`,
+            'Our strategic planning ensures that every stage of the project is clearly structured, helping maintain transparency, efficient communication, and a smooth workflow from start to finish.',
           ],
         },
         {
           icon: stepWeb3,
           title: 'UI/UX Design',
           description: [
-            `Our designers create user-friendly, aesthetically pleasing, and intuitive user interfaces that can reflect your brand identity. 
-            Our focus is on usability, accessibility and responsive design to create a smooth experience on all devices.`,
+            `Our designers focus on creating visually appealing, intuitive, and user-friendly interfaces that reflect your brand identity. We carefully design layouts, navigation structures, and interactive elements that enhance usability and engagement.`,
+            'As a professional web design and development agency, we prioritize responsive design, accessibility, and seamless user experiences so your website performs consistently across desktops, tablets, and mobile devices.',
           ],
         },
         {
           icon: stepWeb4,
           title: 'Development & Integration',
           description: [
-            `Using modern technologies and best coding practices, our developers bring the designs to life. 
-            We develop websites that are fast, secure and scalable and we combine third-party applications, API, and content management systems when necessary.`,
+            `Once the design is finalized, our development team brings the concept to life using modern technologies and industry best practices. We build websites that are fast, secure, scalable, and optimized for performance.`,
+            'In addition, we integrate essential third-party tools, APIs, and content management systems when needed to enhance functionality and ensure your website supports your business operations effectively.',
           ],
         },
         {
           icon: stepWeb5,
           title: 'Quality Assurance & Testing',
           description: [
-            `We do intensive testing before launch so ensure the flawless performance. 
-            This includes functionality testing, cross-browser and device compatibility checks, performance optimization, and security validation.`,
+            `Before launching your website, we conduct comprehensive quality assurance and testing to ensure everything functions perfectly. This process includes functionality testing, cross-browser and cross-device compatibility checks, performance optimization, and security validation.`,
+            'Our goal is to eliminate any potential issues and deliver a website that provides a smooth, reliable, and consistent user experience.',
           ],
         },
         {
           icon: stepWeb6,
           title: 'Deployment & Launch',
           description: [
-            `After all the approval is given, we put your site into live environment and ensure that there is minimal downtime. 
-            Our team will make the integration as seamless as possible and will closely consider the performance to address any last-minute challenges.`,
+            `Once all approvals are completed, we carefully deploy your website to a live environment. Our team manages the launch process to ensure minimal downtime and a seamless transition.`,
+            'We closely monitor performance, address any last-minute adjustments, and ensure that the website is fully functional and ready to serve your audience from day one.',
           ],
         },
         {
           icon: stepWeb7,
           title: 'Maintenance & Continuous Support',
           description: [
-            `The relationship does not stop with the launch. 
-            We provide ongoing maintenance, updates, performance optimization and technical support to ensure that your website is secure, scalable and compliant to the changing business requirements.`,
+            `Our partnership does not end after the launch. We provide ongoing maintenance, regular updates, performance monitoring, and technical support to keep your website secure and running smoothly.`,
+            'As your business evolves, we help implement improvements and enhancements so your website remains scalable, efficient, and aligned with changing industry trends and business needs.',
           ],
         },
       ],
@@ -3350,22 +3494,21 @@ brand appears in AI summaries and citations.`,
     },
 
     banner: {
-      code: '05',
+      code: '02',
       isCenter: false,
       isVisible: true,
-      heading: '',
-      label: 'Helping You Rank #1 In Your Area',
-      desc: 'Get discovered by the customers who are searching for your business right now',
+      heading: 'Helping You Rank #1 In Your Area',
+      span: 'Get discovered by the customers who are searching for your business right now',
       button: 'Book a Strategy Call',
       subheading: '',
-      width: '20rem',
-      widthLg: '30rem',
+      width: '50%',
       bgImg: localBannerBg,
     },
 
     keyStats: {
       isVisible: true,
-      code: '05',
+      code: '01',
+      isCarousel: true,
       heading: 'Must-Know Local SEO Statistics',
       isCard: false,
       list: [
@@ -3707,7 +3850,7 @@ brand appears in AI summaries and citations.`,
       subtitle: 'Our Process',
       title: 'Our Performance-Focused Local SEO Strategy',
       span: '',
-      description: ``,
+      description: `We follow a strategic Local SEO process designed to improve your visibility in local search results and drive qualified leads.`,
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
       services: [
@@ -3770,7 +3913,7 @@ brand appears in AI summaries and citations.`,
           icon: steplocalseo6,
           title: 'Maintenance & Continuous Support',
           description: [
-            `The relationship does not stop with the launch.`,
+            `The relationship does not stop with the launch. We provide ongoing maintenance, updates, performance optimization, and technical support to ensure that your website is secure, scalable, and compliant with the changing business requirements.`,
             `We provide ongoing maintenance, updates, performance optimization and technical support to ensure that your website is secure, scalable and compliant to the changing business requirements.`,
           ],
         },
@@ -3782,11 +3925,12 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       bgColor: true,
       isInCenter: true,
+      bgGradient: '',
       heading: 'Why Choose Adaired for Your Local Search Engine Optimization ?',
       description: [],
       list: [
         {
-          img: whatMkLocal,
+          img: 'adaired/services/local_seo/adairedLocalSeo1_pxo4vp.png',
           name: '1. Proven Local SEO Strategies That Drive Real Foot Traffic',
           description: [
             `At Adaired, we don’t chase vanity metrics but we focus on what matters: visibility that converts. 
@@ -3795,7 +3939,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal1,
+          img: 'adaired/services/local_seo/adairedLocalSeo2_qvwi5i.png',
           name: '2. Deep Understanding of Local Search Algorithms',
           description: [
             `Local SEO isn’t the same as traditional SEO, and we treat it that way. Adaired focuses on local ranking factors like proximity, relevance, and prominence.`,
@@ -3803,7 +3947,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal2,
+          img: 'adaired/services/local_seo/adairedLocalSeo3_dqjt0d.png',
           name: '3. Customized Solutions for Every Local Business',
           description: [
             `No two local businesses are the same and neither are our strategies. 
@@ -3812,7 +3956,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal3,
+          img: 'adaired/services/local_seo/adairedLocalSeo4_nqh3pz.png',
           name: '4. End-to-End Local SEO Services Under One Roof',
           description: [
             `Adaired does it all, starting with local keyword research and citation building and going through to review management and on-page optimization.`,
@@ -3820,7 +3964,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal4,
+          img: 'adaired/services/local_seo/adairedLocalSeo5_gv1vhs.png',
           name: '5. Transparent Reporting and Measurable Results',
           description: [
             `We believe trust is built on transparency. Adaired provides clear, easy-to-understand reports which present the performance of your campaigns on local search engine optimization.`,
@@ -3828,7 +3972,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal5,
+          img: 'adaired/services/local_seo/adairedLocalSeo6_zzridz.png',
           name: '6. Dedicated Local SEO Experts Who Care About Growth',
           description: [
             `When you work with Adaired, you’re not just hiring an agency, you’re gaining a growth partner. 
@@ -4318,30 +4462,34 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '06',
-      isCenter: false,
+      code: '02',
       isVisible: true,
-      heading: 'for Modern Agencies',
+      isStyleHeading: true,
+      width: '60%',
       subtitle: 'Industry-Leading White Label',
-      label: 'Social Media Management',
+      headingParts: [
+        { text: 'Social Media Management', color: '#000000', weight: '400' },
+        {
+          text: 'for Modern Agencies',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       desc: `Deliver expert social media marketing services under your brand without hiring a full in-house team. 
           With Adaired Digital Media, you get fully managed social media solutions that expand your service lineup without increasing overhead. 
           From content creation to campaign management, our team drives measurable growth for your clients, all under your brand.`,
       button: 'Request a Consultation',
       subheading: 'We work behind the scenes. Your brand gets the credit.',
-      width: '20rem',
-      widthLg: '30rem',
       bgImg: whiteBannerBg,
     },
 
     keyStats: {
       isVisible: true,
-      code: '08',
+      code: '03',
       img: whiteKeyStats,
       heading: 'Must-Know Facts About White Label Social Media',
-      bgColor: '#FB9100',
       isImgBg: false,
-      isCard: false,
+      bgColor: '#FB9100',
       list: [
         {
           desctioption: [
@@ -4539,43 +4687,55 @@ brand appears in AI summaries and citations.`,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
-      description: `A structured process ensures consistency and measurable results. Our white label social media management approach includes:`,
+      description: `A structured process ensures consistency and measurable results. Our white-label social media management approach includes:`,
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
       services: [
         {
           icon: stepwhitelabelsocialmedia1,
           title: 'Discovery & Onboarding',
           description: [
-            `We align with your agency’s goals, branding, and client expectations.`,
+            `Every successful campaign starts with clarity and alignment. During onboarding, we take time to understand your agency’s positioning, tone, and service expectations.`,
+            'We review your agency branding guidelines; your client’s business goals and target audience; industry landscape; competitor presence; and platform priorities (such as Facebook, Instagram, LinkedIn, or X). This ensures that everything we produce aligns seamlessly with your brand identity and your client’s expectations.',
           ],
         },
         {
           icon: stepwhitelabelsocialmedia2,
-          title: 'Strategy Development',
+          title: 'Competitor & Market Analysis',
           description: [
-            `Our team builds a tailored social media marketing strategy for each client, aligned with their industry and audience.`,
+            `Before building the strategy, we conduct detailed competitor and industry research to identify content gaps and positioning opportunities. This includes competitor content performance review, industry trend analysis, benchmarking engagement rates, identifying high-performing formats, and spotting differentiation opportunities.`,
+            'By analyzing competitors across platforms like Instagram, Facebook, LinkedIn, and X, we create strategies that help your clients stand out instead of blending in.',
           ],
         },
         {
           icon: stepwhitelabelsocialmedia3,
-          title: 'Content Creation & Approval',
+          title: 'Strategy Development',
           description: [
-            `We develop branded content and campaigns that reflect your client’s voice and positioning.`,
+            `Once we understand the objectives, our team builds a tailored social media marketing strategy for each client. This includes audience research and content mapping, platform-specific growth plans, content themes and campaign direction, posting frequency and engagement strategy, and KPI selection aligned with business goals.`,
+            'Whether your client is focused on brand awareness, lead generation, or community building, the strategy is customized to drive measurable impact.',
           ],
         },
         {
           icon: stepwhitelabelsocialmedia4,
-          title: 'Publishing & Engagement',
+          title: 'Content Creation & Approval',
           description: [
-            `Content is scheduled and monitored across platforms, ensuring consistent brand presence.`,
+            `Execution is where creativity meets brand consistency. Our team develops branded graphics and visual creatives, captions tailored to audience psychology, hashtag strategies for improved discoverability, and promotional campaigns and content calendars.`,
+            'Before publishing, everything goes through an approval workflow, either with your agency or directly with your client (fully branded as your company). This ensures full transparency while maintaining your ownership of the relationship.',
           ],
         },
         {
           icon: stepwhitelabelsocialmedia5,
-          title: 'Reporting & Optimization',
+          title: 'Publishing & Engagement',
           description: [
-            `With our white label social media management approach, you get detailed performance insights branded under your name.`,
-            `This streamlined process allows agencies to deliver reliable results without operational strain.`,
+            `After approval, content is scheduled and managed across platforms using structured publishing workflows. We ensure consistent posting schedules, platform-optimized formatting, active monitoring of comments and interactions, and community engagement aligned with brand tone.`,
+            `This keeps your clients visible, active, and relevant in their market, without requiring your internal team to manage day-to-day execution.`,
+          ],
+        },
+        {
+          icon: stepwhitelabelsocialmedia5,
+          title: 'Publishing & Engagement',
+          description: [
+            `Performance tracking is essential for long-term success. With our white-label social media management approach, you receive branded monthly performance reports, engagement, reach, and growth metrics, audience behavior insights, and strategic recommendations for improvement.`,
+            `We continuously analyze results and refine content strategy to improve performance over time. This streamlined process allows agencies to deliver reliable results without operational strain.`,
           ],
         },
       ],
@@ -4673,6 +4833,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       breakIndex: 5,
       isInCenter: false,
+      bgGradient: '',
       heading: 'Why Choose Adaired as Your White Label Social Media Partner?',
       description: [
         `Selecting the right white label social media agency directly impacts your client satisfaction, service quality, and long-term growth. 
@@ -4681,7 +4842,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whatMkWhite_1,
+          img: 'adaired/services/white_label_social_media/adairedSocialMedia1_q9yul4.png',
           name: '1. Dedicated Social Media Specialists',
           description: [
             `Our team consists of experienced strategists, content creators, ad managers, and account coordinators who specialize in white label social media management.`,
@@ -4689,7 +4850,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhite_2,
+          img: 'adaired/services/white_label_social_media/adairedSocialMedia2_xk9rv8.png',
           name: '2. Data-Driven Campaign Execution',
           description: [
             `Every social media marketing initiative we manage is guided by analytics, performance tracking, and ongoing optimization.`,
@@ -4697,7 +4858,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhite_3,
+          img: 'adaired/services/white_label_social_media/adairedSocialMedia3_mm8igr.png',
           name: '3. Structured Communication & Collaboration',
           description: [
             `Successful white label social media services depend on clear coordination.`,
@@ -4705,7 +4866,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhite_4,
+          img: 'adaired/services/white_label_social_media/adairedSocialMedia4_x19y6f.png',
           name: '4. Focus on Measurable Growth',
           description: [
             `Vanity metrics do not define success. 
@@ -4713,7 +4874,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhite_5,
+          img: 'adaired/services/white_label_social_media/adairedSocialMedia5_qghir7.png',
           name: '5. Brand Integrity & Confidentiality',
           description: [
             `As your white label social media reseller partner, we operate discreetly. 
@@ -5100,20 +5261,29 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '07',
+      code: '02',
       isCenter: false,
       isVisible: true,
-      heading: 'Partner for Digital Agencies',
+      isHeadingNormal: true,
+      breakIndex: 3,
+      heading2Color: '#FB9100',
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'Trusted White Label SEO', color: '#000000', weight: '400' },
+        {
+          text: 'Partner for Digital Agencies',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      heading: '',
       subtitle: '',
-      label: 'Trusted White Label SEO',
       desc: [
         `Maximize your client base with us working behind the scenes, and you’ll be offering full-fledged SEO services under your brand name.`,
       ],
       button: 'Talk to Us!',
-      subheading:
-        'All set to deliver real SEO results to your clients without building an in-house team?',
-      width: '20rem',
-      widthLg: '30rem',
+      span: 'All set to deliver real SEO results to your clients without building an in-house team?',
+      width: '50%',
       bgImg: whiteSeoBannerBg,
     },
 
@@ -5140,10 +5310,11 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '06',
+      code: '03',
       img: whiteSeoKeyStatsImg,
       heading: 'White Label SEO Insights',
       bgColor: '#000000',
+      textColor: '#FFFFFF',
       isImgBg: true,
       isTextWhite: true,
       isCard: false,
@@ -5511,6 +5682,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       isInCenter: true,
+      bgGradient: '',
       heading: 'How White Label SEO Works at Adaired',
       bgColor: true,
       description: [
@@ -5518,7 +5690,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whatMkWhiteSeo_1,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'You Acquire and Manage the Client',
           description: [
             `You handle sales, onboarding, and all client communication under your brand. 
@@ -5526,7 +5698,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhiteSeo_2,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo2_dpfuh9.png',
           name: 'Campaign Onboarding and Scope Alignment',
           description: [
             `Once a project is approved, you share campaign details, goals, and access requirements with us. 
@@ -5534,7 +5706,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhiteSeo_3,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo3_vpnkp1.png',
           name: 'SEO Execution by Our Team',
           description: [
             `Our team handles the complete SEO workload in the background. 
@@ -5542,7 +5714,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhiteSeo_4,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo4_kkrqw5.png',
           name: 'Dedicated SEO Manager for Scaled Accounts',
           description: [
             `We assign a dedicated SEO manager to oversee execution, coordinate workflows, and serve as a single point of contact. 
@@ -5550,14 +5722,14 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhiteSeo_5,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo5_mbpvyr.png',
           name: 'White-Labeled Reporting and Deliverables',
           description: [
             `We prepare all reports, dashboards, and updates with your branding. Every deliverable is client-ready and aligned with your reporting cadence.`,
           ],
         },
         {
-          img: whatMkWhiteSeo_6,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo6_g79z31.png',
           name: 'You Deliver Results Under Your Brand',
           description: [
             `You share insights, rankings, and performance updates with your clients. 
@@ -6051,30 +6223,37 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '07',
+      code: '02',
       isCenter: false,
       isVisible: true,
-      heading: 'Built for Growing Agencies',
-      subheading:
-        'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
+      heading2Color: '#FB9100',
+      span: 'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
       subtitle: '',
-      label: 'White-Label Services',
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'White-Label Services', color: '#000000', weight: '400' },
+        {
+          text: ' Built for Growing Agencies ',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
       desc: [
-        `Scaling a digital agency is exciting, until delivery eats your time and margins.`,
-        `Adaired Digital Media works behind the scenes as your reseller SEO partner, delivering results-driven SEO and digital marketing while you keep full brand ownership.`,
+        'Scaling a digital agency is exciting, until delivery eats your time and margins.',
+        'Adaired Digital Media works behind the scenes as your reseller SEO partner, delivering results-driven SEO and digital marketing while you keep full brand ownership.',
       ],
       button: 'Start a Conversation!',
-      width: '20rem',
-      widthLg: '30rem',
+      width: '60%',
       bgImg: whiteServicesBannerBg,
     },
 
     keyStats: {
       isVisible: true,
-      code: '10',
+      code: '03',
       img: whiteServicesKeyStatsImg,
       heading: 'Why Choose White-Label Delivery',
       bgColor: '#FB9100',
+      textColor: '#000000',
       isImgBg: true,
       isCard: false,
       list: [
@@ -6140,7 +6319,7 @@ brand appears in AI summaries and citations.`,
       title: 'How Adaired’s White-Label Model Works',
       span: '',
       description: `Adaired Digital functions as your dedicated fulfillment team, allowing you to confidently offer premium digital marketing services without managing an in-house team.`,
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] via-[#fffcf8] to-[#FFF8F0]',
 
       services: [
         {
@@ -6459,6 +6638,7 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       isVariant: '01',
       heading: ``,
+      bgGradient: '',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -6466,7 +6646,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'White Label Reporting',
           description: [
             `Reporting is essential for effective client communication. 
@@ -6476,7 +6656,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Dedicated Account Management',
           description: [
             `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination. 
@@ -6485,7 +6665,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'On-Time Delivery and Structured Timelines',
           description: [
             `Missed deadlines directly impact client trust. 
@@ -6495,7 +6675,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Affordable Pricing Compared to Other Models',
           description: [
             `Hiring and maintaining in-house teams involves fixed costs, training time, and long-term commitments. 
@@ -6504,7 +6684,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Brand Protection and Confidentiality ',
           description: [
             `Brand integrity is critical in white-label partnerships. 
@@ -6514,7 +6694,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Consistency at Scale',
           description: [
             `As agencies grow, maintaining consistent quality across accounts becomes increasingly difficult. 
@@ -6524,7 +6704,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Predictable Resource Planning',
           description: [
             `Hiring in-house teams requires long-term commitments, training cycles, and fixed costs. 
@@ -6534,7 +6714,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Long-Term Partnership Focus',
           description: [
             `Adaired works with agencies looking for sustained growth rather than short-term fulfillment. 
@@ -7036,7 +7216,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'paid-media-and-advertising': {
+  'ppc-management-company-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -7066,62 +7246,38 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/paid-media-and-advertising',
+        canonical: '/services/ppc-management-company-india',
       },
     },
     banner: {
-      code: '07',
-      isCenter: false,
+      code: '02',
       isVisible: true,
-      heading: 'Scalable PPC Campaigns',
-      // subheading:
-      //   'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
       subtitle: 'Pay Per Click Advertising',
-      label: 'Own the Top Spot with',
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'Own the Top Spot with', color: '#000000', weight: '400' },
+        {
+          text: ' Scalable PPC Campaigns',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
       desc: [
         `Drive high-intent traffic, generate qualified leads, and maximize ROI with data-driven PPC management. We build, optimize, and scale paid search campaigns that turn clicks into real revenue.`,
       ],
       button: 'Request a Campaign Audit',
-      width: '20rem',
-      widthLg: '30rem',
+      width: '55%',
       bgImg: PPC_Banner,
     },
 
     keyStats: {
       isVisible: false,
-      code: '07',
+      code: '01',
       img: whiteServicesKeyStatsImg,
-      heading: 'Why Choose White-Label Delivery',
-      bgColor: '#FB9100',
+      heading: '',
       isImgBg: true,
       isCard: false,
-      list: [
-        {
-          desctioption: [
-            `Businesses that outsource between 40 and 60% of their service delivery experience growth that is roughly 2.3x faster than that of their peers.`,
-          ],
-        },
-        {
-          desctioption: [
-            `According to surveys, agencies that use white-label services have a 42% higher client retention rate.`,
-          ],
-        },
-        {
-          desctioption: [
-            `In 2026, the white label market is expected to reach $99.19 billion. This quick growth is a result of growing industry demand for outsourced solutions.`,
-          ],
-        },
-        {
-          desctioption: [
-            `White-label services are part of the global digital marketing market, which is expanding at a 13.1% CAGR.`,
-          ],
-        },
-        {
-          desctioption: [
-            `Using white-label marketing, agencies can expand their service offerings without having to hire full-time employees.`,
-          ],
-        },
-      ],
+      list: [],
     },
 
     whatareservice: {
@@ -7160,7 +7316,7 @@ brand appears in AI summaries and citations.`,
         `PPC advertising operates through a real-time auction system that determines which ads appear in search results, in what position, and at what cost. Unlike traditional advertising, where you pay for exposure, PPC ensures you only pay when a user actively engages with your ad.`,
         `Here’s a detailed breakdown of how the entire system works:`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] via-[#FFF9F2] to-[#FFFFFF]',
 
       services: [
         {
@@ -7594,6 +7750,7 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       isVariant: '01',
       heading: ``,
+      bgGradient: '',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -7601,7 +7758,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'White Label Reporting',
           description: [
             `Reporting is essential for effective client communication. 
@@ -7611,7 +7768,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Dedicated Account Management',
           description: [
             `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination. 
@@ -7620,7 +7777,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'On-Time Delivery and Structured Timelines',
           description: [
             `Missed deadlines directly impact client trust. 
@@ -7630,7 +7787,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Affordable Pricing Compared to Other Models',
           description: [
             `Hiring and maintaining in-house teams involves fixed costs, training time, and long-term commitments. 
@@ -7639,7 +7796,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Brand Protection and Confidentiality ',
           description: [
             `Brand integrity is critical in white-label partnerships. 
@@ -7649,7 +7806,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Consistency at Scale',
           description: [
             `As agencies grow, maintaining consistent quality across accounts becomes increasingly difficult. 
@@ -7659,7 +7816,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Predictable Resource Planning',
           description: [
             `Hiring in-house teams requires long-term commitments, training cycles, and fixed costs. 
@@ -7669,7 +7826,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Long-Term Partnership Focus',
           description: [
             `Adaired works with agencies looking for sustained growth rather than short-term fulfillment. 
@@ -8059,7 +8216,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'white-label-paid-ads': {
+  'white-label-paid-ads-india': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -8089,24 +8246,33 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/white-label-paid-ads',
+        canonical: '/services/white-label-paid-ads-india',
       },
     },
     banner: {
-      code: '07',
+      code: '02',
       isCenter: false,
       isVisible: true,
-      heading: 'White Label PPC Services',
-      subheading: '',
-      subtitle: '',
-      label: 'Accelerate Agency Growth with',
+      isStyleHeading: true,
+      headingParts: [
+        {
+          text: 'Accelerate Agency Growth with',
+          color: '#000000',
+          weight: '400',
+        },
+        {
+          text: ' White Label PPC Services',
+          color: '#FB9100',
+          weight: '800',
+        },
+      ],
+      width: '50%',
+      heading2: 'White Label PPC Services',
       desc: [
         `Stop turning down PPC clients. Launch high-performance white-label paid ads services without expanding your internal team.`,
         `At Adaired Digital Media, we deliver high-performing Google Ads and paid media campaigns under your brand, so you can focus on sales and client relationships and grow faster.`,
       ],
       button: 'Become a White Label Reseller',
-      width: '20rem',
-      widthLg: '30rem',
       bgImg: whitePaidAdsBannerBg,
     },
 
@@ -8550,7 +8716,7 @@ brand appears in AI summaries and citations.`,
       description: [
         `We operate behind the scenes, allowing you to scale services without increasing internal workload or overhead.`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      // bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
       services: [
         {
@@ -8771,45 +8937,19 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: false,
-      code: '07',
+      code: '01',
       img: whiteServicesKeyStatsImg,
-      heading: 'Why Choose White-Label Delivery',
-      bgColor: '#FB9100',
+      heading: '',
       isImgBg: true,
       isCard: false,
-      list: [
-        {
-          desctioption: [
-            `Businesses that outsource between 40 and 60% of their service delivery experience growth that is roughly 2.3x faster than that of their peers.`,
-          ],
-        },
-        {
-          desctioption: [
-            `According to surveys, agencies that use white-label services have a 42% higher client retention rate.`,
-          ],
-        },
-        {
-          desctioption: [
-            `In 2026, the white label market is expected to reach $99.19 billion. This quick growth is a result of growing industry demand for outsourced solutions.`,
-          ],
-        },
-        {
-          desctioption: [
-            `White-label services are part of the global digital marketing market, which is expanding at a 13.1% CAGR.`,
-          ],
-        },
-        {
-          desctioption: [
-            `Using white-label marketing, agencies can expand their service offerings without having to hire full-time employees.`,
-          ],
-        },
-      ],
+      list: [],
     },
 
     whatMkeDeferent: {
       isVisible: false,
       isVariant: '01',
       heading: ``,
+      bgGradient: '',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -8817,7 +8957,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'White Label Reporting',
           description: [
             `Reporting is essential for effective client communication. 
@@ -8827,7 +8967,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Dedicated Account Management',
           description: [
             `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination. 
@@ -8836,7 +8976,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'On-Time Delivery and Structured Timelines',
           description: [
             `Missed deadlines directly impact client trust. 
@@ -8846,7 +8986,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Affordable Pricing Compared to Other Models',
           description: [
             `Hiring and maintaining in-house teams involves fixed costs, training time, and long-term commitments. 
@@ -8855,7 +8995,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Brand Protection and Confidentiality ',
           description: [
             `Brand integrity is critical in white-label partnerships. 
@@ -8865,7 +9005,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Consistency at Scale',
           description: [
             `As agencies grow, maintaining consistent quality across accounts becomes increasingly difficult. 
@@ -8875,7 +9015,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Predictable Resource Planning',
           description: [
             `Hiring in-house teams requires long-term commitments, training cycles, and fixed costs. 
@@ -8885,7 +9025,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Long-Term Partnership Focus',
           description: [
             `Adaired works with agencies looking for sustained growth rather than short-term fulfillment. 
@@ -9102,7 +9242,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'white-label-link-building': {
+  'white-label-link-building-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -9132,31 +9272,35 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/white-label-link-building',
+        canonical: '/services/white-label-link-building-india',
       },
     },
     banner: {
-      code: '07',
+      code: '02',
       isCenter: false,
       isVisible: true,
-      heading: 'Authority with High-Quality Backlinks',
-      subheading: '',
-      subtitle: '',
-      label: 'Build Your Client’s Online',
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'Build Your Client’s Online', color: '#000000', weight: '400' },
+        {
+          text: ' Authority with High-Quality Backlinks',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      width: '70%',
       desc: [
         `Strengthen your clients’ SEO strategy with expert white-label link-building services designed for agencies that want to scale without increasing overhead.`,
         `At Adaired Digital Media, white-label backlinks are built through ethical outreach, high-authority guest posting, and strategic placements that enhance domain authority, improve rankings, 
         and drive measurable organic growth, all under your brand name.`,
       ],
       button: 'Boost My SEO Rankings',
-      width: '20rem',
-      widthLg: '30rem',
       bgImg: whiteLinkBuildingBannerBg,
     },
 
     keyStats: {
       isVisible: true,
-      code: '10',
+      code: '03',
       img: whiteLinkBuildingKeyStatsImg,
       heading: 'Key Stats About White Label Link Building',
       bgColor: '#FB9100',
@@ -9231,7 +9375,7 @@ brand appears in AI summaries and citations.`,
       description: [
         `At Adaired, our best white label SEO link-building services are built to be seamless, scalable, and completely brandable.`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      // bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
       services: [
         {
@@ -9381,6 +9525,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       breakIndex: 3,
+      bgGradient: '',
       heading: `Who Our White Label Link Building Is For`,
       description: [
         `Our white-label link-building services are designed for growth-focused teams that want to deliver powerful SEO results without building an in-house outreach department.`,
@@ -9388,35 +9533,35 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whiteLinkBuildingWhatMkDiffImg_1,
+          img: 'adaired/services/white_label_link_building/adairedWhiteLinkBuild1_xjjuyp.png',
           name: 'SEO Agencies',
           description: [
             `For dedicated SEO agencies, link building is often the most time-consuming and resource-heavy part of the campaign.`,
           ],
         },
         {
-          img: whiteLinkBuildingWhatMkDiffImg_2,
+          img: 'adaired/services/white_label_link_building/adairedWhiteLinkBuild2_hzji5k.png',
           name: 'Digital Marketing Agencies',
           description: [
             `Full-service digital marketing agencies often manage PPC, social media, content marketing, and web development, but building an internal link acquisition team can be complex and costly.`,
           ],
         },
         {
-          img: whiteLinkBuildingWhatMkDiffImg_3,
+          img: 'adaired/services/white_label_link_building/adairedWhiteLinkBuild3_p41wbq.png',
           name: 'Web Design & Development Agencies',
           description: [
             `Many web design and development agencies want to expand into SEO but lack link building expertise.`,
           ],
         },
         {
-          img: whiteLinkBuildingWhatMkDiffImg_4,
+          img: 'adaired/services/white_label_link_building/adairedWhiteLinkBuild5_a55yha.png',
           name: 'Freelance SEO Consultants',
           description: [
             `Independent consultants often handle strategy and technical SEO but may not have the time or systems to manage manual outreach campaigns.`,
           ],
         },
         {
-          img: whiteLinkBuildingWhatMkDiffImg_5,
+          img: 'adaired/services/white_label_link_building/adairedWhiteLinkBuild4_xbsaao.png',
           name: 'SaaS Marketing Teams',
           description: [
             `For SaaS companies, authority and trust signals are essential in competitive markets. We align link acquisition with product-led growth strategies to support long-term visibility and lead generation.`,
@@ -10023,7 +10168,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'saas-seo-india': {
+  'saas-seo-agency': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -10057,20 +10202,29 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '07',
+      code: '02',
       isCenter: false,
       isVisible: true,
-      heading: 'Scalable Growth',
-      subheading: '',
-      subtitle: '',
-      label: 'SaaS SEO Services That Drive',
+      breakIndex: 4,
+      isStyleHeading: true,
+      headingParts: [
+        {
+          text: 'SaaS SEO Services That Drive',
+          color: '#000000',
+          weight: '400',
+        },
+        {
+          text: ' Scalable Growth',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
       desc: [
         `Stop chasing traffic that doesn’t convert. 
         We build SaaS SEO systems that generate qualified demos, lower CAC, and turn organic search into a predictable revenue channel.`,
       ],
       button: 'Book a 30-Minute Strategy Call',
-      width: '20rem',
-      widthLg: '30rem',
+      width: '65%',
       bgImg: saasSeoBannerBg,
     },
 
@@ -10235,7 +10389,7 @@ brand appears in AI summaries and citations.`,
       description: [
         `We don’t guess. We build structured, revenue-aligned SEO systems designed specifically for SaaS growth.`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#ffffff] via-[#FFF9F2] to-[#FFF8f0]',
 
       services: [
         {
@@ -10290,7 +10444,6 @@ brand appears in AI summaries and citations.`,
             `SEO is not a one-time campaign; it’s a long-term growth engine. Once initial traction is achieved, we shift from foundation-building to aggressive expansion and compounding scale.`,
             `We aim to expand into high-intent keyword clusters, target adjacent industries, launch advanced use-case pages, scale competitor content, 
             optimize underperforming pages for conversions, and leverage data insights to focus on revenue-driving topics.`,
-            `We continuously refine strategy based on performance metrics, search behavior shifts, and market trends, ensuring your SaaS keeps growing even as competition increases.`,
           ],
         },
       ],
@@ -10372,11 +10525,12 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       isInCenter: true,
       bgColor: true,
+      bgGradient: '',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
         {
-          img: saasSeoWhatMkDiffImg_1,
+          img: 'adaired/services/saas_seo/saasSeoWhatMkDiffImg_1_me0vkq.png',
           name: 'SaaS-Only Focus',
           description: [
             `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
@@ -10386,7 +10540,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_2,
+          img: 'adaired/services/saas_seo/saasSeoWhatMkDiffImg_2_b4yzt8.png',
           name: 'Revenue-First Strategy',
           description: [
             `Traffic alone doesn’t grow a SaaS company; revenue does. 
@@ -10396,7 +10550,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_3,
+          img: 'adaired/services/saas_seo/saasSeoWhatMkDiffImg_3_el0oex.png',
           name: 'No Generic SEO Playbooks',
           description: [
             `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
@@ -10405,7 +10559,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_4,
+          img: 'adaired/services/saas_seo/saasSeoWhatMkDiffImg_4_hpahqn.png',
           name: 'Deep Competitor Targeting',
           description: [
             `In B2B SaaS, buyers actively compare alternatives before making decisions. 
@@ -10415,7 +10569,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_5,
+          img: 'adaired/services/saas_seo/saasSeoWhatMkDiffImg_5_u2tvzw.png',
           name: 'Full-Funnel Execution',
           description: [
             `Organic growth doesn’t happen at a single stage of the buyer journey. 
@@ -10425,7 +10579,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_6,
+          img: 'adaired/services/saas_seo/saasSeoWhatMkDiffImg_6_szpceg.png',
           name: 'Built for Scale',
           description: [
             `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
@@ -10535,39 +10689,12 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: false,
-      code: '10',
-      img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Key Stats About White Label Link Building',
-      bgColor: '#FB9100',
+      code: '01',
+      img: '',
+      heading: '',
       isImgBg: true,
       isCard: false,
-      list: [
-        {
-          desctioption: [
-            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
-          ],
-        },
-        {
-          desctioption: [
-            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
-          ],
-        },
-        {
-          desctioption: [
-            `Over two-thirds (69%) say link building directly drives business growth.`,
-          ],
-        },
-        {
-          desctioption: [
-            `59% predict backlinks will become even more important for rankings.`,
-          ],
-        },
-        {
-          desctioption: [
-            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
-          ],
-        },
-      ],
+      list: [],
     },
 
     dataInTable: {
@@ -10971,7 +11098,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'geo-ai-seo-company-india': {
+  'generative-engine-optimization-india': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -11006,13 +11133,21 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '07',
+      code: '02',
       isCenter: false,
       isVisible: true,
-      heading: 'Visible in AI Search Results',
-      subheading: '',
-      subtitle: '',
-      label: 'Make Your Content More',
+      heading2Color: '#FB9100',
+      isHeadingNormal: true,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'Make Your Content More', color: '#000000', weight: '400' },
+        {
+          text: ' Visible in AI Search Results',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      breakIndex: 3,
       desc: [
         `AI search is the future now. 
         If your brand isn’t appearing on platforms like ChatGPT, Claude, and Gemini, you’re really missing out. And that’s where we jump in!`,
@@ -11020,7 +11155,7 @@ brand appears in AI summaries and citations.`,
         Our expert-driven strategy focuses on high-quality content, authority building, structured data optimization, and AI-ready website architecture.`,
       ],
       button: 'Optimize My Website for AI',
-      width: '20rem',
+      width: '60%',
       widthLg: '30rem',
       bgImg: geoAiSeoBannerBg,
     },
@@ -11238,84 +11373,61 @@ brand appears in AI summaries and citations.`,
       subtitle: 'Our Process',
       title: 'Adaired Digital’s 6-Step Generate Engine Optimization Process',
       breakIndex: 3,
-      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
+      bgGradient: 'bg-gradient-to-b from-[#ffffff] via-[#FFF9F2] to-[#FFF8f0]',
       span: '',
       description: [
-        `At Adaired Digital Media, every step in our process is designed to ensure your brand is clearly understood, 
-        contextually relevant, technically optimized, and positioned as a trusted authority within generative search systems.`,
+        `At Adaired Digital Media, we ensure your brand is relevant, optimized, and positioned as a trusted authority in generative search systems.
+`,
       ],
       services: [
         {
           icon: geoAiSeoProcess_1,
           title: 'AI Visibility Audit',
           description: [
-            `Our process begins with a comprehensive AI visibility and brand intelligence audit. 
-            We evaluate how AI-powered platforms currently interpret your brand, what information is publicly associated with your business, and how clearly your expertise is communicated across digital channels.`,
-            `This includes analyzing website content structure, semantic clarity, entity consistency, technical signals, brand mentions, and contextual authority.`,
-            `We also assess whether your content aligns with conversational search patterns and whether your messaging clearly answers high-intent queries within your industry.`,
-            `This diagnostic phase allows us to identify structural weaknesses, authority gaps, and missed opportunities that may prevent AI systems from confidently citing or recommending your business. 
-            The result is a clear roadmap for transformation.`,
+            `We start with a thorough audit of your AI visibility and brand intelligence, assessing how AI perceives your brand and the information available about your business. This includes analyzing content structure, semantic clarity, entity consistency, brand mentions, and authority.`,
+            `We ensure your content aligns with conversational search patterns and addresses key industry queries. This diagnostic phase uncovers weaknesses and missed opportunities, providing a clear roadmap for transformation.`,
           ],
         },
         {
           icon: geoAiSeoProcess_2,
           title: 'Entity & Authority Structuring',
           description: [
-            `Generative AI engines rely heavily on entity recognition and contextual relationships to determine expertise. 
-            In this stage, we define and strengthen your core brand entities: who you are, what you specialize in, which industries you serve, and which problem areas you own.`,
-            `We build structured topic clusters that reinforce semantic connections across your website and eliminate ambiguity in your positioning.`,
-            `Rather than producing scattered content, we establish topical depth that signals long-term authority. 
-            This structured approach improves how AI models categorize your business within knowledge frameworks and increases the likelihood of being surfaced in relevant responses.`,
-            `Clear entity alignment ensures your brand is not just visible but contextually dominant within your niche.`,
+            `Generative AI engines rely on entity recognition and contextual relationships to evaluate expertise. We focus on defining your core brand entities, your identity, specialization, industries served, and key problems addressed. By creating structured topic clusters, we clarify your positioning and enhance semantic connections on your website.`,
+            `Rather than producing scattered content, we strive for topical depth to build long-term authority. This approach improves how AI models categorize your business, boosts visibility in relevant responses, and positions your brand as a leader in your niche.`,
           ],
         },
         {
           icon: geoAiSeoProcess_3,
           title: 'AI-Optimized Content Architecture',
           description: [
-            `Content must now be designed for both human engagement and AI interpretation. 
-            During this phase, we restructure existing content and develop new resources aligned with generative search behavior.`,
-            `We refine page structure, implement intent-driven answer segments, enhance contextual depth, and ensure clarity in topic hierarchy.`,
-            `Our focus is on producing content that AI systems can easily summarize, extract, and reference. 
-            This includes incorporating structured answer formats, improving semantic relationships between sections, strengthening explanatory depth, and ensuring every page communicates expertise with precision.`,
-            `The objective is to transform your website into a reliable source that AI engines confidently use when generating summaries, comparisons, and recommendations.`,
+            `Content must be designed for both human engagement and AI interpretation. We will restructure existing content and create new resources to align with generative search behavior. This includes refining page structure, implementing intent-driven answers, and enhancing clarity in topic hierarchy.`,
+            `Our goal is to produce content that AI systems can easily summarize and reference, using structured formats and strong semantic relationships. We aim to establish your website as a reliable source for AI engines when generating summaries and recommendations.`,
           ],
         },
         {
           icon: geoAiSeoProcess_4,
           title: 'Technical GEO Optimization',
           description: [
-            `Technical clarity plays a foundational role in AI trust. 
-            Even high-quality content can underperform if the underlying structure does not support machine interpretation.`,
-            `We optimize your website architecture to ensure it is semantically organized, fast-loading, mobile-optimized, and structured with a clean hierarchy and internal linking systems.`,
-            `This stage includes implementing structured data, schema markup, improved crawl paths, optimized metadata, and streamlined content hierarchy. 
-            By improving machine readability and eliminating technical friction, we enhance how AI systems interpret your authority signals and contextual relationships.`,
-            `A technically sound website increases algorithmic confidence and improves your probability of recommendation.`,
+            `Technical clarity is essential for building trust in AI. Even quality content can struggle without a supportive structure. We enhance your website's architecture to ensure it is well-organized, fast, mobile-friendly, and has a clear hierarchy with effective internal linking.`,
+            `This process involves adding structured data, schema markup, and optimizing crawl paths and metadata. By improving machine readability and reducing technical issues, we boost how AI interprets your authority and contextual relevance, which increases your chances of being recommended.`,
           ],
         },
         {
           icon: geoAiSeoProcess_5,
           title: 'Authority Signal Amplification',
           description: [
-            `AI engines do not evaluate your website in isolation. 
-            They assess your broader digital footprint to determine credibility and trustworthiness.`,
-            `We strengthen your authority through strategic digital signal development, including brand mention enhancement, contextual citations, thought leadership positioning, 
-            and ecosystem consistency across platforms.`,
-            `AI engines do not evaluate your website in isolation. 
-            They assess your broader digital footprint to determine credibility and trustworthiness.`,
-            `We strengthen your authority through strategic digital signal development, including brand mention enhancement, contextual citations, thought leadership positioning, 
-            and ecosystem consistency across platforms.`,
+            `AI engines assess your broader digital footprint to determine credibility and trustworthiness. We strengthen your authority through strategic digital signal development, including brand mention enhancement, contextual citations, thought leadership positioning, and ecosystem consistency across platforms.`,
+
+            `By reinforcing your presence beyond your primary website, we help AI systems validate your legitimacy and industry standing. This amplification phase ensures your brand signals are consistent, authoritative, and aligned with the expertise you aim to dominate.`,
           ],
         },
         {
           icon: geoAiSeoProcess_6,
           title: 'Continuous AI Monitoring & Refinement',
           description: [
-            `The generative search landscape evolves rapidly, making ongoing refinement essential. 
-            We continuously monitor how AI platforms respond to your content, how your brand appears in generated outputs, and how conversational search trends shift over time.`,
-            `Using AI-powered analytics and performance evaluation frameworks, we identify changes in citation patterns, visibility opportunities, and emerging demand signals.`,
-            `This allows us to proactively adjust your Generative Engine Optimization strategy to maintain a competitive advantage. 
-            Rather than implementing a static campaign, we develop a dynamic system that evolves alongside AI algorithms and user behavior.`,
+            `The generative search landscape evolves quickly, necessitating ongoing refinement. We monitor AI platform responses to your content, brand visibility, and shifts in conversational search trends. By leveraging AI analytics, we identify changes in citation patterns and emerging demand signals.`,
+
+            `This enables us to adapt your Generative Engine Optimization strategy proactively, maintaining a competitive edge with a dynamic system that evolves with AI algorithms and user behavior.`,
           ],
         },
       ],
@@ -11326,7 +11438,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#FB9100',
+      trColor: '#7259FF',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -11530,11 +11642,12 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       isInCenter: true,
       bgColor: true,
+      bgGradient: '',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
         {
-          img: saasSeoWhatMkDiffImg_1,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'SaaS-Only Focus',
           description: [
             `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
@@ -11544,7 +11657,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_2,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Revenue-First Strategy',
           description: [
             `Traffic alone doesn’t grow a SaaS company; revenue does. 
@@ -11554,7 +11667,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_3,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'No Generic SEO Playbooks',
           description: [
             `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
@@ -11563,7 +11676,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_4,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Deep Competitor Targeting',
           description: [
             `In B2B SaaS, buyers actively compare alternatives before making decisions. 
@@ -11573,7 +11686,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_5,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Full-Funnel Execution',
           description: [
             `Organic growth doesn’t happen at a single stage of the buyer journey. 
@@ -11583,7 +11696,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_6,
+          img: 'adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png',
           name: 'Built for Scale',
           description: [
             `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
@@ -11637,39 +11750,12 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: false,
-      code: '10',
-      img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Key Stats About White Label Link Building',
-      bgColor: '#FB9100',
+      code: '01',
+      img: '',
+      heading: '',
       isImgBg: true,
       isCard: false,
-      list: [
-        {
-          desctioption: [
-            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
-          ],
-        },
-        {
-          desctioption: [
-            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
-          ],
-        },
-        {
-          desctioption: [
-            `Over two-thirds (69%) say link building directly drives business growth.`,
-          ],
-        },
-        {
-          desctioption: [
-            `59% predict backlinks will become even more important for rankings.`,
-          ],
-        },
-        {
-          desctioption: [
-            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
-          ],
-        },
-      ],
+      list: [],
     },
 
     whatIncluded: {
@@ -11959,7 +12045,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'aeo-service-india': {
+  'answer-engine-optimization-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -11989,24 +12075,33 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/aeo-service-india',
+        canonical: '/services/answer-engine-optimization-india',
       },
     },
     banner: {
-      code: '07',
-      isCenter: false,
+      code: '02',
       isVisible: true,
-      heading: 'AI Search Engines',
-      subheading: '',
-      subtitle: '',
-      label: 'Get Found, Trusted, and Cited by',
+      isStyleHeading: true,
+      headingParts: [
+        {
+          text: 'Get Found, Trusted, and Cited by',
+          color: '#000000',
+          weight: '400',
+        },
+        {
+          text: ' AI Search Engines',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      isHeadingNormal: true,
+      breakIndex: 3,
       desc: [
         `Position your brand as a trusted source in AI-powered search results and earn visibility where answers are generated.`,
         ` Using proven Answer Engine Optimization services, Adaired Digital Media helps you structure your content so AI platforms can understand it, trust it, and feature it at the top of the results.`,
       ],
       button: 'Build My AEO Strategy',
-      width: '20rem',
-      widthLg: '30rem',
+      width: '50%',
       bgImg: AeoServiceBannerImg,
     },
 
@@ -12031,11 +12126,6 @@ brand appears in AI summaries and citations.`,
           icon: '',
           desctioption:
             'ChatGPT generates 87.4% of all AI referral traffic sent to external websites. (SE Ranking) ',
-        },
-        {
-          icon: '',
-          desctioption:
-            'Generative AI traffic is expanding 165 times faster than traditional organic search traffic. (Position.digital)',
         },
         {
           icon: '',
@@ -12257,6 +12347,19 @@ brand appears in AI summaries and citations.`,
           btnColor: '#FB9100',
         },
       ],
+      card: [
+        {
+          code: 1,
+          img: ImpToBusinessCradImg,
+          heading: 'Become the Brand',
+          heading1: [`AI Search Engines`, `Trust`],
+          description: [
+            `AI-powered search is already reshaping how customers discover information. The question isn’t whether AI visibility matters; it’s whether your brand will be cited or overlooked.`,
+            `Position your business to be found, trusted, and referenced in AI-generated answers.`,
+          ],
+          buttonName: 'Build My AEO Strategy',
+        },
+      ],
     },
 
     dataInTable: {
@@ -12370,12 +12473,13 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       isVariant: '02',
       heading: `What Sets Our AI Search Strategy Apart`,
+      bgGradient: '',
       description: [
         `AI search optimization requires more than surface-level SEO updates. Our approach is built around long-term authority positioning, technical precision, and strategic clarity, not short-term tactics.`,
       ],
       list: [
         {
-          img: AEOServicewhatMke1,
+          img: 'adaired/services/aeo_service/Img1_i7g6cb.png',
           name: 'Proprietary AEO Framework',
           description: [
             `We don’t apply generic SEO checklists to AI search. Our proprietary framework is designed specifically for answer engine ecosystems. It combines semantic architecture, entity engineering, citation readiness, and authority development into a structured methodology that aligns with how AI systems actually evaluate and extract information.`,
@@ -12383,7 +12487,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: AEOServicewhatMke2,
+          img: 'adaired/services/aeo_service/Img2_omj70c.png',
           name: 'AI Visibility Monitoring',
           description: [
             `Most agencies track rankings. We track citation visibility. Our monitoring systems analyze how and where your brand appears in AI-generated answers, featured summaries, and conversational search experiences.`,
@@ -12877,6 +12981,4350 @@ brand appears in AI summaries and citations.`,
           ],
         },
       ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'mobile-apps-development-india': {
+    sectionsOrder: [
+      'banner',
+      'whatareservice',
+      'whatareservice2',
+      'adairedHelp',
+      'importantToBussiness',
+      'ourProcess',
+      'techStackMobile',
+      'whatMkeDeferent',
+      'buildlinks',
+      'faqData',
+      'keyStats',
+      'dataInTable',
+      'whatMissing',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'benefitofAiSeo',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '02',
+      isVisible: true,
+      isStyleHeading: true,
+      headingParts: [
+        {
+          text: 'Custom iOS & Android',
+          color: '#000000',
+          weight: '700',
+        },
+        {
+          text: ' App Developer',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      // breakIndex: 4,
+      desc: [
+        `Take your brand to your users’ fingertips with high-performance mobile apps designed to increase reach, engagement, and growth.`,
+      ],
+      button: 'Transform Your Website Into an App',
+      width: '50%',
+      bgImg: mobileAppDevBannerBg,
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '12',
+      img: mobileAppDevWhatService,
+      heading: 'What is Mobile App Development?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Mobile app development is the process of designing, building, testing, and deploying software applications 
+          that run on mobile devices such as smartphones and tablets. 
+          These applications are typically developed for platforms like Android and iOS or created using cross-platform frameworks 
+          that allow them to operate across multiple systems.`,
+        },
+        {
+          desctioption: `It involves several stages, including planning the app’s features, designing an intuitive user interface (UI), 
+          developing the functionality through programming, testing for performance and security, and finally launching the app on app stores.`,
+        },
+        {
+          desctioption: `Mobile apps can serve various purposes, such as:`,
+          list: [
+            {
+              description: [`E-commerce and online shopping`],
+            },
+            {
+              description: [`Social networking and communication`],
+            },
+            {
+              description: [`Business management and productivity`],
+            },
+            {
+              description: [`Entertainment and gaming`],
+            },
+            {
+              description: [`Healthcare and education`],
+            },
+          ],
+        },
+        {
+          desctioption: `With the growing use of smartphones worldwide, mobile app development has become essential for businesses looking 
+          to improve customer engagement, increase brand visibility, and create new revenue opportunities.`,
+        },
+      ],
+      button: '',
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 4,
+      img: mobileAppDevAdairedHelpImg,
+      isInCenter: false,
+      bgColor: '#FFFBF5',
+      cardBg: '',
+      heading: `The Importance of Mobile Apps for Growing Companies Now`,
+      description: [
+        `Mobile apps are transforming how growing companies operate, compete, and scale. 
+        At Adaired Digital Media, we believe a well-designed mobile app is not just a digital product; it’s a long-term business asset that drives measurable growth.`,
+        `We work closely with growing brands to build mobile solutions that strengthen their market presence, 
+      improve operational efficiency, and create meaningful customer relationships.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Stronger Brand Recognition & Visibility',
+          description: [
+            `Smartphones are now an essential part of daily life. A mobile app keeps your brand visible on your customers’ home screens. Every interaction builds brand familiarity and trust.`,
+            `We design visually appealing and user-friendly apps that reflect our clients’ brand identity. From logo placement to interface design, we ensure your brand remains memorable and professional.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Personalized Customer Engagement',
+          description: [
+            {
+              desctioption:
+                'Modern customers expect instant communication and personalized experiences. With a mobile app, we help businesses create a direct channel to their audience through:',
+              list: [
+                {
+                  des: ['Custom iPhone and iPad app development'],
+                },
+                {
+                  des: ['Swift-based app development'],
+                },
+                {
+                  des: ['UI/UX design aligned with Apple guidelines'],
+                },
+                {
+                  des: ['App Store submission & deployment support'],
+                },
+                {
+                  des: ['Ongoing maintenance and updates'],
+                },
+              ],
+            },
+            `Unlike social media platforms or email marketing, where algorithms limit reach, mobile apps give us full control over customer engagement. 
+            This ensures consistent brand communication and stronger relationships.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Improved Customer Experience (CX)',
+          description: [
+            {
+              desctioption: `User experience directly impacts customer retention. Mobile apps provide:`,
+              list: [
+                {
+                  des: ['Faster loading speeds than mobile websites'],
+                },
+                {
+                  des: ['Seamless navigation'],
+                },
+                {
+                  des: ['Simplified checkout processes'],
+                },
+                {
+                  des: ['Secure payment integrations'],
+                },
+                {
+                  des: ['Offline accessibility'],
+                },
+              ],
+            },
+            `We focus on intuitive UI/UX design to reduce friction and create smooth user journeys. When customers enjoy using an app, they are more likely to return, increasing lifetime value.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Increased Revenue & Monetization Opportunities',
+          description: [
+            {
+              desctioption: `Mobile apps open multiple revenue streams that traditional platforms cannot fully leverage. We help businesses generate revenue through:`,
+              list: [
+                {
+                  des: ['In-app purchases'],
+                },
+                {
+                  des: ['Subscription models'],
+                },
+                {
+                  des: ['Mobile commerce'],
+                },
+                {
+                  des: ['Advertising opportunities'],
+                },
+                {
+                  des: ['Premium feature upgrades'],
+                },
+              ],
+            },
+            `Additionally, apps make repeat purchases easier, increasing conversion rates and customer retention. 
+            With secure payment integrations and optimized checkout flows, we help maximize sales performance.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Data-Driven Decision Making',
+          description: [
+            {
+              desctioption: `One of the most powerful advantages of mobile apps is access to real-time data. We integrate analytics tools that track:`,
+              list: [
+                {
+                  des: ['User behavior'],
+                },
+                {
+                  des: ['Purchase patterns'],
+                },
+                {
+                  des: ['Feature usage'],
+                },
+                {
+                  des: ['Customer demographics'],
+                },
+                {
+                  des: ['Engagement trends'],
+                },
+              ],
+            },
+            `This data allows companies to make informed decisions, refine marketing strategies, and continuously improve their offerings.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Operational Efficiency & Automation',
+          description: [
+            {
+              desctioption: `Mobile apps are not just customer-facing tools; they can streamline internal operations as well. We develop solutions that:`,
+              list: [
+                {
+                  des: ['Automate appointment bookings'],
+                },
+                {
+                  des: ['Simplify inventory management'],
+                },
+                {
+                  des: ['Improve staff communication'],
+                },
+                {
+                  des: ['Reduce manual paperwork'],
+                },
+                {
+                  des: ['Enhance workflow tracking'],
+                },
+              ],
+            },
+            `By automating processes, companies reduce costs and improve productivity.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Scalability for Future Growth',
+          description: [
+            {
+              desctioption: `As companies grow, their technology must scale with them. At Adaired Digital Media, we build mobile apps with scalable architecture, ensuring:`,
+              list: [
+                {
+                  des: ['Easy feature expansion'],
+                },
+                {
+                  des: ['Integration with third-party systems'],
+                },
+                {
+                  des: ['High performance under increasing traffic'],
+                },
+                {
+                  des: ['Long-term adaptability'],
+                },
+              ],
+            },
+            `Our development approach ensures that the app evolves alongside the business.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Stronger Customer Loyalty & Retention',
+          description: [
+            {
+              desctioption: `Customer acquisition is expensive. Retention is where real growth happens. Mobile apps help businesses build loyalty through:`,
+              list: [
+                {
+                  des: ['Reward programs'],
+                },
+                {
+                  des: ['Exclusive offers'],
+                },
+                {
+                  des: ['Personalized recommendations'],
+                },
+                {
+                  des: ['Faster support response'],
+                },
+              ],
+            },
+            `We focus on creating engaging experiences that keep users coming back.`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      breakIndex: 3,
+      isVariant: '03',
+      cardColor: '#F9F9F9',
+      isCardVisible: true,
+      heading: 'Our Custom Mobile Application Development Services',
+      description: [
+        `We deliver high-performance, scalable, and user-focused mobile application development services tailored to your business goals.`,
+        `Our custom app development services approach ensures every app is secure, future-ready, and aligned with your growth strategy.`,
+      ],
+      buttonName: 'Turn Your Site Into App',
+      data: [
+        {
+          icon: mobileAppDevImpIcon_1,
+          name: 'iOS App Development',
+          description: [
+            `We build premium iOS applications designed for performance, security, and seamless user experience across Apple devices. 
+            Our team of expert mobile app developers develops apps for the iOS ecosystem, including iPhone and iPad.`,
+            {
+              desctioption: 'What we offer:',
+              list: [
+                {
+                  des: ['Custom iPhone and iPad app development'],
+                },
+                {
+                  des: ['Swift-based app development'],
+                },
+                {
+                  des: ['UI/UX design aligned with Apple guidelines'],
+                },
+                {
+                  des: ['App Store submission & deployment support'],
+                },
+                {
+                  des: ['Ongoing maintenance and updates'],
+                },
+              ],
+            },
+            `We focus on building high-quality applications that deliver smooth performance and long-term scalability.`,
+          ],
+          button: 'Turn Your Site Into App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: mobileAppDevImpIcon_2,
+          name: 'Android App Development',
+          description: [
+            `Our Android app development services are built to reach a wide and diverse global audience. We create feature-rich, secure applications optimized for the Android platform.`,
+            {
+              desctioption: 'Our Android services include:',
+              list: [
+                {
+                  des: ['Custom Android application development'],
+                },
+                {
+                  des: ['Kotlin and Java-based programming'],
+                },
+                {
+                  des: ['Responsive UI design for multiple screen sizes'],
+                },
+                {
+                  des: ['Google Play Store deployment'],
+                },
+                {
+                  des: ['Performance optimization and security integration'],
+                },
+              ],
+            },
+            `We ensure your Android app performs consistently across devices while delivering a seamless user experience.`,
+          ],
+          button: 'Turn Your Site Into App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: mobileAppDevImpIcon_3,
+          name: 'Cross-Platform App Development',
+          description: [
+            `To reduce development time and cost while maintaining quality, we offer cross-platform app development solutions using advanced frameworks such as React Native and Flutter.`,
+            {
+              desctioption: 'Benefits of our cross-platform solutions:',
+              list: [
+                {
+                  des: ['Single codebase for multiple platforms'],
+                },
+                {
+                  des: ['Faster time-to-market'],
+                },
+                {
+                  des: ['Cost-effective development'],
+                },
+                {
+                  des: ['Consistent UI/UX across devices'],
+                },
+                {
+                  des: ['Simplified maintenance and updates'],
+                },
+              ],
+            },
+            `We help businesses launch apps efficiently without compromising on performance or design.`,
+          ],
+          button: 'Turn Your Site Into App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: mobileAppDevImpIcon_4,
+          name: 'Wearable App Development',
+          description: [
+            `As wearable technology continues to grow, we develop innovative apps for smart devices such as smartwatches and fitness trackers. 
+            Our wearable app solutions are designed for seamless connectivity and real-time performance.`,
+            {
+              desctioption: 'Our wearable development services include:',
+              list: [
+                {
+                  des: ['Smartwatch app development'],
+                },
+                {
+                  des: ['Fitness and health tracking integrations'],
+                },
+                {
+                  des: ['IoT-enabled wearable solutions'],
+                },
+                {
+                  des: ['Companion apps for mobile synchronization'],
+                },
+              ],
+            },
+            `We ensure your wearable applications are intuitive, lightweight, and optimized for smaller screens while delivering powerful functionality.`,
+          ],
+          button: 'Turn Your Site Into App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: mobileAppDevImpIcon_5,
+          name: 'PWA (Progressive Web App) Development',
+          description: [
+            `Progressive Web Apps combine the best features of web and mobile applications. PWAs provide fast loading times, offline access, 
+            and app-like experiences without requiring full installation from app stores.`,
+            {
+              desctioption: 'Our PWA development services offer:',
+              list: [
+                {
+                  des: ['Responsive design across all devices'],
+                },
+                {
+                  des: ['Offline functionality'],
+                },
+                {
+                  des: ['Push notifications'],
+                },
+                {
+                  des: ['Secure HTTPS implementation'],
+                },
+                {
+                  des: ['Faster performance compared to traditional web apps'],
+                },
+              ],
+            },
+            `PWAs are an ideal solution for businesses looking for cost-effective mobile accessibility with high performance.`,
+          ],
+          button: 'Turn Your Site Into App',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      breakIndex: 3,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      title: 'Our Mobile App Development Process',
+      span: '',
+      description: [
+        `We follow a structured, agile-driven approach to deliver high-performance mobile applications that align with your business goals.`,
+      ],
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
+
+      services: [
+        {
+          icon: mobileAppDevProcess_1,
+          title: 'Discovery & Requirement Analysis',
+          description: [
+            `We start by gaining a deep understanding of your business model, objectives, target audience, and market positioning. 
+            Through collaborative discussions and research, we identify core functionalities, define user personas, and analyze competitors to uncover opportunities.`,
+            `This discovery phase helps us create a clear project roadmap, align expectations, and ensure the app is built around measurable business outcomes rather than assumptions.`,
+          ],
+        },
+        {
+          icon: mobileAppDevProcess_2,
+          title: 'Strategy & Technical Planning',
+          description: [
+            `Once requirements are finalized, we develop a strategic and technical blueprint for your application. 
+            This includes selecting the most suitable technology stack, defining backend architecture, planning API integrations, and establishing security protocols.`,
+            `Our goal is to create a scalable and high-performance foundation that supports future growth, feature expansion, and seamless third-party integrations without technical limitations.`,
+          ],
+        },
+        {
+          icon: mobileAppDevProcess_3,
+          title: 'UI/UX Design',
+          description: [
+            `Our design process focuses on creating an intuitive, engaging, and brand-aligned user experience. 
+            We begin with wireframes and user flow mapping to visualize structure and navigation. 
+            After validation, we design high-fidelity mockups and interactive prototypes that reflect your brand identity while ensuring usability.`,
+            `Every design decision is guided by user behavior insights to maximize engagement, retention, and overall satisfaction.`,
+          ],
+        },
+        {
+          icon: mobileAppDevProcess_4,
+          title: 'Development',
+          description: [
+            `During the development phase, our engineers transform approved designs into a fully functional mobile application. 
+            We follow agile methodology, breaking the project into structured sprints for steady progress and continuous feedback.`,
+            `Whether developing native or cross-platform apps, we prioritize performance optimization, clean coding standards, 
+            and secure architecture to ensure reliability across devices and operating systems.`,
+          ],
+        },
+        {
+          icon: mobileAppDevProcess_5,
+          title: 'Testing & Quality Assurance',
+          description: [
+            `Quality assurance is integrated throughout the development lifecycle. 
+            Our testing process includes functional testing, usability validation, performance benchmarking, and security assessments.`,
+            `We test the application across multiple devices, screen sizes, and operating systems to ensure consistent performance. 
+            This rigorous approach minimizes risks, eliminates bugs, and guarantees a smooth user experience at launch.`,
+          ],
+        },
+        {
+          icon: mobileAppDevProcess_6,
+          title: 'Deployment & Launch',
+          description: [
+            `After successful testing and final approval, we prepare the application for launch. 
+            This includes build optimization, compliance verification with App Store and Google Play guidelines, and submission management.`,
+            `We also assist with store listing optimization to improve visibility and downloads. Our structured deployment process ensures a smooth, hassle-free release.`,
+          ],
+        },
+        {
+          icon: mobileAppDevProcess_7,
+          title: 'Post-Launch Support & Maintenance',
+          description: [
+            `Launching the app is only the beginning of its growth journey. We provide continuous monitoring, performance optimization, 
+            and timely updates to keep the application secure and aligned with evolving platform standards.`,
+            `As user feedback comes in, we implement enhancements and new features to maintain competitiveness and long-term success.`,
+          ],
+        },
+      ],
+    },
+
+    techStackMobile: {
+      isVisible: true,
+      heading: 'Key Stats About White Label Link Building',
+      navItems: [
+        'Frontend Technologies',
+        'Backend Technologies',
+        'Database Management',
+        'Cloud & DevOps',
+        'UI/UX & Prototyping Tools',
+        'API & Integrations',
+      ],
+      mobileNavItems: [
+        'Frontend',
+        'Backend',
+        'Database',
+        'DevOps',
+        'UI/UX',
+        'API & Integrations',
+      ],
+      list: [
+        [
+          {
+            image: mobileAppDevTechStackImg_1,
+            desc: 'Swift (iOS Development)',
+          },
+          {
+            image: mobileAppDevTechStackImg_2,
+            desc: 'Kotlin (Android Development)',
+          },
+          { image: mobileAppDevTechStackImg_3, desc: 'React Native' },
+          { image: mobileAppDevTechStackImg_4, desc: 'Flutter' },
+          { image: mobileAppDevTechStackImg_5, desc: 'Xamarin' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_6, desc: 'Node.js' },
+          { image: mobileAppDevTechStackImg_7, desc: 'Python' },
+          { image: mobileAppDevTechStackImg_8, desc: 'PHP' },
+          { image: mobileAppDevTechStackImg_9, desc: '.NET Core' },
+          { image: mobileAppDevTechStackImg_10, desc: 'Java' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_11, desc: 'MySQL' },
+          { image: mobileAppDevTechStackImg_12, desc: 'PostgreSQL' },
+          { image: mobileAppDevTechStackImg_13, desc: 'MongoDB' },
+          {
+            image: mobileAppDevTechStackImg_14,
+            desc: 'Firebase Realtime Database',
+          },
+          { image: mobileAppDevTechStackImg_15, desc: 'SQLite' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_16, desc: 'AWS' },
+          { image: mobileAppDevTechStackImg_17, desc: 'Microsoft Azure' },
+          { image: mobileAppDevTechStackImg_18, desc: 'Google Cloud Platform' },
+          { image: mobileAppDevTechStackImg_19, desc: 'Docker' },
+          { image: mobileAppDevTechStackImg_20, desc: 'Kubernetes' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_21, desc: 'Figma' },
+          { image: mobileAppDevTechStackImg_22, desc: 'Adobe XD' },
+          { image: mobileAppDevTechStackImg_23, desc: 'Sketch' },
+          { image: mobileAppDevTechStackImg_24, desc: 'InVision' },
+          { image: mobileAppDevTechStackImg_25, desc: 'Ux Pin' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_26, desc: 'RESTful APIs' },
+          { image: mobileAppDevTechStackImg_27, desc: 'GraphQL' },
+          {
+            image: mobileAppDevTechStackImg_28,
+            desc: 'Payment Gateway Integration',
+          },
+          {
+            image: mobileAppDevTechStackImg_29,
+            desc: 'Social Media Integration',
+          },
+          {
+            image: mobileAppDevTechStackImg_30,
+            desc: 'Third-party API Integration',
+          },
+        ],
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '03',
+      breakIndex: 3,
+      isInCenter: true,
+      bgColor: true,
+      bgGradient: 'bg-[#F5F5F5]/40',
+      heading: `Why Choose Us as Your Mobile App Development Firm?`,
+      description: [``],
+      list: [
+        {
+          img: mobileAppDevWhatMkDiffImg_1,
+          name: 'Custom Development Services',
+          description: [
+            `Every application we build is tailored to your business goals, target audience, and industry requirements.`,
+            `From feature planning to UI/UX design and backend architecture, our solutions are strategically crafted to deliver measurable growth, enhanced user engagement, and long-term scalability.`,
+          ],
+        },
+        {
+          img: mobileAppDevWhatMkDiffImg_2,
+          name: 'Agile Development Methodology',
+          description: [
+            `Our agile-driven process ensures flexibility, transparency, and faster time-to-market. By dividing projects into structured sprints, we enable continuous feedback, rapid iterations, and adaptive improvements.`,
+            `This approach minimizes risks, improves collaboration, and ensures your mobile application evolves efficiently throughout the development lifecycle.`,
+          ],
+        },
+        {
+          img: mobileAppDevWhatMkDiffImg_3,
+          name: 'Transparent Pricing',
+          description: [
+            `We maintain complete clarity in project scope, timelines, and cost structure. With detailed proposals and milestone-based delivery plans, you always know where your investment is going.`,
+            `Our transparent pricing model eliminates hidden charges and helps you plan your budget with confidence.`,
+          ],
+        },
+        {
+          img: mobileAppDevWhatMkDiffImg_4,
+          name: 'Structured Cost Evaluation',
+          description: [
+            `To help you estimate your investment upfront, we provide structured cost evaluation guidance based on features, platform choice, complexity, and integrations.`,
+            `This allows you to make informed decisions and align development strategy with your financial planning from the very beginning.`,
+          ],
+        },
+        {
+          img: mobileAppDevWhatMkDiffImg_5,
+          name: 'Proven Track Record',
+          description: [
+            `Our experience across diverse industries has helped businesses launch high-performing mobile applications that drive engagement and revenue.`,
+            `With a strong portfolio, skilled development team, and client-centric approach, we consistently deliver solutions that meet global quality standards and exceed expectations.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '07',
+      breakIndex: 4,
+      bgImg: saasSeoBuildLinkBg,
+      img: mobileAppDevBuildLinkImg,
+      label: '',
+      heading: 'Ready to Build Your Mobile App?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Turn your idea into a powerful, high-performing mobile application with our expert development team. 
+          Whether you need a native iOS app, an Android solution, or a cross-platform application, we deliver scalable and future-ready mobile experiences tailored to your business goals.`,
+        },
+        {
+          desctioption: `Let’s discuss your project, define the right strategy, and bring your vision to life.`,
+        },
+      ],
+      button: 'Get a Free Consultation',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What mobile app development services do you offer?',
+          description: [
+            `We provide end-to-end mobile app development services, including strategy, UI/UX design, native and cross-platform development, testing, deployment, and post-launch maintenance.`,
+          ],
+        },
+        {
+          title: 'Do you develop apps for both Android and iOS?',
+          description: [
+            `Yes, we build native Android and iOS applications as well as cross-platform apps using modern frameworks to ensure optimal performance across devices.`,
+          ],
+        },
+        {
+          title: 'How much does mobile app development cost?',
+          description: [
+            `The cost depends on app complexity, features, design requirements, platform choice, and integrations. We provide customized cost estimates based on your specific project needs.`,
+          ],
+        },
+        {
+          title: 'How long does it take to develop a mobile app?',
+          description: [
+            `Development timelines vary depending on project scope and features. A basic app may take a few weeks, while complex enterprise applications may require several months.`,
+          ],
+        },
+        {
+          title: 'Can I hire dedicated mobile app developers?',
+          description: [
+            `Yes, we offer flexible hiring models that allow you to hire dedicated mobile app developers or a full development team based on your project requirements.`,
+          ],
+        },
+        {
+          title: 'Do you provide post-launch support and maintenance?',
+          description: [
+            `Absolutely. We offer ongoing maintenance, performance monitoring, feature enhancements, and security updates to ensure long-term success.`,
+          ],
+        },
+        {
+          title: 'Do you sign NDAs for project confidentiality?',
+          description: [
+            `Yes. We strictly follow data security and confidentiality protocols and are fully prepared to sign a Non-Disclosure Agreement (NDA) before initiating any project discussions. 
+            Protecting your idea, business data, and intellectual property is our top priority.`,
+          ],
+        },
+        {
+          title: 'Can you upgrade my existing mobile app?',
+          description: [
+            `Yes, we can modernize outdated apps, improve UI/UX, enhance performance, add new features, and migrate apps to newer technologies.`,
+          ],
+        },
+      ],
+    },
+
+    keyStats: {
+      isVisible: false,
+      code: '01',
+      img: '',
+      heading: '',
+      isImgBg: true,
+      isCard: false,
+      list: [],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: true,
+      isBgWhite: true,
+      bgColor: '#FAFAFA',
+      trColor: '#7259FF',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      description: [``],
+      data: [
+        {
+          desctioption: `Feature`,
+          list: [
+            {
+              description: [`AI-First SEO Strategy`],
+            },
+            {
+              description: [`Cross-Platform Optimization`],
+            },
+            {
+              description: [`User Intent Alignment`],
+            },
+            {
+              description: [`Content Creation & Structure`],
+            },
+            {
+              description: [`Scalable & Future-Proof Solutions`],
+            },
+            {
+              description: [`AI-Driven Insights`],
+            },
+          ],
+        },
+        {
+          desctioption: `Adaired Digital Media`,
+          list: [
+            {
+              description: [
+                `We design strategies that are tailored for the evolving AI search landscape.`,
+              ],
+            },
+            {
+              description: [
+                `We optimize for a broad range of AI platforms, ensuring visibility across all channels.`,
+              ],
+            },
+            {
+              description: [
+                `We align your content with evolving user intent, ensuring your brand matches search needs.`,
+              ],
+            },
+            {
+              description: [
+                `We create content that is both AI-readable and contextually aligned with search intent.`,
+              ],
+            },
+            {
+              description: [
+                `Our strategies evolve with changing AI algorithms to keep your brand visible long-term.`,
+              ],
+            },
+            {
+              description: [
+                `We leverage AI tools to continuously optimize and refine your SEO for better performance.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `They`,
+          list: [
+            {
+              description: [
+                `They rely on traditional keyword-based SEO methods that are no longer as effective.`,
+              ],
+            },
+            {
+              description: [
+                `They focus on a limited number of platforms, missing out on AI-driven opportunities elsewhere.`,
+              ],
+            },
+            {
+              description: [
+                `They overlook the nuances of user intent, resulting in less relevant content placement.`,
+              ],
+            },
+            {
+              description: [
+                `They use generic content strategies that don’t cater to AI’s need for clear, structured data.`,
+              ],
+            },
+            {
+              description: [
+                `Their solutions are static and struggle to adapt as AI algorithms continue to change.`,
+              ],
+            },
+            {
+              description: [
+                `They lack the use of AI-driven insights, relying on outdated metrics for optimization.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    whatareservice2: {
+      isVisible: false,
+      isVariant: '11',
+      img: geoAiSeoWhatServiceImg,
+      heading: 'How Generative AI SEO Strengthens Your Visibility',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `Generative AI has fundamentally changed the way search engines interpret content, assess expertise, and deliver results. 
+          Today, visibility is more than just keywords and backlinks; it is about providing the exact signals that AI models use to determine credibility and relevance.`,
+        },
+        {
+          desctioption: `Your website must be AI-friendly, contextually clear, intent-aligned, 
+          and entity-rich so that AI systems can confidently reference, cite, and recommend your brand in answers and summaries.`,
+        },
+        {
+          desctioption: `Our generative engine optimization services India aim to reshape and future-proof your digital presence in this new search landscape. 
+          We evaluate how AI interprets your brand, identify gaps in understanding, and optimize your generative AI search engine optimization strategy, content, 
+          and structure to align with algorithms.`,
+        },
+        {
+          desctioption: `From honing your authority to fortifying your technical foundation, we ensure that every page communicates who you are, 
+          what you offer, and why you're the most trustworthy option for the search intent you want to dominate.`,
+        },
+        {
+          desctioption: `We align your brand with the specific variables that influence AI-generated results using strategic optimization, content writing, 
+          and AI-driven insights, enabling you to become an algorithm that trusts, recommends, and elevates.`,
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '#FFFCF8',
+      isInCenter: true,
+      isVariant: '02',
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
+      description: [`The data is clear: SEO is not optional for SaaS growth.`],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'gmb-optimization-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'whatareservice2',
+      'importantToBussiness',
+      'adairedHelp',
+      'ourProcess',
+      'faqData',
+      'dataInTable',
+      'buildlinks',
+      'whatMkeDeferent',
+      'whatMissing',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'benefitofAiSeo',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: true,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'From Invisible to', color: '#000000', weight: '400' },
+        {
+          text: ' #1 on Google Maps ',
+          color: '#FB9100',
+          weight: '700',
+        },
+        {
+          text: 'Get Seen by Local Customers',
+          color: '#000000',
+          weight: '400',
+        },
+      ],
+      breakIndex: 6,
+      desc: [
+        `Show up first when customers search for your services and turn your Google Business Profile into a stream of calls and leads into real sales.`,
+      ],
+      button: 'Boost My Visibility Today',
+      width: '60%',
+      widthLg: '30rem',
+      bgImg: gbplocalSeoBannerBg,
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '01',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Why Should You Rank #1 on Google Maps?',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          icon: KeyStatsIcon1,
+          desctioption: [
+            `Google Business Profile signals account for 32% of local pack ranking factors, making them the most influential element for ranking on Google Maps. (Whitespark)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon2,
+          desctioption: [
+            `97% of consumers read reviews when researching local businesses, making reputation a critical factor in customer decisions. (BrightLocal)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon3,
+          desctioption: [
+            `64% of consumers use Google Business Profiles to quickly find key business contact details like phone numbers, addresses, and emails. (BrightLocal)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon4,
+          desctioption: [
+            `69% of users check opening hours on Google Business Profiles, making it the most used feature, followed by directions and reviews. (BrightLocal)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon5,
+          desctioption: [
+            `76% of marketers consider Google Business Profile management the most valuable local SEO service for improving local visibility. (BrightLocal)`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '07',
+      breakIndex: 5,
+      img: WhatAreServiceGMB,
+      heading: 'What is Google Business Profile Optimization?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Google Business Profile optimization, previously known as GMB (Google My Business) optimization, is the strategic process of improving and fine-tuning your business listing. 
+          The goal is to increase your visibility and engagement on Google Search and Google Maps. This involves a series of actions designed to ensure that your profile is fully completed and accurately represents your business.`,
+        },
+        {
+          desctioption: `Key components of GBP optimization include ensuring that your business name, address, and phone number (NAP) are consistent and accurate across all online platforms, selecting the most relevant business categories, and including high-quality images that effectively showcase your products or services.
+           Additionally, it entails crafting a compelling business description that highlights your unique selling points and offerings.`,
+        },
+        {
+          desctioption: `Regularly updating your profile with posts about promotions, events, and other relevant news can also engage potential customers. Encouraging and responding to customer reviews is crucial for building credibility and maintaining a positive reputation.
+           Utilizing features such as business hours, appointment links, and FAQs will further enhance the user experience.`,
+        },
+        {
+          desctioption: `Overall, effective GBP optimization services​ not only boost local SEO rankings but also help attract more customers by making it easier for them to find and connect with your business online`,
+        },
+      ],
+      button: '',
+    },
+
+    whatareservice2: {
+      isVisible: true,
+      isVariant: '11',
+      breakIndex: 5,
+      img: WhatAreServiceGMB2,
+      heading: 'Why Your Business Needs GBP Optimization',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `In the digital era, having a strong online presence is crucial for any business aiming to attract and retain customers. One of the most effective ways to enhance your visibility is through Google Business Profile optimization. `,
+        },
+        {
+          desctioption: `By fine-tuning your GBP, you ensure that potential customers can easily find accurate information about your business, including your location, hours of operation, services, and even customer reviews.`,
+        },
+        {
+          desctioption: `Optimizing your GBP also plays a significant role in local search engine optimization (SEO). When your business profile is well-crafted, it can improve your rankings on search engine results pages, particularly for local searches related to the products or services you offer.
+           This means that when potential customers search for businesses like yours in their vicinity, your optimized profile is more likely to appear at the top of the search results.`,
+        },
+        {
+          desctioption: `Furthermore, a well-optimized GBP enhances your credibility.
+           When users see a complete and professional profile, complete with images, updated information, and positive reviews, they are more likely to trust your business over competitors with less informative profiles.`,
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: true,
+      isCardVisible: true,
+      breakIndex: 5,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading:
+        'Unlock Your Potential with Top-Notch GBP Optimization Services!',
+      description: [``],
+      buttonName: 'Optimize My Website for AI',
+      data: [
+        {
+          icon: icon_1,
+          name: 'Profile Setup & Verification',
+          description: [
+            `A properly set up and verified Google Business Profile is the foundation of strong local visibility. Our team handles the entire setup process, ensuring that your business is correctly listed on Google with accurate details and professional formatting. `,
+            `We also guide and manage the verification process through Google’s approved methods, such as postcard, phone, or video verification. Once verified, your profile gains credibility and becomes eligible to appear in local search results and Google Maps listings.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_2,
+          name: 'Google Maps Ranking Tracking',
+          description: [
+            `Understanding how your business ranks in different areas of your city is critical for GMB SEO success. We use advanced geo-grid and heatmap tracking tools to monitor your visibility across neighborhoods and key service areas. `,
+            `This allows us to identify locations where your business ranks strongly and areas where visibility may be weak. With this data-driven approach, we refine optimization strategies to improve your rankings across a wider geographic range.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_3,
+          name: 'Keyword & Category Optimization',
+          description: [
+            `Choosing the right business categories and integrating relevant keywords can significantly improve your chances of appearing in local search results. Our GBP optimization service experts conduct in-depth keyword research to identify high-intent search terms that customers in your area are using. `,
+            `We then optimize your business description, services, and categories with these keywords to increase your visibility when potential customers search for related services on Google.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_4,
+          name: 'Review & Reputation Management',
+          description: [
+            `Customer reviews have a powerful influence on both search rankings and customer trust. Our review management strategy focuses on helping you generate more authentic customer feedback while maintaining a professional reputation online. `,
+            `We assist in creating review acquisition strategies and craft thoughtful responses to both positive and negative reviews. This approach strengthens your credibility and demonstrates your commitment to customer satisfaction.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_5,
+          name: 'Google Posts & Content Updates',
+          description: [
+            `Google rewards active and regularly updated business profiles. Our team creates engaging Google Posts that highlight business updates, promotions, offers, events, or announcements. `,
+            `These posts keep your profile active and provide valuable information to potential customers browsing your listing. Consistent posting also signals to Google that your business is active and relevant, which can positively influence your local search visibility.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_6,
+          name: 'Photo & Video Optimization',
+          description: [
+            `Visual content plays a major role in attracting customers and building trust. Businesses with high-quality photos and videos often receive more engagement and clicks compared to those without visuals. `,
+            `We optimize and upload professional images of your business location, interior, exterior, products, services, and team members.`,
+            `These visuals help customers better understand your brand while improving engagement with your profile.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_7,
+          name: 'Q&A Section Optimization',
+          description: [
+            `The Questions & Answers section on your Google Business Profile is often overlooked, yet it can significantly influence customer decisions.`,
+            `We proactively add commonly asked questions and provide helpful answers that address typical customer concerns.`,
+            `This not only saves time for your business but also ensures that accurate information is available to potential customers before they contact you.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_8,
+          name: 'Listing Monitoring & Protection',
+          description: [
+            `Unauthorized edits or competitor interference can sometimes change important details on your business listing. Our monitoring system continuously checks your profile for any suspicious or incorrect updates.`,
+            `If changes occur, we quickly correct them to maintain the accuracy of your listing.`,
+            `This proactive protection ensures that your business information remains reliable and trustworthy for customers searching on Google.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_9,
+          name: 'Performance Analytics & Reporting',
+          description: [
+            `Understanding how customers interact with your Google Business Profile is essential for measuring success. We provide detailed performance reports that track key customer actions such as phone calls, direction requests, website clicks, and profile views. `,
+            `These insights help you clearly see the impact of optimization efforts and understand how your listing contributes to generating new leads and customers.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+      ],
+      card: [
+        {
+          code: 2,
+          img: ImpToBusinessCradImg,
+          heading: 'Boost Your Visibility on',
+          heading1: [`Google Maps`],
+          description: [
+            `Take the next step toward stronger local visibility and more customer inquiries. `,
+            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`,
+          ],
+          buttonName: 'Optimize My Website for AI',
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 5,
+      img: AdairedHelpgmb,
+      isInCenter: false,
+      bgColor: 'bg-gradient-to-b from-[#FFFEFB] to-[#FFF7EB]',
+      cardBg: '',
+      heading: `Top Reasons to Select GBP Optimization Services from Adaired Digital`,
+      description: [
+        `Here are some of the primary reasons why you should choose Adaired Digital’s Google business optimization services:`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Proven Local SEO Expertise',
+          description: [
+            `At Adaired Digital, our team specializes in local SEO strategies designed specifically for Google Business Profiles.`,
+            ` We stay updated with Google’s latest algorithm changes and best practices to ensure your business profile remains optimized, compliant, and competitive in local search results.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Customized Optimization Strategy',
+          description: [
+            `No two businesses are the same, which is why we don’t rely on generic optimization methods. `,
+            `We analyze your industry, service area, competitors, and target customers to develop a customized GBP optimization strategy that helps your business stand out in local searches.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Stronger Visibility on Google Search and Maps',
+          description: [
+            `A properly optimized Google Business Profile can significantly improve your chances of appearing in the local pack and Google Maps results.`,
+            `Our team focuses on optimizing your business categories, services, keywords, and profile content so that your business appears when potential customers search for related services in your area.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Complete Profile Optimization',
+          description: [
+            `We optimize every element of your profile, including your business description, services, categories, images, and contact information.`,
+            `By improving these details within our GMB optimization services​, we ensure your listing is both search-engine-friendly and appealing to potential customers.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Reputation and Review Management',
+          description: [
+            `Customer reviews play an important role in influencing both search rankings and buying decisions. `,
+            `Our team helps you develop strategies to encourage genuine customer reviews and guides responding professionally to both positive and negative feedback.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Consistent Profile Activity and Updates',
+          description: [
+            `An active profile sends strong signals to Google that your business is reliable and relevant. `,
+            `We regularly publish Google Posts, updates, and promotional content to keep your listing fresh, informative, and engaging for potential customers.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Data-Driven Optimization Approach',
+          description: [
+            `We rely on research, performance tracking, and local keyword analysis to make informed optimization decisions. `,
+            `This data-driven approach helps improve your profile’s performance and ensures your business continues to grow its visibility over time.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Clear Performance Reporting',
+          description: [
+            `Transparency is a key part of our service. We provide regular reports showing important metrics such as profile views, customer interactions, phone calls, and direction requests. `,
+            `These insights help you understand how your Google Business Profile contributes to your business growth.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Ongoing Support and Monitoring',
+          description: [
+            `Our work doesn’t stop after optimization. We continuously monitor your listing for performance improvements, profile updates, and potential issues. `,
+            `This proactive GMB management service ensures your business profile stays optimized and protected from unauthorized changes.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Focused on Real Business Results',
+          description: [
+            `Ultimately, our goal is to help your business attract more local customers.`,
+            ` By improving your visibility on Google Maps and local search results, we help convert online searches into real calls, visits, and sales for your business.`,
+          ],
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      title: 'Our Google Business Profile Optimization Process',
+      breakIndex: 4,
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
+      span: '',
+      description: [``],
+      services: [
+        {
+          icon: icon1,
+          title: 'Business Profile Audit',
+          description: [
+            `We begin by conducting a comprehensive audit of your existing Google My Business Profile. This includes analyzing your current rankings, profile completeness, business information, categories, images, and customer reviews. `,
+            `The audit helps us identify areas that need improvement and opportunities to enhance your profile’s performance.`,
+          ],
+        },
+        {
+          icon: icon2,
+          title: 'Profile Setup or Verification',
+          description: [
+            `If your business does not yet have a fully verified profile, we assist with the complete setup and verification process.`,
+            `This ensures that your business is officially recognized by Google and eligible to appear in local search results and Google Maps listings.`,
+          ],
+        },
+        {
+          icon: icon3,
+          title: 'Keyword and Category Research',
+          description: [
+            `Our team performs detailed keyword research to identify the most relevant and high-intent search terms used by customers in your area.`,
+            `We also analyze your competitors to determine the best primary and secondary business categories for improved local rankings.`,
+          ],
+        },
+        {
+          icon: icon4,
+          title: 'Profile Optimization',
+          description: [
+            `Next, we optimize every important component of your Google Business Profile. `,
+            `This includes writing a keyword-optimized business description, adding detailed services and products, selecting the right categories, and ensuring your business information is accurate and consistent.`,
+          ],
+        },
+        {
+          icon: icon5,
+          title: 'Visual and Content Enhancement',
+          description: [
+            `We enhance your profile with high-quality images, videos, and engaging content that showcase your business.`,
+            `Visual content helps attract more attention from potential customers and improves overall engagement with your listing.`,
+          ],
+        },
+        {
+          icon: icon6,
+          title: 'Review and Reputation Strategy',
+          description: [
+            `Customer reviews are a critical factor in both rankings and customer trust.`,
+            `We help you implement a review strategy that encourages genuine customer feedback and guide you on responding professionally to build a strong online reputation.`,
+          ],
+        },
+        {
+          icon: icon7,
+          title: 'Ongoing Monitoring and Updates',
+          description: [
+            `Optimization is not a one-time task. We continuously monitor your profile’s performance, publish updates through Google Posts, and make improvements to maintain strong visibility and engagement.`,
+          ],
+        },
+      ],
+    },
+
+    faqData: {
+      isVisible: true,
+      bgColor: 'bg-[#FAFAFA]',
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What is Google Business Profile optimization?',
+          description: [
+            `Google Business Profile optimization is the process of improving and managing your business listing on Google to increase its visibility in local search results and Google Maps.`,
+            `This includes optimizing business information, categories, keywords, images, reviews, and posts to attract more local customers.`,
+          ],
+        },
+        {
+          title:
+            'Why is Google Business Profile important for local businesses?',
+          description: [
+            `Your Google Business Profile is often the first place potential customers discover your business online.`,
+            `A well-optimized profile helps your business appear in local searches, builds credibility through reviews, and makes it easier for customers to contact or visit your business.`,
+          ],
+        },
+        {
+          title: 'How long does it take to see results from GBP optimization?',
+          description: [
+            `Results can vary depending on your industry, competition, and the current state of your profile.`,
+            `Many businesses begin noticing improvements in visibility, engagement, and customer interactions within a few weeks of consistent optimization and updates.`,
+          ],
+        },
+        {
+          title:
+            'Can Google Business Profile optimization improve my Google Maps ranking?',
+          description: [
+            `Yes, proper optimization can significantly improve your chances of appearing higher in Google Maps results.`,
+            `Factors such as accurate business information, relevant categories, customer reviews, and consistent updates all contribute to better local rankings.`,
+          ],
+        },
+        {
+          title:
+            'Do I need a physical location to create a Google Business Profile?',
+          description: [
+            `Not necessarily. Service-area businesses can also create Google Business Profiles without displaying a physical storefront address. Instead, they can specify the areas they serve.`,
+          ],
+        },
+        {
+          title:
+            'How important are customer reviews for Google Business Profiles?',
+          description: [
+            `Customer reviews are extremely important because they influence both search rankings and customer trust.`,
+            `Businesses with more positive and recent reviews often attract more clicks, calls, and visits.`,
+          ],
+        },
+        {
+          title: 'Can I update my Google Business Profile regularly?',
+          description: [
+            `Yes, updating your profile with posts, photos, offers, and business updates helps keep your listing active.`,
+            `Regular activity signals to Google that your business is engaged and relevant to customers.`,
+          ],
+        },
+        {
+          title:
+            'How can Adaired Digital help with Google Business Profile optimization?',
+          description: [
+            `Adaired Digital provides comprehensive GBP optimization services, including profile setup, keyword optimization, review management, content updates, and performance tracking.`,
+            `Our goal is to help your business rank higher on Google Maps and attract more local customers.`,
+          ],
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: true,
+      isBgWhite: true,
+      bgColor: '#FAFAFA',
+      trColor: '#FB9100',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      description: [``],
+      data: [
+        {
+          desctioption: `Feature`,
+          list: [
+            {
+              description: [`AI-First SEO Strategy`],
+            },
+            {
+              description: [`Cross-Platform Optimization`],
+            },
+            {
+              description: [`User Intent Alignment`],
+            },
+            {
+              description: [`Content Creation & Structure`],
+            },
+            {
+              description: [`Scalable & Future-Proof Solutions`],
+            },
+            {
+              description: [`AI-Driven Insights`],
+            },
+          ],
+        },
+        {
+          desctioption: `Adaired Digital Media`,
+          list: [
+            {
+              description: [
+                `We design strategies that are tailored for the evolving AI search landscape.`,
+              ],
+            },
+            {
+              description: [
+                `We optimize for a broad range of AI platforms, ensuring visibility across all channels.`,
+              ],
+            },
+            {
+              description: [
+                `We align your content with evolving user intent, ensuring your brand matches search needs.`,
+              ],
+            },
+            {
+              description: [
+                `We create content that is both AI-readable and contextually aligned with search intent.`,
+              ],
+            },
+            {
+              description: [
+                `Our strategies evolve with changing AI algorithms to keep your brand visible long-term.`,
+              ],
+            },
+            {
+              description: [
+                `We leverage AI tools to continuously optimize and refine your SEO for better performance.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `They`,
+          list: [
+            {
+              description: [
+                `They rely on traditional keyword-based SEO methods that are no longer as effective.`,
+              ],
+            },
+            {
+              description: [
+                `They focus on a limited number of platforms, missing out on AI-driven opportunities elsewhere.`,
+              ],
+            },
+            {
+              description: [
+                `They overlook the nuances of user intent, resulting in less relevant content placement.`,
+              ],
+            },
+            {
+              description: [
+                `They use generic content strategies that don’t cater to AI’s need for clear, structured data.`,
+              ],
+            },
+            {
+              description: [
+                `Their solutions are static and struggle to adapt as AI algorithms continue to change.`,
+              ],
+            },
+            {
+              description: [
+                `They lack the use of AI-driven insights, relying on outdated metrics for optimization.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: false,
+      isCode01: true,
+      isVariant: '06',
+      breakIndex: 3,
+      bgImg: saasSeoBuildLinkBg,
+      img: geoAiSeoBuildLinkImg,
+      label: 'Ready to',
+      heading: 'Dominate AI Search?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `AI-powered search platforms are already influencing how customers discover, evaluate, and choose businesses. 
+          If your brand is not structured for generative search engines, you risk losing visibility to competitors who adapt faster.`,
+        },
+        {
+          desctioption: `Our Generative Engine Optimization services are designed to position your business where modern discovery happens, inside AI-generated answers, summaries, and recommendations.`,
+        },
+        {
+          desctioption: `The future of search is not about rankings alone. It is about recognition, authority, and recommendation. Take the next step toward AI visibility.`,
+        },
+      ],
+      button: 'Optimize My Website for AI',
+    },
+
+    whatMkeDeferent: {
+      isVisible: false,
+      isVariant: '01',
+      breakIndex: 3,
+      isInCenter: true,
+      bgColor: true,
+      bgGradient: '',
+      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
+      description: [``],
+      list: [
+        {
+          img: saasSeoMissing_1,
+          name: 'SaaS-Only Focus',
+          description: [
+            `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
+            SaaS growth is driven by subscription economics, long-term retention, product adoption, and expansion revenue. 
+            We understand the nuances of CAC, LTV, churn sensitivity, pipeline velocity, and product-led growth models. 
+            Because SaaS is all we do, our strategies are built around how subscription businesses actually scale, not around outdated SEO tactics designed for one-time purchases.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Revenue-First Strategy',
+          description: [
+            `Traffic alone doesn’t grow a SaaS company; revenue does. 
+            Every keyword we target, every page we optimize, and every content asset we build is aligned with measurable business outcomes. 
+            We map search intent to funnel stages and revenue potential, ensuring your organic growth translates into demo requests, trial signups, and a qualified pipeline. 
+            Instead of chasing high-volume vanity terms, we prioritize high-intent opportunities that directly influence recurring revenue and long-term customer value.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'No Generic SEO Playbooks',
+          description: [
+            `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
+            We don’t believe in one-size-fits-all SEO. Your growth strategy is built specifically around your product positioning, ideal customer profile, category maturity, and competitive landscape. 
+            Whether you're defining a new category or competing in a saturated one, we design a framework that reflects your unique strengths and market realities, not a recycled checklist.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Deep Competitor Targeting',
+          description: [
+            `In B2B SaaS, buyers actively compare alternatives before making decisions. 
+            We leverage this behavior strategically. 
+            Our approach includes detailed competitor gap analysis, alternative positioning pages, comparison content, and high-intent keyword targeting designed to intercept prospects at the evaluation stage. 
+            By identifying where competitors dominate and where they leave opportunities open, we position your brand directly in the path of decision-ready buyers.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Full-Funnel Execution',
+          description: [
+            `Organic growth doesn’t happen at a single stage of the buyer journey. 
+            We build comprehensive SEO ecosystems that support awareness, consideration, evaluation, and decision-making. 
+            From problem-focused educational content to integration pages, use-case assets, and bottom-of-funnel comparison pages, every piece works together to create a cohesive search presence. 
+            The result is not fragmented traffic but a structured acquisition engine that consistently feeds your sales pipeline.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Built for Scale',
+          description: [
+            `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
+            Your SEO strategy should evolve with you. 
+            We design scalable frameworks that expand into new keyword clusters, industries, and high-value opportunities as your company grows. 
+            Instead of short-term ranking wins, we focus on building a long-term organic growth asset that compounds over time and strengthens your competitive position year after year.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '#FFFCF8',
+      isInCenter: true,
+      isVariant: '02',
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
+      description: [`The data is clear: SEO is not optional for SaaS growth.`],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'gmb-website-seo-india': {
+    sectionsOrder: [
+      'banner',
+      'serviceResult',
+      'dataInTable',
+      'importantToBussiness',
+      'ourProcess',
+      'adairedHelp',
+      'buildlinks',
+      'faqData',
+      'whatareservice',
+      'whatareservice2',
+      'keyStats',
+      'whatMkeDeferent',
+      'whatMissing',
+      'whatIncluded',
+      'needofservice',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'benefitofAiSeo',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: false,
+      isStyleHeading: true,
+      subtitle: 'Complete Local SEO',
+      headingParts: [
+        { text: 'Google Business Profile +', color: '#000000', weight: '400' },
+        {
+          text: 'Website Optimization',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      breakIndex: 6,
+      desc: [
+        `Increase your presence across Google Maps and local search to stay ahead of competitors and attract more customers actively searching for your services.`,
+        `By optimizing both your Google Business Profile and website, we help your business appear where local customers are actively searching for services like yours.`,
+      ],
+      button: 'Get a Free Local SEO Audit',
+      width: '60%',
+      widthLg: '30rem',
+      bgImg: gmbWebsitelocalSeoBannerBg,
+    },
+
+    serviceResult: {
+      isVisible: true,
+      breakIndex: 4,
+      bgColor: false,
+      isInCenter: true,
+      heading: 'How Google Maps & Local Search Rankings Work',
+      isVariant: '01',
+      description: [
+        `Understanding how local search rankings work is essential for any business that wants to improve its online visibility. When customers search for services near them, Google uses several factors to determine which businesses appear in the local results and the Google Maps “Map Pack.”`,
+        `These factors help Google decide which businesses are the most relevant and trustworthy for a particular search query.`
+      ],
+      isBgColor: false,
+      img: gmbWebsiteServiceResultImg,
+      list: [
+        {
+          img: null,
+          name: '1. Relevance',
+          description: [
+            `Relevance refers to how closely a business matches what a user is searching for. Google analyzes the information in your Google Business Profile and website content to determine whether your business offers the services being searched.`,
+            `This is why accurate categories, service descriptions, and well-optimized website content are extremely important. Businesses that clearly communicate their services and target keywords tend to rank higher in local searches.`
+          ],
+        },
+        {
+          img: null,
+          name: '2. Distance',
+          description: [
+            `Distance plays a major role in local search results. Google tries to display businesses that are closest to the user’s location or the location specified in the search query.`,
+            `While businesses cannot change their physical location to influence rankings, they can improve visibility by clearly defining their service areas and optimizing location-related content on their website.`
+          ],
+        },
+        {
+          img: null,
+          name: '3. Prominence',
+          description: [
+            `IProminence refers to the overall reputation and authority of a business online. Google evaluates factors such as customer reviews, backlinks, business mentions, directory listings, and overall online presence to determine how well-known and trustworthy a business is. Companies with strong online reputations and consistent information across platforms often achieve better local search visibility.`,
+            `When these factors are properly optimized through both Google Business Profile and website SEO, businesses significantly improve their chances of appearing in local search results and attracting nearby customers.`
+          ],
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: true,
+      isInCenter: true,
+      isBgWhite: true,
+      bgColor: '#FFFCF7',
+      trColor: '#FB9100',
+      rowColor: 'bg-[#FFF6EB]',
+      isVariant: '01',
+      heading: 'The Importance of Google Maps & Website Optimization',
+      description: [``],
+      data: [
+        {
+          desctioption: `Google Maps`,
+          list: [
+            {
+              description: [
+                `Helps businesses appear in local search results.`,
+              ],
+            },
+            {
+              description: [
+                `Provides accurate location, directions, and contact details to customers.`,
+              ],
+            },
+            {
+              description: [
+                `Makes it easier for nearby customers to discover your business.`,
+              ],
+            },
+            {
+              description: [
+                `Increases visibility for local searches like “near me” queries.`,
+              ],
+            },
+            {
+              description: [
+                `Encourages customer engagement through reviews, ratings, and photos.`,
+              ],
+            },
+            {
+              description: [
+                `Helps small businesses attract local foot traffic and potential clients.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `Website Optimization`,
+          list: [
+            {
+              description: [
+                `Improves your website’s ranking on search engines.`,
+              ],
+            },
+            {
+              description: [
+                `Uses relevant keywords to attract the right audience.`,
+              ],
+            },
+            {
+              description: [
+                `Enhances website structure and content quality.`,
+              ],
+            },
+            {
+              description: [
+                `Optimizes images and media for faster loading.`,
+              ],
+            },
+            {
+              description: [
+                `Ensures mobile-friendly design for smartphone users.`,
+              ],
+            },
+            {
+              description: [
+                `Improves page speed, which enhances user experience.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `Combined Impact`,
+          list: [
+            {
+              description: [
+                `Increases overall online visibility and brand presence.`,
+              ],
+            },
+            {
+              description: [
+                `Helps businesses reach more potential customers.`,
+              ],
+            },
+            {
+              description: [
+                `Improves customer engagement and trust.`,
+              ],
+            },
+            {
+              description: [
+                `Leads to higher conversions, more sales, and business growth.`,
+              ],
+            },
+            {
+              description: [
+                `An essential strategy to stay competitive in the digital market.`,
+              ],
+            },
+            {
+              description: [
+                `Reach more local customers.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      isCardVisible: true,
+      breakIndex: 2,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading:'Key Services Included in Our Local SEO Solution',
+      description: [
+        `Our complete local SEO solution focuses on improving your business's visibility in both Google Maps and organic search results.`,
+        `By optimizing your Google Business Profile alongside your website, we create a strong and consistent digital presence that helps your business attract customers who are actively searching for services in your area.`,
+        `Our approach combines technical SEO improvements, strategic content optimization, and local search enhancements to help your business gain a competitive advantage.`,
+      ],
+      buttonName: 'Get a Free Local SEO Audit',
+      data: [
+        {
+          icon: gmbWebsiteimpIcon_1,
+          name: 'Google Business Profile Setup & Optimization',
+          description: [
+            `Your Google Business Profile is often the first interaction potential customers have with your business when searching locally. We optimize every component of your profile to ensure it accurately represents your business and performs well in Google Maps results.`,
+            `This includes selecting the most relevant primary and secondary categories, optimizing the business description, adding detailed services, updating operating hours, and uploading high-quality images that showcase your brand.`,
+            `We also ensure that your service areas, contact details, and location information are accurate and fully optimized to maximize local visibility.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_2,
+          name: 'Local Keyword Research & Search Intent Analysis',
+          description: [
+            `Understanding how customers search for services in your area is critical for successful local SEO. Our team conducts detailed keyword research to identify the most relevant and high-intent search terms that potential customers are using.`,
+            `We analyze search trends, local competition, and customer intent to ensure that your business is targeting keywords that generate real leads rather than just traffic`,
+            `These insights guide the optimization of both your website content and your Google Business Profile.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_3,
+          name: 'Website On-Page SEO Optimization',
+          description: [
+            `Your website plays a critical role in supporting your Google Business Profile rankings. We optimize key on-page SEO elements such as page titles, meta descriptions, headings, URL structures, and internal linking to ensure that search engines can easily understand your content.`,
+            `Additionally, we enhance your website content with targeted keywords while maintaining a natural and user-friendly structure.`,
+            `This ensures that your website remains relevant to local search queries and provides valuable information to visitors.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_4,
+          name: 'Local Landing Page Development',
+          description: [
+            `Many businesses serve multiple cities or neighborhoods, and having optimized landing pages for these locations significantly improves local search visibility.`,
+            `We create or optimize location-specific pages that target important service areas. These pages include locally relevant content, service information, and geographic signals that help search engines associate your business with those locations.`,
+            `As a result, your website becomes more visible when customers search for services in those specific areas.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_5,
+          name: 'Google Maps Ranking Improvements',
+          description: [
+            `Ranking higher in Google Maps requires strong local signals and consistent optimization.`,
+            `Our team focuses on improving the factors that influence Google Maps rankings, including business relevance, distance, and prominence.`,
+            `Through strategic optimization of your Google Business Profile, local citations, and website content, we strengthen the signals that help Google trust and rank your business in the local map pack.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_6,
+          name: 'Review & Reputation Management',
+          description: [
+            `Customer reviews are one of the most influential ranking factors in local SEO. Positive reviews not only improve your rankings but also build trust with potential customers.`,
+            `We help implement a review generation strategy that encourages satisfied customers to leave feedback.`,
+            `In addition, we guide you in responding to reviews professionally and effectively, which helps demonstrate credibility and improve customer engagement.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_7,
+          name: 'Local Citations & Directory Listings',
+          description: [
+            `Consistency in business information across online directories plays a crucial role in local search rankings.`,
+            `We ensure that your business name, address, and phone number remain consistent across trusted local directories and platforms.`,
+            `This strengthens your online authority and helps search engines verify the legitimacy of your business.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_8,
+          name: 'Website Performance & Mobile Optimization',
+          description: [
+            `Most local searches happen on mobile devices, which means your website must load quickly and provide a seamless mobile experience.`,
+            `We optimize your website’s loading speed, improve mobile responsiveness, and enhance usability to ensure visitors can easily navigate your site and access important information.`,
+            `A fast and mobile-friendly website not only improves user experience but also contributes to better search rankings.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_9,
+          name: 'Local Content Optimization',
+          description: [
+            `Content is a powerful component of local SEO.`,
+            `We optimize your existing website content and develop new locally relevant content that aligns with what your target audience is searching for.`,
+            `This includes service descriptions, location-based content, FAQs, and informative resources that help both search engines and customers better understand your offerings.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_10,
+          name: 'Performance Monitoring & Detailed Reporting',
+          description: [
+            `Tracking the results of your local SEO efforts is essential for long-term success.`,
+            `We continuously monitor your rankings, website traffic, and Google Business Profile insights to measure performance.`,
+            `Our detailed reports provide clear insights into how your local SEO strategy is improving visibility, generating leads, and driving business growth.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      title: 'Our Local SEO Process: GBP + Website',
+      breakIndex: 4,
+      bgGradient: 'bg-[#FFFCF7]',
+      span: '',
+      description: [
+        `Our local SEO process is designed to create a strong synergy between your Google Business Profile and your website. By optimizing both together, we help your business gain better visibility across multiple areas of Google search.`,
+        `Our structured approach ensures that every aspect of your local presence is strategically optimized.`,
+      ],
+      services: [
+        {
+          icon: gmbProcessIcon_1,
+          title: 'Comprehensive Local SEO Audit',
+          description: [
+            `The first step in our process is to analyze your current online presence. We conduct a detailed audit of your Google Business Profile, website structure, and current keyword rankings.`,
+            `We also evaluate competitor performance to identify opportunities for improvement. This audit allows us to develop a customized strategy that addresses the specific challenges and opportunities within your local market.`
+          ],
+        },
+        {
+          icon: gmbProcessIcon_2,
+          title: 'Strategic Keyword Research',
+          description: [
+            `Once the audit is complete, we conduct extensive keyword research to identify the search terms that customers in your area are using.`,
+            `These keywords are categorized based on search intent and potential value. By targeting the right keywords, we ensure that your business appears in front of customers who are actively looking for services like yours.`
+          ],
+        },
+        {
+          icon: gmbProcessIcon_3,
+          title: 'Google Business Profile Optimization',
+          description: [
+            `We optimize your Google Business Profile to ensure that it is complete, accurate, and aligned with best practices.`,
+            `This includes improving your business description, categories, services, images, and profile engagement signals. A fully optimized profile increases your chances of appearing in Google Maps results and encourages potential customers to interact with your business.`
+          ],
+        },
+        {
+          icon: gmbProcessIcon_4,
+          title: 'Website SEO Improvements',
+          description: [
+            `Next, we optimize your website to support your local SEO strategy. This includes improving page content, optimizing technical SEO elements, and strengthening internal linking.`,
+            `These improvements help search engines understand the relationship between your website content and your service locations.`
+          ],
+        },
+        {
+          icon: gmbProcessIcon_5,
+          title: 'Local Authority Building',
+          description: [
+            `Building authority within your local market is essential for improving search rankings.`,
+            `We strengthen your online presence through citation optimization, directory listings, and reputation management strategies. These efforts help establish your business as a credible and trustworthy local service provider.`
+          ],
+        },
+        {
+          icon: gmbProcessIcon_6,
+          title: 'Continuous Optimization & Monitoring',
+          description: [
+            `Local SEO is not a one-time effort but an ongoing process. We continuously monitor rankings, analyze performance data, and adjust strategies to maintain strong visibility.`,
+            `This continuous improvement ensures that your business stays competitive and continues attracting new customers over time.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 5,
+      img: AdairedHelpgmb,
+      isInCenter: false,
+      bgColor: 'bg-gradient-to-b from-[#FFFEFB] to-[#FFF7EB]',
+      cardBg: '',
+      heading: `Our Local SEO Strategy for Sustainable Growth`,
+      description: [
+        `At Adaired Digital, we focus on creating long-term local SEO strategies that deliver consistent results.`,
+        `Our approach combines technical optimization, content development, and local authority building to ensure your business maintains strong visibility in local search results.`
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Data-Driven Strategy Development',
+          description: [
+            `Every local SEO campaign begins with research and analysis.`,
+            `By studying search trends, competitor strategies, and keyword opportunities, we develop a plan tailored to your business goals and market conditions.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Comprehensive Profile & Website Optimization',
+          description: [
+            `We ensure that both your Google Business Profile and website are fully optimized to send strong local signals to search engines.`,
+            `This integrated approach helps maximize visibility across multiple search platforms.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Local Authority & Reputation Building',
+          description: [
+            `Building trust is essential for long-term success in local search.`,
+            `Our strategy focuses on improving customer reviews, strengthening directory listings, and increasing brand credibility.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Continuous Monitoring & Improvement',
+          description: [
+            `Search engine algorithms and market competition constantly evolve. Our team continuously monitors campaign performance and makes strategic adjustments to maintain strong rankings and improve results over time.`,
+            `By combining these strategies, we help businesses build a strong and sustainable online presence that continues attracting local customers and driving business growth.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '05',
+      breakIndex: 3,
+      bgImg: saasSeoBuildLinkBg,
+      img: gmbWebsiteSeoBuildLinkImg,
+      label: 'Ready to Improve Your',
+      heading: 'Local Search Visibility',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `If your business is not appearing in Google Maps or local search results, you could be missing valuable opportunities to connect with potential customers in your area.`,
+        },
+        {
+          desctioption: `By strengthening both platforms together, we increase your chances of attracting more local traffic, generating qualified leads, and staying ahead of competitors.`,
+        },
+        {
+          desctioption: `Get started today with a free local SEO audit and discover how your business can rank higher in Google.`,
+        },
+      ],
+      button: 'Get a Free Local SEO Audit',
+    },
+
+    faqData: {
+      isVisible: true,
+      bgColor: 'bg-[#FAFAFA]',
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What is the difference between GBP optimization and website SEO?',
+          description: [
+            `Google Business Profile optimization focuses on improving your business listing in Google Maps, while website SEO improves your website’s ability to rank in organic search results. Combining both strategies creates a stronger local presence.`,
+          ],
+        },
+        {
+          title: 'How long does local SEO take to show results?',
+          description: [
+            `Local SEO improvements typically begin appearing within a few weeks, but noticeable ranking improvements usually take several months, depending on competition and market conditions.`,
+          ],
+        },
+        {
+          title: 'Is Google Business Profile important for small businesses?',
+          description: [
+            `Yes. Google Business Profile is one of the most powerful tools for local businesses because it helps them appear directly in Google Maps and local search results, where customers are actively searching.`,
+          ],
+        },
+        {
+          title: 'Can local SEO help generate more leads?',
+          description: [
+            `Yes. Local SEO targets customers who are searching for services in your area, which means the traffic generated is highly relevant and more likely to convert into leads.`,
+          ],
+        },
+        {
+          title: 'Do I need a website if I already have a Google Business Profile?',
+          description: [
+            `While a Google Business Profile helps you appear in Google Maps, a website strengthens your authority and improves your chances of ranking for additional search queries.`,
+          ],
+        },
+        {
+          title: 'How often should a Google Business Profile be updated?',
+          description: [
+            `Profiles should be updated regularly with posts, photos, service updates, and accurate business information to maintain strong engagement and search visibility.`,
+          ],
+        },
+        {
+          title: 'What industries benefit most from local SEO?',
+          description: [
+            `Local SEO benefits nearly every industry that serves a specific geographic area, including home services, healthcare providers, restaurants, law firms, and retail businesses.`,
+          ],
+        },
+        {
+          title: 'Can you optimize an existing website for local SEO?',
+          description: [
+            `Yes. Existing websites can be optimized by improving on-page SEO, adding location-based content, and enhancing technical performance.`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: false,
+      isVariant: '05',
+      breakIndex: 5,
+      img: WhatAreServiceGMB,
+      heading: 'What is Google Business Profile Optimization?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Google Business Profile optimization, previously known as GMB (Google My Business) optimization, is the strategic process of improving and fine-tuning your business listing. 
+          The goal is to increase your visibility and engagement on Google Search and Google Maps. This involves a series of actions designed to ensure that your profile is fully completed and accurately represents your business.`,
+        },
+        {
+          desctioption: `Key components of GBP optimization include ensuring that your business name, address, and phone number (NAP) are consistent and accurate across all online platforms, selecting the most relevant business categories, and including high-quality images that effectively showcase your products or services.
+           Additionally, it entails crafting a compelling business description that highlights your unique selling points and offerings.`,
+        },
+        {
+          desctioption: `Regularly updating your profile with posts about promotions, events, and other relevant news can also engage potential customers. Encouraging and responding to customer reviews is crucial for building credibility and maintaining a positive reputation.
+           Utilizing features such as business hours, appointment links, and FAQs will further enhance the user experience.`,
+        },
+        {
+          desctioption: `Overall, effective GBP optimization services​ not only boost local SEO rankings but also help attract more customers by making it easier for them to find and connect with your business online`,
+        },
+      ],
+      button: '',
+    },
+
+    whatareservice2: {
+      isVisible: false,
+      isVariant: '11',
+      breakIndex: 5,
+      img: WhatAreServiceGMB2,
+      heading: 'Why Your Business Needs GBP Optimization',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `In the digital era, having a strong online presence is crucial for any business aiming to attract and retain customers. One of the most effective ways to enhance your visibility is through Google Business Profile optimization. `,
+        },
+        {
+          desctioption: `By fine-tuning your GBP, you ensure that potential customers can easily find accurate information about your business, including your location, hours of operation, services, and even customer reviews.`,
+        },
+        {
+          desctioption: `Optimizing your GBP also plays a significant role in local search engine optimization (SEO). When your business profile is well-crafted, it can improve your rankings on search engine results pages, particularly for local searches related to the products or services you offer.
+           This means that when potential customers search for businesses like yours in their vicinity, your optimized profile is more likely to appear at the top of the search results.`,
+        },
+        {
+          desctioption: `Furthermore, a well-optimized GBP enhances your credibility.
+           When users see a complete and professional profile, complete with images, updated information, and positive reviews, they are more likely to trust your business over competitors with less informative profiles.`,
+        },
+      ],
+      bgImg: gmb_website_banner,
+    },
+
+    keyStats: {
+      isVisible: false,
+      code: '01',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Why Should You Rank #1 on Google Maps?',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          icon: KeyStatsIcon1,
+          desctioption: [
+            `Google Business Profile signals account for 32% of local pack ranking factors, making them the most influential element for ranking on Google Maps. (Whitespark)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon2,
+          desctioption: [
+            `97% of consumers read reviews when researching local businesses, making reputation a critical factor in customer decisions. (BrightLocal)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon3,
+          desctioption: [
+            `64% of consumers use Google Business Profiles to quickly find key business contact details like phone numbers, addresses, and emails. (BrightLocal)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon4,
+          desctioption: [
+            `69% of users check opening hours on Google Business Profiles, making it the most used feature, followed by directions and reviews. (BrightLocal)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon5,
+          desctioption: [
+            `76% of marketers consider Google Business Profile management the most valuable local SEO service for improving local visibility. (BrightLocal)`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: false,
+      isVariant: '01',
+      breakIndex: 3,
+      isInCenter: true,
+      bgColor: true,
+      bgGradient: '',
+      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
+      description: [``],
+      list: [
+        {
+          img: saasSeoMissing_1,
+          name: 'SaaS-Only Focus',
+          description: [
+            `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
+            SaaS growth is driven by subscription economics, long-term retention, product adoption, and expansion revenue. 
+            We understand the nuances of CAC, LTV, churn sensitivity, pipeline velocity, and product-led growth models. 
+            Because SaaS is all we do, our strategies are built around how subscription businesses actually scale, not around outdated SEO tactics designed for one-time purchases.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Revenue-First Strategy',
+          description: [
+            `Traffic alone doesn’t grow a SaaS company; revenue does. 
+            Every keyword we target, every page we optimize, and every content asset we build is aligned with measurable business outcomes. 
+            We map search intent to funnel stages and revenue potential, ensuring your organic growth translates into demo requests, trial signups, and a qualified pipeline. 
+            Instead of chasing high-volume vanity terms, we prioritize high-intent opportunities that directly influence recurring revenue and long-term customer value.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'No Generic SEO Playbooks',
+          description: [
+            `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
+            We don’t believe in one-size-fits-all SEO. Your growth strategy is built specifically around your product positioning, ideal customer profile, category maturity, and competitive landscape. 
+            Whether you're defining a new category or competing in a saturated one, we design a framework that reflects your unique strengths and market realities, not a recycled checklist.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Deep Competitor Targeting',
+          description: [
+            `In B2B SaaS, buyers actively compare alternatives before making decisions. 
+            We leverage this behavior strategically. 
+            Our approach includes detailed competitor gap analysis, alternative positioning pages, comparison content, and high-intent keyword targeting designed to intercept prospects at the evaluation stage. 
+            By identifying where competitors dominate and where they leave opportunities open, we position your brand directly in the path of decision-ready buyers.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Full-Funnel Execution',
+          description: [
+            `Organic growth doesn’t happen at a single stage of the buyer journey. 
+            We build comprehensive SEO ecosystems that support awareness, consideration, evaluation, and decision-making. 
+            From problem-focused educational content to integration pages, use-case assets, and bottom-of-funnel comparison pages, every piece works together to create a cohesive search presence. 
+            The result is not fragmented traffic but a structured acquisition engine that consistently feeds your sales pipeline.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Built for Scale',
+          description: [
+            `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
+            Your SEO strategy should evolve with you. 
+            We design scalable frameworks that expand into new keyword clusters, industries, and high-value opportunities as your company grows. 
+            Instead of short-term ranking wins, we focus on building a long-term organic growth asset that compounds over time and strengthens your competitive position year after year.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '#FFFCF8',
+      isInCenter: true,
+      isVariant: '02',
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
+      description: [`The data is clear: SEO is not optional for SaaS growth.`],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'wordpress-development-company-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'whatareservice2',
+      'benefitofAiSeo',
+      'ourProcess',
+      'adairedHelp',
+      'whatMkeDeferent',
+      'buildlinks',
+      'faqData',
+      'importantToBussiness',
+      'dataInTable',
+      'whatMissing',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: true,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'A Premier WordPress ', color: '#000000', weight: '400' },
+        {
+          text: ' Development Agency ',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      breakIndex: 8,
+      desc: [
+        `Expand your business's reach and transform visitors into genuine opportunities with our expert WordPress development services. Whether you need a fully responsive website or seamless functionality paired with intuitive designs, we can meet all your website development requirements.`,
+      ],
+      subheading: 'Don’t wait to grow your business; let us assist you!',
+      button: 'Create a Website for My Business',
+      width: '45%',
+      widthLg: '30rem',
+      bgImg: Banner,
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '01',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Key Stats About WordPress Development',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          icon: KeyStatsImg,
+          desctioption: [
+            `42.6% of all websites run on WordPress, meaning more than 4 out of every 10 sites on the internet use the platform (W3Techs).`,
+          ],
+        },
+        {
+          icon: KeyStatsImg,
+          desctioption: [
+            `WordPress powers about 37–39 million active websites and up to 595–605 million total web properties, depending on how domains are counted (BuiltWith, Netcraft via WPZOOM).`,
+          ],
+        },
+        {
+          icon: KeyStatsImg,
+          desctioption: [
+            `Among websites using a CMS, WordPress holds about 59.9% market share, more than all other CMS platforms combined (W3Techs).`,
+          ],
+        },
+        {
+          icon: KeyStatsImg,
+          desctioption: [
+            `WordPress grew from 21% of all websites in 2014 to about 42.6% in 2026, more than doubling its market share in a decade (WPZOOM citing W3Techs data).`,
+          ],
+        },
+        {
+          icon: KeyStatsImg,
+          desctioption: [
+            `The official WordPress directory offers 61,000+ free plugins, allowing users to easily extend site functionality (WordPress.org via WPZOOM).`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '12',
+      breakIndex: 6,
+      img: WhatAreService1,
+      heading: 'Is WordPress Development Right for Your Business?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `With WordPress powering over 40% of all websites on the internet, it offers an unparalleled level of flexibility and customization.`,
+        },
+        {
+          desctioption: `Whether you're running a blog, an e-commerce store, or a corporate site, WordPress provides robust tools that can help you effectively communicate your brand message and convert visitors into customers. Our team specializes in creating user-friendly, responsive designs that ensure a seamless experience across all devices. We also integrate essential plugins that enhance functionality, improve SEO, and boost site performance.`,
+        },
+        {
+          desctioption: `Furthermore, WordPress makes it easy to manage your own content, allowing you to update and expand your site without needing extensive technical knowledge.In addition, our ongoing support and maintenance services mean that your website will remain secure, updated, and fully functional.`,
+        },
+        {
+          desctioption: `If you're considering an online presence or looking to revamp your current site, WordPress development could be the perfect solution for your business. Let us help you harness the power of this platform to elevate your online presence!`,
+        },
+      ],
+      button: '',
+    },
+
+    whatareservice2: {
+      isVisible: true,
+      isVariant: '11',
+      img: WhatAreService2,
+      heading: 'What is WordPress Development',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `WordPress development refers to the process of creating, customizing, and maintaining websites using the WordPress content management system (CMS).`,
+        },
+        {
+          desctioption: ` It involves a variety of tasks, including designing themes, developing plugins, and configuring settings to ensure optimal performance and user experience.`,
+        },
+        {
+          desctioption: `Our WordPress developers India work with PHP, HTML, CSS, and JavaScript to build custom solutions tailored to specific client needs. They can create unique themes that define the visual appearance of a site and plugins that add functionality, such as contact forms, e-commerce capabilities, and SEO tools.`,
+        },
+        {
+          desctioption: `Additionally, WordPress development encompasses website optimization for speed and security, ensuring that the sites are responsive and accessible across different devices. Developers also engage in regular updates and troubleshooting to keep the website functional and secure from vulnerabilities. `,
+        },
+        {
+          desctioption: `Overall, WordPress development is a multifaceted discipline that combines technical skills with creative design to deliver effective online solutions.`,
+        },
+      ],
+    },
+
+    benefitofAiSeo: {
+      isVisible: true,
+      isVariant: '02',
+      isDecVarticle: true,
+      isBgWhite: false,
+      isInCenter: false,
+      breakIndex: 3,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'WordPress Design and Development Services We Offer',
+      description: [
+        `As an experienced WordPress development agency, we offer a comprehensive range of WordPress development services designed to help businesses build powerful, scalable, and high-performing websites. `,
+        `Whether you are launching a new website, upgrading an existing platform, or adding advanced functionality, our team of skilled developers delivers customized WordPress solutions that align with your business goals.`,
+        `We combine technical expertise, creative design, and modern development practices to ensure that every WordPress website we build is fast, secure, SEO-friendly, and optimized for long-term growth.`,
+      ],
+      list: [
+        {
+          name: 'Custom WordPress Website Development',
+          description: [
+            `Our custom WordPress website development services focus on building unique websites tailored specifically to your business needs. Instead of relying on generic templates, we design and develop fully customized WordPress websites that reflect your brand identity and provide an engaging user experience.`,
+            `Our developers carefully analyze your business requirements, target audience, and industry trends to create a website that not only looks visually appealing but also performs efficiently across all devices.`,
+            ` Every website we develop is responsive, mobile-friendly, and optimized for search engines to help improve online visibility and drive organic traffic.`,
+            `We also ensure that the website architecture is scalable so that your platform can grow alongside your business. Whether you need a corporate website, a business portfolio, a service-based website, or a content-driven platform, our team can deliver a solution that aligns perfectly with your long-term digital strategy.`,
+          ],
+        },
+        {
+          name: 'WordPress Theme Development',
+          description: [
+            `A well-designed theme plays a crucial role in defining the visual identity and user experience of your website. We, as a WordPress development company India, focus on creating custom themes that combine modern design with clean, optimized code.`,
+            `We design themes that are lightweight, fast-loading, and fully responsive across desktops, tablets, and mobile devices. Our development process ensures that the theme structure follows WordPress best practices, which improves website stability, maintainability, and SEO performance.`,
+            `In addition to aesthetics, we prioritize usability and accessibility to ensure visitors can easily navigate your website and find the information they need.`,
+            ` Our custom themes are also built with flexibility in mind, allowing businesses to update content, modify layouts, and expand functionality without requiring complex technical changes.`,
+          ],
+        },
+        {
+          name: 'WordPress Plugin Development',
+          description: [
+            `Sometimes your website needs functionality that standard plugins cannot provide. Our WordPress plugin development services allow businesses to add custom features tailored specifically to their operational requirements.
+`,
+            `Our developers build secure, scalable, and well-documented plugins that seamlessly integrate with your WordPress website. Whether you require advanced forms, booking systems, API integrations, custom dashboards, or unique business workflows, we develop plugins that enhance your website’s capabilities.
+`,
+            `We ensure that every plugin is developed following WordPress coding standards, which helps maintain compatibility with future updates and reduces the risk of security vulnerabilities.`,
+            `By creating custom plugins, we help businesses automate processes, improve efficiency, and deliver better digital experiences to their users.
+`,
+          ],
+        },
+        {
+          name: 'WooCommerce Development',
+          description: [
+            `For businesses looking to sell products or services online, we offer comprehensive WooCommerce development services that transform WordPress websites into powerful e-commerce platforms.
+`,
+            `Our WooCommerce development solutions include everything from store setup and product catalog management to payment gateway integration and shipping configuration.`,
+            ` We design user-friendly shopping experiences that make it easy for customers to browse products, complete purchases, and interact with your brand.
+`,
+            `We also implement advanced features such as inventory management systems, subscription services, multi-currency support, and custom checkout processes. By optimizing the entire purchase journey, we help businesses improve conversion rates and maximize their online sales potential.
+`,
+          ],
+        },
+        {
+          name: 'WordPress Migration & Redesign',
+          description: [
+            `If your existing website is built on another platform or has become outdated, our WordPress migration and redesign services can help you transition smoothly to a more modern and flexible system.
+`,
+            `Our team handles the entire migration process, including content transfer, database migration, URL structure preservation, and SEO protection. We ensure that your website maintains its existing search engine rankings while benefiting from improved design and performance.
+`,
+            `In addition to migration, we also provide complete website redesign services that refresh the visual appearance, improve usability, and modernize the overall structure of your site.`,
+            ` By upgrading your website with the latest design standards and development technologies, we help businesses enhance their digital presence and stay competitive in the evolving online landscape.
+`,
+            ``,
+          ],
+        },
+        {
+          name: 'WordPress Speed Optimization',
+          description: [
+            `Website performance plays a crucial role in user experience, search engine rankings, and overall conversion rates. Our WordPress speed optimization services focus on improving website loading times and enhancing Core Web Vitals performance.
+`,
+            `We analyze various performance factors such as server response time, image optimization, script loading, caching configuration, and database efficiency.`,
+            ` By implementing advanced optimization techniques, we significantly reduce page load times and ensure that your website delivers a smooth browsing experience for visitors.
+`,
+            `Our optimization process may include CDN integration, code minification, lazy loading implementation, and server-level improvements. Faster websites not only improve user engagement but also contribute to better SEO rankings and increased customer satisfaction.
+`,
+          ],
+        },
+        {
+          name: 'WordPress Maintenance & Support',
+          description: [
+            `A successful website requires continuous monitoring, updates, and improvements. Our WordPress maintenance and support services ensure that your website remains secure, updated, and fully functional at all times.
+`,
+            `We handle essential maintenance tasks such as WordPress core updates, plugin updates, security monitoring, performance checks, and routine backups. Our team also provides ongoing technical support to quickly resolve any issues that may arise.
+`,
+            `Regular maintenance helps prevent security vulnerabilities, improve website stability, and ensure compatibility with new technologies and updates.`,
+            ` With our dedicated support services, businesses can focus on their operations while we take care of their website’s health and performance.
+`,
+          ],
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      title: 'How We Deliver Successful WordPress Development Projects',
+      breakIndex: 5,
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
+      span: '',
+      description: [
+        `Our development process focuses on collaboration, quality assurance, and continuous improvement to create high-performing WordPress websites that support long-term business growth.`,
+      ],
+      services: [
+        {
+          icon: Icon1,
+          title: 'Requirement Analysis',
+          description: [
+            `Every successful project begins with a thorough understanding of your business goals, target audience, and technical requirements. During the requirement analysis stage, our team works closely with you to gather important information about your brand, services, competitors, and desired website functionality.`,
+            `We evaluate factors such as website objectives, content structure, design preferences, and integration needs. This step helps us identify the most suitable WordPress solutions and ensures that the final product aligns with your business strategy.`,
+            `By clearly defining project requirements at the beginning, we reduce the chances of miscommunication and ensure a smooth development process.`,
+          ],
+        },
+        {
+          icon: Icon2,
+          title: 'UI/UX Design Planning',
+          description: [
+            `Once the project requirements are finalized, our designers focus on creating an intuitive and visually engaging user experience. During the UI/UX planning stage, we develop wireframes, design layouts, and user interface concepts that reflect your brand identity and improve website usability.`,
+            `Our goal is to create a design that is not only visually appealing but also easy for visitors to navigate. We pay close attention to layout structure, typography, color schemes, and user interaction elements to ensure the website delivers a consistent experience across all devices.`,
+            `The design phase also includes mobile responsiveness planning, ensuring that your WordPress website performs perfectly on smartphones, tablets, and desktops.`,
+          ],
+        },
+        {
+          icon: Icon3,
+          title: 'Development and Customization',
+          description: [
+            `After the design is approved, our developers begin building the website using modern WordPress development practices. This stage involves creating custom themes, configuring plugins, and implementing the required functionality to bring the design to life. Our developers work with technologies such as PHP, HTML, CSS, and JavaScript to develop secure and scalable solutions tailored to your specific business needs.`,
+            `We also focus on writing clean, optimized code that ensures faster loading speeds and long-term maintainability. Throughout the development process, we regularly review progress and ensure that all features and integrations are functioning as expected.`,
+            `This collaborative approach allows us to maintain transparency and deliver a website that meets both technical and business expectations.`,
+          ],
+        },
+        {
+          icon: Icon4,
+          title: 'Testing and Quality Assurance',
+          description: [
+            `Before launching the website, we perform extensive testing to ensure that every component functions correctly. Our quality assurance process includes testing website performance, responsiveness, security, and compatibility across different browsers and devices.`,
+            `We verify that all forms, navigation elements, and interactive features operate smoothly. Additionally, we check page loading speed, optimize images and scripts, and ensure the website follows SEO best practices.`,
+            `This detailed testing process helps eliminate potential issues and guarantees that your website provides a reliable and user-friendly experience.`,
+          ],
+        },
+        {
+          icon: Icon5,
+          title: 'Website Launch',
+          description: [
+            `Once the testing phase is successfully completed, we prepare the website for launch. Our team ensures that the hosting environment is properly configured and that the website is fully optimized for performance and security before going live.`,
+            `We also verify that all content, links, and integrations are functioning correctly. The launch phase involves deploying the website to the live server while ensuring minimal downtime.`,
+            `Our goal is to make the transition from development to a live environment as smooth as possible.`,
+          ],
+        },
+        {
+          icon: Icon6,
+          title: 'Post-Launch Support',
+          description: [
+            `Our relationship with clients does not end after the website goes live. We provide ongoing WordPress maintenance and support to ensure that your website continues to operate smoothly and remains up to date.`,
+            `This includes regular software updates, security monitoring, performance optimization, and troubleshooting. We also assist with future improvements, feature enhancements, and technical support whenever required.`,
+            `With our dedicated post-launch support, your WordPress website remains secure, efficient, and capable of adapting to evolving business needs.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 5,
+      img: AdairedHelp,
+      isInCenter: true,
+      bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
+      cardBg: '',
+      heading: `Industries We Serve`,
+      description: [
+        `Our WordPress development services are designed to support businesses across a wide range of industries.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: AdairedHelp_1,
+          name: 'E-commerce',
+          description: [
+            `We build powerful WooCommerce-based websites that help online stores showcase products, manage inventory, and deliver seamless checkout experiences.`,
+            `Our e-commerce WordPress solutions focus on performance, security, and conversion optimization.`,
+          ],
+        },
+        {
+          img: AdairedHelp_2,
+          name: 'Healthcare',
+          description: [
+            `Healthcare providers require secure, user-friendly websites that make it easy for patients to access information and services.`,
+            `We develop WordPress websites for clinics, hospitals, and healthcare organizations that support appointment booking, patient resources, and compliance standards.`,
+          ],
+        },
+        {
+          img: AdairedHelp_3,
+          name: 'Real Estate',
+          description: [
+            `Real estate businesses rely on visually engaging websites to showcase property listings and attract potential buyers.`,
+            `Our WordPress development solutions include property listing systems, advanced search filters, and interactive property galleries.`,
+          ],
+        },
+        {
+          img: AdairedHelp_4,
+          name: 'Professional Services',
+          description: [
+            `Law firms, consulting agencies, marketing companies, and other professional service providers need websites that establish credibility and generate leads.`,
+            `We build WordPress websites that highlight expertise, showcase services, and encourage potential clients to get in touch.`,
+          ],
+        },
+        {
+          img: AdairedHelp_5,
+          name: 'Education',
+          description: [
+            `Educational institutions, training providers, and online learning platforms benefit from WordPress websites that support course management, learning portals, and content distribution.`,
+            `Our solutions make it easier for organizations to deliver educational resources and engage learners.`,
+          ],
+        },
+        {
+          img: AdairedHelp_6,
+          name: 'SaaS and Technology',
+          description: [
+            `Technology companies require modern websites that clearly communicate complex solutions.`,
+            `We build WordPress websites for SaaS companies that highlight product features, support integrations, and help convert visitors into customers.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '02',
+      bgGradient: '',
+      heading: `Why Choose Adaired Digital's WordPress Development Services`,
+      description: [
+        'At Adaired Digital, we combine technical expertise, strategic thinking, and creative design to deliver WordPress websites that drive real business results.',
+      ],
+      list: [
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_1_r50n2t.png',
+          name: 'Experienced WordPress Developers',
+          description: [
+            `Our team consists of skilled developers with extensive experience in building custom WordPress websites for businesses across different industries. `,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_2_dlpnys.png',
+          name: 'Custom Development Solutions',
+          description: [
+            `We don’t rely on generic templates. Every WordPress website we develop is tailored to your brand, business goals, and audience.`,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_3_r3sl4v.png',
+          name: 'SEO-Friendly Development',
+          description: [
+            `Through years, we have built a reputation on delivering quality work to our clients. Since there are a number of steps involved in the website creation, we create timelines for different aspects of the project to complete it on time. `,
+            `Whether you need a simple business website or a complex e-commerce platform, we are capable of developing tailored solutions that can scale with your business. `,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_4_zvk0k1.png',
+          name: 'Quick Turnaround Time',
+          description: [
+            `Our websites are built following SEO best practices, helping your site perform better in search engine results and attract more organic traffic. `,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
+          name: 'Mobile-First Design',
+          description: [
+            `With a large percentage of users browsing on mobile devices, we ensure that every website we build is fully responsive and optimized for all screen sizes `,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_6_bbua27.png',
+          name: 'Performance Optimization',
+          description: [
+            `We focus on building fast-loading websites that provide excellent user experiences and meet modern performance standards. `,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_7_og9cfi.png',
+          name: 'Ongoing Support',
+          description: [
+            `Our relationship doesn’t end after launch. We provide ongoing maintenance and support services to keep your website secure, updated, and running smoothly. `,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '0',
+      breakIndex: 3,
+      bgImg: bgImgBuildLink,
+      img: BuildLink,
+      label: 'Start Your WordPress',
+      heading: 'Development Today',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `At Adaired Digital, hire WordPress development India team to help you create a powerful online presence that attracts visitors, builds trust, and converts leads into customers.`,
+        },
+        {
+          desctioption: `Get in touch with our WordPress experts today to discuss your project and receive a customized development solution tailored to your business needs.`,
+        },
+      ],
+      button: 'Talk to a WordPress Expert',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What are WordPress development services?',
+          description: [
+            `WordPress development services involve designing, building, customizing, and maintaining websites using the WordPress content management system.`,
+            `These services may include theme development, plugin development, website optimization, and ongoing support.`,
+          ],
+        },
+        {
+          title: 'Why should I choose WordPress for my website?',
+          description: [
+            `WordPress is one of the most flexible and widely used website platforms.`,
+            `It offers extensive customization options, thousands of plugins, strong SEO capabilities, and an easy-to-manage content system.`,
+          ],
+        },
+        {
+          title: 'How long does it take to develop a WordPress website?',
+          description: [
+            `The development timeline depends on the complexity of the project.`,
+            `A basic business website may take a few weeks, while a more complex website with custom features may require additional development time.`,
+          ],
+        },
+        {
+          title: 'Can you redesign my existing WordPress website?',
+          description: [
+            `Yes, we offer WordPress redesign services to improve your website’s design, performance, and user experience while maintaining your existing content and SEO value.`,
+          ],
+        },
+        {
+          title: 'Do you provide WooCommerce development services?',
+          description: [
+            `Yes, we develop WooCommerce-powered e-commerce websites that allow businesses to sell products and services online with secure payment integrations and optimized shopping experiences.`,
+          ],
+        },
+        {
+          title: 'Is WordPress good for SEO?',
+          description: [
+            `Yes, WordPress is highly SEO-friendly. With proper optimization, WordPress websites can rank well in search engines and attract consistent organic traffic.`,
+          ],
+        },
+        {
+          title: 'Do you offer ongoing WordPress maintenance services?',
+          description: [
+            `Yes, we provide WordPress maintenance services that include software updates, security monitoring, performance optimization, and technical support.`,
+          ],
+        },
+        {
+          title: 'Can I manage my WordPress website after it is launched?',
+          description: [
+            `Absolutely. WordPress has a user-friendly dashboard that allows you to easily update content, publish blog posts, and manage your website without advanced technical knowledge.`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: false,
+      isInCenter: true,
+      isCardVisible: true,
+      breakIndex: 5,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading:
+        'Unlock Your Potential with Top-Notch GBP Optimization Services!',
+      description: [``],
+      buttonName: 'Optimize My Website for AI',
+      data: [
+        {
+          icon: icon_1,
+          name: 'Profile Setup & Verification',
+          description: [
+            `A properly set up and verified Google Business Profile is the foundation of strong local visibility. Our team handles the entire setup process, ensuring that your business is correctly listed on Google with accurate details and professional formatting. `,
+            `We also guide and manage the verification process through Google’s approved methods, such as postcard, phone, or video verification. Once verified, your profile gains credibility and becomes eligible to appear in local search results and Google Maps listings.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_2,
+          name: 'Google Maps Ranking Tracking',
+          description: [
+            `Understanding how your business ranks in different areas of your city is critical for GMB SEO success. We use advanced geo-grid and heatmap tracking tools to monitor your visibility across neighborhoods and key service areas. `,
+            `This allows us to identify locations where your business ranks strongly and areas where visibility may be weak. With this data-driven approach, we refine optimization strategies to improve your rankings across a wider geographic range.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_3,
+          name: 'Keyword & Category Optimization',
+          description: [
+            `Choosing the right business categories and integrating relevant keywords can significantly improve your chances of appearing in local search results. Our GBP optimization service experts conduct in-depth keyword research to identify high-intent search terms that customers in your area are using. `,
+            `We then optimize your business description, services, and categories with these keywords to increase your visibility when potential customers search for related services on Google.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_4,
+          name: 'Review & Reputation Management',
+          description: [
+            `Customer reviews have a powerful influence on both search rankings and customer trust. Our review management strategy focuses on helping you generate more authentic customer feedback while maintaining a professional reputation online. `,
+            `We assist in creating review acquisition strategies and craft thoughtful responses to both positive and negative reviews. This approach strengthens your credibility and demonstrates your commitment to customer satisfaction.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_5,
+          name: 'Google Posts & Content Updates',
+          description: [
+            `Google rewards active and regularly updated business profiles. Our team creates engaging Google Posts that highlight business updates, promotions, offers, events, or announcements. `,
+            `These posts keep your profile active and provide valuable information to potential customers browsing your listing. Consistent posting also signals to Google that your business is active and relevant, which can positively influence your local search visibility.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_6,
+          name: 'Photo & Video Optimization',
+          description: [
+            `Visual content plays a major role in attracting customers and building trust. Businesses with high-quality photos and videos often receive more engagement and clicks compared to those without visuals. `,
+            `We optimize and upload professional images of your business location, interior, exterior, products, services, and team members.`,
+            `These visuals help customers better understand your brand while improving engagement with your profile.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_7,
+          name: 'Q&A Section Optimization',
+          description: [
+            `The Questions & Answers section on your Google Business Profile is often overlooked, yet it can significantly influence customer decisions.`,
+            `We proactively add commonly asked questions and provide helpful answers that address typical customer concerns.`,
+            `This not only saves time for your business but also ensures that accurate information is available to potential customers before they contact you.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_8,
+          name: 'Listing Monitoring & Protection',
+          description: [
+            `Unauthorized edits or competitor interference can sometimes change important details on your business listing. Our monitoring system continuously checks your profile for any suspicious or incorrect updates.`,
+            `If changes occur, we quickly correct them to maintain the accuracy of your listing.`,
+            `This proactive protection ensures that your business information remains reliable and trustworthy for customers searching on Google.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_9,
+          name: 'Performance Analytics & Reporting',
+          description: [
+            `Understanding how customers interact with your Google Business Profile is essential for measuring success. We provide detailed performance reports that track key customer actions such as phone calls, direction requests, website clicks, and profile views. `,
+            `These insights help you clearly see the impact of optimization efforts and understand how your listing contributes to generating new leads and customers.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+      ],
+      card: [
+        {
+          code: 2,
+          img: ImpToBusinessCradImg,
+          heading: 'Boost Your Visibility on',
+          heading1: [`Google Maps`],
+          description: [
+            `Take the next step toward stronger local visibility and more customer inquiries. `,
+            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`,
+          ],
+          buttonName: 'Optimize My Website for AI',
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: true,
+      isBgWhite: true,
+      bgColor: '#FAFAFA',
+      trColor: '#FB9100',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      description: [``],
+      data: [
+        {
+          desctioption: `Feature`,
+          list: [
+            {
+              description: [`AI-First SEO Strategy`],
+            },
+            {
+              description: [`Cross-Platform Optimization`],
+            },
+            {
+              description: [`User Intent Alignment`],
+            },
+            {
+              description: [`Content Creation & Structure`],
+            },
+            {
+              description: [`Scalable & Future-Proof Solutions`],
+            },
+            {
+              description: [`AI-Driven Insights`],
+            },
+          ],
+        },
+        {
+          desctioption: `Adaired Digital Media`,
+          list: [
+            {
+              description: [
+                `We design strategies that are tailored for the evolving AI search landscape.`,
+              ],
+            },
+            {
+              description: [
+                `We optimize for a broad range of AI platforms, ensuring visibility across all channels.`,
+              ],
+            },
+            {
+              description: [
+                `We align your content with evolving user intent, ensuring your brand matches search needs.`,
+              ],
+            },
+            {
+              description: [
+                `We create content that is both AI-readable and contextually aligned with search intent.`,
+              ],
+            },
+            {
+              description: [
+                `Our strategies evolve with changing AI algorithms to keep your brand visible long-term.`,
+              ],
+            },
+            {
+              description: [
+                `We leverage AI tools to continuously optimize and refine your SEO for better performance.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `They`,
+          list: [
+            {
+              description: [
+                `They rely on traditional keyword-based SEO methods that are no longer as effective.`,
+              ],
+            },
+            {
+              description: [
+                `They focus on a limited number of platforms, missing out on AI-driven opportunities elsewhere.`,
+              ],
+            },
+            {
+              description: [
+                `They overlook the nuances of user intent, resulting in less relevant content placement.`,
+              ],
+            },
+            {
+              description: [
+                `They use generic content strategies that don’t cater to AI’s need for clear, structured data.`,
+              ],
+            },
+            {
+              description: [
+                `Their solutions are static and struggle to adapt as AI algorithms continue to change.`,
+              ],
+            },
+            {
+              description: [
+                `They lack the use of AI-driven insights, relying on outdated metrics for optimization.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '#FFFCF8',
+      isInCenter: true,
+      isVariant: '02',
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
+      description: [`The data is clear: SEO is not optional for SaaS growth.`],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
     },
 
     industryLeaders: {

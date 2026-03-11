@@ -36,12 +36,13 @@ const OurProcess = ({ ourProcess }: any) => {
     <section
       ref={ref}
       id="services"
-      className={`${ourProcess?.bgGradient || 'bg-[#F5F5F599]'} py-[3rem] lg:py-[4rem]`}
+      // For making bg-gradiant fixed at one place
+      className={`${ourProcess?.bgGradient || 'bg-[#f9f9f9]/80'} relative bg-fixed py-[3rem] lg:py-[4rem]`}
     >
       <MaxWidthWrapper>
         {/* ================= HEADING ================= */}
 
-        <div className="sticky top-[10rem] z-20 mb-[3rem]">
+        <div className="sticky top-[5rem] z-20 mb-[3rem] lg:top-[10rem]">
           <div className="mx-auto w-full lg:w-[80%]">
             <Heading
               isLabel={true}
@@ -55,9 +56,9 @@ const OurProcess = ({ ourProcess }: any) => {
           </div>
 
           <div
-            className={`grid grid-cols-5 gap-[4rem] ${!ourProcess?.isInCenter && 'mt-[2rem]'}`}
+            className={`grid grid-cols-1 gap-[4rem] lg:grid-cols-5 ${!ourProcess?.isInCenter && 'mt-[2rem]'}`}
           >
-            <div className="col-span-2 flex h-fit items-center justify-center">
+            <div className="col-span-2 hidden h-fit items-center justify-center md:flex">
               <div className="relative h-[520px] w-[520px]">
                 <svg width="520" height="520" viewBox="0 0 520 520">
                   {ourProcess.services.map((service: any, idx: number) => {
@@ -93,13 +94,13 @@ const OurProcess = ({ ourProcess }: any) => {
                       <path
                         key={idx}
                         d={`
-          M ${sx} ${sy}
-          A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
-          A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
-          A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
-          A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
-          Z
-        `}
+                            M ${sx} ${sy}
+                            A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
+                            A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
+                            A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
+                            A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
+                            Z
+                         `}
                         fill={activeTab === idx ? '#FB9100' : '#FBEBD5'}
                         stroke="#FFFFFF"
                         onClick={() => setActiveTab(idx)}
@@ -153,7 +154,7 @@ const OurProcess = ({ ourProcess }: any) => {
                 })}
               </div>
             </div>
-            <div className="col-span-3 my-auto flex h-fit items-center justify-center">
+            <div className="col-span-3 my-auto flex h-fit w-full items-center justify-center">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={activeTab}

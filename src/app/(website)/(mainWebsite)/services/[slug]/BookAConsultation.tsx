@@ -404,7 +404,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <h1
-                className={`font-normal text-[#FFFFFF] lg:text-left`}
+                className={`font-normal text-[#FFFFFF] text-center lg:text-left`}
               >
                 {buildlinks?.label}
               </h1>
@@ -460,6 +460,81 @@ const BookAConsultation = ({ buildlinks }: any) => {
                   />
                 </div>
               </div>
+            </div>
+          </MaxWidthWrapper>
+          <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
+        </div>
+      )}
+      {buildlinks?.isVariant === '07' && (
+        // <div
+        //   className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'} py-[3rem] lg:py-[2rem]`}
+        // >
+        <div
+          className={`py-[3rem] lg:py-[2rem] ${buildlinks?.bgImg
+            ? ''
+            : buildlinks?.isBgWhite
+              ? 'bg-gradient-to-b from-black to-[#051C40]'
+              : 'bg-[#FFFCF8]'
+            }`}
+          style={
+            buildlinks?.bgImg
+              ? {
+                backgroundImage: `url(${buildlinks.bgImg?.src})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+              }
+              : {}
+          }
+        >
+          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
+            <div
+              className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            >
+              <Heading
+                className="flex justify-center lg:justify-start"
+                subTitle={''}
+                breakIndex={buildlinks?.breakIndex}
+                isH1={true}
+                title={buildlinks?.heading}
+                span={buildlinks?.span}
+                spanColor="text-[#FBD04F]"
+                isBgWhite={buildlinks?.isBgWhite && true}
+              />
+              <div>
+                {buildlinks?.data?.map((item: any) => {
+                  return (
+                    <p
+                      className={`py-3 ${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
+                    >
+                      {item?.desctioption}
+                    </p>
+                  );
+                })}
+              </div>
+
+              {buildlinks?.isBgWhite && (
+                <SaveAndCancel
+                  name={buildlinks?.button}
+                  isIcon={true}
+                  isBgWhite={true}
+                  handleClick={() => setOpen(!open)}
+                  className="mt-[1rem]"
+                />
+              )}
+            </div>
+
+            <div
+              ref={ref}
+              className={`group order-1 flex justify-center justify-items-center p-10 transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'} ${buildlinks?.isCode02 ? 'items-end' : 'items-center'}`}
+            >
+              <Image
+                src={buildlinks?.img}
+                width={885}
+                height={590}
+                className="transition-transform duration-300 ease-out group-hover:scale-110"
+                alt=""
+              />
             </div>
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />

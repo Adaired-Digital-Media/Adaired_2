@@ -20,6 +20,7 @@ import Stopstruggling from './Stopstruggling';
 import LeadingTools from './LeadingTools';
 import WhatMakesAdaired from './WhatMakesAdaired';
 import OurProcess from './OurProcess';
+import TechStackMobile from './TechStackMobile';
 import WhatIncluded from './WhatIncluded';
 import DominateAI from './DominateAI';
 import ReadyToStart from './ReadyToStart';
@@ -53,6 +54,7 @@ export type SectionKey =
   | 'industryOrLeadingTools'
   | 'whatIncluded'
   | 'ourProcess'
+  | 'techStackMobile'
   | 'whatMissing'
   | 'stopStruggling'
   | 'whatMkeDeferent'
@@ -60,7 +62,7 @@ export type SectionKey =
   | 'getplan'
   | 'faqData'
   | 'readyToStart';
-  
+
 type SectionRenderer = (serviceData: any) => JSX.Element | null;
 
 const sectionRenderer: Record<SectionKey, SectionRenderer> = {
@@ -164,6 +166,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   ourProcess: (serviceData) =>
     serviceData.ourProcess?.isVisible ? (
       <OurProcess ourProcess={serviceData.ourProcess} />
+    ) : null,
+
+  techStackMobile: (serviceData) =>
+    serviceData.techStackMobile?.isVisible ? (
+      <TechStackMobile techStackMobile={serviceData.techStackMobile} />
     ) : null,
 
   whatMissing: (serviceData) =>

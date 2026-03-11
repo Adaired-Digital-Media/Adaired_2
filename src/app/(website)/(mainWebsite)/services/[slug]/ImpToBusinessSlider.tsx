@@ -133,7 +133,7 @@ export default function ImpToBusinessSlider({
                             {item?.button && (
                                 <p
                                     onClick={() => setOpen && setOpen(!open)}
-                                    className="absolute-[2rem] mt-auto flex cursor-pointer items-center justify-center gap-2 pt-6 text-[#FB9100] lg:justify-start"
+                                    className="absolute-[2rem] mt-auto flex cursor-pointer w-fit items-center justify-center gap-2 pt-6 text-[#FB9100] lg:justify-start"
                                 >
                                     <span className="text-[16px]">{item.button}</span>
                                     <MdOutlineArrowOutward />
