@@ -3,7 +3,6 @@ import Image from 'next/image';
 import React, { useRef, useState } from 'react';
 import logo from '../../../../../public/Layer_1.svg';
 import MaxWidthWrapper from '../../components/MaxWidthWrapper';
-import Button from '../Button';
 import { routes } from '../../../../config/routes';
 import {
   MdKeyboardArrowDown,
@@ -11,14 +10,12 @@ import {
 } from 'react-icons/md';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import img from '../../../../../public/assets/triexgagykxxpxhfvx8e.webp';
 import { IoReorderThreeOutline } from 'react-icons/io5';
 import { IoClose } from 'react-icons/io5';
 import { MdKeyboardDoubleArrowLeft } from 'react-icons/md';
 import SaveAndCancel from '../SaveAndCancel';
 import { GoArrowUpRight } from 'react-icons/go';
 import { MdArrowOutward } from 'react-icons/md';
-import { AiOutlineSetting } from 'react-icons/ai';
 import contactus from '../../../../../public/assets/header/Group 1000006721.svg';
 
 const Header = () => {
@@ -124,7 +121,6 @@ const Header = () => {
                                           : 'text-gray-600 hover:text-[#FB9100]'
                                       }`}
                                     >
-                                      {/* <span className="h-2 w-2 rounded bg-gray-300"></span> */}
                                       {item.name}
                                       <MdArrowOutward
                                         size={16}
@@ -138,90 +134,8 @@ const Header = () => {
                           </div>
                         ) : (
                           /* ===================== SERVICES MEGA MENU ===================== */
-                          // <div className="mx-auto rounded-2xl bg-white px-[2rem] py-[1.5rem] shadow-xl">
                           <div className="mx-auto rounded-2xl bg-white shadow-xl">
                             <div className="">
-                              {/* LEFT SERVICES GRID */}
-                              {/* <div className="grid grid-cols-4 gap-10">
-                                {menu?.subItems
-                                  ?.slice(0, 4)
-                                  .map((sub: any, i: number) => {
-                                    const index = i;
-
-                                    return (
-                                      <div
-                                        key={index}
-                                        onMouseEnter={() =>
-                                          setActiveMenuTab(index)
-                                        }
-                                        onMouseLeave={() =>
-                                          setActiveMenuTab(null)
-                                        }
-                                        className={`relative rounded-[1rem] border-r p-[1rem] last:border-none ${
-                                          activeMenuTab === index ||
-                                          isCardActive(sub)
-                                            ? 'bg-[#FB9100]'
-                                            : ''
-                                        }`}
-                                      >
-                                        <span>
-                                          <Image
-                                            src={sub?.icon}
-                                            width={43}
-                                            height={43}
-                                            alt={sub?.icon}
-                                            className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index || isCardActive(sub) ? 'bg-[#FFFFFF]' : ''}`}
-                                          />
-                                        </span>
-
-                                        <Link
-                                          href={sub.href}
-                                          className={`my-[0.65rem] block text-[18px] font-semibold transition ${
-                                            activeMenuTab === index ||
-                                            isCardActive(sub)
-                                              ? 'text-white'
-                                              : ''
-                                          }`}
-                                        >
-                                          {sub.name}
-                                        </Link>
-
-                                        <div className="space-y-0.5">
-                                          {sub.subItems?.map(
-                                            (item: any, j: number) => {
-                                              const isActive = isPathActive(
-                                                item.href
-                                              );
-
-                                              return (
-                                                <Link
-                                                  key={j}
-                                                  href={item.href}
-                                                  className={`group flex items-center gap-2 transition ${activeMenuTab === index || isCardActive(sub) ? 'text-white' : ''} `}
-                                                >
-                                                  <span
-                                                    className={`text-[15px] ${isActive && 'font-bold'}`}
-                                                  >
-                                                    {item.name}
-                                                  </span>
-
-                                                  <GoArrowUpRight
-                                                    className={`transition-all duration-200 ${
-                                                      isActive
-                                                        ? 'opacity-100'
-                                                        : 'opacity-0 group-hover:opacity-100'
-                                                    }`}
-                                                  />
-                                                </Link>
-                                              );
-                                            }
-                                          )}
-                                        </div>
-                                      </div>
-                                    );
-                                  })}
-                              </div> */}
-
                               <div className="my-[0.5rem] grid grid-cols-4 items-stretch gap-1">
                                 <div className="col-span-3 p-[2rem]">
                                   <div className="grid grid-cols-3 gap-2">
@@ -478,32 +392,34 @@ const Header = () => {
                                   </div>
                                 </div>
 
-                                <div className="relative flex h-full flex-col justify-between rounded-xl bg-[#F6F1E8] p-[2.5rem]">
-                                  <div>
-                                    <p className="text-[24px]">Let’s Build</p>
-                                    <h2 className="text-[2rem] font-bold text-black">
-                                      Something Great
-                                    </h2>
+                                <div className="p-[1.5rem]">
+                                  <div className="relative flex h-full flex-col justify-between rounded-xl bg-[#F6F1E8] p-[2.5rem]">
+                                    <div>
+                                      <p className="text-[24px]">Let’s Build</p>
+                                      <h2 className="text-[2rem] font-bold text-black">
+                                        Something Great
+                                      </h2>
 
-                                    <p className="mt-4 text-gray-600">
-                                      Talk To Our Experts Today.
-                                    </p>
+                                      <p className="mt-4 text-gray-600">
+                                        Talk To Our Experts Today.
+                                      </p>
 
-                                    <Link
-                                      href="/contact"
-                                      className="mt-8 inline-block rounded-full border border-black px-5 py-2 text-sm transition hover:bg-black hover:text-white"
-                                    >
-                                      Contact Us
-                                    </Link>
-                                  </div>
+                                      <Link
+                                        href="/contact"
+                                        className="mt-8 inline-block rounded-full border border-black px-5 py-2 text-sm transition hover:bg-black hover:text-white"
+                                      >
+                                        Contact Us
+                                      </Link>
+                                    </div>
 
-                                  <div className="relative mt-8 h-full">
-                                    <Image
-                                      src={contactus}
-                                      fill
-                                      alt="illustration"
-                                      className="w-full object-contain object-bottom"
-                                    />
+                                    <div className="relative mt-8 h-full">
+                                      <Image
+                                        src={contactus}
+                                        fill
+                                        alt="illustration"
+                                        className="w-full object-contain object-bottom"
+                                      />
+                                    </div>
                                   </div>
                                 </div>
                               </div>
