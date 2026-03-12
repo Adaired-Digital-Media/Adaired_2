@@ -22,6 +22,7 @@ import WhatMakesAdaired from './WhatMakesAdaired';
 import OurProcess from './OurProcess';
 import TechStackMobile from './TechStackMobile';
 import WhatIncluded from './WhatIncluded';
+import IndustriesWeServe from './IndustriesWeServe';
 import DominateAI from './DominateAI';
 import ReadyToStart from './ReadyToStart';
 import ImportantToBussiness from './ImportantToBussiness';
@@ -58,6 +59,7 @@ export type SectionKey =
   | 'whatMissing'
   | 'stopStruggling'
   | 'whatMkeDeferent'
+  | 'industriesWeServe'
   | 'leadingToolsForPerformence'
   | 'getplan'
   | 'faqData'
@@ -186,6 +188,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   whatMkeDeferent: (serviceData) =>
     serviceData.whatMkeDeferent?.isVisible ? (
       <WhatMakesAdaired whatMkeDeferent={serviceData.whatMkeDeferent} />
+    ) : null,
+
+  industriesWeServe: (serviceData) =>
+    serviceData.industriesWeServe?.isVisible ? (
+      <IndustriesWeServe industriesWeServe={serviceData.industriesWeServe} />
     ) : null,
 
   leadingToolsForPerformence: (serviceData) =>
