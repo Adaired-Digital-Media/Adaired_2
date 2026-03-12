@@ -536,7 +536,7 @@ export const ServiceSectionData = {
           label: 'LLM SEO/LLMO',
           title: 'LLM SEO/LLMO',
           description: `Adaired’s LLM SEO services enable agencies to offer next-generation search optimization under their own brand. We handle the strategy and execution needed to optimize client content for AI-driven search and generative models, while you maintain full ownership of client relationships and reporting.`,
-          link: '/services/ai-seo-india',
+          link: '/services/llm-seo-india',
         },
         {
           icon: WhiteLabelFacebookAds,
@@ -752,7 +752,7 @@ export const ServiceSectionData = {
           label: 'Shopify Development',
           title: 'Shopify Development',
           description: `Launch and grow your online store with our Shopify Development services. We design, build, and customize responsive, secure, and user-friendly e-commerce websites. From product management to payment integration, our solutions drive sales, enhance customer experience, and help your business succeed in the competitive world of online retail.`,
-          link: '/services/web-design-development-company',
+          link: '/services/shopify-development-company-india',
         },
         {
           icon: amazon,

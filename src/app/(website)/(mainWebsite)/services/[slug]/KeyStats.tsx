@@ -72,16 +72,14 @@ const KeyStats = ({ keyStats }: any) => {
                   <IoArrowForwardCircleOutline
                     size={30}
                     onClick={handlePrev}
-                    className={`rotate-180 cursor-pointer ${
-                      index === 0 ? 'cursor-not-allowed opacity-40' : ''
-                    }`}
+                    className={`rotate-180 cursor-pointer ${index === 0 ? 'cursor-not-allowed opacity-40' : ''
+                      }`}
                   />
                   <IoArrowForwardCircleOutline
                     size={30}
                     onClick={handleNext}
-                    className={`cursor-pointer ${
-                      index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''
-                    }`}
+                    className={`cursor-pointer ${index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''
+                      }`}
                   />
                 </div>
               </div>
@@ -120,9 +118,8 @@ const KeyStats = ({ keyStats }: any) => {
                         alt="img"
                       />
                       <p
-                        className={`pt-[2rem] transition-colors duration-300 ${
-                          isActive === idx ? 'text-white' : 'text-black'
-                        }`}
+                        className={`pt-[2rem] transition-colors duration-300 ${isActive === idx ? 'text-white' : 'text-black'
+                          }`}
                       >
                         {item?.desctioption}
                       </p>
@@ -192,18 +189,28 @@ const KeyStats = ({ keyStats }: any) => {
             <div className="grid grid-cols-1 items-stretch gap-5 pt-[2rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
               <div className="relative aspect-[4/3] md:h-full md:w-full lg:aspect-auto">
                 <Image
-                  src={keyStatsImg}
+                  src={keyStats?.img}
                   alt="img"
                   fill
                   className="object-fill"
                 />
-                <Image
-                  src={rocket}
+                {/* <Image
+                  src={keyStats?.rocketImg ? keyStats.rocketImg : undefined}
                   width={115}
                   height={123}
                   alt="rocket"
                   className="left-[0.5 rem] absolute top-[-1rem]"
-                />
+                /> */}
+                
+                {keyStats?.rocketImg && (
+                  <Image
+                    src={keyStats.rocketImg}
+                    width={115}
+                    height={123}
+                    alt="rocket"
+                    className="left-[0.5rem] absolute top-[-1rem]"
+                  />
+                )}
               </div>
               <div className="mt-7 space-y-4">
                 {keyStats?.list?.map((item: any, index: any) => (
@@ -270,9 +277,8 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index && `text-[${keyStats?.textColor || "text-[#000000]"}]`} ${
-                          activeTab === index ? 'font-semibold' : ''
-                        }`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index && `text-[${keyStats?.textColor || "text-[#000000]"}]`} ${activeTab === index ? 'font-semibold' : ''
+                          }`}
                       >
                         {item.desctioption}
                       </p>
@@ -313,11 +319,10 @@ const KeyStats = ({ keyStats }: any) => {
               />
             </div>
             <div
-              className={`grid grid-cols-1 gap-4 pt-[2rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
-                isVisible
+              className={`grid grid-cols-1 gap-4 pt-[2rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${isVisible
                   ? 'translate-y-0 opacity-100'
                   : 'translate-y-10 opacity-0'
-              }`}
+                }`}
             >
               {keyStats?.list?.map((item: any, idx: any) => {
                 const isHovered = hover === idx;
@@ -330,20 +335,17 @@ const KeyStats = ({ keyStats }: any) => {
                     style={{
                       transitionDelay: `${idx * 280}ms`,
                     }}
-                    className={`rounded-3xl border-r-[1px] border-r-[#00000026]/10 p-[1.8rem] transition-all duration-700 last:border-r-0 lg:p-[1rem] xl:px-[1.75rem] xl:py-[1.5rem] 1360:p-[1rem] 1400:p-[1rem] ${
-                      isVisible
+                    className={`rounded-3xl border-r-[1px] border-r-[#00000026]/10 p-[1.8rem] transition-all duration-700 last:border-r-0 lg:p-[1rem] xl:px-[1.75rem] xl:py-[1.5rem] 1360:p-[1rem] 1400:p-[1rem] ${isVisible
                         ? 'translate-y-0 opacity-100'
                         : 'translate-y-10 opacity-0'
-                    } ${
-                      isHovered
+                      } ${isHovered
                         ? 'bg-gradient-to-br from-[#FB9100] to-[#000000]'
                         : ''
-                    }`}
+                      }`}
                   >
                     <h2
-                      className={`F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0 ${
-                        isHovered ? 'bg-black/40 text-white' : ''
-                      }`}
+                      className={`F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0 ${isHovered ? 'bg-black/40 text-white' : ''
+                        }`}
                     >
                       {`0${idx + 1}`}
                     </h2>

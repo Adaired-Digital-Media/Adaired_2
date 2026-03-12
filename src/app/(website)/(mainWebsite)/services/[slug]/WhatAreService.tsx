@@ -9,7 +9,7 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 import { BiSolidBadgeCheck } from 'react-icons/bi';
-
+import { BsCheckAll } from 'react-icons/bs';
 const WhatAreService = ({ whatareaiseo }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
@@ -182,11 +182,17 @@ const WhatAreService = ({ whatareaiseo }: any) => {
       )}
       {whatareaiseo?.isVariant === '04' && (
         <div
-          className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
+          className={`relative bg-gradient-to-b from-black to-[#051C40] py-[3rem] lg:py-0`}
+          style={{
+            paddingTop: whatareaiseo?.paddingY,
+            paddingBottom: whatareaiseo?.paddingY,
+          }}
         >
-          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
+          <MaxWidthWrapper
+            className={`block ${whatareaiseo?.isRowReverse && 'flex-row-reverse'} justify-between gap-[2rem] lg:flex`}
+          >
             <div
-              className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`my-auto w-[100%] lg:w-[${whatareaiseo.width}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
@@ -237,28 +243,16 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   );
                 })}
               </div>
-
-              {/* {whatareaiseo?.isBgWhite && (
-                <SaveAndCancel
-                  name={whatareaiseo?.button}
-                  isIcon={true}
-                  isBgWhite={true}
-                  handleClick={() => setOpen(!open)}
-                  className="my-[2rem] w-[16rem]"
-                />
-              )} */}
             </div>
 
-            <div
-              ref={ref}
-              className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-start lg:justify-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
-            >
-              <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
+            <div ref={ref} className={` my-auto`}>
+              <Image src={whatareaiseo?.img} alt="" />
             </div>
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
         </div>
       )}
+
       {whatareaiseo?.isVariant === '05' && (
         <div
           className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'}`}
@@ -642,15 +636,30 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
-                {whatareaiseo?.data?.map((item: any) => {
-                  return (
+                {whatareaiseo?.data?.map((item: any, index: number) => (
+                  <div key={index}>
                     <p
-                      className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                      className={`py-2 text-center lg:text-justify ${
+                        whatareaiseo?.isBgWhite ? 'text-white' : ''
+                      }`}
                     >
                       {item?.desctioption}
                     </p>
-                  );
-                })}
+
+                    {item?.list && (
+                      <div className="space-y-1 py-4 pl-2">
+                        {item.list.map((listItem: any, i: number) => (
+                          <div className="flex items-center gap-2">
+                            <BsCheckAll size={22} className="text-black" />
+                            <p key={i} className="font-bold">
+                              {listItem}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
 
               {whatareaiseo?.button && (

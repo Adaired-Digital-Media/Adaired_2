@@ -6,7 +6,7 @@ import banner_img_4 from '../../../../../../public/assets/bannerImg/Group 100000
 import banner_img_2 from '../../../../../../public/assets/bannerImg/Group 1000006023.svg';
 import banner_img_3 from '../../../../../../public/assets/bannerImg/Group 1000006022.svg';
 import banner_img_1 from '../../../../../../public/assets/bannerImg/Group 1000006025.svg';
-
+import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 import hero_banner from '../../../../../../public/assets/images/home/hero_banner-bg.png';
 import google_rate from '../../../../../../public/google_rate.svg';
 import google_review from '../../../../../../public/image 54.png';
@@ -20,6 +20,8 @@ const Banner = ({ banner }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const images = ['img1', 'img2', 'img3', 'img4'] as const;
   const [activeIndex, setActiveIndex] = useState(0);
+
+  const [open, setOpen] = useState(false);
 
   const [active, setActive] = useState<null | 'img3' | 'img2' | 'img1'>(null);
 
@@ -135,7 +137,8 @@ const Banner = ({ banner }: any) => {
                     <SaveAndCancel
                       name={banner?.button}
                       isIcon={true}
-                      handleClick={() => router.push('/contact')}
+                      // handleClick={() => router.push('/contact')}
+                      handleClick={() => setOpen(!open)}
                       // className="w-[18rem] lg:w-[14rem]"
                       // className={`w-[${banner?.width}] lg:w-[${banner?.widthLg}]`}
                     />
@@ -238,8 +241,8 @@ const Banner = ({ banner }: any) => {
             )}
             {banner?.code === '02' && (
               <div
-                // className={`relative z-10 block justify-between gap-[3rem] ${banner?.isAbsolute ? 'pt-[6rem]' : 'py-[6rem]'} lg:flex`}
-                className={`relative z-10 block justify-between gap-[3rem] py-[6rem] lg:flex`}
+                className={`relative z-10 block justify-between gap-[3rem] ${banner?.isAbsolute ? 'pt-[6rem]' : 'py-[6rem]'} lg:flex`}
+                // className={`relative z-10 block justify-between gap-[3rem] py-[6rem] lg:flex`}
               >
                 <div
                   className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[${banner?.width || '50%'}] ${banner?.isAbsolute && 'pb-[0rem] lg:pb-[6rem]'} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
@@ -397,7 +400,8 @@ const Banner = ({ banner }: any) => {
                     <SaveAndCancel
                       name={banner?.button}
                       isIcon={true}
-                      handleClick={() => router.push('/contact')}
+                      // handleClick={() => router.push('/contact')}
+                      handleClick={() => setOpen(!open)}
                     />
                   </div>
                 </div>
@@ -415,6 +419,8 @@ const Banner = ({ banner }: any) => {
                 </div>
               </div>
             )}
+
+            <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
           </div>
         )}
       </MaxWidthWrapper>

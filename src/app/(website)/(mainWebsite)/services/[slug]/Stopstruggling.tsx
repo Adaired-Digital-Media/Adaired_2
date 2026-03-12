@@ -36,7 +36,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
                 {stopStruggling?.title}
               </h1>
             ) : (
-              <h2 className="mx-auto w-[100%] text-center text-[#FFFFFF]">
+              <h2 className="mx-auto w-[100%] pb-4 text-center text-[#FFFFFF]">
                 {stopStruggling?.title}
               </h2>
             )}

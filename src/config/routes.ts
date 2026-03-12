@@ -106,7 +106,7 @@ export const routes: {
     {
       label: 'About Us',
       value: 'about',
-      href: '/about',
+      href: '/about-us',
     },
     {
       label: 'Services',
@@ -253,7 +253,7 @@ export const routes: {
             },
             {
               name: 'Shopify Development',
-              href: '/services/shopify-development',
+              href: '/services/shopify-development-company-india',
             },
             {
               name: 'ECommerce Development',
@@ -276,7 +276,7 @@ export const routes: {
             // },
             {
               name: 'LMM SEO/LLMO',
-              href: '#',
+              href: '/services/llm-seo-india',
             },
             {
               name: 'GEO',
