@@ -137,77 +137,6 @@ export const routes: {
         //   ],
         // },
         {
-          icon: icon_2,
-          name: 'Link Building',
-          href: '/services/link-building-agency-india',
-          subItems: [
-            {
-              name: 'High Authority Link Building',
-              href: '#',
-            },
-            {
-              name: 'Gest Post Links',
-              href: '#',
-            },
-            {
-              name: 'Niche Edits',
-              href: '#',
-            },
-            {
-              name: 'Press Releases',
-              href: '#',
-            },
-          ],
-        },
-
-        {
-          icon: icon_3,
-          name: 'Social Media Management',
-          href: '/services/strategic-social-media-management',
-          subItems: [
-            {
-              name: 'Port Creation',
-              href: '#',
-            },
-            {
-              name: 'Content Calendar',
-              href: '#',
-            },
-            {
-              name: 'Reel Editing',
-              href: '#',
-            },
-            {
-              name: 'Creatives',
-              href: '#',
-            },
-          ],
-        },
-        {
-          icon: icon_4,
-          name: 'Content Writing & Marketing',
-          href: '/services/expert-content-solutions',
-          subItems: [
-            {
-              name: 'Article Writing',
-              href: '#',
-            },
-            {
-              name: 'Blog Writing',
-              href: '#',
-            },
-            {
-              name: 'Web Content',
-              href: '#',
-            },
-            {
-              name: 'ECommerce Content',
-              href: '#',
-            },
-          ],
-        },
-
-        {
           icon: icon_5,
           name: 'Search Engine Optimization',
           href: '/services/seo-company-india',
@@ -223,45 +152,6 @@ export const routes: {
             {
               name: 'ECommerce SEO',
               href: '#',
-            },
-          ],
-        },
-        {
-          icon: icon_6,
-          name: 'Local SEO',
-          href: '/services/local-seo-company-india',
-          subItems: [
-            {
-              name: 'GBP Only',
-              href: '/services/gmb-optimization-india',
-            },
-            {
-              name: 'GBP + Website',
-              href: '/services/gmb-website-seo-india',
-            },
-          ],
-        },
-
-        {
-          icon: icon_7,
-          name: 'Web Design & Development',
-          href: '/services/web-design-development-company',
-          subItems: [
-            {
-              name: 'Wordpress Development',
-              href: '/services/wordpress-development-company-india',
-            },
-            {
-              name: 'Shopify Development',
-              href: '/services/shopify-development-company-india',
-            },
-            {
-              name: 'ECommerce Development',
-              href: '/services/web-design-development-company',
-            },
-            {
-              name: 'Custom Web Development',
-              href: '/services/custom-web-development',
             },
           ],
         },
@@ -288,7 +178,44 @@ export const routes: {
             },
           ],
         },
-
+        {
+          icon: icon_6,
+          name: 'Local SEO',
+          href: '/services/local-seo-company-india',
+          subItems: [
+            {
+              name: 'GBP Only',
+              href: '/services/gmb-optimization-india',
+            },
+            {
+              name: 'GBP + Website',
+              href: '/services/gmb-website-seo-india',
+            },
+          ],
+        },
+        {
+          icon: icon_2,
+          name: 'Link Building',
+          href: '/services/link-building-agency-india',
+          subItems: [
+            {
+              name: 'High Authority Link Building',
+              href: '#',
+            },
+            {
+              name: 'Gest Post Links',
+              href: '#',
+            },
+            {
+              name: 'Niche Edits',
+              href: '#',
+            },
+            {
+              name: 'Press Releases',
+              href: '#',
+            },
+          ],
+        },
         {
           icon: icon_9,
           name: 'Pay Per Click & SMM',
@@ -313,6 +240,52 @@ export const routes: {
           ],
         },
         {
+          icon: icon_3,
+          name: 'Social Media Management',
+          href: '/services/strategic-social-media-management',
+          subItems: [
+            {
+              name: 'Port Creation',
+              href: '#',
+            },
+            {
+              name: 'Content Calendar',
+              href: '#',
+            },
+            {
+              name: 'Reel Editing',
+              href: '#',
+            },
+            {
+              name: 'Creatives',
+              href: '#',
+            },
+          ],
+        },
+        {
+          icon: icon_7,
+          name: 'Web Design & Development',
+          href: '/services/web-design-development-company',
+          subItems: [
+            {
+              name: 'Wordpress Development',
+              href: '/services/wordpress-development-company-india',
+            },
+            {
+              name: 'Shopify Development',
+              href: '/services/shopify-development-company-india',
+            },
+            {
+              name: 'ECommerce Development',
+              href: '/services/web-design-development-company',
+            },
+            {
+              name: 'Custom Web Development',
+              href: '/services/custom-web-development',
+            },
+          ],
+        },
+        {
           icon: icon_10,
           name: 'Mobile App Development',
           href: '/services/mobile-apps-development-india',
@@ -331,6 +304,29 @@ export const routes: {
             },
             {
               name: 'Wearables',
+              href: '#',
+            },
+          ],
+        },
+        {
+          icon: icon_4,
+          name: 'Content Writing & Marketing',
+          href: '/services/expert-content-solutions',
+          subItems: [
+            {
+              name: 'Article Writing',
+              href: '#',
+            },
+            {
+              name: 'Blog Writing',
+              href: '#',
+            },
+            {
+              name: 'Web Content',
+              href: '#',
+            },
+            {
+              name: 'ECommerce Content',
               href: '#',
             },
           ],

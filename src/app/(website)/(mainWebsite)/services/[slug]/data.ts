@@ -18378,7 +18378,7 @@ brand appears in AI summaries and citations.`,
           desctioption: `Everything In Starter`,
           list: [
             {
-              des: [`AI SEO, GEO, AEO, LLMs"`],
+              des: [`AI SEO, GEO, AEO, LLMs`],
             },
             {
               des: [`Unlimited Secondary Keywords`],
