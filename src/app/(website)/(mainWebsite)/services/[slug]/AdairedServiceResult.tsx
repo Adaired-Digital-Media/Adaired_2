@@ -267,7 +267,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
       )}
       {aiseoResult?.isVariant === '03' && (
         <div
-          className={`py-[3rem] lg:py-[4rem] ${aiseoResult?.isBgColor ? 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]' : 'bg-[#FFFFFF]'}`}
+          className={`py-[3rem] lg:py-[4rem] ${aiseoResult?.bgColor}`}
         >
           <MaxWidthWrapper>
             <div
@@ -381,7 +381,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                 <div
                   className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] pr-[10%] lg:w-[42%]' : 'flex w-[100%] items-center justify-center'}`}
                 >
-                  <Heading title={aiseoResult?.heading} />
+                  <Heading
+                    title={aiseoResult?.heading}
+                    breakIndex={aiseoResult?.breakIndex}
+                  />
                 </div>
                 <div
                   className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] lg:w-[55%]' : 'w-[0%]'}`}

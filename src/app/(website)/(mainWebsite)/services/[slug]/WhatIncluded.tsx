@@ -179,9 +179,9 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                           className="absolute bottom-[2rem] left-[0rem] flex w-full lg:w-fit cursor-pointer items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
                         >
                           <span className="text-[18px]">
-                            {'Start a Conversation'}
+                            {card?.linkText}
                           </span>
-                          <MdOutlineArrowOutward />
+                          {card?.showIcon && <MdOutlineArrowOutward />}
                         </p>
                       </div>
                     </div>

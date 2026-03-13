@@ -267,52 +267,6 @@ const Banner = ({ banner }: any) => {
                           </div>
                         )}
                         {banner?.isStyleHeading ? (
-                          // <h1 className="text-center capitalize lg:text-left">
-                          //   {banner?.headingParts
-                          //     ?.map((part: any) => part.text)
-                          //     .join(' ')
-                          //     .split(' ')
-                          //     .map((word: string, i: number) => {
-                          //       const part = banner.headingParts.find(
-                          //         (p: any) => p.text.includes(word)
-                          //       );
-
-                          //       return (
-                          //         <span
-                          //           key={i}
-                          //           style={{
-                          //             color: part?.color,
-                          //             fontWeight: part?.weight,
-                          //           }}
-                          //           className="text-[3.65rem] leading-[4.65rem]"
-                          //         >
-                          //           {word}{' '}
-                          //           {banner?.breakIndex === i + 1 && (
-                          //             <br className="hidden md:block" />
-                          //           )}
-                          //         </span>
-                          //       );
-                          //     })}
-                          // </h1>
-                          // <h1 className="text-center capitalize lg:text-left">
-                          //   {banner?.headingParts?.map(
-                          //     (part: any, i: number) => (
-                          //       <span
-                          //         key={i}
-                          //         style={{
-                          //           color: part.color,
-                          //           fontWeight: part.weight,
-                          //         }}
-                          //         className="text-[3.65rem] leading-[4.65rem]"
-                          //       >
-                          //         {part.text}
-                          //         {banner?.breakIndex === i + 1 && (
-                          //           <br className="hidden md:block" />
-                          //         )}
-                          //       </span>
-                          //     )
-                          //   )}
-                          // </h1>
                           <h1 className="text-center capitalize lg:text-left">
                             {banner?.headingParts
                               ?.flatMap((part: any) =>

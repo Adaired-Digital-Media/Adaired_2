@@ -151,7 +151,7 @@ export const routes: {
             },
             {
               name: 'ECommerce SEO',
-              href: '#',
+              href: '/services/ecommerce-seo-agency-india',
             },
           ],
         },
@@ -277,11 +277,11 @@ export const routes: {
             },
             {
               name: 'ECommerce Development',
-              href: '/services/web-design-development-company',
+              href: '/services/ecommerce-development-company-india',
             },
             {
               name: 'Custom Web Development',
-              href: '/services/custom-web-development',
+              href: '/services/custom-web-development-company',
             },
           ],
         },

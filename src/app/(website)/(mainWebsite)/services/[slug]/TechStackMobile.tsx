@@ -65,39 +65,42 @@ const TechStackMobile = ({ techStackMobile }: any) => {
             <MaxWidthWrapper className="py-[3rem] lg:py-[4rem]">
                 <div className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
                     <Heading
-                        breakIndex={8}
-                        title={`Tech Stack We Use in Our Mobile App Development Services`}
+                        breakIndex={techStackMobile?.breakIndex}
+                        title={techStackMobile?.heading}
+                        description={techStackMobile?.description}
                         isInCenter={true}
                         isBgWhite={true}
                     />
                 </div>
 
-                <div className={`px-4 lg:px-0 mb-[2rem] lg:mb-[3rem] mt-[2rem] flex overflow-hidden justify-start lg:justify-center gap-[1rem] lg:rounded-full lg:border lg:border-[#3051B3C]/17 transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"}`}>
-                    {techStackMobile?.navItems?.map((item: any, idx: number) => (
-                        <p
-                            key={idx}
-                            ref={(el) => { tabRefs.current[idx] = el }}
-                            onClick={() => setIsActiveTab(idx)}
-                            className={`my-auto cursor-pointer rounded-full border border-[#3051B3C]/17 lg:border-none px-[2.3rem] py-[0.5rem] lg:py-[0.8rem] whitespace-nowrap transition-all duration-300 ease-in-out ${isActiveTab === idx
-                                ? "bg-[#FB9100] lg:scale-105"
-                                : "hover:bg-[#FB9100] group"
-                                }`}
-                        >
-                            <p className={`lg:hidden text-[14px] lg:text-[16px] transition-all duration-300 ease-in-out ${isActiveTab === idx
-                                ? "text-white"
-                                : "group-hover:text-white"
-                                }`}>
-                                {techStackMobile?.mobileNavItems[idx]}
-                            </p>
+                <div className='flex items-center justify-center'>
+                    <div className={`w-fit px-4 lg:px-0 mb-[2rem] lg:mb-[3rem] mt-[2rem] flex overflow-hidden justify-start lg:justify-center gap-[1rem] lg:rounded-full lg:border lg:border-[#3051B3C]/17 transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"}`}>
+                        {techStackMobile?.navItems?.map((item: any, idx: number) => (
+                            <p
+                                key={idx}
+                                ref={(el) => { tabRefs.current[idx] = el }}
+                                onClick={() => setIsActiveTab(idx)}
+                                className={`my-auto cursor-pointer rounded-full border border-[#3051B3C]/17 lg:border-none px-[2.3rem] py-[0.5rem] lg:py-[0.8rem] whitespace-nowrap transition-all duration-300 ease-in-out ${isActiveTab === idx
+                                    ? "bg-[#FB9100] lg:scale-105"
+                                    : "hover:bg-[#FB9100] group"
+                                    }`}
+                            >
+                                <p className={`lg:hidden text-[14px] lg:text-[16px] transition-all duration-300 ease-in-out ${isActiveTab === idx
+                                    ? "text-white"
+                                    : "group-hover:text-white"
+                                    }`}>
+                                    {techStackMobile?.mobileNavItems[idx]}
+                                </p>
 
-                            <p className={`hidden lg:inline text-[14px] lg:text-[16px] transition-all duration-300 ease-in-out ${isActiveTab === idx
-                                ? "text-white"
-                                : "group-hover:text-white"
-                                }`}>
-                                {item}
+                                <p className={`hidden lg:inline text-[14px] lg:text-[16px] transition-all duration-300 ease-in-out ${isActiveTab === idx
+                                    ? "text-white"
+                                    : "group-hover:text-white"
+                                    }`}>
+                                    {item}
+                                </p>
                             </p>
-                        </p>
-                    ))}
+                        ))}
+                    </div>
                 </div>
 
                 <div
@@ -132,6 +135,8 @@ const TechStackMobile = ({ techStackMobile }: any) => {
                         />
                     ))}
                 </div>
+
+                <p className='text-center pt-[2rem]'>{techStackMobile?.ContentDescription}</p>
             </MaxWidthWrapper>
         </section >
     );

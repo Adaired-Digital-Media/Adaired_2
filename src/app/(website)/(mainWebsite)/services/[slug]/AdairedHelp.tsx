@@ -61,15 +61,25 @@ const AdairedHelp = ({ adairedHelp }: any) => {
                 {item?.img ? (
                   <Image src={item.img} width={40} height={40} alt="icon" />
                 ) : (
-                  <div className={`text-[50px] font-semibold text-[${adairedHelp?.textColor || '#FB9100'}]  ${adairedHelp?.isnNumberBg ? `px-4 rounded-[0.7rem] bg-[${adairedHelp?.numberBg}]/50` : 'bg-[#FFFFFF]'}`}>
-                    {String(index + 1).padStart(2, '0')}
-                  </div>
-                )}
-                {/* <p className="pt-[1.5rem] font-bold">{item?.name}</p> */}
-                <h3 className="pt-[1.5rem]">{item?.name}</h3>
+                  // <div className={`text-[50px] font-semibold text-[${adairedHelp?.textColor || '#FB9100'}]  ${adairedHelp?.isnNumberBg ? `px-4 rounded-[0.7rem] bg-[${adairedHelp?.numberBg}]/50` : 'bg-[#FFFFFF]'}`}>
+                  //   {String(index + 1).padStart(2, '0')}
+                  // </div>
 
-                <div className="pt-2">
-                  {/* {item?.description?.map((desc: string, i: number) => (
+                  <div
+                    className={`text-[50px] font-semibold ${adairedHelp?.isnNumberBg ? 'px-4 rounded-[0.8rem]' : ''}`}
+                style={{
+                  color: adairedHelp?.textColor || '#FB9100',
+                  background: adairedHelp?.isnNumberBg ? adairedHelp?.numberBg : 'transparent',
+                }}
+                  >
+                {String(index + 1).padStart(2, '0')}
+              </div>
+            )}
+            {/* <p className="pt-[1.5rem] font-bold">{item?.name}</p> */}
+            <h3 className="pt-[1.5rem]">{item?.name}</h3>
+
+            <div className="pt-2">
+              {/* {item?.description?.map((desc: string, i: number) => (
                     <p key={i} className="my-3">
                       {desc}
                     </p>
@@ -77,55 +87,55 @@ const AdairedHelp = ({ adairedHelp }: any) => {
 
 
 
-                  {item?.description?.map((dec: any, index: number) => {
+              {item?.description?.map((dec: any, index: number) => {
 
-                    if (typeof dec === "string") {
-                      return (
-                        <p key={index} className="py-3">
-                          {dec}
+                if (typeof dec === "string") {
+                  return (
+                    <p key={index} className="py-3">
+                      {dec}
+                    </p>
+                  );
+                }
+
+                if (typeof dec === "object") {
+                  return (
+                    <div key={index} className="py-3">
+                      {dec?.desctioption && (
+                        <p className="pb-[1rem]">
+                          {dec.desctioption}
                         </p>
-                      );
-                    }
+                      )}
 
-                    if (typeof dec === "object") {
-                      return (
-                        <div key={index} className="py-3">
-                          {dec?.desctioption && (
-                            <p className="pb-[1rem]">
-                              {dec.desctioption}
-                            </p>
-                          )}
-
-                          {dec?.list && (
-                            <ul className="space-y-3">
-                              {dec.list.map((listItem: any, i: number) => (
-                                <li key={i}>
-                                  {listItem?.des?.map((d: string, di: number) => (
-                                    <div
-                                      key={di}
-                                      className="flex items-center gap-3"
-                                    >
-                                      <TbPointFilled size={11} />
-                                      <p className='text-left'>{d}</p>
-                                    </div>
-                                  ))}
-                                </li>
+                      {dec?.list && (
+                        <ul className="space-y-3">
+                          {dec.list.map((listItem: any, i: number) => (
+                            <li key={i}>
+                              {listItem?.des?.map((d: string, di: number) => (
+                                <div
+                                  key={di}
+                                  className="flex items-center gap-3"
+                                >
+                                  <TbPointFilled size={11} />
+                                  <p className='text-left'>{d}</p>
+                                </div>
                               ))}
-                            </ul>
-                          )}
-                        </div>
-                      );
-                    }
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  );
+                }
 
-                    return null;
-                  })}
-                </div>
-              </div>
-            ))}
+                return null;
+              })}
+            </div>
           </div>
+            ))}
         </div>
-      </MaxWidthWrapper>
     </div>
+      </MaxWidthWrapper >
+    </div >
   );
 };
 
