@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Get easy-to-understand tips and new ideas from Adaired’s blogs. From practical tips to interesting ideas, there is something for everyone. Start exploring today!',
   alternates: {
-    canonical: 'https://www.adaired.com/blog',
+    canonical: 'https://adaired.com/blog',
   },
 };
 

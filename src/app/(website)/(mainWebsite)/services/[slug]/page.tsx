@@ -24,12 +24,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: serviceData?.metaDetails?.title,
       description: serviceData?.metaDetails?.description,
       alternates: {
-        canonical: `https://www.adaired.com${serviceData?.metaDetails?.alternates?.canonical}`,
+        canonical: `https://adaired.com${serviceData?.metaDetails?.alternates?.canonical}`,
       },
       openGraph: {
         title: serviceData?.metaDetails?.title,
         description: serviceData?.metaDetails?.description,
-        url: `https://www.adaired.com${serviceData?.metaDetails?.alternates?.canonical}`,
+        url: `https://adaired.com${serviceData?.metaDetails?.alternates?.canonical}`,
         type: 'article',
         // images: serviceData?.featuredImage,
       },
