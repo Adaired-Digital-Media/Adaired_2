@@ -20,11 +20,10 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <Heading
               breakIndex={whatMkeDeferent?.breakIndex}
-              title={whatMkeDeferent?.heading}
+              headingParts={whatMkeDeferent?.headingParts}
               isInCenter={whatMkeDeferent?.isInCenter}
               description={whatMkeDeferent?.description}
               isDecVarticle={!whatMkeDeferent?.isInCenter}
-              isBgWhite={whatMkeDeferent?.bgColor && true}
             />
           </div>
         </div>

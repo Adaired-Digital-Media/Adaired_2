@@ -60,8 +60,7 @@ const GrowingBrands = () => {
           }`}
         >
           <Heading
-            isBgWhite={true}
-            title={'Trusted by Growing Brands'}
+            headingParts={[{text:'Trusted by Growing Brands', color:"#000000", weight:700}]}
             description=""
             isInCenter={true}
           />

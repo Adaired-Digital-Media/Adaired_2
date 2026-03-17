@@ -23,10 +23,12 @@ const Contact = () => {
   return (
     <>
       {/* <PageBanner title="Contact Us" /> */}
-      <PageBanner subTitle={'CONTACT US'} title={'Get In Touch'} />
+      <PageBanner
+        subTitle={'CONTACT US'}
+        headingParts={[{ text: 'Get In Touch', color: '#000000', weight: 700 }]}
+      />
 
       <section className="py-12 lg:py-24">
-
         {/* Cards */}
         <ContactCards />
 
@@ -34,7 +36,7 @@ const Contact = () => {
         <MaxWidthWrapper className="flex flex-col gap-14 lg:flex-row">
           <div className="flex-1 lg:w-1/2">
             {/* <ContactDetails /> */}
-            <div className="relative h-[360px] sm:h-[720px] lg:h-full w-full">
+            <div className="relative h-[360px] w-full sm:h-[720px] lg:h-full">
               <Image
                 src={reachout}
                 fill
@@ -48,7 +50,6 @@ const Contact = () => {
             <ContactForm />
           </div>
         </MaxWidthWrapper>
-
       </section>
 
       <section className="w-full">
@@ -73,10 +74,9 @@ const ContactCards = () => {
     <div className="py-12">
       <MaxWidthWrapper>
         <div className="grid grid-cols-1 gap-20 md:grid-cols-3 md:gap-6">
-
           {/* Card 1 */}
           <div className="relative rounded-xl bg-[#F9FCFF] p-6 pt-16 text-center">
-            <div className="absolute -top-8 left-1/2 flex h-20 w-20 -translate-x-1/2 mb-16 items-center justify-center rounded-full bg-[#1b5b97]">
+            <div className="absolute -top-8 left-1/2 mb-16 flex h-20 w-20 -translate-x-1/2 items-center justify-center rounded-full bg-[#1b5b97]">
               <Link
                 href="https://maps.app.goo.gl/CEMtUbQd1246YQ3c7"
                 target="_blank"
@@ -167,14 +167,11 @@ const ContactCards = () => {
               </Link>
             </p>
           </div>
-
         </div>
       </MaxWidthWrapper>
     </div>
 
-
     // OLD CODE
-
 
     // Pre-Commented
 
@@ -196,9 +193,6 @@ const ContactCards = () => {
     //     objectives.
     //   </p>
     // </div>
-
-
-
 
     // Active Code
 

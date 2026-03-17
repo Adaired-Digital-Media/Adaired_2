@@ -23,10 +23,9 @@ const WhatIncluded = ({ whatIncluded }: any) => {
               <div>
                 <Heading
                   breakIndex={whatIncluded?.breakIndex}
-                  title={whatIncluded?.heading}
+                  isDecVarticle={!whatIncluded?.isInCenter && true}
+                  headingParts={whatIncluded?.headingParts}
                   description={whatIncluded?.description}
-                  isInCenter={true}
-                  isBgWhite={true}
                 />
                 <div className="grid grid-cols-1 gap-6 pt-[1rem] lg:grid-cols-3">
                   {whatIncluded?.list?.map((card: any, index: number) => (
@@ -61,14 +60,10 @@ const WhatIncluded = ({ whatIncluded }: any) => {
 
                         <p
                           onClick={() => setOpen(!open)}
-                          className={`absolute cursor-pointer bottom-[2rem] left-[0rem] flex w-full lg:w-fit items-center justify-center gap-2 lg:left-[2rem] lg:justify-start`}
-                            style={{ color: card?.btnColor }}
+                          className={`absolute bottom-[2rem] left-[0rem] flex w-full cursor-pointer items-center justify-center gap-2 lg:left-[2rem] lg:w-fit lg:justify-start`}
+                          style={{ color: card?.btnColor }}
                         >
-                          <span
-                            className="text-[18px]"
-                          >
-                            {card.button}
-                          </span>
+                          <span className="text-[18px]">{card.button}</span>
                           <MdOutlineArrowOutward />
                         </p>
                       </div>
@@ -84,10 +79,9 @@ const WhatIncluded = ({ whatIncluded }: any) => {
               <div>
                 <Heading
                   breakIndex={5}
-                  title={whatIncluded?.heading}
+                  headingParts={whatIncluded?.headingParts}
                   description={whatIncluded?.description}
                   isInCenter={true}
-                  isBgWhite={true}
                 />
                 <div className="grid grid-cols-1 gap-6 pt-[1rem] lg:grid-cols-2">
                   {whatIncluded?.list?.map((card: any, index: number) => (
@@ -121,10 +115,11 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                         </div>
                         <p
                           onClick={() => setOpen(!open)}
-                          className={`${index === 0 && 'text-[#00769D]'} ${index === 1 && 'text-[#5E8E3E]'} ${index === 2 && 'text-[#D84861]'} ${index === 3 && 'text-[#7D79FD]'} absolute bottom-[2rem] left-[0rem] flex w-fit cursor-pointer items-center justify-center gap-2 lg:left-[2rem] lg:justify-start`}
+                          className={`${index === 0 && 'text-[#00769D]'} ${index === 1 && 'text-[#5E8E3E]'} ${index === 2 && 'text-[#D84861]'} ${index === 3 && 'text-[#7D79FD]'} absolute bottom-[2rem] left-[0rem] flex w-full cursor-pointer items-center justify-center gap-2 lg:left-[2rem] lg:w-fit lg:justify-start`}
                         >
                           <span className="text-[18px]">
-                            {'Get Your Free AI SEO Audit'}
+                            {/* {'Get Your Free AI SEO Audit'} */}
+                            {card.linkText}
                           </span>
                           <MdOutlineArrowOutward />
                         </p>
@@ -132,63 +127,6 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                     </div>
                   ))}
                   {whatIncluded?.isFetureProofVisible && <FutureProof />}
-                </div>
-              </div>
-            )}
-            {whatIncluded?.isVariant === '03' && (
-              <div className=''>
-                <Heading
-                  breakIndex={whatIncluded?.breakIndex}
-                  title={whatIncluded?.heading}
-                  description={whatIncluded?.description}
-                  isDecVarticle={true}
-                />
-                <div className="mt-[4rem] grid grid-cols-1 gap-6 lg:grid-cols-3">
-                  {whatIncluded?.list?.map((card: any, index: number) => (
-                    <div
-                      key={index}
-                      className={`relative rounded-2xl border bg-[#F3F3F3] px-[2rem] pb-[5rem] pt-[2rem] transition-all duration-1000 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
-                      style={{
-                        transitionDelay: isVisible ? '0ms' : `${index * 280}ms`,
-                      }}
-                    >
-                      <div className="">
-                        <div className="flex items-center justify-center lg:justify-start lg:justify-items-start">
-                          <Image
-                            src={card.icon}
-                            alt=""
-                            width={60}
-                            height={60}
-                          />
-                        </div>
-
-                        <h3 className="py-[1.5rem]">{card.title}</h3>
-
-                        <div className="space-y-4">
-                          {card.description?.map(
-                            (desc: string, index: number) => (
-                              <p key={index} className="leading-relaxed">
-                                {desc}
-                              </p>
-                            )
-                          )}
-                        </div>
-
-                        <p
-                          onClick={() => setOpen(!open)}
-                          className="absolute bottom-[2rem] left-[0rem] flex w-full lg:w-fit cursor-pointer items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
-                        >
-                          <span className="text-[18px]">
-                            {card?.linkText}
-                          </span>
-                          {card?.showIcon && <MdOutlineArrowOutward />}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                  {whatIncluded?.isFetureProofVisible && (
-                    <FutureProof handleClick={() => setOpen(true)} />
-                  )}
                 </div>
               </div>
             )}

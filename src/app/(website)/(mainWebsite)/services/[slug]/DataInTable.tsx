@@ -20,11 +20,10 @@ const DataInTable = ({ dataInTable }: any) => {
                         }`}
                 >
                     <Heading
-                        title={dataInTable?.heading}
+                        headingParts={dataInTable?.headingParts}
                         description={dataInTable?.description}
                         isInCenter={dataInTable?.isInCenter}
                         isDecVarticle={!dataInTable?.isInCenter}
-                        isBgWhite={dataInTable?.isBgWhite}
                     />
 
 

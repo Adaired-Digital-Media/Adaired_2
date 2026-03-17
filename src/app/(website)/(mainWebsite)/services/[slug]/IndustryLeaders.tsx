@@ -19,7 +19,7 @@ import client_12 from '../../../../../../public/assets/IndustryLeaders/Group 100
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
-const IndustryLeaders = () => {
+const IndustryLeaders = ({ industryLeaders }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const data = [
     client_1,
@@ -47,8 +47,9 @@ const IndustryLeaders = () => {
         >
           <Heading
             breakIndex={7}
-            title={'Industry Leaders That Rely On Us To Achieve AI Success'}
-            description=""
+            headingParts={industryLeaders?.headingParts}
+            description={industryLeaders?.description}
+            textColor={industryLeaders?.textColor}
             isInCenter={true}
           />
         </div>

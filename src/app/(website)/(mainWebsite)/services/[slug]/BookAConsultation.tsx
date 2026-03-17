@@ -7,7 +7,7 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 import Mask from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/MaskDots.png';
-
+import CldImage from '@/app/(website)/components/UI/CldImage';
 
 const BookAConsultation = ({ buildlinks }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
@@ -16,17 +16,18 @@ const BookAConsultation = ({ buildlinks }: any) => {
     <div>
       {buildlinks?.isVariant === '01' && (
         <div
-          className={`py-[3rem] lg:py-[2rem] ${buildlinks?.bgImg
-            ? ''
-            : buildlinks?.isBgWhite
-              ? 'bg-gradient-to-b from-black to-[#051C40]'
-              : 'bg-[#FFFCF8]'
-            }`}
+          className={`py-[3rem] lg:py-[2rem] ${
+            buildlinks?.bgImg
+              ? ''
+              : buildlinks?.isBgWhite
+                ? 'bg-gradient-to-b from-black to-[#051C40]'
+                : 'bg-[#FFFCF8]'
+          }`}
           style={
             buildlinks?.bgImg
               ? {
-                backgroundImage: `url(${buildlinks.bgImg?.src})`,
-              }
+                  backgroundImage: `url(${buildlinks.bgImg?.src})`,
+                }
               : {}
           }
         >
@@ -39,10 +40,9 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 subTitle={''}
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
+                headingParts={buildlinks?.headingParts}
                 span={buildlinks?.span}
                 spanColor="text-[#FBD04F]"
-                isBgWhite={buildlinks?.isBgWhite && true}
               />
               <div>
                 {buildlinks?.data?.map((item: any) => {
@@ -96,10 +96,9 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 subTitle={''}
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
+                headingParts={buildlinks?.headingParts}
                 span={buildlinks?.span}
                 spanColor="text-[#FBD04F]"
-                isBgWhite={buildlinks?.isBgWhite && true}
               />
               <div>
                 {buildlinks?.data?.map((item: any) => {
@@ -142,29 +141,29 @@ const BookAConsultation = ({ buildlinks }: any) => {
       )}
       {buildlinks?.isVariant === '03' && (
         <div
-          className={`py-[3rem] lg:py-[4rem]`}
+          className={`py-[3rem] lg:py-0`}
           style={{
             backgroundImage: `url(${buildlinks?.bgImg?.src})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
+            paddingTop: buildlinks?.paddingY,
+            paddingBottom: buildlinks?.paddingY,
+            backgroundColor: buildlinks?.bgColor,
           }}
         >
-          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
+          <MaxWidthWrapper
+            isGap={buildlinks?.isGap}
+            style={{ gap: buildlinks?.customGap || '4rem' }}
+            className="block justify-between lg:flex"
+          >
             <div
-              className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`my-auto w-[100%] p-[2.5rem] lg:p-0 lg:w-[${buildlinks.width}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
-              <h1
-                className={`font-normal text-[#FFFFFF] lg:text-left`}
-              >
-                {buildlinks?.label}
-              </h1>
-
               <Heading
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
-                isBgWhite={buildlinks?.isBgWhite && true}
+                headingParts={buildlinks?.headingParts}
                 className=''
               />
 
@@ -172,7 +171,9 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 {buildlinks?.data?.map((item: any) => {
                   return (
                     <p
-                      className={`${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
+                      style={{
+                        color: buildlinks?.textColor || 'text-[#000000]',
+                      }}
                     >
                       {item?.desctioption}
                     </p>
@@ -180,54 +181,70 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 })}
               </div>
 
-              {buildlinks?.isBgWhite && (
-                <SaveAndCancel
-                  name={buildlinks?.button}
-                  isIcon={true}
-                  isBgWhite={true}
-                  handleClick={() => setOpen(!open)}
-                  className="mt-[3rem]"
-                />
+              {buildlinks?.button && (
+                <div className="mx-auto w-fit lg:mx-0">
+                  <SaveAndCancel
+                    name={buildlinks?.button}
+                    isIcon={true}
+                    isBgWhite={true}
+                    handleClick={() => setOpen(!open)}
+                    className="mt-[3rem]"
+                  />
+                </div>
               )}
             </div>
-
             <div
               ref={ref}
-              className={`group order-1 flex justify-center justify-items-center p-10 transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'} ${buildlinks?.isCode02 ? 'items-end' : 'items-center'}`}
+              className={`group order-1 flex justify-center justify-items-center p-[2.5rem] pt-[4rem] transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end lg:p-0 lg:pt-0 ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'} ${buildlinks?.isCode02 ? 'items-end' : 'items-center'}`}
             >
               <div className="relative mx-auto flex-1">
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : '-translate-x-16 opacity-0'
-                    }`}
+                  className={`flex ${buildlinks?.isMask ? 'mx-[1rem] my-[1rem] items-center justify-center md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem]' : 'items-end justify-end'} transition-all duration-1000 ${
+                    isVisible
+                      ? 'translate-x-0 opacity-100'
+                      : '-translate-x-16 opacity-0'
+                  }`}
                 >
-                  <Image
-                    src={buildlinks?.img}
-                    alt="About Image"
-                    width={625}
-                    height={470}
-                    className="my-[0rem] aspect-[625/470] w-[clamp(15rem,32vw,32.063rem)] rounded-lg transition-opacity transition-transform md:w-[clamp(16rem,60vw,62.063rem)] lg:w-[clamp(14rem,35vw,39.063rem)]"
-                  />
+                  {typeof buildlinks?.img === 'string' ? (
+                    <CldImage
+                      src={buildlinks?.img}
+                      alt={buildlinks?.name}
+                      width={buildlinks?.imgWidth}
+                      height={buildlinks?.imgHight}
+                      className="h-full w-full object-contain"
+                    />
+                  ) : (
+                    <Image
+                      src={buildlinks?.img}
+                      alt={buildlinks?.name}
+                      width={buildlinks?.imgWidth}
+                      height={buildlinks?.imgHight}
+                      className="h-full w-full object-contain"
+                    />
+                  )}
                 </div>
 
                 {/* MASK – TOP RIGHT */}
-                <Image
-                  src={Mask}
-                  alt="Mask Image"
-                  width={246}
-                  height={136}
-                  className="absolute right-[-3rem] top-[-2rem] -z-10 lg:right-0 lg:top-0"
-                />
+                {buildlinks?.isMask && (
+                  <Image
+                    src={Mask}
+                    alt="Mask Image"
+                    width={246}
+                    height={136}
+                    className="absolute right-[-3rem] top-[-2rem] -z-10 lg:right-0 lg:top-0"
+                  />
+                )}
 
                 {/* MASK – BOTTOM LEFT */}
-                <Image
-                  src={Mask}
-                  alt="Mask Image"
-                  width={246}
-                  height={136}
-                  className="absolute bottom-[-1.6rem] left-[-3rem] -z-10 lg:bottom-0 lg:left-0"
-                />
+                {buildlinks?.isMask && (
+                  <Image
+                    src={Mask}
+                    alt="Mask Image"
+                    width={246}
+                    height={136}
+                    className="absolute bottom-[-1.6rem] left-[-3rem] -z-10 lg:bottom-0 lg:left-0"
+                  />
+                )}
               </div>
             </div>
           </MaxWidthWrapper>
@@ -248,18 +265,15 @@ const BookAConsultation = ({ buildlinks }: any) => {
             <div
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
-              <h1
-                className={`font-normal text-[#FFFFFF] lg:text-left`}
-              >
+              <h1 className={`font-normal text-[#FFFFFF] lg:text-left`}>
                 {buildlinks?.label}
               </h1>
 
               <Heading
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
-                isBgWhite={buildlinks?.isBgWhite && true}
-                className=''
+                headingParts={buildlinks?.headingParts}
+                className=""
               />
 
               <div className="space-y-4">
@@ -291,10 +305,11 @@ const BookAConsultation = ({ buildlinks }: any) => {
             >
               <div className="relative mx-auto flex-1">
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : '-translate-x-16 opacity-0'
-                    }`}
+                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
+                    isVisible
+                      ? 'translate-x-0 opacity-100'
+                      : '-translate-x-16 opacity-0'
+                  }`}
                 >
                   <Image
                     src={buildlinks?.img}
@@ -324,18 +339,15 @@ const BookAConsultation = ({ buildlinks }: any) => {
             <div
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
-              <h1
-                className={`font-normal text-[#FFFFFF] lg:text-left`}
-              >
+              <h1 className={`font-normal text-[#FFFFFF] lg:text-left`}>
                 {buildlinks?.label}
               </h1>
 
               <Heading
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
-                isBgWhite={buildlinks?.isBgWhite && true}
-                className=''
+                headingParts={buildlinks?.headingParts}
+                className=""
               />
 
               <div className="space-y-4">
@@ -367,10 +379,11 @@ const BookAConsultation = ({ buildlinks }: any) => {
             >
               <div className="relative mx-auto flex-1">
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : '-translate-x-16 opacity-0'
-                    }`}
+                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
+                    isVisible
+                      ? 'translate-x-0 opacity-100'
+                      : '-translate-x-16 opacity-0'
+                  }`}
                 >
                   <Image
                     src={buildlinks?.img}
@@ -396,12 +409,12 @@ const BookAConsultation = ({ buildlinks }: any) => {
             backgroundRepeat: 'no-repeat',
           }}
         >
-          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2 py-[3rem] lg:py-[4rem]">
+          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] py-[3rem] lg:grid-cols-2 lg:py-[4rem]">
             <div
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <h1
-                className={`font-normal text-[#FFFFFF] text-center lg:text-left`}
+                className={`text-center font-normal text-[#FFFFFF] lg:text-left`}
               >
                 {buildlinks?.label}
               </h1>
@@ -409,9 +422,8 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
-                isBgWhite={buildlinks?.isBgWhite && true}
-                className=''
+                headingParts={buildlinks?.headingParts}
+                className=""
               />
 
               <div className="space-y-4">
@@ -443,10 +455,11 @@ const BookAConsultation = ({ buildlinks }: any) => {
             >
               <div className="relative mx-auto flex-1">
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : '-translate-x-16 opacity-0'
-                    }`}
+                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
+                    isVisible
+                      ? 'translate-x-0 opacity-100'
+                      : '-translate-x-16 opacity-0'
+                  }`}
                 >
                   <Image
                     src={buildlinks?.img}
@@ -467,20 +480,21 @@ const BookAConsultation = ({ buildlinks }: any) => {
         //   className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'} py-[3rem] lg:py-[2rem]`}
         // >
         <div
-          className={`py-[3rem] lg:py-[2rem] ${buildlinks?.bgImg
-            ? ''
-            : buildlinks?.isBgWhite
-              ? 'bg-gradient-to-b from-black to-[#051C40]'
-              : 'bg-[#FFFCF8]'
-            }`}
+          className={`py-[3rem] lg:py-[2rem] ${
+            buildlinks?.bgImg
+              ? ''
+              : buildlinks?.isBgWhite
+                ? 'bg-gradient-to-b from-black to-[#051C40]'
+                : 'bg-[#FFFCF8]'
+          }`}
           style={
             buildlinks?.bgImg
               ? {
-                backgroundImage: `url(${buildlinks.bgImg?.src})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-              }
+                  backgroundImage: `url(${buildlinks.bgImg?.src})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat',
+                }
               : {}
           }
         >
@@ -493,10 +507,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 subTitle={''}
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
-                span={buildlinks?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={buildlinks?.isBgWhite && true}
+                headingParts={buildlinks?.headingParts}
               />
               <div>
                 {buildlinks?.data?.map((item: any) => {
@@ -552,7 +563,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <h1
-                className={`font-normal text-[#FFFFFF] text-center lg:text-left`}
+                className={`text-center font-normal text-[#FFFFFF] lg:text-left`}
               >
                 {buildlinks?.label}
               </h1>
@@ -560,9 +571,8 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
-                isBgWhite={buildlinks?.isBgWhite && true}
-                className=''
+                headingParts={buildlinks?.headingParts}
+                className=""
               />
 
               <div className="space-y-4">
@@ -594,10 +604,11 @@ const BookAConsultation = ({ buildlinks }: any) => {
             >
               <div className="relative mx-auto flex-1">
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : '-translate-x-16 opacity-0'
-                    }`}
+                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
+                    isVisible
+                      ? 'translate-x-0 opacity-100'
+                      : '-translate-x-16 opacity-0'
+                  }`}
                 >
                   <Image
                     src={buildlinks?.img}

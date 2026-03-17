@@ -24,7 +24,7 @@ const Solutions = ({ data }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   const [open, setOpen] = useState(false);
-  const { subTitle, title, points, description, cursive } =
+  const { subTitle, headingParts, points, description, cursive } =
     SolutionsSectionData;
   const { ref: imageRef, className: imageClass } = useImageReveal({
     direction: 'left',
@@ -89,7 +89,7 @@ const Solutions = ({ data }: any) => {
             <Heading
               isLabel={data?.subTitle && true}
               subTitle={data?.subTitle}
-              title={data?.title}
+              headingParts={data?.headingParts}
               span=""
               description={data?.description}
             />

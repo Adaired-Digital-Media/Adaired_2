@@ -129,8 +129,7 @@ const HowItStarted = ({ howItStarted }: any) => {
       <MaxWidthWrapper>
         <Heading
           isInCenter={true}
-          isBgWhite={true}
-          title={howItStarted?.heading}
+          headingParts={howItStarted?.headingParts}
         />
 
         <div className="relative mt-12">

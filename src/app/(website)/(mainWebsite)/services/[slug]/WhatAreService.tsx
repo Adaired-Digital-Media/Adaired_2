@@ -27,10 +27,9 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
+                headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {
@@ -76,10 +75,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
-                span={whatareaiseo?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
+                headingParts={whatareaiseo?.headingParts}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {
@@ -124,17 +120,14 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         <div
           className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
         >
-          <MaxWidthWrapper className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
+          <MaxWidthWrapper isGap={false} className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
             <div
               className={`order-2 my-auto flex flex-col items-center py-[4rem] transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
-                span={whatareaiseo?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
+                headingParts={whatareaiseo?.headingParts}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {
@@ -185,7 +178,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             paddingTop: whatareaiseo?.paddingY,
             paddingBottom: whatareaiseo?.paddingY,
             backgroundColor: whatareaiseo?.bgColor,
-            
           }}
         >
           <MaxWidthWrapper
@@ -200,11 +192,10 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             >
               <Heading
                 className="flex justify-center lg:justify-start"
-                title={whatareaiseo?.heading}
-                span={whatareaiseo?.span}
+                headingParts={whatareaiseo?.headingParts}
                 spanColor="text-[#FBD04F]"
                 breakIndex={whatareaiseo?.breakIndex}
-                isBgWhite={whatareaiseo?.bgColor && true}
+                // isBgWhite={whatareaiseo?.bgColor && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any, index: number) => {
@@ -310,11 +301,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
-                span={whatareaiseo?.span}
-                spanBreakIndex={2}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
+                headingParts={whatareaiseo?.headingParts}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any, index: number) => {
@@ -389,10 +376,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
+                headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {
@@ -438,10 +423,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
-                span={whatareaiseo?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
+                headingParts={whatareaiseo?.headingParts}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {
@@ -500,10 +482,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
-                span={whatareaiseo?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
+                headingParts={whatareaiseo?.headingParts}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {

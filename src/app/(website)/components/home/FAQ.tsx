@@ -30,21 +30,24 @@ const FAQ = ({ faqs }: any) => {
   };
 
   return (
-    <div ref={ref} className="overflow-visible py-[3rem] lg:py-[4rem]">
+    <div
+      ref={ref}
+      className={`overflow-visible py-[3rem] lg:py-[4rem] ${faqs?.bgColor || 'bg-white'}`}
+    >
       <MaxWidthWrapper className="space-y-[1rem] overflow-visible">
         {/* Heading */}
         <div
-          className={`flex w-full justify-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
-            }`}
+          className={`flex w-full justify-center transition-all duration-1000 ${
+            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
+          }`}
         >
           <Heading
             breakIndex={6}
             isLabel
             subTitle={subTitle}
-            title={faqs?.title}
-            span=""
+            textColor={faqs?.textColor}
+            headingParts={faqs?.headingParts}
             description={faqs?.description}
-            isBgWhite
             isInCenter
             className="w-full lg:w-[90%]"
           />
@@ -59,10 +62,11 @@ const FAQ = ({ faqs }: any) => {
               <div
                 key={idx}
                 onClick={() => toggleFAQ(idx)}
-                className={`flex cursor-pointer justify-between rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${isVisible
+                className={`flex cursor-pointer justify-between rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${
+                  isVisible
                     ? 'translate-y-0 opacity-100'
                     : 'translate-y-10 opacity-0'
-                  }`}
+                }`}
                 style={{ transitionDelay: `${idx * 120}ms` }}
               >
                 {/* Content */}
@@ -86,26 +90,26 @@ const FAQ = ({ faqs }: any) => {
                     </div>
                   )} */}
 
-
-                  {isOpen && (
+                  {/* {isOpen && ( */}
+                  <div
+                    className={`ease-[cubic-bezier(0.22,1,0.36,1)] overflow-hidden transition-all duration-700 ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'}`}
+                  >
                     <div className="space-y-3">
-
                       {Array.isArray(faq.description) ? (
                         faq.description.map((desc: any, index: number) => {
-
-                          if (typeof desc === "string") {
-                            return (
-                              <p key={index}>{desc}</p>
-                            );
+                          if (typeof desc === 'string') {
+                            return <p key={index}>{desc}</p>;
                           }
-
-                          if (typeof desc === "object" && desc?.list) {
+                          if (typeof desc === 'object' && desc?.list) {
                             return (
                               <div key={index} className="space-y-2">
                                 {desc.list.map((item: string, i: number) => (
-                                  <div key={i} className="flex items-center gap-2 text-black ">
+                                  <div
+                                    key={i}
+                                    className="flex items-center gap-2 text-black"
+                                  >
                                     <TbPointFilled className="size-3" />
-                                    <p className='text-left'>{item}</p>
+                                    <p className="text-left">{item}</p>
                                   </div>
                                 ))}
                               </div>
@@ -116,16 +120,17 @@ const FAQ = ({ faqs }: any) => {
                       ) : (
                         <p>{faq.description}</p>
                       )}
-
                     </div>
-                  )}
+                    {/* )} */}
+                  </div>
                 </div>
 
                 {/* Toggle Icon */}
                 <div className="flex w-[10%] justify-end">
                   <span
-                    className={`mb-auto rounded-full p-1 ${isOpen ? 'bg-[#FB9100] text-white' : 'border border-black'
-                      }`}
+                    className={`mb-auto rounded-full p-1 ${
+                      isOpen ? 'bg-[#FB9100] text-white' : 'border border-black'
+                    }`}
                   >
                     {isOpen ? (
                       <GrFormSubtract size={28} />

@@ -15,7 +15,7 @@ import adaireddigitalmarketingteam_3 from '../../../../../public/assets/team/3rd
 const Expect = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [hover, setHover] = useState(null);
-  const { image, subTitle, title, description, records } = ExpectSectionData;
+  const { image, subTitle, headingParts, description, records } = ExpectSectionData;
   return (
     <section className="1bg-[#F5F5F580]">
       <MaxWidthWrapper className="py-[3rem] lg:py-[4rem]">
@@ -26,7 +26,7 @@ const Expect = () => {
             <Heading
               isLabel={true}
               subTitle={subTitle}
-              title={title}
+              headingParts={headingParts}
               span=""
               breakIndex={5}
               description={''}

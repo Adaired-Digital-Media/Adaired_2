@@ -153,8 +153,15 @@ export interface ServiceSectionDataType {
 export const SolutionsSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'Total Transparency. Zero "Black Box" Marketing',
-  title:
-    'Most clients have no idea what their agency actually does all day. You get a PDF once a month and a bill.',
+  // title:
+  //   'Most clients have no idea what their agency actually does all day. You get a PDF once a month and a bill.',
+  headingParts: [
+    {
+      text: 'Most clients have no idea what their agency actually does all day. You get a PDF once a month and a bill.',
+      color: '#000000',
+      weight: '700',
+    },
+  ],
   description:
     'But with us, you get 24/7 access to your campaign pulse. We combine advanced tracking tools with human insight to show you exactly how $1 of spend becomes $5 of revenue.',
   points: [
@@ -179,7 +186,13 @@ export const SolutionsSectionData = {
 export const AboutSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'ABOUT US',
-  title: 'Every Brand Has A Story, And We’re Here To Tell It Better!',
+  headingParts: [
+    {
+      text: 'Every Brand Has A Story, And We’re Here To Tell It Better!',
+      color: '#000000',
+      weight: '700',
+    },
+  ],
   description:
     'As a powerhouse digital agency, we craft bold ideas backed by data and fueled by creativity that attract attention, command authority, and convert consistently. If you want a partner that pushes limits and powers real growth, you’re in the right place.',
   points: [
@@ -205,7 +218,13 @@ export const AboutSectionData = {
 export const ExpectSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'Advance. Innovate. Achieve.',
-  title: `A Journey Marked by Success, Creativity, and Progress`,
+  headingParts: [
+    {
+      text: 'A Journey Marked by Success, Creativity, and Progress',
+      color: '#000000',
+      weight: '700',
+    },
+  ],
   description: `Our journey in digital marketing is defined by creativity, measurable success, and continuous progress. From SEO and paid campaigns to social media and analytics, we craft strategies that drive engagement, amplify brand visibility, and deliver sustainable growth, turning every campaign into tangible results and long-term business impact.`,
   points: [
     {
@@ -275,7 +294,14 @@ export const ExpectSectionData = {
 export const WhyChooseSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'WHY CHOOSE US',
-  title: 'Why Choose Adaired as Your Digital Growth Partner?',
+  headingParts: [
+    {
+      text: 'Why Choose Adaired as Your Digital Growth Partner?',
+      color: '#000000',
+      weight: '700',
+    },
+  ],
+  textColor: 'black',
   span: '',
   description:
     'Adaired combines expert-led digital strategies, dedicated account management, and real-time performance transparency to drive measurable growth. With an ROI-first mindset, we focus on scalable solutions that turn marketing investments into consistent, profitable results.',
@@ -314,7 +340,13 @@ export const WhyChooseSectionData = {
 export const CaseStudySectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'CASE STUDIES',
-  title: 'Real Success Stories Showcasing',
+  headingParts: [
+    {
+      text: 'Real Success Stories Showcasing',
+      color: '#000000',
+      weight: '700',
+    },
+  ],
   span: 'Our Impact, Innovation, and Client Achievements.',
   description:
     'Discover real success stories that highlight our impact, drive innovation, and celebrate client achievements. See how our solutions transform businesses, empower growth, and create measurable results across industries.',
@@ -349,7 +381,14 @@ export const CaseStudySectionData = {
 export const TestimonialSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'Testimonials',
-  title: 'What Our Clients Say About Us',
+  headingParts: [
+    {
+      text: 'What Our Clients Say About Us',
+      color: '#FFFFFF',
+      weight: '700',
+    },
+  ],
+  textColor: '#FFFFFF',
   span: '',
   description:
     'Discover client experiences that inspire, highlighting measurable results, innovative solutions, and the lasting impact we create across industries.',
@@ -469,7 +508,14 @@ export const LogoSliderSectionData = {
 
 export const ServiceSectionData = {
   subtitle: 'Expert Marketing Solutions',
-  title: '360° Digital Marketing Services for Modern Business Needs',
+  headingParts: [
+    {
+      text: '360° Digital Marketing Services for Modern Business Needs',
+      color: '#000000',
+      weight: '700',
+    },
+  ],
+  textColor: 'black',
   span: '',
   description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
   services: [
@@ -500,16 +546,8 @@ export const ServiceSectionData = {
           label: 'eCommerce SEO',
           title: 'eCommerce SEO',
           description: `Our eCommerce SEO solutions focus on scaling organic growth for online stores of all sizes. We combine product-level keyword research, structured data, site architecture optimization, and performance SEO to improve rankings, attract purchase-ready shoppers, and maximize lifetime value.`,
-          link: '/services/local-seo',
+          link: '/services/ecommerce-seo-agency-india',
         },
-        // {
-        //   icon: SEO_4,
-        //   image: E_Comerce_SEO,
-        //   label: 'eCommerce SEO',
-        //   title: 'eCommerce SEO',
-        //   description: `We offer strategic social media management services that build brand presence, engages audiences, and drives growth. From content creation and scheduling to community management and performance tracking, our services help brands connect authentically, increase visibility, and achieve consistent results across all major social platforms.`,
-        //   link: '/services/local-seo',
-        // },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
       img: SEO,
@@ -757,8 +795,8 @@ export const ServiceSectionData = {
         {
           icon: amazon,
           image: web_3,
-          label: 'eCommerce Web Development',
-          title: 'eCommerce Web Development',
+          label: 'eCommerce Development',
+          title: 'eCommerce Development',
           description: `Transform your online business with our eCommerce Web Development services. We create responsive, secure, and user-friendly websites tailored to your brand, optimized for performance and conversions. From product catalogs to payment gateways, our solutions drive sales, enhance customer experience, and help your business thrive in the digital marketplace.`,
           link: '/services/ecommerce-development-company-india',
         },
@@ -787,7 +825,7 @@ export const ServiceSectionData = {
           label: 'iOS Development',
           title: 'iOS Development',
           description: `We specialize in iOS App Development, creating seamless, high-performing apps for iPhone and iPad. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver quality apps while retaining full client ownership.`,
-          link: '/services/web-design-development-company',
+          link: '/services/ios-app-development-agency-india',
         },
         {
           icon: app_2,
@@ -939,7 +977,14 @@ export const AwardsSectionData = [
 export const ContactSectionData = {
   image: 'Static Website Images/contact_us_image',
   subTitle: 'Contact Us',
-  title: 'Power your business growth with trusted strategies that work',
+  headingParts: [
+    {
+      text: 'Power your business growth with trusted strategies that work',
+      color: '#000000',
+      weight: '700',
+    },
+  ],
+  textColor: 'black',
   span: '',
   description:
     'Accelerate your business growth with expert guidance, practical solutions, and proven strategies that help you seize opportunities, overcome challenges, and achieve lasting success.',
@@ -974,7 +1019,14 @@ export const ContactSectionData = {
 export const BlogSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'OUR BlOGS',
-  title: 'Stay Ahead With The Latest',
+  headingParts: [
+    {
+      text: 'Stay Ahead With The Latest',
+      color: '#000000',
+      weight: '700',
+    },
+  ],
+  textColor: 'black',
   span: 'Market Insights',
   description:
     'Discover the latest insights, tips, and stories on our blog. Stay updated with the latest trends, ideas, and inspiration. ',
@@ -1017,7 +1069,14 @@ export const BlogSectionData = {
 export const FAQSSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'FAQS',
-  title: 'Questions You Have, Answers You Need',
+  headingParts: [
+    {
+      text: 'Questions You Have, Answers You Need',
+      color: '#000000',
+      weight: '700',
+    },
+  ],
+  textColor: 'black',
   span: 'Have questions? Our FAQ section provides clear, concise answers about our services to guide you effortlessly.',
   description:
     'Stay ahead of the digital curve with expert insights, practical strategies, and the latest trends designed to help your brand grow with confidence.',

@@ -18,10 +18,9 @@ const SeoPackages = ({ seopackages }: any) => {
                 <MaxWidthWrapper>
                     <div className="">
                         <Heading
-                            title={seopackages?.heading}
+                            headingParts={seopackages?.headingParts}
                             description={seopackages?.description}
                             isInCenter={true}
-                            isBgWhite={true}
                         />
                     </div>
                     <div

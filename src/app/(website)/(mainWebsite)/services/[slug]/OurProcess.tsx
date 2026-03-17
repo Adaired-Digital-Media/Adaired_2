@@ -48,10 +48,10 @@ const OurProcess = ({ ourProcess }: any) => {
               isLabel={true}
               subTitle={'Our Process'}
               breakIndex={ourProcess?.breakIndex}
-              title={ourProcess?.title}
+              headingParts={ourProcess?.headingParts}
               description={ourProcess?.description}
               isInCenter={ourProcess?.isInCenter}
-              isBgWhite={ourProcess?.isInCenter && true}
+              textColor={ourProcess?.textColor}
             />
           </div>
 

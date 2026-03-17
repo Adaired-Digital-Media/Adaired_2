@@ -14,6 +14,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import { useRouter } from 'next/navigation';
 import star from '../../../../../../public/assets/icons/star.png';
+import CldImage from '@/app/(website)/components/UI/CldImage';
 
 const Banner = ({ banner }: any) => {
   const router = useRouter();
@@ -50,7 +51,7 @@ const Banner = ({ banner }: any) => {
         priority
         className="pointer-events-none object-fill lg:object-fill"
       />
-      <MaxWidthWrapper className="">
+      <MaxWidthWrapper className="" isGap={banner?.isGap}>
         {banner?.isCenter ? (
           <div className="relative z-10 block justify-center pb-[6rem] pt-[9rem] lg:flex">
             <div
@@ -242,7 +243,7 @@ const Banner = ({ banner }: any) => {
             {banner?.code === '02' && (
               <div
                 className={`relative z-10 block justify-between gap-[3rem] ${banner?.isAbsolute ? 'pt-[6rem]' : 'py-[6rem]'} lg:flex`}
-                // className={`relative z-10 block justify-between gap-[3rem] py-[6rem] lg:flex`}
+                style={{ gap: banner?.customGap || '4rem' }}
               >
                 <div
                   className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[${banner?.width || '50%'}] ${banner?.isAbsolute && 'pb-[0rem] lg:pb-[6rem]'} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
@@ -295,20 +296,32 @@ const Banner = ({ banner }: any) => {
                         ) : (
                           <div className="md:flex` block justify-center justify-items-center gap-3 lg:justify-start lg:justify-items-start">
                             <div className="mt-[0.8rem] !w-[100%] md:mt-[8px] lg:mt-[0.5rem]">
-                              <h1
-                                className={`text-center capitalize lg:text-left ${banner?.isHeadingNormal && 'font-light'}`}
-                              >
-                                {banner?.breakIndex !== undefined ? (
-                                  <>
-                                    {words
-                                      .slice(0, banner?.breakIndex)
-                                      .join(' ')}
-                                    <br className="hidden md:block" />{' '}
-                                    {words.slice(banner?.breakIndex).join(' ')}
-                                  </>
-                                ) : (
-                                  words.join(' ')
-                                )}{' '}
+                              <h1 className="text-center capitalize lg:text-left">
+                                {banner?.headingParts
+                                  ?.flatMap((part: any) =>
+                                    part.text
+                                      .split(' ')
+                                      .map((word: string) => ({
+                                        word,
+                                        color: part.color,
+                                        weight: part.weight,
+                                      }))
+                                  )
+                                  .map((item: any, i: number) => (
+                                    <span
+                                      key={i}
+                                      style={{
+                                        color: item.color,
+                                        fontWeight: item.weight,
+                                      }}
+                                      className="text-[clamp(1.8rem,3vw,3.75rem)] leading-[clamp(2.5rem,3.65vw,4.65rem)]"
+                                    >
+                                      {item.word}{' '}
+                                      {banner?.breakIndex === i + 1 && (
+                                        <br className="hidden md:block" />
+                                      )}
+                                    </span>
+                                  ))}
                               </h1>
                               <h1
                                 className={`text-center capitalize text-[${banner?.heading2Color || '#000000'}] lg:text-left`}
@@ -360,16 +373,31 @@ const Banner = ({ banner }: any) => {
                   </div>
                 </div>
                 <div
-                  // className={`${banner?.isAbsolute ? 'ml-auto' : 'my-auto'} ml-auto w-fit pt-[4rem] lg:pt-0`}
-                  className={`${banner?.isAbsolute ? 'ml-auto' : 'my-auto'} ml-auto w-fit pt-[4rem] lg:pt-0`}
+                  className={`${banner?.isAbsolute ? 'ml-auto' : 'my-auto'} ml-auto w-fit pt-[4rem] lg:h-[var(--img-h)] lg:w-[var(--img-w)] lg:pt-0`}
+                  style={
+                    {
+                      '--img-w': banner?.imgWidth,
+                      '--img-h': banner?.imgHight,
+                    } as React.CSSProperties
+                  }
                 >
-                  <Image
-                    src={banner?.bgImg}
-                    width={800}
-                    height={600}
-                    alt="Web Development Banner"
-                    className=""
-                  />
+                  {typeof banner?.img === 'string' ? (
+                    <CldImage
+                      src={banner?.img}
+                      alt={banner?.name}
+                      width={banner?.imgWidth || '800'}
+                      height={banner?.imgHight || '600'}
+                      className="h-full w-full object-contain"
+                    />
+                  ) : (
+                    <Image
+                      src={banner?.img}
+                      alt={banner?.name}
+                      width={banner?.imgWidth || '800'}
+                      height={banner?.imgHight || '600'}
+                      className="h-full w-full object-contain"
+                    />
+                  )}
                 </div>
               </div>
             )}

@@ -25,9 +25,9 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
           className={`my-auto flex flex-col items-center text-center transition-all duration-1000 lg:items-start lg:text-left ${isVisible ? 'translate-x-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
-            isBgWhite={true}
             isH1={true}
-            title={notSeeingResult?.heading}
+            textColor={notSeeingResult?.textColor}
+            headingParts={notSeeingResult?.headingParts}
             description={notSeeingResult?.description}
           />
           <SaveAndCancel

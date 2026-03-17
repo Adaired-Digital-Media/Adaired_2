@@ -74,7 +74,14 @@ const CaseStudies = () => {
               isVarticle={true}
               breakIndex={3}
               subTitle={'CASE STUDIES'}
-              title={`Digital Agency That Turns Businesses Into Brands`}
+              headingParts={[
+                {
+                  text: 'Digital Agency That Turns Businesses Into Brands',
+                  color: '#000000',
+                  weight: 700,
+                },
+              ]}
+              textColor="#000000"
             />
           </div>
           <div className="mb-[4rem] mt-[1rem] flex gap-[1rem] rounded-full bg-[#EDF6FF]">

@@ -80,9 +80,9 @@ const Clients = () => {
             breakIndex={7}
             isLabel={true}
             subTitle={'Our ClientS'}
-            title={'A Decade Of Turning Strategies into Results'}
+            headingParts={[{text:'A Decade Of Turning Strategies into Results', color:"#000000", weight:700}]}
+            textColor='#000000'
             isInCenter={true}
-            isBgWhite={true}
           />
         </div>
 

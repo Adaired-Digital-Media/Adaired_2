@@ -23,10 +23,10 @@ const Stopstruggling = ({ stopStruggling }: any) => {
       <MaxWidthWrapper className="flex justify-center">
         {stopStruggling?.isCenter ? (
           <div
-            className={`mx-auto w-[100%] text-center transition-all duration-1000 lg:w-[70%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            className={`mx-auto w-[100%] text-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
           >
             <h2
-              className={`mx-auto w-[100%] text-center font-normal text-[#FFFFFF] lg:w-[70%] ${stopStruggling?.span && 'font-normal'}`}
+              className={`mx-auto w-[100%] text-center font-normal text-[#FFFFFF]  ${stopStruggling?.span && 'font-normal'}`}
             >
               {stopStruggling?.span}
             </h2>

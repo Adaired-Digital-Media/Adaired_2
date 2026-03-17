@@ -63,9 +63,9 @@ const IndustriesWeWorkWith = ({ industriesWeWorkWith }: any) => {
                         >
                             <Heading
                                 breakIndex={3}
-                                isBgWhite={true}
                                 isDecVarticle={true}
-                                title={industriesWeWorkWith?.heading}
+                                textColor={industriesWeWorkWith?.textColor}
+                                headingParts={industriesWeWorkWith?.headingParts}
                                 description={industriesWeWorkWith?.description}
                             />
                         </div>

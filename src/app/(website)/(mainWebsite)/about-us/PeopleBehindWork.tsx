@@ -21,7 +21,7 @@ const PeopleBehindWork = ({ peopleBehindWork }: any) => {
         >
           <Heading
             breakIndex={peopleBehindWork?.breakIndex}
-            title={peopleBehindWork?.heading}
+            headingParts={peopleBehindWork?.headingParts}
             description={peopleBehindWork?.description}
             isDecVarticle={true}
             className="whitespace-pre-line"

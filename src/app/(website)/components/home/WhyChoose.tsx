@@ -8,7 +8,7 @@ import useHoverZoom from '@/@core/hooks/useHoverZoom';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const WhyChoose = () => {
-  const { subTitle, title, span, description, points } = WhyChooseSectionData;
+  const { subTitle, headingParts, textColor, span, description, points } = WhyChooseSectionData;
   const [isHover, setIsHover] = useState<number | null>(1);
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
@@ -24,11 +24,11 @@ const WhyChoose = () => {
               breakIndex={5}
               isLabel={true}
               subTitle={subTitle}
-              title={title}
+              headingParts={headingParts}
               span={span}
               description={description}
               isInCenter={true}
-              isBgWhite={true}
+              textColor={textColor}
             />
           </div>
 

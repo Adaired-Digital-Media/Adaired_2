@@ -6,6 +6,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import imgCorner from '../../../../../../public/assets/images/authLinkBuilding.png';
 import Mask from '../../../../../../public/assets/images/home/Mask group.png';
 import imgcornerReverse from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteLabelNeedImg.png';
+import Heading from '@/app/(website)/common/Heading';
 
 
 const NeedOfAdaired = ({ needOfService }: any) => {
@@ -23,11 +24,10 @@ const NeedOfAdaired = ({ needOfService }: any) => {
               <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
                 {/* CENTER IMAGE */}
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
-                    isVisible
-                      ? 'translate-x-0 opacity-100'
-                      : '-translate-x-16 opacity-0'
-                  }`}
+                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
+                    ? 'translate-x-0 opacity-100'
+                    : '-translate-x-16 opacity-0'
+                    }`}
                 >
                   <Image
                     src={imgCorner}
@@ -66,13 +66,16 @@ const NeedOfAdaired = ({ needOfService }: any) => {
             )}
 
             <div
-              className={`mt-[2rem] flex flex-col justify-center transition-all duration-1000 lg:mt-0 lg:h-full ${
-                isVisible
-                  ? 'translate-y-0 opacity-100'
-                  : 'translate-y-10 opacity-0'
-              }`}
+              className={`mt-[2rem] flex flex-col justify-center transition-all duration-1000 lg:mt-0 lg:h-full ${isVisible
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-10 opacity-0'
+                }`}
             >
-              <h2>{needOfService?.heading}</h2>
+
+              <Heading
+                headingParts={needOfService?.headingParts}
+              />
+              
               {needOfService?.data?.map((desc: any) => {
                 return (
                   <p className="pt-[1rem] text-center lg:text-justify">
@@ -90,11 +93,10 @@ const NeedOfAdaired = ({ needOfService }: any) => {
             className="grid grid-cols-1 gap-[2rem] py-[3rem] lg:grid-cols-2 lg:py-[4rem]"
           >
             <div
-              className={`flex flex-col justify-center transition-all duration-1000 lg:h-full ${
-                isVisible
-                  ? 'translate-y-0 opacity-100'
-                  : 'translate-y-10 opacity-0'
-              }`}
+              className={`flex flex-col justify-center transition-all duration-1000 lg:h-full ${isVisible
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-10 opacity-0'
+                }`}
             >
               <h2>
                 Why{' '}
@@ -116,11 +118,10 @@ const NeedOfAdaired = ({ needOfService }: any) => {
               <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
                 {/* CENTER IMAGE */}
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
-                    isVisible
-                      ? 'translate-x-0 opacity-100'
-                      : '-translate-x-16 opacity-0'
-                  }`}
+                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
+                    ? 'translate-x-0 opacity-100'
+                    : '-translate-x-16 opacity-0'
+                    }`}
                 >
                   <Image
                     src={needOfService?.img}
@@ -168,11 +169,10 @@ const NeedOfAdaired = ({ needOfService }: any) => {
               <div className="relative mx-auto mt-[3rem] flex-1 md:mt-[3rem] lg:mt-0">
                 {/* CENTER IMAGE */}
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
-                    isVisible
-                      ? 'translate-x-0 opacity-100'
-                      : '-translate-x-16 opacity-0'
-                  }`}
+                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
+                    ? 'translate-x-0 opacity-100'
+                    : '-translate-x-16 opacity-0'
+                    }`}
                 >
                   <Image
                     src={needOfService?.img}
@@ -211,11 +211,10 @@ const NeedOfAdaired = ({ needOfService }: any) => {
             )}
 
             <div
-              className={`mt-[2rem] flex flex-col justify-center transition-all duration-1000 lg:mt-0 lg:h-full ${
-                isVisible
-                  ? 'translate-y-0 opacity-100'
-                  : 'translate-y-10 opacity-0'
-              }`}
+              className={`mt-[2rem] flex flex-col justify-center transition-all duration-1000 lg:mt-0 lg:h-full ${isVisible
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-10 opacity-0'
+                }`}
             >
               <h2>
                 Why These{' '}
@@ -244,11 +243,10 @@ const NeedOfAdaired = ({ needOfService }: any) => {
               <div className="mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
                 {/* CENTER IMAGE */}
                 <div
-                  className={`my relative flex items-center justify-center px-[1rem] py-[1rem] lg:px-[4rem] lg:py-[2.65rem] transition-all duration-1000 ${
-                    isVisible
-                      ? 'translate-x-0 opacity-100'
-                      : '-translate-x-16 opacity-0'
-                  }`}
+                  className={`my relative flex items-center justify-center px-[1rem] py-[1rem] lg:px-[4rem] lg:py-[2.65rem] transition-all duration-1000 ${isVisible
+                    ? 'translate-x-0 opacity-100'
+                    : '-translate-x-16 opacity-0'
+                    }`}
                 >
                   <Image
                     src={imgcornerReverse}
@@ -285,11 +283,10 @@ const NeedOfAdaired = ({ needOfService }: any) => {
             )}
 
             <div
-              className={`mt-[2rem] flex flex-col justify-center transition-all duration-1000 lg:mt-0 lg:h-full ${
-                isVisible
-                  ? 'translate-y-0 opacity-100'
-                  : 'translate-y-10 opacity-0'
-              }`}
+              className={`mt-[2rem] flex flex-col justify-center transition-all duration-1000 lg:mt-0 lg:h-full ${isVisible
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-10 opacity-0'
+                }`}
             >
               <h2>
                 How{' '}

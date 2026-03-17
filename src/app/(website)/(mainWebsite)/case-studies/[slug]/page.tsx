@@ -65,11 +65,16 @@ const CaseStudies = () => {
           <div>
             <Heading
               isVarticle={true}
-              breakIndex={7}
-              subTitle={label}
-              title={caseStudiesData?.caseStudyName ?? ''}
-              headingWidth={''}
-              span={span}
+              breakIndex={3}
+              subTitle={'CASE STUDIES'}
+              headingParts={[
+                {
+                  text: 'Digital Agency That Turns Businesses Into Brands',
+                  color: '#000000',
+                  weight: 700,
+                },
+              ]}
+              textColor="#000000"
             />
             <div className="grid grid-cols-2 gap-[2rem] pt-[1.5rem]">
               {img && (

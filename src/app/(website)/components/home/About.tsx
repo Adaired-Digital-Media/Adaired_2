@@ -18,7 +18,7 @@ import { tree } from 'next/dist/build/templates/app-page';
 
 const About = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
-  const { subTitle, title, points, description, cursive } = AboutSectionData;
+  const { subTitle, headingParts, points, description, cursive } = AboutSectionData;
 
   return (
     <section className="">
@@ -126,7 +126,7 @@ const About = () => {
             <Heading
               isLabel={true}
               subTitle={subTitle}
-              title={title}
+              headingParts={headingParts}
               span=""
               description={description}
               isPara2={true}

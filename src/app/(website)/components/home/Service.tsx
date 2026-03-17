@@ -23,7 +23,7 @@ export interface ServiceItem {
 const Service = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0);
   const router = useRouter();
-  const { subtitle, title, span, description, services } = ServiceSectionData;
+  const { subtitle, headingParts, textColor, span, description, services } = ServiceSectionData;
   const [hoveredTab, setHoveredTab] = useState<number | null>(null);
   const [activeCard, setActiveCard] = useState<string | null>(null);
   const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -93,8 +93,8 @@ const Service = () => {
             breakIndex={6}
             isLabel={true}
             subTitle={subtitle}
-            title={title}
-            isBgWhite
+            textColor={textColor}
+            headingParts={headingParts}
             description={description}
             isInCenter
           />

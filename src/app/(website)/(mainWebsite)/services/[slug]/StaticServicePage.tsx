@@ -153,7 +153,7 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
     ) : null,
 
   industryOrLeadingTools: (serviceData) =>
-    serviceData.industryLeaders?.isVisible ? <IndustryLeaders /> : null,
+    serviceData.industryLeaders?.isVisible ? <IndustryLeaders industryLeaders={serviceData.industryLeaders} /> : null,
 
   leadingTools: (serviceData) =>
     serviceData.leadingTools?.isVisible ? (

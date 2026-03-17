@@ -66,10 +66,9 @@ const TechStackMobile = ({ techStackMobile }: any) => {
                 <div className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
                     <Heading
                         breakIndex={techStackMobile?.breakIndex}
-                        title={techStackMobile?.heading}
+                        headingParts={techStackMobile?.headingParts}
                         description={techStackMobile?.description}
                         isInCenter={true}
-                        isBgWhite={true}
                     />
                 </div>
 

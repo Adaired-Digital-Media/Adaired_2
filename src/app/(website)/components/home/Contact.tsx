@@ -10,7 +10,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const Contact = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
-  const { image, subTitle, title, span, description } = ContactSectionData;
+  const { image, subTitle, headingParts, textColor, span, description } = ContactSectionData;
 
   return (
     <section ref={ref} className="">
@@ -22,11 +22,11 @@ const Contact = () => {
             breakIndex={5}
             isLabel={true}
             subTitle={subTitle}
-            title={title}
+            textColor={textColor}
+            headingParts={headingParts}
             span={span}
             description={description}
             isInCenter={true}
-            isBgWhite={true}
           />
         </div>
 

@@ -67,7 +67,8 @@ const SeeDifference = ({ seeDifference }: any) => {
                     <Heading
 
                         subTitle={seeDifference?.subTitle}
-                        title={seeDifference?.title}
+                        breakIndex={seeDifference?.breakIndex}
+                        headingParts={seeDifference?.headingParts}
                         description={seeDifference?.description}
                     />
                 </div>

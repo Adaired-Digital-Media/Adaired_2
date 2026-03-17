@@ -26,10 +26,9 @@ const AreYouTired = ({ areYouTired }: any) => {
                     <MaxWidthWrapper>
                         <Heading
                             breakIndex={8}
-                            isBgWhite
                             isInCenter
                             subTitle=""
-                            title={areYouTired.heading}
+                            headingParts={areYouTired?.headingParts}
                         />
 
                         {areYouTired.data.map((item: any, index: number) => (
@@ -90,7 +89,7 @@ const AreYouTired = ({ areYouTired }: any) => {
                                         className="text-center whitespace-pre-line"
                                         breakIndex={6}
                                         subTitle=""
-                                        title={areYouTired.heading}
+                                        headingParts={areYouTired?.headingParts}
                                         description={areYouTired.description}
                                     />
 

@@ -52,10 +52,10 @@ const LeadingTools = ({ leadingTools }: any) => {
         >
           <Heading
             breakIndex={6}
-            title={leadingTools?.heading}
+            headingParts={leadingTools?.headingParts}
             description={leadingTools?.description}
+            textColor={leadingTools?.textColor}
             isInCenter={true}
-            isBgWhite={!leadingTools?.bgImage && true}
           />
         </div>
 
