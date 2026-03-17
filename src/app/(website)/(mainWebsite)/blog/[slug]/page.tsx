@@ -270,7 +270,7 @@ const Blog = async ({ params }: BlogProps) => {
           subTitle="BLOG"
           isLabel={true}
           // breakIndex={4}
-          title={blog?.data?.postTitle}
+          headingParts={[{text:blog?.data?.postTitle}]}
         />
 
         {/* ----------- IMAGE + FIRST 100 WORDS ----------- */}

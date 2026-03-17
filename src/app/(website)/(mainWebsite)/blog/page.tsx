@@ -71,7 +71,7 @@ const Blog = async () => {
             isLabel={true}
             subTitle={'BLOG'}
             breakIndex={3}
-            title={`Digital Agency That Turns Businesses Into Brands`}
+            headingParts={[{text:`Digital Agency That Turns Businesses Into Brands`}]}
           />
           <BlogWPagination data={data} />
 
