@@ -119,7 +119,7 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                         >
                           <span className="text-[18px]">
                             {/* {'Get Your Free AI SEO Audit'} */}
-                            {card.linkText}
+                            {card.button}
                           </span>
                           <MdOutlineArrowOutward />
                         </p>

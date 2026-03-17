@@ -894,7 +894,7 @@ export const SERVICES_DATA = {
 
     whatIncluded: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '02',
       isInCenter: true,
       headingParts: [
         {
@@ -2043,7 +2043,7 @@ export const SERVICES_DATA = {
     },
     whatIncluded: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '02',
       isInCenter: true,
       breakIndex: 7,
       headingParts: [
