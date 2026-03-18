@@ -17305,7 +17305,8 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       paddingY: '2rem',
-      width: 45,
+      customGap: '12rem',
+      width: 50,
       data: [
         {
           desctioption: `Ready to build a powerful online store for your business? Our team of experienced eCommerce developers is here to help you create a scalable, secure, and high-performing eCommerce website tailored to your needs.`,
@@ -21024,4 +21025,3 @@ export const SERVICES_DATA = {
     },
   },
 };
-
