@@ -24,6 +24,7 @@ export interface IHeading {
   spanBreakIndex?: number;
   isCapitalize?: boolean;
   headingParts?: any;
+  isLastParaBold?: boolean;
 }
 
 const Heading = ({
@@ -41,7 +42,7 @@ const Heading = ({
   isPara2,
   headingWidth,
   breakIndex,
-  spanBreakIndex,
+  isLastParaBold,
   isVarticle,
   isLabel,
   isCapitalize,
@@ -52,7 +53,6 @@ const Heading = ({
 
   const words = safeTitle.split(' ');
   const spans = safeSpan.split(' ');
-
   return (
     <div className={className}>
       {isVarticle ? (
@@ -358,22 +358,19 @@ const Heading = ({
               </div>
               {description && (
                 <div className="px-0 lg:px-[15%]">
-                  {/* <p
-                    className={`mx-auto w-[100%] py-4 text-center lg:w-[80%]`}
-                    style={{ color: textColor || '#000000' }}
-                  >
-                    {description}
-                  </p> */}
                   {Array.isArray(description) ? (
-                    description.map((item: string, index: number) => (
-                      <p
-                        key={index}
-                        className={`mx-auto w-[100%] py-4 text-center lg:w-[80%]`}
-                        style={{ color: textColor || '#000000' }}
-                      >
-                        {item}
-                      </p>
-                    ))
+                    description.map((item: string, index: number) => {
+                      const isLast = description.length - 1 === index;
+                      return (
+                        <p
+                          key={index}
+                          className={`mx-auto w-[100%] py-4 text-center lg:w-[80%] ${isLast && isLastParaBold && 'font-bold'}`}
+                          style={{ color: textColor || '#000000' }}
+                        >
+                          {item}
+                        </p>
+                      );
+                    })
                   ) : (
                     <p
                       className={`mx-auto w-[100%] py-4 text-center lg:w-[80%]`}
@@ -468,15 +465,19 @@ const Heading = ({
               </div>
               <div className={`${isDecVarticle && 'pt-[0rem]'}`}>
                 {Array.isArray(description) ? (
-                  description.map((item: string, index: number) => (
-                    <p
-                      key={index}
-                      className={`pt-4 text-center lg:text-left`}
-                      style={{ color: textColor || '#000000' }}
-                    >
-                      {item}
-                    </p>
-                  ))
+                  description.map((item: string, index: number) => {
+                    const isLast = description.length - 1 === index;
+                    return (
+                      <p
+                        key={index}
+                        className={`pt-4 text-center lg:text-left ${isLast && isLastParaBold && 'font-bold'}`}
+                        style={{ color: textColor || '#000000' }}
+                      >
+                        {item}
+                      </p>
+                    );
+
+                  })
                 ) : (
                   <p
                     className={`pt-4 text-center lg:text-left`}
