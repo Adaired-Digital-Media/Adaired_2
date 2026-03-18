@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Get easy-to-understand tips and new ideas from Adaired’s blogs. From practical tips to interesting ideas, there is something for everyone. Start exploring today!',
   alternates: {
-    canonical: 'https://adaired.com/blog',
+    canonical: 'https://www.adaired.com/blog',
   },
 };
 
@@ -64,14 +64,14 @@ const Blog = async () => {
 
   return (
     <>
-      <PageBanner subTitle={'Latest'} title="BLOGS" />
+      <PageBanner subTitle={'Latest'} headingParts={[{text:'OUR BLOGS', color:"#000000", weight:700}]} isInCenter={false} />
       <MaxWidthWrapper className="pb-[6rem] pt-[3rem] lg:py-[4rem] lg:pb-[10rem] xl:pb-[12rem] xl:pt-[6rem]">
         <div className="">
           <Heading
             isLabel={true}
-            subTitle={'BLOG'}
+            subTitle={'Our BLOGS'}
             breakIndex={3}
-            headingParts={[{text:`Digital Agency That Turns Businesses Into Brands`}]}
+            headingParts={[{text:'Digital Agency That Turns Businesses Into Brands', color:"#000000", weight:700}]}
           />
           <BlogWPagination data={data} />
 

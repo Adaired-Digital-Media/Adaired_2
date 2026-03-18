@@ -90,7 +90,6 @@ export async function generateMetadata({
       };
     }
 
-    
     const response = await res.json();
     const blog = response?.data;
 
@@ -263,14 +262,20 @@ const Blog = async ({ params }: BlogProps) => {
 
   return (
     <>
-      <PageBanner title={'Blog'} />
+      <PageBanner
+        subTitle={'Latest'}
+        headingParts={[{ text: 'BLOG DETAILS', color: '#000000', weight: 700 }]}
+        isInCenter={false}
+      />
 
       <MaxWidthWrapper className="py-12 md:py-20">
         <Heading
           subTitle="BLOG"
           isLabel={true}
-          // breakIndex={4}
-          headingParts={[{text:blog?.data?.postTitle}]}
+          breakIndex={3}
+          headingParts={[
+            { text: blog?.data?.postTitle, color: '#000000', weight: 700 },
+          ]}
         />
 
         {/* ----------- IMAGE + FIRST 100 WORDS ----------- */}
@@ -297,10 +302,7 @@ const Blog = async ({ params }: BlogProps) => {
             <div className="flex gap-2 py-4">
               <div className="h-6 w-1 bg-[#1B5A96]"></div>
               <p className="font-bold">
-                Date:{' '}
-                <span className="font-normal text-[#797979]">
-                  {transformDate(blog?.data?.createdAt)}
-                </span>
+                Date : {transformDate(blog?.data?.createdAt)}
               </p>
             </div>
 
