@@ -2372,6 +2372,7 @@ export const SERVICES_DATA = {
       'areYouTired',
       'whatareservice',
       'needofservice',
+      'serviceResult',
       'whatMissing',
       'stopStruggling',
       'adairedHelp',
@@ -2690,6 +2691,11 @@ export const SERVICES_DATA = {
         },
       ],
     },
+
+    serviceResult: {
+      isVisible: false,
+    },
+
     notSeeingResult: {
       isVisible: true,
       headingParts: [
@@ -3150,7 +3156,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired Digital Media, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
       button: 'Book a consultation today',
-      width: 60,
+      width: '60',
       breakIndex: 3,
       heading: 'Design That Builds Trust.',
       heading2: 'Design That Builds Trust.',
@@ -3845,7 +3851,7 @@ export const SERVICES_DATA = {
       span: 'Get discovered by the customers who are searching for your business right now',
       button: 'Book a Strategy Call',
       subheading: '',
-      width: 50,
+      width: '50',
       img: localBannerBg,
       imgWidth: '727',
       imgHight: '598',
@@ -4706,7 +4712,7 @@ export const SERVICES_DATA = {
       code: '02',
       isVisible: true,
       isStyleHeading: true,
-      width: 50,
+      width: '50',
       subtitle: 'Industry-Leading White Label',
       headingParts: [
         { text: 'Social Media Management', color: '#000000', weight: '400' },
@@ -5352,7 +5358,7 @@ export const SERVICES_DATA = {
       ],
       button: 'Talk to Us!',
       span: 'All set to deliver real SEO results to your clients without building an in-house team?',
-      width: 50,
+      width: '50',
       img: whiteSeoBannerBg,
       imgWidth: '679',
       imgHight: '558',
@@ -6111,7 +6117,7 @@ export const SERVICES_DATA = {
         'Adaired Digital Media works behind the scenes as your reseller SEO partner, delivering results-driven SEO and digital marketing while you keep full brand ownership.',
       ],
       button: 'Start a Conversation!',
-      width: 60,
+      width: '60',
       img: whiteServicesBannerBg,
       imgWidth: '734',
       imgHight: '512',
@@ -6911,7 +6917,7 @@ export const SERVICES_DATA = {
         `Drive high-intent traffic, generate qualified leads, and maximize ROI with data-driven PPC management. We build, optimize, and scale paid search campaigns that turn clicks into real revenue.`,
       ],
       button: 'Request a Campaign Audit',
-      width: 55,
+      width: '55',
       img: PPC_Banner,
       imgWidth: '750',
       imgHight: '593',
@@ -7718,7 +7724,7 @@ export const SERVICES_DATA = {
           weight: '800',
         },
       ],
-      width: 50,
+      width: '50',
       heading2: 'White Label PPC Services',
       desc: [
         `Stop turning down PPC clients. Launch high-performance white-label paid ads services without expanding your internal team.`,
@@ -8583,7 +8589,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      width: 70,
+      width: '70',
       desc: [
         `Strengthen your clients’ SEO strategy with expert white-label link-building services designed for agencies that want to scale without increasing overhead.`,
         `At Adaired Digital Media, white-label backlinks are built through ethical outreach, high-authority guest posting, and strategic placements that enhance domain authority, improve rankings, 
@@ -9249,7 +9255,7 @@ export const SERVICES_DATA = {
         We build SaaS SEO systems that generate qualified demos, lower CAC, and turn organic search into a predictable revenue channel.`,
       ],
       button: 'Book a 30-Minute Strategy Call',
-      width: 50,
+      width: '65',
       img: saasSeoBannerBg,
       imgWidth: '737',
       imgHight: '558',
@@ -9273,7 +9279,7 @@ export const SERVICES_DATA = {
       imgWidth: '735px',
       imgHight: '477px',
       customGap: '12rem',
-      // breakIndex: 5,
+      breakIndex: 5,
       data: [
         {
           desctioption: `Helping B2B SaaS companies build predictable organic growth engines that increase MRR, generate qualified demos, 
@@ -10015,7 +10021,7 @@ export const SERVICES_DATA = {
         Our expert-driven strategy focuses on high-quality content, authority building, structured data optimization, and AI-ready website architecture.`,
       ],
       button: 'Optimize My Website for AI',
-      width: 50,
+      width: '50',
       widthLg: '30rem',
       img: geoAiSeoBannerBg,
       imgWidth: '674',
@@ -10753,7 +10759,7 @@ export const SERVICES_DATA = {
         ` Using proven Answer Engine Optimization services, Adaired Digital Media helps you structure your content so AI platforms can understand it, trust it, and feature it at the top of the results.`,
       ],
       button: 'Build My AEO Strategy',
-      width: 50,
+      width: '50',
       img: AeoServiceBannerImg,
       imgWidth: '802',
       imgHight: '594',
@@ -11449,7 +11455,7 @@ export const SERVICES_DATA = {
         `Take your brand to your users’ fingertips with high-performance mobile apps designed to increase reach, engagement, and growth.`,
       ],
       button: 'Transform Your Website Into an App',
-      width: 50,
+      width: '50',
       img: mobileAppDevBannerBg,
       imgWidth: '809',
       imgHight: '650',
@@ -12475,7 +12481,7 @@ export const SERVICES_DATA = {
         `Show up first when customers search for your services and turn your Google Business Profile into a stream of calls and leads into real sales.`,
       ],
       button: 'Boost My Visibility Today',
-      width: 50,
+      width: '50',
       widthLg: '30rem',
       img: gbplocalSeoBannerBg,
       imgWidth: '811',
@@ -13294,7 +13300,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       breakIndex: 4,
       bgColor: false,
-      isInCenter: true,
       textColor: '',
       headingParts: [
         {
@@ -14051,7 +14056,7 @@ export const SERVICES_DATA = {
       ],
       subheading: 'Don’t wait to grow your business; let us assist you!',
       button: 'Create a Website for My Business',
-      width: 50,
+      width: '50',
       isGap: true,
       img: Banner,
       imgWidth: '937',
@@ -14711,7 +14716,7 @@ export const SERVICES_DATA = {
           weight: '800',
         },
       ],
-      width: 60,
+      width: '60',
       heading2: 'White Label PPC Services',
       desc: [
         `Future-proof your visibility with strategic LLM SEO and generative search optimization.`,
@@ -15319,7 +15324,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Launch My Shopify Store',
-      width: 50,
+      width: '50',
       widthLg: '30rem',
       img: ShopifyDevBannerImg,
       imgWidth: '1075',
@@ -15958,7 +15963,7 @@ export const SERVICES_DATA = {
           weight: '800',
         },
       ],
-      width: 60,
+      width: '60',
       heading2: 'White Label PPC Services',
       desc: [
         `Get found by shoppers who are ready to buy and turn search traffic into predictable sales growth. `,
@@ -16746,7 +16751,7 @@ export const SERVICES_DATA = {
           weight: '800',
         },
       ],
-      width: 60,
+      width: 50,
       heading2: 'White Label PPC Services',
       desc: [
         `Empower your online business with a feature-packed eCommerce website designed for speed, usability, and scalability.`,
@@ -18702,7 +18707,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Let’s Build Your App',
-      width: 45,
+      width: '45',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevBannerImg_iwkfje.png',
       imgWidth: '911',
       imgHight: '682',
@@ -19820,7 +19825,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Help Me Grow Online',
-      width: 50,
+      width: '50',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtBannerImg_zvcfx3.png',
       imgWidth: '679',
       imgHight: '699',
@@ -20338,8 +20343,8 @@ export const SERVICES_DATA = {
       breakIndex: 4,
       bgImg: bgImgBuildLink,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtBuildLinkImg_fdqe6x.png',
-      imgWidth: '581',
-      imgHight: '580',
+      imgWidth: '744',
+      imgHight: '456',
       headingParts: [
         {
           text: 'Let’s Grow Your Social',
@@ -20356,7 +20361,6 @@ export const SERVICES_DATA = {
       textColor: 'white',
       width: 60,
       paddingY: '2rem',
-      customGap: '4rem',
       data: [
         {
           desctioption: `Take your brand to the next level with professional social media management. From strategy and content creation to engagement and analytics, we help you reach your audience, increase visibility, and drive measurable results.`,
@@ -21020,3 +21024,4 @@ export const SERVICES_DATA = {
     },
   },
 };
+
