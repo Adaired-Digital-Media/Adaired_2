@@ -178,7 +178,7 @@ const KeyStats = ({ keyStats }: any) => {
             className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
           >
             <Heading
-              breakIndex={6}
+              breakIndex={keyStats?.breakIndex}
               isInCenter={true}
               subTitle={''}
               headingParts={keyStats?.headingParts}
@@ -295,7 +295,7 @@ const KeyStats = ({ keyStats }: any) => {
               </div>
 
               <div
-                className={`relative flex items-center justify-center rounded-[20px] ${keyStats?.heading == 'Must-Know Facts About White Label Social Media' ? 'bg-[#FFFFFF]' : `bg-[${keyStats?.bgColor}]/10`}`}
+                className={`relative flex items-center justify-center rounded-[20px] ${keyStats?.headingParts[0]?.text == 'Must-Know Facts About White Label Social Media' ? 'bg-[#FFFFFF]' : `bg-[${keyStats?.bgColor}]/10`}`}
               >
                 <Image
                   src={keyStats?.img}

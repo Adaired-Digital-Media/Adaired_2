@@ -32,16 +32,24 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             </h2>
 
             {stopStruggling?.span ? (
-              <h1 className="mx-auto w-[100%] text-center text-[#FFFFFF]">
-                {stopStruggling?.title}
-              </h1>
+              // <h1 className="mx-auto w-[100%] text-center text-[#FFFFFF]">
+              //   {stopStruggling?.title}
+              // </h1>
+              <Heading
+                isH1={true}
+                headingParts={stopStruggling?.headingParts}
+                textColor={stopStruggling?.textColor}
+              />
             ) : (
-              <h2 className="mx-auto w-[100%] pb-4 text-center text-[#FFFFFF]">
-                {stopStruggling?.title}
-              </h2>
+              // <h2 className="mx-auto w-[100%] pb-4 text-center text-[#FFFFFF]">
+              //   {stopStruggling?.title}
+              // </h2>
+              <Heading
+                headingParts={stopStruggling?.headingParts}
+              />
             )}
 
-            <div className="space-y-4 text-center">
+            <div className="space-y-4 w-[100%] mx-auto lg:w-[80%] text-center">
               {stopStruggling?.description?.map((item: any, idx: number) => (
                 <p key={idx} className="text-center text-white">
                   {item}
@@ -64,16 +72,18 @@ const Stopstruggling = ({ stopStruggling }: any) => {
           </div>
         ) : (
           <div
-            className={`grid gap-10 transition-all duration-1000 lg:grid-cols-2 ${
-              isVisible
-                ? 'translate-y-0 opacity-100'
-                : 'translate-y-12 opacity-0'
-            }`}
+            className={`grid gap-10 transition-all duration-1000 lg:grid-cols-2 ${isVisible
+              ? 'translate-y-0 opacity-100'
+              : 'translate-y-12 opacity-0'
+              }`}
           >
             <div>
-              <h2 className="font-semibold text-white">
+              {/* <h2 className="font-semibold text-white">
                 {stopStruggling?.title}
-              </h2>
+              </h2> */}
+              <Heading
+                headingParts={stopStruggling?.headingParts}
+              />
             </div>
 
             <div>

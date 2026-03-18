@@ -731,7 +731,7 @@ export const ServiceSectionData = {
       title: 'Social Media Management',
       description:
         'We help brands build visibility, engagement, and trust across leading social platforms. Through consistent content creation, strategic planning, and optimization, we help you grow your audience, strengthen your brand voice, and increase followers.',
-      link: '/services/strategic-social-media-management',
+      link: '/services/social-media-management-india',
       list: [
         {
           icon: SMM_Icon_1,

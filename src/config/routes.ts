@@ -203,7 +203,7 @@ export const routes: {
               href: '#',
             },
             {
-              name: 'Gest Post Links',
+              name: 'Guest Post Links',
               href: '#',
             },
             {
@@ -218,7 +218,7 @@ export const routes: {
         },
         {
           icon: icon_9,
-          name: 'Pay Per Click & SMM',
+          name: 'Pay Per Click',
           href: '/services/ppc-management-company-india',
           subItems: [
             {
@@ -242,7 +242,7 @@ export const routes: {
         {
           icon: icon_3,
           name: 'Social Media Management',
-          href: '/services/strategic-social-media-management',
+          href: '/services/social-media-management-india',
           subItems: [
             {
               name: 'Port Creation',
@@ -292,7 +292,7 @@ export const routes: {
           subItems: [
             {
               name: 'IOS Development',
-              href: '#',
+              href: '/services/ios-app-development-agency-india',
             },
             {
               name: 'Android Development',

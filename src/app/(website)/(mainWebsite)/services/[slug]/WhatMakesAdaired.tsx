@@ -11,7 +11,8 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
   return (
     <div
       ref={ref}
-      className={`py-[1.5rem] lg:py-[4rem] ${whatMkeDeferent?.bgGradient || 'bg-[#FFFFFF]'}`}
+      className={`py-[1.5rem] lg:py-[4rem]`}
+      style={{backgroundColor:whatMkeDeferent?.bgColor || '#FFFFFF'}}
     >
       <MaxWidthWrapper>
         <div

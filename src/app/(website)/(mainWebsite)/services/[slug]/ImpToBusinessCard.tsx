@@ -99,7 +99,7 @@ const ImpToBusinessCard = ({ handleClick, idx, isVisible, cardData }: any) => {
         flex flex-col justify-between"
       >
         <div>
-          <h1 className="text-center text-white lg:text-left font-normal">
+          <h1 className="text-center text-white lg:text-left font-light">
             {cardData?.heading}
           </h1>
 

@@ -26,6 +26,7 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                   isDecVarticle={!whatIncluded?.isInCenter && true}
                   headingParts={whatIncluded?.headingParts}
                   description={whatIncluded?.description}
+                  isInCenter={whatIncluded?.isInCenter}
                 />
                 <div className="grid grid-cols-1 gap-6 pt-[1rem] lg:grid-cols-3">
                   {whatIncluded?.list?.map((card: any, index: number) => (

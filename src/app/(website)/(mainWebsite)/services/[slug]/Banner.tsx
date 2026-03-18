@@ -246,7 +246,7 @@ const Banner = ({ banner }: any) => {
                 style={{ gap: banner?.customGap || '4rem' }}
               >
                 <div
-                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[${banner?.width || '50%'}] ${banner?.isAbsolute && 'pb-[0rem] lg:pb-[6rem]'} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[${`${banner?.width}%` || '50%'}] ${banner?.isAbsolute && 'pb-[0rem] lg:pb-[6rem]'} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
                   <div
                     className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}
@@ -373,7 +373,7 @@ const Banner = ({ banner }: any) => {
                   </div>
                 </div>
                 <div
-                  className={`${banner?.isAbsolute ? 'ml-auto' : 'my-auto'} ml-auto w-fit pt-[4rem] lg:h-[var(--img-h)] lg:w-[var(--img-w)] lg:pt-0`}
+                  className={`${banner?.isAbsolute ? 'ml-auto' : 'my-auto'} ml-auto w-fit pt-[4rem] lg:h-[var(--img-h)] lg:w-[${`${100-banner?.width}%` || '50%'}] lg:pt-0`}
                   style={
                     {
                       '--img-w': banner?.imgWidth,

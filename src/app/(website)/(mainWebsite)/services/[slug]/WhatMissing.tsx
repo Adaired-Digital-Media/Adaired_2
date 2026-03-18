@@ -16,7 +16,8 @@ const WhatMissing = ({ whatMissing }: any) => {
   return (
     <section
       ref={ref}
-      className={`py-[3rem] lg:py-[4rem] bg-[${whatMissing?.bgColor || '#FFFFFF'}]`}
+      className={`py-[3rem] lg:py-[4rem]`}
+      style={{backgroundColor:whatMissing?.bgColor || '#FFFFFF'}}
     >
       {whatMissing?.isVariant === '01' && (
         <MaxWidthWrapper>

@@ -3,7 +3,7 @@ import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import rocket from '../../../../../../public/assets/icons/rocket.svg'
+import rocket from '../../../../../../public/assets/icons/rocket.svg';
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
@@ -24,28 +24,37 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
             >
               <div className="block gap-[6rem] lg:flex">
                 <div
-                  className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] pr-[10%] lg:w-[42%]' : 'flex w-[100%] items-center justify-center'}`}
+                  className={`${aiseoResult?.description?.length > 0 ? 'w-[100%]' : 'flex w-[100%] items-center justify-center'}`}
                 >
-                  <Heading headingParts={aiseoResult?.headingParts} />
+                  <Heading
+                    breakIndex={aiseoResult?.breakIndex}
+                    headingParts={aiseoResult?.headingParts}
+                    description={aiseoResult?.description}
+                    textColor={aiseoResult?.textColor}
+                    isInCenter={aiseoResult?.isInCenter}
+                    isDecVarticle={!aiseoResult?.isInCenter && true}
+                  />
                 </div>
-                <div
+                {/* <div
                   className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] lg:w-[55%]' : 'w-[0%]'}`}
                 >
                   {aiseoResult?.description?.map((item: any) => {
                     return <p className="my-3">{item}</p>;
                   })}
-                </div>
+                </div> */}
               </div>
             </div>
 
             <div className="flex flex-col justify-between gap-[6rem] pt-[3rem] lg:flex-row">
               <div
                 ref={ref}
-                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
-                  isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : '-translate-x-16 opacity-0'
-                }`}
+                className={`relative w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${isVisible
+                  ? 'translate-x-0 opacity-100'
+                  : '-translate-x-16 opacity-0'
+                  }`}
+                style={{
+                  height: aiseoResult?.imgHight || '480px',
+                }}
               >
                 {/* Main image */}
                 <Image
@@ -83,11 +92,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       key={index}
                       onClick={() => setActiveIndex(isActive ? null : index)}
                       onMouseEnter={() => setActiveIndex(index)}
-                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${
-                        isActive
-                          ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
-                          : 'border-[#00000014] bg-[#F3F3F3]'
-                      }`}
+                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${isActive
+                        ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
+                        : 'border-[#00000014] bg-[#F3F3F3]'
+                        }`}
                       style={{
                         transitionDelay: `${index * 280}ms`, // 👈 stagger here
                         backgroundColor: aiseoResult.cardColor || '#FFFFFF',
@@ -109,18 +117,17 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                           )}
 
                           <p
-                            className={`font-bold ${
-                              isActive ? 'hover:text-[var(--hover-color)]' : ''
-                            }`}
-                            style={
-                              {
-                                '--hover-color':
-                                  aiseoResult.titleColor || '#000000',
-                                color: isActive
-                                  ? aiseoResult.titleColor || '#000000'
-                                  : '#000000',
-                              } as React.CSSProperties
-                            }
+                            className={`font-bold ${isActive ? 'hover:text-[var(--hover-color)]' : ''
+                              }`}
+                          // style={
+                          //   {
+                          //     '--hover-color':
+                          //       aiseoResult.titleColor || '#000000',
+                          //     color: isActive
+                          //       ? aiseoResult.titleColor || '#000000'
+                          //       : '#000000',
+                          //   } as React.CSSProperties
+                          // }
                           >
                             {item?.name}
                           </p>
@@ -144,11 +151,10 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
 
                       {/* BODY */}
                       <div
-                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${
-                          isActive
-                            ? 'mt-3 grid-rows-[1fr] opacity-100'
-                            : 'grid-rows-[0fr] opacity-0'
-                        }`}
+                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${isActive
+                          ? 'mt-3 grid-rows-[1fr] opacity-100'
+                          : 'grid-rows-[0fr] opacity-0'
+                          }`}
                       >
                         <div className="overflow-hidden">
                           {item?.description?.map((desc: string, i: number) => (
