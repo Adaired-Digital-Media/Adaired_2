@@ -31,7 +31,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                     headingParts={aiseoResult?.headingParts}
                     description={aiseoResult?.description}
                     textColor={aiseoResult?.textColor}
-                    // isInCenter={aiseoResult?.isInCenter}
+                    isInCenter={aiseoResult?.isInCenter}
                     isDecVarticle={!aiseoResult?.isInCenter && true}
                   />
                 </div>

@@ -7,7 +7,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import SocialMediaCheck from '../../../../../../public/assets/images/PPCimg/arrowOrange.png';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const OurProcess = ({ ourProcess }: any) => {
+const OurProcessBackup = ({ ourProcess }: any) => {
   const { ref } = useInViewOnce<HTMLDivElement>(0);
 
   const [activeTab, setActiveTab] = useState(0);
@@ -43,7 +43,7 @@ const OurProcess = ({ ourProcess }: any) => {
         {/* ================= HEADING ================= */}
 
         <div className="sticky top-[5rem] z-20 mb-[3rem] lg:top-[10rem]">
-          <div className={`mx-auto w-full lg:w-[80%] `}>
+          <div className="mx-auto w-full lg:w-[80%]">
             <Heading
               isLabel={true}
               subTitle={'Our Process'}
@@ -51,7 +51,6 @@ const OurProcess = ({ ourProcess }: any) => {
               headingParts={ourProcess?.headingParts}
               description={ourProcess?.description}
               isInCenter={ourProcess?.isInCenter}
-              isDecVarticle={ourProcess?.isVerticle}
               textColor={ourProcess?.textColor}
             />
           </div>
@@ -208,7 +207,7 @@ const OurProcess = ({ ourProcess }: any) => {
             </div>
           </div>
         </div>
-        {/* <div className="relative flex gap-[4rem]">
+        <div className="relative flex gap-[4rem]">
           <div>
             <div className="mt-[300px]">
               {ourProcess.services.map((_: any, idx: number) => (
@@ -222,10 +221,10 @@ const OurProcess = ({ ourProcess }: any) => {
               ))}
             </div>
           </div>
-        </div> */}
+        </div>
       </MaxWidthWrapper>
     </section>
   );
 };
 
-export default OurProcess;
+export default OurProcessBackup;

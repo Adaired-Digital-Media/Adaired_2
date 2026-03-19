@@ -39,6 +39,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
                 isH1={true}
                 headingParts={stopStruggling?.headingParts}
                 textColor={stopStruggling?.textColor}
+                isInCenter={stopStruggling?.isInCenter}
               />
             ) : (
               // <h2 className="mx-auto w-[100%] pb-4 text-center text-[#FFFFFF]">
@@ -46,6 +47,8 @@ const Stopstruggling = ({ stopStruggling }: any) => {
               // </h2>
               <Heading
                 headingParts={stopStruggling?.headingParts}
+                textColor={stopStruggling?.textColor}
+                isInCenter={stopStruggling?.isInCenter}
               />
             )}
 
@@ -83,6 +86,8 @@ const Stopstruggling = ({ stopStruggling }: any) => {
               </h2> */}
               <Heading
                 headingParts={stopStruggling?.headingParts}
+                textColor={stopStruggling?.textColor}
+                isInCenter={stopStruggling?.isInCenter}
               />
             </div>
 

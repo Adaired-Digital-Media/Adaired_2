@@ -5,8 +5,9 @@ import LaunchMobileAppCardBg from '../../../../../../public/assets/images/servic
 import LaunchMobileAppCardImage from '../../../../../../public/assets/images/services/mobileAppDevelopment/LaunchMobileAppCardImage.png';
 import Image from 'next/image';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
+import ImportantToBussiness from './ImportantToBussiness';
 
-const LaunchMobileApp = ({ handleClick }: any) => {
+const LaunchMobileApp = ({ handleClick, idx, isVisible, cardData }: any) => {
     //test
     return (
         <div className="relative min-h-[480px] lg:min-h-[450px] rounded-2xl">
@@ -19,38 +20,39 @@ const LaunchMobileApp = ({ handleClick }: any) => {
             />
 
             <Image
-                src={LaunchMobileAppCardImage}
+                src={cardData?.bgImg}
                 alt="hero image"
-                width={424}
-                height={413}
+                width={cardData?.imgWidth}
+                height={cardData?.imgHeight}
                 priority
                 className="absolute w-[clamp(12rem,25vw,26rem)] bottom-0 right-0 pointer-events-none rounded-2xl"
             />
-            <div 
-            className='absolute w-full p-[2rem] md:p-[4rem] lg:p-[3rem] h-full'
+            <div
+                className='absolute w-full p-[2rem] md:p-[4rem] lg:p-[3rem] h-full'
             >
                 <h1 className="text-center text-white lg:text-left font-normal">
-                    Launch Your Next
+                    {cardData?.heading}
                 </h1>
 
-                <h1 className="text-center text-white lg:text-left">
-                    Mobile App with
-                </h1>
-                <h1 className='text-center text-white lg:text-left'>
-                    Experts
-                </h1>
+                {cardData?.heading1?.map((heading: any, i: number) => (
+                    <h1
+                        key={i}
+                        className="text-center text-white lg:text-left">
+                        {heading}
+                    </h1>
+                ))}
 
-                <p className="pt-[1rem] lg:pt-[2rem] text-white font-semibold text-center lg:text-left">
-                    Custom Android and iOS apps built to
-                </p>
-
-                <p className="text-white font-semibold text-center lg:text-left">
-                    scale with your business.
-                </p>
+                {cardData?.description?.map((desc: any, i: number) => (
+                    <p
+                        key={i}
+                        className="pt-[1rem] lg:pt-[2rem] text-white font-semibold text-center lg:text-left">
+                        {desc}
+                    </p>
+                ))}
 
                 <div className="absolute pt-[2rem] sm:px-[7rem] sm:p-[3rem] md:p-[4rem] lg:px-0">
                     <SaveAndCancel
-                        name="Ask a Developer"
+                        name={cardData?.buttonName}
                         isIcon={true}
                         isBold={true}
                         isBgWhite={true}

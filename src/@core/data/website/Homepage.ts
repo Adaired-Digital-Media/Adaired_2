@@ -522,7 +522,7 @@ export const ServiceSectionData = {
     {
       title: 'Search Engine Optimization',
       description:
-        'We improve search rankings and drive qualified organic traffic through keyword research, on-page optimization, technical SEO, and performance tracking, focused on sustainable growth and real business results.',
+        'We improve your website’s visibility on search engines by combining in-depth keyword research, strategic on-page optimization, technical SEO enhancements, and continuous performance tracking. Our approach is focused on attracting high-intent, qualified traffic that converts into real customers.',
       list: [
         {
           icon: SEO_1,
@@ -557,7 +557,7 @@ export const ServiceSectionData = {
     {
       title: 'AI SEO',
       description:
-        'We optimize content and entity signals so large language models understand, trust, and surface your brand in AI-generated answers and recommendations.',
+        'We empower your brand by optimizing content, structure, and entity signals so large language models can accurately understand, trust, and recommend your business. From AI-driven search results to conversational interfaces, we ensure visibility beyond traditional search engines and capture emerging traffic opportunities.',
       link: '/services/ai-seo-india',
       list: [
         {
@@ -600,7 +600,7 @@ export const ServiceSectionData = {
     {
       title: 'Local SEO',
       description:
-        'We optimize Google Business Profiles, local keywords, citations, and reviews to improve map pack rankings, increase local visibility, and drive consistent engagement from nearby searchers.',
+        'We help your business dominate local search results by optimizing your Google Business Profile, targeting location-specific keywords, managing citations, and building a strong review profile. We improve your presence, increase local visibility, and drive consistent calls, visits, and inquiries from nearby customers.',
       link: '/services/local-seo-company-india',
       list: [
         {
@@ -644,7 +644,7 @@ export const ServiceSectionData = {
     {
       title: 'Link Building',
       description:
-        'Our Link Building services focus on earning high-quality, relevant backlinks that strengthen domain authority, improve search rankings, and support long-term organic growth.',
+        'Our link-building services focus on acquiring high-quality, relevant backlinks from authoritative websites within your industry. Through strategies such as guest posting, niche editing, and digital PR, we enhance your domain authority and boost your website’s credibility in the eyes of search engines.',
       list: [
         {
           icon: Link_Building_Icon_1,
@@ -687,7 +687,7 @@ export const ServiceSectionData = {
     {
       title: 'Pay Per Click',
       description:
-        'We deliver performance-focused PPC and social ad campaigns designed to reach the right audience at the right time.',
+        'We create and manage high-performing paid advertising campaigns across platforms like Google, Meta, LinkedIn, and TikTok. Our data-driven approach ensures your ads reach the right audience at the right time, maximizing clicks, conversions, and return on ad spend.',
       link: '/services/ppc-management-company-india',
       list: [
         {
@@ -730,7 +730,7 @@ export const ServiceSectionData = {
     {
       title: 'Social Media Management',
       description:
-        'We help brands build visibility, engagement, and trust across leading social platforms. Through consistent content creation, strategic planning, and optimization, we help you grow your audience, strengthen your brand voice, and increase followers.',
+        'We help your brand grow and stay relevant across leading social media platforms through consistent, high-quality content and strategic planning. From post creation and reels to full content calendars and creative design, we increase your follower base while turning your audience into loyal customers.',
       link: '/services/social-media-management-india',
       list: [
         {
@@ -773,7 +773,7 @@ export const ServiceSectionData = {
     {
       title: 'Web Design & Development',
       description:
-        'Responsive, intuitive, and high-performing websites that increase engagement, enhance usability, and deliver real, measurable results.',
+        'We design and develop responsive, user-friendly, and high-performance websites tailored to your business goals. Whether it’s WordPress, Shopify, or custom development, our websites are built to enhance user experience, improve conversions, and support your digital marketing efforts.',
       link: '/services/web-design-development-company',
       list: [
         {
@@ -817,7 +817,7 @@ export const ServiceSectionData = {
       title: 'Mobile App Development',
       link: '/services/mobile-apps-development-india',
       description:
-        'We help you create high-performing mobile apps. Our team manages design, development, and deployment, delivering apps that engage users and grow your business.',
+        'We create powerful, user-centric mobile applications for iOS, Android, and cross-platform environments. From concept and UI/UX design to development and deployment, our team ensures your app delivers seamless performance and engaging user experiences.',
       list: [
         {
           icon: app_1,
@@ -833,7 +833,7 @@ export const ServiceSectionData = {
           label: 'Android App Development',
           title: 'Android App Development',
           description: `At Adaired, we specialize in Android App Development, building high-performing, user-friendly apps for all Android devices. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver apps while retaining full client ownership.`,
-          link: '/services/web-design-development-company',
+          link: '/services/android-app-development-company-india',
         },
         {
           icon: app_3,
@@ -841,7 +841,7 @@ export const ServiceSectionData = {
           label: 'Cross-Platform',
           title: 'Cross-Platform',
           description: `At Adaired, we specialize in Cross-Platform App Development, creating apps that work flawlessly on both iOS and Android. From design and coding to testing and deployment, we handle the technical work under your brand, helping you deliver quality apps and scale your business effortlessly.`,
-          link: '/services/web-design-development-company',
+          link: '/services/cross-platform-app-development-india',
         },
         {
           icon: app_4,
@@ -859,7 +859,7 @@ export const ServiceSectionData = {
     {
       title: 'Content Marketing',
       description:
-        'From blogs and website copy to landing pages and thought leadership, we create content that supports SEO, builds authority, and drives consistent organic growth.',
+        'We craft high-quality, strategic content that attracts, engages, and converts your target audience. From blog articles and website copy to eCommerce content and thought leadership pieces, our content is optimized for both users and search engines.',
       link: '/services/expert-content-solutions',
       list: [
         {

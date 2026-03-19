@@ -17,7 +17,7 @@ const WhatMissing = ({ whatMissing }: any) => {
     <section
       ref={ref}
       className={`py-[3rem] lg:py-[4rem]`}
-      style={{backgroundColor:whatMissing?.bgColor || '#FFFFFF'}}
+      style={{ backgroundColor: whatMissing?.bgColor || '#FFFFFF' }}
     >
       {whatMissing?.isVariant === '01' && (
         <MaxWidthWrapper>
@@ -147,6 +147,53 @@ const WhatMissing = ({ whatMissing }: any) => {
           </div>
 
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
+        </MaxWidthWrapper>
+      )}
+
+      {whatMissing?.isVariant === '03' && (
+        <MaxWidthWrapper>
+          <div className={``}>
+            <Heading
+              breakIndex={whatMissing?.breakIndex}
+              headingParts={whatMissing?.headingParts}
+              isInCenter={whatMissing?.isInCenter}
+              description={whatMissing?.description}
+              isDecVarticle={!whatMissing?.isInCenter}
+            />
+
+            <div className="grid grid-cols-1 gap-6 pt-[3rem] md:grid-cols-2 lg:grid-cols-3">
+              {whatMissing?.list?.map((card: any, index: number) => (
+                <div
+                  key={index}
+                  className={`relative rounded-2xl p-[2.5rem] transition-all duration-1000 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                  style={{
+                    transitionDelay: isVisible ? '0ms' : `${index * 280}ms`,
+                    backgroundColor: whatMissing?.cardBg,
+                    border: `1px solid ${whatMissing?.cardBorderColor}`,
+                  }}
+                >
+                  <div className="relative mb-4 flex items-center justify-center md:mb-6 lg:mb-8 lg:justify-start">
+                    <Image
+                      src={card.icon}
+                      alt="icons"
+                      width={80}
+                      height={80}
+                      className="object-contain h-[60px] w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px]"
+                    />
+                  </div>
+
+                  <h3 className="py-[1rem]">{card.title}</h3>
+                  <div className="space-y-4">
+                    {card.description.map((text: string, i: number) => (
+                      <p key={i} className="leading-relaxed">
+                        {text}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </MaxWidthWrapper>
       )}
     </section>

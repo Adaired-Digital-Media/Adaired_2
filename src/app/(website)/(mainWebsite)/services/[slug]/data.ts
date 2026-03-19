@@ -1,4 +1,4 @@
-import rocket from '../../../../../../public/assets/icons/rocket.svg';
+// import rocket from '../../../../../../public/assets/icons/rocket.svg';
 // import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
 // import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
 // import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
@@ -486,6 +486,7 @@ import mobileAppDevTechStackImg_27 from '../../../../../../public/assets/images/
 import mobileAppDevTechStackImg_28 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_28.png';
 import mobileAppDevTechStackImg_29 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_29.png';
 import mobileAppDevTechStackImg_30 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_30.png';
+import LaunchMobileAppCardImage from '../../../../../../public/assets/images/services/mobileAppDevelopment/LaunchMobileAppCardImage.png';
 
 // GBP local Seo Images
 // import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gbpLocalSeo/gbplocalSeoBannerBg.png';
@@ -706,6 +707,41 @@ import socialMediaMgtImpIcon_4 from '../../../../../../public/assets/images/serv
 import socialMediaMgtImpIcon_5 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_5.png';
 import socialMediaMgtImpIcon_6 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_6.png';
 
+// Android App Development Images
+import ImpToBusiness_AndroidAppIcon1 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon1.svg';
+import ImpToBusiness_AndroidAppIcon2 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon2.svg';
+import ImpToBusiness_AndroidAppIcon3 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon3.svg';
+import ImpToBusiness_AndroidAppIcon4 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon4.svg';
+import ImpToBusiness_AndroidAppIcon5 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon5.svg';
+import ImpToBusiness_AndroidAppIcon6 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon6.svg';
+import ImpToBusiness_AndroidAppIcon7 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon7.svg';
+
+import ourProcess_AndroidAppIcon1 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon1.svg';
+import ourProcess_AndroidAppIcon2 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon2.svg';
+import ourProcess_AndroidAppIcon3 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon3.svg';
+import ourProcess_AndroidAppIcon4 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon4.svg';
+import ourProcess_AndroidAppIcon5 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon5.svg';
+import ourProcess_AndroidAppIcon6 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon6.svg';
+
+import LaunchAppCardImg from '../../../../../../public/assets/images/services/androidAppDevelopment/LaunchAppCardImg.png';
+
+import crossPlatformWhatServiceImg from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatServiceImg.png';
+
+import crossPlatformProcessIcon_1 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_1.png';
+import crossPlatformProcessIcon_2 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_2.png';
+import crossPlatformProcessIcon_3 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_3.png';
+import crossPlatformProcessIcon_4 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_4.png';
+import crossPlatformProcessIcon_5 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_5.png';
+import crossPlatformProcessIcon_6 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_6.png';
+import crossPlatformProcessIcon_7 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_7.png';
+
+import crossPlatformWhatMissingIcon_1 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_1.png';
+import crossPlatformWhatMissingIcon_2 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_2.png';
+import crossPlatformWhatMissingIcon_3 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_3.png';
+import crossPlatformWhatMissingIcon_4 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_4.png';
+import crossPlatformWhatMissingIcon_5 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_5.png';
+import crossPlatformWhatMissingIcon_6 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_6.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -794,8 +830,10 @@ export const SERVICES_DATA = {
         },
       ],
       isCard: true,
+      imgWidth: '594',
+      imgHeight: '675',
+      width: 40,
       img: keyStatsImg2,
-      rocketImg: rocket,
       list: [
         {
           icon: '',
@@ -2862,7 +2900,8 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      width: 50,
+      width: 60,
+      customGap: '12rem',
       paddingY: '3rem',
       data: [],
       button: 'Get a Free Audit ',
@@ -3557,12 +3596,13 @@ export const SERVICES_DATA = {
         },
       ],
       textColor: 'white',
-      width: 50,
+      width: 55,
       data: [
         {
           desctioption: `We build websites that captivate users and convert clicks into customers`,
         },
       ],
+      customGap: '8rem',
       button: 'Start Your Website Project',
     },
 
@@ -5901,7 +5941,8 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: 45,
+      width: 50,
+      customGap: '12rem',
       paddingY: '5rem',
       data: [
         {
@@ -6508,7 +6549,8 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: 45,
+      width: 50,
+      customGap: '8rem',
       paddingY: '5rem',
       data: [
         {
@@ -7288,7 +7330,7 @@ export const SERVICES_DATA = {
         {
           text: 'Build a PPC Campaign',
           color: '#FFFFFF',
-          weight: '400',
+          weight: '300',
         },
         {
           text: 'That Drives Results',
@@ -7299,8 +7341,9 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: 45,
-      paddingY: '5rem',
+      width: 50,
+      customGap: '12rem',
+      paddingY: '4rem',
       data: [
         {
           desctioption: `At Adaired, we don’t believe in generic ad campaigns. 
@@ -8129,7 +8172,7 @@ export const SERVICES_DATA = {
       breakIndex: 2,
       img: whitePaidAdsAdairedHelpImg,
       isInCenter: false,
-      bgColor: '',
+      bgColor: '#FFFCF9',
       cardBg: '#FFF8F0',
       headingParts: [
         {
@@ -8301,7 +8344,7 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: 45,
+      width: 50,
       paddingY: '5rem',
       data: [
         {
@@ -8317,8 +8360,7 @@ export const SERVICES_DATA = {
           desctioption: `Let’s build predictable, scalable growth for your agency.`,
         },
       ],
-      button:
-        'Contact us today to discuss a customized white-label partnership.',
+      button: 'Contact us',
     },
 
     faqData: {
@@ -8947,7 +8989,8 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 50,
+      width: 55,
+      customGap: '12rem',
       paddingY: '4rem',
       data: [
         {
@@ -9281,7 +9324,7 @@ export const SERVICES_DATA = {
       imgWidth: '735px',
       imgHight: '477px',
       customGap: '12rem',
-      breakIndex: 5,
+      // breakIndex: 5,
       data: [
         {
           desctioption: `Helping B2B SaaS companies build predictable organic growth engines that increase MRR, generate qualified demos, 
@@ -9695,7 +9738,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 50,
+      width: 55,
       paddingY: '4rem',
       data: [
         {
@@ -10922,10 +10965,11 @@ export const SERVICES_DATA = {
 
     importantToBussiness: {
       isVisible: true,
-      breakIndex: 5,
+      // breakIndex: 5,
       isCardVisible: false,
       isVariant: '01',
       cardColor: '#F9F9F9',
+      isLaunchCard: false,
       headingParts: [
         {
           text: 'AEO Services Built for AI-Driven Search Ecosystems',
@@ -11736,7 +11780,7 @@ export const SERVICES_DATA = {
       breakIndex: 3,
       isVariant: '01',
       cardColor: '#F9F9F9',
-      isCardVisible: true,
+      isLaunchCard: true,
       headingParts: [
         {
           text: 'Our Custom Mobile Application Development Services',
@@ -11899,6 +11943,21 @@ export const SERVICES_DATA = {
           ],
           button: 'Turn Your Site Into App',
           btnColor: '#FB9100',
+        },
+      ],
+      card: [
+        {
+          img: ImpToBusinessCradImg,
+          bgImg: LaunchMobileAppCardImage,
+          imgWidth: '424',
+          imgHeight: '413',
+          heading: 'Launch Your Next',
+          heading1: [`Mobile App with`, `Experts`],
+          description: [
+            `Custom Android and iOS apps built to`,
+            `scale with your business.`,
+          ],
+          buttonName: 'Ask a Developer',
         },
       ],
     },
@@ -12621,6 +12680,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       isVariant: '01',
       cardColor: '#F9F9F9',
+      isLaunchCard: false,
       headingParts: [
         {
           text: 'Unlock Your Potential with Top-Notch GBP Optimization Services!',
@@ -13786,7 +13846,9 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       width: 45,
+      isGap: true,
       paddingY: '4rem',
+      customGap: '10rem',
       data: [
         {
           desctioption: `If your business is not appearing in Google Maps or local search results, you could be missing valuable opportunities to connect with potential customers in your area.`,
@@ -14116,7 +14178,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      breakIndex: 6,
+      // breakIndex: 6,
       img: WhatAreService1,
       imgWidth: '917px',
       imgHight: '612px',
@@ -14537,7 +14599,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 40,
+      width: 50,
       paddingY: '3rem',
       data: [
         {
@@ -14741,6 +14803,9 @@ export const SERVICES_DATA = {
         },
       ],
       isCard: true,
+      width: 40,
+      imgWidth: '619',
+      imgHeight: '693',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297271/adaired/services/llm_service/KeyStats_flxjoi.png',
       list: [
         {
@@ -15153,7 +15218,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 80,
+      width: 55,
       paddingY: '3rem',
       data: [
         {
@@ -15326,7 +15391,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Launch My Shopify Store',
-      width: 50,
+      width: 45,
       widthLg: '30rem',
       img: ShopifyDevBannerImg,
       imgWidth: '1075',
@@ -15990,6 +16055,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      width: 40,
+      imgWidth: '620',
+      imgHeight: '725',
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
@@ -16458,7 +16526,7 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       paddingY: '3rem',
-      width: 65,
+      width: 55,
       data: [
         {
           desctioption: `Every day your store isn’t optimized is a missed revenue opportunity. Our expert e-commerce SEO services are designed to position your products in front of buyers who are ready to purchase. Let’s transform your organic traffic into predictable growth.`,
@@ -16925,6 +16993,7 @@ export const SERVICES_DATA = {
       breakIndex: 2,
       isVariant: '01',
       cardColor: '#F9F9F9',
+      isLaunchCard: false,
       headingParts: [
         {
           text: 'Explore Our Comprehensive eCommerce Development Services',
@@ -17307,7 +17376,8 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       paddingY: '2rem',
-      width: 45,
+      customGap: '12rem',
+      width: 55,
       data: [
         {
           desctioption: `Ready to build a powerful online store for your business? Our team of experienced eCommerce developers is here to help you create a scalable, secure, and high-performing eCommerce website tailored to your needs.`,
@@ -17581,7 +17651,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Create Your Custom Platform',
-      width: 50,
+      width: 40,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevBannerImg_jruqxc.png',
       imgWidth: '1062',
       imgHight: '602',
@@ -18217,7 +18287,7 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       width: 60,
-      paddingY: '2rem',
+      paddingY: '4rem',
       data: [
         {
           desctioption: `Every successful digital platform begins with the right strategy and development partner. Whether you need a custom website, a scalable web application, or a complex enterprise platform, our team is ready to help you turn your vision into a powerful and reliable digital solution.`,
@@ -18709,7 +18779,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Let’s Build Your App',
-      width: 50,
+      width: 45,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevBannerImg_iwkfje.png',
       imgWidth: '911',
       imgHight: '682',
@@ -19164,7 +19234,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 60,
+      width: 50,
       paddingY: '2rem',
       data: [
         {
@@ -19837,7 +19907,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       code: '02',
       breakIndex: 0,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_tcfqxu.png',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773836300/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_zywqa6.png',
       headingParts: [
         {
           text: 'Why Do You Need a Custom Social Media Plan?',
@@ -19848,7 +19918,9 @@ export const SERVICES_DATA = {
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
-      rocketImg: rocket,
+      imgWidth: '620',
+      imgHeight: '725',
+      width: 40,
       list: [
         {
           icon: iosAppDevKeyStatsImg,
@@ -20273,10 +20345,10 @@ export const SERVICES_DATA = {
       isVariant: '01',
       breakIndex: 5,
       isInCenter: false,
-      bgColor: false,
+      bgColor: '#FFFAF5',
       bgGradient: 'bg-[#FFFFFF]',
       cardColor2: '#FFF8F0',
-      cardColor: '#FBFBFB',
+      cardColor: '#FFFFFF',
       cardImgBgColor2: '#FFF2DF',
       cardImgBgColor: '#F3F3F3',
       borderColor2: '#FB9100',
@@ -20361,7 +20433,8 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 60,
+      width: 55,
+      customGap: '12rem',
       paddingY: '2rem',
       data: [
         {
@@ -21025,5 +21098,1877 @@ export const SERVICES_DATA = {
       bgImage: LocalNotSeeBg,
     },
   },
-};
+  'android-app-development-company-india': {
+    sectionsOrder: [
+      'banner',
+      'whatareservice',
+      'benefitofAiSeo',
+      'importantToBussiness',
+      'ourProcess',
+      'adairedHelp',
+      'whatMkeDeferent',
+      'leadingTools',
+      'industriesWeServe',
+      'buildlinks',
+      'faqData',
+      'keyStats',
+      'techStackMobile',
+      'dataInTable',
+      'whatareservice2',
+      'whatMissing',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/custom-web-development-company',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: true,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'Top-Notch Android App', color: '#000000', weight: '400' },
+        {
+          text: 'Development Company',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      isGap: false,
+      breakIndex: 8,
+      desc: [
+        `Expert Android app development solutions designed to deliver performance, usability, and long-term success. Build a scalable, secure, and high-performance Android application tailored to your business needs.`,
+        `We at Adaired Digital Media deliver next-gen Android app development services that deliver exceptional user experiences.`,
+      ],
+      subheading: '',
+      button: 'Get Your Free Project Estimate',
+      width: 50,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773898272/adaired/services/android_app_Dev/Group_1000007694_lf2s6f.png',
+      imgWidth: '770',
+      imgHight: '824',
+    },
 
+    whatareservice: {
+      isVisible: true,
+      isVariant: '04',
+      breakIndex: 6,
+      paddingY: '4rem',
+      isRowReverse: true,
+      width: 55,
+      // img: socialMediaMgtWhatServiceImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773898274/adaired/services/android_app_Dev/Group_1000007765_we9ykn.png',
+      imgWidth: '652',
+      imgHight: '625',
+      headingParts: [
+        {
+          text: 'What is Android App Development?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      bgColor: '#FFFFFF',
+      textColor: '#000000',
+      isGap: false,
+      data: [
+        {
+          desctioption: `Android App Development is the process of designing, building, testing, and maintaining mobile applications that run on devices powered by the Android operating system.`,
+        },
+        {
+          desctioption: `These applications are specifically created for Android-powered devices such as smartphones, tablets, smart TVs, wearables, and other connected devices.`,
+        },
+        {
+          desctioption: `Android app development involves a combination of UI/UX design, programming, testing, deployment, and ongoing maintenance to ensure the application performs smoothly across different devices and screen sizes.`,
+        },
+        {
+          desctioption: `Because Android is an open-source platform developed by Google, developers have the flexibility to create highly customized and feature-rich mobile applications tailored to different business needs.`,
+        },
+        {
+          desctioption: `Most Android apps are developed using programming languages such as Java and Kotlin, along with official development tools like Android Studio. These tools provide developers with powerful features to write code, test applications, debug issues, and optimize performance.`,
+        },
+      ],
+      button: '',
+    },
+
+    benefitofAiSeo: {
+      isVisible: true,
+      isVariant: '01',
+      isDecVarticle: true,
+      isInCenter: false,
+      breakIndex: 4,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      headingParts: [
+        {
+          text: 'Key Benefits of Android App Development for Businesses',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Investing in Android app development offers numerous advantages for businesses looking to expand their digital presence and connect with mobile users.`,
+        `We help businesses leverage the power of Android applications to achieve sustainable growth and customer engagement.`,
+      ],
+      list: [
+        {
+          name: 'Wider Market Reach',
+          description: [
+            `The Android platform dominates the global smartphone market, making it one of the most powerful channels for reaching a large audience.`,
+            `By launching an Android application, businesses can connect with millions of users worldwide and expand their customer base effectively.`,
+          ],
+        },
+        {
+          name: 'Cost-Effective Development',
+          description: [
+            `Android’s open-source ecosystem allows developers to build applications without expensive licensing fees. This makes Android development a cost-efficient option for startups, small businesses, and large enterprises.`,
+            `We ensure optimized development processes that deliver high-quality apps while maintaining cost efficiency.`,
+          ],
+        },
+        {
+          name: 'High Customization',
+          description: [
+            `Android offers extensive customization capabilities, allowing businesses to design applications that align perfectly with their brand identity and functional requirements.`,
+            `Adaired Digital develops fully customized Android apps with tailored features, unique UI/UX designs, and scalable architectures.`,
+          ],
+        },
+        {
+          name: 'Scalability and Flexibility',
+          description: [
+            `Android apps can easily adapt as business needs evolve. Whether it’s adding new features, integrating advanced technologies, or supporting larger user bases, Android applications provide the flexibility required for long-term growth.`,
+            `We build scalable Android solutions that grow alongside your business.`,
+          ],
+        },
+        {
+          name: 'Easy Integration',
+          description: [
+            `Android applications can seamlessly integrate with third-party platforms, APIs, cloud services, and enterprise systems. This allows businesses to enhance their app functionality and streamline processes across multiple digital channels.`,
+            `We ensure smooth integrations that improve operational efficiency and user experience.`,
+          ],
+        },
+        {
+          name: 'Faster Time to Market',
+          description: [
+            `Android development frameworks and tools enable faster development cycles, allowing businesses to launch their applications quickly.`,
+            `With efficient development strategies and agile methodologies, our mobile app developers help businesses bring their Android apps to market faster while maintaining high quality and performance.`,
+          ],
+        },
+        {
+          name: 'Strong Security Features',
+          description: [
+            `Security is a critical aspect of mobile applications. Android platform offers built-in security features such as application sandboxing, data encryption, and secure authentication.`,
+            `We implement advanced security practices to protect user data and ensure safe app performance.`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      breakIndex: 3,
+      isVariant: '01',
+      isCardVisible: false,
+      cardColor: '#fffdf9',
+      borderColor: '#fff9ef',
+      isLaunchCard: true,
+      headingParts: [
+        {
+          text: 'Our Full-Suite Android App Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `As a trusted Android app development company, we deliver scalable, secure, and feature-rich Android solutions tailored to different industries and business models.`,
+      ],
+      buttonName: 'Get Your Free Project Estimate',
+      data: [
+        {
+          icon: ImpToBusiness_AndroidAppIcon1,
+          name: 'Custom App Development',
+          description: [
+            `Our custom Android app development services are designed to transform unique business ideas into powerful mobile applications.`,
+            `We build fully customized Android apps tailored to specific business goals, ensuring seamless functionality, scalability, and performance.`,
+            `Our developers create feature-rich applications with intuitive interfaces and robust architecture, enabling businesses to deliver personalized user experiences and stand out in competitive markets.`,
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon2,
+          name: 'UI/UX Design',
+          description: [
+            `A well-designed interface is essential for delivering a smooth and engaging user experience.`,
+            `Our Android UI/UX designers create visually appealing and intuitive interfaces that enhance usability and improve customer engagement.`,
+            `We focus on designing mobile experiences that are easy to navigate, responsive across devices, and aligned with modern design standards.`,
+            `Our UI/UX design process ensures that every Android application provides a seamless and enjoyable experience for users.`,
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon3,
+          name: 'App Testing & Quality Assurance',
+          description: [
+            `Quality assurance plays a critical role in delivering reliable mobile applications.`,
+            `Our testing team performs comprehensive testing to ensure the app performs smoothly across multiple Android devices, screen sizes, and operating system versions.`,
+            `Our Android app testing services include functional testing, performance testing, security testing, and compatibility testing. This ensures that the application remains stable, secure, and optimized for real-world usage.`,
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon4,
+          name: 'App Maintenance & Support',
+          description: [
+            `Launching an app is only the beginning. Continuous maintenance and updates are essential to ensure optimal performance and compatibility with new Android updates.`,
+            `Our Android app maintenance and support services include performance monitoring, bug fixing, security updates, and feature enhancements.`,
+            `We help businesses keep their mobile applications running smoothly while adapting to changing user needs and technology trends.`,
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon5,
+          name: 'App Integration Services',
+          description: [
+            `Modern mobile applications often require integration with third-party platforms and enterprise systems.`,
+            `Our Android app integration services enable seamless connectivity with APIs, cloud platforms, payment gateways, CRM systems, and other digital tools.`,
+            `These integrations enhance application functionality and allow businesses to streamline operations, automate processes, and deliver more powerful mobile solutions.`,
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon6,
+          name: 'App Migration & Upgrade',
+          description: [
+            `If your existing mobile application requires modernization, our Android experts can help migrate or upgrade it to the latest technologies and frameworks.`,
+            `We ensure smooth Android app migration and upgrade services that improve performance, enhance security, and deliver better user experiences without disrupting existing business operations.`,
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon7,
+          name: 'App Consulting',
+          description: [
+            `Our Android consulting services help businesses plan and implement effective mobile strategies.`,
+            `From selecting the right technology stack to defining the application architecture, our experts provide guidance at every stage of the development journey.`,
+            `Whether you are launching a new product or improving an existing application, our consulting services help you make informed decisions and maximize the value of your mobile investment.`,
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+      ],
+      card: [
+        {
+          img: ImpToBusinessCradImg,
+          bgImg: LaunchAppCardImg,
+          imgWidth: '336',
+          imgHeight: '434',
+          heading: 'Don’t Let Your Great',
+          heading1: [`App Idea Stay `, `on Paper`],
+          description: [
+            `Build, launch, and scale with expert Android developers.`,
+            ``,
+          ],
+          buttonName: 'Build with Us',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      headingParts: [
+        {
+          text: 'Our Strategic Approach to Android App Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      breakIndex: 5,
+      bgGradient: 'bg-[#F9F9F9]/70',
+      span: '',
+      description: [
+        `At Adaired Digital Media, we follow a structured and agile development approach to deliver high-quality Android applications.`,
+        `Our proven Android app development process ensures transparency, efficiency, and timely project delivery.`,
+      ],
+      services: [
+        {
+          icon: ourProcess_AndroidAppIcon1,
+          title: 'Requirement Analysis',
+          description: [
+            `Every successful project begins with a deep understanding of business goals and user needs. During this stage, our experts gather detailed project requirements, analyze the target audience, and identify the features required for the application.`,
+            `This process allows us to define a clear development roadmap and create a solution that aligns with the client’s objectives.`,
+          ],
+        },
+        {
+          icon: ourProcess_AndroidAppIcon2,
+          title: 'UI/UX Design',
+          description: [
+            `Once the requirements are defined, our designers create intuitive user interfaces and engaging user experiences. We develop wireframes and interactive prototypes that demonstrate how users will interact with the application.`,
+            `Our design process ensures that the Android app remains visually appealing, easy to navigate, and optimized for user engagement.`,
+          ],
+        },
+        {
+          icon: ourProcess_AndroidAppIcon3,
+          title: 'Android App Development',
+          description: [
+            `In this stage, our skilled developers begin coding the application using modern technologies and development frameworks. We build scalable and secure applications with robust architectures that support future growth.`,
+            `Our development approach ensures high performance, smooth functionality, and compatibility across multiple Android devices.`,
+          ],
+        },
+        {
+          icon: ourProcess_AndroidAppIcon4,
+          title: 'Testing & Quality Assurance',
+          description: [
+            `Before launching the application, our QA team conducts thorough testing to identify and eliminate bugs or performance issues. We perform multiple testing methods, including functional testing, usability testing, security testing, and compatibility testing.`,
+            `This ensures the Android app performs flawlessly across different devices and operating environments.`,
+          ],
+        },
+        {
+          icon: ourProcess_AndroidAppIcon5,
+          title: 'App Deployment',
+          description: [
+            `After successful testing, the application is prepared for release. At Adaired Digital Media, we assist with the deployment process, ensuring the application is properly configured and published on the Google Play Store.`,
+            `Our team also helps optimize the app listing with descriptions, visuals, and metadata to improve visibility and downloads.`,
+          ],
+        },
+        {
+          icon: ourProcess_AndroidAppIcon6,
+          title: 'Maintenance & Updates',
+          description: [
+            `Our support continues even after the application is launched. We provide ongoing maintenance, performance optimization, and feature updates to keep the application aligned with evolving user needs and Android platform updates.`,
+            `Our team of expert app developers ensures long-term stability, security, and scalability for your Android mobile application development.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 3,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773898275/adaired/services/android_app_Dev/Rectangle_10108_ulp0ko.png',
+      isInCenter: false,
+      textColor: '#000000',
+      isnNumberBg: true,
+      numberBg: '',
+      bgColor: '',
+      cardBorderColor: '#e0e0e0',
+      cardBg: '#F9F9F9',
+      headingParts: [
+        {
+          text: 'Our Android App Development Expertise Across Industries',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `With the flexibility of the Android platform, businesses can create customized mobile solutions that improve user engagement, streamline operations, and deliver better digital experiences.`,
+        `At Adaired Digital Media, we specialize in developing diverse types of Android applications tailored to specific business goals and market demands.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Business Applications',
+          description: [
+            `Business apps are designed to improve productivity, collaboration, and operational efficiency within organizations.`,
+            `These applications often include features such as task management, data tracking, communication tools, and integration with CRM or ERP systems.`,
+            `We build robust business applications that help companies automate workflows, enhance team productivity, and manage operations more efficiently.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'E-commerce Applications',
+          description: [
+            `E-commerce Android applications typically include features such as product catalogs, secure payment gateways, order tracking, and personalized recommendations.`,
+            `Our expert Android developers develop scalable e-commerce apps that provide seamless shopping experiences,`,
+            `helping businesses increase conversions and improve customer retention.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Social Networking Applications',
+          description: [
+            `Social networking apps focus on connecting people and building digital communities. These apps allow users to communicate, share content, and interact in real time.`,
+            `From messaging platforms to community-based networks, we develop engaging social apps with intuitive interfaces, secure communication features, and smooth performance.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'On-Demand Service Applications',
+          description: [
+            `On-demand service apps connect users with service providers instantly. Popular examples include ride-sharing, food delivery, home services, and booking platforms.`,
+            `Our powerful on-demand Android applications are equipped with features like real-time tracking, secure payments, push notifications, and user-friendly dashboards for both customers and service providers.l.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Gaming Applications',
+          description: [
+            `Gaming apps are among the most popular categories on Android devices. These apps range from casual games to high-performance interactive gaming experiences.`,
+            `We create visually appealing and performance-optimized Android games that deliver immersive gameplay and engaging user experiences.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Education Applications',
+          description: [
+            `Education apps provide digital learning experiences through mobile devices. These applications include e-learning platforms, virtual classrooms, training tools, and skill development apps.`,
+            `Our interactive educational apps enhance learning through multimedia content, progress tracking, and user-friendly interfaces.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      breakIndex: 5,
+      bgImg: bgImgBuildLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773898271/adaired/services/android_app_Dev/Group_1000007701_qv7xap.png',
+      imgWidth: '903',
+      imgHight: '575',
+      headingParts: [
+        {
+          text: 'Let’s Turn Your Vision Into a',
+          color: '#FFFFFF',
+          weight: '400',
+        },
+        {
+          text: 'Successful Application',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      textColor: 'white',
+      width: 50,
+      paddingY: '2rem',
+      isGap: true,
+      data: [
+        {
+          desctioption: `Transform your idea into a powerful mobile solution with our expert Android app development services. At Adaired Digital Media, our experienced developers create scalable, secure, and high-performance Android applications tailored to your business goals.`,
+        },
+        {
+          desctioption: `Whether you need custom Android app development, enterprise mobile solutions, or want to hire dedicated Android developers, our team is ready to deliver innovative mobile applications that drive real business results.`,
+        },
+      ],
+      button: 'Talk to Our Android Experts',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      list: [
+        {
+          title: 'What does an Android app development company do?',
+          description: [
+            `An Android app development company designs, develops, tests, and deploys mobile applications for devices running the Android operating system. These companies provide complete Android application development services, including UI/UX design, coding, testing, deployment, and post-launch maintenance.`,
+          ],
+        },
+        {
+          title: 'How long does it take to develop an Android app?',
+          description: [
+            `The development timeline depends on the app’s complexity, features, and design requirements. A simple Android application may take 2–3 months, while more advanced apps with complex features may require 4–6 months or longer.`,
+          ],
+        },
+        {
+          title: 'What is the cost of Android app development?',
+          description: [
+            `The cost of Android app development varies based on factors such as application complexity, design requirements, technology stack, and development time. Businesses can choose from flexible models such as fixed pricing, hourly hiring, or hiring dedicated Android developers.`,
+          ],
+        },
+        {
+          title: 'Why should businesses invest in Android app development?',
+          description: [
+            `Android has one of the largest mobile user bases worldwide, making it an ideal platform for businesses to reach a wider audience. Android apps help companies improve customer engagement, increase brand visibility, and provide convenient digital services.`,
+          ],
+        },
+        {
+          title: 'Do you provide custom Android app development services?',
+          description: [
+            `Yes, we provide fully custom Android app development services tailored to your specific business needs. Our team builds scalable applications with customized features, modern UI/UX design, and high-performance architecture.`,
+          ],
+        },
+        {
+          title: 'Can I hire dedicated Android developers for my project?',
+          description: [
+            `Yes, you can hire dedicated Android developers from our experienced team. We offer flexible engagement models, allowing businesses to hire developers on an hourly, part-time, or full-time basis depending on project requirements.`,
+          ],
+        },
+        {
+          title: 'Do you provide Android app maintenance and support?',
+          description: [
+            `Yes, we provide ongoing maintenance and support services to ensure your Android application remains updated, secure, and optimized. Our team offers bug fixes, performance improvements, security updates, and feature enhancements.`,
+          ],
+        },
+        {
+          title: 'Will you publish the app on the Google Play Store?',
+          description: [
+            `Yes, our team assists with the complete deployment process, including preparing the application for submission and publishing it on the Google Play Store. We also help optimize the app listing to improve visibility and downloads.`,
+          ],
+        },
+      ],
+    },
+
+    keyStats: {
+      isVisible: false,
+    },
+
+    whatMkeDeferent: {
+      isVisible: false,
+    },
+
+    leadingTools: {
+      isVisible: false,
+    },
+
+    industriesWeServe: {
+      isVisible: false,
+    },
+
+    techStackMobile: {
+      isVisible: false,
+    },
+
+    dataInTable: {
+      isVisible: false,
+    },
+
+    whatareservice2: {
+      isVisible: false,
+    },
+
+    whatMissing: {
+      isVisible: false,
+    },
+
+    whatIncluded: {
+      isVisible: false,
+    },
+
+    needofservice: {
+      isVisible: false,
+    },
+
+    serviceResult: {
+      isVisible: false,
+    },
+
+    getsCredit: {
+      isVisible: false,
+    },
+
+    getplan: {
+      isVisible: false,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+    },
+
+    industryLeaders: {
+      isVisible: false,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+    },
+  },
+  'cross-platform-app-development-india': {
+    sectionsOrder: [
+      'banner',
+      'whatareservice',
+      'benefitofAiSeo',
+      'whatMissing',
+      'adairedHelp',
+      'ourProcess',
+      'importantToBussiness',
+      'whatMkeDeferent',
+      'leadingTools',
+      'industriesWeServe',
+      'buildlinks',
+      'faqData',
+      'keyStats',
+      'techStackMobile',
+      'dataInTable',
+      'whatareservice2',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/custom-web-development-company',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: false,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'Cross-Platform App', color: '#000000', weight: '400' },
+        {
+          text: 'Development Services for Scalable Development',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      isGap: false,
+      breakIndex: 8,
+      desc: [
+        `Get to market faster and stay ahead of the competition with Adaired’s expert cross-platform app development services.`,
+        `We create robust, future-ready apps that run seamlessly across iOS and Android using a single codebase, enabling faster development cycles, consistent user experiences, and cost-efficient scalability for growing businesses.`,
+      ],
+      subheading: '',
+      button: 'Get a Custom App',
+      width: 55,
+      customGap: '0rem',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900428/adaired/services/cross_platform_app_development/crossPlatformBannerImg_tmm91n.png',
+      imgWidth: '931',
+      imgHight: '588',
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '04',
+      breakIndex: 0,
+      paddingY: '4rem',
+      isRowReverse: true,
+      width: 60,
+      img: crossPlatformWhatServiceImg,
+      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900427/adaired/services/cross_platform_app_development/crossPlatformWhatServiceImg_rqsb4n.png',
+      imgWidth: '652px',
+      imgHight: '625px',
+      headingParts: [
+        {
+          text: 'What is Cross-Platform App Development?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      bgColor: '',
+      textColor: '',
+      isGap: false,
+      data: [
+        {
+          desctioption: `Cross-Platform app development is a modern approach to building mobile applications that allows a single app to run seamlessly on multiple operating systems, such as iOS and Android, using one unified codebase. Instead of creating separate applications for each platform, developers write the core logic once and adapt it for different environments using specialized frameworks and tools.`,
+        },
+        {
+          desctioption: `This development method has become increasingly popular because it offers a perfect balance between efficiency, cost-effectiveness, and performance. By eliminating the need to build and maintain multiple codebases, businesses can significantly reduce development time, lower costs, and simplify ongoing maintenance. Updates, bug fixes, and new features can be implemented simultaneously across all platforms, ensuring consistency and faster rollout.`,
+        },
+        {
+          desctioption: `In simple terms, cross-platform app development empowers businesses to build powerful mobile applications faster, more efficiently, and with a wider reach, all while maintaining a consistent brand experience across platforms.`,
+        },
+      ],
+      button: '',
+    },
+
+    benefitofAiSeo: {
+      isVisible: true,
+      isVariant: '01',
+      isDecVarticle: true,
+      isInCenter: false,
+      breakIndex: 2,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      headingParts: [
+        {
+          text: 'Cross-Platform App Solutions Tailored to Your Business',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `As a leading cross-platform application development company, at Adaired Digital Media, we cover the entire app lifecycle, ensuring a seamless and scalable digital experience from start to finish.`,
+      ],
+      list: [
+        {
+          name: 'Custom Cross-Platform App Development',
+          description: [
+            `We create tailored cross-platform applications that are engineered to meet your exact business requirements. Our development process focuses on delivering seamless functionality, high performance, and flexibility, ensuring your app can evolve alongside your business.`,
+            `Whether you are building a new product from scratch or enhancing an existing solution, we ensure your application delivers consistent performance across all platforms while maintaining a strong, unified user experience.`,
+          ],
+        },
+        {
+          name: 'UI and UX Design',
+          description: [
+            `Our design philosophy is centered around simplicity, usability, and engagement. We create interfaces that are not only visually appealing but also intuitive and easy to navigate, ensuring users can interact with your app effortlessly.`,
+            `By focusing on user journeys, behavior patterns, and accessibility standards, we design experiences that drive engagement and retention. From initial wireframes to high-fidelity designs, every element is optimized to provide consistency across platforms while maintaining your brand identity.`,
+          ],
+        },
+        {
+          name: 'Backend Development and API Integration',
+          description: [
+            `A strong backend is the foundation of any successful application. Adaired Digital Media builds secure, scalable, and high-performing backend systems that ensure smooth data flow, fast processing, and reliable performance.`,
+            `We specialize in integrating third-party services and APIs to enhance your app’s capabilities, including payment gateways, cloud services, analytics tools, and communication systems. This ensures your application is functional and capable of supporting complex operations.`,
+          ],
+        },
+        {
+          name: 'App Testing and Quality Assurance',
+          description: [
+            `We follow a rigorous quality assurance process to ensure your application meets the highest standards of performance, security, and usability. Moreover, we do functional testing, performance evaluation, cross-device compatibility checks, and security assessments.`,
+            `By identifying and resolving issues early in the development cycle, we minimize risks and ensure a smooth, error-free user experience at launch. Our goal is to deliver an application that performs well and provides a consistent experience across platforms.`,
+          ],
+        },
+        {
+          name: 'App Deployment and Store Launch',
+          description: [
+            `Launching an app requires careful planning and execution. We manage the entire deployment process, ensuring your application is properly configured, optimized, and compliant with platform-specific guidelines.`,
+            `From preparing store listings to handling submissions and approvals, we ensure a hassle-free launch experience. Our team also focuses on optimizing your app’s presence to improve visibility, downloads, and user acquisition.`,
+          ],
+        },
+        {
+          name: 'Maintenance and Support Services',
+          description: [
+            `Post-launch success depends on continuous improvement and support. Adaired Digital Media provides ongoing maintenance services to ensure your application remains secure, up-to-date, and fully optimized.`,
+            `Our support includes performance monitoring, bug fixes, feature updates, and security enhancements. As user expectations and market trends evolve, we help you adapt quickly and keep your application competitive.`,
+          ],
+        },
+        {
+          name: 'Performance Optimization',
+          description: [
+            `We continuously monitor and enhance your application’s performance to ensure fast load times, smooth navigation, and efficient resource usage. Our optimization strategies focus on improving responsiveness, reducing latency, and ensuring stability under high user loads.`,
+            `This ensures smooth navigation, faster interactions, and a consistent experience, even as your user base grows. Our goal is to help you deliver an app that not only performs well at launch but continues to maintain its speed and reliability over time.`,
+          ],
+        },
+        {
+          name: 'Scalable Architecture Design',
+          description: [
+            `We design and implement scalable architectures that allow your application to grow alongside your business. Whether you are expanding your user base, adding new features, or entering new markets, our solutions are built to handle increased demand without compromising performance.`,
+            `Our architecture planning ensures flexibility, reliability, and long-term sustainability, giving you the confidence to scale your digital product as needed.`,
+          ],
+        },
+        {
+          name: 'Security and Compliance Implementation',
+          description: [
+            `We implement robust security measures to protect your application, infrastructure, and user data from potential threats. Our approach is built on secure coding practices, data encryption, and strong authentication mechanisms to ensure your app remains safe and reliable.`,
+            `From data protection policies to platform-specific requirements, our expert cross-platform app developers help you meet compliance benchmarks while maintaining user trust. Our focus is to deliver applications that are functional and secure, built for long-term reliability.`,
+          ],
+        },
+        {
+          name: 'Analytics and Performance Insights',
+          description: [
+            `Understanding user behavior is key to continuous improvement. Adaired Digital Media integrates analytics tools that provide valuable insights into user interactions, app performance, and engagement metrics.`,
+            `By tracking key metrics such as user retention, session duration, feature usage, and conversion rates, we help you make informed, data-driven decisions. These insights enable you to identify opportunities for improvement, optimize user journeys, and continuously enhance the overall experience.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: true,
+      bgColor: '',
+      cardBg: '#FFF7ED',
+      cardBorderColor: '#FEDAAB',
+      isInCenter: false,
+      isVariant: '03',
+      button: '',
+      headingParts: [
+        {
+          text: 'Frameworks We Use for Cross-Platform App Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `We leverage modern, high-performance frameworks to build cross-platform apps that deliver native-like speed, functionality, and user experience.`,
+      ],
+      list: [
+        {
+          icon: crossPlatformWhatMissingIcon_1,
+          title: 'React Native',
+          description: [
+            `Build fast and scalable apps using a single codebase with a rich ecosystem and strong community support.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_2,
+          title: 'Flutter',
+          description: [
+            `Create visually stunning and highly responsive apps with customizable UI components and smooth performance.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_3,
+          title: 'Xamarin',
+          description: [
+            `Develop secure and robust applications with seamless integration into the Microsoft ecosystem.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_4,
+          title: 'Kotlin',
+          description: [
+            `Share business logic across platforms while maintaining native UI for enhanced performance and flexibility.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_5,
+          title: 'Ionic',
+          description: [
+            `Develop lightweight, cross-platform apps using web technologies like HTML, CSS, and JavaScript for rapid and cost-effective solutions.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_6,
+          title: 'PhoneGap / Apache Cordova',
+          description: [
+            `Package web applications into mobile apps with access to native device features, making it a practical choice for quick deployments.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 3,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900432/adaired/services/cross_platform_app_development/crossPlatformAdairedHelpImg_aiqlp5.png',
+      isInCenter: false,
+      textColor: '',
+      isnNumberBg: false,
+      numberBg: '',
+      bgColor: 'bg-[#FFFDF9]',
+      cardBg: '#FFFAF4',
+      headingParts: [
+        {
+          text: 'Why Choose Adaired Digital’s Cross-Platform App Development?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Cross-platform app development has become a preferred choice for businesses aiming to build high-quality applications while optimizing time, cost, and resources.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Reduced Development Cost',
+          description: [
+            `One of the most significant advantages of cross-platform app development is cost efficiency. Instead of building separate applications for iOS and Android, businesses can invest in a single development process that serves multiple platforms.`,
+            `This eliminates the need for multiple development teams, reduces resource allocation, and lowers overall project costs. Additionally, ongoing expenses related to maintenance, updates, and support are minimized, making it a financially sustainable solution for long-term growth.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Faster Time-to-Market',
+          description: [
+            `Speed is critical in today’s competitive digital landscape. Adaired Digital’s cross-platform app development services enable businesses to launch their applications much faster by using a shared codebase and streamlined workflows.`,
+            `With reduced development cycles and simultaneous deployment across platforms, businesses can quickly validate their ideas, respond to market demands, and gain a competitive advantage. This faster time-to-market is especially beneficial for startups and businesses looking to establish an early presence.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Single Codebase for Multiple Platforms',
+          description: [
+            `A unified codebase is at the core of cross-platform app development. Our developers write the application logic once and deploy it across multiple platforms, ensuring consistency in functionality and performance.`,
+            `This approach not only improves development efficiency but also simplifies project management. It reduces the chances of inconsistencies between platforms and ensures a uniform user experience, which is essential for brand reliability and user satisfaction.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Easier Maintenance and Updates',
+          description: [
+            `Maintaining separate applications for different platforms can be time-consuming and complex. We as a cross-platform mobile app development company, simplify this process by allowing developers to manage a single codebase.`,
+            `Updates, bug fixes, and new features can be implemented once and applied across all platforms simultaneously. We help you reduce downtime, improve efficiency, and ensure users always have access to the latest version of the application without delays.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Wider Audience Reach',
+          description: [
+            `By supporting multiple platforms with a single application, businesses can reach a broader audience without additional development effort. This increased accessibility allows companies to expand their market presence and connect with users across different devices and operating systems.`,
+            `A wider reach translates into greater opportunities for user acquisition, engagement, and revenue growth, making cross-platform development a strategic choice for scaling businesses.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Consistent User Experience Across Platforms',
+          description: [
+            `Delivering a consistent user experience is essential for building trust and brand recognition. Our cross-platform development services ensure that users receive a similar look, feel, and functionality regardless of the device they are using.`,
+            `This consistency enhances usability, reduces the learning curve for users, and strengthens brand identity across platforms.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Simplified Development and Faster Iterations',
+          description: [
+            `With a unified development approach, teams can work more efficiently and iterate faster. Changes can be implemented quickly, tested, and deployed without the need to replicate efforts across multiple codebases.`,
+            `This agility allows businesses to continuously improve their applications, introduce new features, and respond to user feedback more effectively.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Scalability for Future Growth',
+          description: [
+            `Cross-platform applications are designed with scalability in mind. As your business grows, we ensure your application easily adapts to increasing user demands, new features, and evolving technologies.`,
+            `This flexibility ensures that your investment remains future-proof and capable of supporting long-term business expansion.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Better Resource Utilization',
+          description: [
+            `By reducing duplication of effort, our professional cross-platform development services allow businesses to make better use of their development resources.`,
+            `Teams can focus on innovation and feature development instead of managing multiple versions of the same application. This leads to improved productivity, faster delivery, and more efficient use of time and budget.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Giving You a Competitive Edge',
+          description: [
+            `Together, these benefits create a powerful advantage for businesses looking to build and scale mobile applications efficiently. A cross-platform app development company like us not only reduces complexity but also enables faster innovation, improved performance, and a broader market reach.`,
+            `By choosing this approach, businesses can stay competitive, adapt quickly to changing market conditions, and deliver high-quality digital experiences that drive growth.`,
+          ],
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      headingParts: [
+        {
+          text: 'Adaired’s Strategic Approach to Cross-Platform App Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      breakIndex: 2,
+      bgGradient: 'bg-[#FFFFFF]',
+      span: '',
+      description: [
+        `Our step-by-step development process is designed to deliver high-quality cross-platform applications that align with your business goals and user expectations.`,
+      ],
+      services: [
+        {
+          icon: crossPlatformProcessIcon_1,
+          title: 'Discovery and Requirement Analysis',
+          description: [
+            `Every successful project begins with a clear understanding of the problem it aims to solve. In this phase, we collaborate closely with you to gather detailed insights about your business, target audience, competitors, and technical requirements.`,
+            `We conduct research, define user personas, and identify key features and functionalities that will drive value. This stage helps us establish a solid foundation, align expectations, and create a clear project roadmap that guides the entire development lifecycle.`,
+          ],
+        },
+        {
+          icon: crossPlatformProcessIcon_2,
+          title: 'Strategy and Technology Selection',
+          description: [
+            `Once the requirements are defined, we move on to crafting a strategic plan tailored to your project. This includes selecting the most suitable cross-platform frameworks, defining the application architecture, and outlining the development approach.`,
+            `Our decisions are based on factors such as scalability, performance, security, and future expansion. By choosing the right technologies from the start, we ensure your application remains efficient, adaptable, and ready for long-term growth.`,
+          ],
+        },
+        {
+          icon: crossPlatformProcessIcon_3,
+          title: 'UI and UX Design',
+          description: [
+            `Design plays a crucial role in the success of any application. Our UI and UX design process focuses on creating intuitive, user-centric experiences that are visually appealing and easy to navigate.`,
+            `We start with wireframes and prototypes to map out user journeys and interactions. This allows you to visualize the app before development begins. We then refine these designs into polished interfaces that maintain consistency across platforms while reflecting your brand identity.`,
+          ],
+        },
+        {
+          icon: crossPlatformProcessIcon_4,
+          title: 'Development and Integration',
+          description: [
+            `In this phase, our development team transforms designs into a fully functional application. Using modern cross-platform frameworks, we write clean, efficient, and reusable code that ensures consistent performance across devices.`,
+            `We also integrate essential third-party services such as payment gateways, cloud solutions, analytics tools, and communication APIs. Our agile development approach ensures flexibility, allowing us to adapt to changes and incorporate feedback throughout the process.`,
+          ],
+        },
+        {
+          icon: crossPlatformProcessIcon_5,
+          title: 'Testing and Quality Assurance',
+          description: [
+            `Quality assurance is an integral part of our development cycle. We conduct extensive testing to ensure your application is reliable, secure, and performs seamlessly across all supported platforms.`,
+            `Our testing process includes functional testing, performance testing, usability testing, and compatibility checks across devices and operating systems. By identifying and resolving issues early, we ensure a smooth and error-free user experience at launch.`,
+          ],
+        },
+        {
+          icon: crossPlatformProcessIcon_6,
+          title: 'Deployment and Launch',
+          description: [
+            `After successful testing, we prepare your application for deployment. This involves optimizing the app for performance, ensuring compliance with platform-specific guidelines, and managing the submission process for app stores.`,
+            `We handle every aspect of the launch, from configuration to approval, ensuring your application goes live smoothly and reaches your audience without delays.`,
+          ],
+        },
+        {
+          icon: crossPlatformProcessIcon_7,
+          title: 'Ongoing Support and Optimization',
+          description: [
+            `Our relationship doesn’t end with the launch. We provide continuous support and optimization to ensure your application remains up-to-date, secure, and high-performing.`,
+            `This includes monitoring performance, fixing bugs, releasing updates, and adding new features based on user feedback and evolving market trends. Our goal is to help your application grow and deliver value over time.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      breakIndex: 5,
+      bgImg: bgImgBuildLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900428/adaired/services/cross_platform_app_development/crossPlatformBuildLinkImg_gi3iso.png',
+      imgWidth: '785',
+      imgHight: '523',
+      headingParts: [
+        {
+          text: 'Ready to Build Your',
+          color: '#FFFFFF',
+          weight: '400',
+        },
+        {
+          text: 'Cross Platform App?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      textColor: 'white',
+      width: 50,
+      paddingY: '2rem',
+      data: [
+        {
+          desctioption: `Turn your idea into a powerful, scalable application that works seamlessly across platforms. Whether you're starting from scratch or upgrading an existing solution, our team is here to help you launch faster, reduce costs, and achieve long-term success.`,
+        },
+      ],
+      button: 'Request a Free Consultation',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      list: [
+        {
+          title: 'What is cross-platform app development?',
+          description: [
+            `Cross-platform app development is the process of building a single application that can run on multiple platforms, such as iOS and Android, using one shared codebase.`,
+          ],
+        },
+        {
+          title:
+            'Is cross-platform app development better than native development?',
+          description: [
+            `It depends on your project requirements. Cross-platform development is ideal for faster development, lower costs, and wider reach, while native development may be preferred for highly complex or performance-intensive applications.`,
+          ],
+        },
+        {
+          title:
+            'Which frameworks are used for cross-platform app development?',
+          description: [
+            `Popular frameworks include React Native, Flutter, Xamarin, .NET MAUI, and Kotlin Multiplatform, each offering unique advantages based on project needs.`,
+          ],
+        },
+        {
+          title: 'How long does it take to develop a cross-platform app?',
+          description: [
+            `The timeline varies depending on the app’s complexity, features, and design requirements, but cross-platform apps are generally developed faster than native apps due to a shared codebase.`,
+          ],
+        },
+        {
+          title: 'How much does cross-platform app development cost?',
+          description: [
+            `Costs depend on factors such as features, design complexity, integrations, and development scope. However, cross-platform development is usually more cost-effective than building separate native apps.`,
+          ],
+        },
+        {
+          title: 'Can cross-platform apps deliver native-like performance?',
+          description: [
+            `Yes, modern frameworks allow cross-platform apps to achieve near-native performance, ensuring smooth functionality and user experience.`,
+          ],
+        },
+        {
+          title: 'Is it easy to maintain a cross-platform application?',
+          description: [
+            `Yes, maintaining a single codebase simplifies updates, bug fixes, and feature enhancements, making long-term maintenance more efficient.`,
+          ],
+        },
+        {
+          title:
+            'Can you upgrade an existing app to a cross-platform solution?',
+          description: [
+            `Yes, existing native applications can be migrated or modernized into cross-platform solutions to reduce maintenance costs and improve scalability.`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: false,
+      isInCenter: false,
+      breakIndex: 2,
+      isVariant: '02',
+      cardColor: '#F9F9F9',
+      headingParts: [
+        {
+          text: 'Connecting You Across Every Major Platform',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `We manage and optimize your presence across the most impactful social media platforms, ensuring your brand reaches the right audience with the right message at the right time.`,
+        ` Each platform requires a unique strategy, content style, and engagement approach, and we tailor our efforts accordingly.`,
+      ],
+      buttonName: '',
+      data: [
+        {
+          icon: socialMediaMgtImpIcon_1,
+          name: 'Instagram',
+          description: [
+            `Instagram is a powerful visual platform designed for brand storytelling and audience engagement. We create high-quality posts, reels, carousels, and stories that capture attention within seconds.`,
+            `Our strategy focuses on consistent branding, trending formats, hashtag research, and interactive content such as polls and Q&As.`,
+            `By combining creative visuals with strong captions and calls-to-action, we help grow your followers, boost engagement rates, and improve overall brand visibility.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: socialMediaMgtImpIcon_2,
+          name: 'Facebook',
+          description: [
+            `Facebook remains one of the strongest platforms for community building and targeted advertising.`,
+            `Adaired Digital Media manages business pages, creates engaging posts, runs promotional campaigns, and optimizes ad performance to reach specific audience segments.`,
+            `From local businesses to growing brands, we leverage Facebook’s advanced targeting capabilities to increase awareness, drive website traffic, and generate leads.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: socialMediaMgtImpIcon_3,
+          name: 'LinkedIn',
+          description: [
+            `LinkedIn is essential for professional branding and B2B growth. We craft thought-leadership content, industry insights, company updates, and professional visuals to position your brand as an authority in your field.`,
+            `Our strategy focuses on networking, audience targeting, and credibility-building content that strengthens trust and attracts high-value connections.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: socialMediaMgtImpIcon_4,
+          name: 'YouTube',
+          description: [
+            `YouTube is one of the most influential platforms for long-form content and product discovery.`,
+            `We assist with content planning, video optimization, title and description strategy, thumbnail concepts, and audience engagement techniques.`,
+            `By improving discoverability and retention, we help your brand build credibility and long-term visibility through consistent video marketing.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: socialMediaMgtImpIcon_5,
+          name: 'TikTok',
+          description: [
+            `TikTok thrives on creativity and trends. We develop short-form video strategies that align with trending formats while staying authentic to your brand voice.`,
+            `Our focus is on capturing attention quickly, encouraging interaction, and increasing organic reach through consistent and engaging content.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: socialMediaMgtImpIcon_6,
+          name: 'X',
+          description: [
+            `X is ideal for real-time communication, industry conversations, and brand personality.`,
+            `We create engaging short-form updates, participate in relevant discussions, and help maintain an active presence that keeps your brand visible and worthy.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: false,
+      isVariant: '01',
+      breakIndex: 5,
+      isInCenter: false,
+      bgColor: false,
+      bgGradient: 'bg-[#FFFFFF]',
+      cardColor2: '#FFF8F0',
+      cardColor: '#FBFBFB',
+      cardImgBgColor2: '#FFF2DF',
+      cardImgBgColor: '#F3F3F3',
+      borderColor2: '#FB9100',
+      borderColor: '#000000',
+      headingParts: [
+        {
+          text: 'Why Pick Adaired Digital to Manage Your Social Media Accounts?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        'At Adaired Digital Media, we’re more than just a social media service; we’re your strategic partner in growing your online presence.',
+        `Here’s why businesses trust us to manage their social media:`,
+      ],
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_1_tskaab.png',
+          name: 'Expertise & Experience',
+          description: [
+            `Our team consists of social media specialists, content creators, and strategists with proven experience across multiple industries. We understand platform trends, audience behavior, and what drives engagement and conversions.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_2_zgzuwo.png',
+          name: 'Custom Strategies for Your Brand',
+          description: [
+            `We don’t use one-size-fits-all solutions. Every brand gets a tailored social media plan based on its unique goals, audience, and market. Your content, campaigns, and engagement are designed specifically to meet your objectives.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_3_ku4940.png',
+          name: 'Data-Driven Approach',
+          description: [
+            `We measure everything. From engagement rates to conversions, we monitor metrics closely and optimize campaigns for maximum results. Decisions are guided by data, not guesswork.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_4_rlpksv.png',
+          name: 'Consistent Branding & Quality Content',
+          description: [
+            `We maintain your brand voice, aesthetics, and messaging across all platforms. Our content is scroll-stopping, engaging, and strategically designed to strengthen your identity online.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_5_hwiddr.png',
+          name: 'Community Engagement',
+          description: [
+            `We don’t just post content; we help you build meaningful connections. Through responsive community management and interactive content, we foster loyalty, trust, and long-term engagement.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_6_hqvkgf.png',
+          name: 'Transparent Reporting & Communication',
+          description: [
+            `You’ll always know how your social media is performing. We provide detailed reports, insights, and recommendations so you’re fully informed about your growth and ROI.`,
+          ],
+        },
+      ],
+    },
+
+    keyStats: {
+      isVisible: false,
+      code: '02',
+      breakIndex: 0,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773836300/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_zywqa6.png',
+      headingParts: [
+        {
+          text: 'Why Do You Need a Custom Social Media Plan?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      imgWidth: '620',
+      imgHeight: '725',
+      width: 40,
+      list: [
+        {
+          icon: iosAppDevKeyStatsImg,
+          desctioption: [
+            `Over 5.66 billion people use social media worldwide in 2026, making it one of the most powerful digital channels for brand visibility.`,
+          ],
+        },
+        {
+          icon: iosAppDevKeyStatsImg,
+          desctioption: [
+            `The average user switches between 6–7 different social platforms each month, giving brands multiple touchpoints to connect and engage.`,
+          ],
+        },
+        {
+          icon: iosAppDevKeyStatsImg,
+          desctioption: [
+            `Users spend an average of 2 hours and 40 minutes daily on social media apps, creating massive opportunities for consistent brand exposure.`,
+          ],
+        },
+        {
+          icon: iosAppDevKeyStatsImg,
+          desctioption: [
+            `Platforms like YouTube, TikTok, and Instagram now drive over 60% of product discovery, reshaping how consumers find and evaluate brands.`,
+          ],
+        },
+        {
+          icon: iosAppDevKeyStatsImg,
+          desctioption: [
+            `52% of users prefer social search to discover user-generated content and authentic experiences, highlighting the growing importance of community-driven marketing.`,
+          ],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      breakIndex: 4,
+      headingParts: [
+        {
+          text: 'Technologies We Use for iOS Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
+        `Some of the technologies we commonly use include:`,
+      ],
+      isVariant: '03',
+      textColor: '',
+      bgImage: '',
+      bgColor: '',
+      list: [
+        {
+          img: iosAppDevLeadingToolsImg_1,
+          desc: 'Swift',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_2,
+          desc: 'Objective-C',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_3,
+          desc: 'Xcode',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_4,
+          desc: 'SwiftUI and UIKit',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_5,
+          desc: 'Firebase',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_6,
+          desc: 'REST APIs',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_7,
+          desc: 'Cloud platforms (AWS and Google Cloud)',
+        },
+      ],
+    },
+
+    industriesWeServe: {
+      isVisible: false,
+      code: '01',
+      bgColor: 'bg-[#FFFBF5]',
+      headingParts: [
+        {
+          text: 'Industries We Serve',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our iOS app development solutions support a wide variety of industries, enabling businesses to deliver innovative digital experiences to their customers.`,
+      ],
+      isCard: false,
+      bgImg: '',
+      gridCols: 3,
+      imgWidth: 520,
+      imgHeight: 467,
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_1_gmywri.png',
+          btn: [`Fintech`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_2_r3qlub.png',
+          btn: [`Healthcare`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749340/adaired/services/ios_app_development/iosAppDevIndustriesImg_3_m5hp7t.png',
+          btn: [`E-commerce`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_4_okdehb.png',
+          btn: [`Education`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_5_vctvmh.png',
+          btn: [`Travel and Hospitality`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749339/adaired/services/ios_app_development/iosAppDevIndustriesImg_6_rseu98.png',
+          btn: [`Fashion & Beauty`],
+        },
+      ],
+    },
+
+    techStackMobile: {
+      isVisible: false,
+      breakIndex: 4,
+      headingParts: [
+        {
+          text: 'Technologies We Use for iOS Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
+        `Some of the technologies we commonly use include:`,
+      ],
+      ContentDescription: '',
+      navItems: [''],
+      mobileNavItems: [''],
+      list: [
+        [
+          { image: customWebDevTechStackImg_1, desc: 'Swift' },
+          { image: customWebDevTechStackImg_2, desc: 'Objective-C' },
+          { image: customWebDevTechStackImg_3, desc: 'Xcode' },
+          { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
+          { image: customWebDevTechStackImg_5, desc: 'Firebase' },
+          { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
+          {
+            image: customWebDevTechStackImg_5,
+            desc: 'Cloud platforms (AWS and Google Cloud)',
+          },
+        ],
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: true,
+      bgColor: '#FAFAFA',
+      trColor: 'bg-[#7259FF]',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      headingParts: [
+        {
+          text: 'Custom Web Development vs Traditional Web Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Here is a clear comparison table showing the difference between Web Development and Custom Web Development:`,
+      ],
+      data: [
+        {
+          desctioption: `Aspect`,
+          list: [
+            {
+              description: [`Definition`],
+            },
+            {
+              description: [`Development Approach`],
+            },
+            {
+              description: [`Customization Level`],
+            },
+            {
+              description: [`Development Time`],
+            },
+            {
+              description: [`Cost`],
+            },
+            {
+              description: [`Flexibility`],
+            },
+            {
+              description: [`Integration`],
+            },
+            {
+              description: [`Best Use Case`],
+            },
+          ],
+        },
+        {
+          desctioption: `Web Development`,
+          list: [
+            {
+              description: [
+                `The general process of building websites or web applications using available tools, frameworks, or CMS platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Often uses prebuilt templates, themes, or platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Limited to the features and structure provided by the platform.`,
+              ],
+            },
+            {
+              description: [
+                `Faster because many components are already built.`,
+              ],
+            },
+            {
+              description: [
+                `Usually lower due to faster development and prebuilt solutions.`,
+              ],
+            },
+            {
+              description: [
+                `May face limitations as the website grows or requires new features.`,
+              ],
+            },
+            {
+              description: [
+                `Limited flexibility depending on the platform being used.`,
+              ],
+            },
+            {
+              description: [
+                `Basic integrations with common tools and plugins.`,
+              ],
+            },
+            {
+              description: [
+                `Ideal for simple websites, blogs, portfolios, or small business sites.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `Custom Web Development`,
+          list: [
+            {
+              description: [
+                `The process of building a website or web application is specifically tailored to the unique needs of a business.`,
+              ],
+            },
+            {
+              description: [
+                `Built from scratch or heavily customized to meet specific requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Fully customizable design, features, and functionality.`,
+              ],
+            },
+            {
+              description: [
+                `Takes more time due to planning, design, and development from the ground up.`,
+              ],
+            },
+            {
+              description: [
+                `Generally higher because of custom design and development work.`,
+              ],
+            },
+            {
+              description: [
+                `Designed to scale easily as the business grows and needs evolve.`,
+              ],
+            },
+            {
+              description: [
+                `Highly flexible and adaptable to changing business requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Can integrate with complex systems such as CRM, ERP, APIs, and custom tools.`,
+              ],
+            },
+            {
+              description: [
+                `Best for complex platforms, SaaS products, enterprise systems, or unique business processes.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    whatareservice2: {
+      isVisible: false,
+      isVariant: '11',
+      img: WhatAreService2,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      bgColor: '#FFFFFF',
+      button: '',
+      data: [
+        {
+          desctioption: `WordPress development refers to the process of creating, customizing, and maintaining websites using the WordPress content management system (CMS).`,
+        },
+        {
+          desctioption: ` It involves a variety of tasks, including designing themes, developing plugins, and configuring settings to ensure optimal performance and user experience.`,
+        },
+        {
+          desctioption: `Our WordPress developers India work with PHP, HTML, CSS, and JavaScript to build custom solutions tailored to specific client needs. They can create unique themes that define the visual appearance of a site and plugins that add functionality, such as contact forms, e-commerce capabilities, and SEO tools.`,
+        },
+        {
+          desctioption: `Additionally, WordPress development encompasses website optimization for speed and security, ensuring that the sites are responsive and accessible across different devices. Developers also engage in regular updates and troubleshooting to keep the website functional and secure from vulnerabilities. `,
+        },
+        {
+          desctioption: `Overall, WordPress development is a multifaceted discipline that combines technical skills with creative design to deliver effective online solutions.`,
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      textColor: '',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      headingParts: [
+        {
+          text: '',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      textColor: '',
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+};

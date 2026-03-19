@@ -42,7 +42,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
               {importantToBussiness?.data?.map((item: any, idx: number) => {
                 return (
                   <div
-                    className={`relative my-[1rem] rounded-[1rem] border ${importantToBussiness?.borderColor} bg-[${importantToBussiness?.cardColor || '#FFFFFF'}] p-[2rem] px-[2rem] ${item?.button ? 'pb-[4rem]' : 'pb-[2rem]'} pt-[2rem] transition-all duration-700 lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    className={`relative my-[1rem] rounded-[1rem] border border-[${importantToBussiness?.borderColor}] bg-[${importantToBussiness?.cardColor || '#FFFFFF'}] p-[2rem] px-[2rem] ${item?.button ? 'pb-[4rem]' : 'pb-[2rem]'} pt-[2rem] transition-all duration-700 lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                     style={{
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
@@ -133,16 +133,18 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                   </div>
                 );
               })}
-              {importantToBussiness?.isCardVisible && (
-                <LaunchMobileApp handleClick={() => setOpen(true)} />
-              )}
               {/* {importantToBussiness?.isCardVisible && (
-                <ImpToBusinessCard
-                  handleClick={() => setOpen(true)}
-                  idx={importantToBussiness?.data?.length} 
-                  isVisible={isVisible}
-                />
+                <LaunchMobileApp handleClick={() => setOpen(true)} />
               )} */}
+
+              {/* {importantToBussiness.card?.map((card: any, idx: any) => (
+                <LaunchMobileApp
+                  idx={importantToBussiness?.data?.length}
+                  isVisible={isVisible}
+                  handleClick={() => setOpen(true)}
+                  cardData={card}
+                />
+              ))}
 
               {importantToBussiness.card?.map((card: any, idx: any) => (
                 <ImpToBusinessCard
@@ -151,7 +153,27 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                   handleClick={() => setOpen(true)}
                   cardData={card}
                 />
-              ))}
+              ))} */}
+
+              {importantToBussiness.isLaunchCard
+                ? importantToBussiness.card?.map((card: any, idx: any) => (
+                  <LaunchMobileApp
+                    key={idx}
+                    idx={importantToBussiness?.data?.length}
+                    isVisible={isVisible}
+                    handleClick={() => setOpen(true)}
+                    cardData={card}
+                  />
+                ))
+                : importantToBussiness.card?.map((card: any, idx: any) => (
+                  <ImpToBusinessCard
+                    key={idx}
+                    idx={importantToBussiness?.data?.length}
+                    isVisible={isVisible}
+                    handleClick={() => setOpen(true)}
+                    cardData={card}
+                  />
+                ))}
             </div>
           </MaxWidthWrapper>
         </div>
@@ -167,11 +189,10 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
         >
           <MaxWidthWrapper>
             <div
-              className={`transition-all duration-1000 ${
-                isVisible
+              className={`transition-all duration-1000 ${isVisible
                   ? 'translate-y-0 opacity-100'
                   : 'translate-y-12 opacity-0'
-              }`}
+                }`}
             >
               <Heading
                 isDecVarticle
@@ -186,11 +207,10 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
 
           {/* Slider Here */}
           <div
-            className={`pt-[1.5rem] transition-all duration-1000 ${
-              isVisible
+            className={`pt-[1.5rem] transition-all duration-1000 ${isVisible
                 ? 'translate-x-0 opacity-100'
                 : '-translate-x-16 opacity-0'
-            }`}
+              }`}
           >
             <ImpToBusinessSlider
               data={importantToBussiness?.data}

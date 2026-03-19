@@ -158,7 +158,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
             className="block justify-between lg:flex"
           >
             <div
-              className={`my-auto w-[100%] p-[2.5rem] lg:p-0 lg:w-[${`${buildlinks.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`my-auto w-[100%] p-[2.5rem] lg:p-0 transition-all duration-1000 lg:w-[${`${buildlinks.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 breakIndex={buildlinks?.breakIndex}
@@ -193,6 +193,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 </div>
               )}
             </div>
+
             <div
               ref={ref}
               className={`w-[100%] lg:w-[${`${100 - buildlinks.width}%`}] group order-1 flex justify-center justify-items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end lg:p-0 lg:pt-0 ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-0' : '-translate-x-16 opacity-0'} ${buildlinks?.isCode02 ? 'items-end' : 'items-center'}`}

@@ -80,25 +80,25 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
                 </MaxWidthWrapper>
               );
 
-            case 'KeyFeatureCrossLayout':
-              return (
-                <MaxWidthWrapper key={data.componentName}>
-                  <KeyFeatureCrossLayout
-                    colorScheme={fetchedService?.data?.colorScheme}
-                    data={data}
-                  />
-                </MaxWidthWrapper>
-              );
+            // case 'KeyFeatureCrossLayout':
+            //   return (
+            //     <MaxWidthWrapper key={data.componentName}>
+            //       <KeyFeatureCrossLayout
+            //         colorScheme={fetchedService?.data?.colorScheme}
+            //         data={data}
+            //       />
+            //     </MaxWidthWrapper>
+            //   );
 
-            case 'ImagewithDetailedFeatureDescription':
-              return (
-                <MaxWidthWrapper key={data.componentName}>
-                  <ImageWithDetailedFeatureDescription
-                    colorScheme={fetchedService?.data?.colorScheme}
-                    data={data.body}
-                  />
-                </MaxWidthWrapper>
-              );
+            // case 'ImagewithDetailedFeatureDescription':
+            //   return (
+            //     <MaxWidthWrapper key={data.componentName}>
+            //       <ImageWithDetailedFeatureDescription
+            //         colorScheme={fetchedService?.data?.colorScheme}
+            //         data={data.body}
+            //       />
+            //     </MaxWidthWrapper>
+            //   );
 
             case 'FAQ':
               return (
@@ -127,14 +127,14 @@ const ApiServicePage = async ({ slug }: ApiServicePageProps) => {
                 </MaxWidthWrapper>
               );
 
-            case 'ServiceKeyFeaturesLayout':
-              return (
-                <ServiceKeyFeaturesLayout
-                  key={data.componentName}
-                  colorScheme={fetchedService?.data?.colorScheme}
-                  data={data.body}
-                />
-              );
+            // case 'ServiceKeyFeaturesLayout':
+            //   return (
+            //     <ServiceKeyFeaturesLayout
+            //       key={data.componentName}
+            //       colorScheme={fetchedService?.data?.colorScheme}
+            //       data={data.body}
+            //     />
+            //   );
 
             case 'StickyScrollLayout':
               return (

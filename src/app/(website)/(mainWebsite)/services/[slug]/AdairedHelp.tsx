@@ -51,9 +51,10 @@ const AdairedHelp = ({ adairedHelp }: any) => {
             {adairedHelp?.list?.map((item: any, index: number) => (
               <div
                 key={index}
-                className={`flex flex-col items-center rounded-[20px] border border-[#FB9100]/25 bg-[${adairedHelp?.cardBg || '#FFFFFF'}] p-[1.5rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`flex flex-col items-center rounded-[20px] bg-[${adairedHelp?.cardBg || '#FFFFFF'}] p-[1.5rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
-                  transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                  transitionDelay: `${index * 280}ms`,
+                  border: `1px solid ${adairedHelp?.cardBorderColor || '#FEE3BF'}`
                 }}
               >
                 {/* <Image src={item?.img} width={40} height={40} alt="icon" /> */}
@@ -66,19 +67,19 @@ const AdairedHelp = ({ adairedHelp }: any) => {
 
                   <div
                     className={`text-[50px] font-semibold ${adairedHelp?.isnNumberBg ? 'px-4 rounded-[0.8rem]' : ''}`}
-                style={{
-                  color: adairedHelp?.textColor || '#FB9100',
-                  background: adairedHelp?.isnNumberBg ? adairedHelp?.numberBg : 'transparent',
-                }}
+                    style={{
+                      color: adairedHelp?.textColor || '#FB9100',
+                      background: adairedHelp?.isnNumberBg ? adairedHelp?.numberBg : 'transparent',
+                    }}
                   >
-                {String(index + 1).padStart(2, '0')}
-              </div>
-            )}
-            {/* <p className="pt-[1.5rem] font-bold">{item?.name}</p> */}
-            <h3 className="pt-[1.5rem]">{item?.name}</h3>
+                    {String(index + 1).padStart(2, '0')}
+                  </div>
+                )}
+                {/* <p className="pt-[1.5rem] font-bold">{item?.name}</p> */}
+                <h3 className="pt-[1.5rem]">{item?.name}</h3>
 
-            <div className="pt-2">
-              {/* {item?.description?.map((desc: string, i: number) => (
+                <div className="pt-2">
+                  {/* {item?.description?.map((desc: string, i: number) => (
                     <p key={i} className="my-3">
                       {desc}
                     </p>
@@ -86,53 +87,53 @@ const AdairedHelp = ({ adairedHelp }: any) => {
 
 
 
-              {item?.description?.map((dec: any, index: number) => {
+                  {item?.description?.map((dec: any, index: number) => {
 
-                if (typeof dec === "string") {
-                  return (
-                    <p key={index} className="py-3">
-                      {dec}
-                    </p>
-                  );
-                }
-
-                if (typeof dec === "object") {
-                  return (
-                    <div key={index} className="py-3">
-                      {dec?.desctioption && (
-                        <p className="pb-[1rem]">
-                          {dec.desctioption}
+                    if (typeof dec === "string") {
+                      return (
+                        <p key={index} className="py-3">
+                          {dec}
                         </p>
-                      )}
+                      );
+                    }
 
-                      {dec?.list && (
-                        <ul className="space-y-3">
-                          {dec.list.map((listItem: any, i: number) => (
-                            <li key={i}>
-                              {listItem?.des?.map((d: string, di: number) => (
-                                <div
-                                  key={di}
-                                  className="flex items-center gap-3"
-                                >
-                                  <TbPointFilled size={11} />
-                                  <p className='text-left'>{d}</p>
-                                </div>
+                    if (typeof dec === "object") {
+                      return (
+                        <div key={index} className="py-3">
+                          {dec?.desctioption && (
+                            <p className="pb-[1rem]">
+                              {dec.desctioption}
+                            </p>
+                          )}
+
+                          {dec?.list && (
+                            <ul className="space-y-3">
+                              {dec.list.map((listItem: any, i: number) => (
+                                <li key={i}>
+                                  {listItem?.des?.map((d: string, di: number) => (
+                                    <div
+                                      key={di}
+                                      className="flex items-center gap-3"
+                                    >
+                                      <TbPointFilled size={11} />
+                                      <p className='text-left'>{d}</p>
+                                    </div>
+                                  ))}
+                                </li>
                               ))}
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </div>
-                  );
-                }
+                            </ul>
+                          )}
+                        </div>
+                      );
+                    }
 
-                return null;
-              })}
-            </div>
-          </div>
+                    return null;
+                  })}
+                </div>
+              </div>
             ))}
+          </div>
         </div>
-    </div>
       </MaxWidthWrapper >
     </div >
   );

@@ -373,7 +373,11 @@ const Banner = ({ banner }: any) => {
                   </div>
                 </div>
                 <div
-                  className={`${banner?.isAbsolute ? 'ml-auto' : 'my-auto'} ml-auto w-fit pt-[4rem] lg:h-[var(--img-h)] lg:w-[${`${100-banner?.width}%` || '50%'}] lg:pt-0`}
+                  className={`ml-auto w-fit pt-[4rem] transition-all delay-200 duration-1000 lg:h-[var(--img-h)] ${
+                    isVisible
+                      ? 'translate-x-0 opacity-100'
+                      : 'translate-x-16 opacity-0'
+                  } ${banner?.isAbsolute ? 'ml-auto' : 'my-auto'} lg:w-[${`${100 - banner?.width}%` || '50%'}] lg:pt-0`}
                   style={
                     {
                       '--img-w': banner?.imgWidth,

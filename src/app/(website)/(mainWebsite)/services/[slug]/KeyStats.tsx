@@ -173,7 +173,7 @@ const KeyStats = ({ keyStats }: any) => {
             )}
           </div>
         )}
-        {keyStats?.code === '02' && (
+        {/* {keyStats?.code === '02' && (
           <div
             className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
           >
@@ -191,13 +191,6 @@ const KeyStats = ({ keyStats }: any) => {
                   fill
                   className="object-fill"
                 />
-                {/* <Image
-                  src={keyStats?.rocketImg ? keyStats.rocketImg : undefined}
-                  width={115}
-                  height={123}
-                  alt="rocket"
-                  className="left-[0.5 rem] absolute top-[-1rem]"
-                /> */}
 
                 {keyStats?.rocketImg && (
                   <Image
@@ -210,6 +203,56 @@ const KeyStats = ({ keyStats }: any) => {
                 )}
               </div>
               <div className="mt-7 space-y-4">
+                {keyStats?.list?.map((item: any, index: any) => (
+                  <div key={index} className="flex flex-col">
+                    {index !== 0 && (
+                      <Image
+                        src={DottedLine}
+                        width={891}
+                        height={0}
+                        alt="dotted-line"
+                      />
+                    )}
+
+                    <div className="flex flex-col items-center gap-8 py-4 md:flex-row lg:flex-row lg:gap-16">
+                      <div className="mx-2.5 flex w-[50px] justify-center">
+                        <span className="text-4xl font-normal text-[#FB9100] md:text-4xl">
+                          {String(index + 1).padStart(2, '0')}
+                        </span>
+                      </div>
+
+                      <p className="text-sm md:text-base">
+                        {item.desctioption}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )} */}
+        {keyStats?.code === '02' && (
+          <div
+            className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          >
+            <Heading
+              breakIndex={keyStats?.breakIndex}
+              isInCenter={true}
+              subTitle={''}
+              headingParts={keyStats?.headingParts}
+            />
+            <div className="flex flex-col lg:flex-row items-stretch gap-5 pt-[2rem] lg:gap-[6rem]">
+              <div className={`flex justify-center lg:justify-start w-[100%] lg:w-[${`${keyStats.width}%`}]`}>
+                <Image
+                  src={keyStats?.img}
+                  alt="img"
+                  width={keyStats?.imgWidth}
+                  height={keyStats?.imgHeight}
+                  className="object-contain"
+                />
+              </div>
+
+              <div className={`mt-7 space-y-4 w-[100%] lg:w-[${`${100 - keyStats.width}%`}]`}>
                 {keyStats?.list?.map((item: any, index: any) => (
                   <div key={index} className="flex flex-col">
                     {index !== 0 && (
