@@ -849,7 +849,7 @@ export const ServiceSectionData = {
           label: 'Wearables',
           title: 'Wearables',
           description: `We specialize in Wearable App Development at Adaired, creating apps for smartwatches, fitness trackers, and other wearable devices. From design to development and integration, we deliver seamless, high-performing apps under your brand, helping you enhance user engagement, provide real-time data, and expand your digital offerings effortlessly.`,
-          link: '/services/web-design-development-company',
+          link: '/services/wearables-app-development-india',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',

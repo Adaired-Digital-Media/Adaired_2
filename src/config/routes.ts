@@ -103,11 +103,11 @@ export const routes: {
   },
 
   websiteNav: [
-    {
-      label: 'About Us',
-      value: 'about',
-      href: '/about-us',
-    },
+    // {
+    //   label: 'About Us',
+    //   value: 'about',
+    //   href: '/about-us',
+    // },
     {
       label: 'Services',
       value: 'services',
@@ -296,15 +296,15 @@ export const routes: {
             },
             {
               name: 'Android Development',
-              href: '#',
+              href: '/services/android-app-development-company-india',
             },
             {
               name: 'Cross-Platform',
-              href: '#',
+              href: '/services/cross-platform-app-development-india',
             },
             {
               name: 'Wearables',
-              href: '#',
+              href: '/services/wearables-app-development-india',
             },
           ],
         },
@@ -358,9 +358,10 @@ export const routes: {
       value: 'resources',
       href: '#',
       subItems: [
-        { name: 'Career', href: '/career' },
+        { name: 'About Us', href: '/about-us' },
         { name: 'Case Studies', href: '/case-studies' },
         { name: 'Blog', href: '/blog' },
+        { name: 'Career', href: '/career' },
       ],
     },
 

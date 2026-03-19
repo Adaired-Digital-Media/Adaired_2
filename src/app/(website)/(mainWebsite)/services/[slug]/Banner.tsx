@@ -117,7 +117,7 @@ const Banner = ({ banner }: any) => {
                         </h1>
                       </div>
                     </div>
-                    <div className={`$ 'pt-[1rem]'}`}>
+                    <div className={`pt-[1rem]`}>
                       {banner?.span && (
                         <p className="pt-4 text-center font-montserrat font-bold lg:text-left">
                           {banner?.span}

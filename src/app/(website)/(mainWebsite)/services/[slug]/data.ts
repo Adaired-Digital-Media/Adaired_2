@@ -725,6 +725,7 @@ import ourProcess_AndroidAppIcon6 from '../../../../../../public/assets/images/s
 
 import LaunchAppCardImg from '../../../../../../public/assets/images/services/androidAppDevelopment/LaunchAppCardImg.png';
 
+// Cross-platform App Development Images
 import crossPlatformWhatServiceImg from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatServiceImg.png';
 
 import crossPlatformProcessIcon_1 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_1.png';
@@ -741,6 +742,27 @@ import crossPlatformWhatMissingIcon_3 from '../../../../../../public/assets/imag
 import crossPlatformWhatMissingIcon_4 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_4.png';
 import crossPlatformWhatMissingIcon_5 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_5.png';
 import crossPlatformWhatMissingIcon_6 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_6.png';
+
+// Wearables App Development Images
+import wearablesAppDevWhatServiceImg from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevWhatServiceImg.png';
+import wearablesAppDevKeyStatsIcon from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevKeyStatsIcon.png';
+
+import wearablesAppDevProcessIcon_1 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevProcessIcon_1.png';
+import wearablesAppDevProcessIcon_2 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevProcessIcon_2.png';
+import wearablesAppDevProcessIcon_3 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevProcessIcon_3.png';
+import wearablesAppDevProcessIcon_4 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevProcessIcon_4.png';
+import wearablesAppDevProcessIcon_5 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevProcessIcon_5.png';
+import wearablesAppDevProcessIcon_6 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevProcessIcon_6.png';
+import wearablesAppDevProcessIcon_7 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevProcessIcon_7.png';
+
+import wearablesAppDevImpIcon_1 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevImpIcon_1.png';
+import wearablesAppDevImpIcon_2 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevImpIcon_2.png';
+import wearablesAppDevImpIcon_3 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevImpIcon_3.png';
+import wearablesAppDevImpIcon_4 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevImpIcon_4.png';
+import wearablesAppDevImpIcon_5 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevImpIcon_5.png';
+import wearablesAppDevImpIcon_6 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevImpIcon_6.png';
+import wearablesAppDevImpIcon_7 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevImpIcon_7.png';
+import wearablesAppDevImpIcon_8 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevImpIcon_8.png';
 
 export type SectionKey =
   | 'banner'
@@ -22455,6 +22477,1254 @@ export const SERVICES_DATA = {
           icon: iosAppDevKeyStatsImg,
           desctioption: [
             `52% of users prefer social search to discover user-generated content and authentic experiences, highlighting the growing importance of community-driven marketing.`,
+          ],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      breakIndex: 4,
+      headingParts: [
+        {
+          text: 'Technologies We Use for iOS Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
+        `Some of the technologies we commonly use include:`,
+      ],
+      isVariant: '03',
+      textColor: '',
+      bgImage: '',
+      bgColor: '',
+      list: [
+        {
+          img: iosAppDevLeadingToolsImg_1,
+          desc: 'Swift',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_2,
+          desc: 'Objective-C',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_3,
+          desc: 'Xcode',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_4,
+          desc: 'SwiftUI and UIKit',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_5,
+          desc: 'Firebase',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_6,
+          desc: 'REST APIs',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_7,
+          desc: 'Cloud platforms (AWS and Google Cloud)',
+        },
+      ],
+    },
+
+    industriesWeServe: {
+      isVisible: false,
+      code: '01',
+      bgColor: 'bg-[#FFFBF5]',
+      headingParts: [
+        {
+          text: 'Industries We Serve',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our iOS app development solutions support a wide variety of industries, enabling businesses to deliver innovative digital experiences to their customers.`,
+      ],
+      isCard: false,
+      bgImg: '',
+      gridCols: 3,
+      imgWidth: 520,
+      imgHeight: 467,
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_1_gmywri.png',
+          btn: [`Fintech`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_2_r3qlub.png',
+          btn: [`Healthcare`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749340/adaired/services/ios_app_development/iosAppDevIndustriesImg_3_m5hp7t.png',
+          btn: [`E-commerce`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_4_okdehb.png',
+          btn: [`Education`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_5_vctvmh.png',
+          btn: [`Travel and Hospitality`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749339/adaired/services/ios_app_development/iosAppDevIndustriesImg_6_rseu98.png',
+          btn: [`Fashion & Beauty`],
+        },
+      ],
+    },
+
+    techStackMobile: {
+      isVisible: false,
+      breakIndex: 4,
+      headingParts: [
+        {
+          text: 'Technologies We Use for iOS Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
+        `Some of the technologies we commonly use include:`,
+      ],
+      ContentDescription: '',
+      navItems: [''],
+      mobileNavItems: [''],
+      list: [
+        [
+          { image: customWebDevTechStackImg_1, desc: 'Swift' },
+          { image: customWebDevTechStackImg_2, desc: 'Objective-C' },
+          { image: customWebDevTechStackImg_3, desc: 'Xcode' },
+          { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
+          { image: customWebDevTechStackImg_5, desc: 'Firebase' },
+          { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
+          {
+            image: customWebDevTechStackImg_5,
+            desc: 'Cloud platforms (AWS and Google Cloud)',
+          },
+        ],
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: true,
+      bgColor: '#FAFAFA',
+      trColor: 'bg-[#7259FF]',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      headingParts: [
+        {
+          text: 'Custom Web Development vs Traditional Web Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Here is a clear comparison table showing the difference between Web Development and Custom Web Development:`,
+      ],
+      data: [
+        {
+          desctioption: `Aspect`,
+          list: [
+            {
+              description: [`Definition`],
+            },
+            {
+              description: [`Development Approach`],
+            },
+            {
+              description: [`Customization Level`],
+            },
+            {
+              description: [`Development Time`],
+            },
+            {
+              description: [`Cost`],
+            },
+            {
+              description: [`Flexibility`],
+            },
+            {
+              description: [`Integration`],
+            },
+            {
+              description: [`Best Use Case`],
+            },
+          ],
+        },
+        {
+          desctioption: `Web Development`,
+          list: [
+            {
+              description: [
+                `The general process of building websites or web applications using available tools, frameworks, or CMS platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Often uses prebuilt templates, themes, or platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Limited to the features and structure provided by the platform.`,
+              ],
+            },
+            {
+              description: [
+                `Faster because many components are already built.`,
+              ],
+            },
+            {
+              description: [
+                `Usually lower due to faster development and prebuilt solutions.`,
+              ],
+            },
+            {
+              description: [
+                `May face limitations as the website grows or requires new features.`,
+              ],
+            },
+            {
+              description: [
+                `Limited flexibility depending on the platform being used.`,
+              ],
+            },
+            {
+              description: [
+                `Basic integrations with common tools and plugins.`,
+              ],
+            },
+            {
+              description: [
+                `Ideal for simple websites, blogs, portfolios, or small business sites.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `Custom Web Development`,
+          list: [
+            {
+              description: [
+                `The process of building a website or web application is specifically tailored to the unique needs of a business.`,
+              ],
+            },
+            {
+              description: [
+                `Built from scratch or heavily customized to meet specific requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Fully customizable design, features, and functionality.`,
+              ],
+            },
+            {
+              description: [
+                `Takes more time due to planning, design, and development from the ground up.`,
+              ],
+            },
+            {
+              description: [
+                `Generally higher because of custom design and development work.`,
+              ],
+            },
+            {
+              description: [
+                `Designed to scale easily as the business grows and needs evolve.`,
+              ],
+            },
+            {
+              description: [
+                `Highly flexible and adaptable to changing business requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Can integrate with complex systems such as CRM, ERP, APIs, and custom tools.`,
+              ],
+            },
+            {
+              description: [
+                `Best for complex platforms, SaaS products, enterprise systems, or unique business processes.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    whatareservice2: {
+      isVisible: false,
+      isVariant: '11',
+      img: WhatAreService2,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      bgColor: '#FFFFFF',
+      button: '',
+      data: [
+        {
+          desctioption: `WordPress development refers to the process of creating, customizing, and maintaining websites using the WordPress content management system (CMS).`,
+        },
+        {
+          desctioption: ` It involves a variety of tasks, including designing themes, developing plugins, and configuring settings to ensure optimal performance and user experience.`,
+        },
+        {
+          desctioption: `Our WordPress developers India work with PHP, HTML, CSS, and JavaScript to build custom solutions tailored to specific client needs. They can create unique themes that define the visual appearance of a site and plugins that add functionality, such as contact forms, e-commerce capabilities, and SEO tools.`,
+        },
+        {
+          desctioption: `Additionally, WordPress development encompasses website optimization for speed and security, ensuring that the sites are responsive and accessible across different devices. Developers also engage in regular updates and troubleshooting to keep the website functional and secure from vulnerabilities. `,
+        },
+        {
+          desctioption: `Overall, WordPress development is a multifaceted discipline that combines technical skills with creative design to deliver effective online solutions.`,
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      textColor: '',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      headingParts: [
+        {
+          text: '',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      textColor: '',
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'wearables-app-development-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'adairedHelp',
+      'importantToBussiness',
+      'benefitofAiSeo',
+      'ourProcess',
+      'whatMkeDeferent',
+      'leadingTools',
+      'industriesWeServe',
+      'buildlinks',
+      'faqData',
+      'whatMissing',
+      'techStackMobile',
+      'dataInTable',
+      'whatareservice2',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/custom-web-development-company',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: true,
+      isStyleHeading: true,
+      headingParts: [
+        {
+          text: 'Expert Wearable Application',
+          color: '#000000',
+          weight: '400',
+        },
+        {
+          text: 'Development for iOS, Android & Wear OS',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      isGap: true,
+      customGap: '0rem',
+      // breakIndex: 7,
+      desc: [
+        `Unlock the full potential of wearable technology with apps built for speed, accuracy, and usability.`,
+        `At Adaired Digital Media, our team offers smart, future-ready wearable app development solutions that integrate effortlessly with modern ecosystems, enabling real-time data synchronization and meaningful user interactions.`,
+      ],
+      subheading: '',
+      button: 'Let’s Plan Your Wearable App',
+      width: 55,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773924168/adaired/services/wearables_app_development/wearablesAppDevBannerImg_ogcwiw.png',
+      imgWidth: '960',
+      imgHight: '860',
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '01',
+      breakIndex: 0,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773836300/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_zywqa6.png',
+      headingParts: [
+        {
+          text: 'Wearable App Development: Statistics & Facts',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      imgWidth: '620',
+      imgHeight: '725',
+      width: 40,
+      list: [
+        {
+          icon: wearablesAppDevKeyStatsIcon,
+          desctioption: [
+            `The global wearable technology market is expected to reach $109 billion by 2026 and grow to $231 billion by 2032.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevKeyStatsIcon,
+          desctioption: [
+            `Smartwatches dominate the market, accounting for around 46% of the total share in 2025.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevKeyStatsIcon,
+          desctioption: [
+            `Global wearable device shipments are projected to increase from ~590.7 million units (2025) to ~614.1 million (2026).`,
+          ],
+        },
+        {
+          icon: wearablesAppDevKeyStatsIcon,
+          desctioption: [
+            `70% of consumers buy wearables for health & fitness features, such as heart rate and blood oxygen monitoring.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevKeyStatsIcon,
+          desctioption: [
+            `40% of newly launched wearables are expected to include AI-powered features by 2026.`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '04',
+      breakIndex: 0,
+      paddingY: '2rem',
+      isRowReverse: true,
+      width: 60,
+      img: wearablesAppDevWhatServiceImg,
+      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
+      imgWidth: '786px',
+      imgHight: '525px',
+      headingParts: [
+        {
+          text: 'What is Wearable Application Development?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      isGap: false,
+      data: [
+        {
+          desctioption: `Wearable application development refers to the process of designing, building, and optimizing software applications specifically for wearable devices such as smartwatches, fitness trackers, smart glasses, and other body-worn technologies.`,
+        },
+        {
+          desctioption: `These applications are created to deliver quick, real-time interactions and insights while seamlessly integrating with smartphones, cloud platforms, and IoT ecosystems.`,
+        },
+        {
+          desctioption: `Unlike traditional mobile or web applications, wearable apps are built for compact screens, limited hardware resources, and on-the-go usage. This requires a strong focus on performance, minimalistic design, and intuitive user experiences that allow users to interact with the app effortlessly, often within just a few seconds.`,
+        },
+      ],
+      button: '',
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 4,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905927/adaired/services/wearables_app_development/wearablesAppDevAdairedHelpImg_opxcsd.png',
+      isInCenter: false,
+      textColor: '',
+      isnNumberBg: false,
+      numberBg: '',
+      bgColor: 'bg-[#FFF9F3]',
+      cardBg: '',
+      headingParts: [
+        {
+          text: 'Why Do Wearable Apps Stand Out?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Wearable apps stand apart from traditional applications by offering real-time insights, seamless connectivity, and intuitive interactions on the go. As a leading wearable app development company, we ensure you get:`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Real-Time Functionality',
+          description: [
+            `Wearable applications are built to deliver instant data processing and feedback, enabling users to access critical information without delay.`,
+            `From monitoring heart rate and tracking steps to receiving timely notifications, these apps ensure high accuracy and responsiveness.`,
+            `This real-time capability is especially crucial in use cases like healthcare and fitness, where immediate insights can influence decisions and outcomes.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Seamless Device Integration',
+          description: [
+            `A core strength of wearable apps lies in their ability to connect and synchronize effortlessly with smartphones, cloud platforms, and other smart devices.`,
+            `Using technologies such as Bluetooth, Wi-Fi, and APIs, these applications enable smooth data exchange and continuous connectivity. `,
+            `This ensures users enjoy a unified experience across multiple devices without interruptions.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Compact & Intuitive UI/UX',
+          description: [
+            `Given the limited screen size of wearable devices, applications must focus on simplicity and usability.`,
+            `Interfaces are designed to present only the most relevant information in a clear and concise format.`,
+            `Features like voice commands, gesture controls, and glanceable screens enhance usability, allowing users to interact quickly and efficiently, even on the move.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Sensor-Driven Capabilities',
+          description: [
+            `Wearable devices come equipped with advanced sensors such as GPS, accelerometers, gyroscopes, and heart rate monitors, which power highly personalized experiences.`,
+            `Wearable applications utilize this data to provide context-aware insights, whether it’s tracking physical activity, monitoring health metrics, or enabling location-based services.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Power Efficiency',
+          description: [
+            `Battery life is a critical factor in wearable technology.`,
+            `Applications must be highly optimized to minimize power consumption while maintaining smooth performance.`,
+            `Efficient coding practices, background process management, and smart data handling help ensure that the app delivers consistent functionality without draining the device’s battery.`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      breakIndex: 2,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      headingParts: [
+        {
+          text: 'Our End-to-End Wearable App Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Transform your ideas into high-performance applications, from concept and UI design to development and integration.`,
+        `We deliver wearable app development services designed to deliver seamless connectivity, real-time insights, and exceptional user experiences across a wide range of wearable devices.`,
+      ],
+      buttonName: 'Let’s Plan Your Wearable App',
+      data: [
+        {
+          icon: wearablesAppDevImpIcon_1,
+          name: 'Android Wearable App Development',
+          description: [
+            `At Adaired Digital Media, we build powerful, feature-rich applications for Wear OS devices that are optimized for speed, reliability, and seamless connectivity.`,
+            `Our development approach focuses on creating intuitive interfaces and real-time functionality that enhances user experience on compact screens.`,
+            `Whether you're building a fitness tracker, healthcare app, or enterprise tool, our Android wearable solutions are designed to scale with your business and adapt to evolving user needs.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_2,
+          name: 'iOS Wearable App Development',
+          description: [
+            `Our iOS wearable app development services focus on creating elegant and high-performing applications for Apple Watch users.`,
+            `Leveraging advanced watchOS capabilities, we build apps that offer smooth navigation, precise functionality, and deep integration within the Apple ecosystem.`,
+            `From real-time notifications and health tracking to advanced data visualization and personalized experiences, we ensure your app delivers value at every interaction.`,
+            `Our team emphasizes performance optimization and user-centric design to maximize engagement and retention.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_3,
+          name: 'AR/VR Wearable App Development',
+          description: [
+            `We specialize in developing immersive applications for AR and VR-enabled wearable devices, unlocking new possibilities for interaction and visualization.`,
+            `These solutions enable businesses to create engaging experiences such as virtual training environments, real-time assistance, product visualization, and interactive simulations.`,
+            `Our AR/VR wearable apps are designed with precision to ensure smooth performance, low latency, and high responsiveness, making them ideal for industries like healthcare, education, retail, and manufacturing.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_4,
+          name: 'Fitness & Wellness App Development',
+          description: [
+            `We create advanced fitness and healthcare wearable applications that empower users with real-time health insights and personalized recommendations.`,
+            `By utilizing sensors such as heart rate monitors, GPS, and motion trackers, our apps provide accurate tracking of activities, sleep patterns, and vital health metrics.`,
+            `These applications are designed not only to inform but also to engage users through intuitive dashboards, goal-setting features, and actionable insights, helping businesses deliver meaningful value in the rapidly growing health-tech space.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_5,
+          name: 'Utility & Lifestyle Wearable Apps',
+          description: [
+            `Our utility-focused wearable applications are designed to simplify everyday tasks through quick, efficient, and intuitive interactions.`,
+            `We develop apps that provide instant access to notifications, reminders, navigation, and media controls, ensuring users can stay connected without constantly reaching for their smartphones.`,
+            `By focusing on minimalistic design and optimized performance, we ensure these apps deliver maximum usability while maintaining low power consumption.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_6,
+          name: 'Smart Band & Fitness Tracker App',
+          description: [
+            `We design and develop companion applications for smart bands and fitness trackers that seamlessly collect, analyze, and present user data.`,
+            `Our solutions focus on delivering accurate insights through advanced data processing and intuitive visualizations. `,
+            `From syncing wearable data with mobile devices to integrating with cloud platforms for deeper analytics, Adaired Digital Media ensures a cohesive ecosystem that enhances both user experience and product functionality.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_7,
+          name: 'Smart Glasses Wearable App',
+          description: [
+            `We develop advanced applications for smart glasses, designed to deliver real-time information through intuitive visual interfaces.`,
+            `Our solutions leverage device capabilities such as cameras, sensors, and spatial computing to enable seamless interaction.`,
+            `By integrating technologies like augmented reality (AR), computer vision, and low-latency data streaming, we build applications that support real-time overlays, object recognition, and interactive guidance.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_8,
+          name: 'IoT-Enabled Wearable Applications',
+          description: [
+            `We develop wearable applications that are deeply integrated with IoT ecosystems, allowing seamless communication between devices, sensors, and cloud platforms.`,
+            `These solutions enable real-time monitoring, predictive analytics, and automation, making them highly valuable for both consumer and enterprise use cases.`,
+            `Our IoT-integrated wearable apps empower businesses to make data-driven decisions while delivering connected experiences that enhance efficiency and innovation.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    benefitofAiSeo: {
+      isVisible: true,
+      isVariant: '01',
+      isDecVarticle: true,
+      isInCenter: false,
+      breakIndex: 2,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      headingParts: [
+        {
+          text: 'Advanced Features Powering Our Wearable Applications',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our wearable applications are built with a deep understanding of device limitations, user behavior, and real-world usage scenarios.`,
+      ],
+      list: [
+        {
+          name: 'Real-Time Data Synchronization',
+          description: [
+            `We enable seamless, real-time data synchronization across wearable devices, mobile applications, and cloud platforms.`,
+            `This ensures that users always have access to the most accurate and up-to-date information, whether it’s health metrics, activity data, or system notifications. Our approach minimizes latency and guarantees smooth data flow, even in dynamic environments.`,
+          ],
+        },
+        {
+          name: 'Advanced Sensor Integration',
+          description: [
+            `Wearable devices rely heavily on sensors, and we ensure full utilization of these capabilities.`,
+            `Our applications integrate seamlessly with sensors such as heart rate monitors, accelerometers, gyroscopes, and motion detectors to deliver precise tracking and context-aware insights. This enables highly personalized and responsive user experiences.`,
+          ],
+        },
+        {
+          name: 'Voice & Gesture Controls',
+          description: [
+            `To overcome the limitations of small screens, we integrate voice commands and gesture-based controls that allow users to interact effortlessly with the application.`,
+            `This creates a more natural and efficient user experience, reducing dependency on manual input while improving accessibility and convenience.`,
+          ],
+        },
+        {
+          name: 'Smart Notifications Alerts',
+          description: [
+            `Our applications deliver intelligent, context-aware notifications that keep users informed without overwhelming them.`,
+            `By prioritizing relevance and timing, we ensure that users receive meaningful alerts that enhance engagement and usability while maintaining a clutter-free experience.`,
+          ],
+        },
+        {
+          name: 'Cross-Platform Compatibility',
+          description: [
+            `We develop wearable applications that function seamlessly across multiple platforms, including wearable devices, smartphones, and cloud systems.`,
+            `This ensures a unified and consistent user experience, allowing data and functionality to remain synchronized across the entire ecosystem.`,
+          ],
+        },
+        {
+          name: 'Secure Data Handling',
+          description: [
+            `Security is a critical component of wearable applications, especially when handling sensitive user data.`,
+            `We implement advanced encryption protocols, secure APIs, and best practices in data protection to ensure complete confidentiality, integrity, and compliance with modern standards.`,
+          ],
+        },
+        {
+          name: 'Data Analytics & Actionable Insights',
+          description: [
+            `Our wearable apps go beyond data collection by transforming raw information into meaningful insights.`,
+            `Through intuitive dashboards and real-time analytics, users can monitor performance, track progress, and make informed decisions based on accurate and actionable data.`,
+          ],
+        },
+        {
+          name: 'Offline Functionality & Data Sync',
+          description: [
+            `We design applications that continue to function even in low or no-connectivity scenarios.`,
+            `Data is securely stored on the device and automatically synchronized once connectivity is restored, ensuring uninterrupted performance and a seamless user experience.`,
+          ],
+        },
+        {
+          name: 'Battery-Optimized Performance',
+          description: [
+            `Given the limitations of wearable devices, we prioritize energy efficiency in every application we build.`,
+            `Our development approach focuses on minimizing battery consumption while maintaining high performance, ensuring longer usage time, and providing a smoother overall experience.`,
+          ],
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      headingParts: [
+        {
+          text: 'Delivering Wearable Apps Through a Structured Process',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      breakIndex: 3,
+      bgGradient: 'bg-[#FFFFFF]',
+      span: '',
+      description: [
+        `At Adaired Digital Media, we follow a well-defined and agile development process to transform innovative ideas into high-performance wearable applications.`,
+      ],
+      services: [
+        {
+          icon: wearablesAppDevProcessIcon_1,
+          title: 'Discovery & Strategic Planning',
+          description: [
+            `Every successful wearable application begins with a clear understanding of the business goals and user expectations. During the discovery phase, our team works closely with clients to analyze their requirements, identify the target audience, and determine the wearable platforms and devices involved.`,
+            `This stage also involves evaluating market trends, understanding potential user behaviors, and outlining the key features that will define the application. The insights gathered during this phase help us establish a solid project roadmap and create a strategy that aligns technology with business objectives.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_2,
+          title: 'System Architecture & Technology',
+          description: [
+            `Wearable applications require a carefully planned architecture to ensure smooth performance across devices with limited resources. Our team designs a scalable and efficient system architecture that enables seamless communication between wearable devices, mobile applications, and cloud infrastructure.`,
+            `By selecting appropriate frameworks, APIs, and development tools, we create a foundation that supports stability, security, and long-term scalability. This step ensures that the application is capable of handling real-time data processing, device connectivity, and future updates without compromising performance.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_3,
+          title: 'UI/UX Design Optimization',
+          description: [
+            `Designing for wearable devices requires a different approach compared to traditional mobile or web applications. Our design team focuses on creating interfaces that deliver relevant information instantly while maintaining an intuitive user experience.`,
+            `Every element is carefully structured to ensure that users can access key features effortlessly, whether through touch interactions, voice commands, or gesture-based controls. The goal is to create a visually clean and highly functional interface that enhances usability without overwhelming the user.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_4,
+          title: 'Development & Feature Implementation',
+          description: [
+            `Once the design and architecture are finalized, our development team begins building the core application features. This stage involves implementing functionalities such as sensor integration, real-time data processing, connectivity with smartphones or cloud platforms, and secure data handling.`,
+            `Our developers follow modern development practices and agile methodologies to ensure flexibility and faster iterations. By continuously testing and refining features throughout the development cycle, we maintain high-quality standards while ensuring the application remains efficient and responsive.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_5,
+          title: 'Device Connectivity & Integration',
+          description: [
+            `Wearable applications rely heavily on seamless communication between devices and supporting platforms. To achieve this, we integrate reliable connectivity solutions that allow data to be transferred efficiently between wearable devices, mobile applications, and backend systems.`,
+            `Technologies such as Bluetooth Low Energy, Wi-Fi connectivity, and cloud synchronization are utilized to maintain stable communication and ensure real-time data availability. Proper integration ensures that users experience consistent functionality regardless of the device they are using.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_6,
+          title: 'Quality Assurance',
+          description: [
+            `Before launching any wearable application, we conduct thorough testing to ensure that it performs reliably in real-world environments. Our quality assurance process evaluates functionality, usability, performance, and device compatibility.`,
+            `Special attention is given to battery efficiency, data accuracy, and responsiveness, as these factors are critical in wearable technology. Through continuous optimization, we ensure that the final product delivers a stable and seamless user experience across supported devices.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_7,
+          title: 'Deployment and Launch',
+          description: [
+            `After the application successfully passes all testing phases, we prepare it for deployment on the intended platforms. Our team manages the entire launch process, ensuring the application complies with platform requirements and operates smoothly in production environments.`,
+            `By carefully handling the deployment stage, we ensure that the application reaches users efficiently and begins delivering value from the moment it goes live.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      breakIndex: 5,
+      bgImg: bgImgBuildLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905919/adaired/services/wearables_app_development/wearablesAppDevBuildLinkImg_z8tpiu.png',
+      imgWidth: '785',
+      imgHight: '523',
+      headingParts: [
+        {
+          text: 'Plan Your Wearable',
+          color: '#FFFFFF',
+          weight: '400',
+        },
+        {
+          text: 'App Development',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      textColor: 'white',
+      width: 50,
+      paddingY: '2rem',
+      isFirstParaBold: true,
+      data: [
+        {
+          desctioption: `Turn Your Idea into a High-Performance Wearable Experience`,
+        },
+        {
+          desctioption: `Collaborate with a wearable app development company like us to build a wearable app that stands out in a competitive market and delivers real value to your users.`,
+        },
+      ],
+      button: 'Get Your Custom Quote',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      list: [
+        {
+          title: 'What is wearable app development?',
+          description: [
+            `Wearable app development is the process of creating applications specifically designed for devices such as smartwatches, fitness trackers, and smart glasses. These apps are optimized for small screens, real-time interactions, and seamless connectivity with smartphones and cloud systems.`,
+          ],
+        },
+        {
+          title: 'How long does it take to develop a wearable app?',
+          description: [
+            `The timeline depends on the complexity of the application, features, and supported devices. A basic wearable app may take a few weeks, while a more advanced solution with integrations and custom features can take several months.`,
+          ],
+        },
+        {
+          title: 'Which wearable platforms do you support?',
+          description: [
+            `We develop applications for major platforms, including Wear OS and watchOS, along with solutions for smart bands, fitness trackers, and smart glasses.`,
+          ],
+        },
+        {
+          title: 'How much does wearable app development cost?',
+          description: [
+            `The cost varies based on factors such as features, design complexity, platform selection, and integrations. Each project is unique, so we provide customized estimates based on your specific requirements.`,
+          ],
+        },
+        {
+          title: 'Can wearable apps work without a smartphone?',
+          description: [
+            `Some wearable applications can function independently, especially on devices with built-in connectivity. However, many apps are designed to sync with smartphones or cloud systems for enhanced functionality and data storage.`,
+          ],
+        },
+        {
+          title: 'Do you provide post-launch support and maintenance?',
+          description: [
+            `Yes, we offer continuous support, updates, and performance optimization to ensure your application remains secure, compatible, and up to date with evolving technologies.`,
+          ],
+        },
+        {
+          title: 'How do you ensure data security in wearable apps?',
+          description: [
+            `We implement strong security practices, including data encryption, secure APIs, and compliance with industry standards to protect user data and ensure safe communication between devices.`,
+          ],
+        },
+        {
+          title: 'Can you integrate wearable apps with IoT systems?',
+          description: [
+            `Yes, we specialize in integrating wearable applications with IoT ecosystems, enabling real-time data exchange, remote monitoring, and enhanced connectivity across devices and platforms.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '',
+      cardBg: '#FFF7ED',
+      cardBorderColor: '#FEDAAB',
+      isInCenter: false,
+      isVariant: '03',
+      button: '',
+      headingParts: [
+        {
+          text: 'Frameworks We Use for Cross-Platform App Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `We leverage modern, high-performance frameworks to build cross-platform apps that deliver native-like speed, functionality, and user experience.`,
+      ],
+      list: [
+        {
+          icon: crossPlatformWhatMissingIcon_1,
+          title: 'React Native',
+          description: [
+            `Build fast and scalable apps using a single codebase with a rich ecosystem and strong community support.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_2,
+          title: 'Flutter',
+          description: [
+            `Create visually stunning and highly responsive apps with customizable UI components and smooth performance.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_3,
+          title: 'Xamarin',
+          description: [
+            `Develop secure and robust applications with seamless integration into the Microsoft ecosystem.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_4,
+          title: 'Kotlin',
+          description: [
+            `Share business logic across platforms while maintaining native UI for enhanced performance and flexibility.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_5,
+          title: 'Ionic',
+          description: [
+            `Develop lightweight, cross-platform apps using web technologies like HTML, CSS, and JavaScript for rapid and cost-effective solutions.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_6,
+          title: 'PhoneGap / Apache Cordova',
+          description: [
+            `Package web applications into mobile apps with access to native device features, making it a practical choice for quick deployments.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: false,
+      isVariant: '01',
+      breakIndex: 5,
+      isInCenter: false,
+      bgColor: false,
+      bgGradient: 'bg-[#FFFFFF]',
+      cardColor2: '#FFF8F0',
+      cardColor: '#FBFBFB',
+      cardImgBgColor2: '#FFF2DF',
+      cardImgBgColor: '#F3F3F3',
+      borderColor2: '#FB9100',
+      borderColor: '#000000',
+      headingParts: [
+        {
+          text: 'Why Pick Adaired Digital to Manage Your Social Media Accounts?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        'At Adaired Digital Media, we’re more than just a social media service; we’re your strategic partner in growing your online presence.',
+        `Here’s why businesses trust us to manage their social media:`,
+      ],
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_1_tskaab.png',
+          name: 'Expertise & Experience',
+          description: [
+            `Our team consists of social media specialists, content creators, and strategists with proven experience across multiple industries. We understand platform trends, audience behavior, and what drives engagement and conversions.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_2_zgzuwo.png',
+          name: 'Custom Strategies for Your Brand',
+          description: [
+            `We don’t use one-size-fits-all solutions. Every brand gets a tailored social media plan based on its unique goals, audience, and market. Your content, campaigns, and engagement are designed specifically to meet your objectives.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_3_ku4940.png',
+          name: 'Data-Driven Approach',
+          description: [
+            `We measure everything. From engagement rates to conversions, we monitor metrics closely and optimize campaigns for maximum results. Decisions are guided by data, not guesswork.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_4_rlpksv.png',
+          name: 'Consistent Branding & Quality Content',
+          description: [
+            `We maintain your brand voice, aesthetics, and messaging across all platforms. Our content is scroll-stopping, engaging, and strategically designed to strengthen your identity online.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_5_hwiddr.png',
+          name: 'Community Engagement',
+          description: [
+            `We don’t just post content; we help you build meaningful connections. Through responsive community management and interactive content, we foster loyalty, trust, and long-term engagement.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_6_hqvkgf.png',
+          name: 'Transparent Reporting & Communication',
+          description: [
+            `You’ll always know how your social media is performing. We provide detailed reports, insights, and recommendations so you’re fully informed about your growth and ROI.`,
           ],
         },
       ],
