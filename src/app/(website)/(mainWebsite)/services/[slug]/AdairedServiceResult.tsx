@@ -35,13 +35,6 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                     isDecVarticle={!aiseoResult?.isInCenter && true}
                   />
                 </div>
-                {/* <div
-                  className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] lg:w-[55%]' : 'w-[0%]'}`}
-                >
-                  {aiseoResult?.description?.map((item: any) => {
-                    return <p className="my-3">{item}</p>;
-                  })}
-                </div> */}
               </div>
             </div>
 

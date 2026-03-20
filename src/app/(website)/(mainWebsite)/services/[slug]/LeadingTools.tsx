@@ -3,25 +3,11 @@ import React from 'react';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 
-// import client_1 from '../../../../../../public/assets/LeadingTools/Group 1000005353.png';
-// import client_2 from '../../../../../../public/assets/LeadingTools/Group 1000005354.png';
-// import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005355.png';
-// import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
-// import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
-
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const LeadingTools = ({ leadingTools }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
-  // const data = [
-  //   client_1,
-  //   client_2,
-  //   client_3,
-  //   client_4,
-  //   client_5,
-  // ];
-
   const row1 = leadingTools?.list?.slice(0, 10) || [];
   const row2 = leadingTools?.list?.slice(10, 20) || [];
   // const row3 = leadingTools?.list?.slice(20, 30) || [];

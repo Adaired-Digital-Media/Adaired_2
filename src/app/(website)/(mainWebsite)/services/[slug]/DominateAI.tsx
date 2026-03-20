@@ -1,9 +1,6 @@
 'use client';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import background from '../../../../../../public/assets/aiseo/DominateAI.png';
-// import { StaticImageData } from "next/image";
-import Image from 'next/image';
-import { MdOutlineArrowOutward } from 'react-icons/md';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import Heading from '@/app/(website)/common/Heading';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';

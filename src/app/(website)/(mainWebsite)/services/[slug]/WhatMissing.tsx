@@ -1,7 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import { MdOutlineArrowOutward } from 'react-icons/md';
-import { cards } from './Card';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
@@ -178,7 +176,7 @@ const WhatMissing = ({ whatMissing }: any) => {
                       alt="icons"
                       width={80}
                       height={80}
-                      className="object-contain h-[60px] w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px]"
+                      className="h-[60px] w-[60px] object-contain md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px]"
                     />
                   </div>
 

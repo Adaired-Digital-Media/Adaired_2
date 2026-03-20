@@ -8,10 +8,8 @@ import SocialMediaCheck from '../../../../../../public/assets/images/PPCimg/arro
 import { motion, AnimatePresence } from 'framer-motion';
 
 const OurProcess = ({ ourProcess }: any) => {
-  const { ref } = useInViewOnce<HTMLDivElement>(0);
-
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const [activeTab, setActiveTab] = useState(0);
-
   const scrollSections = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
@@ -36,14 +34,13 @@ const OurProcess = ({ ourProcess }: any) => {
     <section
       ref={ref}
       id="services"
-      // For making bg-gradiant fixed at one place
       className={`${ourProcess?.bgGradient || 'bg-[#f9f9f9]/80'} relative bg-fixed py-[3rem] lg:py-[4rem]`}
     >
       <MaxWidthWrapper>
         {/* ================= HEADING ================= */}
 
         <div className="sticky top-[5rem] z-20 mb-[3rem] lg:top-[10rem]">
-          <div className={`mx-auto w-full lg:w-[80%] `}>
+          <div className={`mx-auto w-full lg:w-[80%] transition-all duration-700 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <Heading
               isLabel={true}
               subTitle={'Our Process'}
@@ -59,7 +56,11 @@ const OurProcess = ({ ourProcess }: any) => {
           <div
             className={`grid grid-cols-1 gap-[4rem] lg:grid-cols-5 ${!ourProcess?.isInCenter && 'mt-[2rem]'}`}
           >
-            <div className="col-span-2 hidden h-fit items-center justify-center md:flex">
+            <div className={`col-span-2 hidden h-fit items-center justify-center md:flex transform transition-all delay-200 duration-1000 ${
+                  isVisible
+                    ? 'translate-x-0 opacity-100'
+                    : '-translate-x-16 opacity-0'
+                }`}>
               <div className="relative h-[520px] w-[520px]">
                 <svg width="520" height="520" viewBox="0 0 520 520">
                   {ourProcess.services.map((service: any, idx: number) => {
@@ -155,7 +156,11 @@ const OurProcess = ({ ourProcess }: any) => {
                 })}
               </div>
             </div>
-            <div className="col-span-3 my-auto flex h-fit w-full items-center justify-center">
+            <div className={`col-span-3 my-auto flex h-fit w-full items-center justify-center transform transition-all delay-200 duration-1000 ${
+                  isVisible
+                    ? 'translate-x-0 opacity-100'
+                    : 'translate-x-16 opacity-0'
+                }`}>
               <AnimatePresence mode="wait">
                 <motion.div
                   key={activeTab}

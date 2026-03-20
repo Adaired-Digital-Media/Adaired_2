@@ -3,10 +3,12 @@ import Heading from '@/app/(website)/common/Heading';
 import Image from 'next/image';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import SocialMediaCheck from '../../../../../../public/assets/images/service/SocialMediaCheck.png';
+import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 import { Button } from '@headlessui/react';
 
 const SeoPackages = ({ seopackages }: any) => {
+    const [open, setOpen] = useState(false);
 
     const [activeIndex, setActiveIndex] = useState(
         seopackages?.cardLength === 3 ? 1 : null
@@ -90,10 +92,8 @@ const SeoPackages = ({ seopackages }: any) => {
                                         />
                                     </div> */}
 
-
-
-
                                     <Button
+                                        onClick={() => setOpen(true)}
                                         className={`group mt-[2rem] px-[2rem] bg-black group-hover:bg-[#FB9100] text-white flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] py-[0.75rem] font-montserrat text-xxs font-medium transition-all duration-300 ease-out active:scale-95 xl:text-xs 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px]`}
                                     >
                                         {item?.button}
@@ -106,6 +106,7 @@ const SeoPackages = ({ seopackages }: any) => {
                             ))}
                         </div>
                     </div>
+                    <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
                 </MaxWidthWrapper>
             </div>
         </>

@@ -9,8 +9,6 @@ import { IoIosArrowRoundForward } from 'react-icons/io';
 const IndustriesWeServe = ({ industriesWeServe }: any) => {
     const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
     const [isHover, setIsHover] = useState<number | null>(null);
-
-
     return (
         <div
             ref={ref}

@@ -21,6 +21,7 @@ const Banner = ({ banner }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const images = ['img1', 'img2', 'img3', 'img4'] as const;
   const [activeIndex, setActiveIndex] = useState(0);
+  const [pt, pb] = (banner?.customPadding || '6rem,6rem').split(',');
 
   const [open, setOpen] = useState(false);
 
@@ -39,6 +40,11 @@ const Banner = ({ banner }: any) => {
 
   const isActive = (name: (typeof images)[number]) =>
     images[activeIndex] === name;
+
+  console.log(
+    banner?.customPadding?.split(',')[1],
+    "banner?.customPadding?.split(',')[0]"
+  );
   return (
     <div
       ref={ref}
@@ -51,7 +57,11 @@ const Banner = ({ banner }: any) => {
         priority
         className="pointer-events-none object-fill lg:object-fill"
       />
-      <MaxWidthWrapper className="" isGap={banner?.isGap}>
+      <MaxWidthWrapper
+        className=""
+        customPaddingRight={banner?.customPaddingRight}
+        customPaddingLeft={banner?.customPaddingLeft}
+      >
         {banner?.isCenter ? (
           <div className="relative z-10 block justify-center pb-[6rem] pt-[9rem] lg:flex">
             <div
@@ -91,7 +101,8 @@ const Banner = ({ banner }: any) => {
                 <SaveAndCancel
                   name={banner?.button}
                   isIcon={true}
-                  handleClick={() => router.push('/contact')}
+                  // handleClick={() => router.push('/contact')}
+                  handleClick={() => setOpen(!open)}
                   className="w-[18rem] lg:w-[18rem]"
                 />
               </div>
@@ -242,11 +253,18 @@ const Banner = ({ banner }: any) => {
             )}
             {banner?.code === '02' && (
               <div
-                className={`relative z-10 block justify-between gap-[3rem] ${banner?.isAbsolute ? 'pt-[6rem]' : 'py-[6rem]'} lg:flex`}
-                style={{ gap: banner?.customGap || '4rem' }}
+                className={`relative z-10 block justify-between gap-[3rem] lg:flex`}
+                style={{
+                  gap: banner?.customGap || '4rem',
+                  paddingTop: banner?.customPadding?.split(',')[0] || '6rem',
+                  paddingBottom: banner?.customPadding?.split(',')[1] || '6rem',
+                }}
               >
                 <div
-                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[${`${banner?.width}%` || '50%'}] ${banner?.isAbsolute && 'pb-[0rem] lg:pb-[6rem]'} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[50%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+                  style={{
+                    paddingBottom: banner?.customPadding?.split(',')[0],
+                  }}
                 >
                   <div
                     className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}
@@ -373,11 +391,11 @@ const Banner = ({ banner }: any) => {
                   </div>
                 </div>
                 <div
-                  className={`ml-auto w-fit pt-[4rem] transition-all delay-200 duration-1000 lg:h-[var(--img-h)] ${
+                  className={`ml-auto w-full lg:w-[${`${100 - banner?.width}%` || '50%'}] pt-[4rem] transition-all delay-200 duration-1000 lg:h-[var(--img-h)] ${
                     isVisible
                       ? 'translate-x-0 opacity-100'
                       : 'translate-x-16 opacity-0'
-                  } ${banner?.isAbsolute ? 'ml-auto' : 'my-auto'} lg:w-[${`${100 - banner?.width}%` || '50%'}] lg:pt-0`}
+                  } lg:pt-0`}
                   style={
                     {
                       '--img-w': banner?.imgWidth,
@@ -409,6 +427,7 @@ const Banner = ({ banner }: any) => {
             <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
           </div>
         )}
+        <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
       </MaxWidthWrapper>
     </div>
   );

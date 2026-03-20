@@ -24,7 +24,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
         >
           <MaxWidthWrapper>
             <div
-              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-12 opacity-0'} `}
             >
               <Heading
                 isDecVarticle

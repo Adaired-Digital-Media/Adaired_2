@@ -523,6 +523,7 @@ export const ServiceSectionData = {
       title: 'Search Engine Optimization',
       description:
         'We improve your website’s visibility on search engines by combining in-depth keyword research, strategic on-page optimization, technical SEO enhancements, and continuous performance tracking. Our approach is focused on attracting high-intent, qualified traffic that converts into real customers.',
+      link: '/services/search-engine-optimization',
       list: [
         {
           icon: SEO_1,
@@ -530,7 +531,7 @@ export const ServiceSectionData = {
           label: 'SEO',
           title: 'SEO',
           description: `We provide Search Engine Optimization services that are aimed at increasing the presence online and driving meaningful engagement. We combine smart keyword targeting, technical optimization, and credible content to make your business achieve consistent rankings and sustainable organic growth.`,
-          link: '/services/seo-company-india',
+          link: '/services/search-engine-optimization',
         },
         {
           icon: SEO_2,
@@ -546,19 +547,18 @@ export const ServiceSectionData = {
           label: 'eCommerce SEO',
           title: 'eCommerce SEO',
           description: `Our eCommerce SEO solutions focus on scaling organic growth for online stores of all sizes. We combine product-level keyword research, structured data, site architecture optimization, and performance SEO to improve rankings, attract purchase-ready shoppers, and maximize lifetime value.`,
-          link: '/services/ecommerce-seo-agency-india',
+          link: '/services/ecommerce-seo-agency',
         },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
       img: SEO,
       accentColor: '#f89520',
-      link: '/services/seo-company-india',
     },
     {
       title: 'AI SEO',
       description:
         'We empower your brand by optimizing content, structure, and entity signals so large language models can accurately understand, trust, and recommend your business. From AI-driven search results to conversational interfaces, we ensure visibility beyond traditional search engines and capture emerging traffic opportunities.',
-      link: '/services/ai-seo-india',
+      link: '/services/ai-seo-agency',
       list: [
         {
           icon: WhiteLabelSEO,
@@ -566,7 +566,7 @@ export const ServiceSectionData = {
           label: 'AI SEO',
           title: 'AI SEO',
           description: `We leverage AI-powered SEO to help businesses stay ahead in an evolving search landscape. Our approach uses intelligent automation, predictive insights, and intent-based optimization to enhance visibility, streamline SEO execution, and deliver measurable growth, without relying on guesswork.`,
-          link: '/services/ai-seo-india',
+          link: '/services/ai-seo-agency',
         },
         {
           icon: WhiteLabelSocialMedia,
@@ -574,7 +574,7 @@ export const ServiceSectionData = {
           label: 'LLM SEO/LLMO',
           title: 'LLM SEO/LLMO',
           description: `Adaired’s LLM SEO services enable agencies to offer next-generation search optimization under their own brand. We handle the strategy and execution needed to optimize client content for AI-driven search and generative models, while you maintain full ownership of client relationships and reporting.`,
-          link: '/services/llm-seo-india',
+          link: '/services/llm-seo-agency',
         },
         {
           icon: WhiteLabelFacebookAds,
@@ -582,7 +582,7 @@ export const ServiceSectionData = {
           label: 'GEO',
           title: 'GEO',
           description: `We help businesses adapt to the shift from search results to AI-generated answers. Our GEO approach focuses on content clarity, semantic depth, and authority signals that generative engines rely on, ensuring your brand remains visible, accurate, and competitive in AI-powered discovery.`,
-          link: '/services/generative-engine-optimization-india',
+          link: '/services/generative-engine-optimization',
         },
         {
           icon: LinkBuilding,
@@ -590,7 +590,7 @@ export const ServiceSectionData = {
           label: 'AEO',
           title: 'AEO',
           description: `We structure and optimize content so search engines and AI systems can easily extract, understand, and present your brand as the best answer. Through question-focused optimization, schema markup, and intent alignment, we help businesses capture high-value answer placements beyond traditional rankings.`,
-          link: '/services/answer-engine-optimization-india',
+          link: '/services/answer-engine-optimization',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
@@ -601,7 +601,7 @@ export const ServiceSectionData = {
       title: 'Local SEO',
       description:
         'We help your business dominate local search results by optimizing your Google Business Profile, targeting location-specific keywords, managing citations, and building a strong review profile. We improve your presence, increase local visibility, and drive consistent calls, visits, and inquiries from nearby customers.',
-      link: '/services/local-seo-company-india',
+      link: '/services/local-seo-company',
       list: [
         {
           icon: GBPManagement,
@@ -609,7 +609,7 @@ export const ServiceSectionData = {
           label: 'GBP Only',
           title: 'GBP Only',
           description: `We help businesses dominate local search through a strategic mix of Google Business Profile optimization, localized content, review management, and technical SEO. Our local-first approach drives higher map visibility, increased foot traffic, and more qualified calls and inquiries from nearby customers.`,
-          link: '/services/gmb-optimization-india',
+          link: '/services/google-my-business-optimization',
         },
         {
           icon: GBPSetup,
@@ -618,7 +618,7 @@ export const ServiceSectionData = {
           title: 'GBP + Website',
           description: `We build and maintain consistent business citations across relevant local, industry, and geo-specific directories. By standardizing business information and eliminating inconsistencies, we help search engines verify legitimacy, improve map pack visibility, and drive more qualified local traffic.
 `,
-          link: '/services/gmb-website-seo-india',
+          link: '/services/gmb-website-seo',
         },
         // {
         //   icon: FakeGBPReporting,
@@ -652,7 +652,7 @@ export const ServiceSectionData = {
           label: 'High Authority Link Building',
           title: 'High Authority Link Building',
           description: `We acquire backlinks from authoritative, high-trust websites that enhance your site’s credibility and competitive strength. By focusing on relevance, domain quality, and natural placement, our high-authority links help improve rankings for competitive keywords and support sustainable SEO performance`,
-          link: '/services/link-building-agency-india',
+          link: '/services/link-building-agency',
         },
         {
           icon: Link_Building_Icon_2,
@@ -660,7 +660,7 @@ export const ServiceSectionData = {
           label: 'Guest Posts',
           title: 'Guest Posts',
           description: `Our guest posting services secure contextual backlinks through high-quality content placements on relevant industry websites. We handle prospecting, outreach, content creation, and placement to ensure each guest post delivers SEO value, referral traffic, and brand visibility.`,
-          link: '/services/link-building-agency-india',
+          link: '/services/link-building-agency',
         },
         {
           icon: Link_Building_Icon_3,
@@ -668,7 +668,7 @@ export const ServiceSectionData = {
           label: 'Niche Edits',
           title: 'Niche Edits',
           description: `We place strategic backlinks within existing, aged content on authoritative and niche-relevant websites. These contextual link insertions offer significant SEO value, enhance keyword rankings, and provide a faster impact compared to newly published links.`,
-          link: '/services/link-building-agency-india',
+          link: '/services/link-building-agency',
         },
         {
           icon: Link_Building_Icon_4,
@@ -676,19 +676,19 @@ export const ServiceSectionData = {
           label: 'Press Releases',
           title: 'Press Releases',
           description: `Our press release link-building services help amplify brand exposure while earning authoritative backlinks from news and media distribution networks. We craft optimized press content that supports SEO, improves brand credibility, and strengthens your backlink profile through trusted publications.`,
-          link: '/services/link-building-agency-india',
+          link: '/services/link-building-agency',
         },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
       img: Link_Building,
       accentColor: '#f89520',
-      link: '/services/link-building-agency-india',
+      link: '/services/link-building-agency',
     },
     {
       title: 'Pay Per Click',
       description:
         'We create and manage high-performing paid advertising campaigns across platforms like Google, Meta, LinkedIn, and TikTok. Our data-driven approach ensures your ads reach the right audience at the right time, maximizing clicks, conversions, and return on ad spend.',
-      link: '/services/ppc-management-company-india',
+      link: '/services/ppc-management-company',
       list: [
         {
           icon: GoogleAds,
@@ -696,7 +696,7 @@ export const ServiceSectionData = {
           label: 'Google Ads',
           title: 'Google Ads',
           description: `Maximize your online visibility and drive targeted traffic with our Google Ads management. We create, optimize, and monitor high-performing campaigns to increase leads, boost sales, and improve ROI. Our expert approach ensures your ads reach the right audience at the right time for measurable business growth.`,
-          link: '/services/ppc-management-company-india',
+          link: '/services/google-ads-management-company',
         },
         {
           icon: TikTokAds,
@@ -704,7 +704,8 @@ export const ServiceSectionData = {
           label: 'Meta Ads (Fb/Insta)',
           title: 'Meta Ads (Fb/Insta)',
           description: `Grow your brand with targeted Meta Ads on Facebook and Instagram. We design, manage, and optimize campaigns that reach the right audience, boost engagement, and drive conversions. Our data-driven strategies maximize ROI, increase visibility, and help your business connect with customers where they spend the most time online.`,
-          link: '/services/ppc-management-company-india',
+          link: '/services/ppc-management-company',
+          // link: '/services/meta-ads-agency',
         },
         {
           icon: LinkedInAds,
@@ -712,7 +713,8 @@ export const ServiceSectionData = {
           label: 'LinkedIn Ads',
           title: 'LinkedIn Ads',
           description: `Reach the right professionals with targeted LinkedIn Ads. We create, manage, and optimize campaigns to generate leads, increase brand authority, and drive B2B growth. Our strategic approach ensures your ads engage decision-makers, maximize ROI, and strengthen your professional presence on the world’s leading business network.`,
-          link: '/services/ppc-management-company-india',
+          link: '/services/ppc-management-company',
+          // link: '/services/linkedIn-marketing-agency',
         },
         {
           icon: Insta_Ads,
@@ -720,7 +722,8 @@ export const ServiceSectionData = {
           label: 'TikTok Ads',
           title: 'TikTok Ads',
           description: `Capture attention and drive results with TikTok Ads. We create, manage, and optimize engaging campaigns that reach your target audience, boost brand awareness, and increase conversions. Our creative, data-driven approach ensures your content goes viral, maximizes ROI, and connects your business with a younger, trend-focused audience.`,
-          link: '/services/ppc-management-company-india',
+          link: '/services/ppc-management-company',
+          // link: '/services/tiktok-ads-agency',
         },
       ],
       mainSvg: 'Pay Per Click_pdGDn',
@@ -731,7 +734,7 @@ export const ServiceSectionData = {
       title: 'Social Media Management',
       description:
         'We help your brand grow and stay relevant across leading social media platforms through consistent, high-quality content and strategic planning. From post creation and reels to full content calendars and creative design, we increase your follower base while turning your audience into loyal customers.',
-      link: '/services/social-media-management-india',
+      link: '/services/social-media-management',
       list: [
         {
           icon: SMM_Icon_1,
@@ -739,7 +742,7 @@ export const ServiceSectionData = {
           label: 'Post Creation',
           title: 'Post Creation',
           description: `We create high-quality, platform-optimized social media posts designed to engage your audience and reinforce your brand identity. From captions and hashtags to visuals and formatting, our posts are crafted to boost reach, encourage interaction, and maintain a consistent brand presence across channels.`,
-          link: '/services/strategic-social-media-management',
+          link: '/services/social-media-management',
         },
         {
           icon: SMM_Icon_2,
@@ -747,7 +750,7 @@ export const ServiceSectionData = {
           label: 'Content Calendar',
           title: 'Content Calendar',
           description: `Our content calendar planning ensures your social media stays consistent, strategic, and aligned with your business goals. We map out content themes, posting schedules, and campaign timelines in advance, helping you stay organized, relevant, and visible without last-minute effort.`,
-          link: '/services/social-media-marketing',
+          link: '/services/social-media-management',
         },
         {
           icon: LinkedInAds,
@@ -755,7 +758,7 @@ export const ServiceSectionData = {
           label: 'Reel Editing',
           title: 'Reel Editing',
           description: `We produce engaging short-form video content tailored for platforms like Instagram Reels, Facebook Reels, and YouTube Shorts. Our reel editing focuses on storytelling, trends, transitions, and pacing to maximize watch time, engagement, and organic reach.`,
-          link: '/services/ppc-management-company-india',
+          link: '/services/social-media-management',
         },
         {
           icon: Insta_Ads,
@@ -763,7 +766,7 @@ export const ServiceSectionData = {
           label: 'Creatives',
           title: 'Creatives',
           description: `Our social media creatives are designed to capture attention and stop the scroll. We develop eye-catching graphics, visuals, and branded assets that align with your messaging, enhance engagement, and strengthen your overall social media presence.`,
-          link: '/services/ppc-management-company-india',
+          link: '/services/social-media-management',
         },
       ],
       mainSvg: 'Pay Per Click_pdGDn',
@@ -782,7 +785,7 @@ export const ServiceSectionData = {
           label: 'WordPress Development',
           title: 'WordPress Development',
           description: `Build a powerful, professional website with our WordPress Development services. We design, develop, and customize responsive sites tailored to your brand, ensuring fast performance, SEO optimization, and user-friendly navigation. From blogs to e-commerce, we deliver secure, scalable solutions that help your business grow online effectively.`,
-          link: '/services/wordpress-development-company-india',
+          link: '/services/wordpress-development-company',
         },
         {
           icon: shoppyfy,
@@ -790,7 +793,7 @@ export const ServiceSectionData = {
           label: 'Shopify Development',
           title: 'Shopify Development',
           description: `Launch and grow your online store with our Shopify Development services. We design, build, and customize responsive, secure, and user-friendly e-commerce websites. From product management to payment integration, our solutions drive sales, enhance customer experience, and help your business succeed in the competitive world of online retail.`,
-          link: '/services/shopify-development-company-india',
+          link: '/services/shopify-development-company',
         },
         {
           icon: amazon,
@@ -798,7 +801,7 @@ export const ServiceSectionData = {
           label: 'eCommerce Development',
           title: 'eCommerce Development',
           description: `Transform your online business with our eCommerce Web Development services. We create responsive, secure, and user-friendly websites tailored to your brand, optimized for performance and conversions. From product catalogs to payment gateways, our solutions drive sales, enhance customer experience, and help your business thrive in the digital marketplace.`,
-          link: '/services/ecommerce-development-company-india',
+          link: '/services/ecommerce-development-company',
         },
         {
           icon: html,
@@ -815,7 +818,7 @@ export const ServiceSectionData = {
     },
     {
       title: 'Mobile App Development',
-      link: '/services/mobile-apps-development-india',
+      link: '/services/mobile-app-development-company',
       description:
         'We create powerful, user-centric mobile applications for iOS, Android, and cross-platform environments. From concept and UI/UX design to development and deployment, our team ensures your app delivers seamless performance and engaging user experiences.',
       list: [
@@ -825,7 +828,7 @@ export const ServiceSectionData = {
           label: 'iOS Development',
           title: 'iOS Development',
           description: `We specialize in iOS App Development, creating seamless, high-performing apps for iPhone and iPad. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver quality apps while retaining full client ownership.`,
-          link: '/services/ios-app-development-agency-india',
+          link: '/services/ios-app-development-company',
         },
         {
           icon: app_2,
@@ -833,7 +836,7 @@ export const ServiceSectionData = {
           label: 'Android App Development',
           title: 'Android App Development',
           description: `At Adaired, we specialize in Android App Development, building high-performing, user-friendly apps for all Android devices. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver apps while retaining full client ownership.`,
-          link: '/services/android-app-development-company-india',
+          link: '/services/android-app-development-company',
         },
         {
           icon: app_3,
@@ -841,7 +844,7 @@ export const ServiceSectionData = {
           label: 'Cross-Platform',
           title: 'Cross-Platform',
           description: `At Adaired, we specialize in Cross-Platform App Development, creating apps that work flawlessly on both iOS and Android. From design and coding to testing and deployment, we handle the technical work under your brand, helping you deliver quality apps and scale your business effortlessly.`,
-          link: '/services/cross-platform-app-development-india',
+          link: '/services/cross-platform-app-development',
         },
         {
           icon: app_4,
@@ -849,7 +852,7 @@ export const ServiceSectionData = {
           label: 'Wearables',
           title: 'Wearables',
           description: `We specialize in Wearable App Development at Adaired, creating apps for smartwatches, fitness trackers, and other wearable devices. From design to development and integration, we deliver seamless, high-performing apps under your brand, helping you enhance user engagement, provide real-time data, and expand your digital offerings effortlessly.`,
-          link: '/services/wearables-app-development-india',
+          link: '/services/wearables-app-development',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',

@@ -14,32 +14,19 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
     >
       <MaxWidthWrapper>
         <div
-          // className={`flex items-center justify-between flex-col lg:flex-row transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
             headingParts={benefitofAiSeo?.headingParts}
             breakIndex={benefitofAiSeo?.breakIndex}
             isDecVarticle={!benefitofAiSeo?.isInCenter}
-            isInCenter = {benefitofAiSeo?.isInCenter}
+            isInCenter={benefitofAiSeo?.isInCenter}
             description={benefitofAiSeo?.description}
             className=""
           />
-          {/* <div className="">
-            {benefitofAiSeo?.description?.map((item: any, idx: number) => {
-              return (
-                <p key={idx} className="py-2">
-                  {item}
-                </p>
-              );
-            })}
-          </div> */}
         </div>
-        
       </MaxWidthWrapper>
-      <CustomSlider
-      data={benefitofAiSeo?.list} 
-      colors={benefitofAiSeo}
-       />
+      <CustomSlider data={benefitofAiSeo?.list} colors={benefitofAiSeo} />
     </div>
   );
 };

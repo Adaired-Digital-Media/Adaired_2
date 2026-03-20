@@ -3,8 +3,6 @@ import Heading from '@/app/(website)/common/Heading';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React, { useState } from 'react';
-import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
-import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';

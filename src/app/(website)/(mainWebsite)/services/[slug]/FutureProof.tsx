@@ -3,10 +3,8 @@ import React, { useState } from 'react';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import Future_Proof_Card from '../../../../../../public/assets/linkBuilding/blueCardBg.png';
 import Image from 'next/image';
-import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
 const FutureProof = ({handleClick}:any) => {
-//test
   return (
     <div className="relative min-h-[450px] rounded-2xl transition-all duration-700 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300">
       <Image

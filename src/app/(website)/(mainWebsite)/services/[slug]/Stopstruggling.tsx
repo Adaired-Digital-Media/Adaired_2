@@ -3,8 +3,6 @@ import Heading from '@/app/(website)/common/Heading';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React, { useState } from 'react';
-import NotSeeingResultsBg from '../../../../../../public/assets/aiseo/stop-struggle.png';
-import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
@@ -32,9 +30,6 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             </h2>
 
             {stopStruggling?.span ? (
-              // <h1 className="mx-auto w-[100%] text-center text-[#FFFFFF]">
-              //   {stopStruggling?.title}
-              // </h1>
               <Heading
                 isH1={true}
                 headingParts={stopStruggling?.headingParts}
@@ -42,9 +37,6 @@ const Stopstruggling = ({ stopStruggling }: any) => {
                 isInCenter={stopStruggling?.isInCenter}
               />
             ) : (
-              // <h2 className="mx-auto w-[100%] pb-4 text-center text-[#FFFFFF]">
-              //   {stopStruggling?.title}
-              // </h2>
               <Heading
                 headingParts={stopStruggling?.headingParts}
                 textColor={stopStruggling?.textColor}
@@ -81,9 +73,6 @@ const Stopstruggling = ({ stopStruggling }: any) => {
               }`}
           >
             <div>
-              {/* <h2 className="font-semibold text-white">
-                {stopStruggling?.title}
-              </h2> */}
               <Heading
                 headingParts={stopStruggling?.headingParts}
                 textColor={stopStruggling?.textColor}

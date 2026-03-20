@@ -139,7 +139,7 @@ export const routes: {
         {
           icon: icon_5,
           name: 'Search Engine Optimization',
-          href: '/services/seo-company-india',
+          href: '/services/search-engine-optimization',
           subItems: [
             // {
             //   name: 'SEO',
@@ -151,14 +151,14 @@ export const routes: {
             },
             {
               name: 'ECommerce SEO',
-              href: '/services/ecommerce-seo-agency-india',
+              href: '/services/ecommerce-seo-agency',
             },
           ],
         },
         {
           icon: icon_8,
           name: 'AI SEO',
-          href: '/services/ai-seo-india',
+          href: '/services/ai-seo-agency',
           subItems: [
             // {
             //   name: 'AI SEO',
@@ -166,37 +166,37 @@ export const routes: {
             // },
             {
               name: 'LMM SEO/LLMO',
-              href: '/services/llm-seo-india',
+              href: '/services/llm-seo-agency',
             },
             {
               name: 'GEO',
-              href: '/services/generative-engine-optimization-india',
+              href: '/services/generative-engine-optimization',
             },
             {
               name: 'AEO',
-              href: '/services/answer-engine-optimization-india',
+              href: '/services/answer-engine-optimization',
             },
           ],
         },
         {
           icon: icon_6,
           name: 'Local SEO',
-          href: '/services/local-seo-company-india',
+          href: '/services/local-seo-company',
           subItems: [
             {
               name: 'GBP Only',
-              href: '/services/gmb-optimization-india',
+              href: '/services/google-my-business-optimization',
             },
             {
               name: 'GBP + Website',
-              href: '/services/gmb-website-seo-india',
+              href: '/services/gmb-website-seo',
             },
           ],
         },
         {
           icon: icon_2,
           name: 'Link Building',
-          href: '/services/link-building-agency-india',
+          href: '/services/link-building-agency',
           subItems: [
             {
               name: 'High Authority Link Building',
@@ -219,30 +219,33 @@ export const routes: {
         {
           icon: icon_9,
           name: 'Pay Per Click',
-          href: '/services/ppc-management-company-india',
+          href: '/services/ppc-management-company',
           subItems: [
             {
               name: 'Google Ads',
-              href: '#',
+              href: '/services/google-ads-management-company',
             },
             {
               name: 'Meta Ads',
               href: '#',
+              // href: '/services/meta-ads-agency',
             },
             {
               name: 'Linkedin Ads',
               href: '#',
+              // href: '/services/linkedIn-marketing-agency',
             },
             {
               name: 'TikTok Ads',
               href: '#',
+              // href: '/services/tiktok-ads-agency',
             },
           ],
         },
         {
           icon: icon_3,
           name: 'Social Media Management',
-          href: '/services/social-media-management-india',
+          href: '/services/social-media-management',
           subItems: [
             {
               name: 'Port Creation',
@@ -269,15 +272,15 @@ export const routes: {
           subItems: [
             {
               name: 'Wordpress Development',
-              href: '/services/wordpress-development-company-india',
+              href: '/services/wordpress-development-company',
             },
             {
               name: 'Shopify Development',
-              href: '/services/shopify-development-company-india',
+              href: '/services/shopify-development-company',
             },
             {
               name: 'ECommerce Development',
-              href: '/services/ecommerce-development-company-india',
+              href: '/services/ecommerce-development-company',
             },
             {
               name: 'Custom Web Development',
@@ -288,23 +291,23 @@ export const routes: {
         {
           icon: icon_10,
           name: 'Mobile App Development',
-          href: '/services/mobile-apps-development-india',
+          href: '/services/mobile-app-development-company',
           subItems: [
             {
               name: 'IOS Development',
-              href: '/services/ios-app-development-agency-india',
+              href: '/services/ios-app-development-company',
             },
             {
               name: 'Android Development',
-              href: '/services/android-app-development-company-india',
+              href: '/services/android-app-development-company',
             },
             {
               name: 'Cross-Platform',
-              href: '/services/cross-platform-app-development-india',
+              href: '/services/cross-platform-app-development',
             },
             {
               name: 'Wearables',
-              href: '/services/wearables-app-development-india',
+              href: '/services/wearables-app-development',
             },
           ],
         },
