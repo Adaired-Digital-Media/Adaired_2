@@ -3,28 +3,36 @@ import React from 'react';
 
 const MaxWidthWrapper: React.FC<{
   className?: string;
-  isGap?: boolean;
+  customPaddingRight?: number;
+  customPaddingLeft?: number;
   isRowReverse?: boolean;
   children: React.ReactNode;
-  style?:any
-}> = ({ className, isGap, isRowReverse, children, style }) => {
+  style?: any;
+}> = ({
+  className,
+  customPaddingRight,
+  customPaddingLeft,
+  isRowReverse,
+  children,
+  style,
+}) => {
+  const getPadding = (value?: number) =>
+    value !== undefined ? `${value}%` : '8.5%';
+
   return (
     <section
-      // className={cn(
-      //   'mx-auto box-border w-[90%] md:w-[80%] lg:w-[90%] xl:w-[83%]',
-      //   className
-      // )}
-      className={cn(
-        `mx-auto box-border ${
-          isGap
-            ? isRowReverse
-              ? 'pr-[4%] lg:pr-[8.5%]'
-              : 'pl-[4%] lg:pl-[8.5%]'
-            : 'lg:px-[8.5%]'
-        }`,
-        className
-      )}
-      style={style}
+      className={cn('mx-auto box-border', className)}
+      style={{
+        paddingRight: isRowReverse
+          ? getPadding(customPaddingLeft)
+          : getPadding(customPaddingRight),
+
+        paddingLeft: isRowReverse
+          ? getPadding(customPaddingRight)
+          : getPadding(customPaddingLeft),
+
+        ...style,
+      }}
     >
       {children}
     </section>
