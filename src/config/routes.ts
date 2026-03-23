@@ -227,8 +227,7 @@ export const routes: {
             },
             {
               name: 'Meta Ads',
-              href: '#',
-              // href: '/services/meta-ads-agency',
+              href: '/services/meta-ads-agency',
             },
             {
               name: 'Linkedin Ads',

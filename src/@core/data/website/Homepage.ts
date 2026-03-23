@@ -704,8 +704,8 @@ export const ServiceSectionData = {
           label: 'Meta Ads (Fb/Insta)',
           title: 'Meta Ads (Fb/Insta)',
           description: `Grow your brand with targeted Meta Ads on Facebook and Instagram. We design, manage, and optimize campaigns that reach the right audience, boost engagement, and drive conversions. Our data-driven strategies maximize ROI, increase visibility, and help your business connect with customers where they spend the most time online.`,
-          link: '/services/ppc-management-company',
-          // link: '/services/meta-ads-agency',
+          // link: '/services/ppc-management-company',
+          link: '/services/meta-ads-agency',
         },
         {
           icon: LinkedInAds,
