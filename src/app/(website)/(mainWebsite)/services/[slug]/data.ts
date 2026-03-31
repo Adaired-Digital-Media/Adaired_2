@@ -758,7 +758,7 @@ export const SERVICES_DATA = {
       'readyToStart',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
       alternates: {
@@ -1636,7 +1636,7 @@ export const SERVICES_DATA = {
       'readyToStart',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'AI SEO Comapany India | Best AI SEO Services',
+      title: 'AI SEO Company India | Best AI SEO Services',
       description:
         'LLM-driven AI SEO services in India for ChatGPT, Gemini and Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
       alternates: {
@@ -2396,7 +2396,7 @@ export const SERVICES_DATA = {
       'readyToStart',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -3851,7 +3851,7 @@ export const SERVICES_DATA = {
       'readyToStart',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -4726,7 +4726,7 @@ export const SERVICES_DATA = {
       'readyToStart',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -5356,7 +5356,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -6115,7 +6115,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -6921,7 +6921,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -7732,7 +7732,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -8600,7 +8600,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -9257,7 +9257,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -10027,7 +10027,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -10768,7 +10768,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -11469,7 +11469,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -12511,7 +12511,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -13325,7 +13325,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -14098,7 +14098,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -14764,7 +14764,7 @@ export const SERVICES_DATA = {
       'seopackages',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
       alternates: {
@@ -15375,7 +15375,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -16024,7 +16024,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -16818,7 +16818,7 @@ export const SERVICES_DATA = {
       'seopackages',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
       alternates: {
@@ -17555,7 +17555,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -18373,7 +18373,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -19464,7 +19464,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -20138,7 +20138,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -20681,7 +20681,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -21225,7 +21225,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -21833,7 +21833,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -23143,7 +23143,7 @@ export const SERVICES_DATA = {
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'SEO Company India | ROI Driven SEO Services | SEO India',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
